@@ -1,0 +1,20 @@
+﻿capital = 671 #Hanoi
+
+#oob = "VIN_1936"
+
+set_research_slots = 3
+
+recruit_character = VIN_le_kha_phieu
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 5
+	fascism = 0
+	communism = 90
+	neutrality = 5
+}

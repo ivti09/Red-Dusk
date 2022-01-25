@@ -1,0 +1,11 @@
+units = {
+	fleet = {
+		name = "Test Navy"
+		naval_base = 3151
+		task_force = {
+			name = "Test Submarines"
+			location = 3151
+			ship = { name = "K-1" definition = submarine equipment = { attack_submarine_hull_1 { amount = 1 owner = SOV version_name = "Test Class" } } }
+		}
+	}
+}

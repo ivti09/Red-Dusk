@@ -1,0 +1,211 @@
+spriteTypes = {	
+
+	## Submarine Hulls ##
+
+	SpriteType = {
+		name = "GFX_attack_submarine_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/attack_submarine_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_attack_submarine_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/attack_submarine_hull_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_attack_submarine_hull_1990_medium"
+		texturefile = "gfx/interface/technologies/attack_submarine_hull_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_attack_submarine_hull_2000_medium"
+		texturefile = "gfx/interface/technologies/attack_submarine_hull_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_attack_submarine_hull_2010_medium"
+		texturefile = "gfx/interface/technologies/attack_submarine_hull_2010.dds"
+	}
+	SpriteType = {
+		name = "GFX_attack_submarine_hull_2020_medium"
+		texturefile = "gfx/interface/technologies/attack_submarine_hull_2020.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cruise_submarine_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/cruise_submarine_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_cruise_submarine_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/cruise_submarine_hull_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_cruise_submarine_hull_2000_medium"
+		texturefile = "gfx/interface/technologies/cruise_submarine_hull_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_cruise_submarine_hull_2020_medium"
+		texturefile = "gfx/interface/technologies/cruise_submarine_hull_2020.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ballistic_submarine_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/ballistic_submarine_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_ballistic_submarine_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/ballistic_submarine_hull_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_ballistic_submarine_hull_2000_medium"
+		texturefile = "gfx/interface/technologies/ballistic_submarine_hull_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_ballistic_submarine_hull_2020_medium"
+		texturefile = "gfx/interface/technologies/ballistic_submarine_hull_2020.dds"
+	}
+
+	## MTG Designer Modules ##
+
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_diesel"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_diesel_1"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_diesel_2"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_diesel_3"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_diesel_4"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_diesel_5"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_diesel_6"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_nuclear"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_nuclear.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_nuclear_1"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_nuclear_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_nuclear_2"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_nuclear_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_nuclear_3"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_nuclear_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_nuclear_4"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_nuclear_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_nuclear_5"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_nuclear_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_engine_nuclear_6"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_nuclear_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SMI_sub_sonar"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sonar_icn.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_sonar_1"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sonar_icn_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_sonar_2"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sonar_icn_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_sonar_3"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sonar_icn_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_sonar_4"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sonar_icn_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_sonar_5"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sonar_icn_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_sonar_6"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sonar_icn_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SMI_sub_electrical_systems"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/systems_icn.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_electrical_systems_1"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/systems_icn_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_electrical_systems_2"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/systems_icn_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_electrical_systems_3"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/systems_icn_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_electrical_systems_4"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/systems_icn_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_electrical_systems_5"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/systems_icn_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_electrical_systems_6"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/systems_icn_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SMI_sub_torpedo_launcher"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_torpedo_launcher_icn.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_torpedo_launcher_1"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_torpedo_launcher_icn_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_torpedo_launcher_2"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_torpedo_launcher_icn_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_torpedo_launcher_3"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_torpedo_launcher_icn_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_torpedo_launcher_4"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_torpedo_launcher_icn_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_torpedo_launcher_5"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_torpedo_launcher_icn_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_sub_torpedo_launcher_6"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_torpedo_launcher_icn_6.dds"
+	}
+
+}

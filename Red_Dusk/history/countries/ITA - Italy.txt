@@ -1,0 +1,22 @@
+﻿capital = 2
+
+set_research_slots = 4
+set_stability = 0.6
+set_war_support = 0.7
+
+set_convoys = 200
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 76
+	fascism = 22
+	communism = 2
+}
+
+recruit_character = ITA_carlo_ciampi
+recruit_character = ITA_roberto_fiore

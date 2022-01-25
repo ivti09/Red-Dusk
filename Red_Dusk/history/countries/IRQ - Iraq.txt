@@ -1,0 +1,18 @@
+﻿capital = 291
+
+#oob = "IRQ_1936"
+
+set_convoys = 5
+
+recruit_character = IRQ_saddam_hussein
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 80
+	neutrality = 20
+}

@@ -1,0 +1,20 @@
+﻿capital = 741
+
+#oob = "CAM_1936"
+
+set_research_slots = 3
+
+recruit_character = CAM_norodom_ranariddh
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 40
+	communism = 25
+	neutrality = 35
+}

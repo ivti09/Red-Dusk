@@ -1,0 +1,20 @@
+﻿capital = 812
+
+#oob = "EST_1936"
+
+set_research_slots = 3
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.5.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 15
+	communism = 5
+	neutrality = 60
+}

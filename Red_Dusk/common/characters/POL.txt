@@ -1,0 +1,18 @@
+characters = {
+
+	POL_aleksander_kwasniewski = {
+		name = "Aleksander Kwaśniewski"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/Aleksander_Kwasniewski.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

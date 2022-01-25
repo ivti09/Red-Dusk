@@ -1,0 +1,20 @@
+﻿capital = 16
+
+set_research_slots = 3
+set_stability = 0.5
+set_convoys = 300
+
+recruit_character = FRA_jacques_chirac
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 64
+	fascism = 1
+	neutrality = 15
+	communism = 20
+}

@@ -1,0 +1,18 @@
+characters = {
+
+	CZE_vaclav_havel = {
+		name = "Vaclav Havel"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZE/Vaclav_Havel.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

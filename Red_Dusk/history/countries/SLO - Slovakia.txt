@@ -1,0 +1,15 @@
+﻿capital = 70
+
+recruit_character = SLO_rudolf_schuster
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 90
+	fascism = 0
+	communism = 10
+}

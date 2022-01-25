@@ -1,0 +1,18 @@
+characters = {
+
+	IRQ_saddam_hussein = {
+		name = "Saddam Hussein"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/Saddam_Hussein.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

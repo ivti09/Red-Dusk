@@ -1,0 +1,93 @@
+characters = {
+
+	SOV_gennady_yanayev = {
+		name = "Gennady Yanayev"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Gennady_Yanayev.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	SOV_aleksandr_korzhakov = {
+		name = "Aleksandr Korzhakov"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Aleksandr_Korzhakov.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	SOV_anatoly_chernyaev = {
+		name = "Anatoly Chernyaev"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Anatoly_Chernyaev.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	SOV_boris_pugo = {
+		name = "Boris Pugo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Boris_Pugo.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	SOV_mikhail_gorbachev = {
+		name = "Mikhail Gorbachev"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Mikhail_Gorbachev.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	SOV_vladimir_putin = {
+		name = "Vladimir Putin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Vladimir_Putin.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+characters = {
+
+	BUL_petar_stoyanov = {
+		name = "Petar Stoyanov"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUL/Petar_Stoyanov.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

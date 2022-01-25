@@ -1,0 +1,20 @@
+﻿capital = 107
+
+set_research_slots = 3
+
+set_convoys = 10
+set_politics = {
+	ruling_party = communism
+	last_election = "1935.5.3"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 10
+	fascism = 40
+	communism = 50
+}
+
+recruit_character = YUG_slobodan_milošević
+
+set_stability = 0.6

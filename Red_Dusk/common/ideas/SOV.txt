@@ -1,0 +1,125 @@
+ideas = {
+
+	country = {
+
+		SOV_memories_of_perestroika = {
+			name = SOV_memories_of_perestroika_name
+
+			removal_cost = -1
+
+			picture = SOV_memories_of_perestroika_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_factory_start_efficiency_factor = -0.1
+			}
+		}
+
+		SOV_memories_of_august_coup = {
+
+			name = SOV_memories_of_august_coup_name
+
+			removal_cost = -1
+
+			picture = SOV_memories_of_august_coup_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = -0.05
+			}
+
+		}
+
+		SOV_stagnating_economy = {
+
+			name = SOV_stagnating_economy_name
+
+			removal_cost = -1
+
+			picture = SOV_stagnating_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.3
+				consumer_goods_factor = 0.1
+				political_advisor_cost_factor = 0.1
+			}
+
+		}
+
+		SOV_militarised_industry = {
+
+			name = SOV_militarised_industry_name
+
+			removal_cost = -1
+
+			picture = SOV_militarised_industry_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = -0.1
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+			}
+
+		}
+
+		SOV_party_infighting = {
+
+			name = SOV_party_infighting_name
+
+			removal_cost = -1
+
+			picture = SOV_party_infighting_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.05
+			}
+
+		}
+
+		SOV_rising_separatism = {
+
+			name = SOV_rising_separatism_name
+
+			removal_cost = -1
+
+			picture = SOV_rising_separatism_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				resistance_damage_to_garrison = 0.05
+				stability_factor = -0.25
+				war_support_factor = -0.1
+			}
+
+		}
+
+	}
+
+}

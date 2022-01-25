@@ -1,0 +1,22 @@
+﻿capital = 64
+
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.75 
+set_war_support = 0.3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 80
+	fascism = 5
+	communism = 15
+}
+
+recruit_character = GER_gerhard_schröder
+recruit_character = GER_udo_voigt_1
+recruit_character = GER_udo_voigt_2

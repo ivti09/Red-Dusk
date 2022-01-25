@@ -1,0 +1,18 @@
+characters = {
+
+	VIN_le_kha_phieu = {
+		name = "Le Kha Phieu"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VIN/Le_Kha_Phieu.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

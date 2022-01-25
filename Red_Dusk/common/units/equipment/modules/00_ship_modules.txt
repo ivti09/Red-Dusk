@@ -1,0 +1,71 @@
+equipment_modules = {
+
+# Torpedoes
+
+	ship_torpedo_sub_1 = {
+		category = ship_torpedo_sub
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			torpedo_attack = 15
+			build_cost_ic = 80
+		}
+
+		build_cost_resources = {
+			steel = 0
+		}
+
+		critical_parts = { damaged_torpedoes }
+	}
+
+# Engines
+
+	sub_engine_diesel_1 = {
+		category = sub_ship_engine
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 5
+			fuel_consumption = 5
+			build_cost_ic = 120
+		}
+
+		multiply_stats = {
+			naval_speed = 0.05
+			reliability = -0.1
+		}
+
+	}
+
+	sub_engine_nuclear_1 = {
+		category = sub_ship_engine
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			naval_speed = 5
+			fuel_consumption = 0
+			build_cost_ic = 350
+		}
+
+		multiply_stats = {
+			naval_speed = 0.05
+			reliability = -0.1
+		}
+
+	}
+
+# Electrical Systems
+
+	sub_electrical_systems_1 = {
+		category = sub_ship_systems
+		sfx = sfx_ui_sd_module_systems
+	}
+
+# Sonar
+
+	sub_sonar_1 = {
+		category = sub_ship_sonar
+		sfx = sfx_ui_sd_module_sonar
+	}
+
+}

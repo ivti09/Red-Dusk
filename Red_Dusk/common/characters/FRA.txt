@@ -1,0 +1,18 @@
+characters = {
+
+	FRA_jacques_chirac = {
+		name = "Jacques Chirac"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/Jacques_Chirac.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

@@ -1,0 +1,79 @@
+﻿capital = 219
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	#set_oob = ""
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	#set_oob = ""
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "SOV_2000_naval_mtg"
+	else = {
+		#set_naval_oob = ""
+	}
+}
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.3
+
+set_convoys = 50
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 2
+	communism = 88
+}
+
+add_ideas = SOV_memories_of_perestroika
+add_ideas = SOV_memories_of_august_coup
+add_ideas = SOV_stagnating_economy
+add_ideas = SOV_militarised_industry
+add_ideas = SOV_party_infighting
+add_ideas = SOV_rising_separatism
+
+recruit_character = SOV_gennady_yanayev
+recruit_character = SOV_aleksandr_korzhakov
+recruit_character = SOV_anatoly_chernyaev
+recruit_character = SOV_boris_pugo
+recruit_character = SOV_mikhail_gorbachev
+recruit_character = SOV_vladimir_putin
+
+create_faction = "Moscow Accord"
+SOV = {
+	add_to_faction = MON
+}
+
+# Naval Variants #
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	# Submarines #
+	create_equipment_variant = {
+		name = "Test Class"
+		type = attack_submarine_hull_1
+		name_group = SOV_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_sonar_slot = sub_sonar_1
+			fixed_ship_systems_slot = sub_electrical_systems_1
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			custom_slot_1 = empty
+		}
+	}
+}

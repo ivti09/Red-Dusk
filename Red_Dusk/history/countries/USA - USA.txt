@@ -1,0 +1,52 @@
+﻿capital = 361
+
+#oob = "USA_1936"
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		#set_naval_oob = "USA_1936_naval_mtg"
+	else = {
+		#set_naval_oob = "USA_1936_naval_legacy"
+	}
+}
+
+set_research_slots = 4
+set_stability = 0.75
+set_war_support = 0
+set_convoys = 500
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 99
+	communism = 1
+}
+
+recruit_character = USA_bill_clinton
+recruit_character = USA_george_bush
+
+create_faction = "NATO"
+USA = {
+	add_to_faction = ENG
+	add_to_faction = CAN
+	add_to_faction = FRA
+	add_to_faction = GER
+	add_to_faction = ITA
+	add_to_faction = ICE
+	add_to_faction = SPR
+	add_to_faction = CZE
+	add_to_faction = POR
+	add_to_faction = NOR
+	add_to_faction = GER
+	add_to_faction = IRE
+	add_to_faction = DEN
+	add_to_faction = BEL
+	add_to_faction = HOL
+	add_to_faction = LUX
+	add_to_faction = TUR
+	add_to_faction = GRE
+}

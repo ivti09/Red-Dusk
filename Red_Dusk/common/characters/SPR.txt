@@ -1,0 +1,18 @@
+characters = {
+
+	SPR_josé_aznar = {
+		name = "José Aznar"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPR/José_Aznar.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

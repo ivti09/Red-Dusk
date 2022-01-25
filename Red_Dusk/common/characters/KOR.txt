@@ -1,0 +1,18 @@
+characters = {
+
+	KOR_kim_jong_il = {
+		name = "Kim Jong Il"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KOR/Kim_Jong_Il.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

@@ -1,0 +1,12 @@
+﻿capital = 231 #Tbilisi
+
+#oob = "GEO_1936"
+
+set_research_slots = 3
+
+set_popularities = {
+	democratic = 40
+	communism = 40
+	fascism = 10
+	neutrality = 10
+}

@@ -1,0 +1,18 @@
+characters = {
+
+	LAO_khamtai_siphandon = {
+		name = "Khamtai Siphandon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAO/Khamtai_Siphandon.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

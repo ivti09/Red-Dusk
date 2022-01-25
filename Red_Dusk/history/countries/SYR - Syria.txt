@@ -1,0 +1,18 @@
+﻿capital = 554
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 15
+	fascism = 80
+	communism = 5
+}
+
+recruit_character = SYR_hafez_al_assad
+recruit_character = SYR_bashar_al_assad

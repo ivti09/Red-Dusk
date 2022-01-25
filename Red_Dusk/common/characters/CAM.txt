@@ -1,0 +1,18 @@
+characters = {
+
+	CAM_norodom_ranariddh = {
+		name = "Norodom Ranariddh"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAM/Norodom_Ranariddh.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}
