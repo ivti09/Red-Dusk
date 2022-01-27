@@ -2,7 +2,7 @@
 	id = ussr_focus
 	
 	country = {
-		factor = 10
+		factor = 0
 		
 		modifier = {
 			add = 10

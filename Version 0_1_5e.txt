@@ -1,0 +1,11 @@
+# common #
+national_focus:
+	- Updated USSR.txt file: fixed bug where everyone would have Soviet focus tree
+
+# gfx #
+leaders:
+	LBA:
+		- Replaced Gaddafi portrait
+
+# interface #
+- Replaced goals.gfx and goals_shine.gfx files, added mod references (fixed bug where focus icons wouldn't appear)
