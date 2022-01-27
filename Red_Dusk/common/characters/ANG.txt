@@ -1,0 +1,18 @@
+characters = {
+
+	ANG_jose_eduardo = {
+		name = "José Eduardo dos Santos"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Jose_Eduardo_dos_Santos.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

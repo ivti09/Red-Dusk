@@ -1,0 +1,78 @@
+# common #
+- Added ai_equipment folder. Added replace_path
+Ai_strategy:
+	- Updated default.txt file for 1.11.5
+defines:
+	- Updated 00_defines.lua file for 1.11.5
+
+Units:
+	Equipment:
+		Modules:
+			- Added more ship modules
+		- Added file ship_hull_corvette.txt
+	names_ships:
+		- Added SOV_ship_names.txt file, cleared all and added mod names
+national_focus:
+	- removed politcal paths for generic focus tree
+	- Added Soviet Focus Tree
+technologies:
+	- MTG_naval: added new ships to tech tree
+ideas:
+	- Updated _economic.txt and navy_spirits.txt file for 1.11.5
+	- Added new ideas for SOV.txt
+characters:
+	- Updated certain character files and added new ones
+
+# events #
+- Added ussr.txt file
+
+# history #
+Countries:
+	- Updated SOV: updated ship variants
+	- Updated politics for: MOZ, ZAM, ZIM, SAF, ANG, DEN, EST, LAT, CUB, TUR, HOL
+Units:
+	- Updated SOV navy
+
+# GFX #
+Interface:
+	equipmentdesigner:
+		naval:
+			modules:
+				icons:
+					- Removed excess icons
+	- Added folder naval combat
+		- Added submarine gfx files
+	Technologies:
+		- Replaced convey.dds image
+		- Added more ship gfx images
+	- Added goals folder
+		- Added gfx for national focuses
+Leaders:
+	- Added new portraits for: Latvia, Estonia, Albania, Turkey, Denmark, Holland, South Africa, Mozambique, Zimbabve, Zambia, Botswana, Angola, Namibia, Cuba.
+Flags:
+	- Added new flags for: Mozambique, South Africa, Spain, China, Libya, Egypt, Syria, Cuba, Mongolia
+
+# interface #
+- Added equipmentdesignermoduleicons.gfx file, added mod icons
+- Removed mod references to equipmentdesignermodules.gfx
+- Updated countrytechtreeview.gui: changed subtitle names
+- Updated mod_technologies.gfx: added new ship images
+Equipmentdesigner:
+	- Updated attack_submarine_hull.gui
+- Added goals.gfx file
+- Added goals_shine.gfx file
+
+# localisation #
+- Updated ship_modules_l_english: added localisation for new ship modules
+- Added equipment_l_english: updated localisation for ship tech tree
+- Updated equip_naval_l_english: added localisation for new ships
+- Added events_l_english file
+- Updated mod_ideas_l_english file: added new ideas
+- Added reddusk_focus_l_english file: for mod focus tree localisation
+- Updated country_l_english: Updated country names for Greece, Mozambique, Angola
+
+# map #
+- Regenerated buildings, airports, and rocket sites for each province
+
+# music #
+- Updated main menu music

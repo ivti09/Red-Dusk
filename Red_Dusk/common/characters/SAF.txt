@@ -1,0 +1,18 @@
+characters = {
+
+	SAF_constand_viljoen = {
+		name = "Constand Viljoen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/gamer.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

@@ -2,6 +2,8 @@
 
 set_convoys = 0
 
+recruit_character = ZAM_frederick_chiluba
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
@@ -10,7 +12,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 55
-	fascism = 15
-	communism = 5
+	fascism = 5
+	communism = 15
 	neutrality = 25
 }

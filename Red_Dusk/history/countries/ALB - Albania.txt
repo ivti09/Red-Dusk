@@ -15,5 +15,7 @@ set_popularities = {
         communism = 20 
 }
 
+recruit_character = ALB_rexhep_meidani
+
 set_convoys = 5
 

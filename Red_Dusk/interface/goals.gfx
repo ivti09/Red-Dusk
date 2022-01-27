@@ -1,0 +1,28 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_focus_SOV_status_of_union"
+		texturefile = "gfx/interface/goals/focus_SOV_status_of_union.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_economy_report"
+		texturefile = "gfx/interface/goals/focus_SOV_economy_report.dds"
+	}	
+	SpriteType = {
+		name = "GFX_focus_SOV_yanayev_final_weeks"
+		texturefile = "gfx/interface/goals/focus_SOV_yanayev_final_weeks.dds"
+	}	
+	SpriteType = {
+		name = "GFX_focus_SOV_defund_military"
+		texturefile = "gfx/interface/goals/focus_SOV_defund_military.dds"
+	}	
+	SpriteType = {
+		name = "GFX_focus_SOV_economic_reforms"
+		texturefile = "gfx/interface/goals/focus_SOV_economic_reforms.dds"
+	}	
+	SpriteType = {
+		name = "GFX_focus_SOV_party_meeting"
+		texturefile = "gfx/interface/goals/focus_SOV_party_meeting.dds"
+	}
+
+}

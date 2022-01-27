@@ -12,6 +12,8 @@ set_popularities = {
 	neutrality = 30
 }
 
+recruit_character = TUR_ahmet_sezar
+
 set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.3

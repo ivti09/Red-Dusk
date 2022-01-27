@@ -40,7 +40,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_submarine_hull_sonar"
-						position = { x=370 y=8 }
+						position = { x=0 y=0 }
 					}
 				}
 

@@ -1,0 +1,37 @@
+﻿##### USSR NAME LISTS #####
+### SUBMARINES ###
+SOV_SS_NUMERICAL = {
+	name = "Diesel Attack Submarine Numbers"
+
+	for_countries = { SOV }
+
+	can_use = {
+		always = yes
+	}
+
+	type = ship
+	ship_types = { attack_submarine_hull }
+	
+	fallback_name = "B-%d"
+	
+	ordered = {
+	}
+}
+
+SOV_SSN_NUMERICAL = {
+	name = "Nuclear Attack Submarine Numbers"
+
+	for_countries = { SOV }
+
+	can_use = {
+		always = yes
+	}
+
+	type = ship
+	ship_types = { attack_submarine_hull }
+	
+	fallback_name = "K-%d"
+	
+	ordered = {
+	}
+}

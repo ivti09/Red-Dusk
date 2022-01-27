@@ -1,0 +1,226 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Common #
+Units:
+	Equipment:
+		- Updated ship_hull_submarine.txt
+		Modules:
+			- Updated 00_ship_modules.txt
+- Added ideologies folder
+	- Added 00_ideologies.txt file, changed colours for ideologies
+Technologies:
+	- MTG_naval.txt: added cruise and ballistic missile submarines
+Countries:
+	- Changed colours of: North Korea, Pakistan
+	- Added Pakistan file
+Characters:
+	- Changed character ideologies for: YUG, KOR, SKR, CRO, BUL, POL, ALB, GRE, TUR, AUS
+	- Added files for: MLT, GRE, EGY
+
+# GFX #
+Interface:
+	equipmentdesigner:
+		naval:
+			topviews:
+				- Added module_blueprint_engine.dds file, made minor visual changes
+				Submarine:
+					- Renamed submarine torpedo files
+			modules:
+				icons:
+					- Added more module icons
+	- Added ideologies folder:
+		- Added new ideology icons
+	technologies:
+		- Added more submarine gfx
+	countrytechtreeview:
+		- Added trees for cruise and ballistic missile submarines
+loadingscreens:
+	- replaced loading screens gfx
+
+Leaders:
+	- Added new portraits for: MLT, GRE, EGY
+- Added flags folder
+	- Added Greek flags
+	- Added South Korean flags
+
+# Interface #
+Equipmentdesigner:
+	- Updated attack_submarine_hull.gui
+- Updated mod_technologies.gfx file to include new module icons and submarine hulls
+- Added equipmentdesignermodules.gfx file, added new module gfx
+- Added equipmentdesignerview.gui file, changed position values
+
+# History #
+Countries:
+	- Updated Soviet Submarine Class
+	- USA file: Added Turkey and Greece to NATO
+	- Changed ruling party and popularities for: YUG, KOR, SKR, CRO, BUL, POL, ALB, GRE, TUR, AUS
+	- Added leaders for: MLT, GRE, EGY
+States:
+	- Transferred province 11577 from state 109 to 836
+	- Transferred province 9608 from state 836 to 109
+	- Changed ownership of state 77 from ROM to BUL
+
+# Localisation #
+English:
+	- Added ship_modules_l_english.yml file, deleted all ship modules and replaced with mod versions
+	- mod_ideas_l_english: updated to include better descriptions
+	- Updated mod_equip_naval_l_english with localisation for new submarines
+	- Updated country names for North and South Korea
+	- Added bftb_ideas_l_english file, deleted all content (to prevent conflicting localisation)
+
+# Music #
+- Added new main menu music
+
+# Map #
+=======
+# Common #
+Units:
+	Equipment:
+		- Updated ship_hull_submarine.txt
+		Modules:
+			- Updated 00_ship_modules.txt
+- Added ideologies folder
+	- Added 00_ideologies.txt file, changed colours for ideologies
+Technologies:
+	- MTG_naval.txt: added cruise and ballistic missile submarines
+Countries:
+	- Changed colours of: North Korea, Pakistan
+	- Added Pakistan file
+Characters:
+	- Changed character ideologies for: YUG, KOR, SKR, CRO, BUL, POL, ALB, GRE, TUR, AUS
+	- Added files for: MLT, GRE, EGY
+
+# GFX #
+Interface:
+	equipmentdesigner:
+		naval:
+			topviews:
+				- Added module_blueprint_engine.dds file, made minor visual changes
+				Submarine:
+					- Renamed submarine torpedo files
+			modules:
+				icons:
+					- Added more module icons
+	- Added ideologies folder:
+		- Added new ideology icons
+	technologies:
+		- Added more submarine gfx
+	countrytechtreeview:
+		- Added trees for cruise and ballistic missile submarines
+loadingscreens:
+	- replaced loading screens gfx
+
+Leaders:
+	- Added new portraits for: MLT, GRE, EGY
+- Added flags folder
+	- Added Greek flags
+	- Added South Korean flags
+
+# Interface #
+Equipmentdesigner:
+	- Updated attack_submarine_hull.gui
+- Updated mod_technologies.gfx file to include new module icons and submarine hulls
+- Added equipmentdesignermodules.gfx file, added new module gfx
+- Added equipmentdesignerview.gui file, changed position values
+
+# History #
+Countries:
+	- Updated Soviet Submarine Class
+	- USA file: Added Turkey and Greece to NATO
+	- Changed ruling party and popularities for: YUG, KOR, SKR, CRO, BUL, POL, ALB, GRE, TUR, AUS
+	- Added leaders for: MLT, GRE, EGY
+States:
+	- Transferred province 11577 from state 109 to 836
+	- Transferred province 9608 from state 836 to 109
+	- Changed ownership of state 77 from ROM to BUL
+
+# Localisation #
+English:
+	- Added ship_modules_l_english.yml file, deleted all ship modules and replaced with mod versions
+	- mod_ideas_l_english: updated to include better descriptions
+	- Updated mod_equip_naval_l_english with localisation for new submarines
+	- Updated country names for North and South Korea
+	- Added bftb_ideas_l_english file, deleted all content (to prevent conflicting localisation)
+
+# Music #
+- Added new main menu music
+
+# Map #
+>>>>>>> 98e9c1308f3b9da36e6cfa722df452d52f9e2936
+=======
+# Common #
+Units:
+	Equipment:
+		- Updated ship_hull_submarine.txt
+		Modules:
+			- Updated 00_ship_modules.txt
+- Added ideologies folder
+	- Added 00_ideologies.txt file, changed colours for ideologies
+Technologies:
+	- MTG_naval.txt: added cruise and ballistic missile submarines
+Countries:
+	- Changed colours of: North Korea, Pakistan
+	- Added Pakistan file
+Characters:
+	- Changed character ideologies for: YUG, KOR, SKR, CRO, BUL, POL, ALB, GRE, TUR, AUS
+	- Added files for: MLT, GRE, EGY
+
+# GFX #
+Interface:
+	equipmentdesigner:
+		naval:
+			topviews:
+				- Added module_blueprint_engine.dds file, made minor visual changes
+				Submarine:
+					- Renamed submarine torpedo files
+			modules:
+				icons:
+					- Added more module icons
+	- Added ideologies folder:
+		- Added new ideology icons
+	technologies:
+		- Added more submarine gfx
+	countrytechtreeview:
+		- Added trees for cruise and ballistic missile submarines
+loadingscreens:
+	- replaced loading screens gfx
+
+Leaders:
+	- Added new portraits for: MLT, GRE, EGY
+- Added flags folder
+	- Added Greek flags
+	- Added South Korean flags
+
+# Interface #
+Equipmentdesigner:
+	- Updated attack_submarine_hull.gui
+- Updated mod_technologies.gfx file to include new module icons and submarine hulls
+- Added equipmentdesignermodules.gfx file, added new module gfx
+- Added equipmentdesignerview.gui file, changed position values
+
+# History #
+Countries:
+	- Updated Soviet Submarine Class
+	- USA file: Added Turkey and Greece to NATO
+	- Changed ruling party and popularities for: YUG, KOR, SKR, CRO, BUL, POL, ALB, GRE, TUR, AUS
+	- Added leaders for: MLT, GRE, EGY
+States:
+	- Transferred province 11577 from state 109 to 836
+	- Transferred province 9608 from state 836 to 109
+	- Changed ownership of state 77 from ROM to BUL
+
+# Localisation #
+English:
+	- Added ship_modules_l_english.yml file, deleted all ship modules and replaced with mod versions
+	- mod_ideas_l_english: updated to include better descriptions
+	- Updated mod_equip_naval_l_english with localisation for new submarines
+	- Updated country names for North and South Korea
+	- Added bftb_ideas_l_english file, deleted all content (to prevent conflicting localisation)
+
+# Music #
+- Added new main menu music
+
+# Map #
+>>>>>>> 98e9c1308f3b9da36e6cfa722df452d52f9e2936
+- Updated airports.txt file to account for province changes

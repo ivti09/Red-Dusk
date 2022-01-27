@@ -1123,14 +1123,14 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_radar.dds"
 	}
 
-	#spriteType = {
-	#	name = "GFX_SM_submarine_hull_sonar"
-	#	textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
-	#}
-	#spriteType = {
-	#	name = "GFX_SM_submarine_hull_sonar@highlight"
-	#	textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
-	#}
+	spriteType = {
+		name = "GFX_SM_submarine_hull_sonar"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_submarine_hull_sonar@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_sonar.dds"
+	}
 
 	spriteType = {
 		name = "GFX_SM_submarine_hull_snorkel"
@@ -1336,14 +1336,5 @@ spriteTypes = {
 	}
 
 	## MOD ##
-
-	spriteType = {
-		name = "GFX_SM_submarine_hull_sonar"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/submarine_hull_sonar.dds"
-	}
-	spriteType = {
-		name = "GFX_SM_submarine_hull_sonar@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/submarine_hull_sonar@highlight.dds"
-	}
 
 }

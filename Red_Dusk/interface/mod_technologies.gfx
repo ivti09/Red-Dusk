@@ -61,6 +61,87 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/ballistic_submarine_hull_2020.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_corvette_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/corvette_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_corvette_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/corvette_hull_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_corvette_hull_1990_medium"
+		texturefile = "gfx/interface/technologies/corvette_hull_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_corvette_hull_2000_medium"
+		texturefile = "gfx/interface/technologies/corvette_hull_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_corvette_hull_2010_medium"
+		texturefile = "gfx/interface/technologies/corvette_hull_2010.dds"
+	}
+	SpriteType = {
+		name = "GFX_corvette_hull_2020_medium"
+		texturefile = "gfx/interface/technologies/corvette_hull_2020.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_destroyer_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/destroyer_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_destroyer_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/destroyer_hull_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_destroyer_hull_1990_medium"
+		texturefile = "gfx/interface/technologies/destroyer_hull_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_destroyer_hull_2000_medium"
+		texturefile = "gfx/interface/technologies/destroyer_hull_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_destroyer_hull_2010_medium"
+		texturefile = "gfx/interface/technologies/destroyer_hull_2010.dds"
+	}
+	SpriteType = {
+		name = "GFX_destroyer_hull_2020_medium"
+		texturefile = "gfx/interface/technologies/destroyer_hull_2020.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_cruiser_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/cruiser_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_cruiser_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/cruiser_hull_1980.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_battlecruiser_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/battlecruiser_hull_1980.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_carrier_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/carrier_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_carrier_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/carrier_hull_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_carrier_hull_2000_medium"
+		texturefile = "gfx/interface/technologies/carrier_hull_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_carrier_hull_2020_medium"
+		texturefile = "gfx/interface/technologies/carrier_hull_2020.dds"
+	}
+
 	## MTG Designer Modules ##
 
 	SpriteType = {

@@ -1,0 +1,73 @@
+add_namespace = ussr
+
+#a succesfull coup#
+country_event = {
+	id = ussr.1
+	title = ussr.1.t
+	desc = ussr.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.1.a
+	}
+}
+
+#the feared report#
+country_event = {
+	id = ussr.2
+	title = ussr.2.t
+	desc = ussr.2.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.2.a
+	}
+}
+
+#economy report#
+country_event = {
+	id = ussr.3
+	title = ussr.3.t
+	desc = ussr.3.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.3.a
+	}
+}
+
+#yazov protest#
+country_event = {
+	id = ussr.4
+	title = ussr.4.t
+	desc = ussr.4.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.4.a
+		add_war_support = -5
+	}
+}
+
+#resignment#
+country_event = {
+	id = ussr.5
+	title = ussr.5.t
+	desc = ussr.5.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.5.a
+		add_political_power = -5
+	}
+}

@@ -25,4 +25,6 @@ set_popularities = {
 	communism = 2
 }
 
+recruit_character = DEN_poul_nyrup
+
 set_convoys = 40

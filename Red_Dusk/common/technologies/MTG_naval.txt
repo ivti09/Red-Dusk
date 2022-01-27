@@ -23,7 +23,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 1 }
+			position = { x = 0 y = 1 }
 		}
 
 		ai_will_do = {
@@ -57,7 +57,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 7 }
+			position = { x = 0 y = 7 }
 		}
 
 		ai_will_do = {
@@ -91,7 +91,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 13 }
+			position = { x = 0 y = 13 }
 		}
 
 		ai_will_do = {
@@ -125,7 +125,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 19 }
+			position = { x = 0 y = 19 }
 		}
 
 		ai_will_do = {
@@ -159,7 +159,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 25 }
+			position = { x = 0 y = 25 }
 		}
 
 		ai_will_do = {
@@ -188,7 +188,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 31 }
+			position = { x = 0 y = 31 }
 		}
 
 		ai_will_do = {
@@ -222,7 +222,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 1 }
+			position = { x = 0 y = 1 }
 		}
 
 		ai_will_do = {
@@ -256,7 +256,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 7 }
+			position = { x = 0 y = 7 }
 		}
 
 		ai_will_do = {
@@ -290,7 +290,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 19 }
+			position = { x = 0 y = 19 }
 		}
 
 		ai_will_do = {
@@ -319,7 +319,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 31 }
+			position = { x = 0 y = 31 }
 		}
 
 		ai_will_do = {
@@ -353,7 +353,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 1 }
+			position = { x = 0 y = 1 }
 		}
 
 		ai_will_do = {
@@ -387,7 +387,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 7 }
+			position = { x = 0 y = 7 }
 		}
 
 		ai_will_do = {
@@ -421,7 +421,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 19 }
+			position = { x = 0 y = 19 }
 		}
 
 		ai_will_do = {
@@ -450,7 +450,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -2 y = 31 }
+			position = { x = 0 y = 31 }
 		}
 
 		ai_will_do = {
@@ -459,6 +459,606 @@ technologies = {
 		categories = {
 			naval_equipment
 			ss_tech
+		}
+
+	}
+
+# Corvettes
+
+	corvette_hull_1960 = {
+
+		enable_equipments = {
+			corvette_hull_1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = corvette_hull_1980
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1960
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 1 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+
+	}
+
+	corvette_hull_1980 = {
+
+		enable_equipments = {
+			corvette_hull_2
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = corvette_hull_1990
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1980
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 7 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+
+	}
+
+	corvette_hull_1990 = {
+
+		enable_equipments = {
+			corvette_hull_3
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = corvette_hull_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1990
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 13 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+
+	}
+
+	corvette_hull_2000 = {
+
+		enable_equipments = {
+			corvette_hull_4
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = corvette_hull_2010
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 2000
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 19 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+
+	}
+
+	corvette_hull_2010 = {
+
+		enable_equipments = {
+			corvette_hull_5
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = corvette_hull_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 2010
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 25 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+
+	}
+
+	corvette_hull_2020 = {
+
+		enable_equipments = {
+			corvette_hull_6
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 2.0
+
+		start_year = 2020
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 31 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+
+	}
+
+# Destroyers
+
+	destroyer_hull_1960 = {
+
+		enable_equipments = {
+			destroyer_hull_1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = destroyer_hull_1980
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1960
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 1 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+
+	}
+
+	destroyer_hull_1980 = {
+
+		enable_equipments = {
+			destroyer_hull_2
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = destroyer_hull_1990
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1980
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 7 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+
+	}
+
+	destroyer_hull_1990 = {
+
+		enable_equipments = {
+			destroyer_hull_3
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = destroyer_hull_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1990
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 13 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+
+	}
+
+	destroyer_hull_2000 = {
+
+		enable_equipments = {
+			destroyer_hull_4
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = destroyer_hull_2010
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 2000
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 19 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+
+	}
+
+	destroyer_hull_2010 = {
+
+		enable_equipments = {
+			destroyer_hull_5
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = destroyer_hull_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 2010
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 25 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+
+	}
+
+	destroyer_hull_2020 = {
+
+		enable_equipments = {
+			destroyer_hull_6
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 2.0
+
+		start_year = 2020
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 31 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+
+	}
+
+# Cruisers
+
+	cruiser_hull_1960 = {
+
+		enable_equipments = {
+			cruiser_hull_1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = cruiser_hull_1980
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1960
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 1 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			cl_tech
+		}
+
+	}
+
+	cruiser_hull_1980 = {
+
+		enable_equipments = {
+			cruiser_hull_2
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 2.0
+
+		start_year = 1980
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 7 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			cl_tech
+		}
+
+	}
+
+# Carriers
+
+	carrier_hull_1960 = {
+
+		enable_equipments = {
+			carrier_hull_1
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = carrier_hull_1980
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1960
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 1 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+
+	}
+
+	carrier_hull_1980 = {
+
+		enable_equipments = {
+			carrier_hull_2
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = carrier_hull_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1980
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 7 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+
+	}
+
+	carrier_hull_2000 = {
+
+		enable_equipments = {
+			carrier_hull_3
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = carrier_hull_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 2000
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 19 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+
+	}
+
+	carrier_hull_2020 = {
+
+		enable_equipments = {
+			carrier_hull_4
+		}
+
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 2.0
+
+		start_year = 2020
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 31 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			naval_equipment
+			cv_tech
 		}
 
 	}

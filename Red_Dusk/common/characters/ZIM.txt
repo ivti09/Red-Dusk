@@ -1,0 +1,18 @@
+characters = {
+
+	ZIM_mugabe = {
+		name = "Robert Mugabe"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Mugabe.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

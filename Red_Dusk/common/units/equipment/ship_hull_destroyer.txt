@@ -1,0 +1,86 @@
+equipments = {
+
+	destroyer_hull = {
+		year = 1960
+
+		is_archetype = yes
+		is_buildable = no
+		type = destroyer
+		group_by = archetype
+		priority = 2500
+
+		upgrades = {
+		}
+		
+		interface_category = interface_category_other_ships
+
+		module_slots = {
+		}
+		
+		default_modules = {
+		}
+		
+		build_cost_ic = 220
+
+		resources = {
+			steel = 1
+		}
+		
+		manpower = 200
+	}
+
+	destroyer_hull_1 = {
+		year = 1960
+
+		archetype = destroyer_hull
+		priority = 2500
+
+		module_slots = inherit
+	}
+
+	destroyer_hull_2 = {
+		year = 1980
+
+		archetype = destroyer_hull
+		priority = 2500
+
+		module_slots = inherit
+	}
+
+	destroyer_hull_3 = {
+		year = 1990
+
+		archetype = destroyer_hull
+		priority = 2500
+
+		module_slots = inherit
+	}
+
+	destroyer_hull_4 = {
+		year = 2000
+
+		archetype = destroyer_hull
+		priority = 2500
+
+		module_slots = inherit
+	}
+
+	destroyer_hull_5 = {
+		year = 2010
+
+		archetype = destroyer_hull
+		priority = 2500
+
+		module_slots = inherit
+	}
+
+	destroyer_hull_6 = {
+		year = 2020
+
+		archetype = destroyer_hull
+		priority = 2500
+
+		module_slots = inherit
+	}
+
+}

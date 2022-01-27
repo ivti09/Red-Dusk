@@ -1,0 +1,18 @@
+characters = {
+
+	ALB_rexhep_meidani = {
+		name = "Rexhep Meidani"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ALB/Rexhep_Meidani.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}
