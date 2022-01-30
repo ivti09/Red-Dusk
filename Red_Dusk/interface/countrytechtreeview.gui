@@ -1942,68 +1942,77 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "submarine_desc"
 				}
+
 				instantTextBoxType = {
-					name = "naval_subtitle_armaments"
-					position = { x = 30 y = 1370 }
+					name = "naval_subtitle_engine"
+					position = { x = 30 y = 1000 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "NAVAL_TITLE_ARMAMENT"
+					text = "ENGINES"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
-				}	
-				instantTextBoxType = {
-					name = "naval_subtitle_damage_control"
-					position = { x = 30 y = 1770 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "NAVAL_TITLE_DAMAGE_CONTROL"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "naval_subtitle_fire_control"
-					position = { x = 30 y = 1910 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "NAVAL_TITLE_FIRE_CONTROL"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "naval_subtitle_transport"
-					position = { x = 30 y = 2030 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = {x = 0 y = 4}
-					text = "NAVAL_TITLE_TRANSPORTS"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "engine_desc"
 				}
 
 				instantTextBoxType = {
-					name = "naval_subtitle_mines"
-					position = { x = 30 y = 2170 }
+					name = "naval_subtitle_sensor"
+					position = { x = 30 y = 1400 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "NAVAL_TITLE_MINES"
+					text = "SENSORS"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
-				}					
-			
+					pdx_tooltip = "sensor_desc"
+				}
+
+				instantTextBoxType = {
+					name = "naval_subtitle_weapons"
+					position = { x = 30 y = 1650 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "OFFENSIVE WEAPONS"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "weapons_desc"
+				}
+
+				instantTextBoxType = {
+					name = "naval_subtitle_defence"
+					position = { x = 30 y = 2300 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "DEFENSIVE WEAPONS"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "defence_desc"
+				}
+
+				instantTextBoxType = {
+					name = "naval_subtitle_helicopter"
+					position = { x = 30 y = 2450 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "AVIATION"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "helicopter_desc"
+				}
+
 			containerWindowType = {
 				name = "tiled_window_transparent_transparent"
 				position = { x= 0 y= 0 }
@@ -2017,6 +2026,25 @@ guiTypes = {
 					name = "Background"
 					quadTextureSprite ="GFX_tiled_window_transparent_transparent"
 				}
+			}
+
+			containerWindowType = {
+				name = "tiled_research_bg"
+				position = { x=150 y=1200 }
+				size = { width = 2310 height = 170 }
+				clipping = no
+			
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_research_bg"
+				}			
+			}
+
+			gridboxtype = {
+				name = "atomic_research_tree"
+				position = { x= 120 y=430 }
+				slotsize = { width=70 height= 70 }
+				format = "LEFT"
 			}
 
 			gridboxtype = {
@@ -2076,46 +2104,88 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "basic_battery_tree"
-				position = { x = 150 y = 1360 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "basic_secondary_battery_tree"
-				position = { x = 150 y = 1650 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "mtg_transport_tree"
-				position = { x = 150 y = 2050 }
+				name = "naval_engine_diesel_1960_tree"
+				position = { x = 150 y = 1010 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "damage_control_1_tree"
-				position = { x = 150 y = 1800 }
+				name = "naval_engine_nuclear_1960_tree"
+				position = { x = 150 y = 1220 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "fire_control_methods_1_tree"
-				position = { x = 150 y = 1920 }
+				name = "naval_radar_1960_tree"
+				position = { x = 150 y = 1410 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
-				name = "basic_naval_mines_tree"
-				position = { x = 150 y = 2170 }
+				name = "naval_sonar_1960_tree"
+				position = { x = 150 y = 1510 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "torpedo_launcher_1960_tree"
+				position = { x = 150 y = 1660 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "cruise_missile_1960_tree"
+				position = { x = 150 y = 1810 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "ballistic_missile_1960_tree"
+				position = { x = 150 y = 1960 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "aswrl_1960_tree"
+				position = { x = 150 y = 2060 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "naval_gun_1960_tree"
+				position = { x = 150 y = 2160 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "ciws_1980_tree"
+				position = { x = 150 y = 2310 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "naval_helicopter_1960_tree"
+				position = { x = 150 y = 2460 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

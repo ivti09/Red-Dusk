@@ -5,7 +5,7 @@ country_event = {
 	id = ussr.1
 	title = ussr.1.t
 	desc = ussr.1.d
-	picture = GFX_report_event_election_vote
+	picture = GFX_report_event_SOV_1991
 	
 	is_triggered_only = yes
 	
@@ -19,7 +19,7 @@ country_event = {
 	id = ussr.2
 	title = ussr.2.t
 	desc = ussr.2.d
-	picture = GFX_report_event_election_vote
+	picture = GFX_report_event_SOV_reform
 	
 	is_triggered_only = yes
 	
@@ -33,7 +33,7 @@ country_event = {
 	id = ussr.3
 	title = ussr.3.t
 	desc = ussr.3.d
-	picture = GFX_report_event_election_vote
+	picture = GFX_report_event_SOV_economy
 	
 	is_triggered_only = yes
 	
@@ -47,7 +47,7 @@ country_event = {
 	id = ussr.4
 	title = ussr.4.t
 	desc = ussr.4.d
-	picture = GFX_report_event_election_vote
+	picture = GFX_report_event_SOV_yazov_protest
 	
 	is_triggered_only = yes
 	

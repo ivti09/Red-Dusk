@@ -90,4 +90,19 @@ characters = {
 		}
 	}
 
+	SOV_party = {
+		name = "Communist Party of the Soviet Union"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/party.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
 }
