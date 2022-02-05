@@ -1,0 +1,231 @@
+﻿focus_tree = {
+	id = ussr_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	
+	default = no
+	focus = {
+		id = SOV_status_of_the_union
+		icon = GFX_focus_SOV_status_of_union
+		x = 10
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 5
+			SOV = {
+				country_event = { id = ussr.2 }
+			}
+		}
+	}
+	
+	focus = {
+		id = SOV_economy_report
+		icon = GFX_focus_SOV_economy_report
+		x = 0
+		y = 1
+
+		prerequisite = {focus = SOV_status_of_the_union}
+		mutually_exclusive = { }
+		relative_position_id = SOV_status_of_the_union
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			SOV = {
+				country_event = { id = ussr.3 }
+			}
+		}
+	}
+	
+	focus = {
+		id = SOV_yanayev_final_weeks
+		icon = GFX_focus_SOV_yanayev_final_weeks
+		x = 0
+		y = 3
+
+		prerequisite = {focus = SOV_economy_report}
+		mutually_exclusive = { }
+		relative_position_id = SOV_status_of_the_union
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 20
+			add_stability = -0.05
+		}
+	}
+	
+	focus = {
+		id = SOV_defund_the_military
+		icon = GFX_focus_SOV_defund_military
+		x = -1
+		y = 4
+
+		prerequisite = {focus = SOV_yanayev_final_weeks}
+		mutually_exclusive = { }
+		relative_position_id = SOV_status_of_the_union
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		available = {
+			has_completed_focus = SOV_minor_economic_reforms
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			SOV = {
+				country_event = { id = ussr.4 }
+			}
+			swap_ideas = {
+				add_idea = SOV_stagnating_economy_2
+				remove_idea = SOV_stagnating_economy_1
+			}
+		}
+	}
+	
+	focus = {
+		id = SOV_minor_economic_reforms
+		icon = GFX_focus_SOV_economic_reforms
+		x = 1
+		y = 4
+
+		prerequisite = {focus = SOV_yanayev_final_weeks}
+		mutually_exclusive = { }
+		relative_position_id = SOV_status_of_the_union
+		
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+				add_idea = SOV_stagnating_economy_1
+				remove_idea = SOV_stagnating_economy
+			}
+		}
+	}
+	focus = {
+                id = SOV_yanayev's_resignation
+                icon = GFX_focus_SOV_yanayev's_resignation
+                x = 0
+                y = 5
+               prerequisite = {focus = SOV_minor_economic_reforms}
+	       prerequisite = {focus = SOV_defund_the_military}
+               mutually_exclusive ={ }
+               reletive_position_id = SOV_status_of_the_union
+               
+               cost=20
+               ai_will_do = {
+                      factor = 100
+                }
+
+                bypass = {
+                }
+                }
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			SOV = {
+				country_event = { id = ussr.5 }
+			}
+		}
+	}
+	focus = {
+		id =SOV_yanayev's_resignation
+		icon = GFX_focus_SOV_yanayev's_resignation
+		x = 0
+		y = 5.5
+
+		prerequisite = {focus = SOV_minor_economic_reforms}
+		prerequisite = {focus = SOV_defund_the_military}
+		mutually_exclusive = { }
+		relative_position_id = SOV_status_of_the_union
+		cost=20
+		ai_will_do = {
+			factor = 100
+	}
+
+	bypass = {
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	completion_reward = {
+		SOV = {
+			country_event = { id = ussr.5 }
+		}
+	}
+}
+	focus = {
+		id =SOV_party_meeting
+		icon = GFX_focus_SOV_party_meeting
+		x = 0
+		y = 6
+
+		prerequisite = {focus = SOV_yanayev's_resignation}
+		mutually_exclusive = { }
+		relative_position_id = SOV_status_of_the_union
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			SOV = {
+				country_event = { id = ussr.5 }
+			}
+		}
+	}
+
+}
