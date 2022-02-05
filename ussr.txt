@@ -181,7 +181,7 @@
 		id =SOV_yanayev's_resignation
 		icon = GFX_focus_SOV_yanayev's_resignation
 		x = 0
-		y = 5.5
+		y = 1
 
 		prerequisite = {focus = SOV_minor_economic_reforms}
 		prerequisite = {focus = SOV_defund_the_military}
