@@ -1,11 +1,11 @@
 add_namespace = ussr
 
-#a succesfull coup#
+#a hibernating union#
 country_event = {
 	id = ussr.1
 	title = ussr.1.t
 	desc = ussr.1.d
-	picture = GFX_report_event_SOV_1991
+	picture = GFX_report_event_SOV_union
 	
 	is_triggered_only = yes
 	
@@ -24,7 +24,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ussr.2.a
+		name = ussr.3.a
 	}
 }
 
@@ -38,7 +38,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ussr.3.a
+		name = ussr.4.a
 	}
 }
 
@@ -62,7 +62,7 @@ country_event = {
 	id = ussr.5
 	title = ussr.5.t
 	desc = ussr.5.d
-	picture = GFX_report_event_election_vote
+	picture = GFX_report_event_SOV_resignation
 	
 	is_triggered_only = yes
 	

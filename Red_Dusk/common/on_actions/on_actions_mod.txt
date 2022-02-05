@@ -1,0 +1,29 @@
+on_actions = {
+
+
+on_startup =  {
+
+effect = {
+
+	SOV = {
+	
+		country_event = {id = ussr.1}
+	
+	}
+
+
+on_startup =  {
+
+effect = {
+
+	USA = {
+	
+		country_event = {id = usa.1}
+	
+	}
+
+}
+
+}
+
+}

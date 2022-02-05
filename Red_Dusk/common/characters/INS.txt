@@ -4,7 +4,7 @@ characters = {
 		name = "Abdurrahman Wahid"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/IND/Abdurrahman_Wahid.dds"
+				large = "gfx/leaders/INS/Abdurrahman_Wahid.dds"
 			}
 		}
 		country_leader = {

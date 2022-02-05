@@ -13,7 +13,7 @@ set_stability = 0.2
 set_war_support = 0.5
 set_convoys = 40
 
-recruit_character = TAI_lee_teng
+recruit_character = CHI_lee_teng
 
 set_politics = {
 	ruling_party = democratic

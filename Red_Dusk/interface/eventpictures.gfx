@@ -3025,8 +3025,8 @@ spriteTypes = {
 	## MOD ##
 
 	spriteType = {
-		name = "GFX_report_event_SOV_1991"
-		texturefile = "gfx/event_pictures/report_event_SOV_1991.dds"
+		name = "GFX_report_event_SOV_union"
+		texturefile = "gfx/event_pictures/report_event_SOV_union.dds"
 	}
 	spriteType = {
 		name = "GFX_report_event_SOV_economy"

@@ -3000,6 +3000,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_SOV_economic_reforms.dds"
 	}	
 	SpriteType = {
+		name = "GFX_SOV_yanayev's_resignation"
+		texturefile = "gfx/interface/goals/focus_SOV_yanayev's_resignation.dds"
+	}
+	SpriteType = {
 		name = "GFX_focus_SOV_party_meeting"
 		texturefile = "gfx/interface/goals/focus_SOV_party_meeting.dds"
 	}

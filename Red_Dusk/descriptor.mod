@@ -1,4 +1,4 @@
-version="0.1.6c"
+version="0.1.7d"
 tags={
 	"Alternative History"
 	"Events"
@@ -24,6 +24,7 @@ replace_path="common/characters"
 replace_path="history/units"
 replace_path="history/states"
 replace_path="history/countries"
+replace_path="history/general"
 replace_path="events"
 supported_version="1.11.*"
 path=""

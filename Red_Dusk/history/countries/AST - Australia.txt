@@ -19,5 +19,3 @@ set_popularities = {
 }
 
 set_convoys = 100
-
-recruit_character = AST_john_howard
