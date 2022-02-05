@@ -1,0 +1,19 @@
+# common #
+	# national focus #
+		- Added new focus for soviet union
+
+# events #
+	- Updated ussr.txt: replaced image for ussr.1
+
+# gfx #
+	- Added FX folder
+		- Added constants.fxh file
+
+# interface #
+	- Updated eventpictures.gfx: added references to report_event_SOV_1991
+
+# localisation #
+	- Updated reddusk_focus_l_english: added localisation for new soviet focus
+
+# map #
+	- Deleted terrain folder and files (made redundant by constants.fxh in FX folder)

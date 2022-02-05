@@ -5,7 +5,7 @@ country_event = {
 	id = ussr.1
 	title = ussr.1.t
 	desc = ussr.1.d
-	picture = GFX_report_event_SOV_union
+	picture = GFX_report_event_SOV_1991
 	
 	is_triggered_only = yes
 	
