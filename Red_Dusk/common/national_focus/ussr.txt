@@ -191,6 +191,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+
 		}
 	}
 

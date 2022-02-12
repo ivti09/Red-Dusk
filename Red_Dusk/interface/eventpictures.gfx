@@ -3044,5 +3044,29 @@ spriteTypes = {
 		name = "GFX_report_event_SOV_yazov_protest"
 		texturefile = "gfx/event_pictures/report_event_SOV_yazov_protest.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_SOV_resignation"
+		texturefile = "gfx/event_pictures/report_event_resigntion.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_USA_liberty_statue"
+		texturefile = "gfx/event_pictures/report_event_USA_state.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_USA_92_election"
+		texturefile = "gfx/event_pictures/report_event_USA_1992_elections.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_USA_bush"
+		texturefile = "gfx/event_pictures/report_event_USA_bush.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_USA_90s"
+		texturefile = "gfx/event_pictures/report_event_USA_90s.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_USA_2000"
+		texturefile = "gfx/event_pictures/report_event_usa_2000.dds"
+	}
 	
 }

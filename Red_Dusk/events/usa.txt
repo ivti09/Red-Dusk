@@ -1,0 +1,88 @@
+add_namespace = usa
+
+country_event = { #The State of the Union#
+	id = usa.1
+	title = usa.1.t
+	desc = usa.1.d
+	picture = GFX_report_event_USA_liberty_statue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.1.a
+		hidden_effect = {
+			USA = {
+				country_event = { id = usa.2 days = 5 }
+			}
+		}
+	}
+}
+
+country_event = { #1992: A Year to Decide#
+	id = usa.2
+	title = usa.2.t
+	desc = usa.2.d
+	picture = GFX_report_event_USA_92_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.2.a
+		
+		hidden_effect = {
+			USA = {
+				country_event = { id = usa.3 days = 5 }
+			}
+		}
+	}
+}
+
+country_event = { #The Outcome of 1992#
+	id = usa.3
+	title = usa.3.t
+	desc = usa.3.d
+	picture = GFX_report_event_USA_bush
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.3.a
+		
+		hidden_effect = {
+			USA = {
+				country_event = { id = usa.4 days = 5 }		
+			}
+		}
+	}
+}
+
+country_event = { #The “Uneasy” ‘90s?#
+	id = usa.4
+	title = usa.4.t
+	desc = usa.4.d
+	picture = GFX_report_event_USA_90s
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.4.a
+		hidden_effect = {
+			USA = {
+				country_event = { id = usa.5 days = 5 }
+			}
+		}
+	}
+}
+
+country_event = { #Where Are We Now?#
+	id = usa.5
+	title = usa.5.t
+	desc = usa.5.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.5.a		
+	}
+}

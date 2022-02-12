@@ -53,6 +53,7 @@ recruit_character = SOV_anatoly_chernyaev
 recruit_character = SOV_boris_pugo
 recruit_character = SOV_mikhail_gorbachev
 recruit_character = SOV_vladimir_putin
+recruit_character = SOV_party
 
 create_faction = "Moscow Accord"
 SOV = {
@@ -74,6 +75,41 @@ if = {
 			fixed_ship_engine_slot = sub_engine_diesel_2
 			fixed_ship_torpedo_slot = ship_torpedo_sub_2
 			custom_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Project 949A"
+		type = cruise_submarine_hull_2
+		name_group = SOV_SSGN_NUMERICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_sonar_slot = sub_sonar_2
+			fixed_ship_systems_slot = sub_electrical_systems_2
+			fixed_ship_engine_slot = sub_engine_diesel_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			custom_slot_1 = cruise_missile_2
+			fixed_sub_cruise_missile_slot_1 = cruise_missile_2
+			fixed_sub_cruise_missile_slot_2 = cruise_missile_2
+			fixed_sub_cruise_missile_slot_3 = cruise_missile_2
+			fixed_sub_cruise_missile_slot_4 = cruise_missile_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Project 667B"
+		type = ballistic_submarine_hull_1
+		name_group = SOV_SSBN_NUMERICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_sonar_slot = sub_sonar_1
+			fixed_ship_systems_slot = sub_electrical_systems_1
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			custom_slot_1 = empty
+			fixed_sub_ballistic_missile_slot_1 = ballistic_missile_1
+			fixed_sub_ballistic_missile_slot_2 = ballistic_missile_1
+			fixed_sub_ballistic_missile_slot_3 = ballistic_missile_1
+			fixed_sub_ballistic_missile_slot_4 = empty
+			fixed_sub_ballistic_missile_slot_5 = empty
 		}
 	}
 }

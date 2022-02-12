@@ -1,0 +1,18 @@
+characters = {
+
+	MOR_mohammed_vi = {
+		name = "Mohammed VI"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MOR/Mohammed_VI.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

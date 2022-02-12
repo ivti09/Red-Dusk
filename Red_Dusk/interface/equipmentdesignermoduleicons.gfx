@@ -812,4 +812,21 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/module_icons.dds"
 	}
 
+	spriteType = {
+		name = "GFX_EMSI_fixed_sub_cruise_missile_slot_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/mid.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_sub_cruise_missile_slot_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/mid.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_sub_cruise_missile_slot_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/mid.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_sub_cruise_missile_slot_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/mid.dds"
+	}
+
 }

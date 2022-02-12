@@ -26,7 +26,7 @@ equipments = {
 			steel = 1
 		}
 		
-		manpower = 200
+		manpower = 700
 	}
 
 	cruiser_hull_1 = {
@@ -36,6 +36,8 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		manpower = 700
 	}
 
 	cruiser_hull_2 = {
@@ -45,6 +47,8 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		manpower = 900
 	}
 
 }

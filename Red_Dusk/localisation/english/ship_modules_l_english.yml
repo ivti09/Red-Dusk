@@ -32,6 +32,8 @@
 
  EQ_MOD_CAT_sub_ship_systems_TITLE:0 "Electrical Systems"
  EQ_MOD_CAT_sub_ship_sonar_TITLE:0 "Sonar Room"
+ EQ_MOD_CAT_ship_cruise_missile_TITLE:0 "Cruise Missile Tubes"
+ EQ_MOD_CAT_ship_ballistic_missile_TITLE:0 "Ballistic Missile Tubes"
 
  ### EQUIPMENT MODULE SLOTS ###
  EQ_MOD_SLOT_fixed_ship_battery_slot_TITLE:0 "Battery"
@@ -55,6 +57,15 @@
  EQ_MOD_SLOT_fixed_ship_sonar_slot_TITLE:0 "Sonar"
  EQ_MOD_SLOT_fixed_ship_systems_slot_TITLE:0 "Electrical Systems"
  EQ_MOD_SLOT_custom_slot_1_TITLE:0 "Custom Slot 1"
+ EQ_MOD_SLOT_fixed_sub_cruise_missile_slot_1_TITLE:0 "Cruise Missile Slot 1"
+ EQ_MOD_SLOT_fixed_sub_cruise_missile_slot_2_TITLE:0 "Cruise Missile Slot 2"
+ EQ_MOD_SLOT_fixed_sub_cruise_missile_slot_3_TITLE:0 "Cruise Missile Slot 3"
+ EQ_MOD_SLOT_fixed_sub_cruise_missile_slot_4_TITLE:0 "Cruise Missile Slot 4"
+ EQ_MOD_SLOT_fixed_sub_ballistic_missile_slot_1_TITLE:0 "Ballistic Missile Slot 1"
+ EQ_MOD_SLOT_fixed_sub_ballistic_missile_slot_2_TITLE:0 "Ballistic Missile Slot 2"
+ EQ_MOD_SLOT_fixed_sub_ballistic_missile_slot_3_TITLE:0 "Ballistic Missile Slot 3"
+ EQ_MOD_SLOT_fixed_sub_ballistic_missile_slot_4_TITLE:0 "Ballistic Missile Slot 4"
+ EQ_MOD_SLOT_fixed_sub_ballistic_missile_slot_5_TITLE:0 "Ballistic Missile Slot 5"
 
  ### EQUIPMENT MODULES ###
  SHIP_DESIGNER_MODULE_SELECTION:1 "§HModule Slot:§! $NAME$\nSelect a Module:"
@@ -281,3 +292,11 @@
  SOV_ship_torpedo_sub_2:0 "6x 533mm Torpedo Tubes"
  SOV_ship_torpedo_sub_3:0 "4x 650mm Torpedo Tubes"
  SOV_ship_torpedo_sub_4:0 "6x 650mm Torpedo Tubes"
+ SOV_cruise_missile_1:0 "4x P-5 Pyatyorka Missiles"
+ SOV_cruise_missile_2:0 "4x P-700 Granit Missiles"
+ SOV_cruise_missile_3:0 "4x P-800 Oniks Missiles"
+ SOV_cruise_missile_4:0 "4x P-900 Alfa Missiles"
+ SOV_ballistic_missile_1:0 "4x R-21 Missiles"
+ SOV_ballistic_missile_2:0 "4x R-39 Rif Missiles"
+ SOV_ballistic_missile_3:0 "4x R-39M Bark Missiles"
+ SOV_ballistic_missile_4:0 "4x RSM-56 Bulava Missiles"

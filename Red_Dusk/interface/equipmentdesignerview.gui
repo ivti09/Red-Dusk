@@ -134,15 +134,15 @@ guiTypes = {
 			}
 
 			@fixed_btn_mod_col_0 = 0
-			@fixed_btn_mod_col_1 = 73  # +73
-			@fixed_btn_mod_col_2 = 146
-			@fixed_btn_mod_col_3 = 219
-			@fixed_btn_mod_col_4 = 292
-			@fixed_btn_mod_col_5 = 365
-			@fixed_btn_mod_col_6 = 438
-			@fixed_btn_mod_row = 300
+			@fixed_btn_mod_col_1 = 73  # 73
+			@fixed_btn_mod_col_2 = 146 # 146
+			@fixed_btn_mod_col_3 = 219 # 219
+			@fixed_btn_mod_col_4 = 292 # 292
+			@fixed_btn_mod_col_5 = 365 # 365
+			@fixed_btn_mod_col_6 = 438 # 438
+			@fixed_btn_mod_row = 300 # 300
 
-			@custom_btn_mod_row = 0
+			@custom_btn_mod_row = 0 # 0
 
 			# Position used to check if module is in top or bottom row 
 			# to anchor tooltip so it doesnt cover the highlight effect in gui
@@ -162,18 +162,28 @@ guiTypes = {
 			}
 
 			positionType = {
-				name = "pos_custom_module_slot_window_1"
+				name = "pos_fixed_module_slot_window_4"
 				position = { x=@fixed_btn_mod_col_2 y=@custom_btn_mod_row }
 			}
 
 			positionType = {
-				name = "pos_custom_module_slot_window_2"
+				name = "pos_fixed_module_slot_window_5"
 				position = { x=@fixed_btn_mod_col_3 y=@custom_btn_mod_row }
 			}
 
 			positionType = {
-				name = "pos_custom_module_slot_window_3"
+				name = "pos_fixed_module_slot_window_6"
 				position = { x=@fixed_btn_mod_col_4 y=@custom_btn_mod_row }
+			}
+
+			positionType = {
+				name = "pos_fixed_module_slot_window_7"
+				position = { x=@fixed_btn_mod_col_5 y=@custom_btn_mod_row }
+			}
+
+			positionType = {
+				name = "pos_fixed_module_slot_window_8"
+				position = { x=@fixed_btn_mod_col_6 y=@custom_btn_mod_row }
 			}
 
 			positionType = {
@@ -207,17 +217,17 @@ guiTypes = {
 			}
 
 			positionType = {
-				name = "pos_fixed_module_slot_window_4"
+				name = "pos_custom_module_slot_window_1"
 				position = { x=@fixed_btn_mod_col_4 y=@fixed_btn_mod_row }
 			}
 
 			positionType = {
-				name = "pos_fixed_module_slot_window_5"
+				name = "pos_custom_module_slot_window_2"
 				position = { x=@fixed_btn_mod_col_5 y=@fixed_btn_mod_row }
 			}
 
 			positionType = {
-				name = "pos_fixed_module_slot_window_6"
+				name = "pos_custom_module_slot_window_3"
 				position = { x=@fixed_btn_mod_col_6 y=@fixed_btn_mod_row }
 			}
 

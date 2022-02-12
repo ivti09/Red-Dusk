@@ -342,6 +342,10 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_SMI_ship_cruise_missile"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/cruise_missile.dds"
+	}
+	SpriteType = {
 		name = "GFX_SMI_cruise_missile"
 		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/cruise_missile.dds"
 	}
@@ -362,6 +366,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/cruise_missile_4.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_SMI_ship_ballistic_missile"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/ballistic_missile.dds"
+	}
 	SpriteType = {
 		name = "GFX_SMI_ballistic_missile"
 		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/ballistic_missile.dds"

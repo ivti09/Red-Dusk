@@ -7,6 +7,8 @@ set_war_support = 0.1
 
 set_convoys = 20
 
+recruit_character = RAJ_kocheril_raman
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.11.14"

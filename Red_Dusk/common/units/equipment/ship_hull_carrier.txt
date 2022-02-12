@@ -26,7 +26,7 @@ equipments = {
 			steel = 1
 		}
 		
-		manpower = 200
+		manpower = 4000
 	}
 
 	carrier_hull_1 = {
@@ -36,6 +36,8 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		manpower = 4000
 	}
 
 	carrier_hull_2 = {
@@ -45,6 +47,8 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		manpower = 5000
 	}
 
 	carrier_hull_3 = {
@@ -54,6 +58,8 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		manpower = 7000
 	}
 
 	carrier_hull_4 = {
@@ -63,6 +69,8 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		manpower = 9000
 	}
 
 }

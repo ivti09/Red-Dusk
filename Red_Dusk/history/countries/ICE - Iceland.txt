@@ -5,6 +5,9 @@
 set_research_slots = 3
 
 set_convoys = 30
+
+recruit_character = ICE_olafur_ragnar
+
 set_stability = 0.75
 
 set_politics = {

@@ -1025,21 +1025,57 @@ spriteTypes = {
 ###################################################
 
 	spriteType = {
-		name = "GFX_SM_submarine_hull_fixed_torpedo"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/submarine_hull_fixed_torpedos.dds"
+		name = "GFX_SM_attack_submarine_hull_fixed_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/attack_submarine_hull_fixed_torpedos.dds"
 	}
 	spriteType = {
-		name = "GFX_SM_submarine_hull_fixed_torpedo@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/submarine_hull_fixed_torpedos@highlight.dds"
+		name = "GFX_SM_attack_submarine_hull_fixed_torpedo@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/attack_submarine_hull_fixed_torpedos@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_submarine_hull_front1_torpedo"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/submarine_hull_front1_torpedos.dds"
+		name = "GFX_SM_cruise_submarine_hull_fixed_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/cruise_submarine_hull_fixed_torpedos.dds"
 	}
 	spriteType = {
-		name = "GFX_SM_submarine_hull_front1_torpedo@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/submarine_hull_front1_torpedos@highlight.dds"
+		name = "GFX_SM_cruise_submarine_hull_fixed_torpedo@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/cruise_submarine_hull_fixed_torpedos@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_attack_submarine_hull_front1_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/attack_submarine_hull_front1_torpedos.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_attack_submarine_hull_front1_torpedo@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/attack_submarine_hull_front1_torpedos@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_cruise_submarine_hull_custom1_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/cruise_submarine_hull_custom1_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruise_submarine_hull_custom1_torpedo@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/cruise_submarine_hull_custom1_torpedo@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_cruise_submarine_hull_fixed_cruise_missile"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/cruise_submarine_hull_fixed_cruise_missile.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruise_submarine_hull_fixed_cruise_missile@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/cruise_submarine_hull_fixed_cruise_missile@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_ballistic_submarine_hull_fixed_ballistic_missile"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/ballistic_submarine_hull_fixed_ballistic_missile.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_ballistic_submarine_hull_fixed_ballistic_missile@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/submarine/ballistic_submarine_hull_fixed_ballistic_missile@highlight.dds"
 	}
 
 	spriteType = {

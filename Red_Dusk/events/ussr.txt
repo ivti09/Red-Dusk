@@ -19,7 +19,7 @@ country_event = {
 	id = ussr.2
 	title = ussr.2.t
 	desc = ussr.2.d
-	picture = GFX_report_event_SOV_reform
+	picture = GFX_report_event_SOV_union
 	
 	is_triggered_only = yes
 	
@@ -69,5 +69,8 @@ country_event = {
 	option = {
 		name = ussr.5.a
 		add_political_power = -5
+		retire_country_leader = yes
+		promote_character = SOV_party
+
 	}
 }
