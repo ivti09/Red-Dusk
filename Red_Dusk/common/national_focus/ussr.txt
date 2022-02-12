@@ -157,7 +157,7 @@
 		prerequisite = {focus = SOV_minor_economic_reforms focus = SOV_defund_the_military}
 		relative_position_id = SOV_status_of_the_union
                
-		cost=20
+		cost=3
 		ai_will_do = {
 			factor = 100
 		}
