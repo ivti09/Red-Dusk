@@ -1,0 +1,214 @@
+equipments = {
+
+	fighter_equipment = {
+		year = 1960
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_fighter_equipment
+		is_buildable = no
+		type = { fighter interceptor }
+		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 1
+		
+		interface_category = interface_category_air
+	}
+
+	fighter_equipment_0 = {
+		year = 1960
+
+		archetype = fighter_equipment
+	}
+
+	fighter_equipment_1 = {
+		year = 1970
+
+		archetype = fighter_equipment
+	}
+
+	fighter_equipment_2 = {
+		year = 1980
+
+		archetype = fighter_equipment
+	}
+
+	fighter_equipment_3 = {
+		year = 1990
+
+		archetype = fighter_equipment
+	}
+
+	fighter_equipment_4 = {
+		year = 2000
+
+		archetype = fighter_equipment
+	}
+
+	fighter_equipment_5 = {
+		year = 2010
+
+		archetype = fighter_equipment
+	}
+
+	fighter_equipment_6 = {
+		year = 2020
+
+		archetype = fighter_equipment
+	}
+
+	interceptor_equipment = {
+		year = 1960
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_interceptor_equipment
+		is_buildable = no
+		type = { interceptor }
+		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 1
+		
+		interface_category = interface_category_air
+	}
+
+	interceptor_equipment_0 = {
+		year = 1960
+
+		archetype = interceptor_equipment
+	}
+
+	interceptor_equipment_1 = {
+		year = 1970
+
+		archetype = interceptor_equipment
+	}
+
+	interceptor_equipment_2 = {
+		year = 1980
+
+		archetype = interceptor_equipment
+	}
+
+	carrier_fighter_equipment = {
+		year = 1960
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_carrier_fighter_equipment
+		is_buildable = no
+		type = { fighter interceptor }
+		group_by = archetype
+		sprite = light_plane
+		carrier_capable = yes
+		default_carrier_composition_weight = 1
+		air_map_icon_frame = 1
+		
+		interface_category = interface_category_air
+	}
+
+	carrier_fighter_equipment_0 = {
+		year = 1960
+
+		archetype = carrier_fighter_equipment
+	}
+
+	carrier_fighter_equipment_1 = {
+		year = 1970
+
+		archetype = carrier_fighter_equipment
+	}
+
+	carrier_fighter_equipment_2 = {
+		year = 1980
+
+		archetype = carrier_fighter_equipment
+	}
+
+	carrier_fighter_equipment_3 = {
+		year = 1990
+
+		archetype = carrier_fighter_equipment
+	}
+
+	carrier_fighter_equipment_4 = {
+		year = 2000
+
+		archetype = carrier_fighter_equipment
+	}
+
+	carrier_fighter_equipment_5 = {
+		year = 2010
+
+		archetype = carrier_fighter_equipment
+	}
+
+	carrier_fighter_equipment_6 = {
+		year = 2020
+
+		archetype = carrier_fighter_equipment
+	}
+
+	stealth_fighter_equipment = {
+		year = 2000
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_stealth_fighter_equipment
+		is_buildable = no
+		type = { fighter }
+		group_by = archetype
+		sprite = light_plane
+		air_map_icon_frame = 1
+		
+		interface_category = interface_category_air
+	}
+
+	stealth_fighter_equipment_0 = {
+		year = 2000
+
+		archetype = stealth_fighter_equipment
+	}
+
+	stealth_fighter_equipment_1 = {
+		year = 2010
+
+		archetype = stealth_fighter_equipment
+	}
+
+	stealth_fighter_equipment_2 = {
+		year = 2020
+
+		archetype = stealth_fighter_equipment
+	}
+
+	carrier_stealth_fighter_equipment = {
+		year = 2010
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_carrier_stealth_fighter_equipment
+		is_buildable = no
+		type = { fighter }
+		group_by = archetype
+		sprite = light_plane
+		carrier_capable = yes
+		default_carrier_composition_weight = 1
+		air_map_icon_frame = 1
+		
+		interface_category = interface_category_air
+	}
+
+	carrier_stealth_fighter_equipment_0 = {
+		year = 2010
+
+		archetype = carrier_stealth_fighter_equipment
+	}
+
+	carrier_stealth_fighter_equipment_1 = {
+		year = 2020
+
+		archetype = carrier_stealth_fighter_equipment
+	}
+
+}

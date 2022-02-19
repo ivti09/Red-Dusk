@@ -766,4 +766,78 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/naval_uav.dds"
 	}
 
+	## Aircraft ##
+
+	SpriteType = {
+		name = "GFX_SOV_fighter_1960_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_fighter_1970_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_fighter_1980_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_fighter_1990_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_fighter_2000_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_fighter_2010_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter_2010.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_fighter_2020_medium"
+		texturefile = "gfx/interface/technologies/SOV_fighter_2020.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_carrier_fighter_1970_medium"
+		texturefile = "gfx/interface/technologies/SOV_carrier_fighter_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_carrier_fighter_1980_medium"
+		texturefile = "gfx/interface/technologies/SOV_carrier_fighter_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_carrier_fighter_1990_medium"
+		texturefile = "gfx/interface/technologies/SOV_carrier_fighter_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_carrier_fighter_2000_medium"
+		texturefile = "gfx/interface/technologies/SOV_carrier_fighter_2000.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_interceptor_1960_medium"
+		texturefile = "gfx/interface/technologies/SOV_interceptor_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_interceptor_1970_medium"
+		texturefile = "gfx/interface/technologies/SOV_interceptor_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_interceptor_1980_medium"
+		texturefile = "gfx/interface/technologies/SOV_interceptor_1980.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_stealth_fighter_2000_medium"
+		texturefile = "gfx/interface/technologies/SOV_stealth_fighter_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_stealth_fighter_2010_medium"
+		texturefile = "gfx/interface/technologies/SOV_stealth_fighter_2010.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_stealth_fighter_2020_medium"
+		texturefile = "gfx/interface/technologies/SOV_stealth_fighter_2020.dds"
+	}
+
 }

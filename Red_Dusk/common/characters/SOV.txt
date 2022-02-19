@@ -29,6 +29,21 @@ characters = {
 			id = -1
 		}
 	}
+	
+	SOV_dmitry_yazov = {
+		name = "Dmitry Yazov"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Yazov.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 	SOV_anatoly_chernyaev = {
 		name = "Anatoly Chernyaev"

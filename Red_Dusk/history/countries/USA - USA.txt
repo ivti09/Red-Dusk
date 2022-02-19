@@ -26,7 +26,15 @@ set_popularities = {
 	communism = 1
 }
 
-recruit_character = USA_bill_clinton
+add_ideas = USA_the_constitution
+add_ideas = USA_three_party_primacy
+add_ideas = USA_second_amendment
+add_ideas = USA_stagnating_economy
+add_ideas = USA_misdirected_foreign_policy
+add_ideas = USA_military_spending
+add_ideas = USA_last_bastion
+
+recruit_character = USA_dan_quayle
 recruit_character = USA_george_bush
 
 create_faction = "NATO"

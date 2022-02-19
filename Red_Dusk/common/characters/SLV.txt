@@ -1,7 +1,7 @@
 characters = {
 
 	SLV_milan_kucan = {
-		name = "Milan Kucan"
+		name = "Milan Kučan"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/SLV/Milan_Kucan.dds"

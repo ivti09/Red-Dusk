@@ -38,7 +38,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ussr.4.a
+		name = ussr.3.a
 	}
 }
 
@@ -72,5 +72,60 @@ country_event = {
 		retire_country_leader = yes
 		promote_character = SOV_party
 
+	}
+}
+#party meeting#
+country_event = {
+	id = ussr.6
+	title = ussr.6.t
+	desc = ussr.6.d
+	picture = GFX_report_event_SOV_the_meeting
+	
+	is_triggered_only = yes
+	
+		#yazov#
+	option = {
+		name = ussr.6.a
+		retire_country_leader = yes
+		promote_character = SOV_dmitry_yazov
+	}
+		#Pugo#
+		option = {
+		name = ussr.6.b
+		retire_country_leader = yes
+		promote_character = SOV_boris_pugo
+	}
+		#no one lol#
+		option = { 
+		name = ussr.6.c
+		add_political_power = -50
+		add_stability = -0.05
+		
+			SOV = {
+				country_event = { id = ussr.7 days = 1 }
+			}
+
+	}
+}
+#Party meeting contunies#
+country_event = {
+	id = ussr.7
+	title = ussr.7.t
+	desc = ussr.7.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+		#putin!!!!#
+	option = {
+		name = ussr.7.a
+		retire_country_leader = yes
+		promote_character = SOV_vladimir_putin
+	}
+		#gorbachev and pizza hut fans#
+		option = {
+		name = ussr.7.b
+		retire_country_leader = yes
+		promote_character = SOV_mikhail_gorbachev
 	}
 }

@@ -1,0 +1,88 @@
+# common #
+	# on_actions #
+		- on_actions_mod.txt: updated to allow usa events to fire
+	# technologies #
+		- Added air_techs.txt file: removed all technologies, added mod technologies
+		- electronic_mechanical_engineering: removed jet engines from air tech tree
+	# units #
+		- Added air.txt: updated sub_units
+		# equipment #
+			- Added fighter_airframe.txt: added equipment for fighters
+			- Added single_engine_airframe.txt: removed all equipment to prevent conflicts
+	# ai_strategy #
+		- default.txt: removed conflicting strategies
+	# characters #
+		- SOV.txt: updated
+		- Added new leaders
+	# national_focus #
+		- ussr.txt: updated
+	# ideas #
+		- Added USA.txt file: added new USA national spirits (stagnating economy, military spending, foreign policy couldn't be implemented as original)
+		- Added PRC.txt file: added new PRC national spirits
+		- _economic.txt: removed conflicting statements
+		- _manpower.txt: removed conflicting statements
+	# bookmarks #
+		- the_red_dusk.txt: added USA as possible starting country
+	- Added folder opinion_modifiers, added replace_path
+		- Added generic opinion modifiers, removed all others
+
+# events #
+	- ussr.txt: updated, fixed event option typo
+
+# gfx #
+	# interface #
+		# techtree #
+			- Changed air and infantry tree background images
+		# technologies #
+			- Added new gfx for new aircraft
+			- Added gfx for weapons, vehicles, and trains
+		- Added airwing_interceptor_icon.dds
+		- Added new logo and loading bar files
+		# ideas #
+			- Added more icons for national spirits, renamed icons to include country tag
+	# event_pictures #
+		- added 2 new event pictures
+	# flags #
+		- added iraq, yemen, and kuwait flags
+	# leaders #
+		- Added new leaders, replaced several portraits
+
+# history #
+	# countries #
+		- Updated Iraq history file
+		- Updated USSR history file
+		- Updated Palestine history file: updated capital location
+		- USA.txt: added new starting national spirits
+		- PRC.txt: added new starting national spirits
+		- YEM.txt: updated ruling ideology
+		- SYR.txt: updated elections
+		- SPR.txt: changed party popularities
+		- Updated several nations for new leaders
+	# states #
+		- Updated state 454: removed provinces
+		- Added state 840: palistine
+
+# interface #
+	- countrytechtreeview.gui: updated years for air technologies, removed orange box, updated subtitles
+	- countrytechtreeview.gui: added new trees for air technologies
+	- mod_technologies.gfx: added references for air technologies
+	- countrytechtreeview.gui: updated sub_technology slots for air tree
+	- strategicairview.gfx: added references to new sub_technologies
+	- eventpictures.gfx: added references for new event pictures
+	- ideas.gfx: updated soviet icons due to changed names, added references to new icons
+
+# localisation #
+	- equipment_l_english: removed all nation-specific equipment
+	- added equip_air_l_english: removed all content, added mod-specific content
+	- events_l_english: added localisation for new events
+	- parties_l_english: updated usa and syria parties
+	- state_names_l_english: updated names for state 454 and 840
+	- mod_ideas_l_english: added localisation for new USA and PRC national spirits
+	- added mod_opinion_modifiers_l_english: added localisation for USA opinion modifier
+	- countries_l_english: renamed several countries
+
+# map #
+	- regenerated airports.txt, buildings.txt, rocketsites.txt
+
+# music #
+	- added two new songs

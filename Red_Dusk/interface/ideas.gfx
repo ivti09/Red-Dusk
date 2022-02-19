@@ -6346,11 +6346,11 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_SOV_memories_of_perestroika_icon"
-		texturefile = "gfx/interface/ideas/memories_of_perestroika.dds"
+		texturefile = "gfx/interface/ideas/SOV_memories_of_perestroika.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_SOV_memories_of_august_coup_icon"
-		texturefile = "gfx/interface/ideas/memories_of_august_coup.dds"
+		texturefile = "gfx/interface/ideas/SOV_memories_of_august_coup.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_SOV_stagnating_economy_icon"
@@ -6358,15 +6358,49 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_SOV_militarised_industry_icon"
-		texturefile = "gfx/interface/ideas/militarised_industry.dds"
+		texturefile = "gfx/interface/ideas/SOV_militarised_industry.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_SOV_party_infighting_icon"
-		texturefile = "gfx/interface/ideas/party_infighting.dds"
+		texturefile = "gfx/interface/ideas/SOV_party_infighting.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_SOV_rising_separatism_icon"
-		texturefile = "gfx/interface/ideas/rising_separatism.dds"
+		texturefile = "gfx/interface/ideas/SOV_rising_separatism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PRC_legacy_xiaoping_reform_icon"
+		texturefile = "gfx/interface/ideas/PRC_legacy_xiaoping_reform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_USA_stagnating_economy_icon"
+		texturefile = "gfx/interface/ideas/stagnating_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_last_bastion_icon"
+		texturefile = "gfx/interface/ideas/USA_last_bastion.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_military_spending_icon"
+		texturefile = "gfx/interface/ideas/USA_military_spending.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_misdirected_foreign_policy_icon"
+		texturefile = "gfx/interface/ideas/USA_misdirected_foreign_policy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_second_amendment_icon"
+		texturefile = "gfx/interface/ideas/USA_second_amendment.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_the_constitution_icon"
+		texturefile = "gfx/interface/ideas/USA_the_constitution.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_three_party_primacy_icon"
+		texturefile = "gfx/interface/ideas/USA_three_party_primacy.dds"
 	}
 	
 }

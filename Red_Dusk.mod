@@ -1,4 +1,4 @@
-version="0.1.8e"
+version="0.1.9d"
 tags={
 	"Alternative History"
 	"Events"
@@ -21,6 +21,7 @@ replace_path="common/scripted_localisation"
 replace_path="common/units/names_divisions"
 replace_path="common/units/names_ships"
 replace_path="common/characters"
+replace_path="common/opinion_modifiers"
 replace_path="history/units"
 replace_path="history/states"
 replace_path="history/countries"

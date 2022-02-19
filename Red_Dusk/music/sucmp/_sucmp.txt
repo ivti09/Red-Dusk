@@ -108,6 +108,22 @@ music = {
 	}
 }
 music = {
+	song = "Kerber-Ratne_igre"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Modern_Talking-Who_Will_Save_The_World"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "Mr._Blue_Sky"
 	chance = {
 		modifier = {
@@ -157,14 +173,6 @@ music = {
 }
 music = {
 	song = "Prljavo_Kazaliste_Ne_zovi_mama_doktora"
-	chance = {
-		modifier = {
-			factor = 1
-		}
-	}
-}
-music = {
-	song = "Sacred_War"
 	chance = {
 		modifier = {
 			factor = 1

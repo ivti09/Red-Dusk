@@ -3048,6 +3048,19 @@ spriteTypes = {
 		name = "GFX_report_event_SOV_resignation"
 		texturefile = "gfx/event_pictures/report_event_SOV_resignation.dds"
 	}
+		spriteType = {
+		name = "GFX_report_event_SOV_the_meeting"
+		texturefile = "gfx/event_pictures/report_event_the_meeting.dds"
+	}
+		spriteType = {
+		name = "GFX_report_event_SOV_the_meeting_con"
+		texturefile = "gfx/event_pictures/report_event_meeting_continues.dds"
+	}
+	
+	##USA##
+	
+	
+	
 	spriteType = {
 		name = "GFX_report_event_USA_liberty_statue"
 		texturefile = "gfx/event_pictures/report_event_USA_state.dds"

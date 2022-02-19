@@ -367,7 +367,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_subtech_carrier_plane_bg"
 		textureFile = "gfx/interface/subtech_carrier_plane_bg.dds"
-	}	
+	}
 	
 	spriteType = {
 		name = "GFX_subtechnology_available_item_bg"

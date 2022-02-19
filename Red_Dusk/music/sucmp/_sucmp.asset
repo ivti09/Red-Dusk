@@ -63,10 +63,6 @@ music = {
 	file = "Polyushka_Polye.ogg"
 }
 music = {
-	name = "Sacred_War"
-	file = "Sacred_War.ogg"
-}
-music = {
 	name = "Swallowing_Dust"
 	file = "Swallowing_Dust.ogg"
 }
@@ -101,4 +97,12 @@ music = {
 music = {
 	name = "Mr._Blue_Sky"
 	file = "Mr._Blue_Sky.ogg"
+}
+music = {
+	name = "Modern_Talking-Who_Will_Save_The_World"
+	file = "Modern_Talking-Who_Will_Save_The_World.ogg"
+}
+music = {
+	name = "Kerber-Ratne_igre"
+	file = "Kerber-Ratne_igre.ogg"
 }

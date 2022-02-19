@@ -11,6 +11,8 @@ if = {
 
 set_convoys = 15
 
+recruit_character = SIA_chuan_leekpai
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

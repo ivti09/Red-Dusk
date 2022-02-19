@@ -12,7 +12,8 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	fascism = 80
-	neutrality = 20
+	fascism = 99
+	neutrality = 1
 }

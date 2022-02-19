@@ -1,0 +1,522 @@
+technologies = {
+
+	fighter_1960 = {
+
+		enable_equipments = {
+			fighter_equipment_0
+		}
+
+		path = {
+			leads_to_tech = fighter_1970
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 2 }
+		}
+
+		sub_technologies = {
+			carrier_fighter_1960
+			interceptor_1960
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	carrier_fighter_1960 = {
+
+		enable_equipments = {
+			carrier_fighter_equipment_0
+		}
+
+		research_cost = 2
+		start_year = 1960
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	interceptor_1960 = {
+
+		enable_equipments = {
+			interceptor_equipment_0
+		}
+
+		research_cost = 2
+		start_year = 1960
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	fighter_1970 = {
+
+		enable_equipments = {
+			fighter_equipment_1
+		}
+
+		path = {
+			leads_to_tech = fighter_1980
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 4 }
+		}
+
+		sub_technologies = {
+			carrier_fighter_1970
+			interceptor_1970
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	carrier_fighter_1970 = {
+
+		enable_equipments = {
+			carrier_fighter_equipment_1
+		}
+
+		research_cost = 2
+		start_year = 1970
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	interceptor_1970 = {
+
+		enable_equipments = {
+			interceptor_equipment_1
+		}
+
+		research_cost = 2
+		start_year = 1970
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	fighter_1980 = {
+
+		enable_equipments = {
+			fighter_equipment_2
+		}
+
+		path = {
+			leads_to_tech = fighter_1990
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1980
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 6 }
+		}
+
+		sub_technologies = {
+			carrier_fighter_1980
+			interceptor_1980
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	carrier_fighter_1980 = {
+
+		enable_equipments = {
+			carrier_fighter_equipment_2
+		}
+
+		research_cost = 2
+		start_year = 1980
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	interceptor_1980 = {
+
+		enable_equipments = {
+			interceptor_equipment_2
+		}
+
+		research_cost = 2
+		start_year = 1980
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	fighter_1990 = {
+
+		enable_equipments = {
+			fighter_equipment_3
+		}
+
+		path = {
+			leads_to_tech = fighter_2000
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = stealth_fighter_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1990
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 8 }
+		}
+
+		sub_technologies = {
+			carrier_fighter_1990
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	carrier_fighter_1990 = {
+
+		enable_equipments = {
+			carrier_fighter_equipment_3
+		}
+
+		research_cost = 2
+		start_year = 1990
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	fighter_2000 = {
+
+		enable_equipments = {
+			fighter_equipment_4
+		}
+
+		path = {
+			leads_to_tech = fighter_2010
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2000
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 10 }
+		}
+
+		sub_technologies = {
+			carrier_fighter_2000
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	carrier_fighter_2000 = {
+
+		enable_equipments = {
+			carrier_fighter_equipment_4
+		}
+
+		research_cost = 2
+		start_year = 2000
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	fighter_2010 = {
+
+		enable_equipments = {
+			fighter_equipment_5
+		}
+
+		path = {
+			leads_to_tech = fighter_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2010
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 12 }
+		}
+
+		sub_technologies = {
+			carrier_fighter_2010
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	carrier_fighter_2010 = {
+
+		enable_equipments = {
+			carrier_fighter_equipment_5
+		}
+
+		research_cost = 2
+		start_year = 2010
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	fighter_2020 = {
+
+		enable_equipments = {
+			fighter_equipment_6
+		}
+
+		research_cost = 2
+		start_year = 2020
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 14 }
+		}
+
+		sub_technologies = {
+			carrier_fighter_2020
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	carrier_fighter_2020 = {
+
+		enable_equipments = {
+			carrier_fighter_equipment_6
+		}
+
+		research_cost = 2
+		start_year = 2020
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	stealth_fighter_2000 = {
+
+		enable_equipments = {
+			stealth_fighter_equipment_0
+		}
+
+		path = {
+			leads_to_tech = stealth_fighter_2010
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2000
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 10 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	stealth_fighter_2010 = {
+
+		enable_equipments = {
+			stealth_fighter_equipment_1
+		}
+
+		path = {
+			leads_to_tech = stealth_fighter_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2010
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 12 }
+		}
+
+		sub_technologies = {
+			carrier_stealth_fighter_2010
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	carrier_stealth_fighter_2010 = {
+
+		enable_equipments = {
+			carrier_stealth_fighter_equipment_0
+		}
+
+		research_cost = 2
+		start_year = 2010
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	stealth_fighter_2020 = {
+
+		enable_equipments = {
+			stealth_fighter_equipment_2
+		}
+
+		research_cost = 2
+		start_year = 2020
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 14 }
+		}
+
+		sub_technologies = {
+			carrier_stealth_fighter_2020
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+	carrier_stealth_fighter_2020 = {
+
+		enable_equipments = {
+			carrier_stealth_fighter_equipment_1
+		}
+
+		research_cost = 2
+		start_year = 2020
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+		}
+
+	}
+
+}
