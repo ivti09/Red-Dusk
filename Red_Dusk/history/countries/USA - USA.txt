@@ -58,3 +58,15 @@ USA = {
 	add_to_faction = TUR
 	add_to_faction = GRE
 }
+
+USA = {
+	if = {
+		limit = {
+			has_idea = USA_misdirected_foreign_policy
+		}
+		set_rule = {
+			can_not_declare_war = yes
+			can_send_volunteers = no
+		}
+	}
+}

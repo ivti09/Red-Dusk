@@ -52,7 +52,7 @@ music = {
 	}
 }
 music = {
-	song = "Escalation"
+	song = "An_Escalation"
 	chance = {
 		modifier = {
 			factor = 1

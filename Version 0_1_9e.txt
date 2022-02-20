@@ -1,0 +1,33 @@
+# common #
+	# on_actions #
+		- on_actions_mod.txt: added USA opinion modifier to all non-democratic countries
+		- Added replace_path
+	# ideas #
+		- USA.txt: added scripted localisation for misdirected foreign policy, removed rules
+		- Renamed all country idea files to lowercase tag to prevent errors
+		- zzz_generic.txt: removed conflicting statements
+	# national_focus #
+		- ussr.txt: updated error with focus prerequisites
+	# scripted_effects #
+		- scripted_effects.txt: removed conflicting statements
+	- Added folder ai_focuses, added replace_path
+		- Added generic.txt file
+
+# history #
+	# countries #
+		- USA.txt: added rules for misdirected foreign policy idea
+
+# interface #
+	- Added frontendmainview.gui: updated animations for mod logo
+
+# localisation #
+	# english #
+		- Added mod_scripted_localisation_l_english.yml: added localisation for scripted effect
+		- sucmp_music_l_english.yml: renamed escalation to an_escalation due to conflicting files
+
+# music #
+	# sucmp #
+		- Renamed escalation.ogg to An_Escalation.ogg due to conflicting files
+		- _sucmp.txt: renamed escalation to an escalation due to conflicting files
+		- Freestyle Goodbye Forever: updated file to have correct sample rate
+		- _sucmp.asset: renamed escalation to an_escalation due to conflicting files
