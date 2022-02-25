@@ -1,0 +1,20 @@
+###########################
+# News Event
+###########################
+
+add_namespace = Old_Times_news
+
+
+news_event = {
+	id = ussr.5
+	title = Yanayev resigns as general secretary
+	desc = Yanayevs_resigns_as_general_secretary
+	picture = Yanayev_resignation.dds
+
+	major = yes
+
+	is_triggered_only = yes
+	is_triggered_once = yes
+	option ={
+		name = time for a regime change?
+	}
