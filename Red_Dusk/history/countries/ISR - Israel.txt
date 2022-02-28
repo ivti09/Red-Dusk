@@ -2,6 +2,8 @@
 
 set_convoys = 5
 
+recruit_character = ISR_ezer_weizman
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
@@ -10,5 +12,5 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 80
-	communism = 20
+	fascism = 20
 }

@@ -1,0 +1,8 @@
+USA_congress = {
+	icon = usa_congress
+	allowed = {
+		original_tag = USA
+	}
+
+	priority = 100
+}

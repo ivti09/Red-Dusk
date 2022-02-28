@@ -1203,3 +1203,10 @@
 
  naval_uav_tech:0 "Unmanned Aerial Vehicle"
  naval_uav_tech_desc:0 "With advancements in computing technology, aircraft can now be operated remotely, reducing any dangers to humans while also reducing manufacturing costs."
+
+ mod_cat_fighter:0 "Fighter models"
+ mod_cat_attacker:0 "Close Air Support models"
+ mod_cat_bomber:0 "Bomber models"
+ mod_cat_stealth:0 "Stealth Aircraft"
+ mod_cat_naval_aircraft:0 "Carrier-capable models"
+ mod_cat_interceptor:0 "Interceptor models"

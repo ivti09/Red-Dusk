@@ -6403,4 +6403,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/USA_three_party_primacy.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_IRQ_kurdish_rebel_icon"
+		texturefile = "gfx/interface/ideas/IRQ_kurdish_rebel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_IRQ_Disorganised_Army_icon"
+		texturefile = "gfx/interface/ideas/IRQ_Disorganised_Army.dds"
+	}
 }

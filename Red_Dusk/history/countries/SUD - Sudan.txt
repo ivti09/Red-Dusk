@@ -2,6 +2,8 @@
 
 set_convoys = 20
 
+recruit_character = SUD_omar_al_bashir
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

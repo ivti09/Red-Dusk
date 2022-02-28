@@ -4,6 +4,10 @@
 
 set_convoys = 5
 
+add_ideas = IRQ_western_embargo
+add_ideas = IRQ_kurdish_rebels
+add_ideas = IRQ_disorganized_army
+
 recruit_character = IRQ_saddam_hussein
 
 set_politics = {

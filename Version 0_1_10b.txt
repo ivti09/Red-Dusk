@@ -1,0 +1,66 @@
+# common #
+	# units #
+		# equipment #
+			- Added new file: attacker_airframe.txt: added equipment for CAS aircraft
+			- Added new file: bomber_airframe.txt: added equipment for bombers
+			- Added twin_engine_airframe and quad_engine_airframe: removed all content (except transport planes) to prevent conflicts
+			- quad_engine_airframe.txt: updated stats, resources, and build cost
+			- fighter_airframe.txt: updated stats, resources, and build cost
+			- attacker_airframe.txt: updated stats, resources, and build cost
+			- bomber_airframe.txt: updated stats, resources, and build cost
+		- air.txt: updated references for carrier, attacker, and bomber aircraft
+	# technologies #
+		- air_techs.txt: added attacker and bomber aircraft line
+		- air_techs.txt: updated research times, categories, and ai_will_do
+	- Added folder technology_tags
+		- Added file 00_technology.txt: added new tech categories
+	# ideas #
+		- SOV.txt: fixed an error that would prevent any production
+		- Added IRQ.txt: added iraq ideas
+	# decisions #
+		- Added folder: categories
+			- Added file: USA_decision_categories, removed all content
+		- Added file: USA.txt, removed all content
+	# characters #
+		- Updated/added character files for: Palestine, Israel, Jordan, Congo, Kenya, Tanzania, Uganda, Somalia, Rwanda, Burundi, Ethiopia, Eritrea, Sudan
+
+# events #
+	- Added news_events.txt
+
+# gfx #
+	# interface #
+		# technologies #
+			- Added image files for SOV attacker and bomber aircraft
+			- Added image files for generic aircraft
+			- Replaced image for transport plane
+			- Replaced images for mechanized 2 and 3 techs
+			- Added image files for USA aircraft
+		# ideas #
+			- Added images for iraq ideas
+	# flags #
+		- New flags for Palestine, Congo, Somalia, Sudan
+	# leaders #
+		- Added leader portraits for: Palestine, Israel, Jordan, Congo, Kenya, Tanzania, Uganda, Somalia, Rwanda, Burundi, Ethiopia, Eritrea, Sudan
+
+# history #
+	# countries #
+		- IRQ.txt: added ideas
+		- New leaders for: Palestine, Israel, Jordan, Congo, Kenya, Tanzania, Uganda, Somalia, Rwanda, Burundi, Ethiopia, Eritrea, Sudan
+
+# interface #
+	- countrytechtreeview.gui: added attacker and bomber tree, removed vanilla trees
+	- mod_technologies.gfx: added references for SOV attacker and bomber aircraft, and generic aircraft
+	- ideas.gfx: added references for Iraq ideas
+	- mod_technologies.gfx: added references for USA aircraft
+
+# localisation #
+	# english #
+		- equip_air_l_english.yml: added localisation for CAS, bombers, and transport planes, updated localisation for fighters
+		- research_l_english.yml: added localisation for new tech categories
+		- equipment_l_english.yml: renamed mechanized 1 to truck 2
+		- equip_air_l_english.yml: added localisation for USA aircraft
+		- countries_l_english.yml: changed the name of Palestine and Somalia
+		- events_l_english.yml: grammar fixes
+		- parties_l_english.yml: changed name of iraqi ruling party
+		- reddusk_focus_l_english.yml: grammar fixes
+		- added old_times_l_english.yml

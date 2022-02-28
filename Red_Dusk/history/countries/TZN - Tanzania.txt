@@ -2,6 +2,8 @@
 
 set_convoys = 20
 
+recruit_character = TZN_benjamin_mkapa
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

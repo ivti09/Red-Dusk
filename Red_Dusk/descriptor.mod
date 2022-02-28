@@ -1,4 +1,4 @@
-version="0.1.9e"
+version="0.1.10b"
 tags={
 	"Alternative History"
 	"Events"
@@ -30,4 +30,3 @@ replace_path="history/countries"
 replace_path="history/general"
 replace_path="events"
 supported_version="1.11.*"
-path=""
