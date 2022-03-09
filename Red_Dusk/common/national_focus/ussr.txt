@@ -146,10 +146,10 @@
 	}
 
 	focus = {
-        id = SOV_yanayev's_resignation
-        icon = GFX_focus_SOV_yanayev's_resignation
-        x = 0
-        y = 5
+        	id = SOV_yanayev's_resignation
+        	icon = GFX_focus_SOV_yanayev's_resignation
+        	x = 0
+        	y = 5
 		prerequisite = {focus = SOV_minor_economic_reforms}
 		prerequisite = {focus = SOV_defund_the_military}
 		relative_position_id = SOV_status_of_the_union
@@ -164,6 +164,9 @@
 		completion_reward = {
 			SOV = {
 				country_event = { id = ussr.5 }
+			}
+			hidden_effect = {
+				news_event = { id = old_times_news.1 hours = 6 }
 			}
 		}
 	}

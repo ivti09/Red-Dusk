@@ -55,6 +55,7 @@ recruit_character = SOV_boris_pugo
 recruit_character = SOV_mikhail_gorbachev
 recruit_character = SOV_vladimir_putin
 recruit_character = SOV_party
+recruit_character = SOV_mikhail_kolesnikov
 
 create_faction = "Moscow Accord"
 SOV = {

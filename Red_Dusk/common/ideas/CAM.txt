@@ -1,0 +1,41 @@
+ideas = {
+	
+	country = {
+	
+		CAM_legacy_of_polpot = {
+			name = CAM_legacy_of_polpot_name
+
+			removal_cost = -1
+
+			picture = CAM_legacy_of_polpot_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.3
+				monthly_population = -0.5
+			}
+		}
+
+		CAM_internal_conflict = {
+			name = CAM_internal_conflict_name
+
+			removal_cost = -1
+
+			picture = CAM_internal_conflict_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.1
+			}
+		}
+
+	}
+
+}

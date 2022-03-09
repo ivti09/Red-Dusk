@@ -4,6 +4,9 @@
 
 set_research_slots = 3
 
+add_ideas = CAM_legacy_of_polpot
+add_ideas = CAM_internal_conflict
+
 recruit_character = CAM_norodom_ranariddh
 
 set_politics = {

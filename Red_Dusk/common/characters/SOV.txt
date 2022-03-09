@@ -1,5 +1,7 @@
 characters = {
 
+	## Leaders ##
+
 	SOV_gennady_yanayev = {
 		name = "Gennady Yanayev"
 		portraits = {
@@ -14,7 +16,6 @@ characters = {
 			id = -1
 		}
 	}
-
 	SOV_aleksandr_korzhakov = {
 		name = "Aleksandr Korzhakov"
 		portraits = {
@@ -28,8 +29,7 @@ characters = {
 			expire = "2050.3.1.1"
 			id = -1
 		}
-	}
-	
+	}	
 	SOV_dmitry_yazov = {
 		name = "Dmitry Yazov"
 		portraits = {
@@ -44,7 +44,6 @@ characters = {
 			id = -1
 		}
 	}
-
 	SOV_anatoly_chernyaev = {
 		name = "Anatoly Chernyaev"
 		portraits = {
@@ -59,7 +58,6 @@ characters = {
 			id = -1
 		}
 	}
-
 	SOV_boris_pugo = {
 		name = "Boris Pugo"
 		portraits = {
@@ -74,7 +72,6 @@ characters = {
 			id = -1
 		}
 	}
-
 	SOV_mikhail_gorbachev = {
 		name = "Mikhail Gorbachev"
 		portraits = {
@@ -89,7 +86,6 @@ characters = {
 			id = -1
 		}
 	}
-
 	SOV_vladimir_putin = {
 		name = "Vladimir Putin"
 		portraits = {
@@ -104,7 +100,6 @@ characters = {
 			id = -1
 		}
 	}
-
 	SOV_party = {
 		name = "Communist Party of the Soviet Union"
 		portraits = {
@@ -117,6 +112,26 @@ characters = {
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
+		}
+	}
+
+	## Generals ##
+
+	SOV_mikhail_kolesnikov = {
+		name = "Mikhail Kolesnikov"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOV/Mikhail_Kolesnikov.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
 

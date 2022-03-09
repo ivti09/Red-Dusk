@@ -32,4 +32,16 @@
  USA_last_bastion_name_desc:0 "What makes America the Last Bastion on Earth? It’s the shining beacon of Democracy and Capitalism in the world; the city on the hill so to speak. And as such, this comes with the system of Representative Republicanism that is so fondly beloved in the American nation... And all of its wonderful caveats."
 
  PRC_legacy_xiaoping_reform_name:0 "Legacy of Deng Xiaoping's Reforms"
- PRC_legacy_xiaoping_reform_name_desc:0 ""
+
+ oil_producers_name:0 "Oil Producers"
+
+ LAO_undeveloped_infrastructure_name:0 "Undeveloped Infrastructure"
+ LAO_legacy_american_bombing_name:0 "Legacy of American Bombing"
+ #LAO_balance_vin_prc_name:0 "Balance Vietnam and China influence"
+
+ CAM_legacy_of_polpot_name:0 "Legacy of Pol Pot Regime"
+ CAM_internal_conflict_name:0 "Internal Conflict"
+
+ VIN_fifty_years_resistance_name:0 "50 Years of Resistance"
+ VIN_doi_moi_name:0 "Doi Moi"
+ VIN_patriotic_tradition_name:0 "Patriotic Tradition"

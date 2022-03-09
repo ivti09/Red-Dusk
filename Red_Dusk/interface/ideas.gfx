@@ -6402,7 +6402,11 @@ spriteTypes = {
 		name = "GFX_idea_USA_three_party_primacy_icon"
 		texturefile = "gfx/interface/ideas/USA_three_party_primacy.dds"
 	}
-	
+
+	spriteType = {
+		name = "GFX_idea_IRQ_western_embargo_icon"
+		texturefile = "gfx/interface/ideas/IRQ_western_embargo.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_IRQ_kurdish_rebel_icon"
 		texturefile = "gfx/interface/ideas/IRQ_kurdish_rebel.dds"
@@ -6410,5 +6414,45 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_IRQ_Disorganised_Army_icon"
 		texturefile = "gfx/interface/ideas/IRQ_Disorganised_Army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_oil_producers_icon"
+		texturefile = "gfx/interface/ideas/oil_producers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_LAO_undeveloped_infrastructure_icon"
+		texturefile = "gfx/interface/ideas/LAO_undeveloped_infrastructure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_LAO_legacy_american_bombing_icon"
+		texturefile = "gfx/interface/ideas/LAO_legacy_american_bombing.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_LAO_balance_vin_prc_icon"
+		texturefile = "gfx/interface/ideas/LAO_balance_vin_prc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CAM_legacy_of_polpot_icon"
+		texturefile = "gfx/interface/ideas/CAM_legacy_of_polpot.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAM_internal_conflict_icon"
+		texturefile = "gfx/interface/ideas/CAM_internal_conflict.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VIN_fifty_years_resistance_icon"
+		texturefile = "gfx/interface/ideas/VIN_fifty_years_resistance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VIN_doi_moi_icon"
+		texturefile = "gfx/interface/ideas/VIN_doi_moi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VIN_patriotic_tradition_icon"
+		texturefile = "gfx/interface/ideas/VIN_patriotic_tradition.dds"
 	}
 }

@@ -1,0 +1,18 @@
+characters = {
+
+	CAR_ange_félix = {
+		name = "Ange Félix Patassé"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Ange-Félix_Patassé.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

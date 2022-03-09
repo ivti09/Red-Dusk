@@ -1070,4 +1070,228 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/USA_stealth_bomber_2020.dds"
 	}
 
+	## Tank Tech Tree Icons ##
+
+	SpriteType = {
+		name = "GFX_tank_ammo_1960_medium"
+		texturefile = "gfx/interface/technologies/tank_ammo_icn_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank_ammo_1970_medium"
+		texturefile = "gfx/interface/technologies/tank_ammo_icn_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank_ammo_1980_medium"
+		texturefile = "gfx/interface/technologies/tank_ammo_icn_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank_ammo_1990_medium"
+		texturefile = "gfx/interface/technologies/tank_ammo_icn_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank_ammo_2000_medium"
+		texturefile = "gfx/interface/technologies/tank_ammo_icn_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank_ammo_2010_medium"
+		texturefile = "gfx/interface/technologies/tank_ammo_icn_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank_ammo_2020_medium"
+		texturefile = "gfx/interface/technologies/tank_ammo_icn_7.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tank_reactive_armour_1_medium"
+		texturefile = "gfx/interface/technologies/tank_era_icn_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank_reactive_armour_2_medium"
+		texturefile = "gfx/interface/technologies/tank_era_icn_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank_reactive_armour_3_medium"
+		texturefile = "gfx/interface/technologies/tank_era_icn_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank_reactive_armour_4_medium"
+		texturefile = "gfx/interface/technologies/tank_era_icn_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tank_aps_soft_medium"
+		texturefile = "gfx/interface/technologies/tank_aps_icn_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank_aps_hard_medium"
+		texturefile = "gfx/interface/technologies/tank_aps_icn_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ifv_anti_tank_missile_1_medium"
+		texturefile = "gfx/interface/technologies/ifv_atgm_icn_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ifv_anti_tank_missile_2_medium"
+		texturefile = "gfx/interface/technologies/ifv_atgm_icn_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ifv_anti_tank_missile_3_medium"
+		texturefile = "gfx/interface/technologies/ifv_atgm_icn_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ifv_anti_tank_missile_4_medium"
+		texturefile = "gfx/interface/technologies/ifv_atgm_icn_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ifv_anti_tank_missile_5_medium"
+		texturefile = "gfx/interface/technologies/ifv_atgm_icn_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_ifv_anti_tank_missile_6_medium"
+		texturefile = "gfx/interface/technologies/ifv_atgm_icn_6.dds"
+	}
+
+	## Generic Tanks ##
+
+	SpriteType = {
+		name = "GFX_mbt_tank_1960_medium"
+		texturefile = "gfx/interface/technologies/generic_mbt_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_mbt_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/generic_mbt_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_mbt_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/generic_mbt_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_mbt_tank_1990_medium"
+		texturefile = "gfx/interface/technologies/generic_mbt_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_mbt_tank_2000_medium"
+		texturefile = "gfx/interface/technologies/generic_mbt_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_mbt_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/generic_mbt_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_mbt_tank_2020_medium"
+		texturefile = "gfx/interface/technologies/generic_mbt_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ifv_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/generic_ifv_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_ifv_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/generic_ifv_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_ifv_tank_1990_medium"
+		texturefile = "gfx/interface/technologies/generic_ifv_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_ifv_tank_2000_medium"
+		texturefile = "gfx/interface/technologies/generic_ifv_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_ifv_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/generic_ifv_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_ifv_tank_2020_medium"
+		texturefile = "gfx/interface/technologies/generic_ifv_tank.dds"
+	}
+
+	## Nation-Specific Tanks ##
+
+	# SOV #
+
+	SpriteType = {
+		name = "GFX_SOV_mbt_tank_1960_medium"
+		texturefile = "gfx/interface/technologies/SOV_mbt_tank_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mbt_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/SOV_mbt_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mbt_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/SOV_mbt_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mbt_tank_1990_medium"
+		texturefile = "gfx/interface/technologies/SOV_mbt_tank_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mbt_tank_2000_medium"
+		texturefile = "gfx/interface/technologies/SOV_mbt_tank_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mbt_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/SOV_mbt_tank_2010.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mbt_tank_2020_medium"
+		texturefile = "gfx/interface/technologies/SOV_mbt_tank_2020.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_ifv_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/SOV_ifv_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_ifv_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/SOV_ifv_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_ifv_tank_1990_medium"
+		texturefile = "gfx/interface/technologies/SOV_ifv_tank_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_ifv_tank_2020_medium"
+		texturefile = "gfx/interface/technologies/SOV_ifv_tank_2020.dds"
+	}
+
+	# USA #
+
+	SpriteType = {
+		name = "GFX_USA_mbt_tank_1960_medium"
+		texturefile = "gfx/interface/technologies/USA_mbt_tank_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mbt_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/USA_mbt_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mbt_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/USA_mbt_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mbt_tank_1990_medium"
+		texturefile = "gfx/interface/technologies/USA_mbt_tank_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mbt_tank_2000_medium"
+		texturefile = "gfx/interface/technologies/USA_mbt_tank_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mbt_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/USA_mbt_tank_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_ifv_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/USA_ifv_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_ifv_tank_1990_medium"
+		texturefile = "gfx/interface/technologies/USA_ifv_tank_1990.dds"
+	}
+
 }

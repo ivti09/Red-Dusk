@@ -4,6 +4,8 @@
 
 set_convoys = 10
 
+add_ideas = PER_oil_producers
+
 recruit_character = PER_mohammad_khatami
 
 set_politics = {

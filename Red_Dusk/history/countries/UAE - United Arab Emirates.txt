@@ -4,6 +4,10 @@
 
 set_convoys = 5
 
+add_ideas = UAE_oil_producers
+
+recruit_character = UAE_zayed_bin_sultan
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

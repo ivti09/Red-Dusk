@@ -1,0 +1,64 @@
+# common #
+	# technologies #
+		- Added file NSB_armor.txt: removed all content, added mod content
+	# units #
+		# equipment #
+			- Added file main_battle_tank.txt: added mod equipment
+			- Added file infantry_fighting_vehicle.txt: added mod equipment
+	# ideas #
+		- IRQ: added icon for IRQ_western_embargo, added new oil producers national spirit
+		- Added files for SAU, KUW, OMA, UAE, SYR, PER: added oil producers national spirit
+		- Added files for LAO, CAM, VIN: added new national spirits
+	# characters #
+		- Added Djibouti character file
+		- SOV: added Mikhail Kolesnikov general for testing
+		- Added/updated character files for: Republic of Congo, Gabon, Cameroon, Central African Republic, Chad, Yemen, Oman, Qatar, United Arab Emirates, Equatorial Guinea
+	# national_focus #
+		- ussr.txt: added hidden effect for resignation world news event
+
+# events #
+	- news_events.txt: added reference to new global event picture for resignation event
+
+# gfx #
+	# interface #
+		- Added armortech_bg.dds: replaced with mod image
+		# technologies #
+			- Added tech tree images for nation-specific armoured vehicles
+			- Added tech tree images for generic armoured vehicles
+			- Added tech tree images for armour tech modifiers
+			- Removed gwtank.dds and improved_medium_tank.dds
+		# ideas #
+			- Added IRQ embargo national spirit icon
+			- Added new national spirit icons for middle east and asia
+	# leaders #
+		- Added leader for Djibouti
+		- SOV: added Mikhail Kolesnikov general for testing
+		- Added new leaders for: Republic of Congo, Gabon, Cameroon, Central African Republic, Chad, Yemen, Oman, Qatar, United Arab Emirates, Equatorial Guinea
+	# event_pictures #
+		- Added event picture for resignation global event
+	# flags #
+		- Added new Ethiopia and Iran flags
+		- Updated several flags that didn't have ideologies attached
+
+# history #
+	# countries #
+		- Added Djibouti country file
+		- IRQ, SAU, KUW, OMA, UAE, SYR, PER, LAO, CAM, VIN: added references to new national spirits
+		- SOV: added Mikhail Kolesnikov general for testing
+		- Added references to new leaders for: Republic of Congo, Gabon, Cameroon, Central African Republic, Chad, Yemen, Oman, Qatar, United Arab Emirates, Equatorial Guinea
+
+# interface #
+	- countrytechtreeview.gui: updated armour tree text and gui dimensions, added armour trees
+	- countrytechtreeview.gui: updated width of air tech tree gui
+	- mod_technologies.gfx: added references to new amour tree images
+	- ideas.gfx: added references for new national spirit icons
+	- eventwindow.gui: updated world news event gui
+	- eventpictures.gfx: added reference to resignation global event picture
+
+# localisation #
+	- research_l_english.yml: added localisation for armour technologies
+	- ship_modules_l_english.yml: updated nation-specific localisation
+	- equipment_l_english.yml: removed tank localisation, added mod-specific armour localisation
+	- mod_ideas_l_english.yml: added localisation for new national spirits
+	- countries_l_english.yml: renamed Eritrea, Democratic republic of Congo, Republic of Congo
+	- events_l_english.yml: updated response to one USSR event

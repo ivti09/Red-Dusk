@@ -7,7 +7,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = 
+			picture = IRQ_western_embargo_icon
 
 			allowed = {
 				always = no
@@ -56,6 +56,24 @@ ideas = {
 				army_attack_factor	= -0.3
 				resistance_damage_to_garrison_on_our_occupied_states = 0.5
 				resistance_growth_on_our_occupied_states = 0.5
+			}
+		}
+
+		IRQ_oil_producers = {
+			name = oil_producers_name
+
+			removal_cost = -1
+
+			picture = oil_producers_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				production_speed_synthetic_refinery_factor = 0.1
+				production_speed_fuel_silo_factor = 0.1
 			}
 		}
 	

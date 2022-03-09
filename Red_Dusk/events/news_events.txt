@@ -9,7 +9,7 @@ news_event = {
 	id = old_times_news.1
 	title = old_times_news.1.t
 	desc = old_times_news.1.d
-	picture = GFX_report_event_SOV_resignation
+	picture = GFX_news_yanayev
 
 	major = yes
 

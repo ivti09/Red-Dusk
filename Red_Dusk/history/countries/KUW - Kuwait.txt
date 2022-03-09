@@ -4,6 +4,8 @@
 
 set_convoys = 5
 
+add_ideas = KUW_oil_producers
+
 recruit_character = KUW_jaber
 
 set_politics = {

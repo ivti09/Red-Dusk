@@ -1,0 +1,829 @@
+technologies = {
+
+## Main Battle Tank ##
+
+	mbt_tank_1960 = {
+
+		enable_equipments = {
+			mbt_tank_equipment_0
+		}
+
+		path = {
+			leads_to_tech = mbt_tank_1970
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_ammo_1960
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1960
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 1 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	mbt_tank_1970 = {
+
+		enable_equipments = {
+			mbt_tank_equipment_1
+		}
+
+		path = {
+			leads_to_tech = mbt_tank_1980
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_ammo_1970
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1970
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 5 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	mbt_tank_1980 = {
+
+		enable_equipments = {
+			mbt_tank_equipment_2
+		}
+
+		path = {
+			leads_to_tech = mbt_tank_1990
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_ammo_1980
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_reactive_armour_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1980
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 9 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	mbt_tank_1990 = {
+
+		enable_equipments = {
+			mbt_tank_equipment_3
+		}
+
+		path = {
+			leads_to_tech = mbt_tank_2000
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_ammo_1990
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_aps_soft
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1990
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 13 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	mbt_tank_2000 = {
+
+		enable_equipments = {
+			mbt_tank_equipment_4
+		}
+
+		path = {
+			leads_to_tech = mbt_tank_2010
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_ammo_2000
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_reactive_armour_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 2000
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 17 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	mbt_tank_2010 = {
+
+		enable_equipments = {
+			mbt_tank_equipment_5
+		}
+
+		path = {
+			leads_to_tech = mbt_tank_2020
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_ammo_2010
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 2010
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 21 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	mbt_tank_2020 = {
+
+		enable_equipments = {
+			mbt_tank_equipment_6
+		}
+
+		path = {
+			leads_to_tech = tank_ammo_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 2020
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 25 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	tank_ammo_1960 = {
+
+		research_cost = 1.0
+
+		start_year = 1960
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = 3 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	tank_ammo_1970 = {
+
+		research_cost = 1.0
+
+		start_year = 1970
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = 7 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	tank_ammo_1980 = {
+
+		research_cost = 1.0
+
+		start_year = 1980
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = 11 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	tank_ammo_1990 = {
+
+		research_cost = 1.0
+
+		start_year = 1990
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = 15 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	tank_ammo_2000 = {
+
+		research_cost = 1.0
+
+		start_year = 2000
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = 19 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	tank_ammo_2010 = {
+
+		research_cost = 1.0
+
+		start_year = 2010
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -1 y = 23 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	tank_ammo_2020 = {
+
+		research_cost = 1.0
+
+		start_year = 2020
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -2 y = 25 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	tank_reactive_armour_1 = {
+
+		path = {
+			leads_to_tech = tank_reactive_armour_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+
+		start_year = 1980
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = 11 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	tank_reactive_armour_2 = {
+
+		path = {
+			leads_to_tech = tank_reactive_armour_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+
+		start_year = 1990
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = 15 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	tank_reactive_armour_3 = {
+
+		path = {
+			leads_to_tech = tank_reactive_armour_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+
+		start_year = 2000
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = 19 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	tank_reactive_armour_4 = {
+
+		research_cost = 1.0
+
+		start_year = 2010
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 2 y = 23 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	tank_aps_soft = {
+
+		path = {
+			leads_to_tech = tank_aps_hard
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+
+		start_year = 1990
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -2 y = 13 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	tank_aps_hard = {
+
+		research_cost = 1.0
+
+		start_year = 2010
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -2 y = 21 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+## Infantry Fighting Vehicle ##
+
+	ifv_tank_1970 = {
+
+		enable_equipments = {
+			ifv_tank_equipment_0
+		}
+
+		path = {
+			leads_to_tech = ifv_tank_1980
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ifv_anti_tank_missile_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1970
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 5 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	ifv_tank_1980 = {
+
+		enable_equipments = {
+			ifv_tank_equipment_1
+		}
+
+		path = {
+			leads_to_tech = ifv_tank_1990
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1980
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 9 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	ifv_tank_1990 = {
+
+		enable_equipments = {
+			ifv_tank_equipment_2
+		}
+
+		path = {
+			leads_to_tech = ifv_tank_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 1990
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 13 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	ifv_tank_2000 = {
+
+		enable_equipments = {
+			ifv_tank_equipment_3
+		}
+
+		path = {
+			leads_to_tech = ifv_tank_2010
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ifv_anti_tank_missile_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 2000
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 17 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	ifv_tank_2010 = {
+
+		enable_equipments = {
+			ifv_tank_equipment_4
+		}
+
+		path = {
+			leads_to_tech = ifv_tank_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+
+		start_year = 2010
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 21 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	ifv_tank_2020 = {
+
+		enable_equipments = {
+			ifv_tank_equipment_5
+		}
+
+		research_cost = 2.0
+
+		start_year = 2020
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 25 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	ifv_anti_tank_missile_1 = {
+
+		path = {
+			leads_to_tech = ifv_anti_tank_missile_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+
+		start_year = 1970
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -2 y = 7 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	ifv_anti_tank_missile_2 = {
+
+		path = {
+			leads_to_tech = ifv_anti_tank_missile_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+
+		start_year = 1980
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -2 y = 11 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	ifv_anti_tank_missile_3 = {
+
+		path = {
+			leads_to_tech = ifv_anti_tank_missile_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+
+		start_year = 1990
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -2 y = 15 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	ifv_anti_tank_missile_4 = {
+
+		path = {
+			leads_to_tech = ifv_anti_tank_missile_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+
+		start_year = 2000
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -2 y = 19 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	ifv_anti_tank_missile_5 = {
+
+		path = {
+			leads_to_tech = ifv_anti_tank_missile_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+
+		start_year = 2010
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -2 y = 23 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+	ifv_anti_tank_missile_6 = {
+
+		research_cost = 1.0
+
+		start_year = 2020
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = -2 y = 27 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+		}
+
+	}
+
+}
