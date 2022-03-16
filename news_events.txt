@@ -18,3 +18,17 @@ news_event = {
 	option ={
 		name = time for a regime change?
 	}
+
+	news_event = {
+		id = usa.10
+		title = Invasion of Afganistan
+		desc = Invasion_of_afganistan
+		picture = Afgan_invasion.dds
+	
+		major = yes
+	
+		is_triggered_only = yes
+		is_triggered_once = yes
+		option ={
+			name =  First the British, then the Soviets and now the Americans
+		}
