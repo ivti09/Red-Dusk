@@ -14,5 +14,19 @@ characters = {
 			id = -1
 		}
 	}
+	POL_wojciech_jaruzelski = {
+		name = "Wojciech Jaruzelski"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/Wojciech_Jaruzelski.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 }

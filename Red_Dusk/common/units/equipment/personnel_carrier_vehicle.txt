@@ -1,0 +1,60 @@
+equipments = {
+
+	apc_tank_equipment = {
+		year = 1960
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_apc_tank_equipment		
+		is_buildable = no
+		is_convertable = yes
+		type = armor
+		group_by = archetype
+
+		interface_category = interface_category_armor
+
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+	}
+
+	apc_tank_equipment_0 = {
+		year = 1960
+
+		archetype = apc_tank_equipment
+	}
+	apc_tank_equipment_1 = {
+		year = 1970
+
+		archetype = apc_tank_equipment
+	}
+	apc_tank_equipment_2 = {
+		year = 1980
+
+		archetype = apc_tank_equipment
+	}
+	apc_tank_equipment_3 = {
+		year = 1990
+
+		archetype = apc_tank_equipment
+	}
+	apc_tank_equipment_4 = {
+		year = 2000
+
+		archetype = apc_tank_equipment
+	}
+	apc_tank_equipment_5 = {
+		year = 2010
+
+		archetype = apc_tank_equipment
+	}
+	apc_tank_equipment_6 = {
+		year = 2020
+
+		archetype = apc_tank_equipment
+	}
+
+}

@@ -8,7 +8,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "EventWindow"
-		position = { x=-282 y=-310 }	
+		position = { x=-282 y=-370 }	
 		size = { width = 581 height =427 }
 		moveable = yes
 		Orientation = CENTER		
@@ -467,8 +467,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "EventWindow_News"
-		position = { x=-282 y=-310 }	
-		size = { width = 528 height = 595 }
+		position = { x=-300 y=-400 }	
+		size = { width = 605 height = 851 }
 		moveable = yes
 		Orientation = CENTER
 		show_sound = world_news_effect
@@ -485,11 +485,10 @@ guiTypes = {
 			size = { width = 581 height =121 }
 			Orientation = UPPER_LEFT
 
-			iconType =
-			{
+			iconType = {
 				name ="event_picture"
 				spriteType = "GFX_news_event_001"
-				position = { x = 59 y = 91 }
+				position = { x = 75 y = 160 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
@@ -497,14 +496,14 @@ guiTypes = {
 			iconType = {
 				name ="event_picture_overlay"
 				spriteType = "GFX_event_news_pic_overlay"
-				position = { x = 59 y = 91 }
+				position = { x = 75 y = 160 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}			
 			
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 12 y = 260 }
+				position = { x = 12 y = 320 }
 				font = "hoi4_typewriter22"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
@@ -515,7 +514,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=57 y=25}
+				position = {x=20 y=25}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 			}
@@ -529,7 +528,7 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 39 y = 170 }
+				position = { x = 55 y = 230 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
@@ -548,7 +547,7 @@ guiTypes = {
 
 			gridBoxType = {
 				name = "options_grid"
-				position = { x = 80 y = 35 }
+				position = { x = 85 y = 115 }
 				size = { width = 300 height = 30 }
 				slotsize = { width = 300 height = 47 }
 				max_slots_horizontal = 1

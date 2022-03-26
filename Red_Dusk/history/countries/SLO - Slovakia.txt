@@ -1,6 +1,7 @@
 ﻿capital = 70
 
 recruit_character = SLO_rudolf_schuster
+recruit_character = SLO_pavol_dubček
 
 set_politics = {
 	ruling_party = democratic

@@ -3086,5 +3086,9 @@ spriteTypes = {
 		name = "GFX_news_yanayev"
 		texturefile = "gfx/event_pictures/news_yanayev.dds"
 	}
+	spriteType = {
+		name = "GFX_news_afghan_invasion"
+		texturefile = "gfx/event_pictures/news_afgan_invasion.dds"
+	}
 	
 }

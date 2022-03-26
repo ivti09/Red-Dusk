@@ -12,8 +12,10 @@ state={
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 3 #was: 5
+			industrial_complex = 7
+			air_base = 1
 			arms_factory = 1
-			industrial_complex = 1
+			dockyard = 2
 			3900 = {
 				naval_base = 2
 			}

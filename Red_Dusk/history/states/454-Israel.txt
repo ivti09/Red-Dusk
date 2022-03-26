@@ -4,14 +4,16 @@ state={
 	name="STATE_454" #Israel
 	manpower = 9217000
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = ISR
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 1
-			air_base = 2
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 1
+			air_base = 9
 			4206 = {
 				naval_base = 3
 			}

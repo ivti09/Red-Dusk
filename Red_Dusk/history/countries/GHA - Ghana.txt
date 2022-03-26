@@ -2,6 +2,8 @@
 
 set_convoys = 15
 
+recruit_character = GHA_jerry_rawlings
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -9,8 +11,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
+	democratic = 10
 	fascism = 20
-	communism = 5
-	neutrality = 50
+	neutrality = 70
 }

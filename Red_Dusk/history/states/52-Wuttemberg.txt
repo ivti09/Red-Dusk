@@ -18,10 +18,10 @@ state={
 			708 3 #10
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
+			industrial_complex = 5
 			arms_factory = 2
-			industrial_complex = 1
-			air_base = 6
+			air_base = 8
 		}
 		add_core_of = GER
 	}

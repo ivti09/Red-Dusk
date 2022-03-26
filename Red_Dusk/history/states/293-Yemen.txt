@@ -13,8 +13,9 @@ state={
 		owner = YEM
 		buildings = {
 			infrastructure = 2
+			air_base = 4
+			industrial_complex = 2
 			arms_factory = 1
-			industrial_complex = 1
 			10840 = {
 				naval_base = 1
 			}

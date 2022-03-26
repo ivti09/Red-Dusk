@@ -10,7 +10,8 @@ state={
 		owner = CAN
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 2
+			air_base = 1
 		}
 		add_core_of = CAN
 	}

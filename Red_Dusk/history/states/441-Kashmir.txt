@@ -10,7 +10,9 @@ state={
 		owner = RAJ
 		add_core_of = RAJ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
 		}
 
 		set_demilitarized_zone = yes

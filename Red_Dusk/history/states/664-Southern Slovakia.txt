@@ -13,7 +13,8 @@ state={
 		owner = SLO
 		buildings = {
 			infrastructure = 3 #was: 6
-			industrial_complex = 3
+			industrial_complex = 2
+			#air_base = 1
 		}
 		victory_points = {
 			6573 1 

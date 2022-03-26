@@ -3007,5 +3007,113 @@ spriteTypes = {
 		name = "GFX_focus_SOV_party_meeting"
 		texturefile = "gfx/interface/goals/focus_SOV_party_meeting.dds"
 	}
+	
+	###YAZOV###
+	
+	
+	SpriteType = {
+		name = "GFX_focus_SOV_chairman_yazov"
+		texturefile = "gfx/interface/goals/focus_SOV_Chairman_Yazov.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_marshal_yazov"
+		texturefile = "gfx/interface/goals/focus_SOV_marshal_Yazov.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_eliminate_gorbachev"
+		texturefile = "gfx/interface/goals/focus_SOV_Eliminate_Gorbachev.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_trial_of_the_traitors"
+		texturefile = "gfx/interface/goals/focus_SOV_trial_of_the_traitors.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_secure_the_chairman_position"
+		texturefile = "gfx/interface/goals/focus_SOV_Securing_The_Chairman_Position.dds"
+	}
+		SpriteType = {
+		name = "GFX_focus_SOV_great_industry"
+		texturefile = "gfx/interface/goals/focus_SOV_great_industry.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_infrastructure_initiative"
+		texturefile = "gfx/interface/goals/focus_SOV_infrastructure_initiative.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_matter_of_economy"
+		texturefile = "gfx/interface/goals/focus_SOV_matter_of_economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_ural_industry"
+		texturefile = "gfx/interface/goals/focus_SOV_ural_industry.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_expand_produciton"
+		texturefile = "gfx/interface/goals/focus_SOV_expand_produciton.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Military_Reinassence"
+		texturefile = "gfx/interface/goals/focus_SOV_Military_Reinassence.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_army_first"
+		texturefile = "gfx/interface/goals/focus_SOV_army_first.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_expand_supply"
+		texturefile = "gfx/interface/goals/focus_SOV_expand_supply.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_fix_gorby_mess"
+		texturefile = "gfx/interface/goals/focus_SOV_fix_gorby_mess.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_military_cities"
+		texturefile = "gfx/interface/goals/focus_SOV_military_cities.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_reform_the_CPSU"
+		texturefile = "gfx/interface/goals/focus_SOV_reform_the_CPSU.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_army_might"
+		texturefile = "gfx/interface/goals/focus_SOV_army_might.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_old_tatic"
+		texturefile = "gfx/interface/goals/focus_SOV_old_tatic.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Ustinov_Legacy"
+		texturefile = "gfx/interface/goals/focus_SOV_Ustinov_Legacy.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Armoured_Giant"
+		texturefile = "gfx/interface/goals/focus_SOV_Armoured_Giant.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_new_military_idea"
+		texturefile = "gfx/interface/goals/focus_SOV_new_military_idea.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Shoigu_New_Staff"
+		texturefile = "gfx/interface/goals/focus_SOV_Shoigu_New_Staff.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_army_reform"
+		texturefile = "gfx/interface/goals/focus_SOV_army_reform.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Invincible_and_Legendary"
+		texturefile = "gfx/interface/goals/focus_SOV_Invincible_and_Legendary.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_keep_old_guard"
+		texturefile = "gfx/interface/goals/focus_SOV_keep_old_guard.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_crack_nationalism"
+		texturefile = "gfx/interface/goals/focus_SOV_crack_nationalism.dds"
+	}
 
 }

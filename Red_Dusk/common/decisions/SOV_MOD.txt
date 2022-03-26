@@ -1,0 +1,160 @@
+sov_purging = {
+
+	#sov_reset_purges = {
+	#
+	#	icon = generic_prepare_civil_war
+	#
+	#	allowed = {
+	#		original_tag = SOV
+	#		has_completed_focus = SOV_securing_the_chairman_position
+	#	}
+	#	available = {
+	#		original_tag = SOV
+	#		has_completed_focus = SOV_securing_the_chairman_position
+	#	}
+	#	visible = {
+	#		original_tag = SOV
+	#		has_completed_focus = SOV_securing_the_chairman_position
+	#	}
+	#	cost = 5
+	#	fire_only_once = no
+	#	ai_will_do = {
+	#		factor = 0
+	#	}
+	#	complete_effect = { 
+	#		clr_country_flag = vlad_k_purged
+	#		clr_country_flag = vsp_purged
+	#		clr_country_flag = zyuganov_purged
+	#		
+	#		
+	#	}
+	#}
+
+	sov_purge_vladimir_kryuchkov = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+			has_completed_focus = SOV_securing_the_chairman_position
+		}
+		available = {
+			original_tag = SOV
+			has_completed_focus = SOV_securing_the_chairman_position
+		}
+		visible = {
+			original_tag = SOV
+			has_completed_focus = SOV_securing_the_chairman_position
+		}
+		days_remove = 3
+		modifier {
+			political_power_cost = 0.50
+		}
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			set_country_flag = vlad_k_purged
+			
+		}
+	}
+	
+	sov_purge_vsp = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+			has_completed_focus = SOV_securing_the_chairman_position
+		}
+		available = {
+			original_tag = SOV
+			has_completed_focus = SOV_securing_the_chairman_position
+		}
+		visible = {
+			original_tag = SOV
+			has_completed_focus = SOV_securing_the_chairman_position
+		}
+		days_remove = 3
+		modifier {
+			political_power_cost = 0.50
+		}
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			set_country_flag = vsp_purged
+			
+		}
+	}
+	
+	sov_purge_zyuganov = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+			has_completed_focus = SOV_securing_the_chairman_position
+		}
+		available = {
+			original_tag = SOV
+			has_completed_focus = SOV_securing_the_chairman_position
+		}
+		visible = {
+			original_tag = SOV
+			has_completed_focus = SOV_securing_the_chairman_position
+		}
+		days_remove = 3
+		modifier {
+			political_power_cost = 0.50
+		}
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			set_country_flag = zyuganov_purged
+			
+		}
+	}
+	
+	sov_chariman_position_secured_yazov = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+			has_completed_focus = SOV_securing_the_chairman_position
+			has_country_flag = vlad_k_purged
+			has_country_flag = vsp_purged
+			has_country_flag = zyuganov_purged
+		}
+		available = {
+			original_tag = SOV
+			has_completed_focus = SOV_securing_the_chairman_position
+			has_country_flag = vlad_k_purged
+			has_country_flag = vsp_purged
+			has_country_flag = zyuganov_purged
+		}
+		visible = {
+			original_tag = SOV
+			has_completed_focus = SOV_securing_the_chairman_position
+
+
+		}
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			set_country_flag = purges_completed
+			
+		}
+	}
+}

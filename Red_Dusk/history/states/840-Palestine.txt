@@ -10,7 +10,8 @@ state={
 		owner = PAL
 		buildings = {
 			infrastructure = 2 #was: 5
-			industrial_complex = 1
+			industrial_complex = 2
+			arms_factory = 1
 		}
 		victory_points = {
 			1086 1 

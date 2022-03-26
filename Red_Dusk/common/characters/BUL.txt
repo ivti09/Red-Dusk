@@ -14,5 +14,19 @@ characters = {
 			id = -1
 		}
 	}
+	BUL_alexander_lilov = {
+		name = "Alexander Lilov"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUL/Alexander_Lilov.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 }

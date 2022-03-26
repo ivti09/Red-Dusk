@@ -11,6 +11,8 @@ state={
 		owner = PRU
 		buildings = {
 			infrastructure = 2
+			air_base = 1
+			industrial_complex = 1
 		}
 		add_core_of = PRU
 	}

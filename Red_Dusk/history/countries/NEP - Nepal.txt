@@ -4,6 +4,9 @@
 
 set_war_support = 0.1
 set_stability = 0.8
+
+recruit_character = NEP_birendra_of_nepal
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

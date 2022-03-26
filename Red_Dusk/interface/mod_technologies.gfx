@@ -1208,6 +1208,61 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/generic_ifv_tank.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_apc_tank_1960_medium"
+		texturefile = "gfx/interface/technologies/generic_apc_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_apc_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/generic_apc_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_apc_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/generic_apc_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_apc_tank_1990_medium"
+		texturefile = "gfx/interface/technologies/generic_apc_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_apc_tank_2000_medium"
+		texturefile = "gfx/interface/technologies/generic_apc_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_apc_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/generic_apc_tank.dds"
+	}
+	SpriteType = {
+		name = "GFX_apc_tank_2020_medium"
+		texturefile = "gfx/interface/technologies/generic_apc_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_nvd_device_1960_medium"
+		texturefile = "gfx/interface/technologies/nvd_sight_icn_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_nvd_device_1970_medium"
+		texturefile = "gfx/interface/technologies/nvd_sight_icn_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_nvd_device_1990_medium"
+		texturefile = "gfx/interface/technologies/nvd_sight_icn_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_thermal_device_1990_medium"
+		texturefile = "gfx/interface/technologies/thermal_sight_icn_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_thermal_device_2010_medium"
+		texturefile = "gfx/interface/technologies/thermal_sight_icn_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_thermal_device_2020_medium"
+		texturefile = "gfx/interface/technologies/thermal_sight_icn_3.dds"
+	}
+
 	## Nation-Specific Tanks ##
 
 	# SOV #
@@ -1258,6 +1313,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/SOV_ifv_tank_2020.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_SOV_apc_tank_1960_medium"
+		texturefile = "gfx/interface/technologies/SOV_apc_tank_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_apc_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/SOV_apc_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_apc_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/SOV_apc_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_apc_tank_1990_medium"
+		texturefile = "gfx/interface/technologies/SOV_apc_tank_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_apc_tank_2000_medium"
+		texturefile = "gfx/interface/technologies/SOV_apc_tank_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_apc_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/SOV_apc_tank_2010.dds"
+	}
+
 	# USA #
 
 	SpriteType = {
@@ -1292,6 +1372,27 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_USA_ifv_tank_1990_medium"
 		texturefile = "gfx/interface/technologies/USA_ifv_tank_1990.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_apc_tank_1960_medium"
+		texturefile = "gfx/interface/technologies/USA_apc_tank_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_apc_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/USA_apc_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_apc_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/USA_apc_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_apc_tank_1990_medium"
+		texturefile = "gfx/interface/technologies/USA_apc_tank_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_apc_tank_2000_medium"
+		texturefile = "gfx/interface/technologies/USA_apc_tank_2000.dds"
 	}
 
 }

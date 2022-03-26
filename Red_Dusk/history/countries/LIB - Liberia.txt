@@ -4,6 +4,8 @@
 
 set_convoys = 10
 
+recruit_character = LIB_charles_taylor
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1931.1.1"

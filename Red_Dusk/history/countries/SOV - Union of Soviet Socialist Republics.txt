@@ -30,7 +30,7 @@ set_convoys = 50
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1933.7.1"
+	last_election = "1991.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -48,7 +48,6 @@ add_ideas = SOV_party_infighting
 add_ideas = SOV_rising_separatism
 
 recruit_character = SOV_gennady_yanayev
-recruit_character = SOV_aleksandr_korzhakov
 recruit_character = SOV_dmitry_yazov
 recruit_character = SOV_anatoly_chernyaev
 recruit_character = SOV_boris_pugo
@@ -56,6 +55,24 @@ recruit_character = SOV_mikhail_gorbachev
 recruit_character = SOV_vladimir_putin
 recruit_character = SOV_party
 recruit_character = SOV_mikhail_kolesnikov
+recruit_character = SOV_vladimir_based
+recruit_character = SOV_aleksandr_korzhakov
+recruit_character = SOV_alexey_sorokin
+recruit_character = SOV_anatoly_kulikov
+recruit_character = SOV_anatoly_kvashnin
+recruit_character = SOV_arkady_bakhin 
+recruit_character = SOV_yuri_maslyukov
+recruit_character = SOV_dmitry_bulgakov
+recruit_character = SOV_ivan_kapitanets
+recruit_character = SOV_nikolai_yevmenov
+recruit_character = SOV_sergey_shoigu
+recruit_character = SOV_sergey_sokolov
+recruit_character = SOV_vasily_petrov
+recruit_character = SOV_vladimir_chernavin
+recruit_character = SOV_vladimir_korolyov
+recruit_character = SOV_valery_gerasimov
+recruit_character = SOV_vladimir_boldyrev
+recruit_character = SOV_vladimir_kuroyedov
 
 create_faction = "Moscow Accord"
 SOV = {

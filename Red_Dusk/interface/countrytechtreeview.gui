@@ -785,7 +785,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "armour_subtitle_ifv"
-				position = { x = 700 y = 300 }
+				position = { x = 690 y = 300 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -795,6 +795,19 @@ guiTypes = {
 				format = center
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "ifv_tank_desc"
+			}
+			instantTextBoxType = {
+				name = "armour_subtitle_apc"
+				position = { x = 900 y = 50 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "PERSONNEL CARRIER"
+				maxWidth = 200
+				maxHeight = 62
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "apc_tank_desc"
 			}
 
 			gridboxtype = {
@@ -811,7 +824,21 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-				
+			gridboxtype = {
+				name = "apc_tank_1960_tree"
+				position = { x = 245 y = 100 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "nvd_device_1960_tree"
+				position = { x = 445 y = 100 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
 		}
 
 		containerWindowType = {
@@ -1063,7 +1090,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "armour_subtitle_ifv"
-				position = { x = 700 y = 300 }
+				position = { x = 690 y = 300 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -1073,6 +1100,19 @@ guiTypes = {
 				format = center
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "ifv_tank_desc"
+			}
+			instantTextBoxType = {
+				name = "armour_subtitle_apc"
+				position = { x = 900 y = 50 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "PERSONNEL CARRIER"
+				maxWidth = 200
+				maxHeight = 62
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "apc_tank_desc"
 			}
 
 			gridboxtype = {
@@ -1089,7 +1129,21 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-				
+			gridboxtype = {
+				name = "apc_tank_1960_tree"
+				position = { x = 245 y = 100 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "nvd_device_1960_tree"
+				position = { x = 445 y = 100 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
 		}
 
 		containerWindowType = {

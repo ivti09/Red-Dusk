@@ -11,7 +11,8 @@ state={
 		owner = ALG
 		add_core_of = ALG
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3
+			air_base = 1
 		}
 	}
 

@@ -20,6 +20,9 @@ state={
 		owner = POL
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 3
 		}
 		add_core_of = POL
 	}

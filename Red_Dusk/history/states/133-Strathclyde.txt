@@ -20,9 +20,9 @@ state={
 			11218 1 #Dumfries
 		}
 		buildings = {
-			infrastructure = 4 #was: 7
-			industrial_complex = 1
-			dockyard = 4
+			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 2
 			air_base = 3
 			6395 = {
 				naval_base = 2

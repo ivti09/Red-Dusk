@@ -13,9 +13,10 @@ state={
 	history={
 		owner = OMA
 		buildings = {
-			infrastructure = 1
-			arms_factory = 1
-			industrial_complex = 1 
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 4
 			10760 = {
 				naval_base = 3
 			}

@@ -14,7 +14,7 @@
 	focus = {
 		id = SOV_status_of_the_union
 		icon = GFX_focus_SOV_status_of_union
-		x = 10
+		x = 9
 		y = 0
 
 		prerequisite = {}

@@ -1,0 +1,78 @@
+# common #
+	# units #
+		# equipment #
+			- Added file: personnel_carrier_vehicle.txt: added apc equipment
+			- Added file: scout_vehicle.txt: added scout vehicle equipment
+	# technologies #
+		- NSB_armor.txt: added apc equipment research, added night vision & computer research
+	# national_focus #
+		- ussr.txt: moved focus tree slightly to left
+		- added ussr_yazov.txt focus tree
+	# characters #
+		- Added and updated multiple character files for several nations
+		- SOV: added soviet marshals, generals & admirals
+	- Added folder state_category:
+		- Updated state files (increased max building size)
+	- Added folder scripted_triggers:
+		- Added file diplomacy_scripted_triggers.txt: locked certain diplomatic actions
+	# ideas #
+		- Updated files for LAO, VIN
+		- Added new ideas for SOV
+	# decisions #
+		- Added soviet decisions
+		# categories #
+			- Added soviet decision categories
+
+# events #
+	- ussr.txt: fixed event bug
+
+# gfx #
+	# interface #
+		# technologies #
+			- Added SOV, USA, and generic APCs
+			- Added nvd and thermal icons
+		# ideas #
+			- Added idea_Yuri_Maslyukov.dds
+			- Added new icons for Yazov tree
+		- Replaced event_news_bg.dds
+		# goals #
+			- Added new icons for Yazov tree
+	# flags #
+		- Added flags for Burkina Faso, Poland, and Slovenia
+	# leaders #
+		- Added new leader portraits for several nations
+		- SOV: added new portraits for marshals, generals & admirals
+	# event_pictures #
+		- Added new global news event pictures
+
+# interface #
+	- countrytechtreeview.gui: added personnel carrier tree and subtitles, added nvd tree
+	- mod_technologies.gfx: added references for APCs, nvd & thermal icons
+	- eventpictures.gfx: added references for new global news pictures
+	- eventpictures.gui: updated gui for global news events
+	- goals.gfx: added references for yazov tree
+	- goals_shine.gfx: added references for yazov tree
+	- ideas.gfx: added references for yazov tree
+
+# history #
+	# countries #
+		- KOR: changed election option
+		- Updated files for several nations to include new characters
+		- SAF: updated capital
+		- SOV: added new marshals, generals & admirals
+		- CAM: updated file with new politics and characters
+	# states #
+		- Updated all states to include modern population, industry, and resource values
+
+# localisation #
+	# english #
+		- events_l_english.yml: changed response to soviet event, fixed grammar issues for resignation event
+		- research_l_english.yml: added localisation for atgms
+		- equipment_l_english.yml: added localisation for apcs
+		- parties_l_english.yml: changed names of several ruling parties
+		- countries_l_english.yml: changed names of several countries
+		- mod_ideas_l_english.yml: added/updated localisation, added yazov tree localisation
+		- old_times_l_english.yml: added localisation for new global news events
+		- mod_scripted_localisation_l_english: added yazov tree localisation
+		- reddusk_decisions_l_english: added yazov tree localisation
+		- reddusk_focus_l_english: added yazov tree localisation
