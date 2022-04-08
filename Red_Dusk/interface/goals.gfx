@@ -3029,9 +3029,9 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_secure_the_chairman_position"
-		texturefile = "gfx/interface/goals/focus_SOV_Securing_The_Chairman_Position.dds"
+		texturefile = "gfx/interface/goals/focus_SOV_securing_chairman_position.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_focus_SOV_great_industry"
 		texturefile = "gfx/interface/goals/focus_SOV_great_industry.dds"
 	}
@@ -3115,5 +3115,65 @@ spriteTypes = {
 		name = "GFX_focus_SOV_crack_nationalism"
 		texturefile = "gfx/interface/goals/focus_SOV_crack_nationalism.dds"
 	}
-
+	SpriteType = {
+		name = "GFX_focus_SOV_little_traitor"
+		texturefile = "gfx/interface/goals/focus_SOV_little_traitor.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Unification_talk"
+		texturefile = "gfx/interface/goals/focus_SOV_Unification_talk.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_prepare_Invitable"
+		texturefile = "gfx/interface/goals/focus_SOV_prepare_Invitable.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_stalin_war_plan"
+		texturefile = "gfx/interface/goals/focus_SOV_stalin_war_plan.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_legacy_of_warsaw_pact"
+		texturefile = "gfx/interface/goals/focus_SOV_legacy_of_warsaw_pact.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_extreme_planning"
+		texturefile = "gfx/interface/goals/focus_SOV_extreme_planning.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Pressure_US"
+		texturefile = "gfx/interface/goals/focus_SOV_Pressure_US.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_rebirth_of_warsaw_pact"
+		texturefile = "gfx/interface/goals/focus_SOV_rebirth_of_warsaw_pact.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_super_power"
+		texturefile = "gfx/interface/goals/focus_SOV_super_power.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_isolate_czech"
+		texturefile = "gfx/interface/goals/focus_SOV_isolate_czech.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_not_yet"
+		texturefile = "gfx/interface/goals/focus_SOV_not_yet.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_blockade_sweden"
+		texturefile = "gfx/interface/goals/focus_SOV_blockade_sweden.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Da_Molotoff"
+		texturefile = "gfx/interface/goals/focus_SOV_Da_Molotoff.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_winter_war"
+		texturefile = "gfx/interface/goals/focus_SOV_winter_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Our_Hands_Free_in_the_North"
+		texturefile = "gfx/interface/goals/focus_SOV_Our_Hands_Free_in_the_North.dds"
+	}
+	
 }

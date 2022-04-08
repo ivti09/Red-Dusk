@@ -17,3 +17,23 @@ sov_purging = {
 	}
 	priority = 100
 }
+
+sov_crackdown_lithuenia = {
+	icon = GFX_decision_category_SOV_civil_war
+	allowed = {
+		original_tag = SOV
+		has_country_flag = crackdown_lithuenia
+		NOT = {
+		has_country_flag = finished_crackdown_lithuenia
+        }
+	}
+	
+	visible = {
+		original_tag = SOV
+		has_country_flag = crackdown_lithuenia
+		NOT = {
+		has_country_flag = finished_crackdown_lithuenia
+        }
+	}
+	priority = 110
+}

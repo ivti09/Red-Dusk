@@ -483,6 +483,69 @@ ideas = {
 
 		}
 		
+		SOV_Yazov_woke_bear = {
+
+			name = SOV_Yazov_woke_bear_name
+
+			removal_cost = -1
+
+			picture = GFX_idea_SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+		
+			targeted_modifier = {
+				tag = POL
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = ROM
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = SLO
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = HUN
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+
+		}
+		
+		ussr_embargo = {
+
+			name = ussr_embargo_name
+
+			removal_cost = -1
+
+			picture = GFX_idea_SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+				
+			
+			modifier = {
+				production_speed_buildings_factor = -0.25
+				consumer_goods_factor = 0.05
+				political_power_factor = -0.05
+			}	
+				targeted_modifier = {
+					tag = SOV
+						trade_opinion_factor = -1
+						trade_cost_for_target_factor = 1
+				}
+
+
+		}
+		
 	}
 
 }

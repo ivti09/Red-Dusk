@@ -5,3 +5,10 @@
  sov_purge_vsp:0 "Purge Valentin Sergeyevich Pavlov"
  sov_purge_zyuganov:0 "Purge Gennady Zyuganov"
  sov_chariman_position_secured_yazov:0 "Yazov's position secured"
+ sov_crackdown_lithuenia:0 "Crackdown Resistance In lithuania"
+ sov_crackdown_lithuenia_desc:0 "lithuania , being the most rebellious SSR in the Union since 1991 harbours lots of anti-Soviet and pro-nationalist rebels. We are going to need to crackdown the resistance before something bad happens in the region or in the entire Union even... \n\n §R>Resistance level In lithuania is [?lit_resistance]§W§ \n\nHaving High Resistance Before The End Of Operations Will Cause Unforeseen Consuquences \n\n §C>Stability in lithuania is [?lit_stab_level]§W§ \n\nHaving Low Stability Will Cause Resistance To Rise Up."
+ sov_timer_clock_lit:0 "End Of Operations In lithuania"
+ sov_secure_the_capital_yazov:0 "Secure The Capital"
+ sov_shell_resistance_towns_yazov:0 "Shell "Resistance" Towns"
+ 
+ irq_deal_with_kurds_desc:0 "level is [?test_for_red_dusk]"

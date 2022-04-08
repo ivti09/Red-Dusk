@@ -139,7 +139,7 @@ sov_purging = {
 			has_completed_focus = SOV_securing_the_chairman_position
 			has_country_flag = vlad_k_purged
 			has_country_flag = vsp_purged
-			has_country_flag = zyuganov_purged
+			has_country_flag = zyuganov_purged	
 		}
 		visible = {
 			original_tag = SOV
@@ -155,6 +155,240 @@ sov_purging = {
 		complete_effect = { 
 			set_country_flag = purges_completed
 			
+		}
+	}
+}
+
+sov_crackdown_lithuenia = {
+		
+	sov_timer_clock_lit = {                          
+          allowed = { tag = SOV }                
+          available = {                          
+               has_country_flag = finished_crackdown_lithuenia
+          }
+          activation = {                          
+               has_country_flag = crackdown_lithuenia
+          }
+		  
+          is_good = no
+          selectable_mission = no
+          days_mission_timeout = 35             
+          timeout_effect = {                      
+            IF = {
+				 limit = { 			 
+					check_variable = {
+							lit_resistance > 40
+					}
+					 
+				}
+				SOV = {
+					country_event = { id = ussr_rebel.1 }
+				}
+			}
+							ELSE_IF = {
+					limit = {
+
+				check_variable = {
+					lit_resistance < 40
+				}
+
+					}
+						SOV = {
+						country_event = { id = ussr_rebel.2 }
+						}
+			}	
+
+          }
+          complete_effect = {                    
+			
+          }
+     }
+	
+	sov_shell_resistance_towns_yazov = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+			divisions_in_state = {
+				state = 189	
+				size > 5
+			}
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+
+		}
+		
+		
+		cost = 50 
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_to_variable = { lit_resistance = -10 }
+			add_to_variable = { lit_stab_level = -15 }
+			custom_effect_tooltip = decrase_var_stab_15
+			custom_effect_tooltip = decrase_var_res_10
+			army_experience = 5
+		}
+	}
+	
+	sov_secure_the_capital_yazov = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+			divisions_in_state = {
+				state = 784
+				size > 5
+			}
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+
+		}
+		
+		highlight_state_targets = {
+			state = 784
+		}
+		
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			add_to_variable = { lit_resistance = -20 }
+			add_to_variable = { lit_stab_level = 10 }
+			custom_effect_tooltip = decrase_var_res_20
+			custom_effect_tooltip = incrase_var_stab_10
+		}
+	}
+	
+	sov_conduct_spet_action_yazov = {
+
+		icon = GFX_decision_hol_attract_foreign_investors
+
+		allowed = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+			check_variable = { lit_stab_level > 54 }
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+
+		}
+		
+		highlight_state_targets = {
+			state = 784
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			add_to_variable = { lit_stab_level = -20 }
+			custom_effect_tooltip = decrase_var_stab_20
+			add_to_variable = { lit_stab_level = -25 }
+			custom_effect_tooltip = decrase_var_res_25
+			
+		}
+	}
+	
+	sov_anti_rebel_propaganda_yazov = {
+
+		icon = GFX_decision_eng_propaganda_campaigns
+
+		allowed = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+			
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+			check_variable = { lit_stab_level > 54 }
+			has_country_flag = sov_req_55_stab
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+			
+		}
+		
+		highlight_state_targets = {
+			state = 784
+		}
+		
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			add_to_variable = { lit_resistance = -20 }
+			add_to_variable = { lit_stab_level = 20 }
+			custom_effect_tooltip = decrase_var_res_20
+			custom_effect_tooltip = incrase_var_stab_10
+		}
+	}
+	
+	sov_token_concessions_yazov = {
+
+		icon = GFX_decision_hol_attract_foreign_investors
+
+		allowed = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+
+		}
+		
+		highlight_state_targets = {
+			state = 784
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			add_to_variable = { lit_stab_level = 15 }
+			custom_effect_tooltip = incrase_var_stab_15
 		}
 	}
 }

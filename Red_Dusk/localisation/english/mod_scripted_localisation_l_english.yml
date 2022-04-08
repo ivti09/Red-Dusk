@@ -13,9 +13,35 @@
  SOV_yazov_military_time:0 "§GWe Can Now Start Improving Our Military\n\n§W§"
  SOV_economy_end_ideas_mixed:0 "§GImproves Our Economy Based On The Actions Taken Beforehand\n\n§W§"
  SOV_military_end_ideas_mixed:0 "§GImproves Our Army Based On The Actions Taken Beforehand\n\n§W§"
- sov_army_finished_yazov:0 "§RWe Can Now Deal With The Seperatist Nationalists In Our Border Since We Have Finished Our Improvements On Military And Economy\n\n§W§"
+ sov_army_finished_yazov_tt:0 "§RWe Can Now Deal With The Seperatist Nationalists In Our Border Since We Have Finished Our Improvements On Military And Economy\n\n§W§"
+ sov_army_finished_yazov:0 "§GWe Have Dealt with The Army's Problems§\n\n§W§"
  ussr_yazov_focus:0 "Yazov's Focus Tree"
+ sov_gain_core_on_breaks:0 "§GGains Cores On The States That Broke Away From The Union§"
+ sov_warsaw_pact:0 "Warsaw Pact"
+ us_disagree_cze:0 "Us Disagreed On The Czech Issue"
+ us_agree_cze:0 "Us Agreed On The Czech Issue"
  
+ ####RESISTANCE STUFF OFR SOVIET#########
  
+ decrase_var_stab_5:0 "§RDecrases §CStability §W§ §RBy 5 Percent\n\n§W§"
+ decrase_var_stab_10:0 "§RDecrases §CStability §W§ §RBy 10 Percent\n\n§W§"
+ decrase_var_stab_15:0 "§RDecrases §CStability §W§ §RBy 15 Percent\n\n§W§"
+ decrase_var_stab_20:0 "§RDecrases §CStability §W§ §RBy 20 Percent\n\n§W§"
+ decrase_var_stab_30:0 "§RDecrases §CStability §W§ §RBy 30 Percent\n\n§W§"
  
- ###### BY ADDING "\n\n" AND ADDING "W§" RIGHT AFTER IT AT THE END OF THE LOC WILL MAKE IT LOOK MORE CLEAN WHEN USING COLOUR -durango#######
+ incrase_var_stab_5:0 "§GIncrases §CStability §W§ §GBy 5 Percent\n\n§W§"
+ incrase_var_stab_10:0 "§GIncrases §CStability §W§ §GBy 10 Percent\n\n§W§"
+ incrase_var_stab_15:0 "§GIncrases §CStability §W§ §GBy 15 Percent\n\n§W§"
+ incrase_var_stab_20:0 "§GIncrases §CStability §W§ §GBy 20 Percent\n\n§W§"
+ 
+ sov_req_55_stab:0 "§YRequires At Least §C55 Percent Stability §W§ §YTo take Action\n\n§W§"
+ 
+ decrase_var_res_5:0 "§GDecrases §RResistance §W§ §GBy 5 Percent\n\n§W§"
+ decrase_var_res_10:0 "§GDecrases §RResistance §W§ §GBy 10 Percent\n\n§W§"
+ decrase_var_res_15:0 "§GDecrases §RResistance §W§ §GBy 15 Percent\n\n§W§"
+ decrase_var_res_20:0 "§GDecrases §RResistance §W§ §GBy 20 Percent\n\n§W§"
+ decrase_var_res_25:0 "§GDecrases §RResistance §W§ §GBy 25 Percent\n\n§W§"
+ 
+ ###### BY ADDING "\n\n" AND ADDING "§W§" RIGHT AFTER IT AT THE END OF THE LOC WILL MAKE IT LOOK MORE CLEAN WHEN USING COLOUR -durango#######
+ 
+ ########     \n\n§W§       ######

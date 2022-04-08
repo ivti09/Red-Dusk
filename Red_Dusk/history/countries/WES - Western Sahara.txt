@@ -2,6 +2,8 @@
 
 set_convoys = 20
 
+recruit_character = WES_collapsed_authority
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -10,7 +12,7 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 25
-	fascism = 20
-	communism = 5
+	fascism = 5
+	communism = 20
 	neutrality = 50
 }

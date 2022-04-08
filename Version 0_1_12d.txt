@@ -1,0 +1,52 @@
+# common #
+	# countries #
+		- Added file cosmetic.txt with country colours for soviet puppets
+	# decisions #
+		- Added file IRQ_MOD.txt: added new iraq decisions
+		- SOV_MOD.txt: added new decisions
+		# categories #
+			- Added IRQ_MOD_decision_categories.txt
+			- Updated SOV_MOD_decision_categories.txt
+	# ideas #
+		- IRQ.txt: added new ideas
+		- SOV.txt: added new ideas
+		- YUG.txt: added new ideas
+	# national_focus #
+		- ussr_yazov.txt: added more focuses
+	# characters #
+		- Added and updated several character files
+
+# events #
+	- ussr.txt: added more events
+
+# gfx #
+	# event_pictures #
+		- Added new event pictures for new events
+	# interface #
+		# goals #
+			- Added new focus icons for new Soviet focuses
+		# ideas #
+			- Added new national spirit icons for new Yugoslavia spirits
+	# leaders #
+		- Added new leaders for several countries
+	# flags #
+		- Added communist Hungary flag
+
+# history #
+	# countries #
+		- YUG.txt: updated with new national spirits
+		- Updated history files for several countries
+
+# interface #
+	- eventpictures.gfx: added references for new event pictures
+	- goals.gfx: added references for new focus icons
+	- goals_shine.gfx: added references for new focus icons
+	- ideas.gfx: added references for new national spirits, fixed missing national spirits
+
+# localisation #
+	# english #
+		- mod_ideas_l_english.yml: added localisation for new national spirits, fixed missing localisation
+		- mod_scripted_localisation_l_english.yml: added new scripted localisation
+		- reddusk_decisions_l_english_yml: added localisation for new decisions
+		- reddusk_focus_l_english.yml: added localisation for new focuses
+		- countries_l_english.yml: renamed several countries

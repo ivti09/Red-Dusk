@@ -7,7 +7,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = IRQ_western_embargo_icon
+			#picture = 
 
 			allowed = {
 				always = no
@@ -54,6 +54,82 @@ ideas = {
 			modifier = {
 				army_defence_factor	= -0.2
 				army_attack_factor	= -0.3
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				resistance_growth_on_our_occupied_states = 0.5
+			}
+		}
+		
+		IRQ_disorganized_army_2 = {
+			name = IRQ_disorganized_army_name
+
+			removal_cost = -1
+
+			picture = IRQ_Disorganised_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor	= -0.15
+				army_attack_factor	= -0.3
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				resistance_growth_on_our_occupied_states = 0.5
+			}
+		}
+		
+		IRQ_disorganized_army_3 = {
+			name = IRQ_disorganized_army_name
+
+			removal_cost = -1
+
+			picture = IRQ_Disorganised_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor	= -0.05
+				army_attack_factor	= -0.20
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				resistance_growth_on_our_occupied_states = 0.5
+			}
+		}
+		
+		IRQ_disorganized_army_4 = {
+			name = IRQ_disorganized_army_name
+
+			removal_cost = -1
+
+			picture = IRQ_Disorganised_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor	= -0.03
+				army_attack_factor	= -0.15
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				resistance_growth_on_our_occupied_states = 0.5
+			}
+		}
+		
+		IRQ_reorganized_army = {
+			name = IRQ_reorganized_army_name
+
+			removal_cost = -1
+
+			picture = IRQ_Disorganised_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor	= 0.05
+				army_attack_factor	= -0.10
 				resistance_damage_to_garrison_on_our_occupied_states = 0.5
 				resistance_growth_on_our_occupied_states = 0.5
 			}

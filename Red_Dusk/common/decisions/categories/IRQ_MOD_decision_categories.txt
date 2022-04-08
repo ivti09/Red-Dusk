@@ -1,0 +1,39 @@
+irq_fix_army = {
+	icon = generic_communism
+	allowed = {
+		original_tag = IRQ
+		NOT = {
+		has_country_flag = fixed_army
+        }
+	}
+	
+	visible = {
+		original_tag = IRQ
+		NOT = {
+		has_country_flag = fixed_army
+        }
+	}
+	priority = 100
+}
+
+irq_deal_with_kurds = {
+
+	icon = generic_communism
+	allowed = {
+		original_tag = IRQ
+		has_country_flag = fixed_army
+		NOT = {
+		has_country_flag = fixed_kurd
+        }
+	}
+	
+	visible = {
+		original_tag = IRQ
+		has_country_flag = fixed_army
+		NOT = {
+		has_country_flag = fixed_kurd
+        }
+	}
+	priority = 90
+
+}

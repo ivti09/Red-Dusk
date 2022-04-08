@@ -5,12 +5,13 @@ set_stability = 0.6
 set_war_support = 0.6
 
 recruit_character = ROM_ion_iliescu
+recruit_character = ROM_ion_iliescu1
 
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.12.20"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 60

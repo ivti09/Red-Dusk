@@ -3048,13 +3048,33 @@ spriteTypes = {
 		name = "GFX_report_event_SOV_resignation"
 		texturefile = "gfx/event_pictures/report_event_SOV_resignation.dds"
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_report_event_SOV_the_meeting"
 		texturefile = "gfx/event_pictures/report_event_the_meeting.dds"
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_report_event_SOV_the_meeting_con"
 		texturefile = "gfx/event_pictures/report_event_meeting_continues.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_biggest_failures"
+		texturefile = "gfx/event_pictures/report_event_biggest_failures.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_yannayevs_burden"
+		texturefile = "gfx/event_pictures/report_event_yannayevs_burden.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_gorby_gone"
+		texturefile = "gfx/event_pictures/report_event_gorby_gone.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_union_hobbles"
+		texturefile = "gfx/event_pictures/report_event_union_hobbles.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_meet_the_ministers"
+		texturefile = "gfx/event_pictures/report_event_meet_the_ministers.dds"
 	}
 	
 	##USA##
@@ -3080,15 +3100,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_USA_2000"
 		texturefile = "gfx/event_pictures/report_event_usa_2000.dds"
-	}
-
-	spriteType = {
-		name = "GFX_news_yanayev"
-		texturefile = "gfx/event_pictures/news_yanayev.dds"
-	}
-	spriteType = {
-		name = "GFX_news_afghan_invasion"
-		texturefile = "gfx/event_pictures/news_afgan_invasion.dds"
 	}
 	
 }
