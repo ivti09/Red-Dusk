@@ -1,0 +1,26 @@
+ideas = {
+
+	country = {
+
+		PRC_legacy_xiaoping_reform = {
+			name = PRC_legacy_xiaoping_reform_name
+
+			removal_cost = -1
+
+			picture = PRC_legacy_xiaoping_reform_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+				production_speed_rail_way_factor = 0.1
+				production_factory_start_efficiency_factor = 0.05
+			}
+		}
+
+	}
+
+}
