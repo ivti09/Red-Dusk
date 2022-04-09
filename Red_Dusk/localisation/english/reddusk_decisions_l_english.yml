@@ -10,5 +10,12 @@
  sov_timer_clock_lit:0 "End Of Operations In lithuania"
  sov_secure_the_capital_yazov:0 "Secure The Capital"
  sov_shell_resistance_towns_yazov:0 "Shell "Resistance" Towns"
+ sov_conduct_spet_action_yazov:0 "Conduct Spetsnaz Actions"
+ sov_raid_houses_yazov:0 "Raid "Resistance" Houses"
+ sov_tap_phonelines_yazov:0 "Tap Phonelines"
+ sov_raid_resistance_holdouts_yazov:0 "Raid Resistance Holdouts"
+ sov_anti_rebel_propaganda_yazov:0 "Anti Rebel Propaganda"
+ sov_token_concessions_yazov:0 "Token Concessions"
+ sov_crackdown_lithuenia:0 "End Of Operations In Lithuenia"
  
  irq_deal_with_kurds_desc:0 "level is [?test_for_red_dusk]"

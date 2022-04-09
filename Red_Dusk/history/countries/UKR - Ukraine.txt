@@ -4,15 +4,18 @@
 
 set_research_slots = 3
 
+
+recruit_character = UKR_mil_command
+
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 50
+	democratic = 15
+	fascism = 70
+	neutrality = 15
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }

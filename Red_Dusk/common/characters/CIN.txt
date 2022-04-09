@@ -1,0 +1,18 @@
+characters = {
+
+	CIN_Dzhokhar_Dudayev = {
+		name = "Dzhokhar Dudayev"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CIN/Dzhokhar_Dudayev.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

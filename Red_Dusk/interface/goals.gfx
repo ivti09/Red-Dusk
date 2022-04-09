@@ -3029,7 +3029,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_secure_the_chairman_position"
-		texturefile = "gfx/interface/goals/focus_SOV_securing_chairman_position.dds"
+		texturefile = "gfx/interface/goals/focus_SOV_secure_the_chairman_position.dds"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_great_industry"

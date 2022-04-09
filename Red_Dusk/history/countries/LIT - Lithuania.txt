@@ -6,15 +6,17 @@ set_research_slots = 3
 
 set_convoys = 10
 
+recruit_character = LIT_mil_command
+
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 30
-	fascism = 15
-	communism = 15
-	neutrality = 40
+	fascism = 70
+	communism = 0
+	neutrality = 0
 }

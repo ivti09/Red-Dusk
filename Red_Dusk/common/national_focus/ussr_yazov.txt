@@ -251,8 +251,8 @@
 	
 	focus = {
 		id = SOV_yazov_crackdown_lithuenia
-		icon = GFX_focus_SOV_crack_nationalism
-		x = 5
+		icon = GFX_focus_SOV_crush_lith
+		x = 7
 		y = 8
 
 		prerequisite = {focus = SOV_yazov_crackdown_nationalism } 
@@ -287,8 +287,8 @@
 	
 	focus = {
 		id = SOV_yazov_reassure_ukraine
-		icon = GFX_focus_SOV_crack_nationalism
-		x = 8
+		icon = GFX_focus_SOV_crackdown_ukraine
+		x = 10
 		y = 8
 		
 		prerequisite = {focus = SOV_yazov_crackdown_nationalism } 
@@ -312,36 +312,11 @@
 		}
 	}
 	
-	focus = {
-		id = SOV_yazov_prepare_4_future
-		icon = GFX_focus_SOV_crack_nationalism
-		x = 11
-		y = 8
 
-		prerequisite = {focus = SOV_yazov_crackdown_nationalism } 
-		mutually_exclusive = { }
-		
-		cost = 2
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		
-		
-		completion_reward = {
-		custom_effect_tooltip = sov_yazov_buff_for_future
-		add_stability = 0.03
-		}
-	}
-	
 	focus = {
 		id = SOV_yazov_crackdown_chechenya
-		icon = GFX_focus_SOV_crack_nationalism
-		x = 14
+		icon = GFX_focus_SOV_chechnia_secured
+		x = 13
 		y = 8
 
 		prerequisite = {focus = SOV_yazov_crackdown_nationalism } 
@@ -365,15 +340,41 @@
 	}
 	
 	focus = {
-		id = SOV_yazov_lil_traitors
-		icon = GFX_focus_SOV_little_traitor
+		id = SOV_yazov_prepare_4_future
+		icon = GFX_focus_SOV_prep_future
 		x = 10
 		y = 10
 
-		prerequisite = {focus = SOV_yazov_prepare_4_future} 
 		prerequisite = {focus = SOV_yazov_crackdown_chechenya}
 		prerequisite = {focus = SOV_yazov_reassure_ukraine} 
 		prerequisite = {focus = SOV_yazov_crackdown_lithuenia}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		custom_effect_tooltip = sov_yazov_buff_for_future
+		add_stability = 0.03
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_yazov_lil_traitors
+		icon = GFX_focus_SOV_little_traitor
+		x = 10
+		y = 11
+
+		prerequisite = {focus = SOV_yazov_prepare_4_future}
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -413,7 +414,7 @@
 		id = SOV_yazov_reunification_talks
 		icon = GFX_focus_SOV_Unification_talk
 		x = 8
-		y = 11
+		y = 12
 
 		prerequisite = {focus = SOV_yazov_lil_traitors} 
 		mutually_exclusive = { }
@@ -439,7 +440,7 @@
 		id = SOV_yazov_prep_their_fate
 		icon = GFX_focus_spr_masters_of_our_own_fate
 		x = 12
-		y = 11
+		y = 12
 
 		prerequisite = {focus = SOV_yazov_lil_traitors}
 		available = {has_completed_focus = SOV_yazov_reunification_talks}
@@ -466,7 +467,7 @@
 		id = SOV_yazov_war_plan_stalin
 		icon = GFX_focus_SOV_stalin_war_plan
 		x = 10
-		y = 12
+		y = 13
 
 		prerequisite = {focus = SOV_yazov_prep_their_fate} 
 		prerequisite = {focus = SOV_yazov_reunification_talks} 
@@ -508,7 +509,7 @@
 		id = SOV_yazov_legacy_of_warsaw_pact
 		icon = GFX_focus_SOV_legacy_of_warsaw_pact
 		x = 10
-		y = 13
+		y = 14
 
 		prerequisite = {focus = SOV_yazov_war_plan_stalin}
 		mutually_exclusive = { }
@@ -557,7 +558,7 @@
 		id = SOV_yazov_prep_inev
 		icon = GFX_focus_SOV_prepare_Invitable
 		x = 9
-		y = 14
+		y = 15
 
 		prerequisite = {focus = SOV_yazov_legacy_of_warsaw_pact}
 		mutually_exclusive = { }
@@ -585,7 +586,7 @@
 		id = SOV_yazov_extreme_planing
 		icon = GFX_focus_SOV_extreme_planning
 		x = 11
-		y = 14
+		y = 15
 
 		prerequisite = {focus = SOV_yazov_legacy_of_warsaw_pact}
 		mutually_exclusive = { }
@@ -613,7 +614,7 @@
 		id = SOV_yazov_red_sun_over_europe
 		icon = GFX_focus_ger_great_red_menace
 		x = 10
-		y = 15
+		y = 16
 
 		prerequisite = {focus = SOV_yazov_prep_inev}
 		prerequisite = {focus = SOV_yazov_extreme_planing}
@@ -645,7 +646,7 @@
 		id = SOV_yazov_warsaw_pact_reborn
 		icon = GFX_focus_SOV_rebirth_of_warsaw_pact
 		x = 10
-		y = 16
+		y = 17
 
 		prerequisite = {focus = SOV_yazov_red_sun_over_europe}
 		mutually_exclusive = { }
@@ -673,7 +674,7 @@
 		id = SOV_yazov_pressure_usa_for_cze
 		icon = GFX_focus_SOV_Pressure_US
 		x = 10
-		y = 17
+		y = 18
 
 		prerequisite = {focus = SOV_yazov_warsaw_pact_reborn}
 		mutually_exclusive = { }
@@ -701,7 +702,7 @@
 		id = SOV_yazov_a_super_power_again
 		icon = GFX_focus_SOV_super_power
 		x = 8
-		y = 18
+		y = 19
 
 		prerequisite = {focus = SOV_yazov_pressure_usa_for_cze}
 		available = { has_country_flag =  us_agree_cze}
@@ -729,7 +730,7 @@
 		id = SOV_yazov_our_hands_free_in_north
 		icon = GFX_focus_SOV_Our_Hands_Free_in_the_North
 		x = 10
-		y = 20
+		y = 21
 
 		prerequisite = {focus = SOV_yazov_a_super_power_again focus = SOV_yazov_not_yet}
 
@@ -756,7 +757,7 @@
 		id = SOV_yazov_avange_winter
 		icon = GFX_focus_SOV_winter_war
 		x = 10
-		y = 21
+		y = 22
 		
 
 		prerequisite = {focus = SOV_yazov_our_hands_free_in_north}
@@ -784,7 +785,7 @@
 		id = SOV_yazov_da_molotoff
 		icon = GFX_focus_SOV_Da_Molotoff
 		x = 10
-		y = 22
+		y = 23
 
 		prerequisite = {focus = SOV_yazov_avange_winter}
 		available = { FIN = {is_puppet_of = SOV }}
@@ -811,7 +812,7 @@
 		id = SOV_yazov_blocade_swedes
 		icon = GFX_focus_SOV_blockade_sweden
 		x = 10
-		y = 23
+		y = 24
 
 		prerequisite = {focus = SOV_yazov_da_molotoff}
 
@@ -841,7 +842,7 @@
 		id = SOV_yazov_isolate_chezchs
 		icon = GFX_focus_SOV_isolate_czech
 		x = 12
-		y = 18
+		y = 19
 
 		prerequisite = {focus = SOV_yazov_pressure_usa_for_cze}
 		available = { has_country_flag = us_disagree_cze}
@@ -871,7 +872,7 @@
 		id = SOV_yazov_not_yet
 		icon = GFX_focus_SOV_not_yet
 		x = 12
-		y = 19
+		y = 20
 
 		prerequisite = {focus = SOV_yazov_isolate_chezchs}
 
@@ -917,7 +918,34 @@
 		
 		completion_reward = {
 		
-			country_event = {id = ussr.13}
+	
+		}
+	}
+	
+	focus = {
+		id = SOV_yazov_our_old_enemies_in_yugoslavia
+		icon = GFX_focus_SOV_not_yet
+		x = 11
+		y = 26
+
+		prerequisite = {focus = SOV_yazov_blocade_swedes}
+
+		
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		
+			#		unlock_decision_category_tooltip = {  }
 		}
 	}
 	
@@ -1255,7 +1283,7 @@
 		completion_reward = {
 		
 			custom_effect_tooltip = SOV_civs_on_ural_decision_tooltip
-
+			hidden_effect = {  unlock_decision_category_tooltip = sov_building_industry }
 		}		
 	}
 	

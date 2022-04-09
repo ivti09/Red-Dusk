@@ -374,7 +374,7 @@ country_event = {
 
 }
 
-#done goofed up lithuania#
+#Wilno incident#
 country_event = {
 	id = ussr_rebel.1
 	title = ussr_rebel.1.t
@@ -388,8 +388,20 @@ country_event = {
 		name = ussr_rebel.1.a
 		add_stability = -0.30
 		add_political_power = -150
-		set_country_flag = big_chungus
+		set_country_flag = sov_uprising_chain_begin
 		
+		LIT = {
+				transfer_state = 784
+				transfer_state = 11
+				transfer_state = 815
+				transfer_state = 814
+				transfer_state = 189
+				transfer_state = 188
+		}
+		    declare_war_on = {
+            type = annex_everything
+            target = LIT
+            }
 	}
 
 }
@@ -397,8 +409,8 @@ country_event = {
 #rip rebels in lithuania##
 country_event = {
 	id = ussr_rebel.2
-	title = ussr_rebel.1.t
-	desc = ussr_rebel.1.d
+	title = ussr_rebel.2.t
+	desc = ussr_rebel.2.d
 	picture = GFX_report_event_SOV_the_meeting_con
 	
 	is_triggered_only = yes
@@ -414,7 +426,123 @@ country_event = {
 
 }
 
+#phone lines tap succes#
+country_event = {
+	id = ussr_rebel.3
+	title = ussr_rebel.3.t
+	desc = ussr_rebel.3.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+		##pog##
+	option = {
+		name = ussr_rebel.2.a
+		add_stability = 1
+		add_political_power = 15
+		add_to_variable = { lit_resistance = -5 }
+		custom_effect_tooltip = decrase_var_res_5
+		
+		
+	}
+
+}
+
+#phone lines tap opeartion goes bad#
+country_event = {
+	id = ussr_rebel.4
+	title = ussr_rebel.4.t
+	desc = ussr_rebel.4.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+		##oops##
+	option = {
+		name = ussr_rebel.4.a
+		add_stability = -1
+		add_political_power = -15
+		add_to_variable = { lit_stab_level = -5 }
+		custom_effect_tooltip = decrase_var_stab_5
+		
+	}
+
+}
+
+
+#EVENTS FOR STABILITY DECRASING#
+
+#for lithueania#
+country_event = {
+	id = ussr_rebel.999
+	title = ussr_rebel.999.t
+	desc = ussr_rebel.999.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	hidden = yes
+	
+	trigger = { check_variable = { lit_stab_level < 36 } }
+	
+	is_triggered_only = no
+	
+		##whoops :\##
+	option = {
+		name = ussr_rebel.999.a
+		add_to_variable = { lit_resistance = 25 }
+		custom_effect_tooltip = incrase_var_res_25
+		set_country_flag = ok_bad_stab_event_wont_be_again_lit
+	}
+
+}
+
+#for Chechens#
+country_event = {
+	id = ussr_rebel.998
+	title = ussr_rebel.998.t
+	desc = ussr_rebel.998.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	hidden = yes
+	
+	trigger = { check_variable = { lit_stab_level < 36 } }
+	
+	is_triggered_only = no
+	
+		##whoops :\##
+	option = {
+		name = ussr_rebel.998.a
+		add_to_variable = { lit_resistance = 25 }
+		custom_effect_tooltip = incrase_var_res_25
+		set_country_flag = ok_bad_stab_event_wont_be_again_chechen
+	}
+
+}
+
+#for Ukraine#
+country_event = {
+	id = ussr_rebel.997
+	title = ussr_rebel.997.t
+	desc = ussr_rebel.997.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	hidden = yes
+	
+	trigger = { check_variable = { lit_stab_level < 36 } }
+	
+	is_triggered_only = no
+	
+		##whoops :\##
+	option = {
+		name = ussr_rebel.997.a
+		add_to_variable = { lit_resistance = 25 }
+		custom_effect_tooltip = incrase_var_res_25
+		set_country_flag = ok_bad_stab_event_wont_be_again_ukr
+	}
+
+}
+
+
+
+
 #EVENTS FOR VARIABLES FOR REBEL DECISIONS#
+
 #i used this becuase custom effect tooltip isnt allowed in the avalieble secction#
 
 country_event = {

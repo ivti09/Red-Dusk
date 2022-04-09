@@ -6,15 +6,15 @@ sov_purging = {
 	#
 	#	allowed = {
 	#		original_tag = SOV
-	#		has_completed_focus = SOV_securing_the_chairman_position
+	#		 
 	#	}
 	#	available = {
 	#		original_tag = SOV
-	#		has_completed_focus = SOV_securing_the_chairman_position
+	#		 
 	#	}
 	#	visible = {
 	#		original_tag = SOV
-	#		has_completed_focus = SOV_securing_the_chairman_position
+	#		 
 	#	}
 	#	cost = 5
 	#	fire_only_once = no
@@ -36,15 +36,15 @@ sov_purging = {
 
 		allowed = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		available = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		visible = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		days_remove = 3
 		modifier {
@@ -67,15 +67,15 @@ sov_purging = {
 
 		allowed = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		available = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		visible = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		days_remove = 3
 		modifier {
@@ -98,15 +98,15 @@ sov_purging = {
 
 		allowed = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		available = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		visible = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		days_remove = 3
 		modifier {
@@ -129,7 +129,7 @@ sov_purging = {
 
 		allowed = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			has_completed_focus = SOV_securing_the_chairman_position 
 			has_country_flag = vlad_k_purged
 			has_country_flag = vsp_purged
 			has_country_flag = zyuganov_purged
@@ -143,10 +143,9 @@ sov_purging = {
 		}
 		visible = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
-
-
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
+		
 		cost = 5
 		fire_only_once = yes
 		ai_will_do = {
@@ -159,12 +158,131 @@ sov_purging = {
 	}
 }
 
+sov_building_industry = {
+
+	sov_build_civs_in_zlat = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+		has_completed_focus = SOV_expand_industry_in_urals
+
+		}
+		available = {
+		has_completed_focus = SOV_expand_industry_in_urals
+	
+		}
+		visible = {
+		has_completed_focus = SOV_expand_industry_in_urals
+			 
+		}
+		
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+		573 ={	
+				
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+	
+		sov_build_civs_in_mag = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+		has_completed_focus = SOV_expand_industry_in_urals
+
+		}
+		available = {
+		has_completed_focus = SOV_expand_industry_in_urals
+	
+		}
+		visible = {
+		has_completed_focus = SOV_expand_industry_in_urals
+			 
+		}
+		
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+		582 ={	
+				
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+	
+	sov_build_civs_in_north_urals = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+		has_completed_focus = SOV_expand_industry_in_urals
+
+		}
+		available = {
+		has_completed_focus = SOV_expand_industry_in_urals
+	
+		}
+		visible = {
+		has_completed_focus = SOV_expand_industry_in_urals
+			 
+		}
+		
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+		581 ={	
+				
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+
+
+
+}
+
 sov_crackdown_lithuenia = {
 		
 	sov_timer_clock_lit = {                          
-          allowed = { tag = SOV }                
+          allowed = { 
+		  
+		  tag = SOV 
+		  has_completed_focus =  SOV_yazov_crackdown_lithuenia
+		  
+		  }                
           available = {                          
-               has_country_flag = finished_crackdown_lithuenia
+				has_country_flag = finished_crackdown_lithuenia 
           }
           activation = {                          
                has_country_flag = crackdown_lithuenia
@@ -185,7 +303,7 @@ sov_crackdown_lithuenia = {
 					country_event = { id = ussr_rebel.1 }
 				}
 			}
-							ELSE_IF = {
+				ELSE_IF = {
 					limit = {
 
 				check_variable = {
@@ -196,13 +314,15 @@ sov_crackdown_lithuenia = {
 						SOV = {
 						country_event = { id = ussr_rebel.2 }
 						}
-			}	
+				
 
           }
           complete_effect = {                    
 			
           }
      }
+	
+	}
 	
 	sov_shell_resistance_towns_yazov = {
 
@@ -284,17 +404,16 @@ sov_crackdown_lithuenia = {
 	
 	sov_conduct_spet_action_yazov = {
 
-		icon = GFX_decision_hol_attract_foreign_investors
+		icon = GFX_decision_generic_assassination
 
 		allowed = {
 			original_tag = SOV
 			has_country_flag = crackdown_lithuenia
-
+			
 		}
 		available = {
 			original_tag = SOV
 			has_country_flag = crackdown_lithuenia
-			check_variable = { lit_stab_level > 54 }
 		}
 		visible = {
 			original_tag = SOV
@@ -306,17 +425,142 @@ sov_crackdown_lithuenia = {
 			state = 784
 		}
 		
-		cost = 100
+		cost = 10
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 0
 		}
 		complete_effect = { 
-			add_to_variable = { lit_stab_level = -20 }
-			custom_effect_tooltip = decrase_var_stab_20
+			add_to_variable = { lit_resistance = -15 }
+			custom_effect_tooltip = decrase_var_res_15
 			add_to_variable = { lit_stab_level = -25 }
-			custom_effect_tooltip = decrase_var_res_25
+			custom_effect_tooltip = decrase_var_stab_25
+			set_country_flag = spet_decision_unlock
+			custom_effect_tooltip = spet_decision_unlock_tt
+		}
+	}
+	
+	sov_raid_houses_yazov = {
+
+		icon = GFX_decision_generic_merge_plant_tank
+
+		allowed = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+			has_country_flag = spet_decision_unlock
+			custom_effect_tooltip = spet_decision_unlocked
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+			has_country_flag = spet_decision_unlock
+			custom_effect_tooltip = spet_decision_unlocked
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+			has_country_flag = spet_decision_unlock
+			custom_effect_tooltip = spet_decision_unlocked
+		}
+		
+		highlight_state_targets = {
+			state = 784
+		}
+		
+		cost = 10
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			add_to_variable = { lit_resistance = -10 }
+			custom_effect_tooltip = decrase_var_res_10
+
+		}
+	}
+	
+	sov_tap_phonelines_yazov = {
+
+		icon = GFX_decision_onmap_recruit_operative
+
+		allowed = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+			has_country_flag = spet_decision_unlock
+			custom_effect_tooltip = spet_decision_unlocked
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+			has_country_flag = spet_decision_unlock
+			custom_effect_tooltip = spet_decision_unlocked			
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+			has_country_flag = spet_decision_unlock
+			custom_effect_tooltip = spet_decision_unlocked
+		}
+		
+		
+		cost = 10
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			custom_effect_tooltip = this_might_end_bad_bozo
+	random_list = {
+		80 = { 		
+			 SOV = {
+				country_event = { id = ussr_rebel.4 days = 1 }
+			} 
+		
+		}
+		20 = { 		
+			 SOV = {
+				country_event = { id = ussr_rebel.3 days = 1 }
+			} 
+		
+		}
+	}
+		
+		}
+		
+	}
+	
+	sov_raid_resistance_holdouts_yazov = {
+
+		icon = GFX_decision_eng_blackshirt_march
+
+		allowed = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
 			
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = crackdown_lithuenia
+
+		}
+		
+		highlight_state_targets = {
+			state = 784
+		}
+		
+		cost = 10
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			add_to_variable = { lit_resistance = -10 }
+			custom_effect_tooltip = decrase_var_res_10
+
 		}
 	}
 	

@@ -20,13 +20,20 @@
  sov_warsaw_pact:0 "Warsaw Pact"
  us_disagree_cze:0 "Us Disagreed On The Czech Issue"
  us_agree_cze:0 "Us Agreed On The Czech Issue"
- 
+
  ####RESISTANCE STUFF OFR SOVIET#########
+ 
+ spet_decision_unlock_tt:0 "§GUnlocks Special Action Decisions\n\n§W§"
+ this_might_end_bad_bozo:0 "§YThis operation might end §W§ §Rvery bad\n\n§W§"
+ spet_decision_unlock:0 "Has Allowed Conducting Of Spetsnaz Operations"
+ crackdown_lithuenia:0 "Has started anti-seperatist operations in Lithuenia"
+ finished_crackdown_lithuenia:0 " "
  
  decrase_var_stab_5:0 "§RDecrases §CStability §W§ §RBy 5 Percent\n\n§W§"
  decrase_var_stab_10:0 "§RDecrases §CStability §W§ §RBy 10 Percent\n\n§W§"
  decrase_var_stab_15:0 "§RDecrases §CStability §W§ §RBy 15 Percent\n\n§W§"
  decrase_var_stab_20:0 "§RDecrases §CStability §W§ §RBy 20 Percent\n\n§W§"
+ decrase_var_stab_25:0 "§RDecrases §CStability §W§ §RBy 25 Percent\n\n§W§"
  decrase_var_stab_30:0 "§RDecrases §CStability §W§ §RBy 30 Percent\n\n§W§"
  
  incrase_var_stab_5:0 "§GIncrases §CStability §W§ §GBy 5 Percent\n\n§W§"
@@ -42,6 +49,12 @@
  decrase_var_res_20:0 "§GDecrases §RResistance §W§ §GBy 20 Percent\n\n§W§"
  decrase_var_res_25:0 "§GDecrases §RResistance §W§ §GBy 25 Percent\n\n§W§"
  
+ incrase_var_res_5:0 "§RIncrases §RResistance §W§ §RBy 5 Percent\n\n§W§"
+ incrase_var_res_10:0 "§RIncrases §RResistance §W§ §RBy 10 Percent\n\n§W§"
+ incrase_var_res_15:0 "§RIncrases §RResistance §W§ §RBy 15 Percent\n\n§W§"
+ incrase_var_res_25:0 "§RIncrases §RResistance §W§ §RBy 25 Percent\n\n§W§"
+ 
+
  ###### BY ADDING "\n\n" AND ADDING "§W§" RIGHT AFTER IT AT THE END OF THE LOC WILL MAKE IT LOOK MORE CLEAN WHEN USING COLOUR -durango#######
  
  ########     \n\n§W§       ######
