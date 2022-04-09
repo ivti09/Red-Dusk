@@ -4,7 +4,6 @@
 
 add_namespace = Old_Times_news
 
-
 news_event = {
 	id = ussr.5
 	title = Yanayev resigns as general secretary
@@ -18,45 +17,49 @@ news_event = {
 	option ={
 		name = time for a regime change?
 	}
+}
 
-	news_event = {
-		id = ussr.20
-		title = Yazov elected as general secretary
-		desc = Yazov_elected_as_general_secretary
-		picture = news_event_yazov.dds
-	
-		major = yes
-	
-		is_triggered_only = yes
-		is_triggered_once = yes
-		option ={
-			name = the militatist taken the stage
-		}
+news_event = {
+	id = ussr.20
+	title = Yazov elected as general secretary
+	desc = Yazov_elected_as_general_secretary
+	picture = news_event_yazov.dds
 
-		news_event = {
-			id = ussr.20
-			title = Pugo elected as general secretary
-			desc = Pugo_elected_as_general_secretary
-			picture = news_event_yazov.dds
-		
-			major = yes
-		
-			is_triggered_only = yes
-			is_triggered_once = yes
-			option ={
-				name = a return to the orthodoxy
-			}
+	major = yes
 	
-	news_event = {
-		id = usa.10
-		title = Invasion of Afganistan
-		desc = Invasion_of_afganistan
-		picture = Afgan_invasion.dds
-	
-		major = yes
-	
-		is_triggered_only = yes
-		is_triggered_once = yes
-		option ={
-			name =  First the British, then the Soviets and now the Americans
+	is_triggered_only = yes
+	is_triggered_once = yes
+	option ={
+		name = the militatist taken the stage
 	}
+}
+
+news_event = {
+	id = ussr.20
+	title = Pugo elected as general secretary
+	desc = Pugo_elected_as_general_secretary
+	picture = news_event_yazov.dds
+	
+  major = yes
+		
+	is_triggered_only = yes
+	is_triggered_once = yes
+	option ={
+		name = a return to the orthodoxy
+	}
+}	
+
+news_event = {
+  id = usa.10
+	title = Invasion of Afganistan
+	desc = Invasion_of_afganistan
+	picture = Afgan_invasion.dds
+	
+	major = yes
+	
+	is_triggered_only = yes
+	is_triggered_once = yes
+	option ={
+	 name =  First the British, then the Soviets and now the Americans
+	}
+}
