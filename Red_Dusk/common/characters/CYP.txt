@@ -1,0 +1,18 @@
+characters = {
+
+	CYP_glafkos_clerides = {
+		name = "Glafkos Clerides"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CYP/Glafkos_Clerides.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

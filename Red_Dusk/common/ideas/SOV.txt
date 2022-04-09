@@ -14,9 +14,9 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.1
-				production_factory_start_efficiency_factor = -0.1
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				production_factory_efficiency_gain_factor = -0.02
 			}
 		}
 
@@ -101,7 +101,6 @@ ideas = {
 				industrial_capacity_dockyard = -0.1
 				production_factory_max_efficiency_factor = -0.05 
 				stability_factor = 0.03
-
 			}
 
 		}
@@ -168,7 +167,385 @@ ideas = {
 			}
 
 		}
+		
+		#####YAZOV !!!!!!!!!!!!!!!!!#############
+		#####YAZOV !!!!!!!!!!!!!!!!!#############
+		#####YAZOV !!!!!!!!!!!!!!!!!#############
+		#####YAZOV !!!!!!!!!!!!!!!!!#############
+		
+		
+		SOV_marshall_of_the_people = {
 
+			name = SOV_marshall_of_the_people_name
+
+			removal_cost = -1
+
+			picture = SOV_people_marshall_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.10
+			}
+
+		}
+		
+		SOV_Marshall_iron_order = {
+
+			name = SOV_Marshall_iron_order_name
+
+			removal_cost = -1
+
+			picture = SOV_Marshall_Iron_Order_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.02
+				political_power_factor = 0.05
+				communism_drift = 0.05
+
+			}
+
+		}
+		
+		SOV_Yazov_New_Age_Soviet_Economics_1 = {
+
+			name = SOV_Yazov_New_Age_Soviet_Economics_1_name
+
+			removal_cost = -1
+
+			picture = SOV_Yazov_New_Age_Soviet_Economics_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				production_speed_industrial_complex_factor = 0.10
+			}
+
+		}
+		
+		SOV_Yazov_New_Age_Soviet_Economics_2 = {
+
+			name = SOV_Yazov_New_Age_Soviet_Economics_2_name
+
+			removal_cost = -1
+
+			picture = SOV_Yazov_New_Age_Soviet_Economics_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				production_speed_industrial_complex_factor = 0.10
+				production_speed_infrastructure_factor = 0.15
+				production_speed_rail_way_factor = 0.10
+			}
+
+		}
+		
+		SOV_Yazov_New_Age_Soviet_Economics_3 = {
+
+			name = SOV_Yazov_New_Age_Soviet_Economics_2_name
+
+			removal_cost = -1
+
+			picture = SOV_Yazov_New_Age_Soviet_Economics_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_infrastructure_factor = 0.20
+				production_speed_rail_way_factor = 0.20
+				stability_factor = 0.10
+				
+			}
+
+		}
+		
+		SOV_Yazov_military_first_economic_policies = {
+
+			name = SOV_Yazov_military_first_economic_policies_name
+
+			removal_cost = -1
+
+			picture = SOV_Yazov_New_Age_Soviet_Economics_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.10
+				production_speed_industrial_complex_factor = -0.10
+				stability_factor = -0.10
+			}
+
+		}
+		
+		SOV_Yazov_military_first_economic_policies_2 = {
+
+			name = SOV_Yazov_military_first_economic_policies_2_name
+
+			removal_cost = -1
+
+			picture = SOV_Yazov_New_Age_Soviet_Economics_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.10
+				production_speed_industrial_complex_factor = -0.10
+				stability_factor = -0.10
+				production_speed_rail_way_factor = 0.15
+				production_speed_supply_node_factor = 0.10
+				
+			}
+
+		}
+		
+		SOV_Yazov_military_first_economic_policies_3 = {
+
+			name = SOV_Yazov_military_first_economic_policies_3_name
+
+			removal_cost = -1
+
+			picture = SOV_Yazov_New_Age_Soviet_Economics_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.15
+				production_speed_industrial_complex_factor = -0.15
+				stability_factor = -0.15
+				production_speed_rail_way_factor = 0.20
+				production_speed_supply_node_factor = 0.20
+			}
+
+		}
+		
+		SOV_Yazov_reformed_cpsu = {
+
+			name = SOV_Yazov_reformed_cpsu_name
+
+			removal_cost = -1
+
+			picture = SOV_Yazov_reformed_cpsu_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.05
+
+			}
+
+		}
+		
+		SOV_Yazov_corrupt_officers_in_army = {
+
+			name = SOV_Yazov_corrupt_officers_in_army_name
+
+			removal_cost = -1
+
+			picture = GFX_idea_SOV_Corrupt_Officials_in_the_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				experience_gain_army_factor	= -0.10
+
+			}
+
+		}
+		
+		SOV_old_tactics_new_age = {
+
+			name = SOV_old_tactics_new_age_name
+
+			removal_cost = -1
+
+			picture = GFX_idea_SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor	= 0.1
+
+			}
+
+		}
+		
+		SOV_new_military_ideas_yazov = {
+
+			name = SOV_new_military_ideas_yazov_name
+
+			removal_cost = -1
+
+			picture = GFX_idea_SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_attack_factor = 0.05
+
+			}
+
+		}
+		
+		SOV_reformed_army_yazov = {
+
+			name = SOV_reformed_army_yazov_name
+
+			removal_cost = -1
+
+			picture = GFX_idea_SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor	= -0.05
+				experience_gain_army_factor = 0.05
+				experience_gain_air_factor = 0.10
+				experience_gain_navy_factor = 0.10
+			}
+
+		}
+		
+		SOV_Yazov_soviet_army_boomer = {
+
+			name = SOV_Yazov_soviet_army_name
+
+			removal_cost = -1
+
+			picture = GFX_idea_SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor = 0.10
+				army_core_defence_factor = 0.05
+				experience_gain_army_factor = 0.10
+			}
+
+		}
+		
+		SOV_Yazov_soviet_army = {
+
+			name = SOV_Yazov_soviet_army_name
+
+			removal_cost = -1
+
+			picture = GFX_idea_SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = -0.05
+				army_core_defence_factor = 0.05
+				experience_gain_army_factor = 0.05
+				experience_gain_air_factor = 0.10
+				experience_gain_navy_factor = 0.10
+				
+			}
+
+		}
+		
+		SOV_Yazov_woke_bear = {
+
+			name = SOV_Yazov_woke_bear_name
+
+			removal_cost = -1
+
+			picture = GFX_idea_SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+		
+			targeted_modifier = {
+				tag = POL
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = ROM
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = SLO
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = HUN
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+
+		}
+		
+		ussr_embargo = {
+
+			name = ussr_embargo_name
+
+			removal_cost = -1
+
+			picture = GFX_idea_SOV_Soviet_Army_icon
+
+			allowed = {
+				always = no
+			}
+				
+			
+			modifier = {
+				production_speed_buildings_factor = -0.25
+				consumer_goods_factor = 0.05
+				political_power_factor = -0.05
+			}	
+				targeted_modifier = {
+					tag = SOV
+						trade_opinion_factor = -1
+						trade_cost_for_target_factor = 1
+				}
+
+
+		}
+		
 	}
 
 }

@@ -1,0 +1,46 @@
+sov_purging = {
+	icon = generic_communism
+	allowed = {
+		NOT = {
+		has_country_flag = purges_completed
+        }
+	}
+	
+	visible = {
+
+		NOT = {
+		has_country_flag = purges_completed
+        }
+	}
+	priority = 100
+}
+
+sov_building_industry = {
+	icon = GFX_decision_category_SOV_merge_designers
+	allowed = {
+		
+	}
+	
+	visible = {
+
+	}
+	priority = 110
+}
+
+sov_crackdown_lithuenia = {
+	icon = GFX_decision_category_SOV_civil_war
+	allowed = {
+		has_country_flag = crackdown_lithuenia
+		NOT = {
+		has_country_flag = finished_crackdown_lithuenia
+        }
+	}
+	
+	visible = {
+		has_country_flag = crackdown_lithuenia
+		NOT = {
+		has_country_flag = finished_crackdown_lithuenia
+        }
+	}
+	priority = 120
+}

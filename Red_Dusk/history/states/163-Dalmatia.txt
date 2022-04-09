@@ -10,6 +10,7 @@ state=
 		owner = CRO
 		buildings = {
 			infrastructure = 3 #was: 5
+			dockyard = 1
 			3943 = {
 				naval_base = 1
 			}

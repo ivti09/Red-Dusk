@@ -2,11 +2,13 @@
 
 set_convoys = 20
 
+recruit_character = SEN_abdou_diouf
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {

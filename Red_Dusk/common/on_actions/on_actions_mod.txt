@@ -1,0 +1,35 @@
+on_actions = {
+
+	on_startup =  {
+
+		effect = {
+			SOV = {	
+				country_event = {id = ussr_intro.1}	
+			}
+		}
+		
+
+		effect = {
+			USA = {	
+				country_event = {id = usa.1}	
+			}
+		}
+
+		effect = {
+			if = {
+				every_country = {
+					limit = {
+						NOT = { has_government = democratic }
+					}
+					USA = {
+						add_opinion_modifier = { target = PREV modifier = USA_misdirected_foreign_policy_opinion }
+					}
+				}
+			}
+		}
+
+	}
+	
+	
+
+}

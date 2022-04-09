@@ -4,6 +4,11 @@
 
 set_convoys = 5
 
+add_ideas = IRQ_western_embargo
+add_ideas = IRQ_kurdish_rebels
+add_ideas = IRQ_disorganized_army
+add_ideas = IRQ_oil_producers
+
 recruit_character = IRQ_saddam_hussein
 
 set_politics = {
@@ -12,7 +17,8 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	fascism = 80
-	neutrality = 20
+	fascism = 99
+	neutrality = 1
 }

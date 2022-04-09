@@ -26,7 +26,7 @@ equipments = {
 			steel = 1
 		}
 		
-		manpower = 200
+		manpower = 500
 	}
 
 	destroyer_hull_1 = {
@@ -36,6 +36,8 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		manpower = 500
 	}
 
 	destroyer_hull_2 = {
@@ -45,6 +47,8 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		manpower = 600
 	}
 
 	destroyer_hull_3 = {
@@ -54,6 +58,8 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		manpower = 600
 	}
 
 	destroyer_hull_4 = {
@@ -63,6 +69,8 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		manpower = 500
 	}
 
 	destroyer_hull_5 = {
@@ -72,6 +80,8 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		manpower = 400
 	}
 
 	destroyer_hull_6 = {
@@ -81,6 +91,8 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		manpower = 400
 	}
 
 }

@@ -4,6 +4,8 @@
 
 set_convoys = 20
 
+recruit_character = ALG_abdelaziz_bouteflika
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

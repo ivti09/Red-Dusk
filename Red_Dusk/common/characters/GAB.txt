@@ -1,0 +1,18 @@
+characters = {
+
+	GAB_omar_bongo = {
+		name = "Omar Bongo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Omar_Bongo.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

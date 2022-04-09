@@ -2,15 +2,17 @@
 
 set_convoys = 10
 
+recruit_character = GAM_yahya_jammeh
+
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 55
-	fascism = 15
-	communism = 5
-	neutrality = 25
+	democratic = 25
+	fascism = 5
+	communism = 15
+	neutrality = 55
 }

@@ -1,0 +1,108 @@
+#####DOESN'T NEED TO BE IN ALPHABETICAL ORDER#####
+
+
+# SUCMP:
+music = {
+	name = "Auferstanden_aus_Ruinen"
+	file = "Auferstanden_aus_Ruinen.ogg"
+}
+music = {
+	name = "Campaign_Brief"
+	file = "Campaign_Brief.ogg"
+}
+music = {
+	name = "Defcon_1"
+	file = "Defcon_1.ogg"
+}
+music = {
+	name = "Defcon_2"
+	file = "Defcon_2.ogg"
+}
+music = {
+	name = "Defcon_3"
+	file = "Defcon_3.ogg"
+}
+music = {
+	name = "An_Escalation"
+	file = "An_Escalation.ogg"
+}
+music = {
+	name = "Eto_govorim_my"
+	file = "Eto_govorim_my.ogg"
+}
+music = {
+	name = "Gruppa_Krovi"
+	file = "Gruppa_Krovi.ogg"
+}
+music = {
+	name = "Internationale"
+	file = "Internationale.ogg"
+}
+music = {
+	name = "Invincible_And_Legendary"
+	file = "Invincible_And_Legendary.ogg"
+}
+music = {
+	name = "Karavan"
+	file = "Karavan.ogg"
+}
+music = {
+	name = "National_Anthem"
+	file = "National_Anthem.ogg"
+}
+music = {
+	name = "Nena_99_Luftballons"
+	file = "Nena_99_Luftballons.ogg"
+}
+music = {
+	name = "Plan_in_Motion"
+	file = "Plan_in_Motion.ogg"
+}
+music = {
+	name = "Polyushka_Polye"
+	file = "Polyushka_Polye.ogg"
+}
+music = {
+	name = "Swallowing_Dust"
+	file = "Swallowing_Dust.ogg"
+}
+music = {
+	name = "Warsaw_Pact"
+	file = "Warsaw_Pact.ogg"
+}
+music = {
+	name = "Freestyle_Goodbye_Forever"
+	file = "Freestyle_Goodbye_Forever.ogg"
+}
+music = {
+	name = "Prljavo_Kazaliste_Ne_zovi_mama_doktora"
+	file = "Prljavo_Kazaliste_Ne_zovi_mama_doktora.ogg"
+}
+music = {
+	name = "battle_hymn_of_the_republic"
+	file = "battle_hymn_of_the_republic.ogg"
+}
+music = {
+	name = "Soviet_Anthem_pop_version"
+	file = "Soviet_Anthem_pop_version.ogg"
+}
+music = {
+	name = "National_Anthem_of_Green_Libya"
+	file = "National_Anthem_of_Green_Libya.ogg"
+}
+music = {
+	name = "Smash_Mouth_All_Star"
+	file = "Smash_Mouth_All_Star.ogg"
+}
+music = {
+	name = "Mr._Blue_Sky"
+	file = "Mr._Blue_Sky.ogg"
+}
+music = {
+	name = "Modern_Talking-Who_Will_Save_The_World"
+	file = "Modern_Talking-Who_Will_Save_The_World.ogg"
+}
+music = {
+	name = "Kerber-Ratne_igre"
+	file = "Kerber-Ratne_igre.ogg"
+}

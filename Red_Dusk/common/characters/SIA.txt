@@ -1,0 +1,18 @@
+characters = {
+
+	SIA_chuan_leekpai = {
+		name = "Chuan Leekpai"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIA/Chuan_Leekpai.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

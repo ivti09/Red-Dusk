@@ -23,7 +23,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = socialism
+			ideology = fascism_ideology
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
@@ -38,11 +38,25 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = socialism
+			ideology = fascism_ideology
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
 		}
 	}
 
+	GER_egon_krenz = {
+		name = "Egon Krenz"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/Egon_Krenz.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 }

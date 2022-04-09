@@ -5,7 +5,9 @@ units = {
 		task_force = {
 			name = "Test Submarines"
 			location = 3151
-			ship = { name = "B-1" definition = submarine equipment = { attack_submarine_hull_2 { amount = 1 owner = SOV version_name = "Project 877" } } }
+			ship = { name = "B-1" definition = attack_submarine equipment = { attack_submarine_hull_2 { amount = 1 owner = SOV version_name = "Project 877" } } }
+			ship = { name = "K-1" definition = cruise_submarine equipment = { cruise_submarine_hull_2 { amount = 1 owner = SOV version_name = "Project 949A" } } }
+			ship = { name = "K-2" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 { amount = 1 owner = SOV version_name = "Project 667B" } } }
 		}
 	}
 }

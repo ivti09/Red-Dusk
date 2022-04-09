@@ -4,6 +4,8 @@
 
 set_research_slots = 3
 
+recruit_character = ARM_robert_kocharyan
+
 set_popularities = {
 	fascism = 34
 	democratic = 30

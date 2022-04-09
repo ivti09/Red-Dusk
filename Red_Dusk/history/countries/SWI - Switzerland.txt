@@ -4,11 +4,13 @@
 
 set_research_slots = 3
 
+recruit_character = SWI_federal_council
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.10.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 96

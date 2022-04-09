@@ -10,8 +10,10 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 3
-			air_base = 8
+			air_base = 10
+			industrial_complex = 9
+			arms_factory = 2
+			dockyard = 2
 			1572 = {
 				naval_base = 2
 			}

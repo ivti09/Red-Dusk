@@ -5,14 +5,18 @@
 set_war_support = 0.1
 set_stability = 0.8
 
+recruit_character = LUX_jean_claude
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1934.6.3"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 92
 	fascism = 3
 	communism = 5
 }
+
+recruit_character = LUX_jean_claude

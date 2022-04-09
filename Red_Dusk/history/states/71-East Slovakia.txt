@@ -11,8 +11,9 @@ state={
 		}
 		owner = SLO
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
 		}
 		add_core_of = SLO
 	}

@@ -2,15 +2,17 @@
 
 set_convoys = 10
 
+recruit_character = ERI_isaias_afwerki
+
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = neutrality
+	last_election = "1993.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 55
+	democratic = 25
 	fascism = 15
 	communism = 5
-	neutrality = 25
+	neutrality = 55
 }

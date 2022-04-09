@@ -15,9 +15,9 @@ state={
 		victory_points = { 9620 15 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 4
-			industrial_complex = 4
-			air_base = 4
+			air_base = 3
+			industrial_complex = 5
+			arms_factory = 1
 		}
 		add_core_of = SWI
 	}

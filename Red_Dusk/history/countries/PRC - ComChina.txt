@@ -1,4 +1,4 @@
-﻿capital = 622
+﻿capital = 608
 
 #oob = "PRC_1936"
 set_stability = 0.6
@@ -15,3 +15,5 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
+
+add_ideas = PRC_legacy_xiaoping_reform

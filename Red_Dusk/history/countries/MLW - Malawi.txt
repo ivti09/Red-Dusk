@@ -2,6 +2,8 @@
 
 set_convoys = 0
 
+recruit_character = MLW_bakili_wuluzi
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

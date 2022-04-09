@@ -19,14 +19,22 @@ set_politics = {
 	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 99
 	communism = 1
 }
 
-recruit_character = USA_bill_clinton
+add_ideas = USA_the_constitution
+add_ideas = USA_three_party_primacy
+add_ideas = USA_second_amendment
+add_ideas = USA_stagnating_economy
+add_ideas = USA_misdirected_foreign_policy
+add_ideas = USA_military_spending
+add_ideas = USA_last_bastion
+
+recruit_character = USA_dan_quayle
 recruit_character = USA_george_bush
 
 create_faction = "NATO"
@@ -49,4 +57,16 @@ USA = {
 	add_to_faction = LUX
 	add_to_faction = TUR
 	add_to_faction = GRE
+}
+
+USA = {
+	if = {
+		limit = {
+			has_idea = USA_misdirected_foreign_policy
+		}
+		set_rule = {
+			can_not_declare_war = yes
+			can_send_volunteers = no
+		}
+	}
 }

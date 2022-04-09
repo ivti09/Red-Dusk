@@ -1,0 +1,18 @@
+characters = {
+
+	ETH_negasso_gidada = {
+		name = "Negasso Gidada"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Negasso_Gidada.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

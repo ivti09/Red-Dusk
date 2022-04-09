@@ -1,0 +1,340 @@
+################# Equipment Designer Window layouts: Light Ship Hulls (new format examples) #################
+
+guiTypes = {
+
+	################# Equipment Archetype: cruise_submarine_hull #################
+	containerWindowType = {
+		name = "equipment_designer_cruise_submarine_hull"
+		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
+		position = { x=0 y=0 }
+		size = { width=512 height=260 }
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_transparent"
+		}
+
+		iconType = {
+			name = "equipment_image"
+			spriteType = "GFX_SD_tv_cruise_submarine"
+			position = { x=0 y=0 }
+		}
+
+		containerWindowType = {
+			name = "module_slots"
+			position = { x=0 y=0 }
+			size = { width=100% height=100% }
+
+			################# MODULE SLOT: Sonar #################
+			containerWindowType = {
+				name = "fixed_ship_sonar_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Sonar ####
+				containerWindowType = {
+					name = "ship_sonar"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = ""
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_sonar@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = ""
+						position = { x=0 y=0 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Systems #################
+			containerWindowType = {
+				name = "fixed_ship_systems_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Sonar ####
+				containerWindowType = {
+					name = "ship_systems"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = ""
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_systems@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = ""
+						position = { x=0 y=0 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Engine #################
+			containerWindowType = {
+				name = "fixed_ship_engine_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "sub_ship_engine"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = ""
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "sub_ship_engine@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = ""
+						position = { x=0 y=0 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Torpedo #################
+			containerWindowType = {
+				name = "fixed_ship_torpedo_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "ship_torpedo_sub"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruise_submarine_hull_fixed_torpedo"
+						position = { x=393 y=1 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_torpedo_sub@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_cruise_submarine_hull_fixed_torpedo@highlight"
+						position = { x=393 y=1 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Custom #1 #################
+			containerWindowType = {
+				name = "custom_slot_1"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Torpedo ####
+				containerWindowType = {
+					name = "ship_torpedo_sub"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruise_submarine_hull_custom1_torpedo"
+						position = { x=395 y=12 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_torpedo_sub@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_cruise_submarine_hull_custom1_torpedo@highlight"
+						position = { x=395 y=12 }
+					}
+				}
+
+				#### MODULE: Cruise Missile ####
+				containerWindowType = {
+					name = "ship_cruise_missile"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruise_submarine_hull_fixed_cruise_missile"
+						position = { x=335 y=7 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_cruise_missile@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_cruise_submarine_hull_fixed_cruise_missile@highlight"
+						position = { x=335 y=7 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Fixed Cruise Missile Slot #1 #################
+			containerWindowType = {
+				name = "fixed_sub_cruise_missile_slot_1"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Cruise Missile ####
+				containerWindowType = {
+					name = "ship_cruise_missile"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruise_submarine_hull_fixed_cruise_missile"
+						position = { x=309 y=7 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_cruise_missile@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_cruise_submarine_hull_fixed_cruise_missile@highlight"
+						position = { x=309 y=7 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Fixed Cruise Missile Slot #2 #################
+			containerWindowType = {
+				name = "fixed_sub_cruise_missile_slot_2"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Cruise Missile ####
+				containerWindowType = {
+					name = "ship_cruise_missile"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruise_submarine_hull_fixed_cruise_missile"
+						position = { x=283 y=7 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_cruise_missile@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_cruise_submarine_hull_fixed_cruise_missile@highlight"
+						position = { x=283 y=7 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Fixed Cruise Missile Slot #3 #################
+			containerWindowType = {
+				name = "fixed_sub_cruise_missile_slot_3"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Cruise Missile ####
+				containerWindowType = {
+					name = "ship_cruise_missile"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruise_submarine_hull_fixed_cruise_missile"
+						position = { x=257 y=7 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_cruise_missile@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_cruise_submarine_hull_fixed_cruise_missile@highlight"
+						position = { x=257 y=7 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Fixed Cruise Missile Slot #4 #################
+			containerWindowType = {
+				name = "fixed_sub_cruise_missile_slot_4"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Cruise Missile ####
+				containerWindowType = {
+					name = "ship_cruise_missile"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruise_submarine_hull_fixed_cruise_missile"
+						position = { x=231 y=7 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_cruise_missile@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_cruise_submarine_hull_fixed_cruise_missile@highlight"
+						position = { x=231 y=7 }
+					}
+				}
+			}
+		}
+	}
+}

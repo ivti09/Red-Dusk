@@ -1,0 +1,18 @@
+characters = {
+
+	AZR_heydar_aliyev = {
+		name = "Heydar Aliyev"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AZR/Heydar_Aliyev.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

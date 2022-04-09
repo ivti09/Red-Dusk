@@ -11,7 +11,8 @@ state={
 		owner = SLV
 		add_core_of = SLV
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
 		}
 	}
 

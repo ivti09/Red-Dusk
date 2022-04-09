@@ -14,10 +14,11 @@ set_research_slots = 3
 set_convoys = 10
 
 recruit_character = POL_aleksander_kwasniewski
+recruit_character = POL_wojciech_jaruzelski
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1935.9.8"
+	last_election = "1998.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }

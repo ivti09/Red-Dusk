@@ -2,6 +2,8 @@
 
 set_convoys = 0
 
+recruit_character = CHA_idriss_déby
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

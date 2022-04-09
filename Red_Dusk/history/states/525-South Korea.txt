@@ -4,14 +4,17 @@ state=
 	name="STATE_525"
 	manpower = 14284105
 	
-	state_category = town
+	state_category = metropolis
 	history=
 	{
 		owner = SKR
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
-			dockyard = 1
+			air_base = 10
+			industrial_complex = 15
+			arms_factory = 4
+			dockyard = 3
+			anti_air_building = 4
 			4056 = {
 				naval_base = 3
 			}

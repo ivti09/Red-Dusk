@@ -14,7 +14,7 @@
 	focus = {
 		id = SOV_status_of_the_union
 		icon = GFX_focus_SOV_status_of_union
-		x = 10
+		x = 9
 		y = 0
 
 		prerequisite = {}
@@ -103,10 +103,6 @@
 			factor = 1
 		}
 		
-		available = {
-			has_completed_focus = SOV_minor_economic_reforms
-		}
-		
 		bypass = {
 		}
 		cancel_if_invalid = yes
@@ -148,15 +144,40 @@
 			}
 		}
 	}
-	
+
+	focus = {
+        	id = SOV_yanayev's_resignation
+        	icon = GFX_focus_SOV_yanayev's_resignation
+        	x = 0
+        	y = 5
+		prerequisite = {focus = SOV_minor_economic_reforms}
+		prerequisite = {focus = SOV_defund_the_military}
+		relative_position_id = SOV_status_of_the_union
+               
+		cost=3
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			SOV = {
+				country_event = { id = ussr.5 }
+			}
+			hidden_effect = {
+				news_event = { id = old_times_news.1 hours = 6 }
+			}
+		}
+	}
+
 	focus = {
 		id = SOV_party_meeting
 		icon = GFX_focus_SOV_party_meeting
 		x = 0
-		y = 5
+		y = 6
 
-		prerequisite = {focus = SOV_minor_economic_reforms}
-		prerequisite = {focus = SOV_defund_the_military}
+		prerequisite = {focus = SOV_yanayev's_resignation}
 		mutually_exclusive = { }
 		relative_position_id = SOV_status_of_the_union
 		
@@ -171,8 +192,9 @@
 		continue_if_invalid = no
 		completion_reward = {
 			SOV = {
-				country_event = { id = ussr.5 }
+				country_event = { id = ussr.6 }
 			}
+			
 		}
 	}
 

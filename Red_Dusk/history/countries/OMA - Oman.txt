@@ -6,6 +6,10 @@ set_convoys = 10
 set_war_support = 0.1
 set_stability = 0.8
 
+add_ideas = OMA_oil_producers
+
+recruit_character = OMA_qaboos_bin
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

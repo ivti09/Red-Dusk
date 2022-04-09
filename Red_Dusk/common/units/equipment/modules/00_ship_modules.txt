@@ -5,65 +5,21 @@ equipment_modules = {
 	ship_torpedo_sub_1 = {
 		category = ship_torpedo_sub
 		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			torpedo_attack = 15
-			build_cost_ic = 80
-		}
-
-		build_cost_resources = {
-			steel = 0
-		}
-
-		critical_parts = { damaged_torpedoes }
 	}
 
 	ship_torpedo_sub_2 = {
 		category = ship_torpedo_sub
 		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			torpedo_attack = 15
-			build_cost_ic = 80
-		}
-
-		build_cost_resources = {
-			steel = 0
-		}
-
-		critical_parts = { damaged_torpedoes }
 	}
 
 	ship_torpedo_sub_3 = {
 		category = ship_torpedo_sub
 		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			torpedo_attack = 15
-			build_cost_ic = 80
-		}
-
-		build_cost_resources = {
-			steel = 0
-		}
-
-		critical_parts = { damaged_torpedoes }
 	}
 
 	ship_torpedo_sub_4 = {
 		category = ship_torpedo_sub
 		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			torpedo_attack = 15
-			build_cost_ic = 80
-		}
-
-		build_cost_resources = {
-			steel = 0
-		}
-
-		critical_parts = { damaged_torpedoes }
 	}
 
 # Engines
@@ -71,205 +27,81 @@ equipment_modules = {
 	sub_engine_diesel_1 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			naval_speed = 5
-			fuel_consumption = 5
-			build_cost_ic = 120
-		}
-
-		multiply_stats = {
-			naval_speed = 0.05
-			reliability = -0.1
-		}
-
 	}
 
 	sub_engine_diesel_2 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			naval_speed = 5
-			fuel_consumption = 5
-			build_cost_ic = 120
-		}
-
-		multiply_stats = {
-			naval_speed = 0.05
-			reliability = -0.1
-		}
-
 	}
 
 	sub_engine_diesel_3 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			naval_speed = 5
-			fuel_consumption = 5
-			build_cost_ic = 120
-		}
-
-		multiply_stats = {
-			naval_speed = 0.05
-			reliability = -0.1
-		}
-
 	}
 
 	sub_engine_diesel_4 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			naval_speed = 5
-			fuel_consumption = 5
-			build_cost_ic = 120
-		}
-
-		multiply_stats = {
-			naval_speed = 0.05
-			reliability = -0.1
-		}
-
 	}
 
 	sub_engine_diesel_5 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			naval_speed = 5
-			fuel_consumption = 5
-			build_cost_ic = 120
-		}
-
-		multiply_stats = {
-			naval_speed = 0.05
-			reliability = -0.1
-		}
-
 	}
 
 	sub_engine_diesel_6 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
+	}
 
-		add_stats = {
-			naval_speed = 5
-			fuel_consumption = 5
-			build_cost_ic = 120
-		}
+	sub_engine_aip_1 = {
+		category = sub_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
 
-		multiply_stats = {
-			naval_speed = 0.05
-			reliability = -0.1
-		}
+	sub_engine_aip_2 = {
+		category = sub_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
 
+	sub_engine_aip_3 = {
+		category = sub_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+
+	sub_engine_aip_4 = {
+		category = sub_ship_engine
+		sfx = sfx_ui_sd_module_engine
 	}
 
 	sub_engine_nuclear_1 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			naval_speed = 5
-			fuel_consumption = 0
-			build_cost_ic = 350
-		}
-
-		multiply_stats = {
-			naval_speed = 0.05
-			reliability = -0.1
-		}
-
 	}
 
 	sub_engine_nuclear_2 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			naval_speed = 5
-			fuel_consumption = 0
-			build_cost_ic = 350
-		}
-
-		multiply_stats = {
-			naval_speed = 0.05
-			reliability = -0.1
-		}
-
 	}
 
 	sub_engine_nuclear_3 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			naval_speed = 5
-			fuel_consumption = 0
-			build_cost_ic = 350
-		}
-
-		multiply_stats = {
-			naval_speed = 0.05
-			reliability = -0.1
-		}
-
 	}
 
 	sub_engine_nuclear_4 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			naval_speed = 5
-			fuel_consumption = 0
-			build_cost_ic = 350
-		}
-
-		multiply_stats = {
-			naval_speed = 0.05
-			reliability = -0.1
-		}
-
 	}
 
 	sub_engine_nuclear_5 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			naval_speed = 5
-			fuel_consumption = 0
-			build_cost_ic = 350
-		}
-
-		multiply_stats = {
-			naval_speed = 0.05
-			reliability = -0.1
-		}
-
 	}
 
 	sub_engine_nuclear_6 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
-
-		add_stats = {
-			naval_speed = 5
-			fuel_consumption = 0
-			build_cost_ic = 350
-		}
-
-		multiply_stats = {
-			naval_speed = 0.05
-			reliability = -0.1
-		}
-
 	}
 
 # Electrical Systems
@@ -334,6 +166,189 @@ equipment_modules = {
 	sub_sonar_6 = {
 		category = sub_ship_sonar
 		sfx = sfx_ui_sd_module_sonar
+	}
+
+# Radar
+
+	ship_radar_1 = {
+		category = ship_radar
+		sfx = sfx_ui_sd_module_radar
+	}
+
+	ship_radar_2 = {
+		category = ship_radar
+		sfx = sfx_ui_sd_module_radar
+	}
+
+	ship_radar_3 = {
+		category = ship_radar
+		sfx = sfx_ui_sd_module_radar
+	}
+
+	ship_radar_4 = {
+		category = ship_radar
+		sfx = sfx_ui_sd_module_radar
+	}
+
+	ship_radar_5 = {
+		category = ship_radar
+		sfx = sfx_ui_sd_module_radar
+	}
+
+	ship_radar_6 = {
+		category = ship_radar
+		sfx = sfx_ui_sd_module_radar
+	}
+
+# Missiles
+
+	cruise_missile_1 = {
+		category = ship_cruise_missile
+		sfx = sfx_ui_sd_module_cruise_missile
+	}
+
+	cruise_missile_2 = {
+		category = ship_cruise_missile
+		sfx = sfx_ui_sd_module_cruise_missile
+	}
+
+	cruise_missile_3 = {
+		category = ship_cruise_missile
+		sfx = sfx_ui_sd_module_cruise_missile
+	}
+
+	cruise_missile_4 = {
+		category = ship_cruise_missile
+		sfx = sfx_ui_sd_module_cruise_missile
+	}
+
+	ballistic_missile_1 = {
+		category = ship_ballistic_missile
+		sfx = sfx_ui_sd_module_ballistic_missile
+	}
+
+	ballistic_missile_2 = {
+		category = ship_ballistic_missile
+		sfx = sfx_ui_sd_module_ballistic_missile
+	}
+
+	ballistic_missile_3 = {
+		category = ship_ballistic_missile
+		sfx = sfx_ui_sd_module_ballistic_missile
+	}
+
+	ballistic_missile_4 = {
+		category = ship_ballistic_missile
+		sfx = sfx_ui_sd_module_ballistic_missile
+	}
+
+	aswrl_1 = {
+		category = ship_aswrl
+		sfx = sfx_ui_sd_module_aswrl
+	}
+
+	aswrl_2 = {
+		category = ship_aswrl
+		sfx = sfx_ui_sd_module_aswrl
+	}
+
+	aswrl_3 = {
+		category = ship_aswrl
+		sfx = sfx_ui_sd_module_aswrl
+	}
+
+	aswrl_4 = {
+		category = ship_aswrl
+		sfx = sfx_ui_sd_module_aswrl
+	}
+
+	naval_gun_1 = {
+		category = ship_naval_gun
+		sfx = sfx_ui_sd_module_naval_gun
+	}
+
+	naval_gun_2 = {
+		category = ship_naval_gun
+		sfx = sfx_ui_sd_module_naval_gun
+	}
+
+	naval_gun_3 = {
+		category = ship_naval_gun
+		sfx = sfx_ui_sd_module_naval_gun
+	}
+
+	naval_gun_4 = {
+		category = ship_naval_gun
+		sfx = sfx_ui_sd_module_naval_gun
+	}
+
+# Defensive Weapons
+
+	sam_missile_1 = {
+		category = ship_sam_missile
+		sfx = sfx_ui_sd_module_sam_missile
+	}
+
+	sam_missile_2 = {
+		category = ship_sam_missile
+		sfx = sfx_ui_sd_module_sam_missile
+	}
+
+	sam_missile_3 = {
+		category = ship_sam_missile
+		sfx = sfx_ui_sd_module_sam_missile
+	}
+
+	sam_missile_4 = {
+		category = ship_sam_missile
+		sfx = sfx_ui_sd_module_sam_missile
+	}
+
+	ciws_1 = {
+		category = ship_ciws
+		sfx = sfx_ui_sd_module_ciws
+	}
+
+	ciws_2 = {
+		category = ship_ciws
+		sfx = sfx_ui_sd_module_ciws
+	}
+
+	ciws_3 = {
+		category = ship_ciws
+		sfx = sfx_ui_sd_module_ciws
+	}
+
+	anti_air_1 = {
+		category = ship_anti_air
+		sfx = sfx_ui_sd_module_anti_air
+	}
+
+# Aviation
+
+	naval_helicopter_1 = {
+		category = ship_naval_helicopter
+		sfx = sfx_ui_sd_module_naval_helicopter
+	}
+
+	naval_helicopter_2 = {
+		category = ship_naval_helicopter
+		sfx = sfx_ui_sd_module_naval_helicopter
+	}
+
+	naval_helicopter_3 = {
+		category = ship_naval_helicopter
+		sfx = sfx_ui_sd_module_naval_helicopter
+	}
+
+	naval_helicopter_4 = {
+		category = ship_naval_helicopter
+		sfx = sfx_ui_sd_module_naval_helicopter
+	}
+
+	naval_uav = {
+		category = ship_naval_uav
+		sfx = sfx_ui_sd_module_naval_uav
 	}
 
 }

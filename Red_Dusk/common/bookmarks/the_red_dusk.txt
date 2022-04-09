@@ -19,6 +19,15 @@ bookmarks = {
 			}	
 		}
 
+	       "USA"={
+			history = "USA_NDB_DESC_LOC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

@@ -16,7 +16,7 @@ guiTypes = {
 
 		iconType = {
 			name = "equipment_image"
-			spriteType = "GFX_SD_tv_submarine"
+			spriteType = "GFX_SD_tv_attack_submarine"
 			position = { x=0 y=0 }
 		}
 
@@ -39,7 +39,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_submarine_hull_sonar"
+						spriteType = ""
 						position = { x=0 y=0 }
 					}
 				}
@@ -51,7 +51,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_submarine_hull_sonar@highlight"
+						spriteType = ""
 						position = { x=0 y=0 }
 					}
 				}
@@ -102,7 +102,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_submarine_hull_engine"
+						spriteType = ""
 						position = { x=0 y=0 }
 					}
 				}
@@ -114,7 +114,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_submarine_hull_engine@highlight"
+						spriteType = ""
 						position = { x=0 y=0 }
 					}
 				}
@@ -133,7 +133,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_submarine_hull_fixed_torpedo"
+						spriteType = "GFX_SM_attack_submarine_hull_fixed_torpedo"
 						position = { x=370 y=8 }
 					}
 				}
@@ -145,7 +145,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_submarine_hull_fixed_torpedo@highlight"
+						spriteType = "GFX_SM_attack_submarine_hull_fixed_torpedo@highlight"
 						position = { x=370 y=8 }
 					}
 				}
@@ -165,7 +165,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_submarine_hull_front1_torpedo"
+						spriteType = "GFX_SM_attack_submarine_hull_front1_torpedo"
 						position = { x=380 y=21 }
 					}
 				}
@@ -177,7 +177,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_submarine_hull_front1_torpedo@highlight"
+						spriteType = "GFX_SM_attack_submarine_hull_front1_torpedo@highlight"
 						position = { x=380 y=21 }
 					}
 				}

@@ -4,6 +4,10 @@
 
 set_research_slots = 3
 
+add_ideas = LAO_undeveloped_infrastructure
+add_ideas = LAO_legacy_american_bombing
+add_ideas = LAO_balance_vin_prc
+
 recruit_character = LAO_khamtai_siphandon
 
 set_politics = {

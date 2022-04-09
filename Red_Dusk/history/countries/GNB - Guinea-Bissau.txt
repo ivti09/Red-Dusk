@@ -2,15 +2,17 @@
 
 set_convoys = 10
 
+recruit_character = GNB_umaro_sissoco_embaló
+
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 50
-	neutrality = 5
+	democratic = 40
+	fascism = 10
+	communism = 25
+	neutrality = 25
 }

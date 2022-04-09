@@ -1,0 +1,159 @@
+ideas = {
+	
+	country = {
+	
+		IRQ_western_embargo = {
+			name = IRQ_western_embargo_name
+
+			removal_cost = -1
+
+			picture = IRQ_western_embargo_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				production_factory_start_efficiency_factor = -0.15
+				monthly_population = -0.2
+			}
+		}
+		
+		IRQ_kurdish_rebels = {
+			name = IRQ_kurdish_rebels_name
+
+			removal_cost = -1
+
+			picture = IRQ_kurdish_rebel_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.7
+				resistance_growth = 0.3
+				resistance_target = 0.3
+				resistance_damage_to_garrison = 0.2
+			}
+		}
+		
+		IRQ_disorganized_army = {
+			name = IRQ_disorganized_army_name
+
+			removal_cost = -1
+
+			picture = IRQ_Disorganised_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor	= -0.2
+				army_attack_factor	= -0.3
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				resistance_growth_on_our_occupied_states = 0.5
+			}
+		}
+		
+		IRQ_disorganized_army_2 = {
+			name = IRQ_disorganized_army_name
+
+			removal_cost = -1
+
+			picture = IRQ_Disorganised_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor	= -0.15
+				army_attack_factor	= -0.3
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				resistance_growth_on_our_occupied_states = 0.5
+			}
+		}
+		
+		IRQ_disorganized_army_3 = {
+			name = IRQ_disorganized_army_name
+
+			removal_cost = -1
+
+			picture = IRQ_Disorganised_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor	= -0.05
+				army_attack_factor	= -0.20
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				resistance_growth_on_our_occupied_states = 0.5
+			}
+		}
+		
+		IRQ_disorganized_army_4 = {
+			name = IRQ_disorganized_army_name
+
+			removal_cost = -1
+
+			picture = IRQ_Disorganised_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor	= -0.03
+				army_attack_factor	= -0.15
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				resistance_growth_on_our_occupied_states = 0.5
+			}
+		}
+		
+		IRQ_reorganized_army = {
+			name = IRQ_reorganized_army_name
+
+			removal_cost = -1
+
+			picture = IRQ_Disorganised_Army_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_defence_factor	= 0.05
+				army_attack_factor	= -0.10
+				resistance_damage_to_garrison_on_our_occupied_states = 0.5
+				resistance_growth_on_our_occupied_states = 0.5
+			}
+		}
+
+		IRQ_oil_producers = {
+			name = oil_producers_name
+
+			removal_cost = -1
+
+			picture = oil_producers_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				production_speed_synthetic_refinery_factor = 0.1
+				production_speed_fuel_silo_factor = 0.1
+			}
+		}
+	
+	}
+
+
+}

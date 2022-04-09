@@ -14,5 +14,19 @@ characters = {
 			id = -1
 		}
 	}
+	ROM_ion_iliescu1 = {
+		name = "Ion Iliescu"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ROM/Ion_Iliescu_communist.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 }

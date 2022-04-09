@@ -4,6 +4,8 @@
 
 set_convoys = 20
 
+recruit_character = PAK_muhammad_rafiq
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.11.14"

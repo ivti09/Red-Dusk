@@ -5,6 +5,7 @@
 set_convoys = 5 #VANILLA & DLC
 
 recruit_character = BUL_petar_stoyanov
+recruit_character = BUL_alexander_lilov
 
 set_popularities = {
 	democratic = 50
