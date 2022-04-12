@@ -52,7 +52,8 @@ ideas = {
 
 			modifier = {
 				army_core_defence_factor = 0.1
-				war_support_factor = 0.3
+				defensive_war_stability_factor = 0.2
+                        defensive_war_war_support_factor = 0.2
 			}
 		}
 
