@@ -1,0 +1,65 @@
+add_namespace = yug
+add_namespace = yug_rebel
+add_namespace = yug_hidden
+add_namespace = yug_intro
+
+#All Quite in Bosnia#
+country_event = {
+	id = yug.1
+	title = yug.1.t
+	desc = yug.1.d
+	picture = GFX_report_event_YUG_bossnia
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = yug.1.a
+		
+	}
+}
+#Slobo is funni#
+country_event = {
+	id = yug.2
+	title = yug.2.t
+	desc = yug.2.d
+	picture = GFX_report_event_YUG_slobo
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = yug.2.a
+	}
+}
+#Sad#
+country_event = {
+	id = yug.3
+	title = yug.3.t
+	desc = yug.3.d
+	picture = GFX_report_event_YUG_depressed
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = yug.3.a
+	}
+}
+#Meeting#
+country_event = {
+	id = yug.4
+	title = yug.4.t
+	desc = yug.4.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#Communist#
+	option = {
+	name = yug.4.a
+		load_focus_tree = yug_communist_focus
+	}
+	#Nationalist#
+	option = {
+		name = yug.4.b
+	}
+}

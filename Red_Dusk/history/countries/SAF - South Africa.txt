@@ -1,0 +1,21 @@
+﻿capital = 681
+
+#oob = "SAF_1936"
+
+set_stability = 0.6
+set_war_support = 0.1
+set_convoys = 25
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1994.5.17"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 35
+	fascism = 50
+	communism = 15
+}
+
+recruit_character = SAF_constand_viljoen

@@ -1,0 +1,36 @@
+###########################
+# News Event
+###########################
+
+add_namespace = old_times_news
+
+
+news_event = {
+	id = old_times_news.1
+	title = old_times_news.1.t
+	desc = old_times_news.1.d
+	picture = GFX_news_yanayev
+
+	major = yes
+
+	is_triggered_only = yes
+	is_triggered_once = yes
+	option ={
+		name = old_times_news.1.a
+	}
+}
+
+news_event = {
+	id = old_times_news.2
+	title = old_times_news.2.t
+	desc = old_times_news.2.d
+	picture = GFX_news_afghan_invasion
+	
+	major = yes
+	
+	is_triggered_only = yes
+	is_triggered_once = yes
+	option ={
+		name = old_times_news.2.a
+	}
+}

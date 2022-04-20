@@ -1,0 +1,154 @@
+﻿capital = 219
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	#set_oob = ""
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	#set_oob = ""
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "SOV_2000_naval_mtg"
+	else = {
+		#set_naval_oob = ""
+	}
+}
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.3
+
+set_convoys = 50
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1991.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 2
+	communism = 88
+}
+
+add_ideas = SOV_memories_of_perestroika
+add_ideas = SOV_memories_of_august_coup
+add_ideas = SOV_stagnating_economy
+add_ideas = SOV_militarised_industry
+add_ideas = SOV_party_infighting
+add_ideas = SOV_rising_separatism
+
+recruit_character = SOV_gennady_yanayev
+recruit_character = SOV_dmitry_yazov
+recruit_character = SOV_anatoly_chernyaev
+recruit_character = SOV_boris_pugo
+recruit_character = SOV_mikhail_gorbachev
+recruit_character = SOV_vladimir_putin
+recruit_character = SOV_party
+recruit_character = SOV_mikhail_kolesnikov
+recruit_character = SOV_vladimir_based
+recruit_character = SOV_aleksandr_korzhakov
+recruit_character = SOV_alexey_sorokin
+recruit_character = SOV_anatoly_kulikov
+recruit_character = SOV_anatoly_kvashnin
+recruit_character = SOV_arkady_bakhin 
+recruit_character = SOV_yuri_maslyukov
+recruit_character = SOV_dmitry_bulgakov
+recruit_character = SOV_ivan_kapitanets
+recruit_character = SOV_nikolai_yevmenov
+recruit_character = SOV_sergey_shoigu
+recruit_character = SOV_sergey_sokolov
+recruit_character = SOV_vasily_petrov
+recruit_character = SOV_vladimir_chernavin
+recruit_character = SOV_vladimir_korolyov
+recruit_character = SOV_valery_gerasimov
+recruit_character = SOV_vladimir_boldyrev
+recruit_character = SOV_vladimir_kuroyedov
+
+create_faction = "Moscow Accord"
+SOV = {
+	add_to_faction = MON
+}
+
+# Naval Variants #
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	# Submarines #
+	create_equipment_variant = {
+		name = "Project 877"
+		type = attack_submarine_hull_2
+		name_group = SOV_SS_NUMERICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_sonar_slot = sub_sonar_2
+			fixed_ship_systems_slot = sub_electrical_systems_2
+			fixed_ship_engine_slot = sub_engine_diesel_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			custom_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Project 949A"
+		type = cruise_submarine_hull_2
+		name_group = SOV_SSGN_NUMERICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_sonar_slot = sub_sonar_2
+			fixed_ship_systems_slot = sub_electrical_systems_2
+			fixed_ship_engine_slot = sub_engine_diesel_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			custom_slot_1 = cruise_missile_2
+			fixed_sub_cruise_missile_slot_1 = cruise_missile_2
+			fixed_sub_cruise_missile_slot_2 = cruise_missile_2
+			fixed_sub_cruise_missile_slot_3 = cruise_missile_2
+			fixed_sub_cruise_missile_slot_4 = cruise_missile_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Project 667B"
+		type = ballistic_submarine_hull_1
+		name_group = SOV_SSBN_NUMERICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_sonar_slot = sub_sonar_1
+			fixed_ship_systems_slot = sub_electrical_systems_1
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			custom_slot_1 = empty
+			fixed_sub_ballistic_missile_slot_1 = ballistic_missile_1
+			fixed_sub_ballistic_missile_slot_2 = ballistic_missile_1
+			fixed_sub_ballistic_missile_slot_3 = ballistic_missile_1
+			fixed_sub_ballistic_missile_slot_4 = empty
+			fixed_sub_ballistic_missile_slot_5 = empty
+		}
+	}
+
+	# Corvette #
+	create_equipment_variant = {
+		name = "Test Corvette"
+		type = corvette_hull_1
+		name_group = SOV_SS_NUMERICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = sub_electrical_systems_1
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
+	}
+}

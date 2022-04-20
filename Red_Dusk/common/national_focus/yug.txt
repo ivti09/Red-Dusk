@@ -1,0 +1,200 @@
+focus_tree = {
+	id = yug_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = YUG
+		}
+	}
+	
+	default = no
+	focus = {
+		id = YUG_a_broken_nation
+		icon = GFX_focus_YUG_broken_nation
+		x = 9
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 1.43
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -10
+			add_stability = -0.07
+			YUG = {
+				country_event = { id = yug.3 }
+			}
+
+		}
+	}
+	
+	focus = {
+		id = YUG_new_future
+		icon = GFX_focus_YUG_new_future
+		x = 0
+		y = 1
+
+		prerequisite = {focus = YUG_a_broken_nation}
+		mutually_exclusive = { }
+		relative_position_id = YUG_a_broken_nation
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			add_stability = 0.04
+		}
+	}
+	
+	focus = {
+		id = YUG_slobos_11_years
+		icon = GFX_focus_YUG_slobos_11
+		x = 0
+		y = 2
+
+		prerequisite = {focus = YUG_new_future}
+		mutually_exclusive = { }
+		relative_position_id = YUG_a_broken_nation
+		
+		cost = 1.43
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			YUG = {
+				country_event = { id = yug.2 }
+			}
+			
+		}
+	}
+
+	focus = {
+		id = YUG_national_report
+		icon = GFX_focus_YUG_national_report
+		x = 0
+		y = 3
+
+		prerequisite = {focus = YUG_slobos_11_years}
+		mutually_exclusive = { }
+		relative_position_id = YUG_a_broken_nation
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -20
+			add_war_support = -0.05
+			YUG = {
+				country_event = { id = yug.1 }
+			}
+			
+		}
+	}
+
+	focus = {
+		id = YUG_anti_terror
+		icon = GFX_focus_YUG_antiterror
+		x = 0
+		y = 4
+
+		prerequisite = {focus = YUG_national_report}
+		mutually_exclusive = { }
+		relative_position_id = YUG_a_broken_nation
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = YUG_cities
+		icon = GFX_focus_YUG_cities
+		x = 0
+		y = 5
+
+		prerequisite = {focus = YUG_anti_terror}
+		mutually_exclusive = { }
+		relative_position_id = YUG_a_broken_nation
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.02
+		}
+	}
+
+	focus = {
+		id = YUG_skj
+		icon = GFX_focus_YUG_skj
+		x = 0
+		y = 6
+
+		prerequisite = {focus = YUG_cities}
+		mutually_exclusive = { }
+		relative_position_id = YUG_a_broken_nation
+		
+		cost = 4
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			add_stability = 0.03
+			YUG = {
+				country_event = { id = yug.4 }
+			}
+		}
+	}
+
+}

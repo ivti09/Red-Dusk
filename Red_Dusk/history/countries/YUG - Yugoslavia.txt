@@ -1,0 +1,26 @@
+﻿capital = 107
+
+set_research_slots = 3
+
+set_convoys = 10
+set_politics = {
+	ruling_party = communism
+	last_election = "1991.5.3"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 50
+	communism = 40
+}
+
+recruit_character = YUG_slobodan_milošević
+
+add_ideas = YUG_demoralized_army
+add_ideas = YUG_yugoslav_mode_of_socialism
+add_ideas = YUG_broken_brotherhood
+add_ideas = YUG_what_are_we
+add_ideas = YUG_after_tito
+
+set_stability = 0.4
