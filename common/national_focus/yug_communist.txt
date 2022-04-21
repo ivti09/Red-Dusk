@@ -2,11 +2,6 @@ focus_tree = {
 	id = yug_communist_focus
 	country = {
 		factor = 0
-		
-		modifier = {
-			add = 11
-			tag = YUG
-		}
 	}
 	
 	

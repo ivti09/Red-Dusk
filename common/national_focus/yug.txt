@@ -188,6 +188,7 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+
 		completion_reward = {
 			add_political_power = 15
 			add_stability = 0.03

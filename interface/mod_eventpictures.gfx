@@ -1,0 +1,113 @@
+spriteTypes = {
+
+	## MOD ##
+
+	spriteType = {
+		name = "GFX_report_event_SOV_1991"
+		texturefile = "gfx/event_pictures/report_event_SOV_1991.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SOV_union"
+		texturefile = "gfx/event_pictures/report_event_SOV_union.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SOV_economy"
+		texturefile = "gfx/event_pictures/report_event_SOV_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SOV_reform"
+		texturefile = "gfx/event_pictures/report_event_SOV_reform.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SOV_yazov_protest"
+		texturefile = "gfx/event_pictures/report_event_SOV_yazov_protest.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SOV_resignation"
+		texturefile = "gfx/event_pictures/report_event_SOV_resignation.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SOV_the_meeting"
+		texturefile = "gfx/event_pictures/report_event_the_meeting.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SOV_the_meeting_con"
+		texturefile = "gfx/event_pictures/report_event_meeting_continues.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_biggest_failures"
+		texturefile = "gfx/event_pictures/report_event_biggest_failures.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_yannayevs_burden"
+		texturefile = "gfx/event_pictures/report_event_yannayevs_burden.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_gorby_gone"
+		texturefile = "gfx/event_pictures/report_event_gorby_gone.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_union_hobbles"
+		texturefile = "gfx/event_pictures/report_event_union_hobbles.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_meet_the_ministers"
+		texturefile = "gfx/event_pictures/report_event_meet_the_ministers.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_polar_star"
+		texturefile = "gfx/event_pictures/report_event_polar_star.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_shield_of_the_motherland"
+		texturefile = "gfx/event_pictures/report_event_shield_of_the_motherland.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ww3"
+		texturefile = "gfx/event_pictures/report_event_ww3.dds"
+	}
+	
+	##USA##
+	
+	
+	
+	spriteType = {
+		name = "GFX_report_event_USA_liberty_statue"
+		texturefile = "gfx/event_pictures/report_event_USA_state.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_USA_92_election"
+		texturefile = "gfx/event_pictures/report_event_USA_1992_elections.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_USA_bush"
+		texturefile = "gfx/event_pictures/report_event_USA_bush.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_USA_90s"
+		texturefile = "gfx/event_pictures/report_event_USA_90s.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_USA_2000"
+		texturefile = "gfx/event_pictures/report_event_usa_2000.dds"
+	}
+	
+	# YUG #
+
+	spriteType = {
+		name = "GFX_report_event_YUG_bossnia"
+		texturefile = "gfx/event_pictures/report_event_yug1.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_YUG_slobo"
+		texturefile = "gfx/event_pictures/report_event_slobo.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_YUG_depressed"
+		texturefile = "gfx/event_pictures/report_event_depressed.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_YUG_SKJ_meeting"
+		texturefile = "gfx/event_pictures/report_event_skj_meeting.dds"
+	}
+}

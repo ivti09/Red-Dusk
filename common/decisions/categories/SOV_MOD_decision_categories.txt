@@ -12,7 +12,7 @@ sov_purging = {
 		has_country_flag = purges_completed
         }
 	}
-	priority = 100
+	priority = 15
 }
 
 sov_building_industry = {
@@ -24,23 +24,66 @@ sov_building_industry = {
 	visible = {
 
 	}
-	priority = 110
+	priority = 20
 }
 
 sov_crackdown_lithuenia = {
 	icon = GFX_decision_category_SOV_civil_war
 	allowed = {
-		has_country_flag = crackdown_lithuenia
-		NOT = {
-		has_country_flag = finished_crackdown_lithuenia
-        }
 	}
 	
 	visible = {
-		has_country_flag = crackdown_lithuenia
 		NOT = {
 		has_country_flag = finished_crackdown_lithuenia
         }
 	}
 	priority = 120
 }
+
+sov_crackdown_chechenya = {
+	icon = GFX_decision_category_SOV_civil_war
+	allowed = {
+	}
+	
+	visible = {
+		NOT = {
+		has_country_flag = finished_crackdown_chechenya
+        }
+	}
+	priority = 110
+
+
+}
+
+sov_crackdown_ukraine = {
+	icon = GFX_decision_category_SOV_civil_war
+	allowed = {
+	}
+	
+	visible = {
+		NOT = {
+		has_country_flag = finished_crackdown_ukraine
+        }
+	}
+	priority = 100
+
+
+}
+
+sov_invade_china_decisions = {
+	icon = GFX_decision_category_SOV_civil_war
+	allowed = {
+		NOT = {
+		has_country_flag = sov_invaded_china
+        }
+	}
+	
+	visible = {
+		NOT = {
+		has_country_flag = sov_invaded_china
+        }
+	}
+	priority = 150
+
+}
+

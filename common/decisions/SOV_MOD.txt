@@ -36,15 +36,15 @@ sov_purging = {
 
 		allowed = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		available = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		visible = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		days_remove = 3
 		modifier {
@@ -67,15 +67,15 @@ sov_purging = {
 
 		allowed = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		available = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		visible = {
 			original_tag = SOV
-			has_completed_focus = SOV_securing_the_chairman_position
+			 has_completed_focus = SOV_securing_the_chairman_position
 		}
 		days_remove = 3
 		modifier {
@@ -88,6 +88,7 @@ sov_purging = {
 		}
 		remove_effect = { 
 			set_country_flag = vsp_purged
+			
 		}
 	}
 	
@@ -274,44 +275,53 @@ sov_building_industry = {
 sov_crackdown_lithuenia = {
 		
 	sov_timer_clock_lit = {                          
-		allowed = { 
-			tag = SOV 
-			has_completed_focus =  SOV_yazov_crackdown_lithuenia
-		}                
-		available = {                          
-			has_country_flag = finished_crackdown_lithuenia
-		}
-		activation = {                          
-			has_country_flag = crackdown_lithuenia
-		}
+          allowed = { 
 		  
-		is_good = no
-		selectable_mission = no
-		days_mission_timeout = 35             
-		timeout_effect = {                      
-			IF = {
-				limit = { 			 
+		  tag = SOV 
+		  has_completed_focus =  SOV_yazov_crackdown_lithuenia
+		  
+		  }                
+          available = {                          
+				has_country_flag = finished_crackdown_lithuenia 
+          }
+          activation = {                          
+               has_country_flag = crackdown_lithuenia
+          }
+		  
+          is_good = no
+          selectable_mission = no
+          days_mission_timeout = 35             
+          timeout_effect = {                      
+            IF = {
+				 limit = { 			 
 					check_variable = {
-						lit_resistance > 40
+							lit_resistance > 40
 					}
+					 
 				}
 				SOV = {
 					country_event = { id = ussr_rebel.1 }
 				}
 			}
-			ELSE_IF = {
-				limit = {
-					check_variable = {
-						lit_resistance < 40
+				ELSE_IF = {
+					limit = {
+
+				check_variable = {
+					lit_resistance < 40
+				}
+
 					}
-				}
-				SOV = {
-					country_event = { id = ussr_rebel.2 }
-				}
-			}
-		}
-		complete_effect = {                    
-		}
+						SOV = {
+						country_event = { id = ussr_rebel.2 }
+						}
+				
+
+          }
+          complete_effect = {                    
+			
+          }
+     }
+	
 	}
 	
 	sov_shell_resistance_towns_yazov = {
@@ -500,19 +510,23 @@ sov_crackdown_lithuenia = {
 		}
 		complete_effect = { 
 			custom_effect_tooltip = this_might_end_bad_bozo
-			random_list = {
-				80 = { 		
-					SOV = {
-						country_event = { id = ussr_rebel.4 days = 1 }
-					} 
-				}
-				20 = { 		
-					SOV = {
-						country_event = { id = ussr_rebel.3 days = 1 }
-					} 
-				}
-			}
+	random_list = {
+		80 = { 		
+			 SOV = {
+				country_event = { id = ussr_rebel.4 days = 1 }
+			} 
+		
 		}
+		20 = { 		
+			 SOV = {
+				country_event = { id = ussr_rebel.3 days = 1 }
+			} 
+		
+		}
+	}
+		
+		}
+		
 	}
 	
 	sov_raid_resistance_holdouts_yazov = {
@@ -626,44 +640,53 @@ sov_crackdown_lithuenia = {
 sov_crackdown_chechenya = {
 		
 	sov_timer_clock_cin = {                          
-		allowed = { 
-			tag = SOV 
-			has_completed_focus =  SOV_yazov_crackdown_chechenya
-		}                
-		available = {                          
-			has_country_flag = finished_crackdown_chechenya
-		}
-		activation = {                          
-			has_country_flag = crackdown_chechenya
-		}
+          allowed = { 
 		  
-		is_good = no
-		selectable_mission = no
-		days_mission_timeout = 35             
-		timeout_effect = {                      
-			IF = {
-				limit = { 			 
+		  tag = SOV 
+		  has_completed_focus =  SOV_yazov_crackdown_chechenya
+		  
+		  }                
+          available = {                          
+				has_country_flag = finished_crackdown_chechenya
+          }
+          activation = {                          
+               has_country_flag = crackdown_chechenya
+          }
+		  
+          is_good = no
+          selectable_mission = no
+          days_mission_timeout = 35             
+          timeout_effect = {                      
+            IF = {
+				 limit = { 			 
 					check_variable = {
-						cin_resistance > 40
+							cin_resistance > 40
 					}
+					 
 				}
 				SOV = {
 					country_event = { id = ussr_rebel_cin.1 }
 				}
 			}
-			ELSE_IF = {
-				limit = {
-					check_variable = {
-						cin_resistance < 40
+				ELSE_IF = {
+					limit = {
+
+				check_variable = {
+					cin_resistance < 40
+				}
+
 					}
-				}
-				SOV = {
-					country_event = { id = ussr_rebel_cin.2 }
-				}
-			}
-		}
-		complete_effect = {                    
-		}
+						SOV = {
+						country_event = { id = ussr_rebel_cin.2 }
+						}
+				
+
+          }
+          complete_effect = {                    
+			
+          }
+     }
+	
 	}
 	
 	sov_shell_resistance_towns_yazov_cin = {
@@ -886,44 +909,53 @@ sov_crackdown_chechenya = {
 sov_crackdown_ukraine = {
 		
 	sov_timer_clock_ukr = {                          
-		allowed = { 
-			tag = SOV 
-			has_completed_focus =  SOV_yazov_reassure_ukraine
-		}                
-		available = {                          
-			has_country_flag = finished_crackdown_ukraine
-		}
-          	activation = {                          
-			has_country_flag = crackdown_ukraine
-		}
+          allowed = { 
 		  
-		is_good = no
-		selectable_mission = no
-		days_mission_timeout = 35             
-		timeout_effect = {                      
-			IF = {
-				limit = { 			 
+		  tag = SOV 
+		  has_completed_focus =  SOV_yazov_reassure_ukraine
+		  
+		  }                
+          available = {                          
+				has_country_flag = finished_crackdown_ukraine
+          }
+          activation = {                          
+               has_country_flag = crackdown_ukraine
+          }
+		  
+          is_good = no
+          selectable_mission = no
+          days_mission_timeout = 35             
+          timeout_effect = {                      
+            IF = {
+				 limit = { 			 
 					check_variable = {
-						ukr_resistance > 40
+							ukr_resistance > 40
 					}
+					 
 				}
 				SOV = {
 					country_event = { id = ussr_rebel_ukr.1 }
 				}
 			}
-			ELSE_IF = {
-				limit = {
-					check_variable = {
-						ukr_resistance < 40
+				ELSE_IF = {
+					limit = {
+
+				check_variable = {
+					ukr_resistance < 40
+				}
+
 					}
-				}
-				SOV = {
-					country_event = { id = ussr_rebel_ukr.2 }
-				}
-			}
-		}
-		complete_effect = {                    
-		}
+						SOV = {
+						country_event = { id = ussr_rebel_ukr.2 }
+						}
+				
+
+          }
+          complete_effect = {                    
+			
+          }
+     }
+	
 	}
 	
 	sov_shell_resistance_towns_yazov_ukr = {
@@ -1120,22 +1152,25 @@ sov_invade_china_decisions = {
 
 		allowed = {
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
+				}
+
 		}
 		available = {
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
+				}
+
 		}
 		visible = {
 		has_completed_focus = SOV_yazov_project_red_dusk
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
+				}
+
 		}
 		
 		highlight_state_targets = {
@@ -1148,14 +1183,14 @@ sov_invade_china_decisions = {
 			factor = 0
 		}
 		complete_effect = { 
-			608 = { 
-				remove_building = { type = arms_factory  level = 2 } 
-				remove_building = { type = industrial_complex  level = 2 } 
-			}
-			613 = { 
-				remove_building = { type = arms_factory  level = 2 } 
-				remove_building = { type = industrial_complex  level = 2 } 
-			}
+				608 = { 
+					remove_building = { type = arms_factory  level = 2 } 
+					remove_building = { type = industrial_complex  level = 2 } 
+				}
+				613 = { 
+					remove_building = { type = arms_factory  level = 2 } 
+					remove_building = { type = industrial_complex  level = 2 } 
+				}
 		}
 	}
 	
@@ -1165,22 +1200,25 @@ sov_invade_china_decisions = {
 
 		allowed = {
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
+				}
+
 		}
 		available = {
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
+				}
+
 		}
 		visible = {
 		has_completed_focus = SOV_yazov_project_red_dusk
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
+				}
+
 		}
 		
 		highlight_state_targets = {
@@ -1209,24 +1247,24 @@ sov_invade_china_decisions = {
 
 		allowed = {
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
+				}
 
 		}
 		available = {
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
+				}
 
 		}
 		visible = {
 		has_completed_focus = SOV_yazov_project_red_dusk
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
+				}
 
 		}
 		
@@ -1245,6 +1283,7 @@ sov_invade_china_decisions = {
 					limit = { arms_factory > 2 }
 					remove_building = { type = arms_factory  level = 3 }				
 				}
+			
 			}
 		}
 	}
@@ -1255,22 +1294,25 @@ sov_invade_china_decisions = {
 
 		allowed = {
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
+				}
+
 		}
 		available = {
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
+				}
+
 		}
 		visible = {
 		has_completed_focus = SOV_yazov_project_red_dusk
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
+				}
+
 		}
 		
 		cost = 35
@@ -1280,7 +1322,7 @@ sov_invade_china_decisions = {
 		}
 		complete_effect = { 
 			PRC = {
-				add_political_power = -100
+				add_politcal_power = -100
 				add_manpower = -10000
 			}
 			add_manpower = 10000
@@ -1293,24 +1335,24 @@ sov_invade_china_decisions = {
 
 		allowed = {
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
-			has_completed_focus = SOV_yazov_ready_set
+				}
+				has_completed_focus = SOV_yazov_ready_set
 		}
 		available = {
 			original_tag = SOV
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
-			has_completed_focus = SOV_yazov_ready_set
+				}
+				has_completed_focus = SOV_yazov_ready_set
 		}
 		visible = {
 			original_tag = SOV
 			has_completed_focus = SOV_yazov_project_red_dusk
-			NOT = {
+				NOT = {
 				has_country_flag = sov_invaded_china
-			}
+				}
 
 		}
 		
@@ -1324,4 +1366,7 @@ sov_invade_china_decisions = {
 			add_ideas = project_red_dusk
 		}
 	}
+
+
+
 }
