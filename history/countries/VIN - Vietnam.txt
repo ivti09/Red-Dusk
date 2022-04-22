@@ -9,6 +9,8 @@ add_ideas = VIN_doi_moi
 add_ideas = VIN_patriotic_tradition
 
 recruit_character = VIN_le_kha_phieu
+recruit_character = VIN_phung_quang_thanh
+recruit_character = VIN_pham_van_tra
 
 set_politics = {
 	ruling_party = communism

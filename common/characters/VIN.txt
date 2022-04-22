@@ -4,7 +4,7 @@ characters = {
 		name = "Le Kha Phieu"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/VIN/Le_Kha_Phieu.dds"
+				large = "gfx/leaders/VIN/Le_Kha_Phieu.png"
 			}
 		}
 		country_leader = {
@@ -15,4 +15,39 @@ characters = {
 		}
 	}
 
+  ### Generals ###
+      VIN_phung_quang_thanh = {
+		name = "Phung Quang Thanh"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VIN/Phung_Quang_Thanh.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	VIN_pham_van_tra = {
+		name = "Pham Van Tra"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VIN/Pham_Van_Tra.png"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
 }
