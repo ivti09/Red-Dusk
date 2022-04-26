@@ -1,0 +1,20 @@
+add_namespace = vin_intro
+
+country_event = {
+	id = vin_intro.1
+	title = vin_intro.1.t
+	desc = vin_intro.1.d
+	picture = GFX_report_event_VIN_intro
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin_intro.1.a
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = vin_intro.2 days = 5 }
+			}
+		}
+	}
+}
