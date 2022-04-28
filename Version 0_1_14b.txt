@@ -1,0 +1,66 @@
+# common #
+	# technologies #
+		- NSB_armor.txt: added recon vehicle tree, added stats
+		- armor.txt: add non-NSB tree (copy of NSB_armor)
+	# units #
+		- Added main_battle_tank.txt
+		- Added infantry_fighting_vehicle.txt
+		- Added armoured_personnel_carrier.txt
+		- Added reconnaissance_vehicle.txt
+		# equipment #
+			- scout_vehicle.txt: renamed and updated
+	# characters #
+		- Updated VIN.txt
+	# countries #
+		- Updated colors.txt
+	# national_focus #
+		- Added Vietnam focus tree
+	# on_actions #
+		- on_actions_mod.txt: updated with Vietnam
+
+# events #
+	- vin.txt added Vietnamese events
+
+# gfx #
+	# interface #
+		# technologies #
+			- Added gfx for generic, USA, SOV recon vehicles
+		# goals #
+			- Added and updated several icons
+	# leaders #
+		# VIN #
+			- Added 2 new portraits
+	# event_pictures #
+		- Added Vietnam event pictures
+
+# history #
+	# states #
+		- Updated states: 286, 670, 671, 741
+		- Added new states: 841, 842, 843, 844
+	# countries #
+		- VIN: updated
+
+# interface #
+	- countrytechtreeview.gui: added recon_vehicle_1960_tree and subtitles, updated armour window, updated non-NSB armour
+	- mod_technologies.gfx: added recon vehicle gfx references, add no-step-back gfx references
+	- countrytechtreeview.gfx: added small icons for non-NSB armour tree
+	- mod_goals.gfx, mod_goals_shine.gfx: added Vietnamese icons
+
+# localisation #
+	# english #
+		- state_names_l_english: renamed several states, added new state names
+		- equipment_l_english: added localisation for recon vehicles and tree
+		- research_l_english: added localisation for non-nsb research
+		- unit_l_english: added localisation for modern armoured vehicles
+		- countries_l_english: updated several country names
+		- events_l_english: added Vietnam events
+		- reddusk_focus_l_english: added Vietnam focuses
+
+# map #
+	- Regenerated airports, buildings, rocketsites
+
+# music #
+	- Added new music
+
+## NOTES ##
+	- Fixed news gfx

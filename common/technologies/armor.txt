@@ -2,27 +2,27 @@ technologies = {
 
 ## Main Battle Tank ##
 
-	nsb_mbt_tank_1960 = {
+	mbt_tank_1960 = {
 
 		enable_equipments = {
 			mbt_tank_equipment_0
 		}
 
 		path = {
-			leads_to_tech = nsb_mbt_tank_1970
+			leads_to_tech = mbt_tank_1970
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_tank_ammo_1960
+			leads_to_tech = tank_ammo_1960
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 1960
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 1 }
 		}
 
@@ -35,27 +35,27 @@ technologies = {
 
 	}
 
-	nsb_mbt_tank_1970 = {
+	mbt_tank_1970 = {
 
 		enable_equipments = {
 			mbt_tank_equipment_1
 		}
 
 		path = {
-			leads_to_tech = nsb_mbt_tank_1980
+			leads_to_tech = mbt_tank_1980
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_tank_ammo_1970
+			leads_to_tech = tank_ammo_1970
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 1970
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 5 }
 		}
 
@@ -68,31 +68,31 @@ technologies = {
 
 	}
 
-	nsb_mbt_tank_1980 = {
+	mbt_tank_1980 = {
 
 		enable_equipments = {
 			mbt_tank_equipment_2
 		}
 
 		path = {
-			leads_to_tech = nsb_mbt_tank_1990
+			leads_to_tech = mbt_tank_1990
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_tank_ammo_1980
+			leads_to_tech = tank_ammo_1980
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_tank_reactive_armour_1
+			leads_to_tech = tank_reactive_armour_1
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 1980
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 9 }
 		}
 
@@ -105,31 +105,31 @@ technologies = {
 
 	}
 
-	nsb_mbt_tank_1990 = {
+	mbt_tank_1990 = {
 
 		enable_equipments = {
 			mbt_tank_equipment_3
 		}
 
 		path = {
-			leads_to_tech = nsb_mbt_tank_2000
+			leads_to_tech = mbt_tank_2000
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_tank_ammo_1990
+			leads_to_tech = tank_ammo_1990
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_tank_aps_soft
+			leads_to_tech = tank_aps_soft
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 1990
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 13 }
 		}
 
@@ -142,31 +142,31 @@ technologies = {
 
 	}
 
-	nsb_mbt_tank_2000 = {
+	mbt_tank_2000 = {
 
 		enable_equipments = {
 			mbt_tank_equipment_4
 		}
 
 		path = {
-			leads_to_tech = nsb_mbt_tank_2010
+			leads_to_tech = mbt_tank_2010
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_tank_ammo_2000
+			leads_to_tech = tank_ammo_2000
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_tank_reactive_armour_3
+			leads_to_tech = tank_reactive_armour_3
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 2000
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 17 }
 		}
 
@@ -179,27 +179,27 @@ technologies = {
 
 	}
 
-	nsb_mbt_tank_2010 = {
+	mbt_tank_2010 = {
 
 		enable_equipments = {
 			mbt_tank_equipment_5
 		}
 
 		path = {
-			leads_to_tech = nsb_mbt_tank_2020
+			leads_to_tech = mbt_tank_2020
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_tank_ammo_2010
+			leads_to_tech = tank_ammo_2010
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 2010
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 21 }
 		}
 
@@ -212,23 +212,23 @@ technologies = {
 
 	}
 
-	nsb_mbt_tank_2020 = {
+	mbt_tank_2020 = {
 
 		enable_equipments = {
 			mbt_tank_equipment_6
 		}
 
 		path = {
-			leads_to_tech = nsb_tank_ammo_2020
+			leads_to_tech = tank_ammo_2020
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 2020
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 25 }
 		}
 
@@ -241,19 +241,15 @@ technologies = {
 
 	}
 
-	nsb_tank_ammo_1960 = {
+	tank_ammo_1960 = {
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 1960
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -1 y = 3 }
-		}
-
-		main_battle_tank_armor = {
-			ap_attack = 0.05
 		}
 
 		ai_will_do = {
@@ -264,19 +260,15 @@ technologies = {
 
 	}
 
-	nsb_tank_ammo_1970 = {
+	tank_ammo_1970 = {
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 1970
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -1 y = 7 }
-		}
-
-		main_battle_tank_armor = {
-			ap_attack = 0.05
 		}
 
 		ai_will_do = {
@@ -287,19 +279,15 @@ technologies = {
 
 	}
 
-	nsb_tank_ammo_1980 = {
+	tank_ammo_1980 = {
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 1980
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -1 y = 11 }
-		}
-
-		main_battle_tank_armor = {
-			ap_attack = 0.05
 		}
 
 		ai_will_do = {
@@ -310,19 +298,15 @@ technologies = {
 
 	}
 
-	nsb_tank_ammo_1990 = {
+	tank_ammo_1990 = {
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 1990
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -1 y = 15 }
-		}
-
-		main_battle_tank_armor = {
-			ap_attack = 0.05
 		}
 
 		ai_will_do = {
@@ -333,19 +317,15 @@ technologies = {
 
 	}
 
-	nsb_tank_ammo_2000 = {
+	tank_ammo_2000 = {
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 2000
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -1 y = 19 }
-		}
-
-		main_battle_tank_armor = {
-			ap_attack = 0.05
 		}
 
 		ai_will_do = {
@@ -356,19 +336,15 @@ technologies = {
 
 	}
 
-	nsb_tank_ammo_2010 = {
+	tank_ammo_2010 = {
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 2010
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -1 y = 23 }
-		}
-
-		main_battle_tank_armor = {
-			ap_attack = 0.05
 		}
 
 		ai_will_do = {
@@ -379,19 +355,15 @@ technologies = {
 
 	}
 
-	nsb_tank_ammo_2020 = {
+	tank_ammo_2020 = {
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 2020
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -2 y = 25 }
-		}
-
-		main_battle_tank_armor = {
-			ap_attack = 0.05
 		}
 
 		ai_will_do = {
@@ -402,24 +374,20 @@ technologies = {
 
 	}
 
-	nsb_tank_reactive_armour_1 = {
+	tank_reactive_armour_1 = {
 
 		path = {
-			leads_to_tech = nsb_tank_reactive_armour_2
+			leads_to_tech = tank_reactive_armour_2
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 1980
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 2 y = 11 }
-		}
-
-		main_battle_tank_armor = {
-			max_strength = 0.05
 		}
 
 		ai_will_do = {
@@ -430,24 +398,20 @@ technologies = {
 
 	}
 
-	nsb_tank_reactive_armour_2 = {
+	tank_reactive_armour_2 = {
 
 		path = {
-			leads_to_tech = nsb_tank_reactive_armour_3
+			leads_to_tech = tank_reactive_armour_3
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 1990
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 2 y = 15 }
-		}
-
-		main_battle_tank_armor = {
-			max_strength = 0.05
 		}
 
 		ai_will_do = {
@@ -458,24 +422,20 @@ technologies = {
 
 	}
 
-	nsb_tank_reactive_armour_3 = {
+	tank_reactive_armour_3 = {
 
 		path = {
-			leads_to_tech = nsb_tank_reactive_armour_4
+			leads_to_tech = tank_reactive_armour_4
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 2000
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 2 y = 19 }
-		}
-
-		main_battle_tank_armor = {
-			max_strength = 0.05
 		}
 
 		ai_will_do = {
@@ -486,19 +446,15 @@ technologies = {
 
 	}
 
-	nsb_tank_reactive_armour_4 = {
+	tank_reactive_armour_4 = {
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 2010
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 2 y = 23 }
-		}
-
-		main_battle_tank_armor = {
-			max_strength = 0.05
 		}
 
 		ai_will_do = {
@@ -509,25 +465,20 @@ technologies = {
 
 	}
 
-	nsb_tank_aps_soft = {
+	tank_aps_soft = {
 
 		path = {
-			leads_to_tech = nsb_tank_aps_hard
+			leads_to_tech = tank_aps_hard
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 1990
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -2 y = 13 }
-		}
-
-		main_battle_tank_armor = {
-			breakthrough = 0.05
-			defense = 0.05
 		}
 
 		ai_will_do = {
@@ -538,20 +489,15 @@ technologies = {
 
 	}
 
-	nsb_tank_aps_hard = {
+	tank_aps_hard = {
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 2010
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -2 y = 21 }
-		}
-
-		main_battle_tank_armor = {
-			breakthrough = 0.15
-			defense = 0.15
 		}
 
 		ai_will_do = {
@@ -564,27 +510,27 @@ technologies = {
 
 ## Infantry Fighting Vehicle ##
 
-	nsb_ifv_tank_1970 = {
+	ifv_tank_1970 = {
 
 		enable_equipments = {
 			ifv_tank_equipment_0
 		}
 
 		path = {
-			leads_to_tech = nsb_ifv_tank_1980
+			leads_to_tech = ifv_tank_1980
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_ifv_anti_tank_missile_1
+			leads_to_tech = ifv_anti_tank_missile_1
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 1970
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -3 y = 5 }
 		}
 
@@ -597,23 +543,23 @@ technologies = {
 
 	}
 
-	nsb_ifv_tank_1980 = {
+	ifv_tank_1980 = {
 
 		enable_equipments = {
 			ifv_tank_equipment_1
 		}
 
 		path = {
-			leads_to_tech = nsb_ifv_tank_1990
+			leads_to_tech = ifv_tank_1990
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 1980
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -3 y = 9 }
 		}
 
@@ -626,23 +572,23 @@ technologies = {
 
 	}
 
-	nsb_ifv_tank_1990 = {
+	ifv_tank_1990 = {
 
 		enable_equipments = {
 			ifv_tank_equipment_2
 		}
 
 		path = {
-			leads_to_tech = nsb_ifv_tank_2000
+			leads_to_tech = ifv_tank_2000
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 1990
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -3 y = 13 }
 		}
 
@@ -655,31 +601,31 @@ technologies = {
 
 	}
 
-	nsb_ifv_tank_2000 = {
+	ifv_tank_2000 = {
 
 		enable_equipments = {
 			ifv_tank_equipment_3
 		}
 
 		path = {
-			leads_to_tech = nsb_ifv_tank_2010
+			leads_to_tech = ifv_tank_2010
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_apc_tank_2000
+			leads_to_tech = apc_tank_2000
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_ifv_anti_tank_missile_4
+			leads_to_tech = ifv_anti_tank_missile_4
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 2000
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -3 y = 17 }
 		}
 
@@ -692,23 +638,23 @@ technologies = {
 
 	}
 
-	nsb_ifv_tank_2010 = {
+	ifv_tank_2010 = {
 
 		enable_equipments = {
 			ifv_tank_equipment_4
 		}
 
 		path = {
-			leads_to_tech = nsb_ifv_tank_2020
+			leads_to_tech = ifv_tank_2020
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 2010
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -3 y = 21 }
 		}
 
@@ -721,18 +667,18 @@ technologies = {
 
 	}
 
-	nsb_ifv_tank_2020 = {
+	ifv_tank_2020 = {
 
 		enable_equipments = {
 			ifv_tank_equipment_5
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 2020
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -3 y = 25 }
 		}
 
@@ -745,24 +691,20 @@ technologies = {
 
 	}
 
-	nsb_ifv_anti_tank_missile_1 = {
+	ifv_anti_tank_missile_1 = {
 
 		path = {
-			leads_to_tech = nsb_ifv_anti_tank_missile_2
+			leads_to_tech = ifv_anti_tank_missile_2
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 1970
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -5 y = 7 }
-		}
-
-		infantry_fighting_vehicle_armor = {
-			ap_attack = 0.05
 		}
 
 		ai_will_do = {
@@ -773,24 +715,20 @@ technologies = {
 
 	}
 
-	nsb_ifv_anti_tank_missile_2 = {
+	ifv_anti_tank_missile_2 = {
 
 		path = {
-			leads_to_tech = nsb_ifv_anti_tank_missile_3
+			leads_to_tech = ifv_anti_tank_missile_3
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 1980
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -5 y = 11 }
-		}
-
-		infantry_fighting_vehicle_armor = {
-			ap_attack = 0.05
 		}
 
 		ai_will_do = {
@@ -801,24 +739,20 @@ technologies = {
 
 	}
 
-	nsb_ifv_anti_tank_missile_3 = {
+	ifv_anti_tank_missile_3 = {
 
 		path = {
-			leads_to_tech = nsb_ifv_anti_tank_missile_4
+			leads_to_tech = ifv_anti_tank_missile_4
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 1990
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -5 y = 15 }
-		}
-
-		infantry_fighting_vehicle_armor = {
-			ap_attack = 0.05
 		}
 
 		ai_will_do = {
@@ -829,24 +763,20 @@ technologies = {
 
 	}
 
-	nsb_ifv_anti_tank_missile_4 = {
+	ifv_anti_tank_missile_4 = {
 
 		path = {
-			leads_to_tech = nsb_ifv_anti_tank_missile_5
+			leads_to_tech = ifv_anti_tank_missile_5
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 2000
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -5 y = 19 }
-		}
-
-		infantry_fighting_vehicle_armor = {
-			ap_attack = 0.05
 		}
 
 		ai_will_do = {
@@ -857,24 +787,20 @@ technologies = {
 
 	}
 
-	nsb_ifv_anti_tank_missile_5 = {
+	ifv_anti_tank_missile_5 = {
 
 		path = {
-			leads_to_tech = nsb_ifv_anti_tank_missile_6
+			leads_to_tech = ifv_anti_tank_missile_6
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 2010
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -5 y = 22 }
-		}
-
-		infantry_fighting_vehicle_armor = {
-			ap_attack = 0.05
 		}
 
 		ai_will_do = {
@@ -885,19 +811,15 @@ technologies = {
 
 	}
 
-	nsb_ifv_anti_tank_missile_6 = {
+	ifv_anti_tank_missile_6 = {
 
-		research_cost = 2.0
+		research_cost = 1.0
 
 		start_year = 2020
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = -5 y = 25 }
-		}
-
-		infantry_fighting_vehicle_armor = {
-			ap_attack = 0.05
 		}
 
 		ai_will_do = {
@@ -910,23 +832,23 @@ technologies = {
 
 ## Personnel Carriers ##
 
-	nsb_apc_tank_1960 = {
+	apc_tank_1960 = {
 
 		enable_equipments = {
 			apc_tank_equipment_0
 		}
 
 		path = {
-			leads_to_tech = nsb_apc_tank_1970
+			leads_to_tech = apc_tank_1970
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 1960
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 1 }
 		}
 
@@ -939,27 +861,27 @@ technologies = {
 
 	}
 
-	nsb_apc_tank_1970 = {
+	apc_tank_1970 = {
 
 		enable_equipments = {
 			apc_tank_equipment_1
 		}
 
 		path = {
-			leads_to_tech = nsb_apc_tank_1980
+			leads_to_tech = apc_tank_1980
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_ifv_tank_1970
+			leads_to_tech = ifv_tank_1970
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 1970
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 5 }
 		}
 
@@ -972,23 +894,23 @@ technologies = {
 
 	}
 
-	nsb_apc_tank_1980 = {
+	apc_tank_1980 = {
 
 		enable_equipments = {
 			apc_tank_equipment_2
 		}
 
 		path = {
-			leads_to_tech = nsb_apc_tank_1990
+			leads_to_tech = apc_tank_1990
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 1980
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 9 }
 		}
 
@@ -1001,23 +923,23 @@ technologies = {
 
 	}
 
-	nsb_apc_tank_1990 = {
+	apc_tank_1990 = {
 
 		enable_equipments = {
 			apc_tank_equipment_3
 		}
 
 		path = {
-			leads_to_tech = nsb_apc_tank_2000
+			leads_to_tech = apc_tank_2000
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 1990
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 13 }
 		}
 
@@ -1030,27 +952,27 @@ technologies = {
 
 	}
 
-	nsb_apc_tank_2000 = {
+	apc_tank_2000 = {
 
 		enable_equipments = {
 			apc_tank_equipment_4
 		}
 
 		path = {
-			leads_to_tech = nsb_apc_tank_2010
+			leads_to_tech = apc_tank_2010
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = nsb_ifv_tank_2000
+			leads_to_tech = ifv_tank_2000
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 2000
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 17 }
 		}
 
@@ -1063,23 +985,23 @@ technologies = {
 
 	}
 
-	nsb_apc_tank_2010 = {
+	apc_tank_2010 = {
 
 		enable_equipments = {
 			apc_tank_equipment_5
 		}
 
 		path = {
-			leads_to_tech = nsb_apc_tank_2020
+			leads_to_tech = apc_tank_2020
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 2010
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 21 }
 		}
 
@@ -1092,18 +1014,18 @@ technologies = {
 
 	}
 
-	nsb_apc_tank_2020 = {
+	apc_tank_2020 = {
 
 		enable_equipments = {
 			apc_tank_equipment_6
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 2020
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 25 }
 		}
 
@@ -1118,7 +1040,7 @@ technologies = {
 
 ## Recon Vehicles ##
 
-	nsb_recon_vehicle_1960 = {
+	recon_vehicle_1960 = {
 
 		allow_branch = { has_dlc = "La Resistance" }
 
@@ -1127,16 +1049,16 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = nsb_recon_vehicle_1980
+			leads_to_tech = recon_vehicle_1980
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 1960
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 1 }
 		}
 
@@ -1149,23 +1071,23 @@ technologies = {
 
 	}
 
-	nsb_recon_vehicle_1980 = {
+	recon_vehicle_1980 = {
 
 		enable_equipments = {
 			recon_vehicle_equipment_1
 		}
 
 		path = {
-			leads_to_tech = nsb_recon_vehicle_2000
+			leads_to_tech = recon_vehicle_2000
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 1980
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 9 }
 		}
 
@@ -1178,23 +1100,23 @@ technologies = {
 
 	}
 
-	nsb_recon_vehicle_2000 = {
+	recon_vehicle_2000 = {
 
 		enable_equipments = {
 			recon_vehicle_equipment_2
 		}
 
 		path = {
-			leads_to_tech = nsb_recon_vehicle_2020
+			leads_to_tech = recon_vehicle_2020
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 2000
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 17 }
 		}
 
@@ -1207,18 +1129,18 @@ technologies = {
 
 	}
 
-	nsb_recon_vehicle_2020 = {
+	recon_vehicle_2020 = {
 
 		enable_equipments = {
 			recon_vehicle_equipment_3
 		}
 
-		research_cost = 3.0
+		research_cost = 2.0
 
 		start_year = 2020
 
 		folder = {
-			name = nsb_armour_folder
+			name = armour_folder
 			position = { x = 0 y = 25 }
 		}
 

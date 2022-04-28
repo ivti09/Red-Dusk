@@ -27,8 +27,7 @@ on_actions = {
 				}
 			}
 		}
-             
-            
+
 		effect = {
 			VIN = {	
 				country_event = {id = vin_intro.1}	
@@ -37,4 +36,6 @@ on_actions = {
 
 	}
 	
+	
+
 }
