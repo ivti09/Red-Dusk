@@ -1,0 +1,45 @@
+equipments = {
+
+	recon_vehicle_equipment = {
+		year = 1960
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_recon_vehicle_equipment		
+		is_buildable = no
+		is_convertable = yes
+		type = armor
+		group_by = archetype
+
+		interface_category = interface_category_armor
+
+		upgrades = {
+			tank_reliability_upgrade
+			ac_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+	}
+
+	recon_vehicle_equipment_0 = {
+		year = 1960
+
+		archetype = recon_vehicle_equipment
+	}
+	recon_vehicle_equipment_1 = {
+		year = 1980
+
+		archetype = recon_vehicle_equipment
+	}
+	recon_vehicle_equipment_2 = {
+		year = 2000
+
+		archetype = recon_vehicle_equipment
+	}
+	recon_vehicle_equipment_3 = {
+		year = 2020
+
+		archetype = recon_vehicle_equipment
+	}
+
+}

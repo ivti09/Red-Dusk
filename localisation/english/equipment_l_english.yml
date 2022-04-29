@@ -651,6 +651,19 @@
  apc_tank_equipment_6:0 "2020s Personnel Carrier"
  apc_tank_equipment_6_short:0 "2020s APC"
 
+ recon_vehicle_equipment:0 "Reconnaissance Vehicle"
+ recon_vehicle_equipment_desc:0 "First gaining prominence during the Second World War, reconnaissance vehicles are a vital part of military intelligence operations. Generally, they are lightly armoured in exchange for speed and mobility, and usually carry ordnance designed to counter infantry and light armour."
+ recon_vehicle:0 "Reconnaissance Vehicle"
+ recon_vehicle_desc:0 "First gaining prominence during the Second World War, reconnaissance vehicles are a vital part of military intelligence operations. Generally, they are lightly armoured in exchange for speed and mobility, and usually carry ordnance designed to counter infantry and light armour."
+ recon_vehicle_equipment_0:0 "1960s Reconnaissance Vehicle"
+ recon_vehicle_equipment_0_short:0 "1960s Recon Vehicle"
+ recon_vehicle_equipment_1:0 "1980s Reconnaissance Vehicle"
+ recon_vehicle_equipment_1_short:0 "1980s Recon Vehicle"
+ recon_vehicle_equipment_2:0 "2000s Reconnaissance Vehicle"
+ recon_vehicle_equipment_2_short:0 "2000s Recon Vehicle"
+ recon_vehicle_equipment_3:0 "2020s Reconnaissance Vehicle"
+ recon_vehicle_equipment_3_short:0 "2020s Recon Vehicle"
+
 ## Nation-Specific Tanks ##
 # SOV #
  SOV_mbt_tank_equipment_0:0 "T-64 MBT"
@@ -689,6 +702,11 @@
  SOV_apc_tank_equipment_4_short:0 "BTR-90"
  SOV_apc_tank_equipment_5:0 "BTR-82 APC"
  SOV_apc_tank_equipment_5_short:0 "BTR-82"
+
+ SOV_recon_vehicle_equipment_0:0 "BRDM-2 Recon"
+ SOV_recon_vehicle_equipment_0_short:0 "BRDM-2"
+ SOV_recon_vehicle_equipment_2:0 "Dozor-B Recon"
+ SOV_recon_vehicle_equipment_2_short:0 "Dozor-B"
 # USA #
  USA_mbt_tank_equipment_0:0 "M60 MBT"
  USA_mbt_tank_equipment_0_short:0 "M60"
@@ -718,3 +736,8 @@
  USA_apc_tank_equipment_3_short:0 "M113A3"
  USA_apc_tank_equipment_4:0 "M1126 APC"
  USA_apc_tank_equipment_4_short:0 "M1126"
+
+ USA_recon_vehicle_equipment_1:0 "LAV-25 Recon"
+ USA_recon_vehicle_equipment_1_short:0 "LAV-25"
+ USA_recon_vehicle_equipment_2:0 "M1127 Recon"
+ USA_recon_vehicle_equipment_2_short:0 "M1127"
