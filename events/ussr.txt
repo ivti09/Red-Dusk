@@ -110,7 +110,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ussr.3.a
+		name = ussr.2.a
 	}
 }
 
@@ -139,7 +139,7 @@ country_event = {
 	
 	option = {
 		name = ussr.4.a
-		add_war_support = -5
+		add_war_support = -0.05
 	}
 }
 
@@ -216,6 +216,7 @@ country_event = {
 		name = ussr.7.b
 		retire_country_leader = yes
 		promote_character = SOV_mikhail_gorbachev
+		load_focus_tree = ussr_gorby_focus
 	}
 }
 
@@ -370,7 +371,7 @@ country_event = {
 	id = ussr.16
 	title = ussr.16.t
 	desc = ussr.16.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_event_helsinki
 	
 	is_triggered_only = yes
 	
@@ -417,7 +418,7 @@ country_event = {
 	id = ussr.18
 	title = ussr.18.t
 	desc = ussr.18.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_event_old_firend
 	
 	is_triggered_only = yes
 	
@@ -434,7 +435,7 @@ country_event = {
 	id = ussr.19
 	title = ussr.19.t
 	desc = ussr.19.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_event_beijing
 	
 	is_triggered_only = yes
 	
@@ -485,7 +486,7 @@ country_event = {
 	id = ussr_rebel.1
 	title = ussr_rebel.1.t
 	desc = ussr_rebel.1.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_resistance
 	
 	is_triggered_only = yes
 	
@@ -516,7 +517,7 @@ country_event = {
 	id = ussr_rebel.2
 	title = ussr_rebel.2.t
 	desc = ussr_rebel.2.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_resistance
 	
 	is_triggered_only = yes
 	
@@ -536,7 +537,7 @@ country_event = {
 	id = ussr_rebel_cin.1
 	title = ussr_rebel.1.t
 	desc = ussr_rebel.1.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_resistance
 	
 	is_triggered_only = yes
 	
@@ -563,7 +564,7 @@ country_event = {
 	id = ussr_rebel_cin.2
 	title = ussr_rebel.2.t
 	desc = ussr_rebel.2.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_resistance
 	
 	is_triggered_only = yes
 	
@@ -584,7 +585,7 @@ country_event = {
 	id = ussr_rebel_ukr.1
 	title = ussr_rebel_ukr.1.t
 	desc = ussr_rebel_ukr.1.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_resistance
 	
 	is_triggered_only = yes
 	
@@ -623,7 +624,7 @@ country_event = {
 	id = ussr_rebel_ukr.2
 	title = ussr_rebel_ukr.2.t
 	desc = ussr_rebel_ukr.2.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_resistance
 	
 	is_triggered_only = yes
 	
@@ -644,7 +645,7 @@ country_event = {
 	id = ussr_rebel.3
 	title = ussr_rebel.3.t
 	desc = ussr_rebel.3.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_resistance
 	
 	is_triggered_only = yes
 	
@@ -666,7 +667,7 @@ country_event = {
 	id = ussr_rebel.4
 	title = ussr_rebel.4.t
 	desc = ussr_rebel.4.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_resistance
 	
 	is_triggered_only = yes
 	
@@ -690,7 +691,7 @@ country_event = {
 	id = ussr_rebel.999
 	title = ussr_rebel.999.t
 	desc = ussr_rebel.999.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_resistance
 	hidden = yes
 	
 	trigger = { check_variable = { lit_stab_level < 31 } NOT = {has_country_flag = ok_bad_stab_event_wont_be_again_lit} }
@@ -712,7 +713,7 @@ country_event = {
 	id = ussr_rebel.998
 	title = ussr_rebel.998.t
 	desc = ussr_rebel.998.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_resistance
 	hidden = yes
 	
 	trigger = { check_variable = { lit_stab_level < 31 } NOT = {has_country_flag = ok_bad_stab_event_wont_be_again_chechen} }
@@ -734,7 +735,7 @@ country_event = {
 	id = ussr_rebel.997
 	title = ussr_rebel.997.t
 	desc = ussr_rebel.997.d
-	picture = GFX_report_event_SOV_the_meeting_con
+	picture = GFX_report_resistance
 	hidden = yes
 	
 	trigger = { check_variable = { lit_stab_level < 31 }  NOT = {has_country_flag = ok_bad_stab_event_wont_be_again_ukr} }

@@ -1,4 +1,4 @@
-version="0.1.14b"
+version="0.1.14d"
 tags={
 	"Alternative History"
 	"Events"
@@ -30,4 +30,4 @@ replace_path="history/countries"
 replace_path="history/general"
 replace_path="events"
 supported_version="1.11.*"
-path="C:/Users/Ululas/Documents/Paradox Interactive/Hearts of Iron IV/mod/Red-Dusk"
+path=""

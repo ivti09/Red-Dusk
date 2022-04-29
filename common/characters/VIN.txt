@@ -16,7 +16,7 @@ characters = {
 	}
 
   ### Generals ###
-      VIN_phung_quang_thanh = {
+     VIN_phung_quang_thanh = {
 		name = "Phung Quang Thanh"
 		portraits = {
 			army = {

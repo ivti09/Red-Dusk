@@ -121,36 +121,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = YUG_anti_terror
-		icon = GFX_focus_YUG_antiterror
+		id = YUG_cities
+		icon = GFX_focus_YUG_cities
 		x = 0
 		y = 4
 
 		prerequisite = {focus = YUG_national_report}
-		mutually_exclusive = { }
-		relative_position_id = YUG_a_broken_nation
-		
-		cost = 3
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			add_political_power = 20
-		}
-	}
-
-	focus = {
-		id = YUG_cities
-		icon = GFX_focus_YUG_cities
-		x = 0
-		y = 5
-
-		prerequisite = {focus = YUG_anti_terror}
 		mutually_exclusive = { }
 		relative_position_id = YUG_a_broken_nation
 		
@@ -173,7 +149,7 @@ focus_tree = {
 		id = YUG_skj
 		icon = GFX_focus_YUG_skj
 		x = 0
-		y = 6
+		y = 5
 
 		prerequisite = {focus = YUG_cities}
 		mutually_exclusive = { }

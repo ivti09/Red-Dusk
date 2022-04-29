@@ -1,0 +1,333 @@
+﻿focus_tree = {
+	id = ussr_gorby_focus
+	country = {
+		factor = 0
+	}
+	
+	continuous_focus_position = { x = 10 y = 9999 }
+	
+	default = no
+	focus = {
+		id = SOV_reformer
+		icon = GFX_focus_SOV_reformer
+		x = 10
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+
+		}
+	}
+	
+	focus = {
+		id = SOV_rally_the_people
+		icon = GFX_focus_SOV_rally_the_people
+		x = 10
+		y = 1
+
+		prerequisite = {focus = SOV_reformer}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			add_stability = 0.02
+		}
+	}
+	
+	focus = {
+		id = SOV_a_change_in_course
+		icon = GFX_focus_SOV_a_change_in_course
+		x = 10
+		y = 2
+
+		prerequisite = {focus = SOV_rally_the_people}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = SOV_convince_KGB
+		icon = GFX_focus_SOV_KGB_ensure
+		x = 9
+		y = 3
+
+		prerequisite = {focus = SOV_a_change_in_course}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -5
+			add_stability = -0.02
+		}
+	}
+	focus = {
+		id = SOV_convince_politburo
+		icon = GFX_focus_SOV_politburo
+		x = 9
+		y = 4
+
+		prerequisite = {focus = SOV_convince_KGB}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			add_stability = 0.04
+		}
+	}
+	focus = {
+		id = SOV_convince_tv
+		icon = GFX_focus_SOV_tv
+		x = 11
+		y = 3
+
+		prerequisite = {focus = SOV_a_change_in_course}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+	focus = {
+		id = SOV_convince_press
+		icon = GFX_focus_SOV_press
+		x = 11
+		y = 4
+
+		prerequisite = {focus = SOV_convince_tv}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = SOV_pugo
+		icon = GFX_focus_SOV_Pugo_bye
+		x = 10
+		y = 5
+
+		prerequisite = {focus = SOV_convince_press}
+		prerequisite = {focus = SOV_convince_politburo}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.10
+			add_political_power = 20
+		}
+	}
+	focus = {
+		id = SOV_traitor
+		icon = GFX_focus_SOV_reformer
+		x = 10
+		y = 6
+
+		prerequisite = {focus = SOV_pugo}
+		mutually_exclusive = { }
+		
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.15
+			remove_ideas = SOV_memories_of_august_coup
+		}
+	}
+	focus = {
+		id = SOV_yazov_problem
+		icon = GFX_focus_SOV_yazov_problem
+		x = 10
+		y = 7
+
+		prerequisite = {focus = SOV_traitor}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_army
+		icon = GFX_focus_SOV_our_men_in_army
+		x = 8
+		y = 8
+
+		prerequisite = {focus = SOV_yazov_problem}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 10
+		}
+	}
+	focus = {
+		id = SOV_com
+		icon = GFX_focus_SOV_comms
+		x = 10
+		y = 8
+
+		prerequisite = {focus = SOV_yazov_problem}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.08
+			add_political_power = 10
+		}
+	}
+	focus = {
+		id = SOV_agents
+		icon = GFX_focus_SOV_agents
+		x = 12
+		y = 8
+
+		prerequisite = {focus = SOV_yazov_problem}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.02
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_rip_yazov
+		icon = GFX_focus_SOV_trial_of_the_traitors
+		x = 10
+		y = 9
+
+		prerequisite = {focus = SOV_agents}
+		prerequisite = {focus = SOV_com}
+		prerequisite = {focus = SOV_army}
+		mutually_exclusive = { }
+		
+		cost = 1.5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = +0.05
+			add_manpower = -1
+		}
+	}
+}

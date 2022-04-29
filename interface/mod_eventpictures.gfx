@@ -66,7 +66,23 @@ spriteTypes = {
 		name = "GFX_report_event_ww3"
 		texturefile = "gfx/event_pictures/report_event_ww3.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_report_event_old_firend"
+		texturefile = "gfx/event_pictures/report_event_old_friend.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_helsinki"
+		texturefile = "gfx/event_pictures/report_event_helsinki.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_beijing"
+		texturefile = "gfx/event_pictures/report_event_red_flag_over_beijing.dds"
+	}
+	spriteType = {
+		name = "GFX_report_resistance"
+		texturefile = "gfx/event_pictures/report_event_resistance.dds"
+	}
+
 	##USA##
 	
 	
@@ -109,5 +125,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_YUG_SKJ_meeting"
 		texturefile = "gfx/event_pictures/report_event_skj_meeting.dds"
+	}
+	spriteType = {
+		name = "GFX_news_yanayev"
+		texturefile = "gfx/event_pictures/news_yanayev1.dds"
 	}
 }

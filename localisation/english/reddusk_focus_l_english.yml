@@ -11,7 +11,7 @@
  SOV_defund_the_military_desc:0 "With the crisis not being improved by the reforms Yanayev is forced to start defunding the army, however in the army there is growing resentment against Yanayev."
  SOV_party_meeting:0 "The Party Meeting"
  SOV_party_meeting_desc:0 "With all members having been assembled it is time to hold the party meeting, it is unknown what will result from this, but one is certain. Fate of the Union is in question."
- SOV_yanayev's_resignation:0 "Yanayev's resignation"
+ SOV_yanayev's_resignation:0 "Yanayev's Resignation"
  SOV_yanayev's_resignation_desc:0 "Since 1991 Gennady Yanayev has lead the Soviet Union trough the tough times. However with the ever bigger pressure from the Politburo, people and the military his cracks are beginning to show. He is no longer able to be the leader of the country in decline. Only solution is, resignation."
  
  ##YAZOV##
@@ -70,7 +70,7 @@
  SOV_invincible_and_legendary_yazov_desc:0 ""
  SOV_yazov_crackdown_nationalism:0 "Crackdown On Nationalism"
  SOV_yazov_crackdown_nationalism_desc:0 "Despite the years of destroying the separatist and reactionary elements in the Union, there still are people who oppose the Soviet future and prosperity of our people. We will strike down these fascists of the 21st century right back to the grave they crawled out of."
- SOV_yazov_crackdown_lithuenia:0 "Crackdown on Lithuenian Nationalism"
+ SOV_yazov_crackdown_lithuenia:0 "Crackdown on Lithuanian Nationalism"
  SOV_yazov_crackdown_lithuenia_desc:0 ""
  SOV_yazov_reassure_ukraine:0 "Secure Ukraine"
  SOV_yazov_reassure_ukraine_desc:0 ""
@@ -159,13 +159,61 @@
  SOV_yazov_the_union_forever:0 "The Union, Forever"
  SOV_yazov_the_union_forever_desc:0 ""
 
+ ##Gorbachev##
+
+ SOV_reformer:0 "The Reformer"
+ SOV_reformer_desc:0""
+ SOV_rally_the_people:0 "Rally the People"
+ SOV_rally_the_people_desc:0""
+ SOV_a_change_in_course:0 "A Change in Course"
+ SOV_a_change_in_course_desc:0""
+ SOV_convince_KGB:0 "Convince the KGB"
+ SOV_convince_KGB_desc:0""
+ SOV_convince_press:0 "Convince the Press"
+ SOV_convince_press_desc:0""
+ SOV_convince_tv:0 "The TV Campaign"
+ SOV_convince_tv_desc:0""
+ SOV_convince_politburo:0 "Ensure the Politburo"
+ SOV_convince_politburo_desc:0""
+ SOV_pugo:0 "Pugo's Retirement"
+ SOV_pugo_desc:0""
+ SOV_traitor:0 "A Traitor No More"
+ SOV_traitor_desc:0""
+ SOV_yazov_problem:0 "The Yazov Problem"
+ SOV_yazov_problem_desc:0""
+ SOV_army:0 "Loyal Men in the Army"
+ SOV_army_desc:0""
+ SOV_com:0 "Cripple the Communications"
+ SOV_com_desc:0""
+ SOV_agents:0 "Agents on His Every Step"
+ SOV_agents_desc:0""
+ SOV_rip_yazov:0 "Death of Yazov"
+ SOV_rip_yazov_desc:0""
+
+ ##Yugoslavia##
+
+YUG_a_broken_nation:0 "A Broken Nation"
+YUG_a_broken_nation_desc:0 "Yugoslavia, dream of our fathers and grandfathers...has been shattered brutally in the 1990s. Now, we stand on the brink of death, as we might as well be truly dead. Unless we take radical action."
+YUG_new_future:0 "A New Future"
+YUG_new_future_desc:0 "Despite all the hardships and failures our nation suffered during the 90s, we must look forward. There is no turning back, a future awaits us and we shall march onto a new dawn!"
+YUG_slobos_11_years:0 "Slobo's 11 Years"
+YUG_slobos_11_years_desc:0 "After Tito, Slobodan Milošević must be one of the most well known Yugoslav leaders. Brought in thanks to his connections, he has lead our nation for the past 11 years. Many things changed, some for the better and some for the worse."
+YUG_national_report:0 "National Report"
+YUG_national_report_desc:0 "Ever since the 'collapse' we have to be careful. One wrong move could cost us an entire country. That is why we need to conduct National Reports. These document everything about state of the country's security, from Sarajevo to Skoplje."
+YUG_anti_terror:0 "Anti-Terrorist Actions"
+YUG_anti_terror_desc:0 "With the quietness in Bosnia and UCK's terror attacks calming down, this might just be our chance to strike these bastards where it hurts. However, we got no idea of their plans or strength so this might as well be poking the beehive."
+YUG_cities:0 "Secure the Cities"
+YUG_cities_desc:0 "With the annual SKJ congress coming closer and our anti-terrorist actions in full swing, we must make sure that representatives are well protected and our cities secured. \n\nWe don't want any unpleasant surprises to happen."
+YUG_skj:0 "The SKJ Congress"
+YUG_skj_desc:0 "The annual SKJ congress is here. However, with the new century, almost a decade of Slobodan's rule and our anti-terrorist actions this might just be one of the most crucial moments for our nation. Perhaps, it's entire future will be decided here..."
+
 ## YUGO ##
 
- YUG_tito_legacy:0 "Continue Tito's Legacy"
+ YUG_tito_legacy:0 "Continuing Tito's Legacy"
  YUG_tito_legacy_desc:0""
  YUG_debt_pay:0 "Paying off our Debts"
  YUG_debt_pay_desc:0""
- YUG_tito_honour:0 "Honor the Marshal's Legacy"
+ YUG_tito_honour:0 "Honor the Marshal"
  YUG_tito_honour_desc:0""
  
  ## VIN ##
