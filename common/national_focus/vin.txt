@@ -36,7 +36,7 @@ focus_tree = {
 	#Status of the Economy
 	focus = {
 		id = VIN_status_of_the_economy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_great_industry
 		x = 7
 		y = 1
 		cost = 3
@@ -49,7 +49,7 @@ focus_tree = {
 	#Our Place in the World
 	focus = {
 		id = VIN_our_place_in_the_world
-		icon = GFX_goal_unknown
+		icon = VIN_our_place
 		x = 12
 		y = 1
 		cost = 3
@@ -244,7 +244,7 @@ focus_tree = {
 	#9th Party Congress
 	focus = {
 		id = VIN_9th_party_congress
-		icon = GFX_goal_unknown
+		icon = VIN_congress
 		x = 7
 		y = 5
 		cost = 3
