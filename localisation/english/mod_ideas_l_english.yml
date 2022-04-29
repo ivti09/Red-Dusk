@@ -75,6 +75,15 @@
  PRC_legacy_xiaoping_reform_name_desc:0 ""
  
  oil_producers_name:0 "Oil Producers"
+ 
+ IRQ_western_embargo_name:0 "Western Embargo"
+ IRQ_western_embargo_name_desc:0 "After our invasion against Kuwait to rightfully unite Iraq and the subsequent defeat, Western nations such as the USA, France,England embargoed our nation, plummeting the already destroyed Iraqi economy"
+ IRQ_kurdish_rebels_name:0 "Kurdish Rebels"
+ IRQ_kurdish_rebels_name_desc:0 "In the northern regions of Iraq, Kurdish Rebels plagued the region with a local insurgency. After Iraq's embarrassing defeat in gulf war, Kurdish Rebels only increased in size and started undermining the central government in Baghdad more and more ,day by day"
+ IRQ_disorganized_army_name:0 "Broken Army"
+ IRQ_disorganized_army_name_desc:0 "After the gulf war, most of the Iraqi military assets had been destroyed by Coalition bombs, combined with our embarrassing defeat with high casualties the Iraqi Armed Forces are extremely demoralized and ineffective \n\nA drastic change must happen to the armed forces if we want our nation's survival..."
+ IRQ_reorganized_army_name:0 "Reorganized Army"
+ IRQ_reorganized_army_name_desc:0 "After a series of military and technolocig advencements combined with carefull planning Iraqi Armed Forces have been reorganized into a "mostly effective" fighting force"
 
  LAO_undeveloped_infrastructure_name:0 "Undeveloped Infrastructure"
  LAO_undeveloped_infrastructure_name_desc:0 "Despite recently rapid economic growth, Laos remains one of the poorest countries in Southeast Asia. As a landlocked country, our country has inadequate infrastructure and a largely unskilled work force."

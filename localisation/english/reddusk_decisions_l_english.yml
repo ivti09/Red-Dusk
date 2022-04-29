@@ -45,4 +45,14 @@
  sov_recruit_collabs:0 "Recruit Pro-Soviet Chinese Collaboraters"
  sov_complete_project_red_dusk:0 "Complete Project Red Dusk"
  
+ ##IRAQ##
+ 
+ irq_fix_army:0 "Fixing Our Army"
+ irq_fix_army_desc:0 "After the gulf war, most of Our military assets had been destroyed by Neo-Imperialist Coalition bombs, combined with our embarrassing defeat with high casualties the Iraqi Armed Forces were extremely demoralized and ineffective \n\nA drastic change was needed to the armed forces if we wanted our nation's survival...\n\nAnd that drastic changes start today. We are going to revamp our army and make the Americans pay for what they did to our nation !"
+ IRQ_reuse_equipment:0 "Reuse Equipment"
+ IRQ_fix_old_equipment:0 "Fix Old Equipment"
+ IRQ_rebuild_military_assets:0 "Rebuild Military Assets"
+ IRQ_new_doctrines:0 "New Military Doctrines"
+ IRQ_end_army_rebuilding:0 "Finish Army Rebuilding"
+ 
  irq_deal_with_kurds_desc:0 "level is [?test_for_red_dusk]"
