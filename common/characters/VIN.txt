@@ -25,9 +25,9 @@ characters = {
 		}
 		corps_commander={
 			traits={ }
-			skill=2
+			skill=3
 			attack_skill=1
-			defense_skill=1
+			defense_skill=3
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=-1
@@ -47,6 +47,40 @@ characters = {
 			defense_skill=2
 			planning_skill=2
 			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+      VIN_Ngo_Xuan_Lich = {
+		name = "Ngo Xuan Lich"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VIN/Ngo_Xuan_Lich.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+      VIN_Do_Ba_Ty = {
+		name = "Do Ba Ty"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VIN/Do_Ba_Ty.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}

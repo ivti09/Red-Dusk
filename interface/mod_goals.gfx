@@ -352,4 +352,12 @@ spriteTypes = {
 		name = "VIN_open_stock"
 		texturefile = "gfx/interface/goals/VIN/VIN_open_stock.png"
 	}
+	SpriteType = {
+		name = "VIN_congress"
+		texturefile = "gfx/interface/goals/VIN/VIN_congress.png"
+	}
+	SpriteType = {
+		name = "VIN_our_place"
+		texturefile = "gfx/interface/goals/VIN/VIN_our_place.png"
+	}
 }
