@@ -1,81 +1,90 @@
 focus_tree = {
-	id = yug_communist_focus
+	id = yug_commie_milosevic_focus
 	country = {
 		factor = 0
+		modifier = {
+			add = 35 #this will be edited out when i finish the tree#
+			tag = YUG
+		}
 	}
 	
 	
 	default = no
+	
+	#cringe dawg#
 	focus = {
-		id = YUG_tito_legacy
-		icon = GFX_focus_YUG_tito
+		id = YUG_move_away_from_titoism
+		icon = GFX_focus_YUG_tito_honour
 		x = 9
 		y = 0
 
 		prerequisite = {}
 		mutually_exclusive = { }
 		
-		cost = 4.29
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			add_stability = -0.05
+			
+		}
+	}
+	
+	#dengist milosevic holy shi#
+	focus = {
+		id = YUG_reform_or_die
+		icon = GFX_focus_YUG_tito_honour
+		x = 9
+		y = 1
 
+		prerequisite = {focus = YUG_move_away_from_titoism}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			country_event = {id = yug.7}
+			
+		}
+	}
+	
+
+	focus = {
+		id = YUG_ecenomic_question
+		icon = GFX_focus_YUG_tito_honour
+		x = 8
+		y = 2
+
+		prerequisite = {focus = YUG_reform_or_die}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
 		bypass = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 25
-			add_stability = -0.05
-
-		}
-	}
-	focus = {
-		id = YUG_debt_pay
-		icon = GFX_focus_YUG_debt
-		x = 0
-		y = 1
-
-		prerequisite = {focus = YUG_tito_legacy}
-		mutually_exclusive = { }
-                relative_position_id = YUG_tito_legacy
-		
-		cost = 2
-		ai_will_do = {
-			factor = 1
-		}
-		
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			add_political_power = -30
-		}
-	}
-
-	focus = {
-		id = YUG_tito_honour
-		icon = GFX_focus_YUG_tito_honour
-		x = 0
-		y = 2
-
-		prerequisite = {focus = YUG_debt_pay}
-		mutually_exclusive = { }
-                relative_position_id = YUG_debt_pay
-		
-		cost = 2
-		ai_will_do = {
-			factor = 1
-		}
-		
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			add_political_power = -5
-			country_event = {id = yug.5}
+			
 		}
 	}
 	
