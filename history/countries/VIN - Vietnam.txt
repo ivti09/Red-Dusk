@@ -13,6 +13,10 @@ recruit_character = VIN_phung_quang_thanh
 recruit_character = VIN_pham_van_tra
 recruit_character = VIN_Do_Ba_Ty
 recruit_character = VIN_Ngo_Xuan_Lich
+recruit_character = VIN_Nguyen_Khac_Nghien
+recruit_character = VIN_Nguyen_Huu_Kham 
+recruit_character = VIN_Do_Ba_Ty
+
 
 set_politics = {
 	ruling_party = communism

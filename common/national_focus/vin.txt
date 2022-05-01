@@ -18,12 +18,19 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+            completion_reward = {
+			add_political_power = 20
+			VIN = {
+				country_event = { id = vin.1 }
+			}
+
+		}
 	}
 
 	#Healing Scars of War
 	focus = {
 		id = VIN_healing_scars_of_war
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_national_unity
 		x = 3
 		y = 1
 		cost = 3
@@ -88,7 +95,7 @@ focus_tree = {
 	#Support State-owned Enterprise
 	focus = {
 		id = VIN_support_stateowned_enterprise
-		icon = GFX_goal_unknown
+		icon = VIN_support_enterprise
 		x = 8
 		y = 2
 		cost = 3
@@ -101,7 +108,7 @@ focus_tree = {
 	#Expand Collectivization
 	focus = {
 		id = VIN_expand_collectivization
-		icon = GFX_goal_unknown
+		icon = VIN_hop_tac_xa
 		x = 8
 		y = 3
 		cost = 3
@@ -114,7 +121,7 @@ focus_tree = {
 	#Socialist-oriented Market Economy
 	focus = {
 		id = VIN_socialistoriented_market_economy
-		icon = GFX_goal_unknown
+		icon = generic_soc_market
 		x = 7
 		y = 4
 		cost = 6
@@ -127,7 +134,7 @@ focus_tree = {
 	#Improve Veteran Welfare
 	focus = {
 		id = VIN_improve_veteran_welfare
-		icon = GFX_goal_unknown
+		icon = VIN_improve_veteran_welfare
 		x = 2
 		y = 2
 		cost = 5
@@ -140,7 +147,7 @@ focus_tree = {
 	#Help Martyrs Family
 	focus = {
 		id = VIN_help_martyrs_family
-		icon = GFX_goal_unknown
+		icon = VIN_help_family
 		x = 4
 		y = 2
 		cost = 5
@@ -153,7 +160,7 @@ focus_tree = {
 	#Red Indochina
 	focus = {
 		id = VIN_red_indochina
-		icon = GFX_goal_unknown
+		icon = VIN_red_indochina
 		x = 12
 		y = 2
 		cost = 3
@@ -166,7 +173,7 @@ focus_tree = {
 	#Improve relations with China
 	focus = {
 		id = VIN_improve_relations_with_china
-		icon = GFX_goal_unknown
+		icon = VIN_China_coop
 		x = 14
 		y = 2
 		cost = 3
@@ -179,7 +186,7 @@ focus_tree = {
 	#Soviet Brother
 	focus = {
 		id = VIN_soviet_brother
-		icon = GFX_goal_unknown
+		icon = VIN_SOV_friendship
 		x = 10
 		y = 2
 		cost = 3
@@ -192,7 +199,7 @@ focus_tree = {
 	#Mutual Defense Treaty
 	focus = {
 		id = VIN_mutual_defense_treaty
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_treaty
 		x = 12
 		y = 3
 		cost = 3
@@ -205,7 +212,7 @@ focus_tree = {
 	#Ask for aid
 	focus = {
 		id = VIN_ask_for_aid
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_concessions
 		x = 10
 		y = 3
 		cost = 3
@@ -218,7 +225,7 @@ focus_tree = {
 	#Strengthen Economic Cooperation
 	focus = {
 		id = VIN_strengthen_economic_cooperation
-		icon = GFX_goal_unknown
+		icon = VIN_coop
 		x = 14
 		y = 3
 		cost = 3
@@ -231,7 +238,7 @@ focus_tree = {
 	#Continue the Neutrality Policy
 	focus = {
 		id = VIN_continue_the_neutrality_policy
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_neutrality_focus
 		x = 12
 		y = 4
 		cost = 3
@@ -257,7 +264,7 @@ focus_tree = {
 	#Increase Budget of the Veterans Association
 	focus = {
 		id = VIN_increase_budget_of_the_veterans_association
-		icon = GFX_goal_unknown
+		icon = VIN_fund_veteran
 		x = 3
 		y = 3
 		cost = 5
@@ -270,7 +277,7 @@ focus_tree = {
 	#The Greatest Generation
 	focus = {
 		id = VIN_the_greatest_generation
-		icon = GFX_goal_unknown
+		icon = VIN_greatest_generation
 		x = 3
 		y = 4
 		cost = 3

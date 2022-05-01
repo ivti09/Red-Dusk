@@ -30,6 +30,10 @@ spriteTypes = {
 		name = "GFX_focus_SOV_party_meeting"
 		texturefile = "gfx/interface/goals/focus_SOV_party_meeting.png"
 	}
+	SpriteType = {
+		name = "generic_soc_market"
+		texturefile = "gfx/interface/goals/generic_soc_market.png"
+	}
 	
 	###YAZOV###
 	
@@ -360,55 +364,45 @@ spriteTypes = {
 		name = "VIN_our_place"
 		texturefile = "gfx/interface/goals/VIN/VIN_our_place.png"
 	}
-
-	###Gorbachev###
-
 	SpriteType = {
-		name = "GFX_focus_SOV_reformer"
-		texturefile = "gfx/interface/goals/focus_SOV_the_reformer.png"
+		name = "VIN_support_enterprise"
+		texturefile = "gfx/interface/goals/VIN/VIN_support_enterprise.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_a_change_in_course"
-		texturefile = "gfx/interface/goals/focus_SOV_a_change_in_course.png"
+		name = "VIN_hop_tac_xa"
+		texturefile = "gfx/interface/goals/VIN/VIN_hop_tac_xa.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_rally_the_people"
-		texturefile = "gfx/interface/goals/SOV_rally_the_people.png"
+		name = "VIN_SOV_friendship"
+		texturefile = "gfx/interface/goals/VIN/VIN_SOV_friendship.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_press"
-		texturefile = "gfx/interface/goals/focus_SOV_press.png"
+		name = "VIN_red_indochina"
+		texturefile = "gfx/interface/goals/VIN/VIN_red_indochina.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_politburo"
-		texturefile = "gfx/interface/goals/SOV_politburo_ensure.png"
+		name = "VIN_China_coop"
+		texturefile = "gfx/interface/goals/VIN/VIN_China_coop.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_KGB_ensure"
-		texturefile = "gfx/interface/goals/SOV_KGB_ensure.png"
+		name = "VIN_coop"
+		texturefile = "gfx/interface/goals/VIN/VIN_coop.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_Pugo_bye"
-		texturefile = "gfx/interface/goals/SOV_Pugo_bye.png"
+		name = "VIN_improve_veteran_welfare"
+		texturefile = "gfx/interface/goals/VIN/VIN_improve_veteran_welfare.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_tv"
-		texturefile = "gfx/interface/goals/SOV_tv.png"
+		name = "VIN_help_family"
+		texturefile = "gfx/interface/goals/VIN/VIN_help_family.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_yazov_problem"
-		texturefile = "gfx/interface/goals/SOV_yazov_problem.png"
+		name = "VIN_fund_veteran"
+		texturefile = "gfx/interface/goals/VIN/VIN_fund_veteran.png"
 	}
 	SpriteType = {
-		name = "GFX_focus_SOV_agents"
-		texturefile = "gfx/interface/goals/SOV_agents.png"
+		name = "VIN_greatest_generation"
+		texturefile = "gfx/interface/goals/VIN/VIN_greatest_generation.png"
 	}
-	SpriteType = {
-		name = "GFX_focus_SOV_comms"
-		texturefile = "gfx/interface/goals/SOV_cripple_coms.png"
-	}
-	SpriteType = {
-		name = "GFX_focus_SOV_our_men_in_army"
-		texturefile = "gfx/interface/goals/SOV_our_men_in_army.png"
-	}
+	
 }

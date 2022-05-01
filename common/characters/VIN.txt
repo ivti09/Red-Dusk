@@ -84,4 +84,55 @@ characters = {
 			legacy_id=-1
 		}
 	}
+      VIN_Nguyen_Huu_Kham = {
+		name = "Nguyen Huu Kham"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VIN/Nguyen_Huu_Kham.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+      VIN_Nguyen_Khac_Nghien = {
+		name = "Nguyen Khac Nghien"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VIN/Nguyen_Khac_Nghien.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+      VIN_Pham_Xuan_The = {
+		name = "Pham Xuan The"
+		portraits = {
+			army = {
+				large = "gfx/leaders/VIN/Pham_Xuan_The.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
 }
