@@ -1,0 +1,18 @@
+characters = {
+
+	BHU_yeshey_zimba = {
+		name = "Yeshey Zimba"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NEP/yeshey_zimba.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

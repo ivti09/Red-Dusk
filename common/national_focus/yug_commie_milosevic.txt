@@ -1,0 +1,91 @@
+focus_tree = {
+	id = yug_commie_milosevic_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 35 #this will be edited out when i finish the tree#
+			tag = YUG
+		}
+	}
+	
+	
+	default = no
+	
+	#cringe dawg#
+	focus = {
+		id = YUG_move_away_from_titoism
+		icon = GFX_focus_YUG_tito_honour
+		x = 9
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			add_stability = -0.05
+			
+		}
+	}
+	
+	#dengist milosevic holy shi#
+	focus = {
+		id = YUG_reform_or_die
+		icon = GFX_focus_YUG_tito_honour
+		x = 9
+		y = 1
+
+		prerequisite = {focus = YUG_move_away_from_titoism}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			country_event = {id = yug.7}
+			
+		}
+	}
+	
+
+	focus = {
+		id = YUG_ecenomic_question
+		icon = GFX_focus_YUG_tito_honour
+		x = 8
+		y = 2
+
+		prerequisite = {focus = YUG_reform_or_die}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 25
+			
+		}
+	}
+	
+}

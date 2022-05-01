@@ -15,4 +15,19 @@ characters = {
 		}
 	}
 
+	CZE_czech_communist_party = {
+		name = "Czech Communist Party"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZE/czech_communist_party.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
 }

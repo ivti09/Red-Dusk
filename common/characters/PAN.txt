@@ -1,0 +1,18 @@
+characters = {
+
+	PAN_mireya_moscoso = {
+		name = "Mireya Moscoso"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South_America/Mireya_Moscoso.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

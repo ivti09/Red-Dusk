@@ -63,3 +63,60 @@ country_event = {
 		name = yug.4.b
 	}
 }
+
+#Assasination Attempt On Milesovic#
+country_event = {
+	id = yug.5
+	title = yug.5.t
+	desc = yug.5.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#Milosevic Survives#
+	option = {
+	name = yug.5.a
+		load_focus_tree = yug_milosevic_alive_focus
+	}
+	#Milosevic Dies to assasinator tupac#
+	option = {
+		name = yug.5.b
+	}
+}
+
+#final decision, milosevic is alive#
+country_event = {
+	id = yug.6
+	title = yug.6.t
+	desc = yug.6.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#We contunie forward (communist milosevic)#
+	option = {
+	name = yug.6.a
+		load_focus_tree = yug_commie_milosevic_focus
+	}
+	#Nationalism is the only option in yugoslavia dude trust me:yugotroll:#
+	option = {
+		name = yug.6.b
+	}
+}
+
+#slobodon's(milosevic) 2 year plan#
+country_event = {
+	id = yug.7
+	title = yug.7.t
+	desc = yug.7.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#We need loc#
+	option = {
+	name = yug.7.a
+		
+	}
+
+}

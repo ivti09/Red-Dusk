@@ -1,0 +1,42 @@
+# common #
+	# characters #
+		- Updated: BHU, CZE, FIN, GUA, PAN
+	# ideas #
+		- Updated: SOV, YUG
+	# national_focus #
+		- Added file: ussr_gorby.txt
+		- Updated: yug.txt
+	# units #
+		# equipment #
+			- main_battle_tank.txt: added stats for equipment
+
+# events #
+	- Updated: ussr.txt
+
+# gfx #
+	# event_pictures #
+		- Added 2 new event pictures
+	# flags #
+		- Added Azerbaijan flags
+	# interface #
+		# goals #
+			- Added new national focus icons
+	# leaders #
+		- Added new leaders
+	# texticons # (new folder)
+		- Added texticons for armour
+
+# history #
+	# countries #
+		- Updated: BHU, CZE, FIN, GUA, PAN
+
+# interface #
+	- Updated: mod_eventpictures.gfx, mod_goals.gfx, mod_goals_shine.gfx
+	- texticons.gfx: added mod texticons
+
+# localisation #
+	# english #
+		Updated: countries, events, ideas, decisions, focus
+
+## NOTES ##
+	- Fixed news gfx

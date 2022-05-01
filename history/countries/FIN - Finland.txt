@@ -28,3 +28,4 @@ set_popularities = {
 
 recruit_character = FIN_martti_ahtisaari
 recruit_character = FIN_tarja_halonen
+recruit_character = FIN_vladimir_boldyrev
