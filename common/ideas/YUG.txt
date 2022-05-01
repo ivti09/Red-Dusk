@@ -93,5 +93,90 @@ ideas = {
 			}
 		}
 		
+		#ECONOMY AFTER THE FOCUSES TAKEN#
+		YUG_yugoslav_mode_of_socialism_1 = {
+			name = YUG_yugoslav_mode_of_socialism_name
+
+			removal_cost = -1
+
+			picture = YUG_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				consumer_goods_factor = 0.10
+				production_factory_start_efficiency_factor = -0.02 
+				production_speed_buildings_factor = -0.03
+			}
+		}
+		
+		YUG_yugoslav_mode_of_socialism_2 = {
+			name = YUG_yugoslav_mode_of_socialism_name
+
+			removal_cost = -1
+
+			picture = YUG_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.03
+				consumer_goods_factor = 0.10
+				production_factory_start_efficiency_factor = -0.02 
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+		
+		YUG_yugoslav_mode_of_socialism_3 = {
+			name = YUG_yugoslav_mode_of_socialism_name
+
+			removal_cost = -1
+
+			picture = YUG_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.03
+				consumer_goods_factor = 0.10
+				production_factory_start_efficiency_factor = -0.02 
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = -0.07
+				production_speed_infrastructure_factor = -0.07
+				production_speed_rail_way_factor = -0.07
+			}
+		}
+		
+		YUG_yugoslav_mode_of_socialism_4 = {
+			name = YUG_yugoslav_mode_of_socialism_name
+
+			removal_cost = -1
+
+			picture = YUG_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.10
+				production_factory_start_efficiency_factor = 0.03
+				production_speed_buildings_factor = 0.02
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = -0.07
+				production_speed_infrastructure_factor = -0.07
+				production_speed_rail_way_factor = -0.07
+			}
+		}
+		
 	}
 }

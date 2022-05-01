@@ -65,7 +65,7 @@ focus_tree = {
 	
 
 	focus = {
-		id = YUG_ecenomic_question
+		id = YUG_ecenomy_question
 		icon = GFX_focus_YUG_tito_honour
 		x = 8
 		y = 2
@@ -84,8 +84,152 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 25
+			set_country_flag = YUG_economy_time
+			custom_effect_tooltip = YUG_can_deal_with_economy
 			
 		}
 	}
 	
+	#ECONOMY#
+	focus = {
+		id = YUG_matters_of_economy
+		icon = GFX_focus_YUG_tito_honour
+		x = 16
+		y = 0
+
+		available = {has_country_flag = YUG_economy_time}
+		mutually_exclusive = { }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_yugoslav_mode_of_socialism
+		add_idea = YUG_yugoslav_mode_of_socialism_1
+		}
+		add_political_power = 15
+		country_event = {id = yug.8}
+			
+		}
+	}
+	
+	#DENGIST MILOSEVIC OMG DENGIST DENIGST DENGIST#
+	focus = {
+		id = YUG_start_the_economic_reforms
+		icon = GFX_focus_YUG_tito_honour
+		x = 14
+		y = 1
+
+		prerequisite = {focus = YUG_matters_of_economy}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_yugoslav_mode_of_socialism_1
+		add_idea = YUG_yugoslav_mode_of_socialism_2
+		}
+		add_political_power = 10
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_rebuilding_our_industry
+		icon = GFX_focus_YUG_tito_honour
+		x = 13
+		y = 2
+
+		prerequisite = {focus = YUG_start_the_economic_reforms}
+		mutually_exclusive = { }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		add_stability = 0.05
+		add_political_power = 15
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_moving_away_from_IMF
+		icon = GFX_focus_YUG_tito_honour
+		x = 15
+		y = 2
+
+		prerequisite = {focus = YUG_start_the_economic_reforms}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_yugoslav_mode_of_socialism_2
+		add_idea = YUG_yugoslav_mode_of_socialism_3
+		}
+		add_political_power = 25
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_into_the_unknown
+		icon = GFX_focus_YUG_tito_honour
+		x = 14
+		y = 3
+
+		prerequisite = {focus = YUG_rebuilding_our_industry}
+		prerequisite = {focus = YUG_moving_away_from_IMF}
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_yugoslav_mode_of_socialism_3
+		add_idea = YUG_yugoslav_mode_of_socialism_4
+		}
+		add_political_power = 15
+		add_stability = -0.02
+			
+		}
+	}
+		
 }

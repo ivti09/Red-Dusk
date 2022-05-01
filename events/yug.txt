@@ -97,6 +97,7 @@ country_event = {
 	option = {
 	name = yug.6.a
 		load_focus_tree = yug_commie_milosevic_focus
+		remove_ideas = YUG_what_are_we
 	}
 	#Nationalism is the only option in yugoslavia dude trust me:yugotroll:#
 	option = {
@@ -116,6 +117,23 @@ country_event = {
 	#We need loc#
 	option = {
 	name = yug.7.a
+		
+	}
+
+}
+
+#Not So United Production#
+country_event = {
+	id = yug.8
+	title = yug.8.t
+	desc = yug.8.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#We need loc#
+	option = {
+	name = yug.8.a
 		
 	}
 
