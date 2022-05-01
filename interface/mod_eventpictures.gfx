@@ -110,4 +110,14 @@ spriteTypes = {
 		name = "GFX_report_event_YUG_SKJ_meeting"
 		texturefile = "gfx/event_pictures/report_event_skj_meeting.dds"
 	}
+	
+	# VIN #
+	spriteType = {
+		name = "GFX_report_event_VIN_intro"
+		texturefile = "gfx/event_pictures/VIN/report_event_VIN_intro.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_VIN_new_age"
+		texturefile = "gfx/event_pictures/VIN/vin.1.png"
+	}
 }

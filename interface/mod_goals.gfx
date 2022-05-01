@@ -30,6 +30,10 @@ spriteTypes = {
 		name = "GFX_focus_SOV_party_meeting"
 		texturefile = "gfx/interface/goals/focus_SOV_party_meeting.png"
 	}
+	SpriteType = {
+		name = "generic_soc_market"
+		texturefile = "gfx/interface/goals/generic_soc_market.png"
+	}
 	
 	###YAZOV###
 	
@@ -360,4 +364,45 @@ spriteTypes = {
 		name = "VIN_our_place"
 		texturefile = "gfx/interface/goals/VIN/VIN_our_place.png"
 	}
+	SpriteType = {
+		name = "VIN_support_enterprise"
+		texturefile = "gfx/interface/goals/VIN/VIN_support_enterprise.png"
+	}
+	SpriteType = {
+		name = "VIN_hop_tac_xa"
+		texturefile = "gfx/interface/goals/VIN/VIN_hop_tac_xa.png"
+	}
+	SpriteType = {
+		name = "VIN_SOV_friendship"
+		texturefile = "gfx/interface/goals/VIN/VIN_SOV_friendship.png"
+	}
+	SpriteType = {
+		name = "VIN_red_indochina"
+		texturefile = "gfx/interface/goals/VIN/VIN_red_indochina.png"
+	}
+	SpriteType = {
+		name = "VIN_China_coop"
+		texturefile = "gfx/interface/goals/VIN/VIN_China_coop.png"
+	}
+	SpriteType = {
+		name = "VIN_coop"
+		texturefile = "gfx/interface/goals/VIN/VIN_coop.png"
+	}
+	SpriteType = {
+		name = "VIN_improve_veteran_welfare"
+		texturefile = "gfx/interface/goals/VIN/VIN_improve_veteran_welfare.png"
+	}
+	SpriteType = {
+		name = "VIN_help_family"
+		texturefile = "gfx/interface/goals/VIN/VIN_help_family.png"
+	}
+	SpriteType = {
+		name = "VIN_fund_veteran"
+		texturefile = "gfx/interface/goals/VIN/VIN_fund_veteran.png"
+	}
+	SpriteType = {
+		name = "VIN_greatest_generation"
+		texturefile = "gfx/interface/goals/VIN/VIN_greatest_generation.png"
+	}
+	
 }
