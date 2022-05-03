@@ -22,8 +22,8 @@
  us_agree_cze:0 "Us Agreed On The Czech Issue"
  start_revs_across_balkan:0 "§GStarts Communist Uprisings In Balkan Countries That are not aligned with us§\n\n§W§"
  Reestablished_order_in_east_europe:0 "§GHas Reastablished Control Over East Europe§\n\n§W§"
- puppets_balkan_countries_sov:0 "§YPuppets All Of The Balkan Countries We have Influence On§\n\n§W§
- Establishes_Balkan_Peoples:0 "§YCreates A §GUnitary Balkan Peoples Republic §W§ §YOn the Balkan Countries We Have Influence On\n\n§W§
+ puppets_balkan_countries_sov:0 "§YPuppets All Of The Balkan Countries We have Influence On§\n\n§W§"
+ Establishes_Balkan_Peoples:0 "§YCreates A §GUnitary Balkan Peoples Republic §W§ §YOn the Balkan Countries We Have Influence On\n\n§W§"
  sov_gain_core_on_manchuria:0 "§GGets Cores On Manchuria Region§\n\n§W§"
  
  #IRAQ#
@@ -38,7 +38,10 @@
  
  YUG_economy_time:0 "§GWe Can Now Focus On Fixing Our Economy\n\n§W§"
  YUG_can_deal_with_economy:0 "§GWe Can Now Focus On Fixing Our Economy\n\n§W§"
- 
+ YUG_military_time:0 "§GWe Can Now Focus On Fixing Our Military Situation\n\n§W§"
+ YUG_can_deal_with_army:0 "§GWe Can Now Focus On Fixing Our Military Situation\n\n§W§"
+ YUG_economy_problems_solved:0 "§GEconomic Problems Have Been Solved\n\n§W§"
+ yug_won_over_yugoslavia_milosevic_communist:0 "§GAt last we have won aganist reactionaries that threathened to end our Unitery Socialist Republic back in 91' and reunified Yugoslavia \n\nBrotherhood and Unity forever! \n\nGains Cores On All of Yugoslavia\n\n§W§"
  ####RESISTANCE STUFF FOR SOVIET#########
  
  spet_decision_unlock_tt:0 "§GUnlocks Special Action Decisions\n\n§W§"
