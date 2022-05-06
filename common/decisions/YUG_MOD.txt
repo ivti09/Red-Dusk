@@ -1,0 +1,113 @@
+yug_deal_with_uprisings = {
+	
+	YUG_reset_the_country_flags = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+		}
+		visible = {
+		has_completed_focus = YUG_anti_terrorist_actions
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			clr_country_flag = yug_focused_on_bosnia
+			clr_country_flag = yug_focused_on_albania
+		}
+	}
+	
+	YUG_focus_on_bosnian_rebels = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+		not = {has_country_flag = yug_focused_on_albania}
+		}
+		visible = {
+		has_completed_focus = YUG_anti_terrorist_actions
+
+		}
+		modifier {
+		}
+		cost = 5
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+		custom_effect_tooltip = YUG_focus_on_bosnia_tt
+		set_country_flag = yug_focused_on_bosnia
+		unlock_decision_category = yug_deal_with_bosnia_uprising
+		}
+	}
+	
+	YUG_focus_on_albanian_rebels = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+		not = {has_country_flag = yug_focused_on_bosnia}
+		}
+		visible = {
+		has_completed_focus = YUG_anti_terrorist_actions
+		NOT = {has_country_flag = yug_focused_on_bosnia}
+		}
+		modifier {
+		}
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			custom_effect_tooltip = YUG_focus_on_alban_tt
+			set_country_flag = yug_focused_on_albania
+		}
+	}
+	
+	
+
+	
+	YUG_timer_clock_bosnia = {                          
+          allowed = { 
+		  has_country_flag = yug_focused_on_bosnia
+		  }                
+          available = {    
+			has_country_flag = bos_uprising_started
+          }
+          activation = {                          
+          has_country_flag = yug_focused_on_bosnia
+          }
+		  
+          is_good = no
+          selectable_mission = no
+          days_mission_timeout = 45            
+        timeout_effect = {                      
+			BOS = {
+			transfer_state = 104
+			transfer_state = 804
+				declare_war_on = {
+				type = annex_everything
+				target = YUG
+				}
+			}
+		}
+          complete_effect = {                    
+			
+          }
+    }
+	
+	
+}
+
+

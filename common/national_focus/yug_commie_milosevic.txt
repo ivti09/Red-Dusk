@@ -225,6 +225,7 @@ focus_tree = {
 		x = 10
 		y = 6
 		
+		
 		prerequisite = {focus = YUG_matters_of_JNA}
 		mutually_exclusive = { }
 		
@@ -239,6 +240,7 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 		add_political_power = 15
+		unlock_decision_category_tooltip = yug_deal_with_uprisings
 		}
 	}
 	
@@ -248,6 +250,10 @@ focus_tree = {
 		x = 10
 		y = 7
 		
+		available = {
+		has_country_flag = YUG_army_dealt_with
+		has_war = no
+		}
 		prerequisite = {focus = YUG_anti_terrorist_actions}
 		mutually_exclusive = { }
 		
@@ -684,6 +690,7 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 		remove_ideas = YUG_demoralized_army
+		set_country_flag = YUG_army_dealt_with
 				IF = {
 					limit = { 			 
 						has_idea = YUG_old_tactics_for_a_new_age_3

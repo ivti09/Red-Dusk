@@ -41,7 +41,10 @@
  YUG_military_time:0 "§GWe Can Now Focus On Fixing Our Military Situation\n\n§W§"
  YUG_can_deal_with_army:0 "§GWe Can Now Focus On Fixing Our Military Situation\n\n§W§"
  YUG_economy_problems_solved:0 "§GEconomic Problems Have Been Solved\n\n§W§"
+ YUG_army_dealt_with:0 "§GArmy Problems Have Been Dealt With\n\n§W§"
  yug_won_over_yugoslavia_milosevic_communist:0 "§GAt last we have won aganist reactionaries that threathened to end our Unitery Socialist Republic back in 91' and reunified Yugoslavia \n\nBrotherhood and Unity forever! \n\nGains Cores On All of Yugoslavia\n\n§W§"
+ YUG_focus_on_alban_tt:0 "§YWe Are Going To divert Our Resources To Focus On Albanian Rebels In Kosovo Region\n\n§W§"
+ YUG_focus_on_bosnia_tt:0 "§YWe Are Going To divert Our Resources To Focus On Bosniak Rebels In Bosnia Region\n\n§W§"
  ####RESISTANCE STUFF FOR SOVIET#########
  
  spet_decision_unlock_tt:0 "§GUnlocks Special Action Decisions\n\n§W§"

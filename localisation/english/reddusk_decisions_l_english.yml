@@ -56,3 +56,9 @@
  IRQ_end_army_rebuilding:0 "Finish Army Rebuilding"
  
  irq_deal_with_kurds_desc:0 "level is [?test_for_red_dusk]"
+ 
+ ##YUGOSLAVIA##
+ yug_deal_with_uprisings:0 "Dealing With Terrorism"
+ yug_deal_with_uprisings_desc:0 "Internal seperatism and terrosim is destroying our nation , now we have dealt with other issues we are going to deal with these problems , homever because of our limited resources we can only focus and concentrate on one of the regions"
+ YUG_focus_on_bosnian_rebels:0 "Focus On Bosnian Rebels"
+ YUG_focus_on_albanian_rebels:0 "Focus On Albanian Rebels"
