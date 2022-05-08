@@ -10,6 +10,95 @@ if = {
 	}
 }
 
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		nsb_mbt_tank_1960 = 1
+		nsb_mbt_tank_1970 = 1
+		nsb_mbt_tank_1980 = 1
+		nsb_mbt_tank_1990 = 1
+		nsb_tank_ammo_1960 = 1
+		nsb_tank_ammo_1970 = 1
+		nsb_tank_ammo_1980 = 1
+		nsb_tank_ammo_1990 = 1
+		nsb_tank_aps_soft = 1
+		nsb_ifv_tank_1970 = 1
+		nsb_ifv_tank_1980 = 1
+		nsb_ifv_tank_1990 = 1
+		nsb_ifv_anti_tank_missile_1 = 1
+		nsb_ifv_anti_tank_missile_2 = 1
+		nsb_apc_tank_1960 = 1
+		nsb_apc_tank_1970 = 1
+		nsb_apc_tank_1980 = 1
+		nsb_apc_tank_1990 = 1
+		nsb_spaa_tank_1960 = 1
+	}
+	else = {
+		set_technology = {
+			mbt_tank_1960 = 1
+			mbt_tank_1970 = 1
+			mbt_tank_1980 = 1
+			mbt_tank_1990 = 1
+			tank_ammo_1960 = 1
+			tank_ammo_1970 = 1
+			tank_ammo_1980 = 1
+			tank_ammo_1990 = 1
+			tank_aps_soft = 1
+			ifv_tank_1970 = 1
+			ifv_tank_1980 = 1
+			ifv_tank_1990 = 1
+			ifv_anti_tank_missile_1 = 1
+			ifv_anti_tank_missile_2 = 1
+			apc_tank_1960 = 1
+			apc_tank_1970 = 1
+			apc_tank_1980 = 1
+			apc_tank_1990 = 1
+			spaa_tank_1960 = 1
+		}
+	}
+}
+if = {
+	limit = {
+		AND = { has_dlc = "No Step Back" has_dlc = "La Resistance" }
+	}
+	set_technology = {
+		nsb_recon_vehicle_1960 = 1
+		nsb_recon_vehicle_1980 = 1
+	}
+}
+if = {
+	limit = {
+		AND = { NOT = { has_dlc = "No Step Back" } has_dlc = "La Resistance" }
+	}
+	set_technology = {
+		recon_vehicle_1960 = 1
+		recon_vehicle_1980 = 1
+	}
+}
+set_technology = {
+	fighter_1960 = 1
+	interceptor_1960 = 1
+	carrier_fighter_1960 = 1
+	fighter_1970 = 1
+	carrier_fighter_1970 = 1
+	fighter_1980 = 1
+	carrier_fighter_1980 = 1
+	fighter_1990 = 1
+	carrier_fighter_1990 = 1
+	carrier_fighter_2000 = 1
+	attacker_1960 = 1
+	carrier_attacker_1960 = 1
+	attacker_1970 = 1
+	carrier_attacker_1970 = 1
+	attacker_1980 = 1
+	strike_bomber_1960 = 1
+	strategic_bomber_1960 = 1
+	strategic_bomber_1980 = 1
+	stealth_bomber_2000 = 1
+}
+
 set_research_slots = 4
 set_stability = 0.75
 set_war_support = 0

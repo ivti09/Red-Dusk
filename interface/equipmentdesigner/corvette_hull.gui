@@ -2,9 +2,9 @@
 
 guiTypes = {
 
-	################# Equipment Archetype: attack_submarine_hull #################
+	################# Equipment Archetype: corvette_hull #################
 	containerWindowType = {
-		name = "equipment_designer_attack_submarine_hull"
+		name = "equipment_designer_corvette_hull"
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x=0 y=0 }
 		size = { width=512 height=260 }
@@ -16,7 +16,7 @@ guiTypes = {
 
 		iconType = {
 			name = "equipment_image"
-			spriteType = "GFX_SD_tv_attack_submarine"
+			spriteType = "GFX_SD_tv_corvette"
 			position = { x=0 y=0 }
 		}
 
@@ -24,38 +24,6 @@ guiTypes = {
 			name = "module_slots"
 			position = { x=0 y=0 }
 			size = { width=100% height=100% }
-
-			################# MODULE SLOT: Sonar #################
-			containerWindowType = {
-				name = "fixed_ship_sonar_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
-
-				#### MODULE: Sonar ####
-				containerWindowType = {
-					name = "ship_sonar"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "blueprint"
-						spriteType = ""
-						position = { x=0 y=0 }
-					}
-				}
-
-				containerWindowType = {
-					name = "ship_sonar@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "blueprint_highlight"
-						spriteType = ""
-						position = { x=0 y=0 }
-					}
-				}
-			}
 
 			################# MODULE SLOT: Systems #################
 			containerWindowType = {
@@ -120,35 +88,64 @@ guiTypes = {
 				}
 			}
 
-			################# MODULE SLOT: Torpedo #################
+			################# MODULE SLOT: Sonar #################
 			containerWindowType = {
-				name = "custom_ship_torpedo_slot"
+				name = "fixed_ship_sonar_slot"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 
+				#### MODULE: Sonar ####
 				containerWindowType = {
-					name = "ship_torpedo_sub"
+					name = "ship_sonar"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_attack_submarine_hull_fixed_torpedo"
-						position = { x=370 y=8 }
+						spriteType = ""
+						position = { x=0 y=0 }
 					}
 				}
 
 				containerWindowType = {
-					name = "ship_torpedo_sub@highlight"
+					name = "ship_sonar@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_attack_submarine_hull_fixed_torpedo@highlight"
-						position = { x=370 y=8 }
+						spriteType = ""
+						position = { x=0 y=0 }
 					}
 				}
+			}
+
+			################# MODULE SLOT: Radar #################
+			containerWindowType = {
+				name = "fixed_ship_radar_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			}
+
+			################# MODULE SLOT: Defensive 1 #################
+			containerWindowType = {
+				name = "fixed_ship_defensive_slot_1"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			}
+
+			################# MODULE SLOT: Defensive 2 #################
+			containerWindowType = {
+				name = "fixed_ship_defensive_slot_2"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			}
+
+			################# MODULE SLOT: Cannon #################
+			containerWindowType = {
+				name = "custom_ship_cannon_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
 			}
 
 			################# MODULE SLOT: Custom #1 #################
@@ -156,31 +153,20 @@ guiTypes = {
 				name = "custom_slot_1"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
+			}
 
-				#### MODULE: Torpedo ####
-				containerWindowType = {
-					name = "ship_torpedo_sub"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "blueprint"
-						spriteType = "GFX_SM_attack_submarine_hull_front1_torpedo"
-						position = { x=380 y=21 }
-					}
-				}
+			################# MODULE SLOT: Custom #2 #################
+			containerWindowType = {
+				name = "custom_slot_2"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			}
 
-				containerWindowType = {
-					name = "ship_torpedo_sub@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "blueprint_highlight"
-						spriteType = "GFX_SM_attack_submarine_hull_front1_torpedo@highlight"
-						position = { x=380 y=21 }
-					}
-				}
+			################# MODULE SLOT: Custom #3 #################
+			containerWindowType = {
+				name = "custom_slot_3"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
 			}
 		}
 	}

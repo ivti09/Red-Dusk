@@ -1,0 +1,61 @@
+# common #
+	# units #
+		# equipment #
+			- main_battle_tank.txt: updated stats
+			- infantry_fighting_vehicle.txt: added stats
+			- personnel_carrier_vehicle.txt: added stats
+			- recon_vehicle.txt: added stats
+			- Added spaa_vehicle.txt
+			- ship_hull_corvette.txt: updated type
+			- ship_hull_cruiser.txt: updated type
+			- ship_hull_destroyer.txt: updated type
+			- ship_hull_submarine.txt: updated module positions and names
+		- reconnaissance_vehicle.txt: updated type
+		- armoured_personnel_carrier.txt: updated unit name
+		- Added spaa_vehicle.txt
+	# technologies #
+		- armor.txt: added SPAA
+		- NSB_armor.txt: added SPAA
+
+# gfx #
+	# counters #
+		# divisions_large # (new folder)
+			- Added gfx for new battalions
+	# interface #
+		# technologies #
+			- Added gfx for SPAA (both generic and nation-specific)
+		# counters #
+			# divisions_large #
+				- Added icon for SPAA
+		# equipmentdesigner #
+			# naval #
+				# topviews #
+					- Added topview_corvette.dds
+
+# history #
+	# countries #
+		- SOV: added initial research for aircraft and armour, updated naval classes
+		- USA: added initial research for aircraft and armour
+	# units #
+		- SOV_2000_naval_mtg: added test corvette
+
+# interface #
+	- subuniticons.gfx: added references for new battalion gfx
+	- countrytechtreeview.gui: added tree and subtitle for SPAA
+	- mod_technologies.gfx: added gfx for SPAA (both generic and nation-specific)
+	- equipmentdesignerview.gfx: added gfx for corvette
+	- equipmentdesignerview.gui: updated slot positions
+	# equipmentdesigner #
+		- Added corvette_hull.gui
+		- attack, ballistic, and cruise submarine_hull.gui: updated module slot names
+
+# localisation #
+	# english #
+		- unit_l_english.yml: added localisation for remaining armour units and SPAA
+		- equipment_l_english.yml: added localisation for SPAA
+		- ship_modules_l_english.yml: removed non-mod localisation, added more naval localisation
+
+descriptor.mod: added replace_path for common/units
+
+## NOTES ##
+	- Fixed news gfx

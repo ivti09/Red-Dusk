@@ -809,6 +809,19 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "apc_tank_desc"
 			}
+			instantTextBoxType = {
+				name = "armour_subtitle_spaa"
+				position = { x = 1150 y = 50 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "SELF-PROPELLED ANTI-AIRCRAFT GUN"
+				maxWidth = 300
+				maxHeight = 62
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "spaa_tank_desc"
+			}
 
 			gridboxtype = {
 				name = "mbt_tank_1960_tree"
@@ -833,6 +846,13 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "recon_vehicle_1960_tree"
+				position = { x = 845 y = 100 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "spaa_tank_1960_tree"
 				position = { x = 545 y = 100 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
@@ -1114,6 +1134,19 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "apc_tank_desc"
 			}
+			instantTextBoxType = {
+				name = "armour_subtitle_spaa"
+				position = { x = 1150 y = 50 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "SELF-PROPELLED ANTI-AIRCRAFT GUN"
+				maxWidth = 300
+				maxHeight = 62
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "spaa_tank_desc"
+			}
 
 			gridboxtype = {
 				name = "nsb_mbt_tank_1960_tree"
@@ -1138,6 +1171,13 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "nsb_recon_vehicle_1960_tree"
+				position = { x = 845 y = 100 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "nsb_spaa_tank_1960_tree"
 				position = { x = 545 y = 100 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }

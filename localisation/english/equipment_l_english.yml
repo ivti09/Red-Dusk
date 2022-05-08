@@ -664,6 +664,19 @@
  recon_vehicle_equipment_3:0 "2020s Reconnaissance Vehicle"
  recon_vehicle_equipment_3_short:0 "2020s Recon Vehicle"
 
+ spaa_tank_equipment:0 "Self-Propelled Anti-Aircraft Gun"
+ spaa_tank_equipment_desc:0 "Designed to protect bases and ground forces from ground attack aicraft, self-propelled anti-aircraft guns create an area denial zone around friendly forces, protecting them from arial bombardment and providing air superiority."
+ spaa_tank:0 "Self-Propelled Anti-Aircraft Gun"
+ spaa_tank_desc:0 "Designed to protect bases and ground forces from ground attack aicraft, self-propelled anti-aircraft guns create an area denial zone around friendly forces, protecting them from arial bombardment and providing air superiority."
+ spaa_tank_equipment_0:0 "1960s Self-Propelled Anti-Aircraft Gun"
+ spaa_tank_equipment_0_short:0 "1960s SPAAG"
+ spaa_tank_equipment_1:0 "1980s Self-Propelled Anti-Aircraft Gun"
+ spaa_tank_equipment_1_short:0 "1980s SPAAG"
+ spaa_tank_equipment_2:0 "2000s Self-Propelled Anti-Aircraft Gun"
+ spaa_tank_equipment_2_short:0 "2000s SPAAG"
+ spaa_tank_equipment_3:0 "2020s Self-Propelled Anti-Aircraft Gun"
+ spaa_tank_equipment_3_short:0 "2020s SPAAG"
+
 ## Nation-Specific Tanks ##
 # SOV #
  SOV_mbt_tank_equipment_0:0 "T-64 MBT"
@@ -707,6 +720,15 @@
  SOV_recon_vehicle_equipment_0_short:0 "BRDM-2"
  SOV_recon_vehicle_equipment_2:0 "Dozor-B Recon"
  SOV_recon_vehicle_equipment_2_short:0 "Dozor-B"
+
+ SOV_spaa_tank_equipment_0:0 "ZSU-23-4 Shilka SPAAG"
+ SOV_spaa_tank_equipment_0_short:0 "ZSU-23-4"
+ SOV_spaa_tank_equipment_1:0 "2K22 Tunguska SPAAG"
+ SOV_spaa_tank_equipment_1_short:0 "2K22"
+ SOV_spaa_tank_equipment_2:0 "2K22M1 Tunguska SPAAG"
+ SOV_spaa_tank_equipment_2_short:0 "2K22M1"
+ SOV_spaa_tank_equipment_3:0 "Pantsir-S1 SPAAG"
+ SOV_spaa_tank_equipment_3_short:0 "Pantsir-S1"
 # USA #
  USA_mbt_tank_equipment_0:0 "M60 MBT"
  USA_mbt_tank_equipment_0_short:0 "M60"
@@ -741,3 +763,6 @@
  USA_recon_vehicle_equipment_1_short:0 "LAV-25"
  USA_recon_vehicle_equipment_2:0 "M1127 Recon"
  USA_recon_vehicle_equipment_2_short:0 "M1127"
+
+ USA_spaa_tank_equipment_0:0 "M163 SPAAG"
+ USA_spaa_tank_equipment_0_short:0 "M163"

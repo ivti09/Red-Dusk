@@ -19,10 +19,6 @@ equipments = {
 		interface_category = interface_category_other_ships
 
 		module_slots = {
-			fixed_ship_sonar_slot = {
-				required = yes
-				allowed_module_categories = { sub_ship_sonar }
-			}
 			fixed_ship_systems_slot = {
 				required = yes
 				allowed_module_categories = { sub_ship_systems }
@@ -31,7 +27,11 @@ equipments = {
 				required = yes
 				allowed_module_categories = { sub_ship_engine }
 			}
-			fixed_ship_torpedo_slot = {
+			fixed_ship_sonar_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_sonar }
+			}
+			custom_ship_torpedo_slot = {
 				required = yes
 				allowed_module_categories = { ship_torpedo_sub }
 			}
@@ -44,10 +44,10 @@ equipments = {
 		}
 		
 		default_modules = {
-			fixed_ship_sonar_slot = sub_sonar_1
 			fixed_ship_systems_slot = sub_electrical_systems_1
 			fixed_ship_engine_slot = sub_engine_diesel_1
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
 			custom_slot_1 = empty
 		}
 		
@@ -144,10 +144,6 @@ equipments = {
 		interface_category = interface_category_other_ships
 
 		module_slots = {
-			fixed_ship_sonar_slot = {
-				required = yes
-				allowed_module_categories = { sub_ship_sonar }
-			}
 			fixed_ship_systems_slot = {
 				required = yes
 				allowed_module_categories = { sub_ship_systems }
@@ -156,7 +152,11 @@ equipments = {
 				required = yes
 				allowed_module_categories = { sub_ship_engine }
 			}
-			fixed_ship_torpedo_slot = {
+			fixed_ship_sonar_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_sonar }
+			}
+			custom_ship_torpedo_slot = {
 				required = no
 				allowed_module_categories = { ship_torpedo_sub }
 			}
@@ -167,25 +167,25 @@ equipments = {
 					ship_cruise_missile
 				}
 			}
-			fixed_sub_cruise_missile_slot_1 = {
+			custom_sub_cruise_missile_slot_1 = {
 				required = yes
 				allowed_module_categories = {
 					ship_cruise_missile
 				}
 			}
-			fixed_sub_cruise_missile_slot_2 = {
+			custom_sub_cruise_missile_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					ship_cruise_missile
 				}
 			}
-			fixed_sub_cruise_missile_slot_3 = {
+			custom_sub_cruise_missile_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					ship_cruise_missile
 				}
 			}
-			fixed_sub_cruise_missile_slot_4 = {
+			custom_sub_cruise_missile_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					ship_cruise_missile
@@ -194,15 +194,15 @@ equipments = {
 		}
 		
 		default_modules = {
-			fixed_ship_sonar_slot = sub_sonar_1
 			fixed_ship_systems_slot = sub_electrical_systems_1
 			fixed_ship_engine_slot = sub_engine_diesel_1
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
 			custom_slot_1 = empty
-			fixed_sub_cruise_missile_slot_1 = cruise_missile_1
-			fixed_sub_cruise_missile_slot_2 = empty
-			fixed_sub_cruise_missile_slot_3 = empty
-			fixed_sub_cruise_missile_slot_4 = empty
+			custom_sub_cruise_missile_slot_1 = cruise_missile_1
+			custom_sub_cruise_missile_slot_2 = empty
+			custom_sub_cruise_missile_slot_3 = empty
+			custom_sub_cruise_missile_slot_4 = empty
 		}
 		
 		build_cost_ic = 220
@@ -276,10 +276,6 @@ equipments = {
 		interface_category = interface_category_other_ships
 
 		module_slots = {
-			fixed_ship_sonar_slot = {
-				required = yes
-				allowed_module_categories = { sub_ship_sonar }
-			}
 			fixed_ship_systems_slot = {
 				required = yes
 				allowed_module_categories = { sub_ship_systems }
@@ -288,7 +284,11 @@ equipments = {
 				required = yes
 				allowed_module_categories = { sub_ship_engine }
 			}
-			fixed_ship_torpedo_slot = {
+			fixed_ship_sonar_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_sonar }
+			}
+			custom_ship_torpedo_slot = {
 				required = yes
 				allowed_module_categories = { ship_torpedo_sub }
 			}
@@ -299,31 +299,31 @@ equipments = {
 					ship_ballistic_missile
 				}
 			}
-			fixed_sub_ballistic_missile_slot_1 = {
+			custom_sub_ballistic_missile_slot_1 = {
 				required = yes
 				allowed_module_categories = {
 					ship_ballistic_missile
 				}
 			}
-			fixed_sub_ballistic_missile_slot_2 = {
+			custom_sub_ballistic_missile_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					ship_ballistic_missile
 				}
 			}
-			fixed_sub_ballistic_missile_slot_3 = {
+			custom_sub_ballistic_missile_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					ship_ballistic_missile
 				}
 			}
-			fixed_sub_ballistic_missile_slot_4 = {
+			custom_sub_ballistic_missile_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					ship_ballistic_missile
 				}
 			}
-			fixed_sub_ballistic_missile_slot_5 = {
+			custom_sub_ballistic_missile_slot_5 = {
 				required = no
 				allowed_module_categories = {
 					ship_ballistic_missile
@@ -332,16 +332,16 @@ equipments = {
 		}
 		
 		default_modules = {
-			fixed_ship_sonar_slot = sub_sonar_1
 			fixed_ship_systems_slot = sub_electrical_systems_1
 			fixed_ship_engine_slot = sub_engine_diesel_1
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
 			custom_slot_1 = empty
-			fixed_sub_ballistic_missile_slot_1 = ballistic_missile_1
-			fixed_sub_ballistic_missile_slot_2 = empty
-			fixed_sub_ballistic_missile_slot_3 = empty
-			fixed_sub_ballistic_missile_slot_4 = empty
-			fixed_sub_ballistic_missile_slot_5 = empty
+			custom_sub_ballistic_missile_slot_1 = ballistic_missile_1
+			custom_sub_ballistic_missile_slot_2 = empty
+			custom_sub_ballistic_missile_slot_3 = empty
+			custom_sub_ballistic_missile_slot_4 = empty
+			custom_sub_ballistic_missile_slot_5 = empty
 		}
 		
 		build_cost_ic = 220

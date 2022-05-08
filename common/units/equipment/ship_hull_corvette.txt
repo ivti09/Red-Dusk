@@ -5,7 +5,7 @@ equipments = {
 
 		is_archetype = yes
 		is_buildable = no
-		type = corvette
+		type = screen_ship
 		group_by = archetype
 		priority = 2500
 
@@ -35,15 +35,15 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_radar }
 			}
-			fixed_defensive_slot_1 = {
+			fixed_ship_defensive_slot_1 = {
 				required = no
 				allowed_module_categories = { ship_sam_missile ship_ciws ship_anti_air }
 			}
-			fixed_defensive_slot_2 = {
+			fixed_ship_defensive_slot_2 = {
 				required = no
 				allowed_module_categories = { ship_sam_missile ship_ciws ship_anti_air }
 			}
-			fixed_cannon_slot = {
+			custom_ship_cannon_slot = {
 				required = no
 				allowed_module_categories = { ship_naval_gun }
 			}
@@ -68,7 +68,7 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_defensive_slot_1 = empty
 			fixed_ship_defensive_slot_2 = empty
-			fixed_ship_cannon_slot = empty
+			custom_ship_cannon_slot = empty
 			custom_slot_1 = empty
 			custom_slot_2 = empty
 			custom_slot_3 = empty

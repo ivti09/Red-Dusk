@@ -9,5 +9,10 @@ units = {
 			ship = { name = "K-1" definition = cruise_submarine equipment = { cruise_submarine_hull_2 { amount = 1 owner = SOV version_name = "Project 949A" } } }
 			ship = { name = "K-2" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 { amount = 1 owner = SOV version_name = "Project 667B" } } }
 		}
+		task_force = {
+			name = "Test Surface Ships"
+			location = 3151
+			ship = { name = "Test" definition = corvette equipment = { corvette_hull_1 { amount = 1 owner = SOV version_name = "Test Corvette" } } }
+		}
 	}
 }

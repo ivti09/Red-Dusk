@@ -9,10 +9,10 @@ sub_units = {
 		active = yes
 		
 		type = {
-			motorized
+			armor
 		}
 		
-		group = mobile
+		group = armor
 		
 		categories = {
 			category_front_line

@@ -22,6 +22,103 @@ if = {
 	}
 }
 
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		nsb_mbt_tank_1960 = 1
+		nsb_mbt_tank_1970 = 1
+		nsb_mbt_tank_1980 = 1
+		nsb_mbt_tank_1990 = 1
+		nsb_tank_ammo_1960 = 1
+		nsb_tank_ammo_1970 = 1
+		nsb_tank_ammo_1980 = 1
+		nsb_tank_ammo_1990 = 1
+		nsb_tank_reactive_armour_1 = 1
+		nsb_tank_reactive_armour_2 = 1
+		nsb_tank_aps_soft = 1
+		nsb_ifv_tank_1970 = 1
+		nsb_ifv_tank_1980 = 1
+		nsb_ifv_tank_1990 = 1
+		nsb_ifv_anti_tank_missile_1 = 1
+		nsb_ifv_anti_tank_missile_2 = 1
+		nsb_ifv_anti_tank_missile_3 = 1
+		nsb_ifv_anti_tank_missile_4 = 1
+		nsb_apc_tank_1960 = 1
+		nsb_apc_tank_1970 = 1
+		nsb_apc_tank_1980 = 1
+		nsb_apc_tank_1990 = 1
+		nsb_apc_tank_2000 = 1
+		nsb_spaa_tank_1960 = 1
+		nsb_spaa_tank_1980 = 1
+	}
+	else = {
+		set_technology = {
+			mbt_tank_1960 = 1
+			mbt_tank_1970 = 1
+			mbt_tank_1980 = 1
+			mbt_tank_1990 = 1
+			tank_ammo_1960 = 1
+			tank_ammo_1970 = 1
+			tank_ammo_1980 = 1
+			tank_ammo_1990 = 1
+			tank_reactive_armour_1 = 1
+			tank_reactive_armour_2 = 1
+			tank_aps_soft = 1
+			ifv_tank_1970 = 1
+			ifv_tank_1980 = 1
+			ifv_tank_1990 = 1
+			ifv_anti_tank_missile_1 = 1
+			ifv_anti_tank_missile_2 = 1
+			ifv_anti_tank_missile_3 = 1
+			ifv_anti_tank_missile_4 = 1
+			apc_tank_1960 = 1
+			apc_tank_1970 = 1
+			apc_tank_1980 = 1
+			apc_tank_1990 = 1
+			apc_tank_2000 = 1
+			spaa_tank_1960 = 1
+			spaa_tank_1980 = 1
+		}
+	}
+}
+if = {
+	limit = {
+		AND = { has_dlc = "No Step Back" has_dlc = "La Resistance" }
+	}
+	set_technology = {
+		nsb_recon_vehicle_1960 = 1
+	}
+}
+if = {
+	limit = {
+		AND = { NOT = { has_dlc = "No Step Back" } has_dlc = "La Resistance" }
+	}
+	set_technology = {
+		recon_vehicle_1960 = 1
+	}
+}
+set_technology = {
+	fighter_1960 = 1
+	interceptor_1960 = 1
+	fighter_1970 = 1
+	carrier_fighter_1970 = 1
+	interceptor_1970 = 1
+	fighter_1980 = 1
+	carrier_fighter_1980 = 1
+	interceptor_1980 = 1
+	fighter_1990 = 1
+	carrier_fighter_1990 = 1
+	attacker_1960 = 1
+	attacker_1970 = 1
+	attacker_1980 = 1
+	strike_bomber_1960 = 1
+	strike_bomber_1980 = 1
+	strategic_bomber_1960 = 1
+	strategic_bomber_1980 = 1
+}
+
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.3
@@ -89,10 +186,10 @@ if = {
 		name_group = SOV_SS_NUMERICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_sonar_slot = sub_sonar_2
 			fixed_ship_systems_slot = sub_electrical_systems_2
 			fixed_ship_engine_slot = sub_engine_diesel_2
-			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_sonar_slot = sub_sonar_2
+			custom_ship_torpedo_slot = ship_torpedo_sub_2
 			custom_slot_1 = empty
 		}
 	}
@@ -102,15 +199,15 @@ if = {
 		name_group = SOV_SSGN_NUMERICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_sonar_slot = sub_sonar_2
 			fixed_ship_systems_slot = sub_electrical_systems_2
 			fixed_ship_engine_slot = sub_engine_diesel_2
-			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_sonar_slot = sub_sonar_2
+			custom_ship_torpedo_slot = ship_torpedo_sub_2
 			custom_slot_1 = cruise_missile_2
-			fixed_sub_cruise_missile_slot_1 = cruise_missile_2
-			fixed_sub_cruise_missile_slot_2 = cruise_missile_2
-			fixed_sub_cruise_missile_slot_3 = cruise_missile_2
-			fixed_sub_cruise_missile_slot_4 = cruise_missile_2
+			custom_sub_cruise_missile_slot_1 = cruise_missile_2
+			custom_sub_cruise_missile_slot_2 = cruise_missile_2
+			custom_sub_cruise_missile_slot_3 = cruise_missile_2
+			custom_sub_cruise_missile_slot_4 = cruise_missile_2
 		}
 	}
 	create_equipment_variant = {
@@ -119,16 +216,16 @@ if = {
 		name_group = SOV_SSBN_NUMERICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_sonar_slot = sub_sonar_1
 			fixed_ship_systems_slot = sub_electrical_systems_1
 			fixed_ship_engine_slot = sub_engine_diesel_1
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
 			custom_slot_1 = empty
-			fixed_sub_ballistic_missile_slot_1 = ballistic_missile_1
-			fixed_sub_ballistic_missile_slot_2 = ballistic_missile_1
-			fixed_sub_ballistic_missile_slot_3 = ballistic_missile_1
-			fixed_sub_ballistic_missile_slot_4 = empty
-			fixed_sub_ballistic_missile_slot_5 = empty
+			custom_sub_ballistic_missile_slot_1 = ballistic_missile_1
+			custom_sub_ballistic_missile_slot_2 = ballistic_missile_1
+			custom_sub_ballistic_missile_slot_3 = ballistic_missile_1
+			custom_sub_ballistic_missile_slot_4 = empty
+			custom_sub_ballistic_missile_slot_5 = empty
 		}
 	}
 
@@ -145,7 +242,7 @@ if = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_defensive_slot_1 = empty
 			fixed_ship_defensive_slot_2 = empty
-			fixed_ship_cannon_slot = empty
+			custom_ship_cannon_slot = empty
 			custom_slot_1 = empty
 			custom_slot_2 = empty
 			custom_slot_3 = empty

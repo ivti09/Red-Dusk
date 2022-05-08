@@ -1231,4 +1231,117 @@ technologies = {
 
 	}
 
+## Self-Propelled Anti-Air ##
+
+	nsb_spaa_tank_1960 = {
+
+		enable_equipments = {
+			spaa_tank_equipment_0
+		}
+
+		path = {
+			leads_to_tech = nsb_spaa_tank_1980
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3.0
+
+		start_year = 1960
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 1 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	nsb_spaa_tank_1980 = {
+
+		enable_equipments = {
+			spaa_tank_equipment_1
+		}
+
+		path = {
+			leads_to_tech = nsb_spaa_tank_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3.0
+
+		start_year = 1980
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 9 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	nsb_spaa_tank_2000 = {
+
+		enable_equipments = {
+			spaa_tank_equipment_2
+		}
+
+		path = {
+			leads_to_tech = nsb_spaa_tank_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3.0
+
+		start_year = 2000
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 17 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
+	nsb_spaa_tank_2020 = {
+
+		enable_equipments = {
+			spaa_tank_equipment_3
+		}
+
+		research_cost = 3.0
+
+		start_year = 2020
+
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = 25 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			armor
+		}
+
+	}
+
 }
