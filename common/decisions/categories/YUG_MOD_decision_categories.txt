@@ -6,6 +6,10 @@ yug_deal_with_uprisings = {
 	}
 	
 	visible = {
+		NOT = {
+		has_country_flag = bos_uprising_started
+		has_country_flag = kos_uprising_started
+		}
 	}
 	priority = 200
 }

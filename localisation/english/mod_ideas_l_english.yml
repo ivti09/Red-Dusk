@@ -122,7 +122,11 @@
  YUG_new_tactics_for_a_new_age_name_desc:0 "The Yugoslav People's Army Has Decided To Adopt New Tactics And Abonden Old Outdated Military Tactics For A New Age"
  YUG_old_tactics_for_a_new_age_name:0 "Old Tactics For A New Age"
  YUG_old_tactics_for_a_new_age_name_desc:0 "The Yugoslav People's Army Has Decided To Contunie Old Military Tactics Rather Then Using New Military Tactics For A New Age"
-
+ YUG_corrupt_party_name:0 "Corrupt Party"
+ YUG_corrupt_party_name_desc:0 ""
+ YUG_nationalism_supressed_name:0 "Nationalism Supressed"
+ YUG_nationalism_supressed_name_desc:0 ""
+ 
  BOS_indepandance_war_fighter_experience_name:0 "Indepandence Spirit"
  BOS_indepandance_war_fighter_experience_name_desc:0 "Our nation has been occupied by the serb majority led "equal union" for so long , Bosnia is gonna be finally free after years and this time we will succeed with carefull planning an preparations for the last 10 years "
  

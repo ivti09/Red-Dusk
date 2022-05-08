@@ -2,10 +2,6 @@ focus_tree = {
 	id = yug_commie_milosevic_focus
 	country = {
 		factor = 0
-		modifier = {
-			add = 35 #this will be edited out when i finish the tree#
-			tag = YUG
-		}
 	}
 	
 	

@@ -4,6 +4,8 @@ add_namespace = yug_hidden
 add_namespace = yug_intro
 
 add_namespace = bos
+add_namespace = cro
+add_namespace = kos
 
 #All Quite in Bosnia#
 country_event = {
@@ -209,7 +211,8 @@ country_event = {
 	#FORWARD#
 	option = {
 	name = bos.1.a
-		YUG = {country_event = days = 10 id = yug_rebel.3}
+		set_country_flag = bos_uprising_started
+		YUG = {country_event = {days = 10 id = yug_rebel.3}}
 		if = {
 			limit = {
 					check_variable = {
@@ -264,8 +267,9 @@ country_event = {
 	#FORWARD#
 	option = {
 	name = kos.1.a
+		set_country_flag = kos_uprising_started
 		add_ideas = KOS_albania_support
-		YUG = {country_event = days = 10 id = yug_rebel.6}
+		YUG = {country_event = {days = 10 id = yug_rebel.6}}
 		if = {
 			limit = {
 					check_variable = {
@@ -395,6 +399,7 @@ country_event = {
 				type = annex_everything
 				target = YUG
 				}
+				add_ideas = KOS_indepandance_war_fighter_experience_stronk
 				add_ideas = KOS_albania_support
 		}
 		

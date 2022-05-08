@@ -493,8 +493,8 @@ yug_rebuilding_our_industry = {
 		has_completed_focus = YUG_rebuilding_our_industry
 		}
 		modifier = {
-		stability_weekly_factor = -0.01
-		war_support_weekly_factor = 0.025
+		stability_weekly = -0.01
+		war_support_weekly = 0.025
 		civilian_factory_use = 2
 		}
 		
@@ -532,8 +532,8 @@ yug_rebuilding_our_industry = {
 		has_completed_focus = YUG_rebuilding_our_industry
 		}
 		modifier = {
-		stability_weekly_factor = 0.025
-		war_support_weekly_factor = -0.01
+		stability_weekly = 0.025
+		war_support_weekly = -0.01
 		civilian_factory_use = 4
 		}
 		
@@ -571,8 +571,8 @@ yug_rebuilding_our_industry = {
 		has_completed_focus = YUG_rebuilding_our_industry
 		}
 		modifier = {
-		stability_weekly_factor = 0.025
-		war_support_weekly_factor = -0.01
+		stability_weekly = 0.025
+		war_support_weekly = -0.01
 		civilian_factory_use = 4
 		}
 		
@@ -714,8 +714,8 @@ yug_opening_new_factories = {
 		has_completed_focus = YUG_open_new_factories
 		}
 		modifier = {
-		stability_weekly_factor = -0.02
-		war_support_weekly_factor = 0.05
+		stability_weekly = -0.02
+		war_support_weekly = 0.05
 		civilian_factory_use = 2
 		}
 		
@@ -753,8 +753,8 @@ yug_opening_new_factories = {
 		has_completed_focus = YUG_open_new_factories
 		}
 		modifier = {
-		stability_weekly_factor = 0.05
-		war_support_weekly_factor = -0.03
+		stability_weekly = 0.05
+		war_support_weekly = -0.03
 		civilian_factory_use = 4
 		}
 		
@@ -792,8 +792,8 @@ yug_opening_new_factories = {
 		has_completed_focus = YUG_open_new_factories
 		}
 		modifier = {
-		stability_weekly_factor = 0.08
-		war_support_weekly_factor = -0.03
+		stability_weekly = 0.08
+		war_support_weekly = -0.03
 		civilian_factory_use = 4
 		}
 		
