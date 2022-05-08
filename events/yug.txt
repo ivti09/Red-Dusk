@@ -3,6 +3,8 @@ add_namespace = yug_rebel
 add_namespace = yug_hidden
 add_namespace = yug_intro
 
+add_namespace = bos
+
 #All Quite in Bosnia#
 country_event = {
 	id = yug.1
@@ -161,7 +163,7 @@ country_event = {
 	id = yug.10
 	title = yug.10.t
 	desc = yug.10.d
-	picture = GFX_report_event_YUG_SKJ_meeting
+	picture = GFX_report_event_YUG_depressed
 	
 	is_triggered_only = yes
 	
@@ -185,6 +187,296 @@ country_event = {
 	#We need loc#
 	option = {
 	name = yug.11.a
+		
+	}
+
+}
+
+## UPRISING STUFF##
+
+
+### FOCUSED ON BOSNIA / BOSNIA REBELS FIRST ###
+
+#uprising event for bosnia#
+country_event = {
+	id = bos.1
+	title = bos.1.t
+	desc = bos.1.d
+	picture = GFX_report_event_YUG_bossnia
+	
+	is_triggered_only = yes
+	
+	#FORWARD#
+	option = {
+	name = bos.1.a
+		YUG = {country_event = days = 10 id = yug_rebel.3}
+		if = {
+			limit = {
+					check_variable = {
+							bosnia_fight_strength > 74
+					}
+			
+			}
+		add_ideas = BOS_indepandance_war_fighter_experience
+			
+		}
+		
+		else_if = {
+			limit = {
+					check_variable = {
+							bosnia_fight_strength < 60
+							bosnia_fight_strength > 40
+					}
+			
+			}
+		add_ideas = BOS_indepandance_war_fighter_experience_2
+			
+		}
+
+		else = {
+			limit = {
+					check_variable = {
+							bosnia_fight_strength < 41
+					}
+			
+			}
+		add_ideas = BOS_indepandance_war_fighter_experience_3
+			
+		}
+		
+				
+		
+	}
+
+}
+
+### FOCUSED ON KOSOVO / KOSOVO REBELS FIRST ###
+
+#uprising event for kosovo#
+country_event = {
+	id = kos.1
+	title = kos.1.t
+	desc = kos.1.d
+	picture = GFX_report_event_YUG_bossnia
+	
+	is_triggered_only = yes
+	
+	#FORWARD#
+	option = {
+	name = kos.1.a
+		add_ideas = KOS_albania_support
+		YUG = {country_event = days = 10 id = yug_rebel.6}
+		if = {
+			limit = {
+					check_variable = {
+							albania_fight_strength > 74
+					}
+			
+			}
+		add_ideas = KOS_indepandance_war_fighter_experience
+			
+		}
+		
+		else_if = {
+			limit = {
+					check_variable = {
+							albania_fight_strength < 60
+							albania_fight_strength > 40
+					}
+			
+			}
+		add_ideas = KOS_indepandance_war_fighter_experience_2
+			
+		}
+
+		else = {
+			limit = {
+					check_variable = {
+							albania_fight_strength < 41
+					}
+			
+			}
+		add_ideas = KOS_indepandance_war_fighter_experience_3
+			
+		}
+		
+				
+		
+	}
+
+}
+
+#mass uprisings across the country#
+country_event = {
+	id = yug_rebel.1
+	title = yug_rebel.1.t
+	desc = yug_rebel.1.d
+	picture = GFX_report_event_YUG_depressed
+	
+	is_triggered_only = yes
+	
+	#oh shit#
+	option = {
+	name = yug_rebel.1.a
+			add_manpower = -3500
+			add_political_power = -50
+			CRO = {
+			country_event = {id = cro.1}
+			}
+	}
+
+}
+
+
+#seizeing osijek event for croatia#
+country_event = {
+	id = cro.1
+	title = cro.1.t
+	desc = cro.1.d
+	picture = GFX_report_event_YUG_bossnia
+	
+	is_triggered_only = yes
+	
+	#oh hell yeah#
+	option = {
+	name = cro.1.a
+	add_political_power = 50
+	add_war_support = 0.05
+		CRO = {
+			transfer_state = 836
+			
+		}
+		YUG = {
+
+			country_event = {id = yug_rebel.2}
+			
+		}
+		
+	}
+
+}
+
+#CROATIA SEIZEZ BACKA event for yugoslavia#
+country_event = {
+	id = yug_rebel.2
+	title = yug_rebel.2.t
+	desc = yug_rebel.2.d
+	picture = GFX_report_event_YUG_depressed
+	
+	is_triggered_only = yes
+	
+	#damn cro*ats#
+	option = {
+	name = yug_rebel.2.a
+	add_political_power = -25
+	add_war_support = -0.05
+	add_manpower = 1500
+		country_event = {days = 15 id = yug_rebel.4}
+	}
+
+}
+
+#kosovo rebels#
+country_event = {
+	id = yug_rebel.3
+	title = yug_rebel.3.t
+	desc = yug_rebel.3.d
+	picture = GFX_report_event_YUG_depressed
+	
+	is_triggered_only = yes
+	
+	#hell#
+	option = {
+	name = yug_rebel.3.a
+	add_stability = -0.05
+		KOS = {
+		transfer_state = 802
+				declare_war_on = {
+				type = annex_everything
+				target = YUG
+				}
+				add_ideas = KOS_albania_support
+		}
+		
+		
+		
+	}
+
+}
+
+#macedonia rebels#
+country_event = {
+	id = yug_rebel.4
+	title = yug_rebel.4.t
+	desc = yug_rebel.4.d
+	picture = GFX_report_event_YUG_depressed
+	
+	is_triggered_only = yes
+	
+	#this is getting real real bad#
+	option = {
+	name = yug_rebel.4.a
+	add_stability = -0.05
+		MAC = {
+		transfer_state = 106
+				declare_war_on = {
+				type = annex_everything
+				target = YUG
+				}
+		}
+		country_event = {days = 5 id = yug_rebel.5}
+		
+		
+		
+	}
+
+}
+
+#montenegran militias raised#
+country_event = {
+	id = yug_rebel.5
+	title = yug_rebel.5.t
+	desc = yug_rebel.5.d
+	picture = GFX_report_event_YUG_bossnia
+	
+	is_triggered_only = yes
+	
+	#finally some help#
+	option = {
+	name = yug_rebel.5.a
+
+		add_manpower = 50000
+		add_stability = -0.05
+		add_war_support = 0.10
+	}
+
+}
+
+#bosnia rebels#
+country_event = {
+	id = yug_rebel.6
+	title = yug_rebel.6.t
+	desc = yug_rebel.6.d
+	picture = GFX_report_event_YUG_depressed
+	
+	is_triggered_only = yes
+	
+	#this is getting real real bad#
+	option = {
+	name = yug_rebel.6.a
+	add_stability = -0.05
+		BOS = {
+		transfer_state = 104
+		transfer_state = 804
+				declare_war_on = {
+				type = annex_everything
+				target = YUG
+				}
+			add_ideas = BOS_indepandance_war_fighter_experience_stronk
+		}
+		country_event = {days = 5 id = yug_rebel.5}
+		
+		
 		
 	}
 

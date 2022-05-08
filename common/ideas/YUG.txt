@@ -348,11 +348,11 @@ ideas = {
 
 			modifier = {
 				army_attack_factor = 0.15
-				production_factory_start_efficiency_factor = 0.05
+				production_factory_start_efficiency_factor = -0.04
 			}
 			
 			research_bonus = {
-			naval_equipment = 0.05 
+			naval_equipment = 0.10
 			mod_cat_fighter = 0.15
 			infantry_weapons = 0.025
 			}
@@ -562,6 +562,219 @@ ideas = {
 				production_speed_infrastructure_factor = -0.07
 				production_speed_rail_way_factor = -0.07
 			}
+		}
+		
+		##YUGOSLAV REBELLIONS##
+		
+		BOS_indepandance_war_fighter_experience_stronk = {
+			name = BOS_indepandance_war_fighter_experience_name
+
+			removal_cost = -1
+
+			picture = YUG_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.50
+				surrender_limit = 1
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+				army_core_attack_factor = 0.30
+				army_core_defence_factor = 0.35
+			}
+		
+		
+		
+		}
+		
+		BOS_indepandance_war_fighter_experience = {
+			name = BOS_indepandance_war_fighter_experience_name
+
+			removal_cost = -1
+
+			picture = YUG_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.50
+				surrender_limit = 1
+				army_attack_factor = 0.10
+				army_defence_factor = 0.15
+				army_core_attack_factor = 0.25
+				army_core_defence_factor = 0.30
+			}
+		
+		
+		
+		}
+		
+		BOS_indepandance_war_fighter_experience_2 = {
+			name = BOS_indepandance_war_fighter_experience_name
+
+			removal_cost = -1
+
+			picture = YUG_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.50
+				surrender_limit = 1
+				army_attack_factor = 0.5
+				army_defence_factor = 0.10
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.20
+			}
+		
+		
+		
+		}
+		
+		BOS_indepandance_war_fighter_experience_3 = {
+			name = BOS_indepandance_war_fighter_experience_name
+
+			removal_cost = -1
+
+			picture = YUG_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.25
+				surrender_limit = 1
+				army_defence_factor = 0.05
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.15
+			}
+		
+		
+		
+		}
+		
+		KOS_indepandance_war_fighter_experience_stronk = {
+			name = KOS_indepandance_war_fighter_experience_name
+
+			removal_cost = -1
+
+			picture = YUG_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.50
+				surrender_limit = 1
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+				army_core_attack_factor = 0.30
+				army_core_defence_factor = 0.35
+			}
+		
+		
+		
+		}
+		
+		KOS_indepandance_war_fighter_experience = {
+			name = KOS_indepandance_war_fighter_experience_name
+
+			removal_cost = -1
+
+			picture = YUG_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.50
+				surrender_limit = 1
+				army_attack_factor = 0.10
+				army_defence_factor = 0.15
+				army_core_attack_factor = 0.25
+				army_core_defence_factor = 0.30
+			}
+		
+		
+		
+		}
+		
+		KOS_indepandance_war_fighter_experience_2 = {
+			name = KOS_indepandance_war_fighter_experience_name
+
+			removal_cost = -1
+
+			picture = YUG_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.50
+				surrender_limit = 1
+				army_attack_factor = 0.5
+				army_defence_factor = 0.10
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.20
+			}
+		
+		
+		
+		}
+		
+		KOS_indepandance_war_fighter_experience_3 = {
+			name = KOS_indepandance_war_fighter_experience_name
+
+			removal_cost = -1
+
+			picture = YUG_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.25
+				surrender_limit = 1
+				army_defence_factor = 0.05
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.15
+			}
+		
+		
+		
+		}
+		
+		KOS_albania_support = {
+			name = KOS_albania_support_name
+
+			removal_cost = -1
+
+			picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.10
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		
+		
+		
 		}
 	}
 }

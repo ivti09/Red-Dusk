@@ -241,6 +241,8 @@ focus_tree = {
 		completion_reward = {
 		add_political_power = 15
 		unlock_decision_category_tooltip = yug_deal_with_uprisings
+		set_variable = { bosnia_fight_strength = 85 }
+		set_variable = { albania_fight_strength = 80 }
 		}
 	}
 	
@@ -291,6 +293,7 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			add_political_power = 25
 			
 		}
 	}
@@ -794,7 +797,7 @@ focus_tree = {
 		completion_reward = {
 		add_stability = 0.05
 		add_political_power = 15
-			
+		unlock_decision_category_tooltip = yug_rebuilding_our_industry	
 		}
 	}
 	
@@ -906,7 +909,7 @@ focus_tree = {
 		completion_reward = {
 		add_stability = -0.02
 		add_political_power = 25
-			
+		unlock_decision_category_tooltip = yug_opening_new_factories
 		}
 	}
 	

@@ -120,7 +120,17 @@
  YUG_soviet_orianted_economy_name_Desc:0 "Yugoslav Goverment Decided To Reform The Country's Economy Policy To A Soviet Orianted Economy"
  YUG_new_tactics_for_a_new_age_name:0 "New Tactics For A New Age"
  YUG_new_tactics_for_a_new_age_name_desc:0 "The Yugoslav People's Army Has Decided To Adopt New Tactics And Abonden Old Outdated Military Tactics For A New Age"
+ YUG_old_tactics_for_a_new_age_name:0 "Old Tactics For A New Age"
+ YUG_old_tactics_for_a_new_age_name_desc:0 "The Yugoslav People's Army Has Decided To Contunie Old Military Tactics Rather Then Using New Military Tactics For A New Age"
 
+ BOS_indepandance_war_fighter_experience_name:0 "Indepandence Spirit"
+ BOS_indepandance_war_fighter_experience_name_desc:0 "Our nation has been occupied by the serb majority led "equal union" for so long , Bosnia is gonna be finally free after years and this time we will succeed with carefull planning an preparations for the last 10 years "
+ 
+ KOS_indepandance_war_fighter_experience_name:0 "Indepandence Spirit"
+ KOS_indepandance_war_fighter_experience_name_desc:0 "Our nation has been occupied by the serb majority led "equal union" for so long , Kosovo is gonna be finally free after years and this time we will succeed with carefull planning an preparations for the last 10 years "
+ KOS_albania_support_name:0 "Albanian Support"
+ KOS_albania_support_name_desc:0 "Kosovan rebels has been funded by the Albania nation to the south with equipment,machinery and air support .While Albanian Government mostly denied these allegations\n\n homever \n\nwith Kosovo declaring independence from the falling nation of Yugoslavia Albania openly declared support for the new nation"
+ 
  IRQ_western_embargo_name:0 "Western Embargo"
  IRQ_western_embargo_name_desc:0 "After our invasion against Kuwait to rightfully unite Iraq and the subsequent defeat, Western nations such as the USA, France,England embargoed our nation, plummeting the already destroyed Iraqi economy"
  IRQ_kurdish_rebels_name:0 "Kurdish Rebels"

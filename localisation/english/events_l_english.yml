@@ -158,6 +158,40 @@
  yug.11.d:0 "and ??"
  yug.11.a:0 "me when no loc"
  
+ bos.1.t:0 "The National Uprising Commences !"
+ bos.1.d:0 "After years of supression by majority serbs we have finally declared independence from oppressive Yugoslavia"
+ bos.1.a:0 "FORWARD !"
+ 
+ kos.1.t:0 "The National Uprising Commences !"
+ kos.1.d:0 "After years of supression by majority serbs we have finally declared independence from oppressive Yugoslavia"
+ kos.1.a:0 "FORWARD !"
+ 
+ yug_rebel.1.t:0 "Mass Uprisings Across The Country"
+ yug_rebel.1.d:0 "We clearly underanticipated the size of the rebels...\n\nIn the last 60 days of us supressing the rebels in the regions we have learned that rebels from all around the region were preparing for an general uprising to "liberate" their country for the last 10 years.\n\nThese 10 years of prepration ended today with mass rebellions across every city in Yugoslavia. Pristina,Banja Luka,Sarajebo,Skopje not a single city is spared by these rebels as our great unitary nation of Yugoslavia collapses around us..."
+ yug_rebel.1.a:0 "WE WILL WIN JUST LIKE WE DID IN 91'"
+ 
+ cro.1.t:0 "Seizing Ojisek"
+ cro.1.d:0 "It appears as if the "glorious" and "stable" state of Yugoslavia is collapsing , with this we can finally seize Ojisek , a province that we couldn’t liberate from opressive serbian hands"
+ cro.1.a:0 "this shouldve ended in 91'"
+ 
+ yug_rebel.2.t:0 "Croatio Seizez Ojisek !"
+ yug_rebel.2.d:0 "Benefiting from the uprisings on our country bastard Croatians seized the neighboering region on Ojisek. While this is definitly very bad we no longer have to spend manpower guarding the region"
+ yug_rebel.2.a:0 "they will regret this when we deal with this situation"
+ yug_rebel.3.t:0 "Kosovo Rebels !"
+ yug_rebel.3.d:0 "Ethnic Albanians located in the region of Kosovo banded togather with Albanian backed Rebels have declared indepandence from us and secured most of the region"
+ yug_rebel.3.a:0 "Damn it"
+ yug_rebel.4.t:0 "Macedonia Rebels !"
+ yug_rebel.4.d:0 "Ethnic Macedonian Rebels preparing for years in the mountainous region of macedonia have declared their indepandence from us and secured most of the region, worsening the situation our nation is at even more"
+ yug_rebel.4.a:0 "How worse can this get ?"
+ yug_rebel.5.t:0 "Montenegran Militas Raised"
+ yug_rebel.5.d:0 "Montenegrans being our trustworthy allies have raised a milita formation to protect Yugoslavia from the seperatists"
+ yug_rebel.5.a:0 "Finally Some Good News"
+ yug_rebel.6.t:0 "Bosnia Rebels !"
+ yug_rebel.6.d:0 "Bosniak Rebels being one of the most seperatist and extremist aganist the unitary Yugoslavia have rebelled and with preprations from years have secured most of Bosnia"
+ yug_rebel.6.a:0 "Damn It"
+ 
+ 
+ 
  #VIN#
  vin_intro.1.t:0 "Socialist Republic of Vietnam"
  vin_intro.1.d:0 "Vietnam is located in a region considered a cradle of mankind, one of the earliest agricultural centers practicing wet rice farming, where the stone and metallurgical revolutions took place.\n\nIn the early 19th century, Western capitalist countries entered the period of imperialism and colonialism. Through missionaries and trade, the French gradually dominated Vietnam. For the first time in history, Vietnam had to cope with the invasion of a Western industrial country. In that context, some Vietnamese intellectuals were aware of the need to carry out reforms, bringing the country out of stagnation and save national independence. Many reform plans were proposed, yet rejected by the Nguyen Dynasty. Subsequently, the country was driven into backwardness and deadlock and became a semi-feudal colony for nearly 100 years from 1858 to 1945.\n\nThe founding of the Communist Party of Vietnam on 3 February 1930 was an important milestone in the Vietnamese history. In August 1945, under the leadership of the Communist Party headed by President Ho Chi Minh, the Vietnamese people successfully launched an uprising to seize power and the Democratic Republic of Vietnam came into being on 2 September 1945.\n\nThe newly founded Vietnam had to go through another 30-year-long struggle for national liberation and reunification. Dien Bien Phu victory and Geneva Accord in 1954 put an end to the war of resistance against the French colonialists. According to the Accord, the country was temporarily separated along the 17th Parallel North into two territories, North Vietnam and the South Vietnam, which were expected to be reunified two years later with a general election. South Vietnam was ruled by a pro-French and then pro-USA government in Saigon. Though Saigon regime attempted to prevent reunification, it failed to subdue peace and national reunification campaigns. As a result, the National Liberation Front for South Vietnam was founded on December 20 1964.\n\nBetween 1954 and 1975, Vietnam had to stand up for national liberation and unification. To support the South Vietnam regime, the US sent military aid and over half a million soldiers to Vietnam, and started bombing North Vietnam in 1964. To fulfill President Ho Chi Minh’s apiration that "nothing is more precious than independence and freedom", the Vietnamese people experienced untold hardship and sacrifice. In 1973, the Paris Accord was signed for restoration of peace in Vietnam and withdrawal of the US troops. The war came to an end in spring 1975 as the patriotic armed forces launched an offensive against the Saigon regime, liberated southern Vietnam and reunified the country. Since then, the unified Vietnam has ushered into a new era of peace, unification and national construction. Democratic Republic of Vietnam was renamed Socialist Republic of Vietnam on April 25 1976."
