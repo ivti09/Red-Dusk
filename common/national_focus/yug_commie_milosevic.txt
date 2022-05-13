@@ -221,6 +221,9 @@ focus_tree = {
 		x = 10
 		y = 6
 		
+		available = {
+		has_country_flag = YUG_army_dealt_with
+		}
 		
 		prerequisite = {focus = YUG_matters_of_JNA}
 		mutually_exclusive = { }
@@ -249,7 +252,8 @@ focus_tree = {
 		y = 7
 		
 		available = {
-		has_country_flag = YUG_army_dealt_with
+		has_country_flag = bos_uprising_started
+		has_country_flag = kos_uprising_started
 		has_war = no
 		}
 		prerequisite = {focus = YUG_anti_terrorist_actions}

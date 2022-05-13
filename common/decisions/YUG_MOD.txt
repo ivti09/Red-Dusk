@@ -919,4 +919,36 @@ yug_opening_new_factories = {
 	
 }
 
+yug_uprising = {
+
+	yug_timer_clock_war = {                          
+          allowed = { 
+		  has_country_flag = kos_uprising_started
+		  has_country_flag = bos_uprising_started
+		  NOT = {has_country_flag = yug_defeated}
+		  }                
+          available = {    
+			has_country_flag = yug_defeated_rebels
+          }
+          activation = {                          
+          has_country_flag = kos_uprising_started
+		  has_country_flag = bos_uprising_started
+		  NOT = {has_country_flag = yug_defeated}
+          }
+		  
+          is_good = no
+          selectable_mission = no
+          days_mission_timeout = 160            
+        timeout_effect = {
+		country_event = { id = yug_rebel.1 } 
+		
+		}
+          complete_effect = {                    
+			
+          }
+    }
+
+
+}
+
 

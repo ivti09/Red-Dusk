@@ -189,7 +189,31 @@
  yug_rebel.6.t:0 "Bosnia Rebels !"
  yug_rebel.6.d:0 "Bosniak Rebels being one of the most seperatist and extremist aganist the unitary Yugoslavia have rebelled and with preprations from years have secured most of Bosnia"
  yug_rebel.6.a:0 "Damn It"
+ yug_rebel.7.t:0 "End Of The Rebellions"
+ yug_rebel.7.d:0 "At last we were able to defeat the seperatists that threaten to divide our country again , the war has been a diaster for our country with multiple places destroyed during war effor its gonna take us long to rebuilt the country and even longer to rebuilt trust between people..."
+ yug_rebel.7.a:0 "Yugoslavia Forever..."
+ yug_rebel.8.t:0 "End Of Yugoslavia"
+ yug_rebel.8.d:0 "At last we were able to defeat the opressor serbs and their "equel union".After getting driven out of our lands they were forced to sign a ceasefire"
+ yug_rebel.8.a:0 "Thus ends the unstable country of the southslavs"
+
+ #yugoslavia loses events
+ yug_rebel.9.t:0 "Military Coup"
+ yug_rebel.9.d:0 "After our embrassing defeat we lost everything. Our union built by Tito has been utterly destroyed because pesky seperatists , with our government losing any support or relief from the people military finally intervened to oust Milosevic "
+ yug_rebel.9.a:0 "Military ousts milosevic succesfully"
+
  
+ yug_news.1.t:0 "Mass Uprisings Across Yugoslavia"
+ yug_news.1.d:0 "Intiresting news has arrived from turbulent Yugoslavia that multiple seperatist regions have declared uprisings aganist central government on Belgrade. In respone to this Belgrade has declared Martial Law across the country and closed the international borders to block any foreign fighters joining the seperatists \n\n With another war threatinging to destroy Yugoslavia many speculate it might be the end for the unstable multiethnic country"
+ yug_news.1.a:0 "Yugoslavia wont die !"
+ yug_news.1.b:0 "End is nearing for Yugoslavia..."
+ yug_news.2.t:0 "Seperatists Defeated In Yugoslavia"
+ yug_news.2.d:0 "Unexpected news has arrived from turbulent Yugoslavia that JNA was able to overrun seperatist regions and have defeated the seperatists armies. Belgrade has delcared this day as a national holiday to celebrate "Yugoslav Unity" . It seems as if the multiethnic country will stay in the balkans"
+ yug_news.2.a:0 "Yugoslavia will never die !"
+ yug_news.2.b:0 "Unexpected"
+ yug_news.3.t:0 "End Of Yugoslavia"
+ yug_news.3.d:0 "New news has arrived from turbulent Yugoslavia that JNA was overrun by seperatist armies' and the Yugoslav leadership was forced to sign a ceasefire . With most of Yugoslavia's territories lost chaos rules Belgrade with multiple government officals escaping the country to avoid any persucution from a new government"
+ yug_news.3.a:0 "..."
+ yug_news.3.b:0 "Thus ends Yugoslavia"
  
  
  #VIN#

@@ -2,6 +2,7 @@ add_namespace = yug
 add_namespace = yug_rebel
 add_namespace = yug_hidden
 add_namespace = yug_intro
+add_namespace = yug_news
 
 add_namespace = bos
 add_namespace = cro
@@ -189,7 +190,7 @@ country_event = {
 	#We need loc#
 	option = {
 	name = yug.11.a
-		
+		remove_ideas = YUG_broken_brotherhood
 	}
 
 }
@@ -212,6 +213,7 @@ country_event = {
 	option = {
 	name = bos.1.a
 		set_country_flag = bos_uprising_started
+		set_country_flag = yug_mass_rebellions
 		YUG = {country_event = {days = 10 id = yug_rebel.3}}
 		if = {
 			limit = {
@@ -268,6 +270,7 @@ country_event = {
 	option = {
 	name = kos.1.a
 		set_country_flag = kos_uprising_started
+		set_country_flag = yug_mass_rebellions
 		add_ideas = KOS_albania_support
 		YUG = {country_event = {days = 10 id = yug_rebel.6}}
 		if = {
@@ -322,6 +325,7 @@ country_event = {
 	#oh shit#
 	option = {
 	name = yug_rebel.1.a
+	news_event = {id = yug_news.1}
 			add_manpower = -3500
 			add_political_power = -50
 			CRO = {
@@ -369,6 +373,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	
 	#damn cro*ats#
 	option = {
 	name = yug_rebel.2.a
@@ -389,21 +394,25 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	immediate = { # Optional : all the following will occur once the event occurs
+		hidden_effect = {
+			KOS = {
+			transfer_state = 802
+					declare_war_on = {
+					type = annex_everything
+					target = YUG
+					}
+					add_ideas = KOS_indepandance_war_fighter_experience_stronk
+					add_ideas = KOS_albania_support
+			}
+		}
+	}
+	
 	#hell#
 	option = {
 	name = yug_rebel.3.a
 	add_stability = -0.05
-		KOS = {
-		transfer_state = 802
-				declare_war_on = {
-				type = annex_everything
-				target = YUG
-				}
-				add_ideas = KOS_indepandance_war_fighter_experience_stronk
-				add_ideas = KOS_albania_support
-		}
-		
-		
+
 		
 	}
 
@@ -418,21 +427,27 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	immediate = { # Optional : all the following will occur once the event occurs
+		hidden_effect = {
+			MAC = {
+			transfer_state = 106
+					declare_war_on = {
+					type = annex_everything
+					target = YUG
+					}
+			}
+		}
+	}
+	
 	#this is getting real real bad#
 	option = {
 	name = yug_rebel.4.a
 	add_stability = -0.05
-		MAC = {
-		transfer_state = 106
-				declare_war_on = {
-				type = annex_everything
-				target = YUG
-				}
-		}
+		hidden_effect = {
 		country_event = {days = 5 id = yug_rebel.5}
 		
-		
-		
+		}
+
 	}
 
 }
@@ -466,23 +481,191 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	immediate = { # Optional : all the following will occur once the event occurs
+		hidden_effect ={
+			BOS = {
+			transfer_state = 104
+			transfer_state = 804
+					declare_war_on = {
+					type = annex_everything
+					target = YUG
+					}
+				add_ideas = BOS_indepandance_war_fighter_experience_stronk
+			}
+		}
+	}
+	
 	#this is getting real real bad#
 	option = {
 	name = yug_rebel.6.a
 	add_stability = -0.05
-		BOS = {
-		transfer_state = 104
-		transfer_state = 804
-				declare_war_on = {
-				type = annex_everything
-				target = YUG
-				}
-			add_ideas = BOS_indepandance_war_fighter_experience_stronk
-		}
+		hidden_effect ={
 		country_event = {days = 5 id = yug_rebel.5}
+		}
+
+	}
+
+}
+
+#yugoslav rebellions yugoslavia wins#
+country_event = {
+	id = yug_rebel.7
+	title = yug_rebel.7.t
+	desc = yug_rebel.7.d
+	picture = GFX_report_event_YUG_depressed
+	
+	trigger = {
+		YUG = {
+		has_country_flag = yug_mass_rebellions
+		}
+		NOT = {country_exists = BOS}
+		NOT = {country_exists = KOS}
+		NOT = {country_exists = MAC}
 		
+	}
+	
+	#hell yeah boi#
+	option = {
+	name = yug_rebel.7.a
+	add_stability = 20
+	news_event = {id = yug_news.2}
+	set_country_flag = yug_defeated_rebels	
+		
+	}
+
+}
+
+#yugoslav rebellions rebels wins#
+country_event = {
+	id = yug_rebel.8
+	title = yug_rebel.8.t
+	desc = yug_rebel.8.d
+	picture = GFX_report_event_YUG_depressed
+	
+	is_triggered_only = yes
+	
+	#hell yeah boi#
+	option = {
+	name = yug_rebel.8.a
+	add_stability = 20
+	news_event = {id = yug_news.2}
+	set_country_flag = yug_defeated
+		
+	}
+
+}
+
+
+#yugoslavia loses military coup happens#
+country_event = {
+	id = yug_rebel.9
+	title = yug_rebel.9.t
+	desc = yug_rebel.9.d
+	picture = GFX_report_event_YUG_depressed
+	
+	is_triggered_only = yes
+	
+	#hell yeah boi#
+	option = {
+	name = yug_rebel.9.a
+	add_political_power = -300
+	add_stability = -0.30
+	remove_ideas = YUG_nationalism_supressed
+			set_politics = {
+				ruling_party = fascism
+				last_election = "1991.5.3"
+				election_frequency = 36
+				elections_allowed = no
+			}
+			
+			set_popularities = {
+				democratic = 10
+				fascism = 70
+				communism = 20
+			}
 		
 		
 	}
+
+}
+
+#mass uprisings in yugoslavia news event#
+news_event = {
+	id = yug_news.1
+	title = yug_news.1.t
+	desc = yug_news.1.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	#YUGOSLAVIA FOREVER#
+	option = {
+	name = yug_news.1.a
+		trigger = {
+			tag = yug
+		}
+		
+	}
+	
+	#zamn#
+	option = {
+	name = yug_news.1.b
+		
+	}
+	
+
+}
+
+#yugoslav rebellions yugoslavia wins news event#
+news_event = {
+	id = yug_news.2
+	title = yug_news.2.t
+	desc = yug_news.2.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	#YUGOSLAVIA FOREVER#
+	option = {
+	name = yug_news.2.a
+		trigger = {
+			tag = yug
+		}
+		
+	}
+	
+	#zamn#
+	option = {
+	name = yug_news.2.b
+		
+	}
+	
+
+}
+
+#yugoslav rebellions rebels wins news event#
+news_event = {
+	id = yug_news.3
+	title = yug_news.3.t
+	desc = yug_news.3.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+	
+	#cheese#
+	option = {
+	name = yug_news.3.a
+		trigger = {
+			tag = yug
+		}
+		
+	}
+	
+	#zamn#
+	option = {
+	name = yug_news.3.b
+		
+	}
+	
 
 }
