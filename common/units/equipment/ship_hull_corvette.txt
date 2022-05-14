@@ -21,11 +21,11 @@ equipments = {
 		module_slots = {
 			fixed_ship_systems_slot = {
 				required = yes
-				allowed_module_categories = { sub_ship_systems }
+				allowed_module_categories = { surface_ship_systems }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { sub_ship_engine }
+				allowed_module_categories = { small_surface_ship_engine }
 			}
 			fixed_ship_sonar_slot = {
 				required = no
@@ -37,11 +37,19 @@ equipments = {
 			}
 			fixed_ship_defensive_slot_1 = {
 				required = no
-				allowed_module_categories = { ship_sam_missile ship_ciws ship_anti_air }
+				allowed_module_categories = {
+					ship_sam_missile
+					ship_ciws
+					ship_anti_air
+				}
 			}
 			fixed_ship_defensive_slot_2 = {
 				required = no
-				allowed_module_categories = { ship_sam_missile ship_ciws ship_anti_air }
+				allowed_module_categories = {
+					ship_sam_missile
+					ship_ciws
+					ship_anti_air
+				}
 			}
 			custom_ship_cannon_slot = {
 				required = no
@@ -49,21 +57,32 @@ equipments = {
 			}
 			custom_slot_1 = {
 				required = no
-				allowed_module_categories = { ship_cruise_missile ship_aswrl ship_depth_charges }
+				allowed_module_categories = {
+					ship_cruise_missile
+					ship_aswrl
+					ship_depth_charges
+				}
 			}
 			custom_slot_2 = {
 				required = no
-				allowed_module_categories = { ship_cruise_missile ship_torpedo_sub }
+				allowed_module_categories = {
+					ship_cruise_missile
+					ship_torpedo_sub
+				}
 			}
 			custom_slot_3 = {
 				required = no
-				allowed_module_categories = { ship_aswrl ship_depth_charges ship_mine_warfare }
+				allowed_module_categories = {
+					ship_aswrl
+					ship_depth_charges
+					ship_mine_warfare
+				}
 			}
 		}
 		
 		default_modules = {
-			fixed_ship_systems_slot = sub_electrical_systems_1
-			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
 			fixed_ship_sonar_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_defensive_slot_1 = empty
@@ -111,7 +130,36 @@ equipments = {
 		archetype = corvette_hull
 		priority = 2500
 
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_defensive_slot_1 = inherit
+			fixed_ship_defensive_slot_2 = inherit
+			fixed_ship_aviation_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_helicopter }
+			}
+			custom_ship_cannon_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = inherit
+			custom_slot_3 = inherit
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
 
 		manpower = 160
 	}
@@ -122,7 +170,36 @@ equipments = {
 		archetype = corvette_hull
 		priority = 2500
 
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_defensive_slot_1 = inherit
+			fixed_ship_defensive_slot_2 = inherit
+			fixed_ship_aviation_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_helicopter }
+			}
+			custom_ship_cannon_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = inherit
+			custom_slot_3 = inherit
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
 
 		manpower = 150
 	}
@@ -133,7 +210,36 @@ equipments = {
 		archetype = corvette_hull
 		priority = 2500
 
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_defensive_slot_1 = inherit
+			fixed_ship_defensive_slot_2 = inherit
+			fixed_ship_aviation_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_helicopter }
+			}
+			custom_ship_cannon_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = inherit
+			custom_slot_3 = inherit
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
 
 		manpower = 120
 	}
@@ -144,7 +250,36 @@ equipments = {
 		archetype = corvette_hull
 		priority = 2500
 
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_defensive_slot_1 = inherit
+			fixed_ship_defensive_slot_2 = inherit
+			fixed_ship_aviation_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_helicopter }
+			}
+			custom_ship_cannon_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = inherit
+			custom_slot_3 = inherit
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
 
 		manpower = 120
 	}

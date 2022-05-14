@@ -6,19 +6,33 @@ equipment_modules = {
 		category = ship_torpedo_sub
 		sfx = sfx_ui_sd_module_turret
 	}
-
 	ship_torpedo_sub_2 = {
 		category = ship_torpedo_sub
 		sfx = sfx_ui_sd_module_turret
 	}
-
 	ship_torpedo_sub_3 = {
 		category = ship_torpedo_sub
 		sfx = sfx_ui_sd_module_turret
 	}
-
 	ship_torpedo_sub_4 = {
 		category = ship_torpedo_sub
+		sfx = sfx_ui_sd_module_turret
+	}
+
+	ship_torpedo_surface_1 = {
+		category = ship_torpedo_surface
+		sfx = sfx_ui_sd_module_turret
+	}
+	ship_torpedo_surface_2 = {
+		category = ship_torpedo_surface
+		sfx = sfx_ui_sd_module_turret
+	}
+	ship_torpedo_surface_3 = {
+		category = ship_torpedo_surface
+		sfx = sfx_ui_sd_module_turret
+	}
+	ship_torpedo_surface_4 = {
+		category = ship_torpedo_surface
 		sfx = sfx_ui_sd_module_turret
 	}
 
@@ -28,27 +42,22 @@ equipment_modules = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
-
 	sub_engine_diesel_2 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
-
 	sub_engine_diesel_3 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
-
 	sub_engine_diesel_4 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
-
 	sub_engine_diesel_5 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
-
 	sub_engine_diesel_6 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
@@ -58,17 +67,14 @@ equipment_modules = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
-
 	sub_engine_aip_2 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
-
 	sub_engine_aip_3 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
-
 	sub_engine_aip_4 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
@@ -78,29 +84,99 @@ equipment_modules = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
-
 	sub_engine_nuclear_2 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
-
 	sub_engine_nuclear_3 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
-
 	sub_engine_nuclear_4 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
-
 	sub_engine_nuclear_5 = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
-
 	sub_engine_nuclear_6 = {
 		category = sub_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+
+	small_surface_engine_diesel_1 = {
+		category = small_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	small_surface_engine_diesel_2 = {
+		category = small_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	small_surface_engine_diesel_3 = {
+		category = small_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	small_surface_engine_diesel_4 = {
+		category = small_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	small_surface_engine_diesel_5 = {
+		category = small_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	small_surface_engine_diesel_6 = {
+		category = small_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+
+	large_surface_engine_diesel_1 = {
+		category = large_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	large_surface_engine_diesel_2 = {
+		category = large_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	large_surface_engine_diesel_3 = {
+		category = large_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	large_surface_engine_diesel_4 = {
+		category = large_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	large_surface_engine_diesel_5 = {
+		category = large_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	large_surface_engine_diesel_6 = {
+		category = large_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+
+	surface_engine_nuclear_1 = {
+		category = large_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	surface_engine_nuclear_2 = {
+		category = large_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	surface_engine_nuclear_3 = {
+		category = large_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	surface_engine_nuclear_4 = {
+		category = large_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	surface_engine_nuclear_5 = {
+		category = large_surface_ship_engine
+		sfx = sfx_ui_sd_module_engine
+	}
+	surface_engine_nuclear_6 = {
+		category = large_surface_ship_engine
 		sfx = sfx_ui_sd_module_engine
 	}
 
@@ -110,29 +186,49 @@ equipment_modules = {
 		category = sub_ship_systems
 		sfx = sfx_ui_sd_module_systems
 	}
-
 	sub_electrical_systems_2 = {
 		category = sub_ship_systems
 		sfx = sfx_ui_sd_module_systems
 	}
-
 	sub_electrical_systems_3 = {
 		category = sub_ship_systems
 		sfx = sfx_ui_sd_module_systems
 	}
-
 	sub_electrical_systems_4 = {
 		category = sub_ship_systems
 		sfx = sfx_ui_sd_module_systems
 	}
-
 	sub_electrical_systems_5 = {
 		category = sub_ship_systems
 		sfx = sfx_ui_sd_module_systems
 	}
-
 	sub_electrical_systems_6 = {
 		category = sub_ship_systems
+		sfx = sfx_ui_sd_module_systems
+	}
+
+	surface_electrical_systems_1 = {
+		category = surface_ship_systems
+		sfx = sfx_ui_sd_module_systems
+	}
+	surface_electrical_systems_2 = {
+		category = surface_ship_systems
+		sfx = sfx_ui_sd_module_systems
+	}
+	surface_electrical_systems_3 = {
+		category = surface_ship_systems
+		sfx = sfx_ui_sd_module_systems
+	}
+	surface_electrical_systems_4 = {
+		category = surface_ship_systems
+		sfx = sfx_ui_sd_module_systems
+	}
+	surface_electrical_systems_5 = {
+		category = surface_ship_systems
+		sfx = sfx_ui_sd_module_systems
+	}
+	surface_electrical_systems_6 = {
+		category = surface_ship_systems
 		sfx = sfx_ui_sd_module_systems
 	}
 
@@ -142,27 +238,22 @@ equipment_modules = {
 		category = sub_ship_sonar
 		sfx = sfx_ui_sd_module_sonar
 	}
-
 	sub_sonar_2 = {
 		category = sub_ship_sonar
 		sfx = sfx_ui_sd_module_sonar
 	}
-
 	sub_sonar_3 = {
 		category = sub_ship_sonar
 		sfx = sfx_ui_sd_module_sonar
 	}
-
 	sub_sonar_4 = {
 		category = sub_ship_sonar
 		sfx = sfx_ui_sd_module_sonar
 	}
-
 	sub_sonar_5 = {
 		category = sub_ship_sonar
 		sfx = sfx_ui_sd_module_sonar
 	}
-
 	sub_sonar_6 = {
 		category = sub_ship_sonar
 		sfx = sfx_ui_sd_module_sonar
@@ -174,27 +265,22 @@ equipment_modules = {
 		category = ship_radar
 		sfx = sfx_ui_sd_module_radar
 	}
-
 	ship_radar_2 = {
 		category = ship_radar
 		sfx = sfx_ui_sd_module_radar
 	}
-
 	ship_radar_3 = {
 		category = ship_radar
 		sfx = sfx_ui_sd_module_radar
 	}
-
 	ship_radar_4 = {
 		category = ship_radar
 		sfx = sfx_ui_sd_module_radar
 	}
-
 	ship_radar_5 = {
 		category = ship_radar
 		sfx = sfx_ui_sd_module_radar
 	}
-
 	ship_radar_6 = {
 		category = ship_radar
 		sfx = sfx_ui_sd_module_radar
@@ -206,17 +292,14 @@ equipment_modules = {
 		category = ship_cruise_missile
 		sfx = sfx_ui_sd_module_cruise_missile
 	}
-
 	cruise_missile_2 = {
 		category = ship_cruise_missile
 		sfx = sfx_ui_sd_module_cruise_missile
 	}
-
 	cruise_missile_3 = {
 		category = ship_cruise_missile
 		sfx = sfx_ui_sd_module_cruise_missile
 	}
-
 	cruise_missile_4 = {
 		category = ship_cruise_missile
 		sfx = sfx_ui_sd_module_cruise_missile
@@ -226,17 +309,14 @@ equipment_modules = {
 		category = ship_ballistic_missile
 		sfx = sfx_ui_sd_module_ballistic_missile
 	}
-
 	ballistic_missile_2 = {
 		category = ship_ballistic_missile
 		sfx = sfx_ui_sd_module_ballistic_missile
 	}
-
 	ballistic_missile_3 = {
 		category = ship_ballistic_missile
 		sfx = sfx_ui_sd_module_ballistic_missile
 	}
-
 	ballistic_missile_4 = {
 		category = ship_ballistic_missile
 		sfx = sfx_ui_sd_module_ballistic_missile
@@ -246,17 +326,14 @@ equipment_modules = {
 		category = ship_aswrl
 		sfx = sfx_ui_sd_module_aswrl
 	}
-
 	aswrl_2 = {
 		category = ship_aswrl
 		sfx = sfx_ui_sd_module_aswrl
 	}
-
 	aswrl_3 = {
 		category = ship_aswrl
 		sfx = sfx_ui_sd_module_aswrl
 	}
-
 	aswrl_4 = {
 		category = ship_aswrl
 		sfx = sfx_ui_sd_module_aswrl
@@ -266,17 +343,14 @@ equipment_modules = {
 		category = ship_naval_gun
 		sfx = sfx_ui_sd_module_naval_gun
 	}
-
 	naval_gun_2 = {
 		category = ship_naval_gun
 		sfx = sfx_ui_sd_module_naval_gun
 	}
-
 	naval_gun_3 = {
 		category = ship_naval_gun
 		sfx = sfx_ui_sd_module_naval_gun
 	}
-
 	naval_gun_4 = {
 		category = ship_naval_gun
 		sfx = sfx_ui_sd_module_naval_gun
@@ -288,17 +362,14 @@ equipment_modules = {
 		category = ship_sam_missile
 		sfx = sfx_ui_sd_module_sam_missile
 	}
-
 	sam_missile_2 = {
 		category = ship_sam_missile
 		sfx = sfx_ui_sd_module_sam_missile
 	}
-
 	sam_missile_3 = {
 		category = ship_sam_missile
 		sfx = sfx_ui_sd_module_sam_missile
 	}
-
 	sam_missile_4 = {
 		category = ship_sam_missile
 		sfx = sfx_ui_sd_module_sam_missile
@@ -308,12 +379,10 @@ equipment_modules = {
 		category = ship_ciws
 		sfx = sfx_ui_sd_module_ciws
 	}
-
 	ciws_2 = {
 		category = ship_ciws
 		sfx = sfx_ui_sd_module_ciws
 	}
-
 	ciws_3 = {
 		category = ship_ciws
 		sfx = sfx_ui_sd_module_ciws
@@ -330,25 +399,42 @@ equipment_modules = {
 		category = ship_naval_helicopter
 		sfx = sfx_ui_sd_module_naval_helicopter
 	}
-
 	naval_helicopter_2 = {
 		category = ship_naval_helicopter
 		sfx = sfx_ui_sd_module_naval_helicopter
 	}
-
 	naval_helicopter_3 = {
 		category = ship_naval_helicopter
 		sfx = sfx_ui_sd_module_naval_helicopter
 	}
-
 	naval_helicopter_4 = {
 		category = ship_naval_helicopter
 		sfx = sfx_ui_sd_module_naval_helicopter
 	}
 
-	naval_uav = {
-		category = ship_naval_uav
-		sfx = sfx_ui_sd_module_naval_uav
+}
+
+# Depth Charges
+
+	depth_charges_1 = {
+		category = ship_depth_charges
+		sfx = sfx_ui_sd_module_turret
 	}
 
-}
+# Mines
+
+	mine_layer_1 = {
+		category = ship_mine_warfare
+		sfx = sfx_ui_sd_module_turret
+	}
+	mine_sweeper_1 = {
+		category = ship_mine_warfare
+		sfx = sfx_ui_sd_module_turret
+	}
+
+# Anti-Air
+
+	anti_air_1 = {
+		category = ship_anti_air
+		sfx = sfx_ui_sd_module_turret
+	}

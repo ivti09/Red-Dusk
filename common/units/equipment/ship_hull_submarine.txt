@@ -39,6 +39,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo_sub
+					ship_cruise_missile
 				}
 			}
 		}
@@ -87,7 +88,28 @@ equipments = {
 		archetype = attack_submarine_hull
 		priority = 2500
 
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			custom_ship_torpedo_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+				}
+			}
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = sub_electrical_systems_1
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+		}
 
 		manpower = 130
 	}
@@ -98,7 +120,28 @@ equipments = {
 		archetype = attack_submarine_hull
 		priority = 2500
 
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			custom_ship_torpedo_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+				}
+			}
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = sub_electrical_systems_1
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+		}
 
 		manpower = 120
 	}
@@ -109,7 +152,35 @@ equipments = {
 		archetype = attack_submarine_hull
 		priority = 2500
 
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			custom_ship_torpedo_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+				}
+			}
+			custom_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+				}
+			}
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = sub_electrical_systems_1
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
 
 		manpower = 120
 	}
@@ -120,7 +191,35 @@ equipments = {
 		archetype = attack_submarine_hull
 		priority = 2500
 
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			custom_ship_torpedo_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+				}
+			}
+			custom_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+				}
+			}
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = sub_electrical_systems_1
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
 
 		manpower = 120
 	}

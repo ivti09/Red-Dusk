@@ -1,4 +1,4 @@
-version="0.1.15b"
+version="0.1.16b"
 tags={
 	"Alternative History"
 	"Events"
@@ -25,6 +25,7 @@ replace_path="common/characters"
 replace_path="common/opinion_modifiers"
 replace_path="common/on_actions"
 replace_path="common/units"
+replace_path="common/units/equipment"
 replace_path="history/units"
 replace_path="history/states"
 replace_path="history/countries"

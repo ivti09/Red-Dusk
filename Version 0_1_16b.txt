@@ -1,0 +1,47 @@
+# common #
+	# units #
+		# equipment #
+			- ship_hull_submarine.txt: updated attack submarine modules
+			- ship_hull_corvette.txt: updated module categories used
+			- Added infantry.txt: removed all content, added mod content
+			# modules #
+				- ship_modules.txt: added more modules
+	# technologies #
+		- Added infantry.txt, removed all content, added mod content
+
+# history #
+	# countries #
+		- SOV.txt: added new naval classes
+	# units #
+		- SOV_2000_naval_mtg: added submarines
+
+# gfx #
+	# interface #
+		# equipmentdesigner #
+			# naval #
+				# modules #
+					# icons #
+						- Added icons for depth charges and mine warfare
+		# techtree #
+			- Replaced infantry_techtree_bg.dds
+		# technologies #
+			- Added gfx for infantry techs
+			- Deleted obsolete mod gfx
+
+# interface #
+	- equipmentdesignermoduleicons.gfx: added gfx references for new slots
+	- mod_technologies.gfx: added gfx references for new modules, added gfx for new infantry techs
+	- countrytechtreeview.gui: changed infantry tech years, subtitles, and trees
+	# equipmentdesigner #
+		- corvette_hull.gui: updated module gui
+
+# localisation #
+	# english #
+		- ship_modules_l_english.yml: added localisation for new modules
+		- equipment_l_english.yml: added localisation for new infantry equipment
+		- research_l_english.yml: added localisation for infantry techs
+
+descriptor.mod: added replace_path for common/units/equipment
+
+## NOTES ##
+	- Fixed news gfx
