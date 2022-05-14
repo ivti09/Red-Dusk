@@ -124,6 +124,42 @@ ideas = {
 			modifier = {
 			}
 		}
+		
+		##QUAYLE/START TREE##
+		
+		USA_worker_strikes = {
+			name = USA_worker_strikes_name
+
+			removal_cost = -1
+
+			picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			consumer_goods_factor = 0.10
+			political_power_factor = -0.10
+			}
+		}
+		
+		USA_three_party_primacy_1 = {
+			name = USA_three_party_primacy_name
+
+			removal_cost = -1
+
+			picture = USA_three_party_primacy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = -0.10
+			}
+		}
 
 	}
 

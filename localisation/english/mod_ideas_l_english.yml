@@ -70,7 +70,9 @@
  USA_military_spending_name_desc:0 "The Cold War wasn’t just a political and social upheaval, but the threat of Communism in the states also led to a massive, several-decade long fight to overpower the Soviets and the Chinese every step of the way. Well, this costs a lot of money, resources, and soldiers, and as it stands, we’re starting to see the negative outcomes of a 50-year-long pissing contest with the Russians."
  USA_last_bastion_name:0 "The “Last Bastion”"
  USA_last_bastion_name_desc:0 "What makes America the Last Bastion on Earth? It’s the shining beacon of Democracy and Capitalism in the world; the city on the hill so to speak. And as such, this comes with the system of Representative Republicanism that is so fondly beloved in the American nation... And all of its wonderful caveats."
-
+ USA_worker_strikes_name:0 "Workers Strikes"
+ USA_worker_strikes_name_desc:0 ""
+ 
  PRC_legacy_xiaoping_reform_name:0 "Legacy of Deng Xiaoping's Reforms"
  PRC_legacy_xiaoping_reform_name_desc:0 ""
  
