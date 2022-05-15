@@ -1,5 +1,5 @@
-﻿focus_tree = {
-	id = ussr_yazov_focus
+focus_tree = {
+	id = ussr_putin_focus
 	country = {
 		factor = 0
 		
@@ -8,12 +8,11 @@
 			tag = SOV
 		}
 	}
-	
 	continuous_focus_position = { x = 10 y = 3333 }
 	
 	default = no
 	focus = {
-		id = SOV_chairman_yazov
+		id = The_Problem_Solver
 		icon = GFX_focus_SOV_chairman_yazov
 		x = 10
 		y = 0
@@ -37,12 +36,12 @@
 	}
 	
 	focus = {
-		id = SOV_securing_the_chairman_position
+		id = Put_The_Plan_In_Motion
 		icon = GFX_focus_SOV_secure_the_chairman_position
 		x = 9
 		y = 1
 
-		prerequisite = {focus = SOV_chairman_yazov}
+		prerequisite = {focus = The_Problem_Solver}
 		mutually_exclusive = { }
 		
 		cost = 3
@@ -62,12 +61,12 @@
 	}
 	
 	focus = {
-		id = SOV_purge_gorbachev
+		id = The_Ghost_Of_The_Past
 		icon = GFX_focus_SOV_eliminate_gorbachev
 		x = 11
 		y = 1
 
-		prerequisite = {focus = SOV_chairman_yazov}
+		prerequisite = {focus = The_Problem_Solver}
 		mutually_exclusive = { }
 		
 		available = {
@@ -90,13 +89,13 @@
 	}
 	
 	focus = {
-		id = SOV_trial_of_traitors
+		id = The_Show_Begins
 		icon = GFX_focus_SOV_trial_of_the_traitors
 		x = 10
 		y = 2
 
-		prerequisite = {focus = SOV_purge_gorbachev}
-		prerequisite = {focus = SOV_securing_the_chairman_position }
+		prerequisite = {focus = The_Ghost_Of_The_Past}
+		prerequisite = {focus = Put_The_Plan_In_Motion }
 		mutually_exclusive = { }
 		
 		cost = 3
@@ -110,18 +109,18 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_manpower = -150 #little bit of trollin'#
-			add_political_power = 10
+			add_political_power = 20
 			remove_ideas = SOV_party_infighting
 		}
 	}
 	
 	focus = {
-		id = SOV_comrade_marshall_yazov
+		id = Let_The_Purges_Begin
 		icon = GFX_focus_SOV_marshal_yazov
 		x = 10
 		y = 3
 
-		prerequisite = {focus = SOV_trial_of_traitors } 
+		prerequisite = {focus = The_Show_Begins } 
 		mutually_exclusive = { }
 		
 		cost = 6
@@ -141,15 +140,40 @@
 			set_country_flag = economy_time_bois
 		}
 	}
-	
 	focus = {
-		id = SOV_reform_cpsu
-		icon = GFX_focus_SOV_reform_the_CPSU
-		x = 12
+		id = Clear_The_Politburo
+		icon = GFX_focus_SOV_marshal_yazov
+		x = 10
 		y = 4
+
+		prerequisite = {focus = Let_The_Purges_Begin } 
+		mutually_exclusive = { }
+		
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = SOV_marshall_of_the_people
+			remove_ideas = SOV_memories_of_august_coup
+			add_ideas = SOV_Marshall_iron_order
+			custom_effect_tooltip = economy_time_bois_tooltip
+			set_country_flag = economy_time_bois
+		}
+	}
+	focus = {
+		id = Men_We_Cant_Trust
+		icon = GFX_focus_SOV_reform_the_CPSU
+		x = 11
+		y = 5
 		
 		
-		prerequisite = {focus = SOV_comrade_marshall_yazov } 
+		prerequisite = {focus = Clear_The_Politburo } 
 		
 		available = { 
 			has_country_flag = sov_economy_finished_yazov	
@@ -172,14 +196,14 @@
 	}
 	
 	focus = {
-		id = SOV_yazov_keep_old_guard
+		id = Men_We_Can_Trust
 		icon = GFX_focus_SOV_keep_old_guard
-		x = 8
-		y = 4
+		x = 9
+		y = 5
 		
 		available = { has_country_flag = sov_economy_finished_yazov }
 		
-		prerequisite = {focus = SOV_comrade_marshall_yazov } 
+		prerequisite = {focus = Clear_The_Politburo } 
 		mutually_exclusive = { }
 		
 		cost = 6
@@ -197,13 +221,13 @@
 	}
 	
 	focus = {
-		id = SOV_yazov_incrase_military_funding
+		id = The_KGB_Power_Struggle
 		icon = GFX_focus_SOV_organization_centralization_discipline
 		x = 10
-		y = 5
+		y = 6
 
-		prerequisite = {focus = SOV_yazov_keep_old_guard } 
-		prerequisite = {focus = SOV_reform_cpsu } 
+		prerequisite = {focus = Men_We_Can_Trust } 
+		prerequisite = {focus = Men_We_Cant_Trust } 
 		mutually_exclusive = { }
 		
 		cost = 6
@@ -222,14 +246,14 @@
 	}
 	
 	focus = {
-		id = SOV_yazov_crackdown_nationalism
+		id = Fall_Of_The_Puppet_Master
 		icon = GFX_focus_SOV_crack_nationalism
 		x = 10
-		y = 6
+		y = 7
 		
 		available = { has_country_flag = sov_army_finished_yazov }
 		
-		prerequisite = {focus = SOV_yazov_incrase_military_funding } 
+		prerequisite = {focus = The_KGB_Power_Struggle } 
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -248,50 +272,13 @@
 			add_manpower = -3500
 		}
 	}
-	
 	focus = {
-		id = SOV_yazov_crackdown_lithuenia
-		icon = GFX_focus_SOV_crush_lith
-		x = 7
-		y = 8
-
-		prerequisite = {focus = SOV_yazov_crackdown_nationalism } 
-		mutually_exclusive = { }
-		
-		cost = 2
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-
-		
-		completion_reward = {
-		11 = { set_demilitarized_zone = no }
-		784 = { set_demilitarized_zone = no }
-		815 = { set_demilitarized_zone = no }
-		814 = { set_demilitarized_zone = no }
-		189 = { set_demilitarized_zone = no }
-		188 = { set_demilitarized_zone = no }
-		set_country_flag = crackdown_lithuenia
-		unlock_decision_category_tooltip = sov_crackdown_lithuenia
-			add_political_power = -50
-			add_manpower = -3500
-			set_variable = { lit_resistance = 65 }
-			set_variable = { lit_stab_level = 45 }
-		}
-	}
-	
-	focus = {
-		id = SOV_yazov_reassure_ukraine
+		id = Question_Of_The_Army
 		icon = GFX_focus_SOV_crackdown_ukraine
 		x = 10
 		y = 8
 		
-		prerequisite = {focus = SOV_yazov_crackdown_nationalism } 
+		prerequisite = {focus = Fall_Of_The_Puppet_Master } 
 		mutually_exclusive = { }
 		
 		cost = 2
@@ -311,43 +298,51 @@
 			add_manpower = -5000
 		}
 	}
-	
-
 	focus = {
-		id = SOV_yazov_crackdown_chechenya
-		icon = GFX_focus_SOV_chechnia_secured
-		x = 13
-		y = 8
+		id = Cut_There_Communications
+		icon = GFX_2d_3d_switch
+		cost = 2
+		x = 9
+		y = 9
 
-		prerequisite = {focus = SOV_yazov_crackdown_nationalism } 
+		prerequisite = {focus = Question_Of_The_Army}
 		mutually_exclusive = { }
-		
+
 		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
-
 		bypass = {
+			
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		
-		
-		completion_reward = {
-		unlock_decision_category_tooltip = sov_crackdown_chechenya
-			add_manpower = -7500
+		completion_reward = { 
+
+			set_stability = -5
+			add_political_power = 20
 		}
 	}
-	
 	focus = {
-		id = SOV_yazov_prepare_4_future
+		id = Army_Connections
+		icon = GFX_2d_3d_switch
+		cost = 2
+		x = 11
+		y = 9
+
+		prerequisite = {focus = Question_Of_The_Army}
+
+		completion_reward = { }
+	}
+	focus = {
+		id = The_Army_Purge
 		icon = GFX_focus_SOV_prep_future
 		x = 10
 		y = 10
 
-		prerequisite = {focus = SOV_yazov_crackdown_chechenya}
-		prerequisite = {focus = SOV_yazov_reassure_ukraine} 
-		prerequisite = {focus = SOV_yazov_crackdown_lithuenia}
+		prerequisite = {focus = Cut_There_Communications}
+		prerequisite = {focus = Army_Connections} 
+		
 		mutually_exclusive = { }
 		
 		cost = 2
@@ -369,12 +364,12 @@
 	
 	
 	focus = {
-		id = SOV_yazov_lil_traitors
+		id = General_Secretary_Putin
 		icon = GFX_focus_SOV_little_traitor
 		x = 10
 		y = 11
 
-		prerequisite = {focus = SOV_yazov_prepare_4_future}
+		prerequisite = {focus = The_Army_Purge}
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -411,12 +406,12 @@
 	}
 	
 	focus = {
-		id = SOV_yazov_reunification_talks
+		id = Matters_Of_The_Economy
 		icon = GFX_focus_SOV_Unification_talk
-		x = 8
+		x = 10
 		y = 12
 
-		prerequisite = {focus = SOV_yazov_lil_traitors} 
+		prerequisite = {focus = General_Secretary_Putin } 
 		mutually_exclusive = { }
 		
 		cost = 5
@@ -437,12 +432,12 @@
 	}
 	
 	focus = {
-		id = SOV_yazov_prep_their_fate
+		id = The_Military_Question
 		icon = GFX_focus_spr_masters_of_our_own_fate
-		x = 12
-		y = 12
+		x = 10
+		y = 13
 
-		prerequisite = {focus = SOV_yazov_lil_traitors}
+		prerequisite = {focus = Matters_Of_The_Economy}
 		available = {has_completed_focus = SOV_yazov_reunification_talks}
 		mutually_exclusive = { }
 		
@@ -462,135 +457,16 @@
 			add_war_support = 0.05
 		}
 	}
-	
 	focus = {
-		id = SOV_yazov_war_plan_stalin
-		icon = GFX_focus_SOV_stalin_war_plan
-		x = 10
-		y = 13
-
-		prerequisite = {focus = SOV_yazov_prep_their_fate} 
-		prerequisite = {focus = SOV_yazov_reunification_talks} 
-		mutually_exclusive = { }
-		
-		cost = 6
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		
-		
-		completion_reward = {
-            declare_war_on = {
-            type = annex_everything
-            target = AZR
-            }
-            declare_war_on = {
-            type = annex_everything
-            target = ARM
-            }
-            declare_war_on = {
-            type = annex_everything
-            target = EST
-            }
-            declare_war_on = {
-            type = annex_everything
-            target = LAT
-            }
-							
-		}
-	}
-	
-	focus = {
-		id = SOV_yazov_legacy_of_warsaw_pact
-		icon = GFX_focus_SOV_legacy_of_warsaw_pact
+		id = Stomp_The_Seperatists
+		icon = GFX_focus_SOV_crack_nationalism
 		x = 10
 		y = 14
-
-		prerequisite = {focus = SOV_yazov_war_plan_stalin}
+		
+		available = { has_country_flag = sov_army_finished_yazov }
+		
+		prerequisite = {focus = Matters_Of_The_Economy } 
 		mutually_exclusive = { }
-		
-		available = {
-			AZR = { exists = no }
-			ARM = { exists = no }
-			EST = { exists = no }
-			LAT = { exists = no }
-			
-		}
-		
-		cost = 6
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		
-		
-		completion_reward = {
-			POL = {
-					country_event = { id = ussr.9 }
-			
-			}
-			ROM = {
-					country_event = { id = ussr.9 }
-			
-			}
-			SLO = {
-					country_event = { id = ussr.9 }
-			
-			}
-			HUN = {
-					country_event = { id = ussr.9 }
-			
-			}
-
-		}
-	}
-	
-	focus = {
-		id = SOV_yazov_prep_inev
-		icon = GFX_focus_SOV_prepare_Invitable
-		x = 9
-		y = 15
-
-		prerequisite = {focus = SOV_yazov_legacy_of_warsaw_pact}
-		mutually_exclusive = { }
-		
-		
-		cost = 9
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		
-		
-		completion_reward = {
-
-			add_ideas = SOV_Yazov_woke_bear
-
-		}
-	}
-	
-	focus = {
-		id = SOV_yazov_extreme_planing
-		icon = GFX_focus_SOV_extreme_planning
-		x = 11
-		y = 15
-
-		prerequisite = {focus = SOV_yazov_legacy_of_warsaw_pact}
-		mutually_exclusive = { }
-		
 		
 		cost = 5
 		ai_will_do = {
@@ -601,27 +477,59 @@
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
+		completion_reward = {
+			custom_effect_tooltip = sov_army_finished_yazov_tt
+			set_country_flag = sov_crackdown_yazov
+			add_political_power = -50
+			add_manpower = -3500
+		}
+	}
+	focus = {
+		id = Crackdown_Lithuenia
+		icon = GFX_focus_SOV_crush_lith
+		x = 8
+		y = 15
+
+		prerequisite = {focus = Stomp_The_Seperatists } 
+		mutually_exclusive = { }
 		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+
 		
 		completion_reward = {
-
-			army_experience = 10
-
+		11 = { set_demilitarized_zone = no }
+		784 = { set_demilitarized_zone = no }
+		815 = { set_demilitarized_zone = no }
+		814 = { set_demilitarized_zone = no }
+		189 = { set_demilitarized_zone = no }
+		188 = { set_demilitarized_zone = no }
+		set_country_flag = crackdown_lithuenia
+		unlock_decision_category_tooltip = sov_crackdown_lithuenia
+			add_political_power = -50
+			add_manpower = -3500
+			set_variable = { lit_resistance = 65 }
+			set_variable = { lit_stab_level = 45 }
 		}
 	}
 	
 	focus = {
-		id = SOV_yazov_red_sun_over_europe
-		icon = GFX_focus_ger_great_red_menace
+		id = Reassure_Ukraine
+		icon = GFX_focus_SOV_crackdown_ukraine
 		x = 10
-		y = 16
-
-		prerequisite = {focus = SOV_yazov_prep_inev}
-		prerequisite = {focus = SOV_yazov_extreme_planing}
+		y = 15
+		
+		prerequisite = {focus = Stomp_The_Seperatists } 
 		mutually_exclusive = { }
 		
-		
-		cost = 3
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -634,21 +542,46 @@
 		
 		completion_reward = {
 
-		create_wargoal = { type = puppet_wargoal_focus target = ROM }
-		create_wargoal = { type = puppet_wargoal_focus target = POL }
-		create_wargoal = { type = puppet_wargoal_focus target = SLO }
-		create_wargoal = { type = puppet_wargoal_focus target = HUN }
-		create_wargoal = { type = puppet_wargoal_focus target = ROM }
+			add_political_power = 150
+			add_manpower = -5000
 		}
 	}
 	
 	focus = {
-		id = SOV_yazov_warsaw_pact_reborn
+		id = Crackdown_Chechenya
+		icon = GFX_focus_SOV_chechnia_secured
+		x = 12
+		y = 15
+
+		prerequisite = {focus = Stomp_The_Seperatists } 
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		unlock_decision_category_tooltip = sov_crackdown_chechenya
+			add_manpower = -7500
+		}
+	}
+	
+	focus = {
+		id = The_Little_Traitors
 		icon = GFX_focus_SOV_rebirth_of_warsaw_pact
 		x = 10
-		y = 17
+		y = 16
 
-		prerequisite = {focus = SOV_yazov_red_sun_over_europe}
+		prerequisite = {focus = Crackdown_Lithuenia }
+		prerequisite = {Focus = Reassure_Ukraine }
+		prerequisite = {focus = Crackdown_Chechenya }
 		mutually_exclusive = { }
 		
 		
@@ -671,12 +604,34 @@
 	}
 	
 	focus = {
-		id = SOV_yazov_pressure_usa_for_cze
-		icon = GFX_focus_SOV_Pressure_US
+		id = Preparing_Their_Fate
+		icon = GFX_2d_3d_switch
+		cost = 3
+		x = 10
+		y = 17
+
+		prerequisite = {focus = The_Little_Traitors }
+		completion_reward = { }
+	}
+
+	focus = {
+		id = An_Internal_Struggle?
+		icon = GFX_2d_3d_switch
+		cost = 3
 		x = 10
 		y = 18
 
-		prerequisite = {focus = SOV_yazov_warsaw_pact_reborn}
+		prerequisite = {focus = Preparing_Their_Fate }
+		completion_reward = { }
+	}
+
+	focus = {
+		id = Which_Way_General_Secretary?
+		icon = GFX_focus_SOV_Pressure_US
+		x = 10
+		y = 19
+
+		prerequisite = {focus = An_Internal_Struggle?}
 		mutually_exclusive = { }
 		
 		
@@ -697,16 +652,16 @@
 			
 		}
 	}
-	
+	#change of course route
 	focus = {
-		id = SOV_yazov_a_super_power_again
+		id = A_Change_In_Course
 		icon = GFX_focus_SOV_super_power
-		x = 8
-		y = 19
+		x = 5
+		y = 20
 
-		prerequisite = {focus = SOV_yazov_pressure_usa_for_cze}
+		prerequisite = {focus = Which_Way_General_Secretary? }
 		available = { has_country_flag =  us_agree_cze}
-		mutually_exclusive = { focus = SOV_yazov_isolate_chezchs }
+		mutually_exclusive = { focus = Keep_The_Course }
 		
 		
 		cost = 6
@@ -726,6 +681,20 @@
 			
 		}
 	}
+
+	focus = {
+		id = The_Student_Protest
+		icon = GFX_2d_3d_switch
+		cost = x
+		x = 3
+		y = 21
+
+		prerequisite = {focus = A_Change_In_Course }
+		completion_reward = { }
+	}
+
+	
+
 	focus = {
 		id = SOV_yazov_our_hands_free_in_north
 		icon = GFX_focus_SOV_Our_Hands_Free_in_the_North
@@ -839,12 +808,12 @@
 	}
 	
 	focus = {
-		id = SOV_yazov_isolate_chezchs
+		id = Isolate_Chezchs_Republic
 		icon = GFX_focus_SOV_isolate_czech
 		x = 12
 		y = 19
 
-		prerequisite = {focus = SOV_yazov_pressure_usa_for_cze}
+		prerequisite = {focus =  Which_Way_General_Secretary? }
 		available = { has_country_flag = us_disagree_cze}
 		mutually_exclusive = { focus = SOV_yazov_a_super_power_again }
 		
@@ -867,15 +836,15 @@
 			}
 		}
 	}
-	
+	#Keep the course option
 	focus = {
-		id = SOV_yazov_not_yet
+		id = Keep_The_Course
 		icon = GFX_focus_SOV_not_yet
-		x = 12
+		x = 15
 		y = 20
 
-		prerequisite = {focus = SOV_yazov_isolate_chezchs}
-
+		prerequisite = {focus = Which_Way_General_Secretary? }
+		mutually_exclusive = {focus = A_Change_In_Course }
 		
 		
 		cost = 2
@@ -952,7 +921,7 @@
 		###MILITARY####
 	
 	focus = {
-		id = SOV_unions_military_might
+		id = Fighting_The_Factionalism
 		icon = GFX_focus_SOV_army_might
 		x = 31
 		y = 0
@@ -977,17 +946,15 @@
 		}
 	}
 	
-	#boomer tactics#
-	
 	focus = {
-		id = SOV_old_tactics_for_new_age
+		id = Make_Compromises
 		icon = GFX_focus_SOV_old_tatic
-		x = 29
+		x = 30
 		y = 1
 		
-		prerequisite = {focus = SOV_unions_military_might}
+		prerequisite = {focus = Fighting_The_Factionalism}
 
-		mutually_exclusive = {focus = SOV_yazov_new_military_ideas}
+		mutually_exclusive = { }
 		
 		cost = 3
 		ai_will_do = {
@@ -1005,72 +972,16 @@
 
 		}		
 	}
-	
-	focus = {
-		id = SOV_ustinovs_legacy
-		icon = GFX_focus_SOV_Ustinov_Legacy
-		x = 29
-		y = 2
-		
-		prerequisite = {focus = SOV_old_tactics_for_new_age}
-
-		mutually_exclusive = {}
-		
-		cost = 3
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-		
-					army_experience = 5
-					add_stability = -0.05
-
-		}		
-	}
-	
-	focus = {
-		id = SOV_armoured_giant
-		icon = GFX_focus_SOV_Armoured_Giant
-		x = 29
-		y = 3
-		
-		prerequisite = {focus = SOV_ustinovs_legacy}
-
-		mutually_exclusive = {}
-		
-		cost = 4
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			custom_effect_tooltip = SOV_armored_giant_to_do
-
-		}		
-	}
-
-	#reform the military like a dengist#
 		
 	focus = {
-		id = SOV_yazov_new_military_ideas
+		id = Party_Connections
 		icon = GFX_focus_SOV_new_military_idea
-		x = 33
+		x = 32
 		y = 1
 		
-		prerequisite = {focus = SOV_unions_military_might}
+		prerequisite = {focus = Fighting_The_Factionalism}
 
-		
-
-		mutually_exclusive = {focus = SOV_old_tactics_for_new_age}
+		mutually_exclusive = { }
 		
 		cost = 3
 		ai_will_do = {
@@ -1089,76 +1000,13 @@
 	}
 	
 	focus = {
-		id = SOV_shoigu_new_staff 	#IRL REFERANCE IN RED DUSK A HOI 4 MOD ???!!!!!!!!!!!!!?!?!?!?!?#
-		icon = GFX_focus_SOV_Shoigu_New_Staff
-		x = 33
-		y = 2
-		
-		prerequisite = {focus = SOV_yazov_new_military_ideas}
-
-		
-
-		mutually_exclusive = {}
-		
-		cost = 3
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			
-
-		}		
-	}
-	
-	focus = {
-		id = SOV_reformed_army_yazov 		#:)#
-		icon = GFX_focus_SOV_army_reform
-		x = 33
-		y = 3
-		
-		prerequisite = {focus = SOV_shoigu_new_staff}
-
-		
-
-
-		mutually_exclusive = {}
-		
-		cost = 4
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			swap_ideas = {
-			remove_idea = SOV_new_military_ideas_yazov
-			add_idea = SOV_reformed_army_yazov
-			
-			}
-
-		}		
-	}
-	
-
-	
-	focus = {
-		id = SOV_invincible_and_legendary_yazov
+		id = Sword_And_Shield_of_The_Motherland
 		icon = GFX_focus_SOV_Invincible_and_Legendary
 		x = 31
-		y = 4
+		y = 2
 		
-		prerequisite = {focus = SOV_reformed_army_yazov focus = SOV_armoured_giant}
-
-		
-
+		prerequisite = {focus = Make_Compromises}
+		prerequisite = {focus = Party_Connections}
 		mutually_exclusive = {}
 		
 		cost = 8
@@ -1201,7 +1049,7 @@
 	###INDUSTRY###
 	
 	focus = {
-		id = SOV_matters_of_the_ecenomy_yazov
+		id = Nationalised_Industry
 		icon = GFX_focus_SOV_matter_of_economy
 		x = 21
 		y = 0
@@ -1227,14 +1075,14 @@
 	}
 	
 	focus = {
-		id = SOV_the_unions_great_industry
+		id = Tolerate_Corruption
 		icon = GFX_focus_SOV_great_industry
-		x = 18
+		x = 20
 		y = 1
 		
-		prerequisite = {focus = SOV_matters_of_the_ecenomy_yazov}
+		prerequisite = {focus = Nationalised_Industry}
 
-		mutually_exclusive = {focus = SOV_the_unions_military_reinassence}
+		mutually_exclusive = { }
 		
 		cost = 6
 		ai_will_do = {
@@ -1262,12 +1110,12 @@
 	}
 	
 	focus = {
-		id = SOV_expand_industry_in_urals
+		id = Use_Party_Connections
 		icon = GFX_focus_SOV_ural_industry
-		x = 18
-		y = 2
+		x = 22
+		y = 1
 		
-		prerequisite = {focus = SOV_the_unions_great_industry}
+		prerequisite = {focus = Nationalised_Industry}
 
 		mutually_exclusive = {}
 		
@@ -1288,13 +1136,13 @@
 	}
 	
 	focus = {
-		id = SOV_expand_home_production
+		id = Military_Industrial_Complex
 		icon = GFX_focus_SOV_expand_produciton
-		x = 18
-		y = 3
+		x = 21
+		y = 2
 		
-		prerequisite = {focus = SOV_expand_industry_in_urals}
-
+		prerequisite = {focus = Tolerate_Corruption}
+		prerequisite = {focus = Use_Party_Connections}
 		mutually_exclusive = {}
 		
 		cost = 4
@@ -1313,12 +1161,12 @@
 	}
 	
 	focus = {
-		id = SOV_yazov_focus_on_infra
+		id = Power_Of_The_Atom
 		icon = GFX_focus_SOV_infrastructure_initiative
-		x = 18
-		y = 4
+		x = 21
+		y = 3
 		
-		prerequisite = {focus = SOV_expand_home_production}
+		prerequisite = {focus = Military_Industrial_Complex}
 
 		mutually_exclusive = {}
 		
@@ -1339,140 +1187,14 @@
 			}
 		}		
 	}
-	
-		
-	#INDUSTRY BUT MILITARY#
-		
+
 	focus = {
-		id = SOV_the_unions_military_reinassence
-		icon = GFX_focus_SOV_Military_Reinassence
-		x = 24
-		y = 1
-		
-		prerequisite = {focus = SOV_matters_of_the_ecenomy_yazov}
-
-		
-
-		mutually_exclusive = {focus = SOV_the_unions_great_industry}
-		
-		cost = 6
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			219 ={	
-				
-				add_extra_state_shared_building_slots = 2
-				
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-
-		}		
-	}
-	
-	focus = {
-		id = SOV_new_military_cities
-		icon = GFX_focus_SOV_military_cities
-		x = 24
-		y = 2
-		
-		prerequisite = {focus = SOV_the_unions_military_reinassence}
-
-		
-
-		mutually_exclusive = {}
-		
-		cost = 4
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			195 ={	
-				
-				add_extra_state_shared_building_slots = 2
-				
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-					add_extra_state_shared_building_slots = 2
-				}
-			}
-			
-			217 ={	
-				
-				add_extra_state_shared_building_slots = 2
-				
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-			
-			408 ={	
-				
-				add_extra_state_shared_building_slots = 2
-				
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-
-		}		
-	}
-	
-	focus = {
-		id = SOV_military_first_civilians_second 		#:)#
-		icon = GFX_focus_SOV_army_first
-		x = 24
-		y = 3
-		
-		prerequisite = {focus = SOV_new_military_cities}
-
-		
-
-
-		mutually_exclusive = {}
-		
-		cost = 4
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		completion_reward = {
-			add_ideas = SOV_Yazov_military_first_economic_policies
-
-		}		
-	}
-	
-	focus = {
-		id = SOV_yazov_expand_suplly_chains
+		id = Economic_Miracle
 		icon = GFX_focus_SOV_expand_supply
-		x = 24
+		x = 21
 		y = 4
 		
-		prerequisite = {focus = SOV_military_first_civilians_second}
+		prerequisite = {focus = Power_Of_The_Atom}
 
 		
 
@@ -1496,16 +1218,14 @@
 
 		}		
 	}
-	
 
-	
 	focus = {
-		id = SOV_fix_gorbachevs_mess_yazov
+		id = Fix_Gorbachevs_Mess
 		icon = GFX_focus_SOV_fix_gorby_mess
 		x = 21
 		y = 5
 		
-		prerequisite = {focus = SOV_yazov_focus_on_infra focus = SOV_yazov_expand_suplly_chains}
+		prerequisite = {focus = Economic_Miracle}
 
 		
 
@@ -1548,7 +1268,7 @@
 					add_political_power = 50
 				}
 				
-				set_country_flag = sov_economy_finished_yazov
+				set_country_flag = sov_economy_finished_putin
 		}		
 	}
 }
