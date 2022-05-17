@@ -481,6 +481,137 @@ country_event = {
 
 }
 
+############ GORBY ##############
+
+#Back in Kremlin#
+country_event = {
+	id = ussr.22
+	title = ussr.22.t
+	desc = ussr.22.d
+	picture = GFX_report_event_guard
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.22.a
+		add_political_power = 5
+	}
+
+}
+
+#The speech#
+country_event = {
+	id = ussr.23
+	title = ussr.23.t
+	desc = ussr.23.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.23.a
+	}
+
+}
+
+#The marshal#
+country_event = {
+	id = ussr.24
+	title = ussr.24.t
+	desc = ussr.24.d
+	picture = GFX_report_event_marshal
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.24.a
+	}
+
+}
+
+#rip yozov#
+country_event = {
+	id = ussr.26
+	title = ussr.26.t
+	desc = ussr.26.d
+	picture = GFX_report_event_yazov_rip
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.26.a
+		add_stability = +0.05
+		add_manpower = -1
+	}
+
+}
+
+#gorby gud#
+country_event = {
+	id = ussr.27
+	title = ussr.27.t
+	desc = ussr.27.d
+	picture = GFX_report_event_gorby_gud
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.27.a
+	}
+
+}
+
+#The choice1#
+country_event = {
+	id = ussr.25
+	title = ussr.25.t
+	desc = ussr.25.d
+	picture = GFX_report_event_gorby_diplo
+	
+	is_triggered_only = yes
+	
+	
+        #peaceful#
+	option = {
+		name = ussr.25.a
+		set_country_flag = Gorbachev_chose_peace
+	}
+	#agressive#
+	option = {
+		name = ussr.25.b
+		set_country_flag = Gorbachev_chose_war
+	}
+
+}
+
+#The choice2#
+country_event = {
+	id = ussr.28
+	title = ussr.28.t
+	desc = ussr.28.d
+	picture = GFX_report_event_gorby_diplo
+	
+	is_triggered_only = yes
+	
+	
+        #peaceful#
+	option = {
+		name = ussr.28.a
+		set_country_flag = diplo
+	}
+	#agressive#
+	option = {
+		name = ussr.28.b
+		set_country_flag = brute_force
+	}
+
+}
+
 #Wilno incident#
 country_event = {
 	id = ussr_rebel.1

@@ -26,8 +26,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
-
+			add_political_power = 10
+			SOV = {
+				country_event = { id = ussr.22 }
+			}
 		}
 	}
 	
@@ -76,6 +78,9 @@
 		completion_reward = {
 			add_political_power = 20
 			add_stability = 0.05
+			SOV = {
+				country_event = { id = ussr.23 }
+			}
 		}
 	}
 	focus = {
@@ -213,6 +218,9 @@
 		completion_reward = {
 			add_stability = 0.15
 			remove_ideas = SOV_memories_of_august_coup
+			SOV = {
+				country_event = { id = ussr.27 }
+			}
 		}
 	}
 	focus = {
@@ -234,6 +242,9 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			SOV = {
+				country_event = { id = ussr.24 }
+			}
 		}
 	}
 	focus = {
@@ -326,8 +337,255 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_stability = +0.05
-			add_manpower = -1
+			SOV = {
+				country_event = { id = ussr.26 }
+			}
 		}
 	}
+	focus = {
+		id = SOV_economy
+		icon = GFX_focus_SOV_matter_of_economy
+		x = 10
+		y = 10
+
+		prerequisite = {focus = SOV_rip_yazov}
+
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			set_country_flag = Gorbachevs_economic_policies
+		}
+	}
+
+### Economy ###
+
+	focus = {
+		id = SOV_reform
+		icon = GFX_focus_SOV_reform_or_die
+		x = 20
+		y = 0
+
+		available = { has_country_flag = Gorbachevs_economic_policies }
+
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 100	
+		}
+	}
+	focus = {
+		id = SOV_planning
+		icon = GFX_focus_SOV_planning
+		x = 20
+		y = 1
+
+		prerequisite = {focus = SOV_reform}
+
+		mutually_exclusive = { }
+		
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = SOV_middle
+		icon = GFX_focus_SOV_middle
+		x = 20
+		y = 2
+
+		prerequisite = {focus = SOV_planning}
+
+		mutually_exclusive = { }
+		
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.07
+			add_political_power = 25
+		}
+	}
+	focus = {
+		id = SOV_civ_ind
+		icon = GFX_focus_SOV_expand_produciton
+		x = 18
+		y = 3
+
+		prerequisite = {focus = SOV_middle}
+
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			production_speed_industrial_complex_factor = 0.10
+			production_speed_arms_factory_factor = -0.10
+		}
+	}
+	focus = {
+		id = SOV_corruption
+		icon = GFX_focus_SOV_corruption
+		x = 20
+		y = 4
+
+		prerequisite = {focus = SOV_civ_ind}
+		prerequisite = {focus = SOV_ind_cit}
+		prerequisite = {focus = SOV_civ_sect}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.10
+			add_political_power = -50
+				production_factory_efficiency_gain_factor = 0.05
+		}
+	}
+	focus = {
+		id = SOV_ind_cit
+		icon = GFX_focus_SOV_ind_city
+		x = 20
+		y = 3
+
+		prerequisite = {focus = SOV_middle}
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_civ_sect
+		icon = GFX_focus_SOV_civ_sector
+		x = 22
+		y = 3
+
+		prerequisite = {focus = SOV_middle}
+
+		mutually_exclusive = { }
+		
+		cost = 4.9
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_production_speed_industrial_complex_factor = 0.5
+			add_production_speed_infrastructure_factor = 0.5
+			add_production_speed_rail_way_factor = 0.5
+		}
+	}
+	focus = {
+		id = SOV_privatisation
+		icon = GFX_focus_SOV_privatisation
+		x = 20
+		y = 5
+
+		prerequisite = {focus = SOV_corruption}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.10
+			add_political_power = -150
+		}
+	}
+	focus = {
+		id = SOV_reforms_win
+		icon = GFX_focus_SOV_initial_reform
+		x = 20
+		y = 6
+
+		prerequisite = {focus = SOV_privatisation}
+
+		mutually_exclusive = { }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_idea = SOV_Yazov_New_Age_Soviet_Economics_2
+			remove_ideas = SOV_stagnating_economy
+			set_country_flag = gorby_economy_finished
+		}
+	}
+
+
+
 }
