@@ -377,6 +377,7 @@
  PER_communism_party:0 "Tudeh Party"
  PER_communism_party_long:0 "Tudeh Party"
  PER_neutrality_party:0 "ACC"
+ PER_fascism_party:0 "Iraqi Occupation Force"
  COL_communism_party:0 "PCC"
  COL_communism_party_long:0 "Partido Comunista Colombiano"
  COL_democratic_party:0 "PLC"

@@ -10,6 +10,7 @@ add_ideas = IRQ_disorganized_army
 add_ideas = IRQ_oil_producers
 
 recruit_character = IRQ_saddam_hussein
+recruit_character = IRQ_walter_withe
 
 set_politics = {
 	ruling_party = fascism
