@@ -1,0 +1,17 @@
+# common #
+	# units #
+		# names_ships #
+			- SOV_ship_names.txt: updated
+
+# history #
+	# countries #
+		- SOV: cleared all naval variants to prevent clutter
+	# units #
+		- SOV_2000_naval_mtg: cleared all fleets to prevent clutter
+
+# map #
+	- Added folder 'strategicregions'
+		- Added and updated files for strategic regions
+
+## NOTES ##
+	- Fixed news gfx
