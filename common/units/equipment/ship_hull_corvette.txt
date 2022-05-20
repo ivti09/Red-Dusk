@@ -67,7 +67,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_cruise_missile
-					ship_torpedo_sub
+					ship_torpedo_surface
 				}
 			}
 			custom_slot_3 = {

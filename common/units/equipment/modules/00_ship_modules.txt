@@ -412,29 +412,22 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_naval_helicopter
 	}
 
-}
-
 # Depth Charges
 
 	depth_charges_1 = {
 		category = ship_depth_charges
-		sfx = sfx_ui_sd_module_turret
+		sfx = sfx_ui_sd_module_depth_charges
 	}
 
 # Mines
 
 	mine_layer_1 = {
 		category = ship_mine_warfare
-		sfx = sfx_ui_sd_module_turret
+		sfx = sfx_ui_sd_module_mine_warfare
 	}
 	mine_sweeper_1 = {
 		category = ship_mine_warfare
-		sfx = sfx_ui_sd_module_turret
+		sfx = sfx_ui_sd_module_mine_warfare
 	}
 
-# Anti-Air
-
-	anti_air_1 = {
-		category = ship_anti_air
-		sfx = sfx_ui_sd_module_turret
-	}
+}
