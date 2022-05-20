@@ -13,7 +13,7 @@
  SOV_yazov_military_time:0 "§GWe Can Now Start Improving Our Military\n\n§W§"
  SOV_economy_end_ideas_mixed:0 "§GImproves Our Economy Based On The Actions Taken Beforehand\n\n§W§"
  SOV_military_end_ideas_mixed:0 "§GImproves Our Army Based On The Actions Taken Beforehand\n\n§W§"
- sov_army_finished_yazov_tt:0 "§RWe Can Now Deal With The Seperatist Nationalists In Our Border Since We Have Finished Our Improvements On Military And Economy\n\n§W§"
+ sov_army_finished_yazov_tt:0 "§RWe Can Now Deal With The Seperatist Nationalists In Our Union\n\n§W§"
  sov_army_finished_yazov:0 "§GWe Have Dealt with The Army's Problems§\n\n§W§"
  ussr_yazov_focus:0 "Yazov's Focus Tree"
  sov_gain_core_on_breaks:0 "§GGains Cores On The States That Broke Away From The Union§"
@@ -25,7 +25,7 @@
  puppets_balkan_countries_sov:0 "§YPuppets All Of The Balkan Countries We have Influence On§\n\n§W§"
  Establishes_Balkan_Peoples:0 "§YCreates A §GUnitary Balkan Peoples Republic §W§ §YOn the Balkan Countries We Have Influence On\n\n§W§"
  sov_gain_core_on_manchuria:0 "§GGets Cores On Manchuria Region§\n\n§W§"
- 
+ Gorbachevs_economic_policies:0 "§GWe Can Now Fix The Economy§\n\n§W§"
  #IRAQ#
  
  fixed_army:0 "§YSolved The Army's Issues§W§\n"

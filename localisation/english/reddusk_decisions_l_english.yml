@@ -6,6 +6,21 @@
  sov_purge_zyuganov:0 "Purge Gennady Zyuganov"
  sov_chariman_position_secured_yazov:0 "Yazov's position secured"
  
+ sov_building_industry:0 "Building Industry In The Urals"
+ sov_building_industry_desc:0 "Being a distant location to any bombings Comrade Dmitry Yazov has choosen the urals to construct new factories"
+ sov_build_civs_in_zlat:0 "Build Civilian Factories In Zlatoust"
+ sov_build_civs_in_mag:0 "Build Civilian Factories In Magnitogorsk"
+ sov_build_civs_in_north_urals:0 "Build Civilian Factories In The Northern Urals"
+ 
+ sov_building_factories_in_cities:0 "Expanding Industrial Cities"
+ sov_building_factories_in_cities_desc:0 "With the new economic reforms continuing Gorbachev has announced a new industrial project that aims to expand the civilian sector that had been mostly ignored because of the militarists.Homever with the army losing its hold or power we can finally focus on the needs of the soviet people."
+ sov_build_civs_facs_in_leningrad:0 "Build Civilian Factories In Leningrad"
+ sov_build_civs_facs_in_moscow:0 "Build Civilian Factories In Moscow"
+ sov_build_civs_facs_in_volvograd:0 "Build Civilian Factories In Volvograd"
+ sov_build_civs_facs_in_minsk:0 "Build Civilian Factories In Minsk"
+ sov_build_civs_facs_in_kiev:0 "Build Civilian Factories In Kiev"
+ sov_build_civs_facs_in_vladivostok:0 "Build Civilian Factories In Vladivostok"
+ 
  sov_crackdown_lithuenia:0 "Crackdown on resistance in Lithuanian SSR"
  sov_crackdown_lithuenia_desc:0 "Lithuania, being the most rebellious SSR in the Union since 1991 harbours lots of anti-Soviet and pro-nationalist rebels. We are going to need to crack down on the resistance before something bad happens in the region or in the entire Union even... \n\n §R>Resistance level In Lithuania is [?lit_resistance]§W§ \n\nHaving high resistance before the end of operations will cause unforeseen consuquences. \n\n §C>Stability in Lithuania is [?lit_stab_level]§W§ \n\nHaving low stability will cause resistance to rise up."
  sov_timer_clock_lit:0 "End of operations in Lithuanian SSR"
@@ -44,6 +59,11 @@
  sov_sabotage_factories_mil:0 "Sabotage military factories"
  sov_recruit_collabs:0 "Recruit pro-Soviet Chinese collaborators"
  sov_complete_project_red_dusk:0 "Complete project Red Dusk"
+ 
+ sov_reinteg_decisions_via_peace:0 "Re-Integration Referandums"
+ sov_reinteg_decisions_via_peace_desc:0 "Gorbachev suprisingly decided to re-integrate the breakaway states with §Gdemocratic referandums§W§  that will decide the union's future.\n\n§RHomever§W§  we still have a long way to go as the insane §gmilitarists§W§  had commited hideous acts aganist the breakaway state back in 91' we need to win the trust of the people if we want a truly equel union\n\n§C>Support for rejoining the union at \n\n>>Azerbaijan is [?azr_ref_support]\n\n>>Armenia is [?arm_ref_support]\n\n>>Latvia is [?lat_ref_support]\n\n>>Estonia is [?est_ref_support]§W§\n\n\nWe need over 50 percentage to win the referandums."
+ sov_referandums_timeclock:0 "End Of campaigns"
+ 
  
  ##IRAQ##
  

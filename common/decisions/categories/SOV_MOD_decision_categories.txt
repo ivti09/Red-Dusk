@@ -27,6 +27,18 @@ sov_building_industry = {
 	priority = 20
 }
 
+sov_building_factories_in_cities = {
+	icon = GFX_decision_category_SOV_merge_designers
+	allowed = {
+		
+	}
+	
+	visible = {
+
+	}
+	priority = 20
+}
+
 sov_crackdown_lithuenia = {
 	icon = GFX_decision_category_SOV_civil_war
 	allowed = {
@@ -86,4 +98,18 @@ sov_invade_china_decisions = {
 	priority = 150
 
 }
+
+sov_reinteg_decisions_via_peace = {
+	icon = GFX_decision_category_SOV_civil_war
+	allowed = {
+
+	}
+	
+	visible = {
+
+	}
+	priority = 500
+
+}
+
 

@@ -566,7 +566,7 @@ country_event = {
 
 }
 
-#The choice1#
+#The choice for ussr braeak aways#
 country_event = {
 	id = ussr.25
 	title = ussr.25.t
@@ -579,17 +579,17 @@ country_event = {
         #peaceful#
 	option = {
 		name = ussr.25.a
-		set_country_flag = Gorbachev_chose_peace
+		set_country_flag = Gorbachev_chose_peace_ussr
 	}
 	#agressive#
 	option = {
 		name = ussr.25.b
-		set_country_flag = Gorbachev_chose_war
+		set_country_flag = Gorbachev_chose_war_ussr
 	}
 
 }
 
-#The choice2#
+#The choice for eastern block breakaways#
 country_event = {
 	id = ussr.28
 	title = ussr.28.t
@@ -602,12 +602,12 @@ country_event = {
         #peaceful#
 	option = {
 		name = ussr.28.a
-		set_country_flag = diplo
+		set_country_flag = Gorbachev_chose_peace_east_block
 	}
 	#agressive#
 	option = {
 		name = ussr.28.b
-		set_country_flag = brute_force
+		set_country_flag = Gorbachev_chose_war_east_block
 	}
 
 }

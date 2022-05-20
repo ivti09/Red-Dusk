@@ -158,7 +158,7 @@ sov_purging = {
 	}
 }
 
-sov_building_industry = {
+sov_building_industry_ural = {
 
 	sov_build_civs_in_zlat = {
 		icon = GFX_decision_generic_factory
@@ -252,6 +252,254 @@ sov_building_industry = {
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 0
+		}
+		complete_effect = { 
+		581 ={	
+				
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+
+
+
+}
+
+###GORBACHEV###
+
+sov_building_factories_in_cities = {
+
+	sov_build_civs_facs_in_leningrad = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+		has_completed_focus = SOV_ind_cit
+
+		}
+		available = {
+		has_completed_focus = SOV_ind_cit
+	
+		}
+		visible = {
+		has_completed_focus = SOV_ind_cit
+			 
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		days_remove = 30
+		modifier = {
+		civilian_factory_use = 3
+		}
+		complete_effect = { 
+		573 ={	
+				
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+		}
+			
+		}
+	}
+	
+		sov_build_civs_facs_in_moscow = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+		has_completed_focus = SOV_ind_cit
+
+		}
+		available = {
+		has_completed_focus = SOV_ind_cit
+	
+		}
+		visible = {
+		has_completed_focus = SOV_ind_cit
+			 
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		days_remove = 30
+		modifier = {
+		civilian_factory_use = 3
+		}
+		complete_effect = { 
+		582 ={	
+				
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+	
+	sov_build_civs_facs_in_volvograd = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+		has_completed_focus = SOV_ind_cit
+
+		}
+		available = {
+		has_completed_focus = SOV_ind_cit
+	
+		}
+		visible = {
+		has_completed_focus = SOV_ind_cit
+			 
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		days_remove = 30
+		modifier = {
+		civilian_factory_use = 3
+		}
+		complete_effect = { 
+		581 ={	
+				
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+	
+		sov_build_civs_facs_in_minsk = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+		has_completed_focus = SOV_ind_cit
+
+		}
+		available = {
+		has_completed_focus = SOV_ind_cit
+	
+		}
+		visible = {
+		has_completed_focus = SOV_ind_cit
+			 
+		}
+		
+		cost = 30
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		days_remove = 30
+		modifier = {
+		civilian_factory_use = 3
+		}
+		complete_effect = { 
+		573 ={	
+				
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+		}
+			
+		}
+	}
+	
+	sov_build_civs_facs_in_kiev = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+		has_completed_focus = SOV_ind_cit
+
+		}
+		available = {
+		has_completed_focus = SOV_ind_cit
+	
+		}
+		visible = {
+		has_completed_focus = SOV_ind_cit
+			 
+		}
+		
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		days_remove = 30
+		modifier = {
+		civilian_factory_use = 3
+		}
+		complete_effect = { 
+		582 ={	
+				
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+	
+	sov_build_civs_facs_in_vladivostok = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+		has_completed_focus = SOV_ind_cit
+
+		}
+		available = {
+		has_completed_focus = SOV_ind_cit
+	
+		}
+		visible = {
+		has_completed_focus = SOV_ind_cit
+			 
+		}
+		
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		days_remove = 30
+		modifier = {
+		civilian_factory_use = 3
 		}
 		complete_effect = { 
 		581 ={	
@@ -1329,7 +1577,7 @@ sov_invade_china_decisions = {
 		}
 	}
 	
-		sov_complete_project_red_dusk = {
+	sov_complete_project_red_dusk = {
 
 		icon = GFX_decision_generic_tank
 
@@ -1367,6 +1615,91 @@ sov_invade_china_decisions = {
 		}
 	}
 
+
+
+}
+
+sov_reinteg_decisions_via_peace = {
+
+	sov_referandums_timeclock = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+				NOT = {
+				has_country_flag = sov_referandums_happened
+				}
+				has_completed_focus = SOV_gorby_new_way
+		}
+		available = {
+			original_tag = SOV
+				has_country_flag = sov_referandums_happened
+		}
+		visible = {
+			original_tag = SOV
+			has_completed_focus = SOV_gorby_new_way
+				NOT = {
+				has_country_flag = sov_referandums_happened
+				}
+
+		}
+		
+		cost = 35
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		is_good = yes
+        selectable_mission = yes
+        days_mission_timeout = 35      
+
+		timeout_effect = {
+		set_country_flag = sov_referandums_happened
+		
+		}
+		complete_effect = { 
+			
+		}
+	}
+	
+	sov_ref_azr_help_azerbajani_industry = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+				NOT = {
+				has_country_flag = sov_referandums_happened
+				}
+				has_completed_focus = SOV_gorby_new_way
+		}
+		available = {
+			original_tag = SOV
+				has_country_flag = sov_referandums_happened
+		}
+		visible = {
+			original_tag = SOV
+			has_completed_focus = SOV_gorby_new_way
+				NOT = {
+				has_country_flag = sov_referandums_happened
+				}
+
+		}
+		
+		cost = 10
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		is_good = yes
+        selectable_mission = yes
+        days_mission_timeout = 35      
+
+		complete_effect = { 
+		
+		}
+	}
 
 
 }

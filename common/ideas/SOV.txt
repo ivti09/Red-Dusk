@@ -726,6 +726,121 @@ ideas = {
 			}
 
 		}
+		
+		####GORBHACHEV####
+		
+		gorby_economic_reforms = {
+
+			name = gorby_economic_reforms_name
+
+			removal_cost = -1
+
+			picture =  SOV_memories_of_perestroika_icon
+
+			allowed = {
+				always = no
+			}
+				
+
+			modifier = {
+			
+			}
+
+		}
+		
+		gorby_economic_reforms_2 = {
+
+			name = gorby_economic_reforms_name
+
+			removal_cost = -1
+
+			picture =  SOV_memories_of_perestroika_icon
+
+			allowed = {
+				always = no
+			}
+				
+
+			modifier = {
+			production_speed_industrial_complex_factor = 0.10
+			production_speed_infrastructure_factor = 0.10
+			production_speed_naval_base_factor = 0.10
+			production_speed_arms_factory_factor = -0.10
+			}
+
+		}
+		
+		gorby_economic_reforms_3 = {
+		
+			name = gorby_economic_reforms_name
+
+			removal_cost = -1
+
+			picture =  SOV_memories_of_perestroika_icon
+
+			allowed = {
+				always = no
+			}
+				
+
+			modifier = {
+			consumer_goods_factor = 0.02
+			production_speed_industrial_complex_factor = 0.20
+			production_speed_infrastructure_factor = 0.20
+			production_speed_naval_base_factor = 0.20
+			production_speed_arms_factory_factor = -0.10
+			}
+
+		}
+		
+		gorby_economic_reforms_4 = {
+		
+			name = gorby_economic_reforms_name
+
+			removal_cost = -1
+
+			picture =  SOV_memories_of_perestroika_icon
+
+			allowed = {
+				always = no
+			}
+				
+
+			modifier = {
+			consumer_goods_factor = 0.02
+			production_factory_start_efficiency_factor = 0.10
+			production_speed_industrial_complex_factor = 0.20
+			production_speed_infrastructure_factor = 0.20
+			production_speed_naval_base_factor = 0.20
+			production_speed_arms_factory_factor = -0.10
+			}
+
+		}
+		
+		gorby_economic_reforms_final = {
+		
+			name = gorby_economic_reforms_name
+
+			removal_cost = -1
+
+			picture =  SOV_memories_of_perestroika_icon
+
+			allowed = {
+				always = no
+			}
+				
+
+			modifier = {
+			consumer_goods_factor = 0.02
+			production_factory_start_efficiency_factor = 0.10
+			production_speed_industrial_complex_factor = 0.25
+			production_speed_infrastructure_factor = 0.25
+			production_speed_naval_base_factor = 0.25
+			production_speed_arms_factory_factor = -0.05
+			}
+
+		}
+		
 	}
 
 }
