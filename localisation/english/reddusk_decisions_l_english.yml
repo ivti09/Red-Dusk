@@ -61,7 +61,7 @@
  sov_complete_project_red_dusk:0 "Complete project Red Dusk"
  
  sov_reinteg_decisions_via_peace:0 "Re-Integration Referandums"
- sov_reinteg_decisions_via_peace_desc:0 "Gorbachev suprisingly decided to re-integrate the breakaway states with §Gdemocratic referandums§W§  that will decide the union's future.\n\n§RHomever§W§  we still have a long way to go as the insane §gmilitarists§W§  had commited hideous acts aganist the breakaway state back in 91' we need to win the trust of the people if we want a truly equel union\n\n§C>Support for rejoining the union at \n\n>>Azerbaijan is [?azr_ref_support]\n\n>>Armenia is [?arm_ref_support]\n\n>>Latvia is [?lat_ref_support]\n\n>>Estonia is [?est_ref_support]§W§\n\n\nWe need over 50 percentage to win the referandums."
+ sov_reinteg_decisions_via_peace_desc:0 "Gorbachev suprisingly decided to re-integrate the breakaway states with §Gdemocratic referendums§W§  that will decide the union's future.\n\n§RHowever§W§  we still have a long way to go as the insane §gmilitarists§W§  had commited hideous acts aganist the breakaway state back in '91 we need to win the trust of the people if we want a truly equal Union\n\n§C>Support for rejoining the Union in \n\n>>Azerbaijan is [?azr_ref_support]\n\n>>Armenia is [?arm_ref_support]\n\n>>Latvia is [?lat_ref_support]\n\n>>Estonia is [?est_ref_support]§W§\n\n\nWe need over 50 percentage to win the referendums."
  sov_referandums_timeclock:0 "End Of campaigns"
  
  
