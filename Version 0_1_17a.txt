@@ -1,0 +1,58 @@
+# common #
+	# units #
+		- Added infantry.txt: added infantry units
+		- Removed armoured_personnel_carrier.txt
+		- Updated infantry_fighting_vehicle and main_battle_tank combat widths
+		- air.txt: updated unit type
+	# technologies #
+		- armor.txt: added missing stats and ai_will_do
+		- nsb_armor.txt: removed file
+	# technology_tags #
+		- 00_technology.txt: removed nsb armour folder
+	- Added unit_tags
+		- Added 00_categories: removed some categories and added new mod categories
+
+# gfx #
+	# interface #
+		- Reworked event_news_bg.dds
+		- Added event_news_pic_overlay.dds, changed
+		# counters #
+			# divisions_large #
+				- Removed unit_armoured_personnel_carrier_icon
+				- Added icons for new infantry units
+
+# history #
+	# states #
+		- Updated state 454
+		- Added new states 845, 846
+	# countries #
+		- SOV: removed references to nsb armour
+		- USA: removed references to nsb armour
+
+# interface #
+	- eventwindow.gui: rearranged world news
+	- subuniticons.gfx: removed apc icon, added new infantry icons
+	- mod_technologies.gfx: added references for armour equipment, removed references to nsb armour
+	- countrytechtreeview.gui: removed nsb armour references
+
+# localisation #
+	# english #
+		- unit_l_english: removed references to apc, added references to new infantry units
+		- state_names_l_english: renamed israel, added references for 2 new states
+		- Added strategic_region_names_l_english
+
+# map #
+	- Regenerated building files
+	# strategicregions #
+		- Region 130: fixed duplicate province issue
+
+# music #
+	# sucmp #
+		- Renamed several music files
+		- _sucmp.asset: updated music file names, removed several empty references
+
+# descriptor.mod #
+	- Added replace_path for common/technologies
+
+## Issues ##
+	- Aircraft showing up as support companies

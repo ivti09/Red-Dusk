@@ -39,7 +39,7 @@ music = {
 }
 music = {
 	name = "Everybody_Wants_To_Rule_The_World_(extended)"
-	file = "Everybody_Wants_To_Rule_The_World_extended.oog"
+	file = "Everybody_Wants_To_Rule_The_World_extended.ogg"
 }
 music = {
 	name = "Freestyle_Goodbye_Forever"
@@ -56,10 +56,6 @@ music = {
 music = {
 	name = "Invincible_And_Legendary"
 	file = "Invincible_And_Legendary.ogg"
-}
-music = {
-	name = "It's_Our_Time,_Our_Turn!"
-	file = "It's_our_time,_our_turn!.oog"
 }
 music = {
 	name = "Karavan"
@@ -91,7 +87,7 @@ music = {
 }
 music = {
 	name = "Owner_Of_A_Lonely_Heart_(extended)"
-	file = "Owner_Of_A_Lonely_Heart_(extended)"
+	file = "Owner_Of_A_Lonely_Heart_(extended).ogg"
 }
 music = {
 	name = "Plan_in_Motion"
@@ -119,7 +115,7 @@ music = {
 }
 music = {
 	name = "Summer_Is_Ending"
-	file = "Summer_is_ending.oog"
+	file = "Summer_is_ending.ogg"
 }
 music = {
 	name = "Swallowing_Dust"

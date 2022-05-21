@@ -321,9 +321,10 @@ spriteTypes = {
 
 	spriteType = { name = "GFX_unit_main_battle_tank_armor_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_main_battle_tank_icon.dds"				noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_infantry_fighting_vehicle_armor_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_infantry_fighting_vehicle_icon.dds"				noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_armoured_personnel_carrier_armor_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_armoured_personnel_carrier_icon.dds"				noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_recon_vehicle_armor_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_recon_vehicle_icon.dds"				noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_spaa_vehicle_armor_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_spaa_vehicle_icon.dds"				noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_infantry_unit_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_infantry_unit_icon.dds"				noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_infantry_unit_icon_medium"				texturefile = "gfx/interface/counters/divisions_large/unit_heavy_infantry_unit_icon.dds"				noOfFrames = 2 }
 
 	spriteType = { name = "GFX_unit_attack_submarine_icon_medium"					texturefile = "gfx/interface/navalcombat/ships/attack_submarine.dds"			noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_attack_submarine_1_icon_medium"					texturefile = "gfx/interface/navalcombat/ships/attack_submarine_I.dds"			noOfFrames = 2 }
