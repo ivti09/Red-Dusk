@@ -167,6 +167,18 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
+				instantTextBoxType = {
+					name = "infantry_subtitle_special_forces"
+					position = { x = 30 y = 800 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "SPECIAL FORCES"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
 				
 			}
 
@@ -203,6 +215,18 @@ guiTypes = {
 			gridboxtype = {
 				name = "infantry_anti_air_weapons_1960_tree"
 				position = { x = 140 y = 700 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "paratrooper_tech_1960_tree"
+				position = { x = 140 y = 900 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "marine_tech_1960_tree"
+				position = { x = 140 y = 1000 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -387,30 +411,6 @@ guiTypes = {
 					
 			}	
 				
-			containerWindowType = {
-				name = "tiled_research_bg"
-				position = { x=150 y=640 }
-				size = { width = 1340 height = 430 }
-				clipping = no
-			
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_research_bg"
-				}			
-			}
-				
-			containerWindowType = {
-				name = "tiled_research_bg_2"
-				position = { x=160 y=920 }
-				size = { width = 1320 height = 140 }
-				clipping = no
-			
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_research_bg"
-				}			
-			}
-
 			gridboxtype = {
 				name = "tech_support_tree"
 				position = { x = 100 y = 160 }

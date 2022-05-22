@@ -1372,6 +1372,32 @@
  thermal_vision_gen_4_short:0 "Gen.4 Thernal Sight"
  thermal_vision_gen_4_desc:0 "Unlike night vision, thermal sights can operate both in total darkness and during daytime. Thermal sights also highlight extreme temperate differences, such as those of humans and vehicles. This makes thermal sights extremely effective devices for combat, with the downside of being costly and complex to manufacture."
 
+ paratrooper_tech_1960:0 "1960s Paratroopers"
+ paratrooper_tech_1960_short:0 "Paratroopers I"
+ paratrooper_tech_1960_desc:0 "Utilising airborne forces, paratrooper units can be quickly dropped behind enemy lines, allowing them to perform surprise attacks and seize strategic objectives. However, the use of this unit requires air superiority over the battlefield."
+ paratrooper_tech_1980:0 "1980s Paratroopers"
+ paratrooper_tech_1980_short:0 "Paratroopers II"
+ paratrooper_tech_1980_desc:0 "Utilising airborne forces, paratrooper units can be quickly dropped behind enemy lines, allowing them to perform surprise attacks and seize strategic objectives. However, the use of this unit requires air superiority over the battlefield."
+ paratrooper_tech_2000:0 "2000s Paratroopers"
+ paratrooper_tech_2000_short:0 "Paratroopers III"
+ paratrooper_tech_2000_desc:0 "Utilising airborne forces, paratrooper units can be quickly dropped behind enemy lines, allowing them to perform surprise attacks and seize strategic objectives. However, the use of this unit requires air superiority over the battlefield."
+ paratrooper_tech_2020:0 "2020s Paratroopers"
+ paratrooper_tech_2020_short:0 "Paratroopers IV"
+ paratrooper_tech_2020_desc:0 "Utilising airborne forces, paratrooper units can be quickly dropped behind enemy lines, allowing them to perform surprise attacks and seize strategic objectives. However, the use of this unit requires air superiority over the battlefield."
+
+ marine_tech_1960:0 "1960s Marines"
+ marine_tech_1960_short:0 "Marines I"
+ marine_tech_1960_desc:0 "Trained to operate in coastal areas, marines are trained to perform naval landings, being much more effective in shore combat than regular troops. Therefore, marines are a vital part of any nation's army that aims to perform naval operations."
+ marine_tech_1980:0 "1980s Marines"
+ marine_tech_1980_short:0 "Marines II"
+ marine_tech_1980_desc:0 "Trained to operate in coastal areas, marines are trained to perform naval landings, being much more effective in shore combat than regular troops. Therefore, marines are a vital part of any nation's army that aims to perform naval operations."
+ marine_tech_2000:0 "2000s Marines"
+ marine_tech_2000_short:0 "Marines III"
+ marine_tech_2000_desc:0 "Trained to operate in coastal areas, marines are trained to perform naval landings, being much more effective in shore combat than regular troops. Therefore, marines are a vital part of any nation's army that aims to perform naval operations."
+ marine_tech_2020:0 "2020s Marines"
+ marine_tech_2020_short:0 "Marines IV"
+ marine_tech_2020_desc:0 "Trained to operate in coastal areas, marines are trained to perform naval landings, being much more effective in shore combat than regular troops. Therefore, marines are a vital part of any nation's army that aims to perform naval operations."
+
 ## Nation-Specific Tech ##
 # SOV #
  SOV_tank_ammo_1960:0 "3BM9"
