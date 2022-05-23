@@ -1605,7 +1605,7 @@ sov_invade_china_decisions = {
 		}
 		
 		cost = 35
-		fire_only_once = no
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 0
 		}
@@ -1626,22 +1626,20 @@ sov_reinteg_decisions_via_peace = {
 		icon = GFX_decision_generic_tank
 
 		allowed = {
-			original_tag = SOV
 				NOT = {
 				has_country_flag = sov_referandums_happened
 				}
 				has_completed_focus = SOV_gorby_new_way
 		}
 		available = {
-			original_tag = SOV
+				has_completed_focus = SOV_gorby_new_way
 				has_country_flag = sov_referandums_happened
 		}
 		visible = {
-			original_tag = SOV
 			has_completed_focus = SOV_gorby_new_way
 				NOT = {
 				has_country_flag = sov_referandums_happened
-				}
+			}
 
 		}
 		
@@ -1651,7 +1649,7 @@ sov_reinteg_decisions_via_peace = {
 			factor = 0
 		}
 		is_good = yes
-        selectable_mission = yes
+        selectable_mission = no
         days_mission_timeout = 35      
 
 		timeout_effect = {
@@ -1692,12 +1690,85 @@ sov_reinteg_decisions_via_peace = {
 		ai_will_do = {
 			factor = 0
 		}
-		is_good = yes
-        selectable_mission = yes
-        days_mission_timeout = 35      
-
-		complete_effect = { 
 		
+		complete_effect = { 
+			add_to_variable { azr_ref_support = 15 }
+			
+		}
+	}
+	
+	sov_ref_azr_apolagize_for_black_january = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+				NOT = {
+				has_country_flag = sov_referandums_happened
+				}
+				has_completed_focus = SOV_gorby_new_way
+		}
+		available = {
+			original_tag = SOV
+				has_country_flag = sov_referandums_happened
+		}
+		visible = {
+			original_tag = SOV
+			has_completed_focus = SOV_gorby_new_way
+				NOT = {
+				has_country_flag = sov_referandums_happened
+				}
+
+		}
+		
+		cost = 10
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = { 
+			add_to_variable { azr_ref_support = 35 }
+			add_politcal_power = -25
+			army_experience = -15
+			
+		}
+	}
+	
+	sov_ref_azr_rally_communists = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+				NOT = {
+				has_country_flag = sov_referandums_happened
+				}
+				has_completed_focus = SOV_gorby_new_way
+		}
+		available = {
+			original_tag = SOV
+				has_country_flag = sov_referandums_happened
+		}
+		visible = {
+			original_tag = SOV
+			has_completed_focus = SOV_gorby_new_way
+				NOT = {
+				has_country_flag = sov_referandums_happened
+				}
+
+		}
+		
+		cost = 10
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = { 
+			add_to_variable { azr_ref_support = 15 }
+			add_politcal_power = -50
+			
 		}
 	}
 

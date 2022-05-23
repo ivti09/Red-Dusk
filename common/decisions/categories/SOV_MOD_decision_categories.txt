@@ -102,11 +102,9 @@ sov_invade_china_decisions = {
 sov_reinteg_decisions_via_peace = {
 	icon = GFX_decision_category_SOV_civil_war
 	allowed = {
-
 	}
 	
-	visible = {
-
+	visible = {	
 	}
 	priority = 500
 

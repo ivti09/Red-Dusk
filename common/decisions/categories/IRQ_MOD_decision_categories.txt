@@ -4,16 +4,12 @@ irq_fix_army = {
 	
 	allowed = {
 		original_tag = IRQ
-		NOT = {
-		has_country_flag = fixed_army
-        }
+
 	}
 	
 	visible = {
 		original_tag = IRQ
-		NOT = {
-		has_country_flag = fixed_army
-        }
+
 	}
 	priority = 100
 }

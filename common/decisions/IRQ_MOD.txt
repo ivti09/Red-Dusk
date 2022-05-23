@@ -6,20 +6,18 @@ irq_fix_army = {
 		icon = GFX_decision_generic_assassination
 
 		allowed = {
-			original_tag = IRQ
 			NOT = {
 				has_country_flag = fixed_army
 			}
 		}
 		available = {
-			original_tag = IRQ
 			NOT = {
 				has_country_flag = fixed_army
 			}
 			has_war = no
 		}
 		visible = {
-			original_tag = IRQ
+		has_completed_focus = IRQ_but_ok
 			NOT = {
 				has_country_flag = fixed_army
 			}
@@ -48,14 +46,14 @@ irq_fix_army = {
 		icon = GFX_decision_ger_military_buildup
 
 		allowed = {
-			original_tag = IRQ
+			has_completed_focus = IRQ_but_ok
 			has_country_flag = irq_army_fix_1
 			NOT = {
 				has_country_flag = fixed_army
 			}
 		}
 		available = {
-			original_tag = IRQ
+			has_completed_focus = IRQ_but_ok
 			has_country_flag = irq_army_fix_1
 			NOT = {
 				has_country_flag = fixed_army
@@ -63,7 +61,7 @@ irq_fix_army = {
 			has_war = no
 		}
 		visible = {
-			original_tag = IRQ
+			has_completed_focus = IRQ_but_ok
 			NOT = {
 				has_country_flag = fixed_army
 			}
@@ -91,14 +89,14 @@ irq_fix_army = {
 		icon = GFX_decision_generic_tank
 
 		allowed = {
-			original_tag = IRQ
+			has_completed_focus = IRQ_but_ok
 			has_country_flag = irq_army_fix_2
 			NOT = {
 				has_country_flag = fixed_army
 			}
 		}
 		available = {
-			original_tag = IRQ
+			has_completed_focus = IRQ_but_ok
 			has_country_flag = irq_army_fix_2
 			NOT = {
 				has_country_flag = fixed_army
@@ -106,7 +104,7 @@ irq_fix_army = {
 			has_war = no
 		}
 		visible = {
-			original_tag = IRQ
+			has_completed_focus = IRQ_but_ok
 			NOT = {
 				has_country_flag = fixed_army
 			}
@@ -138,14 +136,14 @@ irq_fix_army = {
 		icon = GFX_decision_generic_army_support
 
 		allowed = {
-			original_tag = IRQ
+			has_completed_focus = IRQ_but_ok
 			has_country_flag = irq_army_fix_3
 			NOT = {
 				has_country_flag = fixed_army
 			}
 		}
 		available = {
-			original_tag = IRQ
+			has_completed_focus = IRQ_but_ok
 			has_country_flag = irq_army_fix_3
 			NOT = {
 				has_country_flag = fixed_army
@@ -153,7 +151,7 @@ irq_fix_army = {
 			has_war = no
 		}
 		visible = {
-			original_tag = IRQ
+			has_completed_focus = IRQ_but_ok
 			NOT = {
 				has_country_flag = fixed_army
 			}
@@ -182,14 +180,14 @@ irq_fix_army = {
 		icon = GFX_decision_category_generic_political_actions
 
 		allowed = {
-			original_tag = IRQ
+			has_completed_focus = IRQ_but_ok
 			has_country_flag = irq_army_fix_4
 			NOT = {
 				has_country_flag = fixed_army
 			}
 		}
 		available = {
-			original_tag = IRQ
+			has_completed_focus = IRQ_but_ok
 			has_country_flag = irq_army_fix_4
 			NOT = {
 				has_country_flag = fixed_army
@@ -197,7 +195,7 @@ irq_fix_army = {
 			has_war = no
 		}
 		visible = {
-			original_tag = IRQ
+			has_completed_focus = IRQ_but_ok
 			NOT = {
 				has_country_flag = fixed_army
 			}
