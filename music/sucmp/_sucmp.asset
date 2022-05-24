@@ -58,12 +58,20 @@ music = {
 	file = "Invincible_And_Legendary.ogg"
 }
 music = {
+	name = "It's_Our_Time,_Our_Turn!"
+	file = "It's_our_time,_our_turn!.oog"
+}
+music = {
 	name = "Karavan"
 	file = "Karavan.ogg"
 }
 music = {
 	name = "Kerber-Ratne_igre"
 	file = "Kerber-Ratne_igre.ogg"
+}
+music = {
+	name = "Lenin_Is_Young_Again"
+	file = "Lenin_is_Young_Again.ogg"
 }
 music = {
 	name = "Mr._Blue_Sky"
@@ -114,12 +122,24 @@ music = {
 	file = "Soviet_Anthem_pop_version.ogg"
 }
 music = {
+	name = "Space_Forces"
+	file = "Space_Forces.ogg"
+}
+music = {
+	name = "Stop_This_Train"
+	file = "Stop_This_Train.ogg"
+}
+music = {
 	name = "Summer_Is_Ending"
 	file = "Summer_is_ending.ogg"
 }
 music = {
 	name = "Swallowing_Dust"
 	file = "Swallowing_Dust.ogg"
+}
+music = {
+	name = "To_Serve_Russia"
+	file = "To_Serve_Russia.ogg"
 }
 music = {
 	name = "Warsaw_Pact"

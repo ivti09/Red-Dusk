@@ -52,6 +52,14 @@ music = {
 	}
 }
 music = {
+	song = "Everybody_Wants_To_Rule_The_World_extended"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "An_Escalation"
 	chance = {
 		modifier = {
@@ -116,6 +124,14 @@ music = {
 	}
 }
 music = {
+	song = "Lenin_is_Young_Again" 
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "Modern_Talking-Who_Will_Save_The_World"
 	chance = {
 		modifier = {
@@ -153,6 +169,12 @@ music = {
 		modifier = {
 			factor = 1
 		}
+	}
+}
+music = {
+	song = "Owner_Of_A_Broken_Heart_(Extended)"
+	chance = {
+		factor = 1
 	}
 }
 music = {
@@ -196,9 +218,25 @@ music = {
 	}
 }
 music = {
+	song = "Space_Forces"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "Swallowing_Dust"
 	chance = {
 		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "To_Serve_Russia"
+	chance = {
+		modifier {
 			factor = 1
 		}
 	}
