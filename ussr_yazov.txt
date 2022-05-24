@@ -1,4 +1,5 @@
 focus_tree = {
+	
 	id = ussr_putin_focus
 	country = {
 		factor = 0
@@ -55,6 +56,7 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 15
+			add_stability = 2
 			custom_effect_tooltip = soviet_purge_tooltip
 			hidden_effect = { unlock_decision_category_tooltip = sov_purging }
 		}
@@ -108,7 +110,7 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_manpower = -150 #little bit of trollin'#
+			add_stability = 3
 			add_political_power = 20
 			remove_ideas = SOV_party_infighting
 		}
@@ -133,6 +135,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			add_stability = -10
+			add_war_support = -5
 			add_ideas = SOV_marshall_of_the_people
 			remove_ideas = SOV_memories_of_august_coup
 			add_ideas = SOV_Marshall_iron_order
@@ -159,6 +163,7 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			add_stability = -5
 			add_ideas = SOV_marshall_of_the_people
 			remove_ideas = SOV_memories_of_august_coup
 			add_ideas = SOV_Marshall_iron_order
@@ -606,7 +611,6 @@ focus_tree = {
 	focus = {
 		id = Preparing_Their_Fate
 		icon = GFX_2d_3d_switch
-		cost = 3
 		x = 10
 		y = 17
 
@@ -628,7 +632,6 @@ focus_tree = {
 	focus = {
 		id = An_Internal_Struggle?
 		icon = GFX_2d_3d_switch
-		cost = 3
 		x = 10
 		y = 18
 
@@ -718,7 +721,6 @@ focus_tree = {
 	focus = {
 		id = Reverse_The_Movement
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 13
 		y = 21
 
@@ -740,7 +742,6 @@ focus_tree = {
 	focus = {
 		id = Expelling_The_Bureaucracy
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 13
 		y = 22
 
@@ -760,9 +761,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = Out_With_The_Old!
+		id = Out_With_The_Old
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 13
 		y = 23
 
@@ -784,11 +784,10 @@ focus_tree = {
 	focus = {
 		id = Moscow_Coup
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 13
 		y = 24
 
-		prerequisite = {focus = Out_With_The_Old! }
+		prerequisite = {focus = Out_With_The_Old }
 
 		cost = 4
 		ai_will_do = {
@@ -803,17 +802,204 @@ focus_tree = {
 		completion_reward = { }
 	}
 
+	focus = {
+		id = Expanding_Our_Ambitions
+		icon = GFX_2d_3d_switch
+		x = 13
+		y = 25
+
+		Prerequisite = {focus = Moscow_Coup }
+		
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
 
 	focus = {
-		id = SOV_yazov_our_hands_free_in_north
-		icon = GFX_focus_SOV_Our_Hands_Free_in_the_North
-		x = 10
+		id = Look_To_Our_West
+		icon = GFX_2d_3d_switch
+		x = 13
+		y = 26
+
+		prerequisite = {focus = Expanding_Our_Ambitions }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = Start_Extreme_Planning
+		icon = GFX_2d_3d_switch
+		x = 12
+		y = 27
+
+		prerequisite = {focus = Look_To_Our_West }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = Prepare_The_Inevinable
+		icon = GFX_2d_3d_switch
+		x = 14
+		y = 27
+
+		prerequisite = {focus = Look_To_Our_West }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = Restore_Eaestern_Europe
+		icon = GFX_2d_3d_switch
+		x = 13
+		y = 28
+
+		prerequisite = {focus = Start_Extreme_Planning }
+		prerequisite = {focus = Prepare_The_Inevinable }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = Isolate_The_Czechs
+		icon = GFX_focus_SOV_isolate_czech
+		x = 13
+		y = 29
+
+		prerequisite = {focus = Restore_Eaestern_Europe }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = Declare_Putin_A_Tsar
+		icon = GFX_2d_3d_switch
+		x = 13
+		y = 30
+
+		prerequisite = {focus = Isolate_The_Czechs }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = Eleminating_Remaining_Soviets
+		icon = GFX_2d_3d_switch
+		x = 13
+		y = 31
+
+		prerequisite = {focus = Declare_Putin_A_Tsar }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = Tsar_Of_All_Euraisians
+		icon = GFX_2d_3d_switch
+		x = 13
+		y = 32
+
+		prerequisite = {focus = Eleminating_Remaining_Soviets }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = War_Plan_Bear
+		icon = GFX_2d_3d_switch
+		x = 17
 		y = 21
 
-		prerequisite = {focus = SOV_yazov_a_super_power_again focus = SOV_yazov_not_yet}
+		prerequisite = {focus = A_Change_In_Course }
 
-		
-		
 		cost = 4
 		ai_will_do = {
 			factor = 1
@@ -824,24 +1010,17 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		
-		
-		completion_reward = {
-			country_event = {id = ussr.15}
-			
-		}
+		completion_reward = { }
 	}
-	
+
 	focus = {
-		id = SOV_yazov_avange_winter
-		icon = GFX_focus_SOV_winter_war
-		x = 10
+		id = Conquer_Mongolia
+		icon = GFX_2d_3d_switch
+		x = 17
 		y = 22
-		
 
-		prerequisite = {focus = SOV_yazov_our_hands_free_in_north}
+		prerequisite = {focus = War_Plan_Bear }
 
-		
-		
 		cost = 4
 		ai_will_do = {
 			factor = 1
@@ -852,23 +1031,17 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		
-		
-		completion_reward = {
-			
-			create_wargoal = { type = puppet_wargoal_focus target = FIN }
-		}
+		completion_reward = { }
 	}
-	
+
 	focus = {
-		id = SOV_yazov_da_molotoff
-		icon = GFX_focus_SOV_Da_Molotoff
-		x = 10
+		id = Iran_Incursion
+		icon = GFX_2d_3d_switch
+		x = 17
 		y = 23
 
-		prerequisite = {focus = SOV_yazov_avange_winter}
-		available = { FIN = {is_puppet_of = SOV }}
-		
-		
+		prerequisite = {focus = Conquer_Mongolia }
+
 		cost = 4
 		ai_will_do = {
 			factor = 1
@@ -879,23 +1052,17 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		
-		
-		completion_reward = {
-			country_event = {id = ussr.16}
-			
-		}
+		completion_reward = { }
 	}
-	
+
 	focus = {
-		id = SOV_yazov_blocade_swedes
-		icon = GFX_focus_SOV_blockade_sweden
-		x = 10
+		id = Against_The_Red_Dragon
+		icon = GFX_2d_3d_switch
+		x = 17
 		y = 24
 
-		prerequisite = {focus = SOV_yazov_da_molotoff}
+		prerequisite = {focus = Iran_Incursion }
 
-		
-		
 		cost = 4
 		ai_will_do = {
 			factor = 1
@@ -906,16 +1073,177 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		
-		
-		completion_reward = {
-			add_opinion_modifier = { target = SWE modifier = large_decrase }
-			SWE = {
-			add_ideas = ussr_embargo
-			}
-			
-		}
+		completion_reward = { }
 	}
-	
+
+	focus = {
+		id = The_Korean_Traitors
+		icon = GFX_2d_3d_switch
+		x = 17
+		y = 25
+
+		prerequisite = {focus = Against_The_Red_Dragon }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = The_Russian_Ghengis_Khan
+		icon = GFX_2d_3d_switch
+		x = 17
+		y = 26
+
+		prerequisite = {focus = The_Korean_Traitors }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = Our_Eternal_Enimies
+		icon = GFX_2d_3d_switch
+		x = 17
+		y = 27
+
+		prerequisite = {focus = The_Russian_Ghengis_Khan }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = Ready_The_Army
+		icon = GFX_2d_3d_switch
+		x = 17
+		y = 28
+
+		prerequisite = {focus = Our_Eternal_Enimies }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = More_Production
+		icon = GFX_2d_3d_switch
+		x = 17
+		y = 29
+
+		prerequisite = {focus = Ready_The_Army }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = Unleash_The_Hoard
+		icon = GFX_2d_3d_switch
+		x = 17
+		y = 30
+
+		prerequisite = {focus = More_Production }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = Eurasia_Victorious
+		icon = GFX_2d_3d_switch
+		x = 17
+		y = 31
+
+		prerequisite = {focus = Unleash_The_Hoard }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
+	focus = {
+		id = Eurasia_Forever
+		icon = GFX_2d_3d_switch
+		x = 15
+		y = 33
+		prerequisite = {focus = Eurasia_Victorious }
+		prerequisite = {focus = Tsar_Of_All_Euraisians }
+
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		completion_reward = { }
+	}
+
 	focus = {
 		id = Isolate_Chezchs_Republic
 		icon = GFX_focus_SOV_isolate_czech
@@ -976,7 +1304,6 @@ focus_tree = {
 	focus = {
 		id = Reform_Soviet_Communism
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 7
 		y = 21
 
@@ -997,7 +1324,6 @@ focus_tree = {
 	focus = {
 		id = Expand_The_Bureaucracy
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 7
 		y = 22
 
@@ -1041,7 +1367,6 @@ focus_tree = {
 	focus = {
 		id = Tolerate_Party_Corruption
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 7
 		y = 24
 
@@ -1063,7 +1388,6 @@ focus_tree = {
 	focus = {
 		id = Looking_West
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 7
 		y = 25
 
@@ -1085,7 +1409,6 @@ focus_tree = {
 	focus = {
 		id = Preparing_for_The_Invitable
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 6
 		y = 26
 
@@ -1106,7 +1429,6 @@ focus_tree = {
 	focus = {
 		id = Extreme_Planning
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 8
 		y = 26
 
@@ -1128,7 +1450,6 @@ focus_tree = {
 	focus = {
 		id = Red_Sun_Over_Europe
 		icon = GFX_focus_SOV_super_power
-		cost = x
 		x = 7
 		y = 27
 
@@ -1151,7 +1472,6 @@ focus_tree = {
 	focus = {
 		id = Warsaw_Pact_Reborn
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 7
 		y = 28
 
@@ -1201,7 +1521,6 @@ focus_tree = {
 	focus = {
 		id = Focus_On_The_East
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 7
 		y = 30
 
@@ -1223,7 +1542,6 @@ focus_tree = {
 	focus = {
 		id = The_Iranian_Issue
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 7
 		y = 31
 
@@ -1245,7 +1563,6 @@ focus_tree = {
 	focus = {
 		id = Ending_The_Islamic_Republic
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 7
 		y = 32
 
@@ -1267,7 +1584,6 @@ focus_tree = {
 	focus = {
 		id = Oil_Secured
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 7
 		y = 33
 
@@ -1290,7 +1606,6 @@ focus_tree = {
 	focus = {
 		id = Toward_A_Better_Future
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 5
 		y = 34
 
@@ -1313,7 +1628,6 @@ focus_tree = {
 	focus = {
 		id = The_Student_Protest
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 3
 		y = 21
 
@@ -1335,7 +1649,6 @@ focus_tree = {
 	focus = {
 		id = Screw_Talks_Shoot_Them_Down
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 3
 		y = 22
 
@@ -1357,7 +1670,6 @@ focus_tree = {
 	focus = {
 		id = Crush_The_Liberals
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 3
 		y = 23
 
@@ -1379,7 +1691,6 @@ focus_tree = {
 	focus = {
 		id = Increase_Ties_With_The_Warsaw_Pact
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 3
 		y = 24
 
@@ -1401,9 +1712,8 @@ focus_tree = {
 	focus = {
 		id = Detante_With_The_Usa
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 3
-		y = 24
+		y = 25
 
 		prerequisite = {focus = Increase_Ties_With_The_Warsaw_Pact }
 
@@ -1423,9 +1733,8 @@ focus_tree = {
 	focus = {
 		id = Detante_With_Nato
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 2
-		y = 25
+		y = 26
 
 		prerequisite = {focus = Detante_With_The_Usa }
 
@@ -1445,9 +1754,8 @@ focus_tree = {
 	focus = {
 		id = Old_Enemies_New_Partners?
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 4
-		y = 25
+		y = 26
 
 		prerequisite = {focus = Detante_With_The_Usa }
 
@@ -1467,9 +1775,8 @@ focus_tree = {
 	focus = {
 		id = Easing_World_Tensions
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 3
-		y = 26
+		y = 27
 
 		prerequisite = {focus = Detante_With_Nato }
 		prerequisite = {focus = Old_Enemies_New_Partners? }
@@ -1480,8 +1787,7 @@ focus_tree = {
 		id = The_Wiena_Summit
 		icon = GFX_focus_SOV_not_yet
 		x = 3
-		y = 27
-
+		y = 28
 		prerequisite = {focus = Easing_World_Tensions }
 
 		
@@ -1507,9 +1813,9 @@ focus_tree = {
 		id = Ease_The_Overmilitarisation
 		icon = GFX_focus_SOV_not_yet
 		x = 3
-		y = 28
+		y = 29
 
-		prerequisite = {focus = SOV_yazov_blocade_swedes}
+		prerequisite = {focus = The_Wiena_Summit }
 
 		
 		
@@ -1533,9 +1839,8 @@ focus_tree = {
 	focus = {
 		id = Implement_Trade_Deals
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 2
-		y = 29
+		y = 30
 
 		prerequisite = {focus = Ease_The_Overmilitarisation }
 
@@ -1555,9 +1860,8 @@ focus_tree = {
 	focus = {
 		id = Improve_Relations_With_China
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 4
-		y = 29
+		y = 30
 
 		prerequisite = {focus = Ease_The_Overmilitarisation }
 
@@ -1577,9 +1881,8 @@ focus_tree = {
 	focus = {
 		id =  Implement_More_Trade_Deals
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 3
-		y = 30
+		y = 31
 
 		prerequisite = {focus = Implement_Trade_Deals }
 		prerequisite = {focus = Improve_Relations_With_China }
@@ -1600,9 +1903,8 @@ focus_tree = {
 	focus = {
 		id = We_Got_Your_Back
 		icon = GFX_2d_3d_switch
-		cost = x
 		x = 3
-		y = 31
+		y = 32
 
 		prerequisite = {focus = Implement_More_Trade_Deals }
 
@@ -1630,6 +1932,8 @@ focus_tree = {
 		available = {
 		has_country_flag = SOV_yazov_military_time
 		}
+
+		has_completed_focus = The_Military_Question
 
 		mutually_exclusive = { }
 		
@@ -1758,7 +2062,7 @@ focus_tree = {
 		available = {
 		has_country_flag = economy_time_bois
 		}
-
+			has_completed_focus = Matters_Of_The_Economy
 		mutually_exclusive = { }
 		
 		cost = 3
