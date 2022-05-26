@@ -11,6 +11,13 @@ add_ideas = IRQ_oil_producers
 
 recruit_character = IRQ_saddam_hussein
 recruit_character = IRQ_walter_withe
+recruit_character = IRQ_babaker_zebari
+recruit_character = IRQ_abud_qanbar
+recruit_character = IRQ_ahmad_hashim
+recruit_character = IRQ_sultan
+recruit_character = IRQ_ali_al-majid 
+recruit_character = IRQ_saddam_hussein_general
+recruit_character = IRQ_tariq_aziz13
 
 set_politics = {
 	ruling_party = fascism

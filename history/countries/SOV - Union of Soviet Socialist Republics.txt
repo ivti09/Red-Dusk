@@ -88,9 +88,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
+	democratic = 5
+	fascism = 10
+	communism = 85
 }
 
 add_ideas = SOV_memories_of_perestroika
@@ -102,6 +102,7 @@ add_ideas = SOV_rising_separatism
 
 recruit_character = SOV_gennady_yanayev
 recruit_character = SOV_dmitry_yazov
+recruit_character = SOV_dmitry_yazov_general
 recruit_character = SOV_anatoly_chernyaev
 recruit_character = SOV_boris_pugo
 recruit_character = SOV_mikhail_gorbachev
@@ -126,6 +127,13 @@ recruit_character = SOV_vladimir_korolyov
 recruit_character = SOV_valery_gerasimov
 recruit_character = SOV_vladimir_boldyrev
 recruit_character = SOV_vladimir_kuroyedov
+recruit_character = SOV_vladimir_vysotsky
+recruit_character = SOV_vladislav_achalov
+recruit_character = SOV_vladimir_kuroyedov
+recruit_character = SOV_dmitry_bulgakov
+recruit_character = SOV_sergey_surovikin
+recruit_character = SOV_anatoly_kornukov
+recruit_character = SOV_viktor_kazantsev
 
 create_faction = "Moscow Accord"
 SOV = {

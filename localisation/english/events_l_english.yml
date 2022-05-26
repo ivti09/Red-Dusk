@@ -260,3 +260,19 @@
  vin.1.t:0 "New Millennium"
  vin.1.d:0 "Decades of war and embargo have made our country one of the most backward and poorest countries in the world. However, this has changed since the 6th Party Congress. With the "Doi Moi" policy, a series of socio-economic reforms have been implemented that have slowly brought our country from the ashes. Now, Vietnam enters the new millennium with the head held high and full of hope. It's a long road, but the future is certainly bright."
  vin.1.a:0 "The future is here!"
+
+
+ #IRQ#
+
+ irq.1.t:0 "A Nation of Snakes"
+ irq.1.d:0 "It was a very quiet morning on the guard duty for a young soldier Ahmed. He joined the Iraqi Army following the footsteps of his father, who was a soldier during both the Iran-Iraq War and the Gulf War.\n\nAhmed was quietly eating his breakfast in a trench outside the brigade HQ when an unexpected explosion erupted near him. In a moment his whole world went quiet while he was trying to realise what had happened. He could see people in civilian clothes with guns opening fire on the brigade HQ. He could also see his fellow soldiers firing back or getting killed in the process. But he just stood there, almost like he was frozen in time, until his fellow soldier pulled him down into the trench. He couldn't see much but he could hear an intense firefight.\n\nIt probably lasted less than 10 minutes but to him it seemed like an eternity. And then it stopped. The terrorists ran away on their pickup trucks. They were Kurdish terrorists, again. It almost seemed that the northern region of Iraq could never catch a break.\n\nAhmed just stared into the distance until the soldier besides him finally spoke..."
+ irq.1.a:0 "Welcome to hell son..."
+ irq.2.t:0 "The Inspection"
+ irq.2.d:0 ""Attention!"\n\nAs soon as the sergeant's words rang out, a small formation of soldiers lined up for before him. Besides him stood a major, who was there for an unexpected inspection. And he had what to see. A half filled platoon of untrained, unequipped and probably still half asleep soldiers.\n\nInspecting further he could even see that the weapons they carried were quite old and not properly cleaned. He wanted to complain but he just sighed, he knew that if he started talking about everything that was wrong he probably wouldn't leave for a good few hours. Even the sergeant noticed the major displeased look. And after going trough a regular inspection and holding a small overused speech about soldier's duty, the major and sergeant talked inside the base HQ.\n\n"I know that we are not in the best shape bu-" - Sergeant was cut off\n\n"No need to explain. I have seen the same thing happen in all other bases I have inspected. Hell, even the armoured divisions aren't doing good these days." - Major said, obviously tired and disappointed.\n\n"It is very hard to keep the army in shape when we are sanctioned by most of the world and have a crippled economy." - Major continued.\n\n"Hopefully it will be better, perhaps an army reform is coming..." - Sergeant answered briefly."
+ irq.2.a:0 "I hope so..."
+ irq.3.t:0 "Placeholder"
+ irq.3.d:0 "and ??"
+ irq.3.a:0 "placeholder"
+ irq.4.t:0 "Placeholder"
+ irq.4.d:0 "and ??"
+ irq.4.a:0 "placeholder"

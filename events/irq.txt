@@ -1,0 +1,32 @@
+add_namespace = irq
+
+#kurds#
+country_event = {
+	id = irq.1
+	title = irq.1.t
+	desc = irq.1.d
+	picture = GFX_report_event_IRQ_kurds
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.1.a
+		add_political_power = 10
+		add_stability = -0.05
+	}
+}
+#army#
+country_event = {
+	id = irq.2
+	title = irq.2.t
+	desc = irq.2.d
+	picture = GFX_report_event_IRQ_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.2.a
+		add_political_power = -10
+		army_experience = 10
+	}
+}

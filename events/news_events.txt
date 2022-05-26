@@ -34,3 +34,18 @@ news_event = {
 		name = old_times_news.2.a
 	}
 }
+
+news_event = {
+	id = old_times_news.3
+	title = old_times_news.3.t
+	desc = old_times_news.3.d
+	picture = GFX_news_yazov
+	
+	major = yes
+	
+	is_triggered_only = yes
+	is_triggered_once = yes
+	option ={
+		name = old_times_news.3.a
+	}
+}
