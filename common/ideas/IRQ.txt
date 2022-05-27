@@ -3,7 +3,7 @@ ideas = {
 	country = {
 	
 		IRQ_western_embargo = {
-			name = IRQ_western_embargo_name
+			name = IRQ_embargo_name
 
 			removal_cost = -1
 
@@ -22,7 +22,7 @@ ideas = {
 		}
 		
 		IRQ_western_embargo_2 = {
-			name = IRQ_western_embargo_name
+			name = IRQ_embargo_name
 
 			removal_cost = -1
 
@@ -42,7 +42,7 @@ ideas = {
 		}
 		
 		IRQ_kurdish_rebels = {
-			name = IRQ_kurdish_rebels_name
+			name = IRQ_kurds_name
 
 			removal_cost = -1
 
@@ -61,7 +61,7 @@ ideas = {
 		}
 		
 		IRQ_disorganized_army = {
-			name = IRQ_disorganized_army_name
+			name = IRQ_broken_army_name
 
 			removal_cost = -1
 
@@ -80,7 +80,7 @@ ideas = {
 		}
 		
 		IRQ_disorganized_army_2 = {
-			name = IRQ_disorganized_army_name
+			name = IRQ_broken_army_name
 
 			removal_cost = -1
 
@@ -105,7 +105,7 @@ ideas = {
 		}
 		
 		IRQ_disorganized_army_3 = {
-			name = IRQ_disorganized_army_name
+			name = IRQ_broken_army_name
 
 			removal_cost = -1
 
@@ -131,7 +131,7 @@ ideas = {
 		}
 		
 		IRQ_disorganized_army_4 = {
-			name = IRQ_disorganized_army_name
+			name = IRQ_broken_army_name
 
 			removal_cost = -1
 
@@ -158,7 +158,7 @@ ideas = {
 		}
 		
 		IRQ_reorganized_army = {
-			name = IRQ_reorganized_army_name
+			name = IRQ_better_army_name
 
 			removal_cost = -1
 
