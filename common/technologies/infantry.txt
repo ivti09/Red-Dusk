@@ -22,7 +22,16 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 3
+
+			modifier = {
+				factor = 6
+				is_major = yes
+			}
+			modifier = {
+				factor = 10
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -51,7 +60,16 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 3
+
+			modifier = {
+				factor = 6
+				is_major = yes
+			}
+			modifier = {
+				factor = 8
+				date > "2005.1.1"
+			}
 		}
 
 		categories = {
@@ -80,7 +98,16 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 3
+
+			modifier = {
+				factor = 6
+				is_major = yes
+			}
+			modifier = {
+				factor = 8
+				date > "2015.1.1"
+			}
 		}
 
 		categories = {
@@ -104,7 +131,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 3
+
+			modifier = {
+				factor = 6
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -131,7 +163,33 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 8
+				date > "1995.1.1"
+			}
+		}
+
+		infantry_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		heavy_infantry_unit = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		paratrooper_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		marine_unit = {
+			defense = 0.02
+			breakthrough = 0.02
 		}
 
 		categories = {
@@ -156,7 +214,33 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				date > "1995.1.1"
+			}
+		}
+
+		infantry_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		heavy_infantry_unit = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		paratrooper_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		marine_unit = {
+			defense = 0.02
+			breakthrough = 0.02
 		}
 
 		categories = {
@@ -181,7 +265,33 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				date > "2000.1.1"
+			}
+		}
+
+		infantry_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		heavy_infantry_unit = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		paratrooper_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		marine_unit = {
+			defense = 0.02
+			breakthrough = 0.02
 		}
 
 		categories = {
@@ -206,7 +316,33 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				date > "2005.1.1"
+			}
+		}
+
+		infantry_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		heavy_infantry_unit = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		paratrooper_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		marine_unit = {
+			defense = 0.02
+			breakthrough = 0.02
 		}
 
 		categories = {
@@ -231,7 +367,33 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				date > "2010.1.1"
+			}
+		}
+
+		infantry_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		heavy_infantry_unit = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		paratrooper_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		marine_unit = {
+			defense = 0.02
+			breakthrough = 0.02
 		}
 
 		categories = {
@@ -256,7 +418,33 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+			modifier = {
+				factor = 6
+				date > "2015.1.1"
+			}
+		}
+
+		infantry_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		heavy_infantry_unit = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		paratrooper_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		marine_unit = {
+			defense = 0.02
+			breakthrough = 0.02
 		}
 
 		categories = {
@@ -281,7 +469,29 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+		}
+
+		infantry_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		heavy_infantry_unit = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		paratrooper_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		marine_unit = {
+			defense = 0.02
+			breakthrough = 0.02
 		}
 
 		categories = {
@@ -301,7 +511,29 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 2
+
+			modifier = {
+				factor = 5
+				is_major = yes
+			}
+		}
+
+		infantry_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		heavy_infantry_unit = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		paratrooper_unit = {
+			defense = 0.02
+			breakthrough = 0.02
+		}
+		marine_unit = {
+			defense = 0.02
+			breakthrough = 0.02
 		}
 
 		categories = {
@@ -329,7 +561,18 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				date > "1995.1.1"
+			}
 		}
+
+		land_night_attack = 0.25
 
 		categories = {
 		}
@@ -353,7 +596,18 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 3
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				date > "1995.1.1"
+			}
 		}
+
+		land_night_attack = 0.10
 
 		categories = {
 		}
@@ -377,7 +631,22 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				tag = SOV
+			}
+			modifier = {
+				factor = 3
+				date > "2005.1.1"
+			}
 		}
+
+		land_night_attack = 0.10
 
 		categories = {
 		}
@@ -396,7 +665,18 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				tag = SOV
+			}
 		}
+
+		land_night_attack = 0.10
 
 		categories = {
 		}
@@ -420,7 +700,28 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1
+				tag = SOV
+			}
+			modifier = {
+				factor = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 3
+				date > "1995.1.1"
+			}
 		}
+
+		land_night_attack = 0.3
+		army_attack_factor = 0.1
+		army_defence_factor = 0.1
 
 		categories = {
 		}
@@ -444,7 +745,28 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1
+				tag = SOV
+			}
+			modifier = {
+				factor = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 3
+				date > "2005.1.1"
+			}
 		}
+
+		land_night_attack = 0.1
+		army_attack_factor = 0.025
+		army_defence_factor = 0.025
 
 		categories = {
 		}
@@ -468,7 +790,28 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1
+				tag = SOV
+			}
+			modifier = {
+				factor = 3
+				tag = USA
+			}
+			modifier = {
+				factor = 3
+				date > "2015.1.1"
+			}
 		}
+
+		land_night_attack = 0.1
+		army_attack_factor = 0.025
+		army_defence_factor = 0.025
 
 		categories = {
 		}
@@ -487,7 +830,16 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
 		}
+
+		land_night_attack = 0.1
+		army_attack_factor = 0.025
+		army_defence_factor = 0.025
 
 		categories = {
 		}
@@ -517,6 +869,15 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -546,6 +907,15 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -575,6 +945,15 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				date > "2010.1.1"
+			}
 		}
 
 		categories = {
@@ -599,6 +978,11 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -630,6 +1014,15 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -659,6 +1052,15 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 4
+				date > "1995.1.1"
+			}
 		}
 
 		categories = {
@@ -688,6 +1090,15 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 3
+				date > "2010.1.1"
+			}
 		}
 
 		categories = {
@@ -712,6 +1123,11 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -754,7 +1170,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
+
+			modifier = {
+				factor = 1
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -784,7 +1205,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
+
+			modifier = {
+				factor = 1
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -814,7 +1240,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
+
+			modifier = {
+				factor = 1
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -839,7 +1270,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
+
+			modifier = {
+				factor = 1
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -880,7 +1316,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
+
+			modifier = {
+				factor = 1
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -910,7 +1351,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
+
+			modifier = {
+				factor = 1
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -940,7 +1386,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
+
+			modifier = {
+				factor = 1
+				is_major = yes
+			}
 		}
 
 		categories = {
@@ -965,7 +1416,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
+
+			modifier = {
+				factor = 1
+				is_major = yes
+			}
 		}
 
 		categories = {

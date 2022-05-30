@@ -39,11 +39,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_menu_dev_version"
-		texturefile = "gfx/interface/menu_dev_version.dds"
-	}
-
-	spriteType = {
 		name = "GFX_frontend_dev_logo"
 		texturefile = "gfx/interface/pdx_dev_logo.dds"
 	}

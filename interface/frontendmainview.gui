@@ -36,11 +36,6 @@ guiTypes = {
 			spriteType = "GFX_frontend_game_logo"
 			position = { x= 20 y = 20 }
 		}
-		iconType = {
-			name ="menu_dev_version"
-			spriteType = "GFX_menu_dev_version"
-			position = { x= 895 y = 290 }
-		}
 		
 	}
 

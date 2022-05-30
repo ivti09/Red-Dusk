@@ -1583,5 +1583,17 @@ spriteTypes = {
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}
+	spriteType = {
+		name = "GFX_unit_infantry_unit_icon_small"
+		texturefile = "gfx/texticons/unit_infantry_unit_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+	spriteType = {
+		name = "GFX_unit_heavy_infantry_unit_icon_small"
+		texturefile = "gfx/texticons/unit_heavy_infantry_unit_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
 
 }
