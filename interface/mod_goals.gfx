@@ -403,7 +403,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_fate"
-		texturefile = "gfx/interface/goals/focu_SOV_their_fate.png"
+		texturefile = "gfx/interface/goals/SOV_prepare_for_fate.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_foreign_policy"
