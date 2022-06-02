@@ -60,7 +60,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_great_industry"
-		texturefile = "gfx/interface/goals/focus_SOV_great_industry.png"
+		texturefile = "gfx/interface/goals/SOV_great_industry.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_infrastructure_initiative"
@@ -144,7 +144,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_crush_lith"
-		texturefile = "gfx/interface/goals/focus_SOV_crush_lith.png"
+		texturefile = "gfx/interface/goals/crush_lith.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_crackdown_ukraine"
