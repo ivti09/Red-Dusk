@@ -1,21 +1,22 @@
-#####DOESN'T NEED TO BE IN ALPHABETICAL ORDER#####
-
-
-#####DOESN'T NEED TO BE IN ALPHABETICAL ORDER#####
+##### NEED TO BE IN ALPHABETICAL ORDER#####
 
 
 # SUCMP:
-music ={
-	name = "Auferstanden_aus_Ruinen"
-	file = "Auferstanden_aus_Ruinen.ogg"
+music = {
+	name = "American_Idiot"
+	file = "American_Idiot.ogg"
 }
 music = {
 	name = "An_Escalation"
 	file = "An_Escalation.ogg"
 }
+music ={
+	name = "Auferstanden_Aus_Ruinen"
+	file = "Auferstanden_Aus_Ruinen.ogg"
+}
 music = {
-	name = "battle_hymn_of_the_republic"
-	file = "battle_hymn_of_the_republic.ogg"
+	name = "Battle_Hymn_Of_The_Republic"
+	file = "Battle_Hymn_Of_The_Republic.ogg"
 }
 music = {
 	name = "Campaign_Brief"
@@ -34,12 +35,12 @@ music = {
 	file = "Defcon_3.ogg"
 }
 music = {
-	name = "Eto_govorim_my"
-	file = "Eto_govorim_my.ogg"
+	name = "Eto_Govorim_My"
+	file = "Eto_Govorim_My.ogg"
 }
 music = {
 	name = "Everybody_Wants_To_Rule_The_World_(extended)"
-	file = "Everybody_Wants_To_Rule_The_World_extended.ogg"
+	file = "Everybody_Wants_To_Rule_The_World_(extended).oog"
 }
 music = {
 	name = "Freestyle_Goodbye_Forever"
@@ -54,20 +55,24 @@ music = {
 	file = "Internationale.ogg"
 }
 music = {
+	name = "Interstate_Love_Song"
+	file = "Interstate_Love_Song.ogg"
+}
+music = {
 	name = "Invincible_And_Legendary"
 	file = "Invincible_And_Legendary.ogg"
 }
 music = {
 	name = "It's_Our_Time,_Our_Turn!"
-	file = "It's_our_time,_our_turn!.oog"
+	file = "It's_Our_Time,_Our_turn!.oog"
 }
 music = {
 	name = "Karavan"
 	file = "Karavan.ogg"
 }
 music = {
-	name = "Kerber-Ratne_igre"
-	file = "Kerber-Ratne_igre.ogg"
+	name = "Kerber-Ratne_Igre"
+	file = "Kerber-Ratne_Igre.ogg"
 }
 music = {
 	name = "Lenin_Is_Young_Again"
@@ -95,7 +100,7 @@ music = {
 }
 music = {
 	name = "Owner_Of_A_Lonely_Heart_(extended)"
-	file = "Owner_Of_A_Lonely_Heart_(extended).ogg"
+	file = "Owner_Of_A_Lonely_Heart_(extended)"
 }
 music = {
 	name = "Plan_in_Motion"
@@ -106,20 +111,24 @@ music = {
 	file = "Polyushka_Polye.ogg"
 }
 music = {
-	name = "Prljavo_Kazaliste_Ne_zovi_mama_doktora"
-	file = "Prljavo_Kazaliste_Ne_zovi_mama_doktora.ogg"
+	name = "Prljavo_Kazaliste_Ne_Zovi_Mama_Doktora"
+	file = "Prljavo_Kazaliste_Ne_Zovi_Mama_Doktora.ogg"
 }
 music = {
 	name = "Sacred_War"
 	file = "Sacred_War.ogg"
 }
 music = {
+	name = "Seven_Nation_Army"
+	file = "Seven_Nation_Army.ogg"
+}
+music = {
 	name = "Smash_Mouth_All_Star"
 	file = "Smash_Mouth_All_Star.ogg"
 }
 music = {
-	name = "Soviet_Anthem_pop_version"
-	file = "Soviet_Anthem_pop_version.ogg"
+	name = "Soviet_Anthem_(Pop_Version)"
+	file = "Soviet_Anthem_(Pop_Version).ogg"
 }
 music = {
 	name = "Space_Forces"
@@ -131,7 +140,7 @@ music = {
 }
 music = {
 	name = "Summer_Is_Ending"
-	file = "Summer_is_ending.ogg"
+	file = "Summer_is_ending.oog"
 }
 music = {
 	name = "Swallowing_Dust"
