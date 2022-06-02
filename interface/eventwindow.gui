@@ -488,7 +488,7 @@ guiTypes = {
 			iconType = {
 				name ="event_picture"
 				spriteType = "GFX_news_event_001"
-				position = { x = 66 y = 130 }
+				position = { x = 26 y = 125 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
@@ -496,19 +496,19 @@ guiTypes = {
 			iconType = {
 				name ="event_picture_overlay"
 				spriteType = "GFX_event_news_pic_overlay"
-				position = { x = 66 y = 130 }
+				position = { x = 26 y = 125 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}			
 			
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 18 y = 300 }
+				position = { x = 245 y = 125 }
 				font = "hoi4_typewriter22"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
-				maxWidth = 490
-				maxHeight = 32
+				maxWidth = 260
+				maxHeight = 40
 				format = centre
 			}
 			
@@ -528,13 +528,13 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 66 y = 335 }
+				position = { x = 253 y = 175 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 400
-				maxHeight = 300
-				format = left
+				maxWidth = 240
+				maxHeight = 450
+				format = centre
 			}	
 		}			
 

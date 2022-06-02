@@ -120,4 +120,11 @@ spriteTypes = {
 		name = "GFX_report_event_VIN_new_age"
 		texturefile = "gfx/event_pictures/VIN/vin.1.png"
 	}
+
+	## WORLD NEWS ##
+
+	spriteType = {
+		name = "GFX_news_yanayev"
+		texturefile = "gfx/event_pictures/news_event_yazov.dds"
+	}
 }
