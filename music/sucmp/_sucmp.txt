@@ -4,7 +4,23 @@ music_station = "SUCMP"
 
 
 music = {
-	song = "Auferstanden_aus_Ruinen"
+	song = "American_Idiot"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "An_Escalation"
+	chance ={
+		modifier = {
+			factor =1
+		}
+	}
+}
+music = {
+	song = "Auferstanden_Aus_Ruinen"
 	chance = {
 		modifier = {
 			factor = 1
@@ -52,7 +68,7 @@ music = {
 	}
 }
 music = {
-	song = "Everybody_Wants_To_Rule_The_World_extended"
+	song = "Everybody_Wants_To_Rule_The_World_(extended)"
 	chance = {
 		modifier = {
 			factor = 1
@@ -60,15 +76,7 @@ music = {
 	}
 }
 music = {
-	song = "An_Escalation"
-	chance = {
-		modifier = {
-			factor = 1
-		}
-	}
-}
-music = {
-	song = "Eto_govorim_my"
+	song = "Eto_Govorim_My"
 	chance = {
 		modifier = {
 			factor = 1
@@ -100,6 +108,14 @@ music = {
 	}
 }
 music = {
+	song = "Interstate_Love_Song"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "Invincible_And_Legendary"
 	chance = {
 		modifier = {
@@ -116,7 +132,7 @@ music = {
 	}
 }
 music = {
-	song = "Kerber-Ratne_igre"
+	song = "Kerber-Ratne_Igre"
 	chance = {
 		modifier = {
 			factor = 1
@@ -195,7 +211,7 @@ music = {
 	}
 }
 music = {
-	song = "Prljavo_Kazaliste_Ne_zovi_mama_doktora"
+	song = "Prljavo_Kazaliste_Ne_Zovi_Mama_Doktora"
 	chance = {
 		modifier = {
 			factor = 1
@@ -211,7 +227,7 @@ music = {
 	}
 }
 music = {
-	song = "Soviet_Anthem_pop_version"
+	song = "Soviet_Anthem_Pop_version"
 	chance = {
 		modifier = {
 			factor = 1
@@ -223,6 +239,14 @@ music = {
 	chance = {
 		modifier = {
 			factor = 1
+		}
+	}
+}
+music = {
+	song = "Stop_This_Train"
+	chance = {
+		modifier = {
+			factor =1
 		}
 	}
 }
