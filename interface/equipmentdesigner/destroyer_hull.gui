@@ -2,9 +2,9 @@
 
 guiTypes = {
 
-	################# Equipment Archetype: corvette_hull #################
+	################# Equipment Archetype: destroyer_hull #################
 	containerWindowType = {
-		name = "equipment_designer_corvette_hull"
+		name = "equipment_designer_destroyer_hull"
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x=0 y=0 }
 		size = { width=512 height=260 }
@@ -16,7 +16,7 @@ guiTypes = {
 
 		iconType = {
 			name = "equipment_image"
-			spriteType = "GFX_SD_tv_corvette"
+			spriteType = "GFX_SD_tv_destroyer"
 			position = { x=0 y=0 }
 		}
 
@@ -74,6 +74,13 @@ guiTypes = {
 				size = { width=100% height=100% }
 			}
 
+			################# MODULE SLOT: Rear Cannon #################
+			containerWindowType = {
+				name = "custom_ship_rear_cannon_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			}
+
 			################# MODULE SLOT: Custom #1 #################
 			containerWindowType = {
 				name = "custom_slot_1"
@@ -91,6 +98,13 @@ guiTypes = {
 			################# MODULE SLOT: Custom #3 #################
 			containerWindowType = {
 				name = "custom_slot_3"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			}
+
+			################# MODULE SLOT: Custom #4 #################
+			containerWindowType = {
+				name = "custom_slot_4"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 			}

@@ -158,4 +158,252 @@ SOV = {
 # Naval Variants #
 if = {
 	limit = { has_dlc = "Man the Guns" }
+
+	# Corvette #
+	create_equipment_variant = {
+		name = "Test Corvette"
+		type = corvette_hull_1
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
+	}
+
+	# Destroyer #
+	create_equipment_variant = {
+		name = "Test Destroyer"
+		type = destroyer_hull_1
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+			custom_slot_4 = empty
+			custom_ship_rear_cannon_slot = empty
+		}
+	}
+
+	# Cruiser #
+	create_equipment_variant = {
+		name = "Test Cruiser"
+		type = cruiser_hull_1
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = large_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+			custom_slot_4 = empty
+			custom_slot_5 = empty
+			custom_ship_rear_cannon_slot = empty
+		}
+	}
+
+	# Battlecruiser #
+	create_equipment_variant = {
+		name = "Test Battlecruiser"
+		type = battlecruiser_hull_1
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = large_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+			custom_slot_4 = empty
+			custom_slot_5 = empty
+			custom_ship_aviation_slot = empty
+		}
+	}
+
+	# Battleship #
+	create_equipment_variant = {
+		name = "Test Battleship"
+		type = battleship_hull_1
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = large_surface_engine_diesel_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_armor_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_heavy_battery_slot_1 = empty
+			custom_slot_1 = cruise_missile_1
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+			custom_slot_4 = empty
+			custom_ship_heavy_battery_slot_2 = empty
+			custom_ship_aviation_slot = empty
+		}
+	}
+
+	# Carrier #
+	create_equipment_variant = {
+		name = "Test Carrier early"
+		type = carrier_hull_1
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = large_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_custom_slot = empty
+			custom_ship_ramp_slot = ship_carrier_flat
+			custom_ship_hangar_slot_1 = ship_carrier_hangar_1
+			custom_ship_hangar_slot_2 = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_ship_aviation_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Test Carrier late"
+		type = carrier_hull_3
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = large_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_custom_slot = empty
+			custom_ship_ramp_slot = ship_carrier_skijump
+			custom_ship_hangar_slot_1 = ship_carrier_hangar_1
+			custom_ship_hangar_slot_2 = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_ship_aviation_slot_1 = empty
+			custom_ship_aviation_slot_2 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Dead Carrier1"
+		type = carrier_hull_3
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = large_surface_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_custom_slot = empty
+			custom_ship_ramp_slot = ship_carrier_catapult_steam_1
+			custom_ship_hangar_slot_1 = ship_carrier_hangar_1
+			custom_ship_hangar_slot_2 = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_ship_aviation_slot_1 = empty
+			custom_ship_aviation_slot_2 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Dead Carrier2"
+		type = carrier_hull_2
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = empty
+			fixed_ship_engine_slot = empty
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_custom_slot = empty
+			custom_ship_ramp_slot = empty
+			custom_ship_hangar_slot_1 = empty
+			custom_ship_hangar_slot_2 = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_ship_aviation_slot_1 = empty
+			custom_ship_aviation_slot_2 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Dead Carrier3"
+		type = carrier_hull_3
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = large_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_custom_slot = empty
+			custom_ship_ramp_slot = ship_carrier_catapult_steam_3
+			custom_ship_hangar_slot_1 = ship_carrier_hangar_1
+			custom_ship_hangar_slot_2 = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_ship_aviation_slot_1 = empty
+			custom_ship_aviation_slot_2 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Dead Carrier4"
+		type = carrier_hull_4
+		#name_group = 
+		parent_version = 0
+		modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = large_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_custom_slot = empty
+			custom_ship_ramp_slot = ship_carrier_catapult_electromagnetic
+			custom_ship_hangar_slot_1 = ship_carrier_hangar_1
+			custom_ship_hangar_slot_2 = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_ship_aviation_slot_1 = empty
+			custom_ship_aviation_slot_2 = empty
+		}
+	}
 }

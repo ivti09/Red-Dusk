@@ -10,14 +10,106 @@ equipments = {
 		priority = 2500
 
 		upgrades = {
+			ship_torpedo_upgrade
+			destroyer_engine_upgrade
+			ship_ASW_upgrade
+			ship_anti_air_upgrade
 		}
 		
-		interface_category = interface_category_other_ships
+		interface_category = interface_category_screen_ships
 
 		module_slots = {
+			fixed_ship_systems_slot = {
+				required = yes
+				allowed_module_categories = { surface_ship_systems }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { small_surface_ship_engine }
+			}
+			fixed_ship_sonar_slot = {
+				required = no
+				allowed_module_categories = { sub_ship_sonar }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_defensive_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					ship_sam_missile
+					ship_ciws
+					ship_anti_air
+				}
+			}
+			fixed_ship_defensive_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_sam_missile
+					ship_ciws
+					ship_anti_air
+				}
+			}
+			fixed_ship_aviation_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_helicopter }
+			}
+			custom_ship_cannon_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_gun }
+			}
+			custom_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+					ship_aswrl
+					ship_depth_charges
+				}
+			}
+			custom_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+					ship_torpedo_surface
+				}
+			}
+			custom_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+					ship_sam_missile
+					ship_ciws
+				}
+			}
+			custom_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					ship_aswrl
+					ship_depth_charges
+					ship_mine_warfare
+				}
+			}
+			custom_ship_rear_cannon_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_gun }
+			}
 		}
 		
 		default_modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+			custom_slot_4 = empty
+			custom_ship_rear_cannon_slot = empty
 		}
 		
 		build_cost_ic = 220

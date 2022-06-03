@@ -123,8 +123,13 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_battlecruiser_hull_1980_medium"
+		name = "GFX_battlecruiser_hull_1_medium"
 		texturefile = "gfx/interface/technologies/battlecruiser_hull_1980.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_battleship_hull_1_medium"
+		texturefile = "gfx/interface/technologies/battleship_hull_1940.dds"
 	}
 
 	SpriteType = {
@@ -638,6 +643,62 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SMI_naval_helicopter_4"
 		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/naval_helicopter_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SMI_ship_armor"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_thick_icn.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_ship_armor_1"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/armor_thick_icn_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SMI_ship_heavy_battery"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/heavy_battery_icn.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_ship_heavy_battery_1"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/heavy_battery_icn_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SMI_ship_carrier_ramp"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_ramp_icn.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_ship_carrier_flat"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_flat_icn.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_ship_carrier_skijump"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_skijump_icn.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_ship_carrier_catapult_steam_1"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_steam_catapult_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_ship_carrier_catapult_steam_2"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_steam_catapult_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_ship_carrier_catapult_steam_3"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_steam_catapult_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_ship_carrier_catapult_electromagnetic"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/carrier_electromagnetic_catapult.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SMI_ship_carrier_hangar"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"
+	}
+	SpriteType = {
+		name = "GFX_SMI_ship_carrier_hangar_1"
+		texturefile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"
 	}
 
 	## Tech Tree Modules ##

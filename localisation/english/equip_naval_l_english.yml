@@ -59,3 +59,7 @@
  carrier_hull_2:1 "1980 Carrier Hull"
  carrier_hull_3:1 "2000 Carrier Hull"
  carrier_hull_4:1 "2020 Carrier Hull"
+
+ battleship_hull:0 "Battleship"
+ battleship_hull_desc:0 "Built during the height of the Second World War, battleships represented the peak of naval power and capability. However even during the war, their obsolescence would be forshadowed with the success of aircraft carriers. Now, only a few remain in mostly ceremonial service."
+ battleship_hull_1:1 "1940 Battleship Hull"

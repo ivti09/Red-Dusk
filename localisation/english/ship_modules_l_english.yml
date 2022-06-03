@@ -20,6 +20,10 @@
  EQ_MOD_CAT_ship_depth_charges_TITLE:0 "Depth Charges"
  EQ_MOD_CAT_ship_mine_warfare_TITLE:0 "Mine Warfare"
  EQ_MOD_CAT_ship_anti_air_TITLE:0 "Anti-Air Guns"
+ EQ_MOD_CAT_ship_heavy_battery_TITLE:0 "Heavy Battery"
+ EQ_MOD_CAT_ship_armor_TITLE:0 "Armor"
+ EQ_MOD_CAT_ship_carrier_ramp_TITLE:0 "Ramps"
+ EQ_MOD_CAT_ship_carrier_hangar_TITLE:0 "Hangars"
 
  ### EQUIPMENT MODULE SLOTS ###
  EQ_MOD_SLOT_fixed_ship_systems_slot_TITLE:0 "Electrical Systems Slot"
@@ -29,8 +33,11 @@
  EQ_MOD_SLOT_custom_slot_1_TITLE:0 "Custom Slot 1"
  EQ_MOD_SLOT_custom_slot_2_TITLE:0 "Custom Slot 2"
  EQ_MOD_SLOT_custom_slot_3_TITLE:0 "Custom Slot 3"
+ EQ_MOD_SLOT_custom_slot_4_TITLE:0 "Custom Slot 4"
+ EQ_MOD_SLOT_custom_slot_5_TITLE:0 "Custom Slot 5"
  EQ_MOD_SLOT_custom_ship_torpedo_slot_TITLE:0 "Torpedo Slot"
  EQ_MOD_SLOT_custom_ship_cannon_slot_TITLE:0 "Naval Cannon Slot"
+ EQ_MOD_SLOT_custom_ship_rear_cannon_slot_TITLE:0 "Naval Cannon Slot"
  EQ_MOD_SLOT_custom_sub_cruise_missile_slot_1_TITLE:0 "Cruise Missile Slot 1"
  EQ_MOD_SLOT_custom_sub_cruise_missile_slot_2_TITLE:0 "Cruise Missile Slot 2"
  EQ_MOD_SLOT_custom_sub_cruise_missile_slot_3_TITLE:0 "Cruise Missile Slot 3"
@@ -43,6 +50,16 @@
  EQ_MOD_SLOT_fixed_ship_defensive_slot_1_TITLE:0 "Defensive Slot 1"
  EQ_MOD_SLOT_fixed_ship_defensive_slot_2_TITLE:0 "Defensive Slot 2"
  EQ_MOD_SLOT_fixed_ship_aviation_slot_TITLE:0 "Aviation Slot"
+ EQ_MOD_SLOT_custom_ship_aviation_slot_TITLE:0 "Aviation Slot"
+ EQ_MOD_SLOT_custom_ship_heavy_battery_slot_1_TITLE:0 "Front Heavy Battery Slot"
+ EQ_MOD_SLOT_custom_ship_heavy_battery_slot_2_TITLE:0 "Rear Heavy Battery Slot"
+ EQ_MOD_SLOT_fixed_ship_armor_slot_TITLE:0 "Armor Slot"
+ EQ_MOD_SLOT_fixed_ship_custom_slot_TITLE:0 "Fixed Slot 1"
+ EQ_MOD_SLOT_custom_ship_ramp_slot_TITLE:0 "Ramp Slot"
+ EQ_MOD_SLOT_custom_ship_hangar_slot_1_TITLE:0 "Hangar Slot 1"
+ EQ_MOD_SLOT_custom_ship_hangar_slot_2_TITLE:0 "Hangar Slot 2"
+ EQ_MOD_SLOT_custom_ship_aviation_slot_1_TITLE:0 "Helicopter Slot 1"
+ EQ_MOD_SLOT_custom_ship_aviation_slot_2_TITLE:0 "Helicopter Slot 2"
 
  ### EQUIPMENT MODULES ###
  SHIP_DESIGNER_MODULE_SELECTION:1 "§HModule Slot:§! $NAME$\nSelect a Module:"
@@ -359,6 +376,37 @@
  anti_air_1:0 "Anti-Aircraft Gun"
  anti_air_1_short:0 "Anti-Air Gun"
  anti_air_1_desc:0 "While largely replaced by more modern Surface-to-Air Systems today, some older ships still carry traditional anti-aircraft guns."
+
+ ship_armor_1:0 "Heavy Armor"
+ ship_armor_1_short:0 "Heavy Armor"
+ ship_armor_1_desc:0 "Designed to protect capital ships during the Second World War, heavy armor is now largely obsolete, being ineffective despite its cost and weight."
+
+ ship_heavy_battery_1:0 "Heavy Battery"
+ ship_heavy_battery_1_short:0 "Heavy Battery"
+ ship_heavy_battery_1_desc:0 "Originally made to penetrate capital ship armour, these heavy guns have now been relegated mainly to shore bombardment."
+
+ ship_carrier_flat:0 "Flat Takeoff Deck"
+ ship_carrier_flat_short:0 "Flat Deck"
+ ship_carrier_flat_desc:0 "The most basic form of takeoff decks, flat decks have been in use ever since the 1920s. While being simple and cheap, these severely limit the range and carrying capacity of onboard aircraft."
+ ship_carrier_skijump:0 "Ski-jump Deck"
+ ship_carrier_skijump_short:0 "Ski-jump"
+ ship_carrier_skijump_desc:0 "A ski-jump is an upward-curved ramp on the front-end of a carrier, shortening an aircraft's takeoff distance. While being better than a flat deck, a ramp will still limit the range and carrying capacity of onboard aircraft."
+ ship_carrier_catapult_steam_1:0 "Steam Catapult Deck I"
+ ship_carrier_catapult_steam_1_short:0 "Steam Catapult I"
+ ship_carrier_catapult_steam_1_desc:0 "Steam catapults allow onboard aircraft to utilise their full capabilities, making no sacrifices in armaments or range. However, they are expensive to build and maintain, and are prone to breakdown in harsh conditions."
+ ship_carrier_catapult_steam_2:0 "Steam Catapult Deck II"
+ ship_carrier_catapult_steam_2_short:0 "Steam Catapult II"
+ ship_carrier_catapult_steam_2_desc:0 "Steam catapults allow onboard aircraft to utilise their full capabilities, making no sacrifices in armaments or range. However, they are expensive to build and maintain, and are prone to breakdown in harsh conditions."
+ ship_carrier_catapult_steam_3:0 "Steam Catapult Deck III"
+ ship_carrier_catapult_steam_3_short:0 "Steam Catapult III"
+ ship_carrier_catapult_steam_3_desc:0 "Steam catapults allow onboard aircraft to utilise their full capabilities, making no sacrifices in armaments or range. However, they are expensive to build and maintain, and are prone to breakdown in harsh conditions."
+ ship_carrier_catapult_electromagnetic:0 "Electromagnetic Catapult Deck"
+ ship_carrier_catapult_electromagnetic_short:0 "Electromagnetic Catapult"
+ ship_carrier_catapult_electromagnetic_desc:0 "Electromagnetic catapults improve upon the capabilties of steam catapults, by requiring less maintenence and being much more efficicent."
+
+ ship_carrier_hangar_1:0 "Carrier Hangar"
+ ship_carrier_hangar_1_short:0 "Hangar"
+ ship_carrier_hangar_1_desc:0 "An area onboard a carrier used to store and maintain aircraft and helicopters, freeing up space on-deck for continuous carrier operations."
 
  ### Nation Specific Modules ###
 

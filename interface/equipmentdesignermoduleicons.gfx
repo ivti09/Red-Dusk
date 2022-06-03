@@ -70,6 +70,14 @@ spriteTypes = {
 		name = "GFX_EMSI_custom_slot_3"
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/mid.dds"
 	}
+	spriteType = {
+		name = "GFX_EMSI_custom_slot_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/mid.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_custom_slot_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/mid.dds"
+	}
 
 	spriteType = {
 		name = "GFX_EMSI_fixed_ship_defensive_slot_1"
@@ -123,10 +131,60 @@ spriteTypes = {
 		name = "GFX_EMSI_custom_ship_cannon_slot"
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/battery.dds"
 	}
+	spriteType = {
+		name = "GFX_EMSI_custom_ship_rear_cannon_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/battery.dds"
+	}
 
 	spriteType = {
 		name = "GFX_EMSI_fixed_ship_aviation_slot"
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/rear.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_custom_ship_aviation_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/rear.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMSI_custom_ship_heavy_battery_slot_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/battery.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_custom_ship_heavy_battery_slot_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/battery.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_armor_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/armor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_custom_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/front.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMSI_custom_ship_ramp_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/front.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMSI_custom_ship_hangar_slot_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_custom_ship_hangar_slot_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMSI_custom_ship_aviation_slot_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/mid.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_custom_ship_aviation_slot_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/mid.dds"
 	}
 
 }

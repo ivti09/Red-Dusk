@@ -2,9 +2,9 @@
 
 guiTypes = {
 
-	################# Equipment Archetype: corvette_hull #################
+	################# Equipment Archetype: carrier_hull #################
 	containerWindowType = {
-		name = "equipment_designer_corvette_hull"
+		name = "equipment_designer_carrier_hull"
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x=0 y=0 }
 		size = { width=512 height=260 }
@@ -16,7 +16,7 @@ guiTypes = {
 
 		iconType = {
 			name = "equipment_image"
-			spriteType = "GFX_SD_tv_corvette"
+			spriteType = "GFX_SD_tv_carrier"
 			position = { x=0 y=0 }
 		}
 
@@ -67,9 +67,30 @@ guiTypes = {
 				size = { width=100% height=100% }
 			}
 
-			################# MODULE SLOT: Cannon #################
+			################# MODULE SLOT: Fixed Custom #################
 			containerWindowType = {
-				name = "custom_ship_cannon_slot"
+				name = "fixed_ship_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			}
+
+			################# MODULE SLOT: Ramp #################
+			containerWindowType = {
+				name = "custom_ship_ramp_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			}
+
+			################# MODULE SLOT: Custom Hangar #1 #################
+			containerWindowType = {
+				name = "custom_ship_hangar_slot_1"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			}
+
+			################# MODULE SLOT: Custom Hangar #2 #################
+			containerWindowType = {
+				name = "custom_ship_hangar_slot_2"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 			}
@@ -88,16 +109,16 @@ guiTypes = {
 				size = { width=100% height=100% }
 			}
 
-			################# MODULE SLOT: Custom #3 #################
+			################# MODULE SLOT: Aviation #1 #################
 			containerWindowType = {
-				name = "custom_slot_3"
+				name = "custom_ship_aviation_slot_1"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 			}
 
-			################# MODULE SLOT: Aviation #################
+			################# MODULE SLOT: Aviation #2 #################
 			containerWindowType = {
-				name = "fixed_ship_aviation_slot"
+				name = "custom_ship_aviation_slot_2"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 			}

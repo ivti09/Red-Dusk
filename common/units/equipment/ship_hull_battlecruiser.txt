@@ -1,22 +1,22 @@
 equipments = {
 
-	cruiser_hull = {
-		year = 1960
+	battlecruiser_hull = {
+		year = 1980
 
 		is_archetype = yes
 		is_buildable = no
-		type = screen_ship
+		type = capital_ship
 		group_by = archetype
 		priority = 2500
 
 		upgrades = {
 			ship_reliability_upgrade
 			ship_engine_upgrade
+			ship_armor_upgrade
 			ship_gun_upgrade
-			ship_anti_air_upgrade
 		}
 		
-		interface_category = interface_category_screen_ships
+		interface_category = interface_category_capital_ships
 
 		module_slots = {
 			fixed_ship_systems_slot = {
@@ -63,8 +63,6 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_cruise_missile
-					ship_aswrl
-					ship_depth_charges
 				}
 			}
 			custom_slot_2 = {
@@ -94,12 +92,13 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_aswrl
-					ship_depth_charges
+					ship_sam_missile
+					ship_ciws
 				}
 			}
-			custom_ship_rear_cannon_slot = {
+			custom_ship_aviation_slot = {
 				required = no
-				allowed_module_categories = { ship_naval_gun }
+				allowed_module_categories = { ship_naval_helicopter }
 			}
 		}
 		
@@ -117,7 +116,7 @@ equipments = {
 			custom_slot_3 = empty
 			custom_slot_4 = empty
 			custom_slot_5 = empty
-			custom_ship_rear_cannon_slot = empty
+			custom_ship_aviation_slot = empty
 		}
 		
 		build_cost_ic = 220
@@ -126,29 +125,18 @@ equipments = {
 			steel = 1
 		}
 		
-		manpower = 700
+		manpower = 760
 	}
 
-	cruiser_hull_1 = {
-		year = 1960
-
-		archetype = cruiser_hull
-		priority = 2500
-
-		module_slots = inherit
-
-		manpower = 700
-	}
-
-	cruiser_hull_2 = {
+	battlecruiser_hull_1 = {
 		year = 1980
 
-		archetype = cruiser_hull
+		archetype = battlecruiser_hull
 		priority = 2500
 
 		module_slots = inherit
 
-		manpower = 900
+		manpower = 760
 	}
 
 }

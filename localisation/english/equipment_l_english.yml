@@ -580,6 +580,8 @@
  cruiser_desc:0 "With the death of battleships, cruisers have generally become the largest surface combatant a navy will field. Packed with a multitude of weapons, cruisers are a threat to any type of enemy nearby."
  battlecruiser:0 "Battlecruiser"
  battlecruiser_desc:0 "Some of the deadliest warships to ever exist, modern battlecruisers are extremely rare and expensive, but are more than capable of destroying entire task forces."
+ battleship:0 "Battleship"
+ battleship_desc:0 "Built during the height of the Second World War, battleships represented the peak of naval power and capability. However even during the war, their obsolescence would be forshadowed with the success of aircraft carriers. Now, only a few remain in mostly ceremonial service."
  carrier:0 "Carrier"
  carrier_desc:0 "A capital ship able to carry wings of powerful carrier-capable aircraft into battle. These vessels have become the flagships of most major navies."
  convoy:0 "Convoy"
