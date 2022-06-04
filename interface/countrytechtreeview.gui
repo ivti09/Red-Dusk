@@ -1630,6 +1630,48 @@ guiTypes = {
 					pdx_tooltip = "helicopter_desc"
 				}
 
+				instantTextBoxType = {
+					name = "naval_subtitle_navaltraining"
+					position = { x = 30 y = 2700 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "TRAINING METHODS"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "navaltraining_desc"
+				}
+
+				instantTextBoxType = {
+					name = "naval_subtitle_damagecontrol"
+					position = { x = 30 y = 2900 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "DAMAGE CONTROL"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "damagecontrol_desc"
+				}
+
+				instantTextBoxType = {
+					name = "naval_subtitle_amphibious"
+					position = { x = 30 y = 3100 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "AMPHIBIOUS WARFARE"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = "amphibious_desc"
+				}
+
 			containerWindowType = {
 				name = "tiled_window_transparent_transparent"
 				position = { x= 0 y= 0 }
@@ -1770,7 +1812,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "ballistic_missile_1960_tree"
-				position = { x = 150 y = 1960 }
+				position = { x = 150 y = 1910 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1778,7 +1820,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "aswrl_1960_tree"
-				position = { x = 150 y = 2060 }
+				position = { x = 150 y = 2010 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1786,7 +1828,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "naval_gun_1960_tree"
-				position = { x = 150 y = 2160 }
+				position = { x = 150 y = 2110 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1803,6 +1845,46 @@ guiTypes = {
 			gridboxtype = {
 				name = "naval_helicopter_1960_tree"
 				position = { x = 150 y = 2460 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "carrier_catapult_1960_tree"
+				position = { x = 150 y = 2560 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "naval_training_1960_tree"
+				position = { x = 150 y = 2710 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "damage_training_1960_tree"
+				position = { x = 150 y = 2910 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "naval_transport_1960_tree"
+				position = { x = 150 y = 3110 }
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "amphibious_hull_1960_tree"
+				position = { x = 150 y = 3210 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

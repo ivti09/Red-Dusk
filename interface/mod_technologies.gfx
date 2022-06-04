@@ -149,6 +149,25 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/carrier_hull_2020.dds"
 	}
 
+	## Amphibious Hulls ##
+
+	SpriteType = {
+		name = "GFX_amphibious_hull_1960_medium"
+		texturefile = "gfx/interface/technologies/amphibious_hull_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_amphibious_hull_1980_medium"
+		texturefile = "gfx/interface/technologies/amphibious_hull_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_amphibious_hull_2000_medium"
+		texturefile = "gfx/interface/technologies/amphibious_hull_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_amphibious_hull_2020_medium"
+		texturefile = "gfx/interface/technologies/amphibious_hull_2020.dds"
+	}
+
 	## MTG Designer Modules ##
 
 	SpriteType = {
@@ -958,6 +977,146 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_naval_helicopter_2020_medium"
 		texturefile = "gfx/interface/technologies/naval_helicopter_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_carrier_catapult_1960_medium"
+		texturefile = "gfx/interface/technologies/carrier_catapult_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_carrier_catapult_1980_medium"
+		texturefile = "gfx/interface/technologies/carrier_catapult_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_carrier_catapult_2000_medium"
+		texturefile = "gfx/interface/technologies/carrier_catapult_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_carrier_catapult_2020_medium"
+		texturefile = "gfx/interface/technologies/carrier_catapult_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_gun_ammo_1960_medium"
+		texturefile = "gfx/interface/technologies/naval_cannon_ammo_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_naval_gun_ammo_1980_medium"
+		texturefile = "gfx/interface/technologies/naval_cannon_ammo_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_naval_gun_ammo_1990_medium"
+		texturefile = "gfx/interface/technologies/naval_cannon_ammo_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_naval_gun_ammo_2000_medium"
+		texturefile = "gfx/interface/technologies/naval_cannon_ammo_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_naval_gun_ammo_2010_medium"
+		texturefile = "gfx/interface/technologies/naval_cannon_ammo_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_naval_gun_ammo_2020_medium"
+		texturefile = "gfx/interface/technologies/naval_cannon_ammo_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_torpedo_upgrade_1960_medium"
+		texturefile = "gfx/interface/technologies/torpedo_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_torpedo_upgrade_1980_medium"
+		texturefile = "gfx/interface/technologies/torpedo_upgrade_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_torpedo_upgrade_1990_medium"
+		texturefile = "gfx/interface/technologies/torpedo_upgrade_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_torpedo_upgrade_2000_medium"
+		texturefile = "gfx/interface/technologies/torpedo_upgrade_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_torpedo_upgrade_2010_medium"
+		texturefile = "gfx/interface/technologies/torpedo_upgrade_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_torpedo_upgrade_2020_medium"
+		texturefile = "gfx/interface/technologies/torpedo_upgrade_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_transport_1960_medium"
+		texturefile = "gfx/interface/technologies/naval_transport_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_naval_transport_1980_medium"
+		texturefile = "gfx/interface/technologies/naval_transport_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_naval_transport_2000_medium"
+		texturefile = "gfx/interface/technologies/naval_transport_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_naval_transport_2020_medium"
+		texturefile = "gfx/interface/technologies/naval_transport_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_damage_training_1960_medium"
+		texturefile = "gfx/interface/technologies/damage_control_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_damage_training_1980_medium"
+		texturefile = "gfx/interface/technologies/damage_control_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_damage_training_2000_medium"
+		texturefile = "gfx/interface/technologies/damage_control_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_damage_training_2020_medium"
+		texturefile = "gfx/interface/technologies/damage_control_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_damage_design_1970_medium"
+		texturefile = "gfx/interface/technologies/naval_damage_design.dds"
+	}
+	SpriteType = {
+		name = "GFX_damage_design_1990_medium"
+		texturefile = "gfx/interface/technologies/naval_damage_design.dds"
+	}
+	SpriteType = {
+		name = "GFX_damage_design_2010_medium"
+		texturefile = "gfx/interface/technologies/naval_damage_design.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_training_1960_medium"
+		texturefile = "gfx/interface/technologies/naval_training.dds"
+	}
+	SpriteType = {
+		name = "GFX_naval_training_1980_medium"
+		texturefile = "gfx/interface/technologies/naval_training.dds"
+	}
+	SpriteType = {
+		name = "GFX_naval_training_2000_medium"
+		texturefile = "gfx/interface/technologies/naval_training.dds"
+	}
+	SpriteType = {
+		name = "GFX_naval_training_2020_medium"
+		texturefile = "gfx/interface/technologies/naval_training.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_early_carrier_operations_medium"
+		texturefile = "gfx/interface/technologies/carrier_operations_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_carrier_operations_medium"
+		texturefile = "gfx/interface/technologies/carrier_operations_2.dds"
 	}
 
 	## Generic Aircraft ##

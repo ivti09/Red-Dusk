@@ -1078,6 +1078,8 @@
  early_carrier:0 "Early Carrier (Carrier I)"
 
 ## MOD ##
+
+ # Naval #
  naval_engine_diesel_1960:0 "Diesel-Electric Engine I"
  naval_engine_diesel_1960_desc:0 "A cheap, simple engine that is found on most of the world's naval vessels."
  naval_engine_diesel_1980:0 "Diesel-Electric Engine II"
@@ -1201,9 +1203,81 @@
  naval_helicopter_2020:0 "Naval Helicopter IV"
  naval_helicopter_2020_desc:0 "Helicopters allow for increase anti-submarine warfare capabilites, as well as expanding our supply and communication capabilties."
 
- naval_uav_tech:0 "Unmanned Aerial Vehicle"
- naval_uav_tech_desc:0 "With advancements in computing technology, aircraft can now be operated remotely, reducing any dangers to humans while also reducing manufacturing costs."
+ carrier_catapult_1960:0 "Steam Catapult I"
+ carrier_catapult_1960_desc:0 "Steam catapults allow onboard aircraft to utilise their full capabilities, making no sacrifices in armaments or range. However, they are expensive to build and maintain, and are prone to breakdown in harsh conditions."
+ carrier_catapult_1980:0 "Steam Catapult II"
+ carrier_catapult_1980_desc:0 "Steam catapults allow onboard aircraft to utilise their full capabilities, making no sacrifices in armaments or range. However, they are expensive to build and maintain, and are prone to breakdown in harsh conditions."
+ carrier_catapult_2000:0 "Steam Catapult III"
+ carrier_catapult_2000_desc:0 "Steam catapults allow onboard aircraft to utilise their full capabilities, making no sacrifices in armaments or range. However, they are expensive to build and maintain, and are prone to breakdown in harsh conditions."
+ carrier_catapult_2020:0 "Electromagnetic Catapult"
+ carrier_catapult_2020_desc:0 "Electromagnetic catapults improve upon the capabilties of steam catapults, by requiring less maintenence and being much more efficicent."
 
+ torpedo_upgrade_1960:0 "1960s Torpedoes"
+ torpedo_upgrade_1960_desc:0 "Newer torpdoes that utilise the latest technological advances will be able to detect, track, and destroy enemy naval vessels more effectively."
+ torpedo_upgrade_1980:0 "1980s Torpedoes"
+ torpedo_upgrade_1980_desc:0 "Newer torpdoes that utilise the latest technological advances will be able to detect, track, and destroy enemy naval vessels more effectively."
+ torpedo_upgrade_1990:0 "1990s Torpedoes"
+ torpedo_upgrade_1990_desc:0 "Newer torpdoes that utilise the latest technological advances will be able to detect, track, and destroy enemy naval vessels more effectively."
+ torpedo_upgrade_2000:0 "2000s Torpedoes"
+ torpedo_upgrade_2000_desc:0 "Newer torpdoes that utilise the latest technological advances will be able to detect, track, and destroy enemy naval vessels more effectively."
+ torpedo_upgrade_2010:0 "2010s Torpedoes"
+ torpedo_upgrade_2010_desc:0 "Newer torpdoes that utilise the latest technological advances will be able to detect, track, and destroy enemy naval vessels more effectively."
+ torpedo_upgrade_2020:0 "2020s Torpedoes"
+ torpedo_upgrade_2020_desc:0 "Newer torpdoes that utilise the latest technological advances will be able to detect, track, and destroy enemy naval vessels more effectively."
+
+ naval_gun_ammo_1960:0 "1960s Cannon Ammo"
+ naval_gun_ammo_1960_desc:0 "With the latest advances in material sciences, naval cannon ammunition can be manufactured to be more effective in naval combat."
+ naval_gun_ammo_1980:0 "1980s Cannon Ammo"
+ naval_gun_ammo_1980_desc:0 "With the latest advances in material sciences, naval cannon ammunition can be manufactured to be more effective in naval combat."
+ naval_gun_ammo_1990:0 "1990s Cannon Ammo"
+ naval_gun_ammo_1990_desc:0 "With the latest advances in material sciences, naval cannon ammunition can be manufactured to be more effective in naval combat."
+ naval_gun_ammo_2000:0 "2000s Cannon Ammo"
+ naval_gun_ammo_2000_desc:0 "With the latest advances in material sciences, naval cannon ammunition can be manufactured to be more effective in naval combat."
+ naval_gun_ammo_2010:0 "2010s Cannon Ammo"
+ naval_gun_ammo_2010_desc:0 "With the latest advances in material sciences, naval cannon ammunition can be manufactured to be more effective in naval combat."
+ naval_gun_ammo_2020:0 "2020s Cannon Ammo"
+ naval_gun_ammo_2020_desc:0 "With the latest advances in material sciences, naval cannon ammunition can be manufactured to be more effective in naval combat."
+
+ naval_transport_1960:0 "Naval Transport I"
+ naval_transport_1960_desc:0 "Naval transports are vital for performing naval invasions, as well as being useful for resupplying and transporting troops."
+ naval_transport_1980:0 "Naval Transport II"
+ naval_transport_1980_desc:0 "Naval transports are vital for performing naval invasions, as well as being useful for resupplying and transporting troops."
+ naval_transport_2000:0 "Naval Transport III"
+ naval_transport_2000_desc:0 "Naval transports are vital for performing naval invasions, as well as being useful for resupplying and transporting troops."
+ naval_transport_2020:0 "Naval Transport IV"
+ naval_transport_2020_desc:0 "Naval transports are vital for performing naval invasions, as well as being useful for resupplying and transporting troops."
+
+ naval_training_1960:0 "Naval Training I"
+ naval_training_1960_desc:0 "Naval vessels contain a variety of deadly and expensive weapons, but they are useless without proper handling and maintenence. A lack of a competently trained crew is a lack of a competent naval force, regardless of the weapons available."
+ naval_training_1980:0 "Naval Training II"
+ naval_training_1980_desc:0 "Naval vessels contain a variety of deadly and expensive weapons, but they are useless without proper handling and maintenence. A lack of a competently trained crew is a lack of a competent naval force, regardless of the weapons available."
+ naval_training_2000:0 "Naval Training III"
+ naval_training_2000_desc:0 "Naval vessels contain a variety of deadly and expensive weapons, but they are useless without proper handling and maintenence. A lack of a competently trained crew is a lack of a competent naval force, regardless of the weapons available."
+ naval_training_2020:0 "Naval Training IV"
+ naval_training_2020_desc:0 "Naval vessels contain a variety of deadly and expensive weapons, but they are useless without proper handling and maintenence. A lack of a competently trained crew is a lack of a competent naval force, regardless of the weapons available."
+
+ early_carrier_operations:0 "Early Carrier Operations"
+ early_carrier_operations_desc:0 "Effective carrier operations are hard to master. Training will be expensive and time consuming, but in the end, a competent carrier crew is the deadliest weapon in our naval arsenal."
+ modern_carrier_operations:0 "Modern Carrier Operations"
+ modern_carrier_operations_desc:0 "While previously used tactics are important, they are also quickly become outdated in this new age of naval warfare. A new training program must be created to bring our carrier operations into the 21st century."
+
+ damage_training_1960:0 "Fire Fighting Drills"
+ damage_training_1960_desc:0 "Fire is the scariest enemy a sailor can face at sea. Uncontrolled, it can lead to the destruction of a ship in mere minutes, causing an entirely preventable loss. It is vital that every member of the crew is capable of fighting it."
+ damage_training_1980:0 "Basic Flooding Prevention"
+ damage_training_1980_desc:0 "Every sailor needs to know the basics of flooding prevention, and necessary equipment must be readily available throughout the whole ship."
+ damage_training_2000:0 "Advanced Flooding Prevention"
+ damage_training_2000_desc:0 "While basic repairs are a good temporary solution against flooding, more complex repairs still need to be made to increase a ship's chance of making it back to base. If every vessel had a dedicated professional engineering team, the lifespan of our damaged vessels during and after combat will be drastically increased."
+ damage_training_2020:0 "Digital Manuals"
+ damage_training_2020_desc:0 "With the advent of the digital age, most sailors will have portable devices with connection to our command centres. By creating dedicated support lines, staff on the mainland can advise any crew in need of assistance."
+
+ damage_design_1970:0 "Networked Fire Systems"
+ damage_design_1970_desc:0 "By designing our ships to prevent the spread of fires, we can minimise vessels lost to fire in combat, albiet at a slightly increased producion cost."
+ damage_design_1990:0 "Submarine Escape Capsules"
+ damage_design_1990_desc:0 "If unable to immediately surface, a submarine crew is often doomed to a tragic fate. By having escape capsules within the submarine, the crew has a chance to safely evacuate and be rescued on the surface."
+ damage_design_2010:0 "Reinforced Structures"
+ damage_design_2010_desc:0 "Taking advantage of innovations in material science, our vessels can be built with stronger and better materials, reducing the risk of penetration by enemy weapons or shrapnel."
+
+ # Air #
  mod_cat_fighter:0 "Fighter models"
  mod_cat_attacker:0 "Close Air Support models"
  mod_cat_bomber:0 "Bomber models"
@@ -1211,8 +1285,7 @@
  mod_cat_naval_aircraft:0 "Carrier-capable models"
  mod_cat_interceptor:0 "Interceptor models"
 
-## Armour ##
-
+ # Armour #
  tank_ammo_1960:0 "1960s Tank Ammo"
  tank_ammo_1960_desc:0 "Tank ammunition has come a long way since the Second World War. Travelling at high speeds, modern tank ammunition is extremely deadly even at long ranges, making older armour types obsolete."
  tank_ammo_1970:0 "1970s Tank Ammo"
@@ -1321,6 +1394,7 @@
  nsb_ifv_anti_tank_missile_6_short:0 "4th Gen ATGM"
  nsb_ifv_anti_tank_missile_6_desc:0 "Using new seeker technologies, fourth generation ATGMs have a much greater range, and are less susceptible to various older countermeasures."
 
+ # Infantry #
  support_weapons_1960:0 "1960s Support Equipment"
  support_weapons_1960_short:0 "Support Equipment I"
  support_weapons_1960_desc:0 "A soldier not only requires a gun, but also a plethora of support equipment to allow him to endure on the battlefield. This includes everything from first aid kits, to radios, clothes, and food supplies."

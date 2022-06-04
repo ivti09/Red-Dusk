@@ -595,7 +595,13 @@
  defence:0 "Defensive Weapons"
  defence_desc:0 "While a ship might be deadly with many armaments, it is useless if sunk. Therefore, it is vital for all of our ships to have some form of defence, although we hope it will never have to be used."
  helicopter:0 "Aviation"
- helicopter_desc:0 "By including helicopter facilities on board our ships, we can greatly increase our anti-submarine capabilities."
+ helicopter_desc:0 "Aviation facilities onboard our ships can greatly increase their detection and combat capabilities, whether that be helicopters or carrier aviation."
+ amphibious:0 "Amphibious Warfare"
+ amphibious_desc:0 "In use since the Great War, amphibious operations utilise specialised naval ships to deliver troops onto a hostile coastline."
+ navaltraining:0 "Training Methods"
+ navaltraining_desc:0 "By effectively training our sailors, we can improve our fleet operations both in peacetime and in combat, making our navy a sophisticated and professional fighting force."
+ damagecontrol:0 "Damage Control"
+ damagecontrol_desc:0 "In the unfortunate scenario where a naval vessel might be critically damaged, it is vital that both its inherent design and its crew are able to keep it afloat."
 
 ## Tank ##
  mbt_tank_equipment:0 "Main Battle Tank"
