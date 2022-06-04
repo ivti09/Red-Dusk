@@ -110,6 +110,21 @@ spriteTypes = {
 		name = "GFX_report_event_YUG_SKJ_meeting"
 		texturefile = "gfx/event_pictures/report_event_skj_meeting.dds"
 	}
+
+	# IRQ #
+
+	spriteType = {
+		name = "GFX_report_event_IRQ_army"
+		texturefile = "gfx/event_pictures/report_event_irq_army.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_kurds"
+		texturefile = "gfx/event_pictures/report_event_irq_kurds.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_saddam"
+		texturefile = "gfx/event_pictures/report_event_saddam_mural.png"
+	}
 	
 	# VIN #
 	spriteType = {

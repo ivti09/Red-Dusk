@@ -1,0 +1,168 @@
+focus_tree = {
+	id = kor_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KOR
+		}
+	}
+	
+	default = no
+	focus = {
+		id = KOR_new_era
+		icon = GFX_focus_SOV_status_of_union
+		x = 9
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	
+	focus = {
+		id = KOR_nr
+		icon = GFX_focus_SOV_economy_report
+		x = 9
+		y = 1
+
+		prerequisite = {focus = KOR_new_era}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = KOR_orders
+		icon = GFX_focus_SOV_yanayev_final_weeks
+		x = 9
+		y = 2
+
+		prerequisite = {focus = KOR_nr}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 20
+			add_stability = -0.05
+		}
+	}
+	
+	focus = {
+		id = KOR_economy
+		icon = GFX_focus_SOV_defund_military
+		x = 9
+		y = 3
+
+		prerequisite = {focus = KOR_orders}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = KOR_kor_army
+		icon = GFX_focus_SOV_economic_reforms
+		x = 9
+		y = 4
+
+		prerequisite = {focus = KOR_economy}
+		mutually_exclusive = { }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+
+	focus = {
+        	id = KOR_kim_stuff
+        	icon = GFX_focus_SOV_yanayev's_resignation
+        	x = 9
+        	y = 5
+		prerequisite = {focus = KOR_kor_army}
+               
+		cost=3
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KOR_army_purge
+		icon = GFX_focus_SOV_party_meeting
+		x = 9
+		y = 6
+
+		prerequisite = {focus = KOR_kim_stuff}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+
+}

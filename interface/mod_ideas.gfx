@@ -100,6 +100,14 @@ spriteTypes = {
 		name = "GFX_idea_IRQ_Disorganised_Army_icon"
 		texturefile = "gfx/interface/ideas/IRQ_Disorganised_Army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_IRQ_civ"
+		texturefile = "gfx/interface/ideas/IRQ_civil_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_IRQ_army"
+		texturefile = "gfx/interface/ideas/IRQ_army_industry.dds"
+	}
 
 	#GENERIC MIDDLE EAST#
 

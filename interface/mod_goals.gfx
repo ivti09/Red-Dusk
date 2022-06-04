@@ -60,7 +60,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_great_industry"
-		texturefile = "gfx/interface/goals/SOV_great_industry.png"
+		texturefile = "gfx/interface/goals/focus_SOV_great_industry.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_infrastructure_initiative"
@@ -144,7 +144,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_crush_lith"
-		texturefile = "gfx/interface/goals/crush_lith.png"
+		texturefile = "gfx/interface/goals/focus_SOV_crush_lith.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_crackdown_ukraine"
@@ -403,7 +403,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_fate"
-		texturefile = "gfx/interface/goals/SOV_prepare_for_fate.png"
+		texturefile = "gfx/interface/goals/focu_SOV_their_fate.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_foreign_policy"
@@ -453,6 +453,31 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_YUG_tito_honour"
 		texturefile = "gfx/interface/goals/focus_YUG_tito_honour.png"
+	}
+   ###IRQ###
+	SpriteType = {
+		name = "GFX_focus_IRQ_iraq_future"
+		texturefile = "gfx/interface/goals/focus_IRQ_new_era.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_saddam"
+		texturefile = "gfx/interface/goals/focus_IRQ_saddam.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_kurds"
+		texturefile = "gfx/interface/goals/focus_IRQ_kurds.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_sanctions"
+		texturefile = "gfx/interface/goals/focus_IRQ_sanctions.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_army"
+		texturefile = "gfx/interface/goals/focus_IRQ_army.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_problems"
+		texturefile = "gfx/interface/goals/focus_IRQ_problems.png"
 	}
    ###VIN###
     SpriteType = {

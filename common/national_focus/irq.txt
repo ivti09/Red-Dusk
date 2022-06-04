@@ -13,7 +13,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = IRQ_new_era
-		icon = GFX_focus_SOV_status_of_union
+		icon = GFX_focus_IRQ_iraq_future
 		x = 10
 		y = 0
 
@@ -37,7 +37,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_saddam_rule
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_saddam 
 		x = 10
 		y = 1
 
@@ -54,15 +54,15 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 15
-			add_stability = -0.07
-			add_war_support = 0.08
+			IRQ = {
+				country_event = { id = irq.3 }
+			}
 		}
 	}
 	
 	focus = {
 		id = IRQ_problems
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_problems
 		x = 10
 		y = 2
 
@@ -80,13 +80,13 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = -20
-			add_stability = -0.03
+			add_stability = -0.10
 		}
 	}
 	
 	focus = {
 		id = IRQ_sanctions
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_sanctions
 		x = 10
 		y = 3
 
@@ -104,6 +104,7 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = 10
+			add_stability = -0.05
 			set_country_flag = IRQ_sanctions
 
 		}
@@ -111,7 +112,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_kurds
-		icon = GFX_focus_SOV_status_of_union
+		icon = GFX_focus_IRQ_kurds
 		x = 10
 		y = 4
 
@@ -140,7 +141,7 @@ focus_tree = {
 
 	focus = {
         	id = IRQ_army
-        	icon = GFX_focus_SOV_status_of_union
+        	icon = GFX_focus_IRQ_army
         	x = 10
         	y = 5
 		prerequisite = {focus = IRQ_kurds}
@@ -281,6 +282,7 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			add_idea = IRQ_civ_ind
 			
 		}
 	}
@@ -377,6 +379,7 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			add_idea = IRQ_mil_ind
 			
 		}
 	}
@@ -455,7 +458,12 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
+		        add_tech_bonus = {
+                                name = IRQ_uranium_mining
+			        bonus = 0.10
+                                uses = 1
+                                category = nuclear
+		        }
 		}
 	}
 
@@ -481,6 +489,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 20
 			add_war_support = 0.05
+			production_speed_nuclear_reactor_factor = 0.05
 			
 		}
 	}
@@ -505,6 +514,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			add_political_power = 10
+			add_stability = -0.05
 			
 		}
 	}
@@ -531,6 +542,7 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			production_speed_nuclear_reactor_factor = 0.05
 			
 		}
 	}

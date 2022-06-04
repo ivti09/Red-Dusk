@@ -10,6 +10,7 @@ recruit_character = YUG_dragoljub_ojdanic
 recruit_character = YUG_dragan_paskas
 recruit_character = YUG_nebojsa_pavkovic
 recruit_character = YUG_momcilo_perisic
+recruit_character = YUG_slobodan_milošević
 
 set_politics = {
 	ruling_party = communism
