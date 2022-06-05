@@ -34,8 +34,166 @@ on_actions = {
 			}
 		}
 
+		## USA Congress Mechanics ##
+
+		effect = {
+			USA = {
+				# Total Senate & House Numbers #
+				set_variable = {
+					var = usa_senate_total_num
+					value = 100
+				}
+				set_variable = {
+					var = usa_house_total_num
+					value = 435
+				}
+				set_variable = {
+					var = usa_senate_support_num
+					value = 1
+				}
+				set_variable = {
+					var = usa_house_support_num
+					value = 1
+				}
+				clamp_variable = {
+					var = usa_senate_support_num
+					min = 0
+					max = usa_senate_total_num
+				}
+				clamp_variable = {
+					var = usa_house_support_num
+					min = 0
+					max = usa_house_total_num
+				}
+
+				# Party Senate & House Numbers #
+				set_variable = {
+					var = usa_senate_republican_num
+					value = 1
+				}
+				clamp_variable = {
+					var = usa_senate_republican_num
+					min = 0
+					max = usa_senate_total_num
+				}
+				set_variable = {
+					var = usa_senate_democratic_num
+					value = 1
+				}
+				clamp_variable = {
+					var = usa_senate_democratic_num
+					min = 0
+					max = usa_senate_total_num
+				}
+				set_variable = {
+					var = usa_senate_reform_num
+					value = 1
+				}
+				clamp_variable = {
+					var = usa_senate_reform_num
+					min = 0
+					max = usa_senate_total_num
+				}
+				set_variable = {
+					var = usa_senate_independent_num
+					value = 1
+				}
+				clamp_variable = {
+					var = usa_senate_independent_num
+					min = 0
+					max = usa_senate_total_num
+				}
+
+				set_variable = {
+					var = usa_house_republican_num
+					value = 1
+				}
+				clamp_variable = {
+					var = usa_house_republican_num
+					min = 0
+					max = usa_house_total_num
+				}
+				set_variable = {
+					var = usa_house_democratic_num
+					value = 1
+				}
+				clamp_variable = {
+					var = usa_house_democratic_num
+					min = 0
+					max = usa_house_total_num
+				}
+				set_variable = {
+					var = usa_house_reform_num
+					value = 1
+				}
+				clamp_variable = {
+					var = usa_house_reform_num
+					min = 0
+					max = usa_house_total_num
+				}
+				set_variable = {
+					var = usa_house_independent_num
+					value = 1
+				}
+				clamp_variable = {
+					var = usa_house_independent_num
+					min = 0
+					max = usa_house_total_num
+				}
+
+				# Party Attiudes #
+				set_variable = {
+					var = usa_republican_attitude_value
+					value = 2
+				}
+				clamp_variable = {
+					var = usa_republican_attitude_value
+					min = -2
+					max = 2
+				}
+				set_variable = {
+					var = usa_democratic_attitude_value
+					value = 1
+				}
+				clamp_variable = {
+					var = usa_democratic_attitude_value
+					min = -2
+					max = 2
+				}
+				set_variable = {
+					var = usa_reform_attitude_value
+					value = 0
+				}
+				clamp_variable = {
+					var = usa_reform_attitude_value
+					min = -2
+					max = 2
+				}
+
+				# Current Government Type #
+				set_variable = {
+					var = usa_government_type_value
+					value = 1
+				}
+				clamp_variable = {
+					var = usa_government_type_value
+					min = 0
+					max = 1
+				}
+
+				# Current Ruling Party #
+				set_variable = {
+					var = usa_government_ruling_party_value
+					value = 5
+				}
+				clamp_variable = {
+					var = usa_government_ruling_party_value
+					min = 0
+					max = 6
+				}
+			}
+		}
+
 	}
-	
-	
 
 }

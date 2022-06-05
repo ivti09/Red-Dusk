@@ -1,0 +1,12 @@
+scripted_gui = {
+
+	usa_decision_ui_congress = {
+		window_name = "usa_decision_ui_congress_window"
+		context_type = decision_category
+
+		visible = {
+			original_tag = USA
+		}
+	}
+	
+}

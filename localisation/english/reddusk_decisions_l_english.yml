@@ -104,3 +104,19 @@
  yug_build_new_military_industry_in_serbia:0 "Build New Military Industry In Serbia"
  yug_build_new_civilian_industry_in_bosnia:0 "Build New Civilian Industry In Bosnia"
  yug_build_new_infrastructure_across_the_country:0 "Build New Infrastructure Across The Country"
+
+## USA ##
+
+ category_USA_congress:0 "United States Congress"
+ category_USA_congress_desc:0 "Based in Washington D.C, the United States Congress is the legislature of the federal government of the United States, composed of the §YHouse of Representatives§! and the §YSenate§!. This allows each state to have representation, however it also means we will have to tirelessly negotiate and compromise to get anything done."
+ USA_congress_senate_header:0 "§YSenate Support§!"
+ USA_congress_house_header:0 "§YHouse Support§!"
+ USA_congress_senate_total_support:0 "§G[?usa_senate_support_num]§! / §Y[?usa_senate_total_num]§!"
+ USA_congress_house_total_support:0 "§G[?usa_house_support_num]§! / §Y[?usa_house_total_num]§!"
+ USA_congress_senate_parties:0 "Republican Party: §g[?usa_senate_republican_num]§! / §Y[?usa_senate_total_num]§!\nDemocratic Party: §g[?usa_senate_democratic_num]§! / §Y[?usa_senate_total_num]§!\nReform Party: §g[?usa_senate_reform_num]§! / §Y[?usa_senate_total_num]§!\nIndependents: §g[?usa_senate_independent_num]§! / §Y[?usa_senate_total_num]§!"
+ USA_congress_house_parties:0 "Republican Party: §g[?usa_house_republican_num]§! / §Y[?usa_house_total_num]§!\nDemocratic Party: §g[?usa_house_democratic_num]§! / §Y[?usa_house_total_num]§!\nReform Party: §g[?usa_house_reform_num]§! / §Y[?usa_house_total_num]§!\nIndependents: §g[?usa_house_independent_num]§! / §Y[?usa_house_total_num]§!"
+ USA_congress_party_attitudes_header:0 "§YParty Attitudes§!"
+ USA_congress_party_attitudes:0 "Republican Party: [USA_party_attitude_republican]\nDemocratic Party: [USA_party_attitude_democratic]\nReform Party: [USA_party_attitude_reform]"
+ USA_congress_government_type_header:0 "§YCurrent Government§!"
+ USA_congress_government_type:0 "President\n§Y[USA.GetLeader]§!\n\nGovernment Type\n[USA_government_type]\n\nRuling Parties\n[USA_government_ruling_party]"
+ USA_congress_party_attitudes_descriptions:0 "§CLoyal§! parties will offer their full support to pass any legislation, however you will have to keep their interests in mind too.\n\n§GFriendly§! parties are receptive to supporting your ideas, however you shouldn't rely on them to push through unpopular legislation.\n\n§gNeutral§! parties are neither for nor against you. Unless you're voting on a topic they feel strongly about, they can safely be ignored.\n\n§YUnfriendly§! parties are unlikely to support you, unless the proposed legislation is universally popular.\n\n§RHostile§! parties will never support you. Some radical members might even resort to violence against you and your allies."

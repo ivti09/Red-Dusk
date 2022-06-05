@@ -91,3 +91,20 @@
  ###### BY ADDING "\n\n" AND ADDING "§W§" RIGHT AFTER IT AT THE END OF THE LOC WILL MAKE IT LOOK MORE CLEAN WHEN USING COLOUR -durango#######
  
  ########     \n\n§W§       ######
+
+## USA ##
+
+ USA_loc_key_attitude_hostile:0 "§RHostile§!"
+ USA_loc_key_attitude_unfriendly:0 "§YUnfriendly§!"
+ USA_loc_key_attitude_neutral:0 "§gNeutral§!"
+ USA_loc_key_attitude_friendly:0 "§GFriendly§!"
+ USA_loc_key_attitude_loyal:0 "§CLoyal§!"
+ USA_loc_key_majority_government:0 "§YMajority Government§!"
+ USA_loc_key_coalition_government:0 "§YCoalition Government§!"
+ USA_loc_key_ruling_party_conservative:0 "§YConservative Party§!"
+ USA_loc_key_ruling_party_democratic:0 "§YDemocratic Party§!"
+ USA_loc_key_ruling_party_reform:0 "§YReform Party§!"
+ USA_loc_key_ruling_party_conservative_democratic:0 "§YConservative Party\nDemocratic Party§!"
+ USA_loc_key_ruling_party_conservative_reform:0 "§YConservative Party\nReform Party§!"
+ USA_loc_key_ruling_party_democratic_reform:0 "§YDemocratic Party\nReform Party§!"
+ USA_loc_key_ruling_party_all:0 "§YConservative Party\nDemocratic Party\nReform Party§!"

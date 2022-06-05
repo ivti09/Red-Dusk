@@ -1,4 +1,4 @@
-version="0.1.18c"
+version="0.1.18d"
 tags={
 	"Alternative History"
 	"Events"
@@ -19,6 +19,7 @@ replace_path="common/decisions"
 replace_path="common/decisions/categories"
 replace_path="common/scripted_effects"
 replace_path="common/scripted_localisation"
+replace_path="common/scripted_guis"
 replace_path="common/units/names_divisions"
 replace_path="common/units/names_ships"
 replace_path="common/characters"
