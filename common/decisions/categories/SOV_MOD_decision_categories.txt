@@ -85,6 +85,7 @@ sov_crackdown_ukraine = {
 sov_invade_china_decisions = {
 	icon = GFX_decision_category_SOV_civil_war
 	allowed = {
+		original_tag = SOV
 		NOT = {
 		has_country_flag = sov_invaded_china
         }
@@ -101,12 +102,20 @@ sov_invade_china_decisions = {
 
 sov_reinteg_decisions_via_peace = {
 	icon = GFX_decision_category_SOV_civil_war
+	
 	allowed = {
+	original_tag = SOV
+				has_completed_focus = SOV_gorby_new_way
+				NOT = {
+				has_country_flag = sov_referandums_happened
+			}
 	}
 	
-	visible = {	
+	visible = {
+		
+		
 	}
-	priority = 500
+	priority = 150
 
 }
 

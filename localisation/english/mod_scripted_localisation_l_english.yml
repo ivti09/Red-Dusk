@@ -16,7 +16,7 @@
  sov_army_finished_yazov_tt:0 "§RWe Can Now Deal With The Seperatist Nationalists In Our Union\n\n§W§"
  sov_army_finished_yazov:0 "§GWe Have Dealt with The Army's Problems§\n\n§W§"
  ussr_yazov_focus:0 "Yazov's Focus Tree"
- sov_gain_core_on_breaks:0 "§GGains Cores On The States That Broke Away From The Union§"
+ sov_gain_core_on_breaks:0 "§GGains Cores On The States That Broke Away From The Union\n\n§"
  sov_warsaw_pact:0 "Warsaw Pact"
  us_disagree_cze:0 "Us Disagreed On The Czech Issue"
  us_agree_cze:0 "Us Agreed On The Czech Issue"

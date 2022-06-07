@@ -86,7 +86,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name ="government_type"
-			position = { x = 280 y = 240 }
+			position = { x = 280 y = 260 }
 			font = "hoi_18mbs"
 			text = "USA_congress_government_type"
 			format = centre

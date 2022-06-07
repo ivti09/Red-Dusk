@@ -560,7 +560,7 @@
 		prerequisite = {focus = SOV_gorby_soviet_foreign_policy}
 		mutually_exclusive = {focus = SOV_gorby_new_way}
 		
-		cost = 1.5
+		cost = 2.9
 		ai_will_do = {
 			factor = 1
 		}
@@ -572,11 +572,81 @@
 		
 		
 		completion_reward = {
-		
+			custom_effect_tooltip = sov_gain_core_on_breaks
+			hidden_effect = {
+				add_state_core = 229
+				add_state_core = 230
+				add_state_core = 838
+				add_state_core = 839
+				add_state_core = 190
+				add_state_core = 809			
+				add_state_core = 808
+				add_state_core = 12
+				add_state_core = 810			
+				add_state_core = 13
+				add_state_core = 191
+				add_state_core = 813
+				add_state_core = 812
+				add_state_core = 811
+			}
 		}
 	}
 	
-	#epic dengist man wholsomely unifies via peace#
+	focus = {
+		id = SOV_gorby_prep_their_fate
+		icon = GFX_focus_SOV_prep_future
+		x = 8
+		y = 16
+
+		prerequisite = {focus = SOV_gorby_old_way}
+		mutually_exclusive = {}
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+			add_ideas = SOV_gorby_prep_their_fate_idea
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_righting_the_old_wrongs
+		icon = GFX_focus_SOV_prep_future
+		x = 8
+		y = 17
+
+		prerequisite = {focus = SOV_gorby_prep_their_fate}
+		mutually_exclusive = {}
+		
+		cost = 5.8
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = AZR }
+			create_wargoal = { type = annex_everything target = ARM }
+			create_wargoal = { type = annex_everything target = LAT }
+			create_wargoal = { type = annex_everything target = EST }
+		}
+	}
+	
+	#epic dengist way wholsomely unifies via peace#
+	
 	focus = {
 		id = SOV_gorby_new_way
 		icon = GFX_focus_SOV_prep_future
@@ -656,6 +726,8 @@
 		
 		}
 	}
+	
+	
 
 ### Economy ###
 

@@ -1626,6 +1626,7 @@ sov_reinteg_decisions_via_peace = {
 		icon = GFX_decision_generic_tank
 
 		allowed = {
+				original_tag = SOV
 				NOT = {
 				has_country_flag = sov_referandums_happened
 				}
@@ -1636,6 +1637,7 @@ sov_reinteg_decisions_via_peace = {
 				has_country_flag = sov_referandums_happened
 		}
 		visible = {
+			original_tag = SOV
 			has_completed_focus = SOV_gorby_new_way
 				NOT = {
 				has_country_flag = sov_referandums_happened
