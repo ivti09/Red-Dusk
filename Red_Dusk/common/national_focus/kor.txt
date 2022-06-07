@@ -1,0 +1,563 @@
+focus_tree = {
+	id = kor_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = KOR
+		}
+	}
+	
+	default = no
+	focus = {
+		id = New_Dawn_For_Korea
+		icon = GFX_focus_SOV_status_of_union
+		x = 9
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	
+	focus = {
+		id = The_2000_National_Report
+		icon = GFX_focus_SOV_economy_report
+		x = 9
+		y = 1
+
+		prerequisite = {focus = KOR_new_era}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = Orders_From_The_Top
+		icon = GFX_focus_SOV_yanayev_final_weeks
+		x = 9
+		y = 2
+
+		prerequisite = {focus = KOR_nr}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 20
+			add_stability = -0.05
+		}
+	}
+	
+	focus = {
+		id = Re-Evaluate_Our_Economy
+		icon = GFX_focus_SOV_defund_military
+		x = 9
+		y = 3
+
+		prerequisite = {focus = KOR_orders}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = Military_For_The_New_Millanium
+		icon = GFX_focus_SOV_economic_reforms
+		x = 9
+		y = 4
+
+		prerequisite = {focus = KOR_economy}
+		mutually_exclusive = { }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+
+	focus = {
+        	id = Give_Kim_Our_Report
+        	icon = GFX_focus_SOV_yanayev_final_weeks
+        	x = 9
+        	y = 5
+		prerequisite = {focus = KOR_kor_army}
+               
+		cost=3
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = KOR_army_purge
+		icon = GFX_focus_SOV_party_meeting
+		x = 9
+		y = 6
+
+		prerequisite = {focus = KOR_kim_stuff}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Improving_Best_Korea
+		icon = GFX_focus_SOV_economic_reforms
+		x = 15
+		y = 4.5
+
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {}
+	}
+	focus = {
+		id = Focus_On_Our_Light_Industry
+		icon = x
+		x = 13
+		y = 5.5
+
+		prerequisite = {focus = Improving_Best_Korea}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {}
+	}
+	focus = {
+		id = Stick_To_The_Old_Architechture
+		icon = x
+		x = 15
+		y = 5.5
+
+		prerequisite = {focus = Improving_Best_Korea}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {}
+	}
+	focus = {
+		id = An_Army_Of_The_Past
+		icon = x
+		x = 17
+		y = 5.5
+
+		prerequisite = {focus = Improving_Best_Korea}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = More_Textile_Factories
+		icon = x
+		x = 13
+		y = 6.5
+
+		prerequisite = {focus = Focus_On_Our_Light_Industry}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = But_With_New_Plans
+		icon = x
+		x = 15
+		y = 6.5
+
+		prerequisite = {focus = Stick_To_The_Old_Architechture}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = Bring_In_The_New_Tactics
+		icon = x
+		x = 17
+		y = 6.5
+
+		prerequisite = {focus = An_Army_Of_The_Past }
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = Bounuses_For_Farmers
+		icon = x
+		x = 13
+		y = 7.5
+
+		prerequisite = {focus = More_Textile_Factories}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = More_Green_Area
+		icon = x
+		x = 15
+		y = 7.5
+
+		prerequisite = {focus = But_With_New_Plans}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = New_Equipment_For_A_New_Army
+		icon = x
+		x = 17
+		y = 7.5
+
+		prerequisite = {focus = Bring_In_The_New_Tactics}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = Expand_On_Tourism
+		icon = x
+		x = 13
+		y = 8.5
+
+		prerequisite = {focus = Bounuses_For_Farmers}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = Houses_For_Our_Workers
+		icon = x
+		x = 15
+		y = 8.5
+
+		prerequisite = {focus = More_Green_Area}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = Promote_Young_Officers
+		icon = x
+		x = 17
+		y = 8.5
+
+		prerequisite = {focus = New_Equipment_For_A_New_Army}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = Bigger_Better_And_Faster_Railroads
+		icon = x
+		cost = x
+		x = 13
+		y = 9.5
+
+		prerequisite = {focus = Expand_On_Tourism}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = Improve_Our_Roads
+		icon = x
+		x = 15
+		y = 9.5
+
+		prerequisite = {focus = Houses_For_Our_Workers}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = Purge_The_Ineffective
+		icon = x
+		x = 17
+		y = 9.5
+
+		prerequisite = {focus = Promote_Young_Officers}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = Import_from_China
+		icon = x
+		cost = x
+		x = 12.2
+		y = 10.5
+
+		prerequisite = {focus = Bigger_Better_And_Faster_Railroads}
+		mutually_exclusive = {focus = Import_From_The_Soviet_Union}
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = Import_From_The_Soviet_Union
+		icon = x
+		x = 13.7
+		y = 10.5
+		
+		prerequisite = {focus = Bigger_Better_And_Faster_Railroads}
+		mutually_exclusive {focus = Import_from_China }
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = Request_Chinese_Instructors
+		icon = x
+		X = 17
+		y = 10.5
+		prerequisite = {focus = Purge_The_Ineffective}
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = First_Wave_Of_Reforms_Completed
+		icon = x
+		x = 15
+		y = 11.5
+
+		prerequisite = {focus = Improve_Our_Roads}
+		prerequisite = {focus = Request_Chinese_Instructors}
+		prerequisite = {focus = Import_from_China focus = Import_From_The_Soviet_Union}
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+
+
+}
