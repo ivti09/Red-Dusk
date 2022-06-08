@@ -145,3 +145,6 @@
  IRQ_civ_ind_name_desc:0 ""
  IRQ_mil_ind_name:0 "Increased Military Industry Funding"
  IRQ_mil_ind_name_desc:0 ""
+ 
+ SIA_rama_ix_name:0 "Rama IX"
+ SIA_rama_ix_name_desc:0 "Long Live His Majesty King Rama IX"
