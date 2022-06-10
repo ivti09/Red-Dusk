@@ -1,0 +1,23 @@
+ideas = {
+	
+	country = {
+	
+		SIA_rama_IX = {
+			name = SIA_rama_ix_name
+
+			removal_cost = -1
+
+			picture = SIA_rama_ix
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+	}
+
+}

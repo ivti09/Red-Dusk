@@ -49,11 +49,11 @@ on_actions = {
 				}
 				set_variable = {
 					var = usa_senate_support_num
-					value = 1
+					value = 54
 				}
 				set_variable = {
 					var = usa_house_support_num
-					value = 1
+					value = 197
 				}
 				clamp_variable = {
 					var = usa_senate_support_num
@@ -69,7 +69,7 @@ on_actions = {
 				# Party Senate & House Numbers #
 				set_variable = {
 					var = usa_senate_republican_num
-					value = 1
+					value = 52
 				}
 				clamp_variable = {
 					var = usa_senate_republican_num
@@ -78,7 +78,7 @@ on_actions = {
 				}
 				set_variable = {
 					var = usa_senate_democratic_num
-					value = 1
+					value = 32
 				}
 				clamp_variable = {
 					var = usa_senate_democratic_num
@@ -87,7 +87,7 @@ on_actions = {
 				}
 				set_variable = {
 					var = usa_senate_reform_num
-					value = 1
+					value = 16
 				}
 				clamp_variable = {
 					var = usa_senate_reform_num
@@ -96,7 +96,7 @@ on_actions = {
 				}
 				set_variable = {
 					var = usa_senate_independent_num
-					value = 1
+					value = 0
 				}
 				clamp_variable = {
 					var = usa_senate_independent_num
@@ -106,7 +106,7 @@ on_actions = {
 
 				set_variable = {
 					var = usa_house_republican_num
-					value = 1
+					value = 159
 				}
 				clamp_variable = {
 					var = usa_house_republican_num
@@ -115,7 +115,7 @@ on_actions = {
 				}
 				set_variable = {
 					var = usa_house_democratic_num
-					value = 1
+					value = 150
 				}
 				clamp_variable = {
 					var = usa_house_democratic_num
@@ -124,7 +124,7 @@ on_actions = {
 				}
 				set_variable = {
 					var = usa_house_reform_num
-					value = 1
+					value = 126
 				}
 				clamp_variable = {
 					var = usa_house_reform_num
@@ -133,7 +133,7 @@ on_actions = {
 				}
 				set_variable = {
 					var = usa_house_independent_num
-					value = 1
+					value = 0
 				}
 				clamp_variable = {
 					var = usa_house_independent_num
@@ -153,7 +153,7 @@ on_actions = {
 				}
 				set_variable = {
 					var = usa_democratic_attitude_value
-					value = 1
+					value = -2
 				}
 				clamp_variable = {
 					var = usa_democratic_attitude_value
@@ -162,7 +162,7 @@ on_actions = {
 				}
 				set_variable = {
 					var = usa_reform_attitude_value
-					value = 0
+					value = -1
 				}
 				clamp_variable = {
 					var = usa_reform_attitude_value
@@ -173,7 +173,7 @@ on_actions = {
 				# Current Government Type #
 				set_variable = {
 					var = usa_government_type_value
-					value = 1
+					value = 0
 				}
 				clamp_variable = {
 					var = usa_government_type_value
@@ -184,7 +184,7 @@ on_actions = {
 				# Current Ruling Party #
 				set_variable = {
 					var = usa_government_ruling_party_value
-					value = 5
+					value = 0
 				}
 				clamp_variable = {
 					var = usa_government_ruling_party_value

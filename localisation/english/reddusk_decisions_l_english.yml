@@ -108,7 +108,7 @@
 ## USA ##
 
  category_USA_congress:0 "United States Congress"
- category_USA_congress_desc:0 "Based in Washington D.C, the United States Congress is the legislature of the federal government of the United States, composed of the §YHouse of Representatives§! and the §YSenate§!. This allows each state to have representation, however it also means we will have to tirelessly negotiate and compromise to get anything done."
+ category_USA_congress_desc:0 "Based in Washington, D.C., the United Sates Congress is the bicameral legislative body of the federal government of the United States, comprised of the §YHouse of Representatives§! and the §YSenate§!, which represent the states both proportionally and equally in their seat apportionment, respectively, based on a first-past-the-post electoral system. The system, while somewhat complex in its functionalities, is the main legal authority within the nation that allows the republican process to be carried out. Obviously, this means the President's authority is not absolute, and for any legislative action he relies almost entirely on the Congress' consent; if he wishes to get anything done, §Yhe must have the support of both the House and Senate§!, and to do so, he'll have to negotiate, compromise, and fight to secure simple §YMajority§! approval."
  USA_congress_senate_header:0 "§YSenate Support§!"
  USA_congress_house_header:0 "§YHouse Support§!"
  USA_congress_senate_total_support:0 "§G[?usa_senate_support_num]§! / §Y[?usa_senate_total_num]§!"

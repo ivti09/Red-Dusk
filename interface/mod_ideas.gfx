@@ -179,5 +179,11 @@ spriteTypes = {
 		name = "GFX_idea_YUG_tito_icon"
 		texturefile = "gfx/interface/ideas/YUG_tito.dds"
 	}
+	
+	#Thailand#
+	spriteType = {
+		name = "GFX_idea_SIA_rama_ix"
+		texturefile = "gfx/interface/ideas/SIA_rama_IX.png"
+	}
 
 }

@@ -13,6 +13,8 @@ set_convoys = 15
 
 recruit_character = SIA_chuan_leekpai
 
+add_ideas = SIA_rama_IX
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -20,6 +22,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 20
-	neutrality = 80
+	democratic = 20
+	communism = 1
+	neutrality = 79
 }
