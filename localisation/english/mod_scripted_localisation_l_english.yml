@@ -53,6 +53,12 @@
  yug_communist_focus:0 "Communist Focus Tree"
  yug_milosevic_alive_focus:0 "Milosevic Survived Assassination Focus Tree"
  yug_commie_milosevic_focus:0 "Communist Milosevic's Focus Tree"
+ 
+ ###GORBACHEV THAW GUI#####
+ 
+ YUG_amogus_level:0 "[YUG_amogus_level_text]"
+ YUG_test_worked:0 "testing worked"
+ 
  ####RESISTANCE STUFF FOR SOVIET#########
  
  spet_decision_unlock_tt:0 "§GUnlocks Special Action Decisions\n\n§W§"

@@ -1776,3 +1776,42 @@ sov_reinteg_decisions_via_peace = {
 
 
 }
+
+sov_the_new_perestroika = {
+
+	sov_gorby_pete_test = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+			original_tag = SOV
+			has_completed_focus = SOV_traitor
+		}
+		available = {
+			original_tag = SOV
+			has_completed_focus = SOV_traitor
+		}
+		visible = {
+			original_tag = SOV
+			has_completed_focus = SOV_traitor
+
+		}
+		
+		cost = 10
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = { 
+			add_to_variable { azr_ref_support = 15 }
+			add_politcal_power = -50
+			
+		}
+	}
+
+
+
+
+}
