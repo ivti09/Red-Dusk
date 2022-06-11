@@ -45,3 +45,30 @@ country_event = {
 			add_war_support = 0.08
 	}
 }
+#kuwait#
+country_event = {
+	id = irq.4
+	title = irq.4.t
+	desc = irq.4.d
+	picture = GFX_report_event_IRQ_kuwait
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.4.a
+	}
+}
+#kurds2#
+country_event = {
+	id = irq.5
+	title = irq.5.t
+	desc = irq.5.d
+	picture = GFX_report_event_IRQ_kurds2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.5.a
+			add_stability = 0.15
+	}
+}

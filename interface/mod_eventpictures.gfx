@@ -125,6 +125,14 @@ spriteTypes = {
 		name = "GFX_report_event_IRQ_saddam"
 		texturefile = "gfx/event_pictures/report_event_saddam_mural.png"
 	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_kurds2"
+		texturefile = "gfx/event_pictures/report_event_rebelscrushed.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_IRQ_kuwait"
+		texturefile = "gfx/event_pictures/report_event_kuwait.png"
+	}
 	
 	# VIN #
 	spriteType = {
@@ -140,6 +148,6 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_news_yanayev"
-		texturefile = "gfx/event_pictures/news_event_yazov.dds"
+		texturefile = "gfx/event_pictures/news_yanayev_gone.dds"
 	}
 }

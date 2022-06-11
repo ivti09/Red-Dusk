@@ -479,6 +479,70 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_problems"
 		texturefile = "gfx/interface/goals/focus_IRQ_problems.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_army_in_kurd"
+		texturefile = "gfx/interface/goals/focus_IRQ_army_in_kurdistan.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_debt"
+		texturefile = "gfx/interface/goals/focus_IRQ_debt.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_army_exercise"
+		texturefile = "gfx/interface/goals/focus_IRQ_exercise.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_death_of_kurds"
+		texturefile = "gfx/interface/goals/focus_IRQ_kurds_gone.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_locate"
+		texturefile = "gfx/interface/goals/focus_IRQ_locate.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_no_dollar"
+		texturefile = "gfx/interface/goals/focus_IRQ_no_dollar.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_no_kurds"
+		texturefile = "gfx/interface/goals/focus_IRQ_no_kurds.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_no_good_army"
+		texturefile = "gfx/interface/goals/focus_IRQ_not_good_army.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_planes"
+		texturefile = "gfx/interface/goals/focus_IRQ_plane_go_broom.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_no_good_army"
+		texturefile = "gfx/interface/goals/focus_IRQ_not_good_army.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_reforms"
+		texturefile = "gfx/interface/goals/focus_IRQ_reforms.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_salvage"
+		texturefile = "gfx/interface/goals/focus_IRQ_savage.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_something"
+		texturefile = "gfx/interface/goals/focus_IRQ_something.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_special_operation"
+		texturefile = "gfx/interface/goals/focus_IRQ_special_operation.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_trade"
+		texturefile = "gfx/interface/goals/focus_IRQ_trade_partners.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_moscow"
+		texturefile = "gfx/interface/goals/focus_IRQ_ask_moscow.png"
+	}
    ###VIN###
     SpriteType = {
 		name = "VIN_new_vietnam"

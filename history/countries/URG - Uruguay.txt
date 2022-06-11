@@ -11,9 +11,11 @@ if = {
 
 set_convoys = 5
 
+recruit_character = URG_julio_maría
+
 set_politics = {
 	ruling_party = democratic
-	last_election = "1934.4.19"
+	last_election = "1995.4.19"
 	election_frequency = 48
 	elections_allowed = yes
 }

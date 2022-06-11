@@ -1,0 +1,175 @@
+﻿focus_tree = {
+	id = saf_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SAF
+		}
+	}
+	
+	default = no
+	focus = {
+		id = SAF_coup
+		icon = GFX_focus_SOV_status_of_union
+		x = 9
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 5
+		}
+	}
+	
+	focus = {
+		id = SAF_mandela
+		icon = GFX_focus_SOV_economy_report
+		x = 9
+		y = 1
+
+		prerequisite = {focus = SAF_coup}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -20
+			add_stability = -0.07
+			add_manpower = -1
+
+		}
+	}
+	
+	focus = {
+		id = SAF_security
+		icon = GFX_focus_SOV_yanayev_final_weeks
+		x = 9
+		y = 2
+
+		prerequisite = {focus = SAF_mandela}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.03
+		}
+	}
+	
+	focus = {
+		id = SAF_budget
+		icon = GFX_focus_SOV_defund_military
+		x = 9
+		y = 3
+
+		prerequisite = {focus = SAF_security}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -30
+			add_manpower = 200
+			add_war_support = 0.05
+		}
+	}
+	
+	focus = {
+		id = SAF_anti_rebel
+		icon = GFX_focus_SOV_economic_reforms
+		x = 9
+		y = 4
+
+		prerequisite = {focus = SAF_budget}
+		mutually_exclusive = { }
+		
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+
+	focus = {
+        	id = SAF_future
+        	icon = GFX_focus_SOV_yanayev's_resignation
+        	x = 9
+        	y = 5
+		prerequisite = {focus = SAF_anti_rebel}
+               
+		cost = 2 
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = SAF_parliament
+		icon = GFX_focus_SOV_party_meeting
+		x = 9
+		y = 6
+
+		prerequisite = {focus = SAF_future}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {			
+		}
+	}
+
+}
