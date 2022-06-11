@@ -4,4 +4,12 @@ opinion_modifiers = {
 		value = -20
 	}
 
+	IRQ_alternate_trade_partner_opinion = {
+		trade = yes
+		value = 10
+	}
+	IRQ_abandoned_dollar_opinion = {
+		value = -15
+	}
+
 }

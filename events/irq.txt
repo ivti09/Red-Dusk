@@ -69,6 +69,59 @@ country_event = {
 	
 	option = {
 		name = irq.5.a
-			add_stability = 0.15
+		add_stability = 0.15
+	}
+}
+#Ask Soviets for Help#
+country_event = {
+	id = irq.6
+	title = irq.6.t
+	desc = irq.6.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.6.a
+	}
+	option = {
+		trigger = {
+			SOV = {
+				has_equipment = { infantry_weapons > 249 }
+				has_equipment = { support_equipment > 99 }
+				has_equipment = { artillery_equipment > 19 }
+				has_equipment = { mbt_tank_equipment > 14 }
+				has_equipment = { fighter_equipment > 9 }
+			}
+		}
+		name = irq.6.b
+
+		SOV = {
+			send_equipment = {
+				equipment = infantry_weapons
+				amount = 250
+				target = IRQ
+			}
+			send_equipment = {
+				equipment = support_equipment
+				amount = 100
+				target = IRQ
+			}
+			send_equipment = {
+				equipment = artillery_equipment
+				amount = 20
+				target = IRQ
+			}
+			send_equipment = {
+				equipment = mbt_tank_equipment
+				amount = 15
+				target = IRQ
+			}
+			send_equipment = {
+				equipment = fighter_equipment
+				amount = 10
+				target = IRQ
+			}
+		}
 	}
 }

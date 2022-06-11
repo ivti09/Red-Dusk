@@ -1,0 +1,59 @@
+ideas = {
+	
+	country = {
+	
+		SAF_apartheid_idea = {
+			name = SAF_apartheid_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				recruitable_population_factor = -0.5
+				stability_factor = -0.1
+			}
+		}
+
+		SAF_military_state_idea = {
+			name = SAF_military_state_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+				political_power_gain = -1.5
+				training_time_factor = -0.1
+			}
+		}
+
+		SAF_anc_insurgency_idea = {
+			name = SAF_anc_insurgency_idea_name
+
+			removal_cost = -1
+
+			#picture =
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				resistance_growth = 0.05
+			}
+		}
+
+	}
+
+}

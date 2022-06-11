@@ -1,0 +1,29 @@
+# common #
+	# opinion_modifiers #
+		- red_dusk_opinion_modifiers.txt: added Iraq opinion modifiers
+	# national_focus #
+		- irq.txt: added more completion effects
+	# ideas #
+		- IRQ.txt: added new ideas
+		- Added SAF.txt: added new ideas
+
+# events #
+	- irq.txt: added new event
+
+# gfx #
+	# interface #
+		# goals #
+			- Fixed incorrect focus icon spelling
+
+# history #
+	# countries #
+		- SAF: added starting ideas
+
+# localisation #
+	# english #
+		- mod_opnion_modifiers_l_english.yml: added Iraq opinion modifiers localisation
+		- mod_ideas_l_english.yml: added localisation for new Iraq and SA ideas
+		- events_l_english.yml: added localisation for new Iraq event
+
+## Issues ##
+	- Aircraft showing up as support companies

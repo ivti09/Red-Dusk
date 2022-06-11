@@ -19,3 +19,7 @@ set_popularities = {
 }
 
 recruit_character = SAF_constand_viljoen
+
+add_ideas = SAF_apartheid_idea
+add_ideas = SAF_military_state_idea
+add_ideas = SAF_anc_insurgency_idea

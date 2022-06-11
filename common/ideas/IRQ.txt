@@ -200,6 +200,55 @@ ideas = {
 				production_speed_fuel_silo_factor = 0.1
 			}
 		}
+
+		IRQ_land_of_madness = {
+			name = IRQ_land_of_madness_name
+
+			removal_cost = -1
+
+			#picture = IRQ_land_of_madness_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.005
+				army_core_defence_factor = 0.1
+			}
+		}
+
+		IRQ_uranium_production_1 = {
+			name = IRQ_uranium_production_1_name
+
+			removal_cost = -1
+
+			#picture = IRQ_uranium_production_1_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_nuclear_reactor_factor = 0.05
+			}
+		}
+
+		IRQ_uranium_production_2 = {
+			name = IRQ_uranium_production_2_name
+
+			removal_cost = -1
+
+			#picture = IRQ_uranium_production_2_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_nuclear_reactor_factor = 0.1
+			}
+		}
 	
 	}
 

@@ -488,6 +488,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 20
 			add_war_support = 0.05
+			add_ideas = IRQ_uranium_production_1
 		}
 	}
 
@@ -513,7 +514,6 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 10
 			add_stability = -0.05
-			
 		}
 	}
 
@@ -540,6 +540,10 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			add_war_support = 0.05
+			swap_ideas = {
+				remove_idea = IRQ_uranium_production_1
+				add_idea = IRQ_uranium_production_2
+			}
 		}
 	}
 
@@ -564,6 +568,7 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			add_ideas = IRQ_land_of_madness
 		}
 	}
 
@@ -927,7 +932,6 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			
 		}
 	}
 
@@ -1085,13 +1089,13 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 0.1
-			#IRQ = {
-			#	add_opinion_modifier = { target = SOV modifier = medium_increase }
-			#}
-			#PRC = {
-			#	add_opinion_modifier = { target = IRQ modifier = medium_increase }
-			#}
+			add_political_power = 10
+			IRQ = {
+				add_opinion_modifier = { target = SOV modifier = IRQ_alternate_trade_partner_opinion }
+			}
+			IRQ = {
+				add_opinion_modifier = { target = PRC modifier = IRQ_alternate_trade_partner_opinion }
+			}
 		}
 	}
 
@@ -1115,9 +1119,9 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			USA = {
-				add_opinion_modifier = { target = IRQ modifier = medium_decrease }
+				add_opinion_modifier = { target = IRQ modifier = IRQ_abandoned_dollar_opinion }
 			}
-			add_political_power = 0.1
+			add_political_power = 10
 			add_stability = 0.04
 		}
 	}
@@ -1414,6 +1418,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			SOV = {
+				country_event = { id = irq.6 }
+			}
 		}
 	}
 
