@@ -2,10 +2,10 @@
 
 
 # SUCMP:
-music = {
-	name = "American_Idiot"
-	file = "American_Idiot.ogg"
-}
+#music = {
+#	name = "American_Idiot"
+#	file = "American_Idiot.ogg"
+#}
 music = {
 	name = "An_Escalation"
 	file = "An_Escalation.ogg"
@@ -40,7 +40,7 @@ music = {
 }
 music = {
 	name = "Everybody_Wants_To_Rule_The_World_(extended)"
-	file = "Everybody_Wants_To_Rule_The_World_(extended).oog"
+	file = "Everybody_Wants_To_Rule_The_World_extended.ogg"
 }
 music = {
 	name = "Freestyle_Goodbye_Forever"
@@ -54,18 +54,18 @@ music = {
 	name = "Internationale"
 	file = "Internationale.ogg"
 }
-music = {
-	name = "Interstate_Love_Song"
-	file = "Interstate_Love_Song.ogg"
-}
+#music = {
+#	name = "Interstate_Love_Song"
+#	file = "Interstate_Love_Song.ogg"
+#}
 music = {
 	name = "Invincible_And_Legendary"
 	file = "Invincible_And_Legendary.ogg"
 }
-music = {
-	name = "It's_Our_Time,_Our_Turn!"
-	file = "It's_Our_Time,_Our_turn!.oog"
-}
+#music = {
+#	name = "It's_Our_Time,_Our_Turn!"
+#	file = "It's_Our_Time,_Our_turn!.ogg"
+#}
 music = {
 	name = "Karavan"
 	file = "Karavan.ogg"
@@ -74,10 +74,10 @@ music = {
 	name = "Kerber-Ratne_Igre"
 	file = "Kerber-Ratne_Igre.ogg"
 }
-music = {
-	name = "Lenin_Is_Young_Again"
-	file = "Lenin_is_Young_Again.ogg"
-}
+#music = {
+#	name = "Lenin_Is_Young_Again"
+#	file = "Lenin_is_Young_Again.ogg"
+#}
 music = {
 	name = "Mr._Blue_Sky"
 	file = "Mr._Blue_Sky.ogg"
@@ -100,7 +100,7 @@ music = {
 }
 music = {
 	name = "Owner_Of_A_Lonely_Heart_(extended)"
-	file = "Owner_Of_A_Lonely_Heart_(extended)"
+	file = "Owner_Of_A_Lonely_Heart_(extended).ogg"
 }
 music = {
 	name = "Plan_in_Motion"
@@ -128,7 +128,7 @@ music = {
 }
 music = {
 	name = "Soviet_Anthem_(Pop_Version)"
-	file = "Soviet_Anthem_(Pop_Version).ogg"
+	file = "Soviet_Anthem_pop_version.ogg"
 }
 music = {
 	name = "Space_Forces"
@@ -140,7 +140,7 @@ music = {
 }
 music = {
 	name = "Summer_Is_Ending"
-	file = "Summer_is_ending.oog"
+	file = "Summer_is_ending.ogg"
 }
 music = {
 	name = "Swallowing_Dust"

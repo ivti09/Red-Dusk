@@ -840,7 +840,7 @@
 		
 		
 		completion_reward = {
-			add_opinion_modifier = { target = SWE modifier = large_decrase }
+			add_opinion_modifier = { target = SWE modifier = large_decrease }
 			SWE = {
 			add_ideas = ussr_embargo
 			}
@@ -871,7 +871,7 @@
 		
 		
 			completion_reward = {
-			add_opinion_modifier = { target = CZE modifier = large_decrase }
+			add_opinion_modifier = { target = CZE modifier = large_decrease }
 			CZE = {
 			add_ideas = ussr_embargo
 			}
@@ -2119,7 +2119,7 @@
 		continue_if_invalid = no
 		completion_reward = {
 		
-			swap_ideas{
+			swap_ideas = {
 				add_idea = SOV_Yazov_New_Age_Soviet_Economics_2
 				remove_idea = SOV_Yazov_New_Age_Soviet_Economics_1
 			}
@@ -2195,7 +2195,6 @@
 					type = arms_factory
 					level = 2
 					instant_build = yes
-					add_extra_state_shared_building_slots = 2
 				}
 			}
 			

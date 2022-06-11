@@ -827,8 +827,8 @@
 		continue_if_invalid = no
 		completion_reward = {
 			swap_ideas = {
-			remove_idea = gorby_economic_reforms
-			add_idea = gorby_economic_reforms_2
+				remove_idea = gorby_economic_reforms
+				add_idea = gorby_economic_reforms_2
 			}
 		}
 	}
@@ -879,8 +879,8 @@
 		continue_if_invalid = no
 		completion_reward = {
 			swap_ideas = {
-			remove_idea = gorby_economic_reforms_2
-			add_idea = gorby_economic_reforms_3
+				remove_idea = gorby_economic_reforms_2
+				add_idea = gorby_economic_reforms_3
 			}
 		}
 	}
@@ -908,8 +908,8 @@
 		continue_if_invalid = no
 		completion_reward = {
 			swap_ideas = {
-			remove_idea = gorby_economic_reforms_3
-			add_idea = gorby_economic_reforms_4
+				remove_idea = gorby_economic_reforms_3
+				add_idea = gorby_economic_reforms_4
 			}
 		}
 	}
@@ -937,8 +937,8 @@
 			add_stability = 0.10
 			add_political_power = -150
 			swap_ideas = {
-			remove_idea = gorby_economic_reforms_4
-			add_idea = gorby_economic_reforms_final
+				remove_idea = gorby_economic_reforms_4
+				add_idea = gorby_economic_reforms_final
 			}
 		}
 	}
@@ -962,7 +962,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_idea = SOV_Yazov_New_Age_Soviet_Economics_2
+			add_ideas = SOV_Yazov_New_Age_Soviet_Economics_2
 			remove_ideas = SOV_stagnating_economy
 			set_country_flag = gorby_economy_finished
 		}

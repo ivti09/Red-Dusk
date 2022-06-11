@@ -1245,15 +1245,13 @@
 	}
 
 	focus = {
-		id = Isolate_Chezchs_Republic
+		id = Isolate_Chezchs_Republic_1
 		icon = GFX_focus_SOV_isolate_czech
 		x = 12
 		y = 19
 
 		prerequisite = {focus =  Which_Way_General_Secretary? }
 		available = { has_country_flag = us_disagree_cze}
-		mutually_exclusive = { focus = SOV_yazov_a_super_power_again }
-		
 		
 		cost = 6
 		ai_will_do = {
@@ -1267,7 +1265,7 @@
 		
 		
 			completion_reward = {
-			add_opinion_modifier = { target = CZE modifier = large_decrase }
+			add_opinion_modifier = { target = CZE modifier = large_decrease }
 			CZE = {
 			add_ideas = ussr_embargo
 			}
@@ -1345,7 +1343,7 @@
 	focus = {
 		id = Loyal_Men_In_High_Places
 		icon = GFX_2d_3d_switch
-		cost = x
+		#cost = x
 		x = 7
 		y = 23
 
@@ -1491,7 +1489,7 @@
 	}
 
 	focus = {
-		id = Isolate_Chezchs_Republic
+		id = Isolate_Chezchs_Republic_2
 		icon = GFX_focus_SOV_isolate_czech
 		x = 7
 		y = 29
@@ -1511,7 +1509,7 @@
 		
 		
 			completion_reward = {
-			add_opinion_modifier = { target = CZE modifier = large_decrase }
+			add_opinion_modifier = { target = CZE modifier = large_decrease }
 			CZE = {
 			add_ideas = ussr_embargo
 			}
@@ -1524,7 +1522,7 @@
 		x = 7
 		y = 30
 
-		prerequisite = {focus = Isolate_Chezchs_Republic }
+		prerequisite = {focus = Isolate_Chezchs_Republic_2 }
 
 		cost = 4
 		ai_will_do = {
@@ -1694,7 +1692,7 @@
 		x = 3
 		y = 24
 
-		perequisite = {focus = Crush_The_Liberals }
+		prerequisite = {focus = Crush_The_Liberals }
 
 		cost = 4
 		ai_will_do = {
@@ -1930,10 +1928,9 @@
 		y = 0
 		
 		available = {
-		has_country_flag = SOV_yazov_military_time
+			has_country_flag = SOV_yazov_military_time
+			has_completed_focus = The_Military_Question
 		}
-
-		has_completed_focus = The_Military_Question
 
 		mutually_exclusive = { }
 		
@@ -2060,9 +2057,9 @@
 		y = 0
 		
 		available = {
-		has_country_flag = economy_time_bois
-		}
+			has_country_flag = economy_time_bois
 			has_completed_focus = Matters_Of_The_Economy
+		}
 		mutually_exclusive = { }
 		
 		cost = 3
@@ -2185,8 +2182,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-		
-			swap_ideas{
+			swap_ideas = {
 				add_idea = SOV_Yazov_New_Age_Soviet_Economics_2
 				remove_idea = SOV_Yazov_New_Age_Soviet_Economics_1
 			}

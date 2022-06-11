@@ -373,7 +373,6 @@ ideas = {
 			}
 
 			modifier = {
-				production_speed_buildings_factor = -0.05
 				consumer_goods_factor = 0.10
 				production_factory_start_efficiency_factor = -0.02 
 				production_speed_buildings_factor = -0.03
@@ -484,7 +483,6 @@ ideas = {
 			}
 
 			modifier = {
-				production_speed_buildings_factor = -0.05
 				consumer_goods_factor = 0.10
 				production_factory_start_efficiency_factor = -0.02 
 				production_speed_buildings_factor = -0.03
@@ -506,7 +504,6 @@ ideas = {
 			}
 
 			modifier = {
-				production_speed_buildings_factor = -0.05
 				consumer_goods_factor = 0.10
 				production_factory_start_efficiency_factor = -0.02 
 				production_speed_buildings_factor = -0.03
@@ -529,7 +526,6 @@ ideas = {
 			}
 
 			modifier = {
-				production_speed_buildings_factor = 0.02
 				consumer_goods_factor = 0.10
 				production_factory_start_efficiency_factor = 0.05
 				production_speed_buildings_factor = -0.03
@@ -761,7 +757,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = 
+			picture = YUG_economy_icon
 
 			allowed = {
 				always = no

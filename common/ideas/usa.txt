@@ -132,7 +132,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = 
+			#picture = 
 
 			allowed = {
 				always = no

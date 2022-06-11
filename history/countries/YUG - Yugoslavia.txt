@@ -24,8 +24,6 @@ set_popularities = {
 	communism = 40
 }
 
-recruit_character = YUG_slobodan_milošević
-
 add_ideas = YUG_demoralized_army
 add_ideas = YUG_yugoslav_mode_of_socialism
 add_ideas = YUG_broken_brotherhood

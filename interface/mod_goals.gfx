@@ -23,8 +23,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_SOV_economic_reforms.png"
 	}	
 	SpriteType = {
-		name = "GFX_SOV_yanayev's_resignation"
-		texturefile = "gfx/interface/goals/focus_SOV_yanayev's_resignation.png"
+		name = "GFX_focus_SOV_yanayevs_resignation"
+		texturefile = "gfx/interface/goals/focus_SOV_yanayevs_resignation.png"
 	}
 	SpriteType = {
 		name = "GFX_focus_SOV_party_meeting"

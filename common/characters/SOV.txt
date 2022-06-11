@@ -469,23 +469,6 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	SOV_dmitry_bulgakov = {
-		name = "Dmitry Bulgakov"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SOV/Dmitry_Bulgakov.dds"
-			}
-		}
-		corps_commander={
-			traits={ }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
 	SOV_vladimir_kuroyedov = {
 		name = "Vladimir Kuroyedov"
 		portraits = {

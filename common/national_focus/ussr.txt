@@ -147,7 +147,7 @@
 
 	focus = {
         	id = SOV_yanayev's_resignation
-        	icon = GFX_focus_SOV_yanayev's_resignation
+        	icon = GFX_focus_SOV_yanayevs_resignation
         	x = 0
         	y = 5
 		prerequisite = {focus = SOV_minor_economic_reforms}

@@ -144,8 +144,6 @@ recruit_character = SOV_vladimir_boldyrev
 recruit_character = SOV_vladimir_kuroyedov
 recruit_character = SOV_vladimir_vysotsky
 recruit_character = SOV_vladislav_achalov
-recruit_character = SOV_vladimir_kuroyedov
-recruit_character = SOV_dmitry_bulgakov
 recruit_character = SOV_sergey_surovikin
 recruit_character = SOV_anatoly_kornukov
 recruit_character = SOV_viktor_kazantsev
@@ -359,7 +357,6 @@ if = {
 			custom_slot_1 = empty
 			custom_slot_2 = empty
 			custom_ship_aviation_slot_1 = empty
-			custom_ship_aviation_slot_2 = empty
 		}
 	}
 	create_equipment_variant = {
