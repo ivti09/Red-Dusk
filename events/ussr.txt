@@ -544,8 +544,10 @@ country_event = {
 	
 	option = {
 		name = ussr.26.a
+
 		add_stability = +0.05
 		add_manpower = -1
+		retire_character = SOV_dmitry_yazov
 	}
 
 }

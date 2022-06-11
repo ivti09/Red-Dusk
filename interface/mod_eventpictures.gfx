@@ -144,6 +144,20 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/VIN/vin.1.png"
 	}
 
+        ##SAF##
+	spriteType = {
+		name = "GFX_report_event_SAF_mandela"
+		texturefile = "gfx/event_pictures/report_event_mandela.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SAF_zimbabwe"
+		texturefile = "gfx/event_pictures/report_event_intervention.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SAF_parliament"
+		texturefile = "gfx/event_pictures/report_event_parliament.dds"
+	}
+
 	## WORLD NEWS ##
 
 	spriteType = {

@@ -238,19 +238,15 @@ country_event = {
 			
 		}
 
-		else = {
+		else_if = {
 			limit = {
-					check_variable = {
-							bosnia_fight_strength < 41
-					}
-			
+				check_variable = {
+					bosnia_fight_strength < 41
+				}
 			}
-		add_ideas = BOS_indepandance_war_fighter_experience_3
-			
+			add_ideas = BOS_indepandance_war_fighter_experience_3
 		}
-		
-				
-		
+
 	}
 
 }
@@ -286,29 +282,24 @@ country_event = {
 		
 		else_if = {
 			limit = {
-					check_variable = {
-							albania_fight_strength < 60
-							albania_fight_strength > 40
-					}
+				check_variable = {
+					albania_fight_strength < 60
+					albania_fight_strength > 40
+				}
 			
 			}
-		add_ideas = KOS_indepandance_war_fighter_experience_2
-			
+			add_ideas = KOS_indepandance_war_fighter_experience_2
 		}
 
-		else = {
+		else_if = {
 			limit = {
-					check_variable = {
-							albania_fight_strength < 41
-					}
-			
+				check_variable = {
+					albania_fight_strength < 41
+				}
 			}
-		add_ideas = KOS_indepandance_war_fighter_experience_3
-			
+			add_ideas = KOS_indepandance_war_fighter_experience_3
 		}
-		
-				
-		
+
 	}
 
 }
@@ -515,22 +506,22 @@ country_event = {
 	picture = GFX_report_event_YUG_depressed
 	
 	trigger = {
-		YUG = {
-		has_country_flag = yug_mass_rebellions
+		AND = {
+			YUG = {
+				has_country_flag = yug_mass_rebellions
+			}
+			NOT = {country_exists = BOS}
+			NOT = {country_exists = KOS}
+			NOT = {country_exists = MAC}
 		}
-		NOT = {country_exists = BOS}
-		NOT = {country_exists = KOS}
-		NOT = {country_exists = MAC}
-		
 	}
 	
 	#hell yeah boi#
 	option = {
-	name = yug_rebel.7.a
-	add_stability = 20
-	news_event = {id = yug_news.2}
-	set_country_flag = yug_defeated_rebels	
-		
+		name = yug_rebel.7.a
+		add_stability = 20
+		news_event = {id = yug_news.2}
+		set_country_flag = yug_defeated_rebels	
 	}
 
 }

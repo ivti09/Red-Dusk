@@ -117,7 +117,6 @@ add_ideas = SOV_rising_separatism
 
 recruit_character = SOV_gennady_yanayev
 recruit_character = SOV_dmitry_yazov
-recruit_character = SOV_dmitry_yazov_general
 recruit_character = SOV_anatoly_chernyaev
 recruit_character = SOV_boris_pugo
 recruit_character = SOV_mikhail_gorbachev

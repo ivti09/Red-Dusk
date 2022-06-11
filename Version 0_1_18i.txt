@@ -1,0 +1,37 @@
+# common #
+	# characters #
+		- SOV.txt: merged both Yazov characters into one character
+		- SAF.txt: fixed incorrect ideology
+	# units #
+		# equipment #
+			- main_battle_tank.txt: added priority, visual levels, and parents
+			- All equipment files: added parent where needed
+
+# events #
+	- ussr.txt: fixed error where Yazov wouldn't die
+	- news_events.txt: fixed code errors
+	- yug.txt: fixed code errors
+
+# gfx #
+	# interface #
+		# counters #
+			- Added divisions_small
+
+# history #
+	# countries #
+		- SOV.txt: removed merged Yazov
+
+# localisation #
+	# english #
+		- state_names_l_english.yml: renamed Konisberg to Kaliningrad
+		- Added countries_cosmetic_l_english.yml: added Iraq cosmetic tags
+
+# music #
+	# sucmp #
+		- _sucmp.txt: hid music that did not exist
+
+- Added files from comrade doggo
+
+## Issues ##
+	- Aircraft and ships showing up as support companies
+	- Missing small division icons

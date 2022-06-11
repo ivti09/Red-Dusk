@@ -117,6 +117,7 @@ equipments = {
 		year = 1980
 
 		archetype = corvette_hull
+		parent = corvette_hull_1
 		priority = 2500
 
 		module_slots = inherit
@@ -128,6 +129,7 @@ equipments = {
 		year = 1990
 
 		archetype = corvette_hull
+		parent = corvette_hull_2
 		priority = 2500
 
 		module_slots = {
@@ -168,6 +170,7 @@ equipments = {
 		year = 2000
 
 		archetype = corvette_hull
+		parent = corvette_hull_3
 		priority = 2500
 
 		module_slots = {
@@ -208,6 +211,7 @@ equipments = {
 		year = 2010
 
 		archetype = corvette_hull
+		parent = corvette_hull_4
 		priority = 2500
 
 		module_slots = {
@@ -248,6 +252,7 @@ equipments = {
 		year = 2020
 
 		archetype = corvette_hull
+		parent = corvette_hull_5
 		priority = 2500
 
 		module_slots = {

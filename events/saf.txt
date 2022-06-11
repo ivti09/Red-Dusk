@@ -1,0 +1,58 @@
+add_namespace = saf
+
+#Mandela#
+country_event = {
+	id = saf.1
+	title = saf.1.t
+	desc = saf.1.d
+	picture = GFX_report_event_SAF_mandela
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.1.a
+		add_political_power = -20
+		add_stability = -0.07
+		add_manpower = -1
+		
+	}
+}
+
+#Parliment#
+country_event = {
+	id = saf.2
+	title = saf.2.t
+	desc = saf.2.d
+	picture = GFX_report_event_SAF_parliament
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.2.a
+		SAF = {
+			country_event = { id = saf.3 days = 1}
+		}
+		
+	}
+}
+
+#Parliament 2#
+country_event = {
+	id = saf.3
+	title = saf.3.t
+	desc = saf.3.d
+	picture = GFX_report_event_SAF_parliament
+	
+	is_triggered_only = yes
+	
+	#Parliament#
+	option = {
+		name = saf.3.a	
+	}
+        #Military#
+	option = {
+		name = saf.3.b		
+	}
+}

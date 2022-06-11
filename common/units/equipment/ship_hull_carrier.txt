@@ -130,6 +130,7 @@ equipments = {
 		year = 1980
 
 		archetype = carrier_hull
+		parent = carrier_hull_1
 		priority = 2500
 
 		module_slots = inherit
@@ -141,6 +142,7 @@ equipments = {
 		year = 2000
 
 		archetype = carrier_hull
+		parent = carrier_hull_2
 		priority = 2500
 
 		module_slots = {
@@ -193,6 +195,7 @@ equipments = {
 		year = 2020
 
 		archetype = carrier_hull
+		parent = carrier_hull_3
 		priority = 2500
 
 		module_slots = {

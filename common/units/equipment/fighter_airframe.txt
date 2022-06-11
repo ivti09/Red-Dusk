@@ -62,6 +62,7 @@ equipments = {
 		year = 1970
 
 		archetype = fighter_equipment
+		parent = fighter_equipment_0
 		priority = 10
 
 		air_range = 850
@@ -78,6 +79,7 @@ equipments = {
 		year = 1980
 
 		archetype = fighter_equipment
+		parent = fighter_equipment_1
 		priority = 15
 
 		air_range = 1050
@@ -94,6 +96,7 @@ equipments = {
 		year = 1990
 
 		archetype = fighter_equipment
+		parent = fighter_equipment_2
 		priority = 20
 
 		air_range = 1400
@@ -110,6 +113,7 @@ equipments = {
 		year = 2000
 
 		archetype = fighter_equipment
+		parent = fighter_equipment_3
 		priority = 25
 
 		air_range = 1500
@@ -126,6 +130,7 @@ equipments = {
 		year = 2010
 
 		archetype = fighter_equipment
+		parent = fighter_equipment_4
 		priority = 30
 
 		air_range = 1800
@@ -142,6 +147,7 @@ equipments = {
 		year = 2020
 
 		archetype = fighter_equipment
+		parent = fighter_equipment_5
 		priority = 35
 
 		air_range = 2000
@@ -208,6 +214,7 @@ equipments = {
 		year = 1970
 
 		archetype = interceptor_equipment
+		parent = interceptor_equipment_0
 		priority = 11
 
 		air_range = 1450
@@ -221,6 +228,7 @@ equipments = {
 		year = 1980
 
 		archetype = interceptor_equipment
+		parent = interceptor_equipment_1
 		priority = 16
 
 		air_range = 2000
@@ -294,6 +302,7 @@ equipments = {
 		year = 1970
 
 		archetype = carrier_fighter_equipment
+		parent = carrier_fighter_equipment_0
 		priority = 10
 
 		air_range = 850
@@ -310,6 +319,7 @@ equipments = {
 		year = 1980
 
 		archetype = carrier_fighter_equipment
+		parent = carrier_fighter_equipment_1
 		priority = 15
 
 		air_range = 1050
@@ -326,6 +336,7 @@ equipments = {
 		year = 1990
 
 		archetype = carrier_fighter_equipment
+		parent = carrier_fighter_equipment_2
 		priority = 20
 
 		air_range = 1400
@@ -342,6 +353,7 @@ equipments = {
 		year = 2000
 
 		archetype = carrier_fighter_equipment
+		parent = carrier_fighter_equipment_3
 		priority = 25
 
 		air_range = 1500
@@ -358,6 +370,7 @@ equipments = {
 		year = 2010
 
 		archetype = carrier_fighter_equipment
+		parent = carrier_fighter_equipment_4
 		priority = 30
 
 		air_range = 1800
@@ -374,6 +387,7 @@ equipments = {
 		year = 2020
 
 		archetype = carrier_fighter_equipment
+		parent = carrier_fighter_equipment_5
 		priority = 35
 
 		air_range = 2000
@@ -440,6 +454,7 @@ equipments = {
 		year = 2010
 
 		archetype = stealth_fighter_equipment
+		parent = stealth_fighter_equipment_0
 		priority = 45
 
 		air_range = 2000
@@ -453,6 +468,7 @@ equipments = {
 		year = 2020
 
 		archetype = stealth_fighter_equipment
+		parent = stealth_fighter_equipment_1
 		priority = 50
 
 		air_range = 2250
@@ -524,6 +540,7 @@ equipments = {
 		year = 2020
 
 		archetype = carrier_stealth_fighter_equipment
+		parent = carrier_stealth_fighter_equipment_0
 		priority = 50
 
 		air_range = 2250

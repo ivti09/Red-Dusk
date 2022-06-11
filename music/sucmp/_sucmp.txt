@@ -3,14 +3,14 @@
 music_station = "SUCMP"
 
 
-music = {
-	song = "American_Idiot"
-	chance = {
-		modifier = {
-			factor = 1
-		}
-	}
-}
+#music = {
+#	song = "American_Idiot"
+#	chance = {
+#		modifier = {
+#			factor = 1
+#		}
+#	}
+#}
 music = {
 	song = "An_Escalation"
 	chance ={
@@ -27,14 +27,14 @@ music = {
 		}
 	}
 }
-music = {
-	song = "battle_hymn_of_the_republic"
-	chance = {
-		modifier = {
-			factor = 1
-		}
-	}
-}
+#music = {
+#	song = "battle_hymn_of_the_republic"
+#	chance = {
+#		modifier = {
+#			factor = 1
+#		}
+#	}
+#}
 music = {
 	song = "Campaign_Brief"
 	chance = {
@@ -107,14 +107,14 @@ music = {
 		}
 	}
 }
-music = {
-	song = "Interstate_Love_Song"
-	chance = {
-		modifier = {
-			factor = 1
-		}
-	}
-}
+#music = {
+#	song = "Interstate_Love_Song"
+#	chance = {
+#		modifier = {
+#			factor = 1
+#		}
+#	}
+#}
 music = {
 	song = "Invincible_And_Legendary"
 	chance = {
@@ -139,14 +139,14 @@ music = {
 		}
 	}
 }
-music = {
-	song = "Lenin_is_Young_Again" 
-	chance = {
-		modifier = {
-			factor = 1
-		}
-	}
-}
+#music = {
+#	song = "Lenin_is_Young_Again" 
+#	chance = {
+#		modifier = {
+#			factor = 1
+#		}
+#	}
+#}
 music = {
 	song = "Modern_Talking-Who_Will_Save_The_World"
 	chance = {
@@ -187,12 +187,12 @@ music = {
 		}
 	}
 }
-music = {
-	song = "Owner_Of_A_Broken_Heart_(Extended)"
-	chance = {
-		factor = 1
-	}
-}
+#music = {
+#	song = "Owner_Of_A_Broken_Heart_(Extended)"
+#	chance = {
+#		factor = 1
+#	}
+#}
 
 music = {
 	song = "Plan_in_Motion"
@@ -226,14 +226,14 @@ music = {
 		}
 	}
 }
-music = {
-	song = "Soviet_Anthem_Pop_version"
-	chance = {
-		modifier = {
-			factor = 1
-		}
-	}
-}
+#music = {
+#	song = "Soviet_Anthem_Pop_version"
+#	chance = {
+#		modifier = {
+#			factor = 1
+#		}
+#	}
+#}
 music = {
 	song = "Space_Forces"
 	chance = {

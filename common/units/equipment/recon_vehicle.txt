@@ -56,6 +56,7 @@ equipments = {
 		year = 1980
 
 		archetype = recon_vehicle_equipment
+		parent = recon_vehicle_equipment_0
 
 		#Misc Abilities
 		maximum_speed = 12
@@ -77,6 +78,7 @@ equipments = {
 		year = 2000
 
 		archetype = recon_vehicle_equipment
+		parent = recon_vehicle_equipment_1
 
 		#Misc Abilities
 		maximum_speed = 16
@@ -98,6 +100,7 @@ equipments = {
 		year = 2020
 
 		archetype = recon_vehicle_equipment
+		parent = recon_vehicle_equipment_2
 
 		#Misc Abilities
 		maximum_speed = 18

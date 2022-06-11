@@ -56,6 +56,7 @@ equipments = {
 		year = 1970
 
 		archetype = apc_tank_equipment
+		parent = apc_tank_equipment_0
 
 		#Misc Abilities
 		reliability = 0.72
@@ -75,6 +76,7 @@ equipments = {
 		year = 1980
 
 		archetype = apc_tank_equipment
+		parent = apc_tank_equipment_1
 
 		#Misc Abilities
 		maximum_speed = 10
@@ -95,6 +97,7 @@ equipments = {
 		year = 1990
 
 		archetype = apc_tank_equipment
+		parent = apc_tank_equipment_2
 
 		#Misc Abilities
 		maximum_speed = 10
@@ -115,6 +118,7 @@ equipments = {
 		year = 2000
 
 		archetype = apc_tank_equipment
+		parent = apc_tank_equipment_3
 
 		#Misc Abilities
 		maximum_speed = 12
@@ -135,6 +139,7 @@ equipments = {
 		year = 2010
 
 		archetype = apc_tank_equipment
+		parent = apc_tank_equipment_4
 
 		#Misc Abilities
 		maximum_speed = 12
@@ -155,6 +160,7 @@ equipments = {
 		year = 2020
 
 		archetype = apc_tank_equipment
+		parent = apc_tank_equipment_5
 
 		#Misc Abilities
 		maximum_speed = 14

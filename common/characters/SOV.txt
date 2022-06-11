@@ -36,12 +36,24 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/SOV/Yazov_Redux.dds"
 			}
+			army = {
+				large = "gfx/leaders/SOV/Yazov_Redux.dds"
+			}
 		}
 		country_leader = {
 			ideology = stalinism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
+		}
+		field_marshal={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
 	SOV_anatoly_chernyaev = {
@@ -145,23 +157,6 @@ characters = {
 
 	## Generals ##
 
-	SOV_dmitry_yazov_general = {
-		name = "Dmitry Yazov"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SOV/Yazov_Redux.dds"
-			}
-		}
-		field_marshal={
-			traits={ }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
 	SOV_sergey_shoigu = {
 		name = "Sergey Shoygu"
 		portraits = {

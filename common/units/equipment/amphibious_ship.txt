@@ -45,6 +45,7 @@ equipments = {
 		year = 1960
 
 		archetype = amphibious_hull
+		parent = amphibious_hull_1
 		type = floating_harbor
 
 		active = no
@@ -60,6 +61,7 @@ equipments = {
 		year = 1960
 
 		archetype = amphibious_hull
+		parent = amphibious_hull_2
 		type = floating_harbor
 
 		active = no
@@ -75,6 +77,7 @@ equipments = {
 		year = 1960
 
 		archetype = amphibious_hull
+		parent = amphibious_hull_3
 		type = floating_harbor
 
 		active = no

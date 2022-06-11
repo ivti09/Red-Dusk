@@ -56,6 +56,7 @@ equipments = {
 		year = 1980
 
 		archetype = spaa_tank_equipment
+		parent = spaa_tank_equipment_0
 
 		#Misc Abilities
 		maximum_speed = 7
@@ -75,6 +76,7 @@ equipments = {
 		year = 2000
 
 		archetype = spaa_tank_equipment
+		parent = spaa_tank_equipment_1
 
 		#Misc Abilities
 		maximum_speed = 8
@@ -94,6 +96,7 @@ equipments = {
 		year = 2020
 
 		archetype = spaa_tank_equipment
+		parent = spaa_tank_equipment_2
 
 		#Misc Abilities
 		maximum_speed = 9

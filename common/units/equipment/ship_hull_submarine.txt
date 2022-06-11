@@ -75,6 +75,7 @@ equipments = {
 		year = 1980
 
 		archetype = attack_submarine_hull
+		parent = attack_submarine_hull_1
 		priority = 2500
 
 		module_slots = inherit
@@ -86,6 +87,7 @@ equipments = {
 		year = 1990
 
 		archetype = attack_submarine_hull
+		parent = attack_submarine_hull_2
 		priority = 2500
 
 		module_slots = {
@@ -118,6 +120,7 @@ equipments = {
 		year = 2000
 
 		archetype = attack_submarine_hull
+		parent = attack_submarine_hull_3
 		priority = 2500
 
 		module_slots = {
@@ -150,6 +153,7 @@ equipments = {
 		year = 2010
 
 		archetype = attack_submarine_hull
+		parent = attack_submarine_hull_4
 		priority = 2500
 
 		module_slots = {
@@ -189,6 +193,7 @@ equipments = {
 		year = 2020
 
 		archetype = attack_submarine_hull
+		parent = attack_submarine_hull_5
 		priority = 2500
 
 		module_slots = {
@@ -327,6 +332,7 @@ equipments = {
 		year = 1980
 
 		archetype = cruise_submarine_hull
+		parent = cruise_submarine_hull_1
 		priority = 2500
 
 		module_slots = inherit
@@ -338,6 +344,7 @@ equipments = {
 		year = 2000
 
 		archetype = cruise_submarine_hull
+		parent = cruise_submarine_hull_2
 		priority = 2500
 
 		module_slots = inherit
@@ -349,6 +356,7 @@ equipments = {
 		year = 2020
 
 		archetype = cruise_submarine_hull
+		parent = cruise_submarine_hull_3
 		priority = 2500
 
 		module_slots = inherit
@@ -466,6 +474,7 @@ equipments = {
 		year = 1980
 
 		archetype = ballistic_submarine_hull
+		parent = ballistic_submarine_hull_1
 		priority = 2500
 
 		module_slots = inherit
@@ -477,6 +486,7 @@ equipments = {
 		year = 2000
 
 		archetype = ballistic_submarine_hull
+		parent = ballistic_submarine_hull_2
 		priority = 2500
 
 		module_slots = inherit
@@ -488,6 +498,7 @@ equipments = {
 		year = 2020
 
 		archetype = ballistic_submarine_hull
+		parent = ballistic_submarine_hull_3
 		priority = 2500
 
 		module_slots = inherit

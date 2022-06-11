@@ -14,7 +14,7 @@ news_event = {
 	major = yes
 
 	is_triggered_only = yes
-	is_triggered_once = yes
+	fire_only_once = yes
 	option ={
 		name = old_times_news.1.a
 	}
@@ -29,7 +29,7 @@ news_event = {
 	major = yes
 	
 	is_triggered_only = yes
-	is_triggered_once = yes
+	fire_only_once = yes
 	option ={
 		name = old_times_news.2.a
 	}
@@ -44,7 +44,7 @@ news_event = {
 	major = yes
 	
 	is_triggered_only = yes
-	is_triggered_once = yes
+	fire_only_once = yes
 	option ={
 		name = old_times_news.3.a
 	}
