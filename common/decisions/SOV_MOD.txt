@@ -905,7 +905,7 @@ sov_crackdown_chechenya = {
 		
 		highlight_states = {
 			highlight_state_targets = {
-				state = 784
+				state = 821
 			}
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
@@ -946,7 +946,7 @@ sov_crackdown_chechenya = {
 		
 		highlight_states = {
 			highlight_state_targets = {
-				state = 784
+				state = 821
 			}
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
@@ -1015,7 +1015,7 @@ sov_crackdown_chechenya = {
 		
 		highlight_states = {
 			highlight_state_targets = {
-				state = 784
+				state = 821
 			}
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
@@ -1113,11 +1113,11 @@ sov_crackdown_ukraine = {
 			original_tag = SOV
 			has_country_flag = crackdown_ukraine
 			divisions_in_state = {
-				state = 202	
+				state = 201
 				size > 5
 			}
 			divisions_in_state = {
-				state = 221	
+				state = 199	
 				size > 5
 			}
 		}
@@ -1151,7 +1151,7 @@ sov_crackdown_ukraine = {
 			original_tag = SOV
 			has_country_flag = crackdown_ukraine
 			divisions_in_state = {
-				state = 821
+				state = 202
 				size > 5
 			}
 		}
@@ -1162,7 +1162,7 @@ sov_crackdown_ukraine = {
 		
 		highlight_states = {
 			highlight_state_targets = {
-				state = 784
+				state = 202
 			}
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
@@ -1228,7 +1228,7 @@ sov_crackdown_ukraine = {
 		
 		highlight_states = {
 			highlight_state_targets = {
-				state = 784
+				state = 202
 			}
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
@@ -1272,14 +1272,6 @@ sov_invade_china_decisions = {
 			}
 		}
 		
-		highlight_states = {
-			highlight_state_targets = {
-				state = 784
-			}
-			highlight_color_while_active = 3
-			highlight_color_before_active = 2
-		}
-		
 		cost = 35
 		fire_only_once = yes
 		ai_will_do = {
@@ -1316,14 +1308,6 @@ sov_invade_china_decisions = {
 			NOT = {
 				has_country_flag = sov_invaded_china
 			}
-		}
-		
-		highlight_states = {
-			highlight_state_targets = {
-				state = 784
-			}
-			highlight_color_while_active = 3
-			highlight_color_before_active = 2
 		}
 		
 		cost = 35
@@ -1363,13 +1347,6 @@ sov_invade_china_decisions = {
 			}
 		}
 		
-		highlight_states = {
-			highlight_state_targets = {
-				state = 784
-			}
-			highlight_color_while_active = 3
-			highlight_color_before_active = 2
-		}
 		
 		cost = 35
 		fire_only_once = yes

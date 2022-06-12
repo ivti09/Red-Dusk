@@ -671,15 +671,15 @@ country_event = {
 #chechen uprising##
 country_event = {
 	id = ussr_rebel_cin.1
-	title = ussr_rebel.1.t
-	desc = ussr_rebel.1.d
+	title = ussr_rebel_cin.1.t
+	desc = ussr_rebel_cin.1.d
 	picture = GFX_report_resistance
 	
 	is_triggered_only = yes
 	
 		##k bruh##
 	option = {
-		name = ussr_rebel.1.a
+		name = ussr_rebel_cin.1.a
 		add_stability = -10
 		add_political_power = -50
 		set_country_flag = finished_crackdown_chechenya		
@@ -698,15 +698,15 @@ country_event = {
 #rip rebels in chechenya##
 country_event = {
 	id = ussr_rebel_cin.2
-	title = ussr_rebel.2.t
-	desc = ussr_rebel.2.d
+	title = ussr_rebel_cin.2.t
+	desc = ussr_rebel_cin.2.d
 	picture = GFX_report_resistance
 	
 	is_triggered_only = yes
 	
 		##yay##
 	option = {
-		name = ussr_rebel.2.a
+		name = ussr_rebel_cin.2.a
 		set_country_flag = finished_crackdown_chechenya	
 		add_stability = 1
 		add_political_power = 10

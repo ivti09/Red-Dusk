@@ -130,6 +130,23 @@ ideas = {
 			}
 		}
 		
+			YUG_nationalist_rebirth = {
+			name = YUG_nationalist_rebirth_name
+
+			removal_cost = -1
+
+			picture = YUG_wtf_are_we_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				fascism_drift = 1.0
+
+			}
+		}
+		
 		#ARMY#
 		
 		#old tactics#

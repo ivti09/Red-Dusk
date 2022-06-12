@@ -146,15 +146,38 @@ focus_tree = {
 		}
 	}
 	
-	
 	focus = {
-		id = YUG_loyal_men_in_high_positions
+		id = YUG_expelling_the_skj
 		icon = GFX_focus_YUG_tito_honour
 		x = 10
-		y = 3
+		y = 4
 
-		prerequisite = {focus = YUG_reforming_skj}
-		prerequisite = {focus = YUG_ecenomy_question}
+		prerequisite = {focus = YUG_economy_question_nationalist}
+		available = {has_country_flag = YUG_economy_problems_solved}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = 30
+		}
+	}
+	focus = {
+		id = YUG_loyal_men_in_high_positions_nationalist
+		icon = GFX_focus_YUG_tito_honour
+		x = 8
+		y = 4
+
+		prerequisite = {focus = YUG_economy_question_nationalist}
+		available = {has_completed_focus = YUG_expelling_the_skj}
 		mutually_exclusive = { }
 		
 		cost = 2.9
@@ -173,12 +196,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = YUG_sideline_the_hardliners
+		id = YUG_sideline_the_communists
 		icon = GFX_focus_YUG_tito_honour
-		x = 9
-		y = 4
+		x = 7
+		y = 5
 
-		prerequisite = {focus = YUG_loyal_men_in_high_positions}
+		prerequisite = {focus = YUG_loyal_men_in_high_positions_nationalist}
 		mutually_exclusive = { }
 		
 		cost = 4.3
@@ -199,13 +222,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = YUG_sideline_the_nationalists
+		id = YUG_empower_the_nationalists
 		icon = GFX_focus_YUG_tito_honour
 		x = 11
-		y = 4
+		y = 5
 		
-		available = {has_completed_focus = YUG_sideline_the_hardliners}
-		prerequisite = {focus = YUG_loyal_men_in_high_positions}
+		available = {has_completed_focus = YUG_sideline_the_communists}
+		prerequisite = {focus = YUG_expelling_the_skj}
 		mutually_exclusive = { }
 		
 		cost = 2.9
@@ -218,9 +241,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = -25
+			add_political_power = 25
 			add_stability = 0.05
-			add_ideas = YUG_nationalism_supressed
+			add_ideas = YUG_nationalist_rebirth
 		}
 	}
 	
