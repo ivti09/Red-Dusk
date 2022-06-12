@@ -19,7 +19,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.02
 			}
 		}
-
+		
 		SOV_memories_of_august_coup = {
 
 			name = SOV_memories_of_august_coup_name

@@ -387,6 +387,30 @@
  YUG_economic_rebirth:0 "Economic Rebirth"
  YUG_economic_rebirth_desc:0 ""
  
+ ###NATIONALIST MILOSEVIC####
+ 
+ YUG_matters_of_economy_nationalist:0 "Matters Of Economy"
+ YUG_matters_of_economy_nationalist_desc:0 ""
+ YUG_start_the_economic_reforms_nationalist:0 "Start The Economic Reforms"
+ YUG_start_the_economic_reforms_nationalist_desc:0 ""
+ YUG_rebuilding_our_industry_nationalist:0 "Rebuilding Our Industry"
+ YUG_rebuilding_our_industry_nationalist_desc:0 ""
+ YUG_moving_away_from_IMF_nationalist:0 "Moving Away From IMF"
+ YUG_moving_away_from_IMF_nationalist_desc:0 ""
+ YUG_nationalized_economy:0 "Nationalized Economy"
+ YUG_nationalized_economy_desc:0 ""
+ 
+ YUG_transition_to_market_economy:0 "Transition to Market Economy"
+ YUG_transition_to_market_economy_desc:0 ""
+ YUG_open_new_factories_nationalist:0 "Open New Factories"
+ YUG_open_new_factories_nationalist_desc:0 ""
+ YUG_keep_in_thouch_with_IMF_nationalist:0 "Keep In Touch With IMF"
+ YUG_keep_in_thouch_with_IMF_nationalist_desc:0 ""
+ YUG_old_plan_with_a_new_name:0 "Old Plan With a New Name"
+ YUG_old_plan_with_a_new_name_desc:0 ""
+ YUG_economic_rebirth_nationalist:0 "Economic Rebirth"
+ YUG_economic_rebirth_nationalist_desc:0 ""
+ 
  ## VIN ##
  VIN_newmillenniumnewvietnam:0 "New Millennium, New Vietnam"
  VIN_newmillenniumnewvietnam_desc:0 "WIP"

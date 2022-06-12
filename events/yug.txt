@@ -195,6 +195,63 @@ country_event = {
 
 }
 
+
+## NATIONALIST MILOSEVIC##
+
+#Quite Coup#
+country_event = {
+	id = yug.12
+	title = yug.12.t
+	desc = yug.12.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#We need loc#
+	option = {
+	name = yug.12.a
+		remove_ideas = YUG_after_tito
+			set_politics = {
+				ruling_party = fascism
+				last_election = "1932.5.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.07
+		}
+	}
+
+}
+
+#Slobodan's finest hour#
+country_event = {
+	id = yug.13
+	title = yug.13.t
+	desc = yug.13.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#We need loc#
+	option = {
+	name = yug.13.a
+		remove_ideas = YUG_after_tito
+			set_politics = {
+				ruling_party = fascism
+				last_election = "1932.5.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.07
+		}
+	}
+
+}
+
 ## UPRISING STUFF##
 
 

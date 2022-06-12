@@ -1,0 +1,1055 @@
+focus_tree = {
+	id = yug_nationalist_milosevic_focus
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 22
+			tag = YUG
+		}
+	}
+	
+	
+	default = no
+	
+	#move away from commie#
+	focus = {
+		id = YUG_move_away_from_communism
+		icon = GFX_focus_YUG_tito_honour
+		x = 9
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			add_stability = -0.05
+			add_party_popularity = {
+				ideology = communism
+				popularity = -0.10
+			}
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_embracing_nationalism
+		icon = GFX_focus_YUG_tito_honour
+		x = 9
+		y = 1
+
+		prerequisite = {focus = YUG_move_away_from_communism}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			country_event = {id = yug.12}
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_replacing_the_ministers
+		icon = GFX_focus_YUG_tito_honour
+		x = 7
+		y = 2
+
+		prerequisite = {focus = YUG_embracing_nationalism}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.05
+			add_war_support = 0.10
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_slobodan_our_savior
+		icon = GFX_focus_YUG_tito_honour
+		x = 10
+		y = 2
+
+		prerequisite = {focus = YUG_embracing_nationalism}
+		available = {has_completed_focus = YUG_replacing_the_ministers}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.10
+			country_event = {id = yug.13}
+			
+		}
+	}
+
+	focus = {
+		id = YUG_economy_question_nationalist
+		icon = GFX_focus_YUG_tito_honour
+		x = 9
+		y = 3
+
+		prerequisite = {focus = YUG_replacing_the_ministers}
+		prerequisite = {focus = YUG_slobodan_our_savior}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 25
+			set_country_flag = YUG_economy_time
+			custom_effect_tooltip = YUG_can_deal_with_economy
+			
+		}
+	}
+	
+	
+	focus = {
+		id = YUG_loyal_men_in_high_positions
+		icon = GFX_focus_YUG_tito_honour
+		x = 10
+		y = 3
+
+		prerequisite = {focus = YUG_reforming_skj}
+		prerequisite = {focus = YUG_ecenomy_question}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = YUG_corrupt_party
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_sideline_the_hardliners
+		icon = GFX_focus_YUG_tito_honour
+		x = 9
+		y = 4
+
+		prerequisite = {focus = YUG_loyal_men_in_high_positions}
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.05
+			add_war_support = 0.05
+			country_event = {id = yug.9}
+		}
+	}
+	
+	focus = {
+		id = YUG_sideline_the_nationalists
+		icon = GFX_focus_YUG_tito_honour
+		x = 11
+		y = 4
+		
+		available = {has_completed_focus = YUG_sideline_the_hardliners}
+		prerequisite = {focus = YUG_loyal_men_in_high_positions}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -25
+			add_stability = 0.05
+			add_ideas = YUG_nationalism_supressed
+		}
+	}
+	
+	focus = {
+		id = YUG_matters_of_JNA
+		icon = GFX_focus_YUG_tito_honour
+		x = 10
+		y = 5
+		
+		prerequisite = {focus = YUG_sideline_the_hardliners}
+		prerequisite = {focus = YUG_sideline_the_nationalists}
+		mutually_exclusive = { }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		set_country_flag = YUG_can_deal_with_army
+		custom_effect_tooltip = YUG_can_deal_with_army
+		}
+	}
+	
+	focus = {
+		id = YUG_anti_terrorist_actions
+		icon = GFX_focus_YUG_tito_honour
+		x = 10
+		y = 6
+		
+		available = {
+		has_country_flag = YUG_army_dealt_with
+		}
+		
+		prerequisite = {focus = YUG_matters_of_JNA}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		add_political_power = 15
+		unlock_decision_category_tooltip = yug_deal_with_uprisings
+		set_variable = { bosnia_fight_strength = 85 }
+		set_variable = { albania_fight_strength = 80 }
+		}
+	}
+	
+	focus = {
+		id = YUG_looking_outwards
+		icon = GFX_focus_YUG_tito_honour
+		x = 10
+		y = 7
+		
+		available = {
+		has_country_flag = bos_uprising_started
+		has_country_flag = kos_uprising_started
+		has_war = no
+		}
+		prerequisite = {focus = YUG_anti_terrorist_actions}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		country_event {id = yug.10 }
+		add_war_support = 0.10
+		}
+	}
+	
+	focus = {
+		id = YUG_cut_diplomatic_contacts
+		icon = GFX_focus_YUG_tito_honour
+		x = 8
+		y = 8
+		
+		prerequisite = {focus = YUG_looking_outwards}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 25
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_prepare_the_JNA
+		icon = GFX_focus_YUG_tito_honour
+		x = 12
+		y = 8
+		
+		prerequisite = {focus = YUG_looking_outwards}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			add_war_support = 0.10
+		}
+	}
+	
+	focus = {
+		id = YUG_operation_proleter
+		icon = GFX_focus_YUG_tito_honour
+		x = 10
+		y = 9
+		
+		prerequisite = {focus = YUG_cut_diplomatic_contacts}
+		prerequisite = {focus = YUG_prepare_the_JNA}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		
+			declare_war_on = {
+            type = annex_everything
+            target = CRO
+            }
+			
+            declare_war_on = {
+            type = annex_everything
+            target = SLV
+            }
+		}
+	}
+	
+	focus = {
+		id = YUG_united_once_more
+		icon = GFX_focus_YUG_tito_honour
+		x = 10
+		y = 10
+		
+		prerequisite = {focus = YUG_operation_proleter}
+		mutually_exclusive = { }
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			custom_effect_tooltip = yug_won_over_yugoslavia_milosevic_communist
+			hidden_effect = {
+				add_state_core = 103
+				add_state_core = 163
+				add_state_core = 109
+				add_state_core = 102
+				add_state_core = 736
+			}
+			country_event = {id = yug.11}
+		}
+	}
+	
+	#MILITARY#
+	focus = {
+		id = YUG_future_of_the_army
+		icon = GFX_focus_YUG_tito_honour
+		x = 25
+		y = 0
+
+		mutually_exclusive = { }
+		available = {has_country_flag = YUG_can_deal_with_army}
+		
+		cost = 2.2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		add_political_power = 50
+		}
+	}
+	
+	#old tactics for new bruh#
+	focus = {
+		id = YUG_old_tactics_for_a_new_age
+		icon = GFX_focus_YUG_tito_honour
+		x = 23
+		y = 1
+
+		prerequisite = {focus = YUG_future_of_the_army}
+		mutually_exclusive = {focus = YUG_new_tactics_for_a_new_age}
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		add_ideas = YUG_old_tactics_for_a_new_age
+		add_political_power = 10
+		}
+	}
+	
+	focus = {
+		id = YUG_cold_war_like_exercises
+		icon = GFX_focus_YUG_tito_honour
+		x = 21
+		y = 2
+
+		prerequisite = {focus = YUG_old_tactics_for_a_new_age}
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		add_war_support = 0.05
+		add_political_power = 25
+		army_experience = 15
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_a_fleet_to_suit_us
+		icon = GFX_focus_YUG_tito_honour
+		x = 23
+		y = 2
+
+		prerequisite = {focus = YUG_old_tactics_for_a_new_age}
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+			remove_idea = YUG_old_tactics_for_a_new_age
+			add_idea = YUG_old_tactics_for_a_new_age_1
+			}
+			navy_experience = 15
+		}
+	}
+	
+	focus = {
+		id = YUG_Airforce_as_support
+		icon = GFX_focus_YUG_tito_honour
+		x = 22
+		y = 3
+
+		prerequisite = {focus = YUG_cold_war_like_exercises}
+	    prerequisite = {focus = YUG_a_fleet_to_suit_us}
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = YUG_old_tactics_for_a_new_age_1
+				add_idea = YUG_old_tactics_for_a_new_age_2
+			}
+			air_experience = 15
+		}
+	}
+	
+	focus = {
+		id = YUG_domestic_military_production
+		icon = GFX_focus_YUG_tito_honour
+		x = 23
+		y = 4
+
+		prerequisite = {focus = YUG_Airforce_as_support}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = YUG_old_tactics_for_a_new_age_2
+				add_idea = YUG_old_tactics_for_a_new_age_3
+			}
+		}
+	}
+	
+		#New Tactics#
+	focus = {
+		id = YUG_new_tactics_for_a_new_age
+		icon = GFX_focus_YUG_tito_honour
+		x = 27
+		y = 1
+
+		prerequisite = {focus = YUG_future_of_the_army}
+		mutually_exclusive = {focus = YUG_old_tactics_for_a_new_age}
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = YUG_new_tactics_for_a_new_age
+			add_political_power = 5
+		}
+	}
+	
+	focus = {
+		id = YUG_battlegroup_tactics
+		icon = GFX_focus_YUG_tito_honour
+		x = 27
+		y = 2
+
+		prerequisite = {focus = YUG_new_tactics_for_a_new_age}
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_war_support = 0.025
+			add_political_power = 35
+			army_experience = 20
+		}
+	}
+	
+	focus = {
+		id = YUG_focus_on_coast_guard
+		icon = GFX_focus_YUG_tito_honour
+		x = 29
+		y = 2
+
+		prerequisite = {focus = YUG_new_tactics_for_a_new_age}
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_new_tactics_for_a_new_age
+		add_idea = YUG_new_tactics_for_a_new_age_1
+		}
+		navy_experience = 10
+		}
+	}
+	
+	focus = {
+		id = YUG_guardians_of_our_sky
+		icon = GFX_focus_YUG_tito_honour
+		x = 28
+		y = 3
+
+		prerequisite = {focus = YUG_focus_on_coast_guard}
+		prerequisite = {focus = YUG_battlegroup_tactics}
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_new_tactics_for_a_new_age_1
+		add_idea = YUG_new_tactics_for_a_new_age_2
+		}
+		air_experience = 10
+		}
+	}
+	
+	focus = {
+		id = YUG_import_foreign_machinery
+		icon = GFX_focus_YUG_tito_honour
+		x = 27
+		y = 4
+
+		prerequisite = {focus = YUG_guardians_of_our_sky}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_new_tactics_for_a_new_age_2
+		add_idea = YUG_new_tactics_for_a_new_age_3
+		}
+		}
+	}
+	
+	focus = {
+		id = YUG_Ponos_Jugoslavije
+		icon = GFX_focus_YUG_tito_honour
+		x = 25
+		y = 5
+
+		prerequisite = {focus = YUG_domestic_military_production focus = YUG_import_foreign_machinery}
+		mutually_exclusive = { }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		remove_ideas = YUG_demoralized_army
+		set_country_flag = YUG_army_dealt_with
+				IF = {
+					limit = { 			 
+						has_idea = YUG_old_tactics_for_a_new_age_3
+					 
+					}
+					swap_ideas = {
+					remove_idea = YUG_old_tactics_for_a_new_age_3
+					add_idea = YUG_old_tactics_for_a_new_age_final
+					}
+				}
+					
+				else_if = {
+					limit = {
+							has_idea = YUG_new_tactics_for_a_new_age_3
+					}
+					swap_ideas = {
+					remove_idea = YUG_new_tactics_for_a_new_age_3
+					add_idea = YUG_new_tactics_for_a_new_age_final
+					}
+				}
+		}
+	}
+	
+	#ECONOMY#
+	focus = {
+		id = YUG_matters_of_economy_nationalist
+		icon = GFX_focus_YUG_tito_honour
+		x = 16
+		y = 0
+
+		available = {has_country_flag = YUG_economy_time}
+		mutually_exclusive = { }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_yugoslav_mode_of_socialism
+		add_idea = YUG_yugoslav_mode_of_socialism_1
+		}
+		add_political_power = 15
+		country_event = {id = yug.8}
+			
+		}
+	}
+	
+	#DENGIST MILOSEVIC OMG DENGIST DENIGST DENGIST#
+	focus = {
+		id = YUG_start_the_economic_reforms_nationalist
+		icon = GFX_focus_YUG_tito_honour
+		x = 14
+		y = 1
+
+		prerequisite = {focus = YUG_matters_of_economy_nationalist}
+		mutually_exclusive = {focus = YUG_transition_to_market_economy}
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_yugoslav_mode_of_socialism_1
+		add_idea = YUG_yugoslav_mode_of_socialism_2
+		}
+		add_political_power = 10
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_rebuilding_our_industry_nationalist
+		icon = GFX_focus_YUG_tito_honour
+		x = 13
+		y = 2
+
+		prerequisite = {focus = YUG_start_the_economic_reforms_nationalist}
+		mutually_exclusive = { }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		add_stability = 0.05
+		add_political_power = 15
+		unlock_decision_category_tooltip = yug_rebuilding_our_industry	
+		}
+	}
+	
+	focus = {
+		id = YUG_moving_away_from_IMF_nationalist
+		icon = GFX_focus_YUG_tito_honour
+		x = 15
+		y = 2
+
+		prerequisite = {focus = YUG_start_the_economic_reforms_nationalist}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_yugoslav_mode_of_socialism_2
+		add_idea = YUG_yugoslav_mode_of_socialism_3
+		}
+		add_political_power = 25
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_nationalized_economy
+		icon = GFX_focus_YUG_tito_honour
+		x = 14
+		y = 3
+
+		prerequisite = {focus = YUG_rebuilding_our_industry_nationalist}
+		prerequisite = {focus = YUG_moving_away_from_IMF_nationalist}
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_yugoslav_mode_of_socialism_3
+		add_idea = YUG_yugoslav_mode_of_socialism_4
+		}
+		add_political_power = 15
+		add_stability = -0.02
+			
+		}
+	}
+	
+		#transition to MARKET ECONOMY#
+	focus = {
+		id = YUG_transition_to_market_economy
+		icon = GFX_focus_YUG_tito_honour
+		x = 18
+		y = 1
+
+		prerequisite = {focus = YUG_matters_of_economy_nationalist}
+		mutually_exclusive = {focus = YUG_start_the_economic_reforms_nationalist}
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_yugoslav_mode_of_socialism_1
+		add_idea = YUG_yugoslav_mode_of_socialism_5
+		}
+		add_political_power = -10
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_open_new_factories_nationalist
+		icon = GFX_focus_YUG_tito_honour
+		x = 17
+		y = 2
+
+		prerequisite = {focus = YUG_transition_to_market_economy}
+		mutually_exclusive = { }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		add_stability = -0.02
+		add_political_power = 25
+		unlock_decision_category_tooltip = yug_opening_new_factories
+		}
+	}
+	
+	focus = {
+		id = YUG_keep_in_thouch_with_IMF_nationalist
+		icon = GFX_focus_YUG_tito_honour
+		x = 19
+		y = 2
+
+		prerequisite = {focus = YUG_transition_to_market_economy}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_yugoslav_mode_of_socialism_5
+		add_idea = YUG_yugoslav_mode_of_socialism_6
+		}
+		add_political_power = 135
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_old_plan_with_a_new_name
+		icon = GFX_focus_YUG_tito_honour
+		x = 18
+		y = 3
+
+		prerequisite = {focus = YUG_open_new_factories_nationalist}
+		prerequisite = {focus = YUG_keep_in_thouch_with_IMF_nationalist}
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		swap_ideas = {
+		remove_idea = YUG_yugoslav_mode_of_socialism_6
+		add_idea = YUG_yugoslav_mode_of_socialism_7
+		}
+		add_political_power = -15
+		add_stability = -0.04
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_economic_rebirth_nationalist
+		icon = GFX_focus_YUG_tito_honour
+		x = 16
+		y = 4
+
+		prerequisite = {focus = YUG_nationalized_economy focus = YUG_old_plan_with_a_new_name}
+		mutually_exclusive = { }
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		custom_effect_tooltip = SOV_economy_end_ideas_mixed
+		add_stability = 0.10
+		add_war_support = 0.05
+		add_political_power = 20
+		set_country_flag = YUG_economy_problems_solved
+				IF = {
+					limit = { 			 
+						has_idea = YUG_yugoslav_mode_of_socialism_4
+					 
+					}
+					swap_ideas = {
+					remove_idea = YUG_yugoslav_mode_of_socialism_4
+					add_idea = YUG_soviet_orianted_economy
+					}
+				}
+					
+				else_if = {
+					limit = {
+							has_idea = YUG_yugoslav_mode_of_socialism_7
+					}
+					swap_ideas = {
+					remove_idea = YUG_yugoslav_mode_of_socialism_7
+					add_idea = YUG_IMF_orianted_economy
+					}
+				}
+		}
+	}
+		
+}
