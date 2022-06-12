@@ -547,7 +547,10 @@ country_event = {
 
 		add_stability = +0.05
 		add_manpower = -1
+		custom_effect_tooltip = sov_dmitry_yazov_dies_cool_text
+		hidden_effect = {
 		retire_character = SOV_dmitry_yazov
+		}
 	}
 
 }

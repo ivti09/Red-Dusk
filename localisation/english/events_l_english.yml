@@ -128,7 +128,22 @@
  ussr_rebel.3.a:0 "Valuable information"
  ussr_rebel.4.t:0 "Phoneline Operation Fails"
  ussr_rebel.4.d:0 ""
- ussr_rebel.4.a:0 ""
+ ussr_rebel.4.a:0 "oops"
+ 
+ ussr_rebel_ukr.1.t:0 "Kiev Uprising"
+ ussr_rebel_ukr.1.d:0 ""
+ ussr_rebel_ukr.1.a:0 ""
+ ussr_rebel_ukr.2.t:0 "Failed Uprising in Kiev"
+ ussr_rebel_ukr.2.d:0 ""
+ ussr_rebel_ukr.2.a:0 ""
+ 
+ ussr_rebel_cin.1.t:0 "Chechen Uprising"
+ ussr_rebel_cin.1.d:0 ""
+ ussr_rebel_cin.1.a:0 ""
+ ussr_rebel_cin.2.t:0 "Failed Uprising in Chechen Mountains"
+ ussr_rebel_cin.2.d:0 ""
+ ussr_rebel_cin.2.a:0 ""
+ 
  #USA# i used \n\n to make paragraphs -durango#
  
  usa.1.t:0 "The State of the Union"

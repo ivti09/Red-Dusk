@@ -30,3 +30,8 @@ PRC_com_puppet = {
 	color = rgb { 113 24 0 }
 	color_ui = rgb { 113 24 0 }
 }
+
+IRQ_greater_iraq_cosmetic = {
+	color = rgb { 114 58 21 }
+	color_ui = rgb { 231 148 129 }
+}

@@ -1060,7 +1060,7 @@ focus_tree = {
 			add_state_core = 554
 			add_state_core = 680
 			add_state_core = 413
-			set_cosmetic_tag = IRQ_greater_iraq_com_puppet
+			set_cosmetic_tag = IRQ_greater_iraq_cosmetic
 		}
 	}
 
