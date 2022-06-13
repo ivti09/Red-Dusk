@@ -1,0 +1,13 @@
+# common #
+	# national_focus #
+		- saf.txt: fixed gfx bug
+		- irq.txt: updated/added effects to many focuses
+	# ideas #
+		- IRQ.txt: added new ideas for Iraq
+	# opinion_modifiers #
+		- red_dusk_opinion_modifiers.txt: added opinions for Iraq focus tree
+
+# localisation #
+	# english #
+		- mod_ideas_l_english.yml: added localisation for new Iraqi ideas
+		- mod_opinion_modifiers_l_english.yml: added localisation for new opinion modifiers

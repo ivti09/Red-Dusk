@@ -151,7 +151,19 @@
  IRQ_uranium_production_1_name_desc:0 ""
  IRQ_uranium_production_2_name:0 "Uranium Production"
  IRQ_uranium_production_2_name_desc:0 ""
- 
+ IRQ_iraqi_army_name:0 "Iraqi Army"
+ IRQ_iraqi_army_name_desc:0 ""
+ IRQ_terratorial_expansion_idea_1_name:0 "Territorial Expansion"
+ IRQ_terratorial_expansion_idea_1_name_desc:0 ""
+ IRQ_terratorial_expansion_idea_2_name:0 "Territorial Expansion"
+ IRQ_terratorial_expansion_idea_2_name_desc:0 ""
+ IRQ_terratorial_expansion_idea_3_name:0 "Territorial Expansion"
+ IRQ_terratorial_expansion_idea_3_name_desc:0 ""
+ IRQ_terratorial_expansion_idea_4_name:0 "Territorial Expansion"
+ IRQ_terratorial_expansion_idea_4_name_desc:0 ""
+ IRQ_terratorial_expansion_idea_5_name:0 "Territorial Expansion"
+ IRQ_terratorial_expansion_idea_5_name_desc:0 ""
+
  SIA_rama_ix_name:0 "Rama IX"
  SIA_rama_ix_name_desc:0 "Long Live His Majesty King Rama IX"
 

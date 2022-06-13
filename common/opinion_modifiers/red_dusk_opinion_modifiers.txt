@@ -11,5 +11,11 @@ opinion_modifiers = {
 	IRQ_abandoned_dollar_opinion = {
 		value = -15
 	}
+	IRQ_improve_saudi_relations_opinion = {
+		value = 25
+	}
+	IRQ_soviet_support_opinion = {
+		value = 10
+	}
 
 }
