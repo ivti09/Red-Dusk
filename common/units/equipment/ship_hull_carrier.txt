@@ -98,7 +98,7 @@ equipments = {
 			fixed_ship_defensive_slot_1 = empty
 			fixed_ship_defensive_slot_2 = empty
 			fixed_ship_custom_slot = empty
-			custom_ship_ramp_slot = empty
+			custom_ship_ramp_slot = ship_carrier_flat
 			custom_ship_hangar_slot_1 = empty
 			custom_ship_hangar_slot_2 = empty
 			custom_slot_1 = empty
@@ -106,10 +106,19 @@ equipments = {
 			custom_ship_aviation_slot_1 = empty
 		}
 		
-		build_cost_ic = 220
+		surface_detection = 20
+		surface_visibility = 30
 
+		naval_speed = 25
+		reliability = 0.84
+		naval_range = 10000
+		max_strength = 50
+		armor_value = 22
+		
+		build_cost_ic = 4500
 		resources = {
-			steel = 1
+			steel = 7
+			chromium = 3
 		}
 		
 		manpower = 4000
@@ -134,6 +143,11 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		surface_visibility = 32
+
+		reliability = 0.86
+		max_strength = 60
 
 		manpower = 5000
 	}
@@ -188,6 +202,11 @@ equipments = {
 			custom_ship_aviation_slot_2 = empty
 		}
 
+		surface_visibility = 34
+
+		reliability = 0.88
+		max_strength = 70
+
 		manpower = 6000
 	}
 
@@ -240,6 +259,11 @@ equipments = {
 			custom_ship_aviation_slot_1 = empty
 			custom_ship_aviation_slot_2 = empty
 		}
+
+		surface_visibility = 36
+
+		reliability = 0.90
+		max_strength = 80
 
 		manpower = 7000
 	}

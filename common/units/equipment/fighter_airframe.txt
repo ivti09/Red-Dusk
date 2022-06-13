@@ -203,7 +203,7 @@ equipments = {
 		archetype = interceptor_equipment
 		priority = 6
 
-		air_range = 1050
+		air_range = 850
 		maximum_speed = 2200
 		air_agility = 38
 		air_attack = 16
@@ -217,7 +217,7 @@ equipments = {
 		parent = interceptor_equipment_0
 		priority = 11
 
-		air_range = 1450
+		air_range = 1250
 		maximum_speed = 2400
 		air_agility = 52
 		air_attack = 28
@@ -231,7 +231,7 @@ equipments = {
 		parent = interceptor_equipment_1
 		priority = 16
 
-		air_range = 2000
+		air_range = 1800
 		maximum_speed = 2800
 		air_agility = 56
 		air_attack = 38
@@ -288,11 +288,11 @@ equipments = {
 		archetype = carrier_fighter_equipment
 		priority = 5
 
-		air_range = 650
-		maximum_speed = 2000
-		air_agility = 50
-		air_attack = 10
-		air_defence = 9
+		air_range = 550
+		maximum_speed = 1800
+		air_agility = 45
+		air_attack = 9
+		air_defence = 8
 
 		naval_strike_attack = 1.5
 		naval_strike_targetting = 10
@@ -305,11 +305,11 @@ equipments = {
 		parent = carrier_fighter_equipment_0
 		priority = 10
 
-		air_range = 850
-		maximum_speed = 2000
-		air_agility = 50
-		air_attack = 20
-		air_defence = 14
+		air_range = 750
+		maximum_speed = 1800
+		air_agility = 45
+		air_attack = 19
+		air_defence = 13
 
 		naval_strike_attack = 2.5
 		naval_strike_targetting = 10
@@ -322,11 +322,11 @@ equipments = {
 		parent = carrier_fighter_equipment_1
 		priority = 15
 
-		air_range = 1050
-		maximum_speed = 2200
-		air_agility = 60
-		air_attack = 30
-		air_defence = 26
+		air_range = 950
+		maximum_speed = 2000
+		air_agility = 55
+		air_attack = 29
+		air_defence = 25
 
 		naval_strike_attack = 4.5
 		naval_strike_targetting = 10
@@ -339,11 +339,11 @@ equipments = {
 		parent = carrier_fighter_equipment_2
 		priority = 20
 
-		air_range = 1400
-		maximum_speed = 2200
-		air_agility = 70
-		air_attack = 38
-		air_defence = 30
+		air_range = 1300
+		maximum_speed = 2000
+		air_agility = 65
+		air_attack = 37
+		air_defence = 29
 
 		naval_strike_attack = 5.5
 		naval_strike_targetting = 10
@@ -356,11 +356,11 @@ equipments = {
 		parent = carrier_fighter_equipment_3
 		priority = 25
 
-		air_range = 1500
-		maximum_speed = 2200
-		air_agility = 75
-		air_attack = 42
-		air_defence = 34
+		air_range = 1400
+		maximum_speed = 2000
+		air_agility = 70
+		air_attack = 41
+		air_defence = 33
 
 		naval_strike_attack = 6.5
 		naval_strike_targetting = 10
@@ -373,11 +373,11 @@ equipments = {
 		parent = carrier_fighter_equipment_4
 		priority = 30
 
-		air_range = 1800
-		maximum_speed = 2200
-		air_agility = 80
-		air_attack = 50
-		air_defence = 41
+		air_range = 1700
+		maximum_speed = 2000
+		air_agility = 75
+		air_attack = 49
+		air_defence = 40
 
 		naval_strike_attack = 7.5
 		naval_strike_targetting = 10
@@ -390,11 +390,11 @@ equipments = {
 		parent = carrier_fighter_equipment_5
 		priority = 35
 
-		air_range = 2000
-		maximum_speed = 2200
-		air_agility = 82
-		air_attack = 54
-		air_defence = 45
+		air_range = 1900
+		maximum_speed = 2000
+		air_agility = 77
+		air_attack = 53
+		air_defence = 44
 
 		naval_strike_attack = 8.5
 		naval_strike_targetting = 10
@@ -526,11 +526,11 @@ equipments = {
 		archetype = carrier_stealth_fighter_equipment
 		priority = 45
 
-		air_range = 2000
-		maximum_speed = 2200
-		air_agility = 78
-		air_attack = 62
-		air_defence = 55
+		air_range = 1800
+		maximum_speed = 2000
+		air_agility = 73
+		air_attack = 60
+		air_defence = 53
 
 		naval_strike_attack = 4
 		naval_strike_targetting = 10
@@ -543,11 +543,11 @@ equipments = {
 		parent = carrier_stealth_fighter_equipment_0
 		priority = 50
 
-		air_range = 2250
-		maximum_speed = 2200
-		air_agility = 80
-		air_attack = 69
-		air_defence = 61
+		air_range = 2050
+		maximum_speed = 2000
+		air_agility = 75
+		air_attack = 67
+		air_defence = 59
 
 		naval_strike_attack = 6
 		naval_strike_targetting = 10

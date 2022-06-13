@@ -600,3 +600,6 @@
  paratrooper_unit_desc:0 "Utilising airborne forces, paratrooper units can be quickly dropped behind enemy lines, allowing them to perform surprise attacks and seize strategic objectives. However, the use of this unit requires air superiority over the battlefield."
  marine_unit:0 "Marines"
  marine_unit_desc:0 "Trained to operate in coastal areas, marines are trained to perform naval landings, being much more effective in shore combat than regular troops. Therefore, marines are a vital part of any nation's army that aims to perform naval operations."
+ category_all_vessels:0 "All naval vessels"
+ category_all_surface_vessels:0 "All surface ships"
+ category_all_submarine_vessels:0 "All submarines"

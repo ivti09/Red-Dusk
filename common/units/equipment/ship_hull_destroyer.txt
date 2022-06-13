@@ -112,10 +112,19 @@ equipments = {
 			custom_ship_rear_cannon_slot = empty
 		}
 		
-		build_cost_ic = 220
+		surface_detection = 20
+		surface_visibility = 14
 
+		naval_speed = 25
+		reliability = 0.70
+		naval_range = 5000
+		max_strength = 30
+		armor_value = 8
+		
+		build_cost_ic = 900
 		resources = {
-			steel = 1
+			steel = 2
+			chromium = 2
 		}
 		
 		manpower = 500
@@ -141,6 +150,11 @@ equipments = {
 
 		module_slots = inherit
 
+		surface_visibility = 12
+
+		reliability = 0.74
+		max_strength = 40
+
 		manpower = 600
 	}
 
@@ -152,6 +166,11 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		surface_visibility = 11
+
+		reliability = 0.76
+		max_strength = 45
 
 		manpower = 600
 	}
@@ -165,6 +184,11 @@ equipments = {
 
 		module_slots = inherit
 
+		surface_visibility = 10
+
+		reliability = 0.78
+		max_strength = 50
+
 		manpower = 500
 	}
 
@@ -177,6 +201,11 @@ equipments = {
 
 		module_slots = inherit
 
+		surface_visibility = 9
+
+		reliability = 0.80
+		max_strength = 55
+
 		manpower = 400
 	}
 
@@ -188,6 +217,11 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		surface_visibility = 8
+
+		reliability = 0.82
+		max_strength = 60
 
 		manpower = 400
 	}

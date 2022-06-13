@@ -12,4 +12,8 @@ sub_unit_categories = {
 	category_fighter
 	category_attacker
 	category_bomber
+
+	category_all_vessels
+	category_all_surface_vessels
+	category_all_submarine_vessels
 }

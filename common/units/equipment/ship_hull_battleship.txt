@@ -114,10 +114,19 @@ equipments = {
 			custom_ship_aviation_slot = empty
 		}
 		
-		build_cost_ic = 220
+		surface_detection = 20
+		surface_visibility = 24
 
+		naval_speed = 25
+		reliability = 0.70
+		naval_range = 10000
+		max_strength = 65
+		armor_value = 20
+		
+		build_cost_ic = 4000
 		resources = {
-			steel = 1
+			steel = 7
+			chromium = 2
 		}
 		
 		manpower = 1500

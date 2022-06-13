@@ -5,6 +5,7 @@ sub_units = {
 		priority = 4
 		active = yes
 		type = { screen_ship }
+		categories = { category_all_vessels category_all_surface_vessels }
 		need = { destroyer_hull = 1 }
 	}
 }

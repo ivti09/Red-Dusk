@@ -7,7 +7,7 @@ bookmarks = {
 		default_country = "SOV"
 		default = yes
 
-	    "SOV"={
+	    	"SOV"={
 			history = "SOV_NDB_DESC_LOC"
 			ideology = communism
 			ideas = {
@@ -22,7 +22,7 @@ bookmarks = {
 			}	
 		}
 
-	    "USA"={
+	    	"USA"={
 			history = "USA_NDB_DESC_LOC"
 			ideology = democratic
 			ideas = {
@@ -65,19 +65,6 @@ bookmarks = {
 			}	
 		}
 		
-		"KOR"={
-			history = "KOR_NDB_DESC_LOC"
-			ideology = communism
-			ideas = {
-			
-			}
-			focuses = {
-			KOR_new_era
-			KOR_nr
-			KOR_orders
-			}	
-		}
-		
 		"VIN"={
 			history = "VIT_NDB_DESC_LOC"
 			ideology = communism
@@ -103,8 +90,6 @@ bookmarks = {
 			
 			}	
 		}
-		
-
 
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"

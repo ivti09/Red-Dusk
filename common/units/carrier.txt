@@ -5,6 +5,7 @@ sub_units = {
 		priority = 12
 		active = yes
 		type = { carrier }
+		categories = { category_all_vessels category_all_surface_vessels }
 		need = { carrier_hull = 1 }
 	}
 }

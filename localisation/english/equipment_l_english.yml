@@ -572,6 +572,12 @@
 # Naval #
  submarine:0 "Submarine"
  submarine_desc:0 "These vessels are capable of attack both surface and land targets, all while hidden under the waters."
+ attack_submarine:0 "Attack Submarine"
+ attack_submarine_desc:0 "These quiet and deadly vessels lurk beneath the waters, capable of challenging even the biggest surface ships while being cheaper and harder to detect."
+ cruise_submarine:0 "Cruise Missile Submarine"
+ cruise_submarine_desc:0 "Packed with cruise ship missiles, these submarines forgo undersea attack power in exchange for much greater surface strike capabilities."
+ ballistic_submarine:0 "Ballistic Missile Submarine"
+ ballistic_submarine_desc:0 "While often having only limited direct attack weapons, these vessels pose a constant threat to any enemy with their nuclear deterrent."
  corvette:0 "Corvette"
  corvette_desc:0 "The smallest warship a navy can field, these vessels primarily patrol coastal regions and rarely venture into deep waters."
  destroyer:0 "Destroyer"

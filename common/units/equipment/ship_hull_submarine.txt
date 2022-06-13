@@ -51,10 +51,19 @@ equipments = {
 			custom_ship_torpedo_slot = ship_torpedo_sub_1
 			custom_slot_1 = empty
 		}
+
+		surface_detection = 20
+		sub_visibility = 35
+
+		naval_speed = 20
+		reliability = 0.70
+		naval_range = 5000
+		max_strength = 10
 		
-		build_cost_ic = 220
+		build_cost_ic = 500
 		resources = {
 			steel = 1
+			chromium = 1
 		}
 		
 		manpower = 150
@@ -79,6 +88,11 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		sub_visibility = 25
+
+		reliability = 0.74
+		max_strength = 20
 
 		manpower = 140
 	}
@@ -113,6 +127,11 @@ equipments = {
 			custom_slot_2 = empty
 		}
 
+		sub_visibility = 20
+
+		reliability = 0.76
+		max_strength = 25
+
 		manpower = 130
 	}
 
@@ -145,6 +164,11 @@ equipments = {
 			custom_slot_1 = empty
 			custom_slot_2 = empty
 		}
+
+		sub_visibility = 15
+
+		reliability = 0.78
+		max_strength = 30
 
 		manpower = 120
 	}
@@ -186,6 +210,11 @@ equipments = {
 			custom_slot_3 = empty
 		}
 
+		sub_visibility = 10
+
+		reliability = 0.80
+		max_strength = 35
+
 		manpower = 120
 	}
 
@@ -225,6 +254,11 @@ equipments = {
 			custom_slot_2 = empty
 			custom_slot_3 = empty
 		}
+
+		sub_visibility = 5
+
+		reliability = 0.82
+		max_strength = 40
 
 		manpower = 120
 	}
@@ -308,10 +342,19 @@ equipments = {
 			custom_sub_cruise_missile_slot_3 = empty
 			custom_sub_cruise_missile_slot_4 = empty
 		}
+
+		surface_detection = 20
+		sub_visibility = 45
+
+		naval_speed = 20
+		reliability = 0.74
+		naval_range = 7500
+		max_strength = 20
 		
-		build_cost_ic = 220
+		build_cost_ic = 600
 		resources = {
-			steel = 1
+			steel = 2
+			chromium = 1
 		}
 		
 		manpower = 180
@@ -337,6 +380,11 @@ equipments = {
 
 		module_slots = inherit
 
+		sub_visibility = 35
+
+		reliability = 0.78
+		max_strength = 30
+
 		manpower = 200
 	}
 
@@ -349,6 +397,11 @@ equipments = {
 
 		module_slots = inherit
 
+		sub_visibility = 25
+
+		reliability = 0.82
+		max_strength = 40
+
 		manpower = 180
 	}
 
@@ -360,6 +413,11 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		sub_visibility = 15
+
+		reliability = 0.86
+		max_strength = 50
 
 		manpower = 160
 	}
@@ -451,9 +509,18 @@ equipments = {
 			custom_sub_ballistic_missile_slot_5 = empty
 		}
 		
-		build_cost_ic = 220
+		surface_detection = 20
+		sub_visibility = 55
+
+		naval_speed = 20
+		reliability = 0.76
+		naval_range = 10000
+		max_strength = 30
+		
+		build_cost_ic = 800
 		resources = {
-			steel = 1
+			steel = 2
+			chromium = 1
 		}
 		
 		manpower = 240
@@ -479,6 +546,11 @@ equipments = {
 
 		module_slots = inherit
 
+		sub_visibility = 45
+
+		reliability = 0.80
+		max_strength = 40
+
 		manpower = 300
 	}
 
@@ -491,6 +563,11 @@ equipments = {
 
 		module_slots = inherit
 
+		sub_visibility = 35
+
+		reliability = 0.84
+		max_strength = 50
+		
 		manpower = 220
 	}
 
@@ -502,6 +579,11 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		sub_visibility = 25
+
+		reliability = 0.88
+		max_strength = 60
 
 		manpower = 200
 	}

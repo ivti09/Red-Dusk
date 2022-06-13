@@ -92,11 +92,20 @@ equipments = {
 			custom_slot_2 = empty
 			custom_slot_3 = empty
 		}
-		
-		build_cost_ic = 220
 
+		surface_detection = 20
+		surface_visibility = 10
+
+		naval_speed = 25
+		reliability = 0.60
+		naval_range = 3000
+		max_strength = 20
+		armor_value = 5
+		
+		build_cost_ic = 650
 		resources = {
-			steel = 1
+			steel = 2
+			chromium = 1
 		}
 		
 		manpower = 160
@@ -121,6 +130,11 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		surface_visibility = 8
+
+		reliability = 0.64
+		max_strength = 30
 
 		manpower = 160
 	}
@@ -163,6 +177,11 @@ equipments = {
 			custom_slot_3 = empty
 		}
 
+		surface_visibility = 7
+
+		reliability = 0.66
+		max_strength = 35
+
 		manpower = 160
 	}
 
@@ -203,6 +222,11 @@ equipments = {
 			custom_slot_2 = empty
 			custom_slot_3 = empty
 		}
+
+		surface_visibility = 6
+
+		reliability = 0.68
+		max_strength = 40
 
 		manpower = 150
 	}
@@ -245,6 +269,11 @@ equipments = {
 			custom_slot_3 = empty
 		}
 
+		surface_visibility = 5
+
+		reliability = 0.70
+		max_strength = 45
+
 		manpower = 120
 	}
 
@@ -285,6 +314,11 @@ equipments = {
 			custom_slot_2 = empty
 			custom_slot_3 = empty
 		}
+
+		surface_visibility = 4
+
+		reliability = 0.72
+		max_strength = 50
 
 		manpower = 120
 	}

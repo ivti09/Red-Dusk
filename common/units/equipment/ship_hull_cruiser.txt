@@ -120,10 +120,19 @@ equipments = {
 			custom_ship_rear_cannon_slot = empty
 		}
 		
-		build_cost_ic = 220
+		surface_detection = 20
+		surface_visibility = 18
 
+		naval_speed = 25
+		reliability = 0.78
+		naval_range = 7500
+		max_strength = 40
+		armor_value = 15
+		
+		build_cost_ic = 2000
 		resources = {
-			steel = 1
+			steel = 4
+			chromium = 3
 		}
 		
 		manpower = 700
@@ -148,6 +157,11 @@ equipments = {
 		priority = 2500
 
 		module_slots = inherit
+
+		surface_visibility = 16
+
+		reliability = 0.82
+		max_strength = 50
 
 		manpower = 900
 	}
