@@ -117,12 +117,15 @@
  ussr_rebel.997.t:0 "Resistance Incrases"
  ussr_rebel.997.d:0 "After our failure on keeping stability in Ukraine Region, resistance movements have increased in srtength with even civilians joining to their cause..."
  ussr_rebel.997.a:0 "Very worrying..."
+ 
  ussr_rebel.1.t:0 "Wilno Uprising"
- ussr_rebel.1.d:0 ""
- ussr_rebel.1.a:0 ""
- ussr_rebel.2.t:0 "A Failed Uprising"
- ussr_rebel.2.d:0 ""
- ussr_rebel.2.a:0 ""
+ ussr_rebel.1.d:0 "The Soviet Military Force proved irrelevant and useless in Lithuanian territory, the rebels exploited this occasion of weakness of the military police and the Soviet government and launched several attacks.After these attacks there was an outbreak of a Lithuanian Independence War, now we should stabilize that region with the Army, if we lose Lithuania it will officially become Independent from the Soviet Union."
+ ussr_rebel.1.a:0 "Do These Rebels Knows that they are Against the whole Soviet Army? "
+ 
+ ussr_rebel.2.t:0 "A Failed Uprising in Wilno"
+ ussr_rebel.2.d:0 "Excellent news from Lithuania General Secretary, the Soviet armed forces managed to intervene quickly in the conflict and reached the Lithuanian capital where they oblirated the attempted uprising, The Soviet Army did an excellent job against the Lithuanian rebels that were preparing for months."
+ ussr_rebel.2.a:0 "From the Taiga to the English seas, the Red Army is the strongest. "
+ 
  ussr_rebel.3.t:0 "The Phoneline Operation Succeeds"
  ussr_rebel.3.d:0 ""
  ussr_rebel.3.a:0 "Valuable information"
@@ -131,18 +134,20 @@
  ussr_rebel.4.a:0 "oops"
  
  ussr_rebel_ukr.1.t:0 "Kiev Uprising"
- ussr_rebel_ukr.1.d:0 ""
- ussr_rebel_ukr.1.a:0 ""
+ ussr_rebel_ukr.1.d:0 "Unfortunately, in the Ukrainian territory, in the Kiev area, a rebellion broke out which turned into a war of independence. With the low Soviet military presence in Kiev, nationalists have carried out various violence against ethnic Russians in those areas and have vandalized Soviet monuments and political assemblies. NATO will probably support this rebel, we need to intervene as quickly as possible!"
+ ussr_rebel_ukr.1.a:0 "We Will liberate Kiev again like We did in the '43!"
+ 
  ussr_rebel_ukr.2.t:0 "Failed Uprising in Kiev"
- ussr_rebel_ukr.2.d:0 ""
- ussr_rebel_ukr.2.a:0 ""
+ ussr_rebel_ukr.2.d:0 "The Soviet Army intervened very quickly against the Ukrainian Nationalist Rebe;s. After weeks of intense house to house fighting, the Soviet Army defeated the Ukrainian militias and liberated Kiev. Although in a horrible state the Soviet Army was able to resist the Ukrainian rebels supported by NATO and the Western Capitalists.\n\nGlory to Ussr!"
+ ussr_rebel_ukr.2.a:0 "Death to Imperialism! Death to the Rebels! Glory to the Great Soviet Army! "
  
  ussr_rebel_cin.1.t:0 "Chechen Uprising"
- ussr_rebel_cin.1.d:0 ""
- ussr_rebel_cin.1.a:0 ""
+ ussr_rebel_cin.1.d:0 "Chechnya was a Problem for the USSR from '98 -99, during that period there were several rebellions and violent assaults on Soviet political centers. Today, however, the Rebels took control of all of Chechnya and proclaimed a new state called "Caucasian Emirate" combined with chechen rebels and foreign islamists they have declared a Jihad against the USSR, we have to deal with these exalted ones quickly before it's too late."
+ ussr_rebel_cin.1.a:0 "The Soviet Army Will Defeat Them in some days."
+ 
  ussr_rebel_cin.2.t:0 "Failed Uprising in Chechen Mountains"
- ussr_rebel_cin.2.d:0 ""
- ussr_rebel_cin.2.a:0 ""
+ ussr_rebel_cin.2.d:0 "After intense fighting in the chechen mountains we were able to restore order in the whole chechen region and defeat the islamist rebels"
+ ussr_rebel_cin.2.a:0 "Glory to the USSR!"
  
  #USA# i used \n\n to make paragraphs -durango#
  
