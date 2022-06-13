@@ -543,6 +543,62 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_moscow"
 		texturefile = "gfx/interface/goals/focus_IRQ_ask_moscow.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_army_ready"
+		texturefile = "gfx/interface/goals/focus_IRQ_army_ready.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_atom"
+		texturefile = "gfx/interface/goals/focus_IRQ_atom.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_backing"
+		texturefile = "gfx/interface/goals/focus_IRQ_backing.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_facilities"
+		texturefile = "gfx/interface/goals/focus_IRQ_facilities.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_kuwait"
+		texturefile = "gfx/interface/goals/focus_IRQ_kuwait.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_oil"
+		texturefile = "gfx/interface/goals/focus_IRQ_oil.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_pan_iraq"
+		texturefile = "gfx/interface/goals/focus_IRQ_pan_iraq.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_republic"
+		texturefile = "gfx/interface/goals/focus_IRQ_republic.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_run_over"
+		texturefile = "gfx/interface/goals/focus_IRQ_run_over.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_saudi"
+		texturefile = "gfx/interface/goals/focus_IRQ_saudi.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_strike"
+		texturefile = "gfx/interface/goals/focus_IRQ_strike.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_tuwaitha"
+		texturefile = "gfx/interface/goals/focus_IRQ_tuwaitha.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_forbidden_power"
+		texturefile = "gfx/interface/goals/focus_IRQ_forbidden_power.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_uranium"
+		texturefile = "gfx/interface/goals/focus_IRQ_uranium.png"
+	}
    ###VIN###
     SpriteType = {
 		name = "VIN_new_vietnam"

@@ -43,7 +43,7 @@
 		prerequisite = {focus = SAF_coup}
 		mutually_exclusive = { }
 		
-		cost = 2
+		cost = 8
 		ai_will_do = {
 			factor = 1
 		}
@@ -53,9 +53,9 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = -20
-			add_stability = -0.07
-			add_manpower = -1
+			SAF = {
+				country_event = { id = saf.1 }
+			}
 
 		}
 	}
@@ -133,7 +133,7 @@
 
 	focus = {
         	id = SAF_future
-        	icon = GFX_focus_SOV_yanayevs_resignation
+        	icon = GFX_focus_SOV_yanayev's_resignation
         	x = 9
         	y = 5
 		prerequisite = {focus = SAF_anti_rebel}
@@ -168,7 +168,10 @@
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		completion_reward = {			
+		completion_reward = {
+			SAF = {
+				country_event = { id = saf.2 }
+			}			
 		}
 	}
 

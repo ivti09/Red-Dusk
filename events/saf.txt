@@ -50,6 +50,14 @@ country_event = {
 	#Parliament#
 	option = {
 		name = saf.3.a	
+                set_politics = {
+	                ruling_party = neutrality
+	            elections_allowed = no
+	            last_election = "1994.5.17"
+	            election_frequency = 60
+                    long_name = SAF_neutrality_party_long
+                    name = SAF_neutrality_party
+                }
 	}
         #Military#
 	option = {

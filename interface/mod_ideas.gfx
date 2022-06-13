@@ -101,12 +101,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/IRQ_Disorganised_Army.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_IRQ_civ"
+		name = "GFX_idea_IRQ_civ_icon"
 		texturefile = "gfx/interface/ideas/IRQ_civil_industry.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_IRQ_army"
+		name = "GFX_idea_IRQ_army_icon"
 		texturefile = "gfx/interface/ideas/IRQ_army_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_IRQ_madness_icon"
+		texturefile = "gfx/interface/ideas/IRQ_madness.png"
+	}
+	spriteType = {
+		name = "GFX_idea_IRQ_uranium_icon"
+		texturefile = "gfx/interface/ideas/IRQ_uranium.dds"
 	}
 
 	#GENERIC MIDDLE EAST#
@@ -186,4 +194,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SIA_rama_IX.png"
 	}
 
+	#SAF#
+	spriteType = {
+		name = "GFX_idea_SAF_apartheid_icon"
+		texturefile = "gfx/interface/ideas/SAF_history_of_segregation.dds"
+	}
 }

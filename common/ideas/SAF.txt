@@ -7,7 +7,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture =
+			picture = SAF_apartheid_icon
 
 			allowed = {
 				always = no

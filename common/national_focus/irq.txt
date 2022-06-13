@@ -195,7 +195,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_civilian_industry
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_SOV_civ_sector 
 		x = 9
 		y = 7
 
@@ -264,7 +264,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_invite_investors1
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_SOV_corruption
 		x = 9
 		y = 9
 
@@ -290,7 +290,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_military_industry
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_SOV_mobilize_industry
 		x = 11
 		y = 7
 
@@ -326,7 +326,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_re_build_old_factories
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_SOV_ind_city
 		x = 11
 		y = 8
 
@@ -360,7 +360,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_invite_investors
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_SOV_corruption 
 		x = 11
 		y = 9
 
@@ -387,7 +387,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_reform_done
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_reforms 
 		x = 10
 		y = 10
 
@@ -412,7 +412,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_forbbiden_power
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_forbidden_power 
 		x = 10
 		y = 11
 
@@ -439,7 +439,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_atom
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_atom 
 		x = 10
 		y = 12
 
@@ -468,7 +468,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_uranium
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_uranium
 		x = 8
 		y = 13
 
@@ -494,7 +494,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_domestic
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_facilities 
 		x = 12
 		y = 13
 
@@ -519,7 +519,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_restart
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_tuwaitha
 		x = 10
 		y = 14
 
@@ -550,7 +550,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_wmd
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_SOV_Biological_Research 
 		x = 10
 		y = 15
 
@@ -578,7 +578,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_syria
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_republic
 		x = 14
 		y = 11
 
@@ -603,7 +603,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_pan_iraq
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_pan_iraq
 		x = 14
 		y = 12
 
@@ -631,7 +631,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_army_ready
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_army_ready 
 		x = 14
 		y = 13
 
@@ -659,7 +659,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_strike_syria
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_strike 
 		x = 14
 		y = 14
 
@@ -689,7 +689,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_kuwait
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_kuwait
 		x = 16
 		y = 11
 
@@ -739,7 +739,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_run_over
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_run_over 
 		x = 16
 		y = 13
 
@@ -772,7 +772,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_saudi
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_saudi 
 		x = 18
 		y = 11
 
@@ -798,7 +798,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_backing
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_backing 
 		x = 18
 		y = 12
 
@@ -824,7 +824,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_oil
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_oil 
 		x = 18
 		y = 13
 

@@ -12,6 +12,7 @@ recruit_character = SAF_georg_meiring
 recruit_character = SAF_daniel_knobel
 recruit_character = SAF_johannes_geldenhuys
 recruit_character = SAF_roy_anderson
+recruit_character = SAF_parliament
 
 add_ideas = SAF_apartheid_idea
 add_ideas = SAF_military_state_idea
