@@ -1,0 +1,1608 @@
+focus_tree = {
+	id = saf_focus
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = saf
+		}
+	 }
+	continuous_focus_position = {x = 1 y = 4444}
+
+	default = no
+	focus = {
+		id = SAF_a_successful_coup
+		icon = x
+		x = 10
+		y = 1
+
+		prerequisite = { }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_get_rid_of_mandela
+		icon = x
+		x = 10
+		y = 2
+		prerequisite = {focus = SAF_a_successful_coup}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_more_money_in_state_security
+		icon = x
+		x = 10
+		y = 3
+
+		prerequisite = {focus = SAF_get_rid_of_mandela}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_increase_the_military_budget
+		icon = x
+		x = 10
+		y = 4
+
+		prerequisite = {focus = SAF_more_money_in_state_security}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_execute_anti-rebel_operations
+		icon = x
+		x = 10
+		y = 5
+
+		prerequisite = {focus = SAF_increase_the_military_budget}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_for_the_future_of_south_africa
+		icon = x
+		x = 10
+		y = 6
+
+		prerequisite = {focus = SAF_execute_anti-rebel_operations}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_the_parliment_meeting
+		icon = x
+		x = 10
+		y = 7
+		prerequisite = {focus = SAF_for_the_future_of_south_africa}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_parliment_prevails
+		icon = x
+		x = 5
+		y = 8
+
+		prerequisite = { }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_solifify_our_powers
+		icon = x
+		x = 5
+		y = 9
+
+		prerequisite = {focus = SAF_parliment_prevails}
+		
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_decrease_military_influence
+		icon = x
+		x = 4
+		y = 10
+
+		prerequisite = {focus = SAF_solifify_our_powers}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_initial_democracy
+		icon = x
+		x = 6
+		y = 10
+
+		prerequisite = {focus = SAF_solifify_our_powers}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_expand_parliments_power
+		icon = x
+		x = 5
+		y = 11
+
+		prerequisite = {focus = SAF_decrease_military_influence}
+		prerequisite = {focus = SAF_initial_democracy}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_choosing_our_path
+		icon = x
+		x = 5
+		y = 12
+
+		prerequisite = {focus = SAF_expand_parliments_power}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_re-elected_de_klerk
+		icon = x
+		x = 5
+		y = 13
+
+		prerequisite = {focus = SAF_choosing_our_path}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_new_reforms
+		icon = x
+		x = 5
+		y = 14
+
+		prerequisite = {focus = SAF_re-elected_de_klerk}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_jumpstart_the_economy
+		icon = x
+		x = 1.5
+		y = 15
+
+		prerequisite = {focus = SAF_new_reforms}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_opening_up_to_investments
+		icon = x
+		x = 0.5
+		y = 16
+
+		prerequisite = {focus = SAF_jumpstart_the_economy}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_Re-connect_to_the_crown
+		icon = x
+		x = 2.5
+		y = 16
+
+		prerequisite = {focus = SAF_jumpstart_the_economy}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_more_investments_in_civil_sector
+		icon = x
+		x = 1.5
+		y = 17
+		prerequisite = {focus = SAF_opening_up_to_investments}
+		prerequisite = {focus = SAF_Re-connect_to_the_crown}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_increase_relations_with_the_us
+		icon = x
+		x = 0.5
+		y = 18
+		
+		prerequisite = {focus = SAF_more_investments_in_civil_sector}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id =  SAF_seek_western_aid
+		icon = x
+		x = 0.5
+		y = 19
+
+		prerequisite = {focus = SAF_increase_relations_with_the_us}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_increase_reliance_on_the_dollar
+		icon = x
+		x = 0.5
+		y = 20
+
+		prerequisite = {focus = SAF_seek_western_aid}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_increase_relations_with_the_commonwealth
+		icon = x
+		x = 2.5
+		y = 18
+
+		prerequisite = {focus = SAF_more_investments_in_civil_sector}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_cape_to_elizabeth_railway
+		icon = x
+		x = 2.5
+		y = 19
+
+		prerequisite = {focus = SAF_increase_relations_with_the_commonwealth}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_increase_reliance_on_the_pound
+		icon = x
+		x = 2.5
+		y = 20
+
+		prerequisite = {focus = SAF_cape_to_elizabeth_railway}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_economic_rebirth
+		icon = x
+		x = 1.5
+		y = 21
+
+		prerequisite = {focus = SAF_increase_reliance_on_the_dollar}
+		prerequisite = {focus = SAF_increase_reliance_on_the_pound}
+	}
+	focus = {
+		id = SAF_societal_reforms
+		icon = x
+		x = 7
+		y = 15
+
+		prerequisite = {focus = SAF_new_reforms}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_the_elephant_in_the_room
+		icon = x
+		x = 7
+		y = 16
+
+		prerequisite = {focus = SAF_societal_reforms}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_time_for_change
+		icon = x
+		x = 5.5
+		y = 17
+
+		prerequisite = {focus = SAF_the_elephant_in_the_room}
+		mutually_exclusive = {focus = SAF_delay_the_invitable }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_negotiations_with_the_anc
+		icon = x
+		x = 5.5
+		y = 18
+		
+		prerequisite = {focus = SAF_time_for_change}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_talks_with_the_insergents
+		icon = x
+		x = 6.5
+		y = 19
+
+		prerequisite = {focus = SAF_negotiations_with_the_anc }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_call_for_a_cease_fire
+		icon = x
+		x = 6.5
+		y = 20
+
+		prerequisite = {focus = SAF_talks_with_the_insergents }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_ensure_there_nuetrality
+		icon = x
+		x = 6.5
+		y = 21
+
+		prerequisite = {focus = SAF_ensure_there_nuetrality}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_the_end_of_the_insurgency
+		icon = x
+		x = 6.5
+		y = 22
+
+		prerequisite = {focus = SAF_ensure_there_nuetrality}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_release_political_prisoners
+		icon = x
+		x  = 4.5
+		y = 19
+
+		prerequisite = {focus = SAF_negotiations_with_the_anc}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_follow_the_us_example
+		icon = x
+		x = 4.5
+		y = 20
+
+		prerequisite = {focus = SAF_release_political_prisoners}
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_demolish_segregation_rule
+		icon =x
+		x = 4.5
+		y = 21
+
+		prerequisite = {focus = SAF_follow_the_us_example}
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_form_freedom_marches
+		icon = x
+		x = 3
+		y = 22
+
+		prerequisite = {focus = SAF_demolish_segregation_rule}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_sideline_the_police
+		icon = x
+		x = 5
+		y = 22
+
+		prerequisite = {focus = SAF_demolish_segregation_rule}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_the_final_step
+		icon = x
+		x = 5
+		y = 23
+
+		prerequisite = {focus = SAF_form_freedom_marches}
+		prerequisite = {focus = SAF_sideline_the_police}
+		prerequisite = {focus = SAF_the_end_of_the_insurgency}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_end_segregation_for_good
+		icon = x
+		x = 5
+		y = 24
+
+		prerequisite = {focus = SAF_the_final_step}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_delay_the_invitable
+		icon = x
+		x = 9.5
+		y = 17
+
+		prerequisite = {focus = SAF_the_elephant_in_the_room}
+		mutually_exclusive = {focus = SAF_time_for_change}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_ban_their_marches
+		icon = x
+		x = 9.5
+		y = 18
+
+		prerequisite = {focus = SAF_delay_the_invitable}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_increase_police_funding
+		icon = x
+		x = 9.5
+		y = 19
+		
+		prerequisite = {focus = SAF_ban_their_marches}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_censor_the_newspaper
+		icon = x
+		x = 8.5
+		y = 20
+
+		prerequisite = {focus = SAF_increase_police_funding}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_expand_police_authority
+		icon = x
+		x = 10.5
+		y = 20
+
+		prerequisite = {focus = SAF_increase_police_funding}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_military_in_the_streets
+		icon = x
+		x = 9.5
+		y = 21
+
+		prerequisite = {focus = SAF_censor_the_newspaper}
+		prerequisite = {focus = SAF_expand_police_authority }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_the_incident
+		icon = x
+		x = 9.5
+		y = 22
+
+		prerequisite = {focus = SAF_military_in_the_streets}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_increase_our_measere
+		icon = x
+		x = 10.5
+		y = 23
+
+		prerequisite = {focus = SAF_the_incident }
+		mutually_exclusive = {focus = SAF_give_in_to_preassure }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_chaos_in_the_streets
+		icon = x
+		x = 10.5
+		y = 24
+
+		prerequisite = {focus = SAF_increase_our_measere}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_our_army_abandoned
+		icon = x
+		x = 9.5
+		y = 25
+
+		prerequisite = {focus = SAF_chaos_in_the_streets}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_the_state_collapesing
+		icon = x
+		x = 11.5
+		y = 25
+
+		prerequisite = {focus = SAF_chaos_in_the_streets}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	#try to find a good slang/prhase for goodnight/goodbye in afrikaner but found nothing#
+	focus = {
+		id = SAF_goodnight_south_africa
+		icon = x
+		x = 10.5
+		y = 26
+
+		prerequisite = {focus = SAF_our_army_abandoned}
+		prerequisite = {focus = SAF_the_state_collapesing}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_give_in_to_preassure
+		icon = x
+		x = 8
+		y = 23
+
+		prerequisite = {focus = SAF_the_incident}
+		mutually_exclusive = {focus = SAF_increase_our_measere}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_enact_emergency_powers
+		icon = x
+		x = 8
+		y = 24
+
+		prerequisite = {focus = SAF_give_in_to_preassure}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_a_new_constitution
+		icon = x
+		x = 5
+		y = 26
+
+		prerequisite = {focus = SAF_economic_rebirth}
+		prerequisite = {focus = SAF_end_segregation_for_good focus = SAF_enact_emergency_powers}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_military_state
+		icon = x
+		x = 12
+		y = 8
+
+		prerequisite = {}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_viljeons_unquestioned_rule
+		icon = x
+		x = 12
+		y = 9
+
+		prerequisite = {focus = SAF_military_state}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_our_current_position
+		icon = x
+		x = 12
+		y = 10
+
+		prerequisite = {focus = SAF_viljeons_unquestioned_rule}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_manage_the_factions
+		icon = x
+		x = 12
+		y = 11
+
+		prerequisite = {focus = SAF_our_current_position}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_talking_with_the_radicals
+		icon = x
+		x = 11
+		y = 12
+		
+		prerequisite = {focus = SAF_manage_the_factions}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_promise_harsher_military_rule
+		x = 11
+		y = 13
+
+		prerequisite = {focus = SAF_talking_with_the_radicals}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_new_military_budget_increase
+		icon = x
+		x = 11
+		y = 14
+
+		prerequisite = {focus = SAF_promise_harsher_military_rule}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_talking_the_reformist
+		icon = x
+		x = 13
+		y = 12
+
+		prerequisite = {focus = SAF_manage_the_factions}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_promise_the_parlimentary_system
+		icon = x
+		x = 13
+		y = 13
+		
+		prerequisite = {focus = SAF_talking_with_the_reformist}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_more_civilian_government
+		icon = x
+		x = 13
+		y = 14
+
+		prerequisite = {focus = SAF_promise_the_parlimentary_system}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_the_fools_beleive_us
+		icon = x
+		x = 12
+		y = 15
+
+		prerequisite = {focus = SAF_new_military_budget_increase}
+		prerequisite = {focus = SAF_more_civilian_government}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_dealing_with_the_insergency
+		icon = x
+		x = 17
+		y = 11
+
+		prerequisite = {focus = SAF_manage_the_factions}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_form_the_saft
+		icon = x
+		x = 15.5
+		y = 12
+
+		prerequisite = {focus = SAF_dealing_with_the_insergency}
+		mutually_exclusive = {focus = SAF_form_the_nis}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_form_the_nis
+		icon = x
+		x = 18.5
+		y = 12
+
+		prerequisite = {focus = SAF_dealing_with_the_insergency}
+		mutually_exclusive = {focus = SAF_form_the_nis}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_maximise_state_garrisons
+		icon = x
+		x = 15.5
+		y = 13
+
+		prerequisite = {focus = SAF_form_the_saft}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_use_the_air_force
+		icon = x
+		x = 15.5
+		y = 14
+
+		prerequisite = {focus = SAF_maximise_state_garrisons}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_bomb_there_bases
+		icon = x
+		x = 15.5
+		y = 15
+		prerequisite = {focus = SAF_use_the_air_force}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_locate_the_insergency
+		icon = x
+		x = 18.5
+		y = 13
+
+		prerequisite = {focus = SAF_form_the_nis}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_call_upon_the_afrikaners
+		icon = x
+		x = 17.5
+		y = 14
+
+		prerequisite = {focus = SAF_locate_the_insergency}
+		mutually_exclusive = {focus = SAF_seek_foriegn_merceneries }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_seek_foriegn_merceneries
+		icon = x
+		x = 19.5
+		y = 14
+
+		prerequisite = {focus = SAF_locate_the_insergency}
+		mutually_exclusive = {focus = SAF_call_upon_the_afrikaners}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_cut_their_supplies
+		icon = x
+		x = 18.5
+		y = 15
+
+		prerequisite = {focus = SAF_call_upon_the_afrikaners focus = SAF_seek_foriegn_merceneries}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_launch_the_raids
+		icon = x
+		x = 17
+		y = 16
+
+		prerequisite = {focus = SAF_bomb_there_bases focus = SAF_cut_their_supplies }
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_too_little_too_late
+		icon = x
+		x = 15
+		y = 17
+
+		prerequisite = {focus = SAF_the_fools_beleive_us}
+		prerequisite = {focus = SAF_launch_the_raids}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_south_african_civil_war
+		icon = x
+		x = 15
+		y = 18
+
+		prerequisite = {focus = SAF_too_little_too_late}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_emergency_mobilization
+		icon = x
+		x = 13
+		y = 19
+
+		prerequisite = {focus = SAF_south_african_civil_war}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_matial_law
+		icon = x
+		x = 13
+		y = 20
+
+		prerequisite = {focus = SAF_emergency_mobilization}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_seek_help_from_abroad
+		icon = x
+		x = 15
+		y = 19
+
+		prerequisite = {focus = SAF_south_african_civil_war}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_lawyers_guns_money 
+		icon = x
+		x = 15
+		y = 20
+
+		prerequisite = {focus = SAF_seek_help_from_abroad}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	#lawyers,guns, and money sounds way better without the 'the'#
+	focus = {
+		id = SAF_escalate_border_clashes
+		icon = x
+		x = 17
+		y = 19
+
+		prerequisite = {focus = SAF_south_african_civil_war}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_have_nieghbors_intervine
+		icon = x
+		x = 17
+		y = 20
+
+		prerequisite = {focus = SAF_escalate_border_clashes}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_multie_front_war
+		icon = x
+		x = 15
+		y = 21
+
+		prerequisite = {focus = SAF_matial_law focus = SAF_lawyers_guns_money focus = SAF_have_nieghbors_intervine}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_for_south_africa
+		icon = x
+		x = 15
+		y = 22
+
+		prerequisite = {focus = SAF_multie_front_war}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_end_of_the_civil_war
+		icon = x
+		x = 15
+		y = 23
+
+		prerequisite = {focus = SAF_for_south_africa }
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_our_place_in_the_sun
+		icon = x
+		x = 15
+		y = 24
+
+		prerequisite = {focus = SAF_end_of_the_civil_war}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+}
