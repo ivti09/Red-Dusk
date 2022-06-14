@@ -1,0 +1,214 @@
+add_namespace = peace
+
+
+
+#Iraq wins over kuweit#
+country_event = {
+	id = peace.1
+	title = peace.1.t
+	desc = peace.1.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		IRQ = {
+		has_offensive_war_with = KUW
+		has_full_control_of_state = 656
+		}
+	}
+	
+	##k##
+	option = {
+		name = peace.1.a
+		IRQ = {
+		white_peace = KUW
+		transfer_state = 656
+		}
+	}
+}
+
+#Iraq wins over syria#
+country_event = {
+	id = peace.2
+	title = peace.2.t
+	desc = peace.2.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		IRQ = {
+		has_offensive_war_with = SYR
+		}
+		SYR = {
+		surrender_progress > 0.9
+		}
+	}
+	
+	##k##
+	option = {
+		name = peace.2.a
+		
+		IRQ = {
+		white_peace = SYR
+		transfer_state = 554
+		transfer_state = 680
+		transfer_state = 677
+		}
+	}
+}
+
+#Iraq wins over iran#
+country_event = {
+	id = peace.3
+	title = peace.3.t
+	desc = peace.3.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		IRQ = {
+		has_offensive_war_with = PER
+		}
+		PER = {
+		surrender_progress > 0.75
+		}
+	}
+	
+	##k##
+	option = {
+		name = peace.3.a
+		
+		IRQ = {
+		white_peace = PER
+		transfer_state = 421
+		transfer_state = 413
+		puppet = PER
+		}
+	}
+}
+
+#ussr wins over estonia#
+country_event = {
+	id = peace.4
+	title = peace.4.t
+	desc = peace.4.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_offensive_war_with = EST
+		}
+		EST = {
+		surrender_progress > 0.65
+		}
+	}
+	
+	##k##
+	option = {
+		name = peace.4.a
+		
+		SOV = {
+		white_peace = EST
+		transfer_state = 191
+		transfer_state = 813
+		transfer_state = 13
+		transfer_state = 812
+		transfer_state = 811
+		}
+	}
+}
+
+#ussr wins over latvia#
+country_event = {
+	id = peace.5
+	title = peace.5.t
+	desc = peace.5.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_offensive_war_with = LAT
+		}
+		LAT = {
+		surrender_progress > 0.60
+		}
+	}
+	
+	##k##
+	option = {
+		name = peace.5.a
+		
+		SOV = {
+		white_peace = LAT
+		transfer_state = 810
+		transfer_state = 808
+		transfer_state = 12
+		transfer_state = 809
+		transfer_state = 811
+		transfer_state = 190
+		}
+	}
+}
+
+#ussr wins over armenia#
+country_event = {
+	id = peace.6
+	title = peace.6.t
+	desc = peace.6.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_offensive_war_with = ARM
+		}
+		ARM = {
+		surrender_progress > 0.60
+		}
+		
+	}
+	
+	##k##
+	option = {
+		name = peace.6.a
+		
+		SOV = {
+		white_peace = ARM
+		transfer_state = 230
+		transfer_state = 838
+		}
+	}
+}
+
+#ussr wins over azerbaijan#
+country_event = {
+	id = peace.7
+	title = peace.7.t
+	desc = peace.7.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_offensive_war_with = AZR
+		}
+		AZR = {
+		surrender_progress > 0.60
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.7.a
+		
+		SOV = {
+		white_peace = AZR
+		transfer_state = 229
+		transfer_state = 839
+
+		}
+	}
+}
