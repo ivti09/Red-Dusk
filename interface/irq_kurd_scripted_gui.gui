@@ -1,0 +1,21 @@
+guiTypes = {
+
+	progressbartype = {
+		
+			name = "kurd_resistance_stuff_gui"
+			textureFile1 = "gfx/interface/kurd_resistance_bar_back.dds"
+			textureFile2 = "gfx/interface/kurd_resistance_bar_back.dds"
+			color = { 127 51 0 }
+			colortwo = { 38 127 0 }
+			size = { 
+				x = 25
+				y = 55
+			}
+			#effectFile = <path>#
+			
+			horizontal = yes
+
+		
+
+	}
+}

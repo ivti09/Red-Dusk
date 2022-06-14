@@ -1,0 +1,19 @@
+spriteTypes = {
+
+	## MOD ##
+	
+    progressbartype = {
+        name = "GFX_kurd_resistance_bar"
+        textureFile1 = "gfx/interface/kurd_resistance_bar_back.dds"
+        #textureFile2 = "<path>"#
+        color = { 127 51 0 }
+        colortwo = { 38 127 0 }
+        size = { 
+            x = 25
+            y = 55
+        }
+        #effectFile = <path>#
+        
+        horizontal = yes
+    }
+}

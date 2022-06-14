@@ -15,23 +15,21 @@ irq_fix_army = {
 }
 
 irq_deal_with_kurds = {
-
 	icon = generic_communism
+
+	priority = 10
+
+	scripted_gui = kurd_resistance_stuff_gui
+
 	allowed = {
 		original_tag = IRQ
-		has_country_flag = fixed_army
-		NOT = {
-		has_country_flag = fixed_kurd
-        }
+		#has_country_flag = fixed_army
+		#NOT = {
+		#has_country_flag = fixed_kurd
+        #}
 	}
-	
-	visible = {
-		original_tag = IRQ
-		has_country_flag = fixed_army
-		NOT = {
-		has_country_flag = fixed_kurd
-        }
-	}
-	priority = 90
 
+	visible = {
+
+	}
 }

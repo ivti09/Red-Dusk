@@ -182,6 +182,32 @@ ideas = {
 				}
 			}
 		}
+		
+		
+		IRQ_iraqi_army = {
+			name = IRQ_iraqi_army_name
+
+			removal_cost = -1
+
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_attack_factor = 0.05
+				experience_gain_army = 0.5
+				war_support_weekly_factor = 0.02
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+					reliability = 0.1 instant = yes
+				}
+			}
+		}
 
 		IRQ_oil_producers = {
 			name = oil_producers_name
@@ -256,24 +282,6 @@ ideas = {
 		IRQ_civ_ind = {
 		}
 
-		IRQ_iraqi_army = {
-			name = IRQ_iraqi_army_name
-
-			removal_cost = -1
-
-			#picture = 
-
-			allowed = {
-				always = no
-			}
-
-			modifier = {
-				army_core_defence_factor = 0.1
-				army_attack_factor = 0.05
-				experience_gain_army = 0.5
-				war_support_weekly_factor = 0.02
-			}
-		}
 
 		IRQ_terratorial_expansion_idea_1 = {
 			name = IRQ_terratorial_expansion_idea_1_name

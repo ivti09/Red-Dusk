@@ -130,7 +130,7 @@ ideas = {
 			}
 		}
 		
-			YUG_nationalist_rebirth = {
+		YUG_nationalist_rebirth = {
 			name = YUG_nationalist_rebirth_name
 
 			removal_cost = -1

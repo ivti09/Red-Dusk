@@ -1,0 +1,12 @@
+scripted_gui = {
+
+	irq_kurd_gui = {
+		window_name = "kurd_resistance_stuff_gui"
+		context_type = decision_category
+
+		visible = {
+			original_tag = IRQ
+		}
+	}
+	
+}

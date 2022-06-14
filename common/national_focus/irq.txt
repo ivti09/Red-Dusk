@@ -119,7 +119,7 @@ focus_tree = {
 		prerequisite = {focus = IRQ_sanctions}
 		available = {
                 has_country_flag = IRQ_sanctions_done
-                }
+        }
 		mutually_exclusive = { }
 		
 		cost = 3
@@ -1418,7 +1418,8 @@ focus_tree = {
 		y = 2
 
 		prerequisite = {focus = IRQ_but_ok}
-
+		available = {has_country_flag = irq_army_fix_1}
+		
 		mutually_exclusive = { }
 		
 		cost = 4.3
@@ -1458,7 +1459,8 @@ focus_tree = {
 		y = 3
 
 		prerequisite = {focus = IRQ_save_stuff}
-
+		available = {has_country_flag = irq_army_fix_3}
+		
 		mutually_exclusive = { }
 		
 		cost = 2
@@ -1484,7 +1486,8 @@ focus_tree = {
 		y = 4
 
 		prerequisite = {focus = IRQ_sov_pls_help}
-
+		available = {has_idea = IRQ_reorganized_army}
+		
 		mutually_exclusive = { }
 		
 		cost = 3
@@ -1499,7 +1502,7 @@ focus_tree = {
 		completion_reward = {
 			set_country_flag = IRQ_army_done
 			swap_ideas = {
-				remove_idea = IRQ_disorganized_army
+				remove_idea = IRQ_reorganized_army
 				add_idea = IRQ_iraqi_army
 			}
 			army_experience = 15

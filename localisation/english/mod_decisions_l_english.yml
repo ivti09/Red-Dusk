@@ -75,7 +75,7 @@
  IRQ_new_doctrines:0 "New Military Doctrines"
  IRQ_end_army_rebuilding:0 "Finish Army Rebuilding"
  
- irq_deal_with_kurds_desc:0 "level is [?test_for_red_dusk]"
+ #irq_deal_with_kurds_desc:0 ""
  
  ##YUGOSLAVIA##
  yug_deal_with_uprisings:0 "Dealing With Terrorism"

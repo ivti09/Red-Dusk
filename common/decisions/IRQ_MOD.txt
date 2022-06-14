@@ -60,7 +60,7 @@ irq_fix_army = {
 				has_country_flag = fixed_army
 			}
 		}
-		days_remove = 35
+		days_remove = 10
 		modifier {
 			political_power_cost = 0.50
 		}
@@ -99,7 +99,7 @@ irq_fix_army = {
 				has_country_flag = fixed_army
 			}
 		}
-		days_remove = 35
+		days_remove = 15
 		modifier {
 			political_power_cost = 0.50
 		}
