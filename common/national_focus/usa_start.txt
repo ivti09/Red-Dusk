@@ -31,7 +31,7 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_political_power = -50
-			add_stability = -0.25
+			add_stability = -0.025
 		}
 	}
 	
