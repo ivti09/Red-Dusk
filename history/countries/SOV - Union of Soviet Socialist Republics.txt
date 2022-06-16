@@ -1,19 +1,6 @@
 ﻿capital = 219
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	#set_oob = ""
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	#set_oob = ""
-}
+set_oob = "SOV_2000"
 if = {
 	limit = {
 		has_dlc = "Man the Guns"

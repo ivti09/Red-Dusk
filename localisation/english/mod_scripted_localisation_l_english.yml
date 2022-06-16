@@ -34,7 +34,7 @@
  irq_army_fix_2:0 "§YHas Fixed Equipment§W§\n"
  irq_army_fix_3:0 "§YHas Rebuilt The Military Assets§W§\n"
  irq_army_fix_4:0 "§YHas Researched New Military Doctrines§W§\n"
- 
+
  IRQ_sanctions_done:0 "§YHas 'dealt' with our economic problems§W§\n"
  IRQ_kurds_done:0 "§YHas dealt with the Kurdish rebels§W§\n"
  IRQ_army_done:0 "§YHas dealt with our army problems§W§\n"

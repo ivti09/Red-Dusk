@@ -19,7 +19,7 @@ irq_deal_with_kurds = {
 
 	priority = 10
 
-	scripted_gui = kurd_resistance_stuff_gui
+	scripted_gui = irq_kurd_gui
 
 	allowed = {
 		original_tag = IRQ
