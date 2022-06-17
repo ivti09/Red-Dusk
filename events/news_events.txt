@@ -49,3 +49,149 @@ news_event = {
 		name = old_times_news.3.a
 	}
 }
+
+## Concorde Trigger (HIDDEN) ##
+news_event = {
+	id = old_times_news.8
+	hidden = yes
+	
+	fire_only_once = yes
+
+	trigger = {
+		date > 2000.7.24
+		country_exists = FRA
+	}
+
+	immediate = {
+		random_list = {
+			72 = { SOV = { news_event = { id = old_times_news.9 } } }
+			28 = { SOV = { news_event = { id = old_times_news.10 } } }
+		}
+	}
+
+	option = {
+		name = old_times_news.8.a
+	}
+}
+
+## Concorde Crash ##
+news_event = {
+	id = old_times_news.9
+	title = old_times_news.9.t
+	desc = old_times_news.9.d
+	picture = GFX_news_concorde_crash
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = old_times_news.9.a
+	}
+}
+
+## Concorde Retire ##
+news_event = {
+	id = old_times_news.10
+	title = old_times_news.10.t
+	desc = old_times_news.10.d
+	picture = GFX_news_concorde_retired
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = old_times_news.10.a
+	}
+}
+
+## Olympics Trigger (HIDDEN) ##
+news_event = {
+	id = old_times_news.11
+	hidden = yes
+	
+	fire_only_once = yes
+
+	trigger = {
+		date > 2000.10.1
+		country_exists = AUS
+	}
+
+	immediate = {
+		random_list = {
+			60 = { SOV = { news_event = { id = old_times_news.12 } } }
+			25 = { SOV = { news_event = { id = old_times_news.13 } } }
+			11 = { SOV = { news_event = { id = old_times_news.14 } } }
+			4 = { SOV = { news_event = { id = old_times_news.15 } } }
+		}
+	}
+
+	option = {
+		name = old_times_news.11.a
+	}
+}
+
+## Olympics Scenario 1 ##
+news_event = {
+	id = old_times_news.12
+	title = old_times_news.12.t
+	desc = old_times_news.12.d
+	picture = GFX_news_2000_olympics
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = old_times_news.12.a
+	}
+}
+
+## Olympics Scenario 2 ##
+news_event = {
+	id = old_times_news.13
+	title = old_times_news.13.t
+	desc = old_times_news.13.d
+	picture = GFX_news_2000_olympics
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = old_times_news.13.a
+	}
+}
+
+## Olympics Scenario 3 ##
+news_event = {
+	id = old_times_news.14
+	title = old_times_news.14.t
+	desc = old_times_news.14.d
+	picture = GFX_news_2000_olympics
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = old_times_news.14.a
+	}
+}
+
+## Olympics Scenario 4 ##
+news_event = {
+	id = old_times_news.15
+	title = old_times_news.15.t
+	desc = old_times_news.15.d
+	picture = GFX_news_2000_olympics
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = old_times_news.15.a
+	}
+}

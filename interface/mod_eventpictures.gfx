@@ -164,4 +164,16 @@ spriteTypes = {
 		name = "GFX_news_yanayev"
 		texturefile = "gfx/event_pictures/news_yanayev_gone.dds"
 	}
+	spriteType = {
+		name = "GFX_news_2000_olympics"
+		texturefile = "gfx/event_pictures/news_2000_olympics.dds"
+	}
+	spriteType = {
+		name = "GFX_news_concorde_crash"
+		texturefile = "gfx/event_pictures/news_concorde_crash.dds"
+	}
+	spriteType = {
+		name = "GFX_news_concorde_retired"
+		texturefile = "gfx/event_pictures/news_concorde_retired.dds"
+	}
 }
