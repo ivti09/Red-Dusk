@@ -47,17 +47,19 @@
  YUG_can_deal_with_army:0 "§GWe Can Now Focus On Fixing Our Military Situation\n\n§W§"
  YUG_economy_problems_solved:0 "§GEconomic Problems Have Been Solved\n\n§W§"
  YUG_army_dealt_with:0 "§GArmy Problems Have Been Dealt With\n\n§W§"
- yug_won_over_yugoslavia_milosevic_communist:0 "§GAt last we have won aganist reactionaries that threathened to end our Unitery Socialist Republic back in 91' and reunified Yugoslavia \n\nBrotherhood and Unity forever! \n\nGains Cores On All of Yugoslavia\n\n§W§"
  YUG_focus_on_alban_tt:0 "§YWe Are Going To divert Our Resources To Focus On Albanian Rebels In Kosovo Region\n\n§W§"
  YUG_focus_on_bosnia_tt:0 "§YWe Are Going To divert Our Resources To Focus On Bosniak Rebels In Bosnia Region\n\n§W§"
  YUG_decrases_the_figthing_strength_of_rebels:0 "§GDecrases The Fighting Strength Of The Rebels\n\n§W§"
  yug_focused_on_albania:0 "focused on Kosovo Rebels"
  yug_focused_on_bosnia:0 "focused on Bosnian Rebels"
  bos_uprising_started:0 "An Uprising Has Started"
- kos_uprising_started:0 "An Uprising Has Started""
+ kos_uprising_started:0 "An Uprising Has Started"
  yug_communist_focus:0 "Communist Focus Tree"
  yug_milosevic_alive_focus:0 "Milosevic Survived Assassination Focus Tree"
  yug_commie_milosevic_focus:0 "Communist Milosevic's Focus Tree"
+ yug_nationalist_milosevic_focus:0 "Nationalist Milosevic's Focus Tree"
+ yug_won_over_yugoslavia_milosevic_communist:0 "§GAt last we have won aganist reactionaries that threathened to end our Unitery Socialist Republic back in 91' and reunified Yugoslavia \n\nBrotherhood and Unity forever! \n\nGains Cores On All of Yugoslavia\n\n§W§"
+ yug_won_over_yugoslavia_milosevic_nationalist:0 "§RAt last we have won aganist the pesky Croats, Bosniaks, Albanians, Slovenians that threathened to end our Serbian State back in 91' and reunified Serbia to its natural borders \n\Nživela Srbija! \n\nGains Cores On All of Greater Serbia\n\n§W§"
  
  ###GORBACHEV THAW GUI#####
  

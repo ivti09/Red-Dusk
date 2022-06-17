@@ -212,3 +212,95 @@ country_event = {
 		}
 	}
 }
+
+#yugoslavia wins over Croatia#
+country_event = {
+	id = peace.8
+	title = peace.8.t
+	desc = peace.8.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		YUG = {
+		has_offensive_war_with = CRO
+		}
+		CRO = {
+		surrender_progress > 0.75
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.8.a
+		
+		YUG = {
+		white_peace = CRO
+		transfer_state = 163
+		transfer_state = 103
+		transfer_state = 109
+		transfer_state = 836
+		}
+	}
+}
+
+#yugoslavia wins over slovenia#
+country_event = {
+	id = peace.9
+	title = peace.9.t
+	desc = peace.9.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		YUG = {
+		has_offensive_war_with = SLV
+		}
+		SLV = {
+		surrender_progress > 0.75
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.9.a
+		
+		YUG = {
+		white_peace = SLV
+		transfer_state = 102
+		transfer_state = 736
+		}
+	}
+}
+
+#yugoslavia wins over albania#
+country_event = {
+	id = peace.10
+	title = peace.10.t
+	desc = peace.10.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		YUG = {
+		has_offensive_war_with = ALB
+		}
+		ALB = {
+		surrender_progress > 0.75
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.10.a
+		
+		YUG = {
+		white_peace = ALB
+		transfer_state = 44
+		transfer_state = 805
+		}
+	}
+}

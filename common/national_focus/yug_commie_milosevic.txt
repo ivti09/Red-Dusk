@@ -4,6 +4,7 @@ focus_tree = {
 		factor = 0
 	}
 	
+	continuous_focus_position = { x = 10 y = 2250 }
 	
 	default = no
 	
@@ -293,7 +294,12 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 25
+			YUG = {
+				add_opinion_modifier = { target = CRO modifier = YUG_cut_contacts }
+			}
+			YUG = {
+				add_opinion_modifier = { target = SLV modifier = YUG_cut_contacts }
+			}
 			
 		}
 	}

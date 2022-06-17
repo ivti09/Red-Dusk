@@ -66,6 +66,7 @@ country_event = {
 	#Nationalist#
 	option = {
 		name = yug.4.b
+		load_focus_tree = yug_nationalist_milosevic_focus		
 	}
 }
 
@@ -107,6 +108,7 @@ country_event = {
 	#Nationalism is the only option in yugoslavia dude trust me:yugotroll:#
 	option = {
 		name = yug.6.b
+		load_focus_tree = yug_nationalist_milosevic_focus
 	}
 }
 
@@ -248,6 +250,62 @@ country_event = {
 			ideology = fascism
 			popularity = 0.07
 		}
+	}
+
+}
+
+#Joska's End#
+country_event = {
+	id = yug.14
+	title = yug.14.t
+	desc = yug.14.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#We need loc#
+	option = {
+	name = yug.14.a
+		
+	}
+
+}
+
+#New National State#
+country_event = {
+	id = yug.15
+	title = yug.15.t
+	desc = yug.15.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#We need loc#
+	option = {
+	name = yug.15.a
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.10
+		}
+		add_war_support = 0.15
+		set_cosmetic_tag = YUG_greater_serbia_cosmetic
+	}
+
+}
+
+#The Albanian Issue#
+country_event = {
+	id = yug.16
+	title = yug.16.t
+	desc = yug.16.d
+	picture = GFX_report_event_YUG_SKJ_meeting
+	
+	is_triggered_only = yes
+	
+	#We need loc#
+	option = {
+	name = yug.16.a
+
 	}
 
 }
