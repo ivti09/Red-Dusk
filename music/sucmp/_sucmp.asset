@@ -39,7 +39,7 @@ music = {
 	file = "Eto_Govorim_My.ogg"
 }
 music = {
-	name = "Everybody_Wants_To_Rule_The_World_(extended)"
+	name = "Everybody_Wants_To_Rule_The_World_extended"
 	file = "Everybody_Wants_To_Rule_The_World_extended.ogg"
 }
 music = {
@@ -63,8 +63,8 @@ music = {
 	file = "Invincible_And_Legendary.ogg"
 }
 #music = {
-#	name = "It's_Our_Time,_Our_Turn!"
-#	file = "It's_Our_Time,_Our_turn!.ogg"
+#	name = "It's_Our_Time_Our_Turn"
+#	file = "It's_Our_Time_Our_turn.ogg"
 #}
 music = {
 	name = "Karavan"
@@ -99,8 +99,8 @@ music = {
 	file = "National_Anthem_of_Green_Libya.ogg"
 }
 music = {
-	name = "Owner_Of_A_Lonely_Heart_(extended)"
-	file = "Owner_Of_A_Lonely_Heart_(extended).ogg"
+	name = "Owner_Of_A_Lonely_Heart_Extended"
+	file = "Owner_Of_A_Lonely_Heart_Extended.ogg"
 }
 music = {
 	name = "Plan_in_Motion"
@@ -127,7 +127,7 @@ music = {
 	file = "Smash_Mouth_All_Star.ogg"
 }
 music = {
-	name = "Soviet_Anthem_(Pop_Version)"
+	name = "Soviet_Anthem_Pop_Version"
 	file = "Soviet_Anthem_pop_version.ogg"
 }
 music = {

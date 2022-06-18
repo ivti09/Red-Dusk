@@ -176,4 +176,8 @@ spriteTypes = {
 		name = "GFX_news_concorde_retired"
 		texturefile = "gfx/event_pictures/news_concorde_retired.dds"
 	}
+	spriteType = {
+		name = "GFX_news_south_africa"
+		texturefile = "gfx/event_pictures/south_african_civil_war.dds"
+	}
 }

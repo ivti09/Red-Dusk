@@ -24,7 +24,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture =
+			picture = SAF_military_government_icon
 
 			allowed = {
 				always = no
@@ -37,12 +37,29 @@ ideas = {
 			}
 		}
 
+		SAF_military_state_2 = {
+			name = SAF_military_state_idea_name
+
+			removal_cost = -1
+
+			picture = SAF_military_government_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.2
+				political_power_gain = -1.0
+			}
+		}
+
 		SAF_anc_insurgency_idea = {
 			name = SAF_anc_insurgency_idea_name
 
 			removal_cost = -1
 
-			#picture =
+			picture = SAF_anc_icon
 
 			allowed = {
 				always = no

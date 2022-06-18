@@ -61,6 +61,7 @@ country_event = {
 	}
         #Military#
 	option = {
-		name = saf.3.b		
+		name = saf.3.b	
+		load_focus_tree = saf_military_junta_focus
 	}
 }

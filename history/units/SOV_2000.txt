@@ -29,6 +29,16 @@ air_wings = {
 			amount = 30
 		}
 		name = "277-y Bombardirovochnyy Aviatsionnyy Polk"
+		strategic_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "40-y Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+		strategic_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 31
+		}
+		name = "79-y Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
 	}
 
 	408 = {
@@ -52,6 +62,16 @@ air_wings = {
 			amount = 30
 		}
 		name = "187-y Otdel'nyy Shturmovoy Aviatsionnyy Polk"
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "303-y Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "444-y Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
 	}
 
 	192 = {
@@ -137,17 +157,17 @@ air_wings = {
 			amount = 44
 		}
 		name = "982-y Istrebitel'nyy Aviatsionnyy Polk"
-		fighter_equipment_2 = {
+		attacker_equipment_2 = {
 			owner = "SOV" 
 			amount = 28
 		}
 		name = "143-y Bombardirovochnyy Aviatsionnyy Polk"
-		fighter_equipment_2 = {
+		attacker_equipment_2 = {
 			owner = "SOV" 
 			amount = 30
 		}
 		name = "168-y Gvardeyskiy Bombardirovochnyy Aviatsionnyy Polk"
-		fighter_equipment_2 = {
+		attacker_equipment_2 = {
 			owner = "SOV" 
 			amount = 29
 		}
@@ -257,5 +277,292 @@ air_wings = {
 			amount = 36
 		}
 		name = "833-y Istrebitel'nyy Aviatsionnyy Polk"
+	}
+
+	563 = {
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "2-y Gvardeyskiy Bombardirovochnyy Aviatsionnyy Polk"
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "21-y Bombardirovochnyy Aviatsionnyy Polk"
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "189-y Gvardeyskiy Aviatsionnyy Polk Istrebiteley Bombardirovshchikov"
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "266-y Aviatsionnyy Polk Istrebiteley Bombardirovshchikov"
+		fighter_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "120-y Istrebitel'nyy Aviatsionnyy Polk"
+	}
+
+	43 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "5-y Gvardeyskiy Istrebitel'nyy Aviatsionnyy Polk"
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 34
+		}
+		name = "14-y Gvardeyskiy Istrebitel'nyy Aviatsionnyy Polk"
+	}
+
+	154 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 23
+		}
+		name = "1-y Gvardeyskiy Aviatsionnyy Polk Istrebiteley Bombardirovshchikov"
+	}
+
+	242 = {
+		transport_plane_equipment_1 = {
+			owner = "SOV" 
+			amount = 25
+		}
+		name = "103-y Gvardeyskiy Voyenno-Transportnyy Aviatsionnyy Polk"
+	}
+
+	193 = {
+		strike_bomber_equipment_1 = {
+			owner = "SOV" 
+			amount = 18
+		}
+		name = "185-y Gvardeyskiy Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+		fighter_equipment_1 = {
+			owner = "SOV" 
+			amount = 42
+		}
+		name = "168-y Istrebitel'nyy Aviatsionnyy Polk"
+		fighter_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "190-y Istrebitel'nyy Aviatsionnyy Polk"
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 40
+		}
+		name = "831-y Gvardeyskiy Istrebitel'nyy Aviatsionnyy Polk"
+	}
+
+	201 = {
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 34
+		}
+		name = "121-y Gvardeyskiy Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		name = "203-y Gvardeyskiy Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "341-y Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+	}
+
+	206 = {
+		strike_bomber_equipment_1 = {
+			owner = "SOV" 
+			amount = 20
+		}
+		name = "200-y Gvardeyskiy Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 23
+		}
+		name = "260-y Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+	}
+
+	13 = {
+		strike_bomber_equipment_1 = {
+			owner = "SOV" 
+			amount = 18
+		}
+		name = "132-y Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+		strike_bomber_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "402-y Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+		strike_bomber_equipment_1 = {
+			owner = "SOV" 
+			amount = 19
+		}
+		name = "840-y Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+	}
+
+	589 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 40
+		}
+		name = "129-y Aviatsionnyy Polk Istrebiteley Bombardirovshchikov"
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 40
+		}
+		name = "134-y Aviatsionnyy Polk Istrebiteley Bombardirovshchikov"
+		fighter_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "905-y Istrebitel'nyy Aviatsionnyy Polk"
+	}
+
+	830 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "115-y Gvardeyskiy Istrebitel'nyy Aviatsionnyy Polk"
+	}
+
+	66 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "67-y Otdel'nyy Bombardirovochnyy Aviatsionnyy Polk"
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "722-y Otdel'nyy Bombardirovochnyy Aviatsionnyy Polk"
+	}
+
+	86 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 35
+		}
+		name = "159-y Gvardeyskiy Istrebitel'nyy Aviatsionnyy Polk"
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		name = "582-y Istrebitel'nyy Aviatsionnyy Polk"
+		fighter_equipment_1 = {
+			owner = "SOV" 
+			amount = 39
+		}
+		name = "871-y Istrebitel'nyy Aviatsionnyy Polk"
+	}
+
+	89 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 39
+		}
+		name = "92-y Istrebitel'nyy Aviatsionnyy Polk"
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "145-y Istrebitel'nyy Aviatsionnyy Polk"
+	}
+
+	93 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "69-y Bombardirovochnyy Aviatsionnyy Polk"
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "806-y Bombardirovochnyy Aviatsionnyy Polk"
+	}
+
+	91 = {
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 34
+		}
+		name = "452-y Otdel'nyy Shturmovoy Aviatsionnyy Polk"
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "230-y Bombardirovochnyy Aviatsionnyy Polk"
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "947-y Bombardirovochnyy Aviatsionnyy Polk"
+	}
+
+	199 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 29
+		}
+		name = "7-y Bombardirovochnyy Aviatsionnyy Polk"
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "727-y Gvardeyskiy Bombardirovochnyy Aviatsionnyy Polk"
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "953-y Bombardirovochnyy Aviatsionnyy Polk"
+	}
+
+	566 = {
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "1225-y Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		name = "1229-y Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+	}
+
+	588 = {
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 13
+		}
+		name = "1023-y Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+		strategic_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 27
+		}
+		name = "1226-y Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+	}
+
+	217 = {
+		strategic_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 22
+		}
+		name = "182-y Gvardeyskiy Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
+		strategic_bomber_equipment_1 = {
+			owner = "SOV" 
+			amount = 21
+		}
+		name = "184-y Gvardeyskiy Tyazhelaya Bombardirovochnaya Aviatsionnyy Polk"
 	}
 }

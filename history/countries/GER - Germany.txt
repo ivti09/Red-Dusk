@@ -17,7 +17,7 @@ set_popularities = {
 	communism = 15
 }
 
-recruit_character = GER_gerhard_schröder
+recruit_character = GER_gerhard_schroder
 recruit_character = GER_udo_voigt_1
 recruit_character = GER_udo_voigt_2
 recruit_character = GER_egon_krenz

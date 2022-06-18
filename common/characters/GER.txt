@@ -1,6 +1,6 @@
 characters = {
 
-	GER_gerhard_schröder = {
+	GER_gerhard_schroder = {
 		name = "Gerhard Schröder"
 		portraits = {
 			civilian = {

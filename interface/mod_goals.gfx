@@ -599,6 +599,73 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_uranium"
 		texturefile = "gfx/interface/goals/focus_IRQ_uranium.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_civ"
+		texturefile = "gfx/interface/goals/focus_IRQ_civ_ind.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_mil"
+		texturefile = "gfx/interface/goals/focus_IRQ_mil_ind.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_new_fact"
+		texturefile = "gfx/interface/goals/focus_IRQ_new_fact.png"
+	}
+   ###SAF###
+
+	SpriteType = {
+		name = "GFX_focus_SAF_saul"
+		texturefile = "gfx/interface/goals/focus_SAF_lawyers_guns_money.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_gamer_rule"
+		texturefile = "gfx/interface/goals/focus_SAF_gamer_rule.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_mil_state"
+		texturefile = "gfx/interface/goals/focus_SAF_military_state.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_position"
+		texturefile = "gfx/interface/goals/focus_SAF_position.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_fronts"
+		texturefile = "gfx/interface/goals/focus_SAF_all_sides.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_mercs"
+		texturefile = "gfx/interface/goals/focus_SAF_mercineries.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_locate"
+		texturefile = "gfx/interface/goals/focus_SAF_locate insurgents.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_raid"
+		texturefile = "gfx/interface/goals/focus_SAF_raids.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_bomb"
+		texturefile = "gfx/interface/goals/focus_SAF_bomb_supplies.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_morbilisation"
+		texturefile = "gfx/interface/goals/focus_SAF_morbilisation1.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_ask_for_help"
+		texturefile = "gfx/interface/goals/focus_SAF_ask_for_help.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_for_sa"
+		texturefile = "gfx/interface/goals/focus_SAF_for_sa.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_war"
+		texturefile = "gfx/interface/goals/focus_SAF_war.png"
+	}
+
    ###VIN###
     SpriteType = {
 		name = "VIN_new_vietnam"

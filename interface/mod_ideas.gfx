@@ -199,4 +199,12 @@ spriteTypes = {
 		name = "GFX_idea_SAF_apartheid_icon"
 		texturefile = "gfx/interface/ideas/SAF_history_of_segregation.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SAF_military_government_icon"
+		texturefile = "gfx/interface/ideas/SAF_military_gov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SAF_anc_icon"
+		texturefile = "gfx/interface/ideas/SAF_anc_problem.dds"
+	}
 }

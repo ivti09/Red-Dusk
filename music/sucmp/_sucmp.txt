@@ -28,7 +28,7 @@ music = {
 	}
 }
 #music = {
-#	song = "battle_hymn_of_the_republic"
+#	song = "Battle_Hymn_Of_The_Republic"
 #	chance = {
 #		modifier = {
 #			factor = 1
@@ -68,7 +68,7 @@ music = {
 	}
 }
 music = {
-	song = "Everybody_Wants_To_Rule_The_World_(extended)"
+	song = "Everybody_Wants_To_Rule_The_World_extended"
 	chance = {
 		modifier = {
 			factor = 1
@@ -188,7 +188,7 @@ music = {
 	}
 }
 #music = {
-#	song = "Owner_Of_A_Broken_Heart_(Extended)"
+#	song = "Owner_Of_A_Broken_Heart_Extended"
 #	chance = {
 #		factor = 1
 #	}
@@ -227,7 +227,7 @@ music = {
 	}
 }
 #music = {
-#	song = "Soviet_Anthem_Pop_version"
+#	song = "Soviet_Anthem_Pop_Version"
 #	chance = {
 #		modifier = {
 #			factor = 1

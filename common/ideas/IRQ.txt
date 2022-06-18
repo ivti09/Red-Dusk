@@ -206,7 +206,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = IRQ_land_of_madness_icon
+			picture = IRQ_land_of_madness_icon
 
 			allowed = {
 				always = no
@@ -223,7 +223,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = IRQ_uranium_production_1_icon
+			picture = IRQ_uranium_icon
 
 			allowed = {
 				always = no
@@ -239,7 +239,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = IRQ_uranium_production_2_icon
+			picture = IRQ_uranium_icon
 
 			allowed = {
 				always = no
@@ -272,12 +272,6 @@ ideas = {
 				army_attack_factor = 0.05
 				experience_gain_army = 0.5
 				war_support_weekly_factor = 0.02
-			}
-			equipment_bonus = {
-				infantry_equipment = {
-					build_cost_ic = -0.1 instant = yes
-					reliability = 0.1 instant = yes
-				}
 			}
 		}
 
