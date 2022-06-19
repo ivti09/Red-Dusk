@@ -12,7 +12,7 @@ country_event = {
 	
 	trigger = {
 		IRQ = {
-		has_offensive_war_with = KUW
+		has_war_with = KUW
 		has_full_control_of_state = 656
 		}
 	}
@@ -37,10 +37,10 @@ country_event = {
 	
 	trigger = {
 		IRQ = {
-		has_offensive_war_with = SYR
+		has_war_with = SYR
 		}
 		SYR = {
-		surrender_progress > 0.9
+		surrender_progress > 0.99
 		}
 	}
 	
@@ -67,10 +67,10 @@ country_event = {
 	
 	trigger = {
 		IRQ = {
-		has_offensive_war_with = PER
+		has_war_with = PER
 		}
 		PER = {
-		surrender_progress > 0.75
+		surrender_progress > 0.99
 		}
 	}
 	
@@ -97,10 +97,10 @@ country_event = {
 	
 	trigger = {
 		SOV = {
-		has_offensive_war_with = EST
+		has_war_with = EST
 		}
 		EST = {
-		surrender_progress > 0.65
+		surrender_progress > 0.99
 		}
 	}
 	
@@ -129,10 +129,10 @@ country_event = {
 	
 	trigger = {
 		SOV = {
-		has_offensive_war_with = LAT
+		has_war_with = LAT
 		}
 		LAT = {
-		surrender_progress > 0.60
+		surrender_progress > 0.99
 		}
 	}
 	
@@ -162,10 +162,10 @@ country_event = {
 	
 	trigger = {
 		SOV = {
-		has_offensive_war_with = ARM
+		has_war_with = ARM
 		}
 		ARM = {
-		surrender_progress > 0.60
+		surrender_progress > 0.99
 		}
 		
 	}
@@ -192,10 +192,10 @@ country_event = {
 	
 	trigger = {
 		SOV = {
-		has_offensive_war_with = AZR
+		has_war_with = AZR
 		}
 		AZR = {
-		surrender_progress > 0.60
+		surrender_progress > 0.99
 		}
 
 	}
@@ -213,6 +213,265 @@ country_event = {
 	}
 }
 
+#ussr wins over poland#
+country_event = {
+	id = peace.11
+	title = peace.11.t
+	desc = peace.11.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = POL
+		}
+		POL = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.11.a
+		
+		SOV = {
+		white_peace = POL
+		puppet = POL
+		}
+		
+		POL = {
+		set_cosmetic_tag = POL_com_puppet
+		}
+	}
+}
+
+#ussr wins over romania#
+country_event = {
+	id = peace.12
+	title = peace.12.t
+	desc = peace.12.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = ROM
+		}
+		ROM = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.12.a
+		
+		SOV = {
+		white_peace = ROM
+		puppet = ROM
+		}
+		
+		ROM = {
+		set_cosmetic_tag = ROM_com_puppet
+		}
+	}
+}
+
+#ussr wins over hungary#
+country_event = {
+	id = peace.13
+	title = peace.13.t
+	desc = peace.13.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = HUN
+		}
+		HUN = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.13.a
+		
+		SOV = {
+		white_peace = HUN
+		puppet = HUN
+		}
+		
+		HUN = {
+		set_cosmetic_tag = HUN_com_puppet
+		}
+	}
+}
+
+#ussr wins over slovakia#
+country_event = {
+	id = peace.14
+	title = peace.14.t
+	desc = peace.14.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = SLO
+		}
+		SLO = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.14.a
+		
+		SOV = {
+		white_peace = SLO
+		puppet = SLO
+		}
+		SLO = {
+		set_cosmetic_tag = SLO_com_puppet
+		}
+	}
+}
+
+#ussr wins over bulgaria#
+country_event = {
+	id = peace.15
+	title = peace.15.t
+	desc = peace.15.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = BUL
+		}
+		BUL = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.15.a
+		
+		SOV = {
+		white_peace = BUL
+		puppet = BUL
+		}
+		BUL = {
+		set_cosmetic_tag = BUL_com_puppet
+		}
+	}
+}
+
+#ussr wins over czechs#
+country_event = {
+	id = peace.16
+	title = peace.16.t
+	desc = peace.16.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = CZE
+		}
+		CZE = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.16.a
+		
+		SOV = {
+		white_peace = CZE
+		puppet = CZE
+		}
+		CZE = {
+		set_cosmetic_tag = CZE_com_puppet
+		}
+	}
+}
+
+#ussr wins over albania#
+country_event = {
+	id = peace.17
+	title = peace.17.t
+	desc = peace.17.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = ALB
+		}
+		ALB = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.17.a
+		
+		SOV = {
+		white_peace = ALB
+		puppet = ALB
+		}
+		ALB = {
+		set_cosmetic_tag = ALB_com_puppet
+		}
+	}
+}
+
+#ussr wins over china#
+country_event = {
+	id = peace.18
+	title = peace.18.t
+	desc = peace.18.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = PRC
+		}
+		PRC = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.18.a
+		
+		SOV = {
+		white_peace = PRC
+		puppet = PRC
+		}
+		PRC = {
+		set_cosmetic_tag = PRC_com_puppet
+		}
+	}
+}
+
 #yugoslavia wins over Croatia#
 country_event = {
 	id = peace.8
@@ -223,10 +482,10 @@ country_event = {
 	
 	trigger = {
 		YUG = {
-		has_offensive_war_with = CRO
+		has_war_with = CRO
 		}
 		CRO = {
-		surrender_progress > 0.75
+		surrender_progress > 0.99
 		}
 
 	}
@@ -255,10 +514,10 @@ country_event = {
 	
 	trigger = {
 		YUG = {
-		has_offensive_war_with = SLV
+		has_war_with = SLV
 		}
 		SLV = {
-		surrender_progress > 0.75
+		surrender_progress > 0.99
 		}
 
 	}
@@ -285,10 +544,10 @@ country_event = {
 	
 	trigger = {
 		YUG = {
-		has_offensive_war_with = ALB
+		has_war_with = ALB
 		}
 		ALB = {
-		surrender_progress > 0.75
+		surrender_progress > 0.99
 		}
 
 	}

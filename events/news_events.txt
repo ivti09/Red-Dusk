@@ -130,7 +130,7 @@ news_event = {
 
 	trigger = {
 		date > 2000.10.1
-		country_exists = AUS
+		country_exists = AST
 	}
 
 	immediate = {
