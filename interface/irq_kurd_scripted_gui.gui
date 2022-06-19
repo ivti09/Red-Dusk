@@ -8,8 +8,7 @@ guiTypes = {
 		iconType = {
 			name ="kurd_resistance_bar"
 			spriteType = "GFX_kurd_resistance_bar"
-			position = {x=100 y=0}
-			alwaystransparent = yes
+			position = { x=50 y=0 }
 		}
 	}
 

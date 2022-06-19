@@ -19,6 +19,11 @@ recruit_character = IRQ_ali_al-majid
 recruit_character = IRQ_saddam_hussein_general
 recruit_character = IRQ_tariq_aziz13
 
+set_variable = {
+	var = kurd_resistance_variable
+	value = 4
+}
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"

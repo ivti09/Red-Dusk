@@ -228,7 +228,6 @@ irq_deal_with_kurds = {
 		}
 		complete_effect = { 
 			set_variable = { test_for_red_dusk = 50 }
-			
 		}
 	}
 	
@@ -259,6 +258,72 @@ irq_deal_with_kurds = {
 		complete_effect = { 
 			add_to_variable = { test_for_red_dusk = 50 }
 			
+		}
+	}
+
+	irq_kurd_resistance_test_increase = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			NOT = {
+				has_country_flag = fixed_kurd
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			NOT = {
+				has_country_flag = fixed_kurd
+			}
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_to_variable = {
+				var = kurd_resistance_variable
+				value = 1
+			}
+			IRQ_recalc_kurd_resistance_bar_frames = yes
+		}
+	}
+
+	irq_kurd_resistance_test_decrease = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			NOT = {
+				has_country_flag = fixed_kurd
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			NOT = {
+				has_country_flag = fixed_kurd
+			}
+		}
+		cost = 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			subtract_from_variable = {
+				var = kurd_resistance_variable
+				value = 1
+			}
+			IRQ_recalc_kurd_resistance_bar_frames = yes
 		}
 	}
 

@@ -7,6 +7,12 @@ scripted_gui = {
 		visible = {
 			original_tag = IRQ
 		}
+
+		properties = {
+			kurd_resistance_bar = {
+				frame = current_kurd_resistance_bar_frame
+			}
+		}
 	}
 	
 }
