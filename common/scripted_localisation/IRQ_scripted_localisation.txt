@@ -2,28 +2,43 @@ defined_text = {
 	name = IRQ_kurd_res_percantage
 	text = {
 		trigger = {
-			check_variable = { kurd_resistance_variable = 0 }
+			check_variable = { kurd_resistance_variable < 2 }
 		}
 		localization_key = IRQ_loc_key_lower_then_25
 	}
 	text = {
 		trigger = {
-			check_variable = { kurd_resistance_variable > 1 }
-			check_variable = { kurd_resistance_variable < 2 }
+			OR = {
+				AND = {
+					check_variable = { kurd_resistance_variable > 2 }
+					check_variable = { kurd_resistance_variable < 3 }
+				}
+				check_variable = { kurd_resistance_variable = 2 }
+			}
 		}
 		localization_key = IRQ_loc_key_between_25_50
 	}
 	text = {
 		trigger = {
-			check_variable = { kurd_resistance_variable > 2 }
-			check_variable = { kurd_resistance_variable < 3 }
+			OR = {
+				AND = {
+					check_variable = { kurd_resistance_variable > 3 }
+					check_variable = { kurd_resistance_variable < 4 }
+				}
+				check_variable = { kurd_resistance_variable = 3 }
+			}
 		}
 		localization_key = IRQ_loc_key_between_50_75
 	}
 	text = {
 		trigger = {
-			check_variable = { kurd_resistance_variable > 3 }
-			check_variable = { kurd_resistance_variable < 4 }
+			OR = {
+				AND = {
+					check_variable = { kurd_resistance_variable > 4 }
+					check_variable = { kurd_resistance_variable < 5 }
+				}
+				check_variable = { kurd_resistance_variable = 4 }
+			}
 		}
 		localization_key = IRQ_loc_key_between_75_100
 	}
