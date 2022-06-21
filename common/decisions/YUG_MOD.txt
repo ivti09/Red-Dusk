@@ -484,10 +484,10 @@ yug_rebuilding_our_industry = {
 		allowed = {
 		}
 		available = {
-			has_completed_focus = YUG_rebuilding_our_industry
+			has_country_flag = YUG_rebuilding_our_industry_flag
 		}
 		visible = {
-			has_completed_focus = YUG_rebuilding_our_industry
+			has_country_flag = YUG_rebuilding_our_industry_flag
 		}
 		modifier = {
 			stability_weekly = -0.01
@@ -521,10 +521,10 @@ yug_rebuilding_our_industry = {
 
 		}
 		available = {
-			has_completed_focus = YUG_rebuilding_our_industry
+			has_country_flag = YUG_rebuilding_our_industry_flag
 		}
 		visible = {
-			has_completed_focus = YUG_rebuilding_our_industry
+			has_country_flag = YUG_rebuilding_our_industry_flag
 		}
 		modifier = {
 			stability_weekly = 0.025
@@ -557,10 +557,10 @@ yug_rebuilding_our_industry = {
 		allowed = {
 		}
 		available = {
-			has_completed_focus = YUG_rebuilding_our_industry
+			has_country_flag = YUG_rebuilding_our_industry_flag
 		}
 		visible = {
-			has_completed_focus = YUG_rebuilding_our_industry
+			has_country_flag = YUG_rebuilding_our_industry_flag
 		}
 		modifier = {
 			stability_weekly = 0.025
@@ -665,10 +665,10 @@ yug_opening_new_factories = {
 
 		}
 		available = {
-			has_completed_focus = YUG_open_new_factories
+			has_country_flag = YUG_open_new_factories_flag
 		}
 		visible = {
-			has_completed_focus = YUG_open_new_factories
+			has_country_flag = YUG_open_new_factories_flag
 		}
 		modifier = {
 			stability_weekly = -0.02
@@ -702,10 +702,10 @@ yug_opening_new_factories = {
 
 		}
 		available = {
-			has_completed_focus = YUG_open_new_factories
+			has_country_flag = YUG_open_new_factories_flag
 		}
 		visible = {
-			has_completed_focus = YUG_open_new_factories
+			has_country_flag = YUG_open_new_factories_flag
 		}
 		modifier = {
 			stability_weekly = 0.05
@@ -739,10 +739,10 @@ yug_opening_new_factories = {
 
 		}
 		available = {
-			has_completed_focus = YUG_open_new_factories
+			has_country_flag = YUG_open_new_factories_flag
 		}
 		visible = {
-			has_completed_focus = YUG_open_new_factories
+			has_country_flag = YUG_open_new_factories_flag
 		}
 		modifier = {
 			stability_weekly = 0.08

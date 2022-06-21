@@ -75,6 +75,8 @@
  IRQ_new_doctrines:0 "New Military Doctrines"
  IRQ_end_army_rebuilding:0 "Finish Army Rebuilding"
  
+ IRQ_kurd_res_percantage_explanation:0 "[?IRQ_kurd_res_percantage]"
+ 
  #irq_deal_with_kurds_desc:0 ""
  
  ##YUGOSLAVIA##

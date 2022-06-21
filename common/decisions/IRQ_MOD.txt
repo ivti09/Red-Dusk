@@ -201,67 +201,37 @@ irq_fix_army = {
 }
 
 irq_deal_with_kurds = {
-
-	irq_kurd_resistance_level = {
-
-		icon = category_generic_communism
-
-		allowed = {
-			original_tag = IRQ
+	
+	irq_kur_resistance_increase = {
+		activation = {
+			NOT = {
+			has_country_flag = fixed_kurd
+			}
 		}
 		available = {
-			original_tag = IRQ
-			NOT = {
-				has_country_flag = fixed_kurd
+			has_country_flag = nothing
+		}
+		cancel_trigger = {
+		}
+		icon = mission_icon     
+		is_good = no
+		
+		days_mission_timeout = 15
+		selectable_mission = no
+		
+		complete_effect = {
+		}
+		timeout_effect = {
+			custom_effect_tooltip = irq_kurd_resistance_incrases_mid
+			subtract_from_variable = {
+				var = kurd_resistance_variable
+				value = 0.5
 			}
-		}
-		visible = {
-			original_tag = IRQ
-			NOT = {
-				has_country_flag = fixed_kurd
-			}
-		}
-		cost = 5
-		fire_only_once = no
-		ai_will_do = {
-			factor = 0
-		}
-		complete_effect = { 
-			set_variable = { test_for_red_dusk = 50 }
+			IRQ_recalc_kurd_resistance_bar_frames = yes
 		}
 	}
 	
-	irq_kurd_resistance_level_1 = {
-
-		icon = category_generic_communism
-
-		allowed = {
-			original_tag = IRQ
-		}
-		available = {
-			original_tag = IRQ
-			NOT = {
-				has_country_flag = fixed_kurd
-			}
-		}
-		visible = {
-			original_tag = IRQ
-			NOT = {
-				has_country_flag = fixed_kurd
-			}
-		}
-		cost = 5
-		fire_only_once = no
-		ai_will_do = {
-			factor = 0
-		}
-		complete_effect = { 
-			add_to_variable = { test_for_red_dusk = 50 }
-			
-		}
-	}
-
-	irq_kurd_resistance_test_increase = {
+	irq_kurd_resistance_bomb_the_mountains = {
 
 		icon = category_generic_communism
 
@@ -286,15 +256,52 @@ irq_deal_with_kurds = {
 			factor = 0
 		}
 		complete_effect = {
+			custom_effect_tooltip = irq_kurd_resistance_decrases_med
 			add_to_variable = {
 				var = kurd_resistance_variable
-				value = 1
+				value = 0.5
 			}
 			IRQ_recalc_kurd_resistance_bar_frames = yes
 		}
 	}
 
-	irq_kurd_resistance_test_decrease = {
+	irq_kurd_resistance_deport_the_kurds = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			NOT = {
+				has_country_flag = fixed_kurd
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			NOT = {
+				has_country_flag = fixed_kurd
+			}
+		}
+		cost = 15
+		days_remove = 5
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			custom_effect_tooltip = irq_kurd_resistance_decrases_small
+			add_to_variable = {
+				var = kurd_resistance_variable
+				value = 0.25
+			}
+			IRQ_recalc_kurd_resistance_bar_frames = yes
+		}
+	}
+	
+	
+	irq_kurd_resistance_start_direct_military_operations = {
 
 		icon = category_generic_communism
 
@@ -319,7 +326,8 @@ irq_deal_with_kurds = {
 			factor = 0
 		}
 		complete_effect = {
-			subtract_from_variable = {
+			custom_effect_tooltip = irq_kurd_resistance_decrases_big
+			add_to_variable = {
 				var = kurd_resistance_variable
 				value = 1
 			}

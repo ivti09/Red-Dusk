@@ -34,12 +34,31 @@
  irq_army_fix_2:0 "§YHas Fixed Equipment§W§\n"
  irq_army_fix_3:0 "§YHas Rebuilt The Military Assets§W§\n"
  irq_army_fix_4:0 "§YHas Researched New Military Doctrines§W§\n"
-
+ 
+ irq_kurd_resistance_decrases_small:0 "§GOur Progress Increases by a Small Amount§W§\n"
+ irq_kurd_resistance_decrases_med:0 "§GOur Progress Increases by a Medium Amount§W§\n"
+ irq_kurd_resistance_decrases_big:0 "§GOur Progress Increases by a Big Amount§W§\n"
+ 
+ irq_kurd_resistance_incrases_mid:0 "§ROur Progress Decrases by a Medium Amount§W§\n"
+ 
+ kurd_progress_bar_explanation_loc:0 "Our Progress On Eliminating \n\nThe Kurdish Resistance"
+ 
+ nothing:0 ""
+ 
+ IRQ_loc_key_lower_then_25:0 "Lower Than 25%"
+ IRQ_loc_key_between_25_50:0 "Between 25% - 50%"
+ IRQ_loc_key_between_50_75:0 "Between 50% - 75%"
+ IRQ_loc_key_between_75_100:0 "Between 75% - 100%"
+ IRQ_loc_key_100:0 "100%"
+ 
  IRQ_sanctions_done:0 "§YHas 'dealt' with our economic problems§W§\n"
  IRQ_kurds_done:0 "§YHas dealt with the Kurdish rebels§W§\n"
  IRQ_army_done:0 "§YHas dealt with our army problems§W§\n"
  
  #YUGOSLAVIA#
+ 
+ YUG_open_new_factories_flag:0 "§YHas Choosen to open new factories\n\n§W§"
+ YUG_rebuilding_our_industry_flag:0 "§YHas Choosen to rebuild our industry\n\n§W§"
  
  YUG_economy_time:0 "§GWe Can Now Focus On Fixing Our Economy\n\n§W§"
  YUG_can_deal_with_economy:0 "§GWe Can Now Focus On Fixing Our Economy\n\n§W§"
