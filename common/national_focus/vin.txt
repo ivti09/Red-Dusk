@@ -212,7 +212,7 @@ focus_tree = {
 	#Ask for aid
 	focus = {
 		id = VIN_ask_for_aid
-		icon = GFX_focus_generic_concessions
+		icon = GFX_focus_IRQ_moscow
 		x = 10
 		y = 3
 		cost = 3
