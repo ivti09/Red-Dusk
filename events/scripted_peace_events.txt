@@ -2,7 +2,7 @@ add_namespace = peace
 
 
 
-#Iraq wins over kuweit#
+#Iraq wins over kuwait#
 country_event = {
 	id = peace.1
 	title = peace.1.t

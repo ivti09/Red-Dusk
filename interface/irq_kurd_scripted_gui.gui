@@ -17,10 +17,12 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name ="kurd_resistance_percantage_in_gui"
-			position = { x = 50 y = 150 }
+			position = { x = 5 y = 150 }
 			font = "hoi_18mbs"
 			text = "IRQ_kurd_res_percantage_explanation"
 			format = center
+			maxHeight = 0
+			maxWidth = 500
 		}
 		
 		iconType = {

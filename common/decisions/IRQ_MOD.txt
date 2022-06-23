@@ -213,7 +213,7 @@ irq_deal_with_kurds = {
 		}
 		cancel_trigger = {
 		}
-		icon = mission_icon     
+		icon = GFX_decision_revolt     
 		is_good = no
 		
 		days_mission_timeout = 15
@@ -233,7 +233,7 @@ irq_deal_with_kurds = {
 	
 	irq_kurd_resistance_bomb_the_mountains = {
 
-		icon = category_generic_communism
+		icon = GFX_decision_generic_ignite_civil_war
 
 		allowed = {
 			original_tag = IRQ
@@ -250,24 +250,33 @@ irq_deal_with_kurds = {
 				has_country_flag = fixed_kurd
 			}
 		}
-		cost = 0
+		days_remove = 10
+		cost = 15
 		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}
 		complete_effect = {
+		add_command_power = -35
+		}
+		remove_effect = {
 			custom_effect_tooltip = irq_kurd_resistance_decrases_med
 			add_to_variable = {
 				var = kurd_resistance_variable
 				value = 0.5
 			}
 			IRQ_recalc_kurd_resistance_bar_frames = yes
+			damage_building = {
+				type = infrastructure
+				damage = 4
+			}
+			air_experience = 15
 		}
 	}
 
 	irq_kurd_resistance_deport_the_kurds = {
 
-		icon = category_generic_communism
+		icon = GFX_decision_eng_blackshirt_march
 
 		allowed = {
 			original_tag = IRQ
@@ -290,20 +299,64 @@ irq_deal_with_kurds = {
 		ai_will_do = {
 			factor = 0
 		}
-		complete_effect = {
+		remove_effect = {
 			custom_effect_tooltip = irq_kurd_resistance_decrases_small
 			add_to_variable = {
 				var = kurd_resistance_variable
 				value = 0.25
 			}
 			IRQ_recalc_kurd_resistance_bar_frames = yes
+			676 = {
+			add_manpower = -4500
+			}
 		}
 	}
 	
 	
 	irq_kurd_resistance_start_direct_military_operations = {
 
-		icon = category_generic_communism
+		icon = GFX_decision_generic_military
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			NOT = {
+				has_country_flag = fixed_kurd
+			}
+			divisions_in_state = {
+				state = 676
+				size > 5
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			NOT = {
+				has_country_flag = fixed_kurd
+			}
+		}
+		cost = 15
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			custom_effect_tooltip = irq_kurd_resistance_decrases_med
+			add_to_variable = {
+				var = kurd_resistance_variable
+				value = 0.5
+			}
+			IRQ_recalc_kurd_resistance_bar_frames = yes
+			army_experience = 25
+			custom_effect_tooltip = irq_you_can_now_do_military_stuff
+			set_country_flag = irq_started_direct_military_operations
+		}
+	}
+	
+	irq_kurd_resistance_imprison_seperatist_activists = {
+
+		icon = GFX_decision_generic_arrest
 
 		allowed = {
 			original_tag = IRQ
@@ -320,18 +373,138 @@ irq_deal_with_kurds = {
 				has_country_flag = fixed_kurd
 			}
 		}
-		cost = 0
+		cost = 20
+		days_remove = 15
 		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}
-		complete_effect = {
+		remove_effect = {
+			custom_effect_tooltip = irq_kurd_resistance_decrases_med
+			add_to_variable = {
+				var = kurd_resistance_variable
+				value = 0.5
+			}
+			IRQ_recalc_kurd_resistance_bar_frames = yes
+			291 = {
+			add_manpower = -1000
+			}
+		}
+	}
+	
+	irq_kurd_resistance_reinforce_border_guards = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_started_direct_military_operations
+			NOT = {
+				has_country_flag = fixed_kurd
+			}
+			
+			divisions_in_state = {
+			state = 676
+			size > 1
+			}
+			
+			divisions_in_state = {
+			state = 291
+			size > 1
+			}
+			
+			divisions_in_state = {
+			state = 675
+			size > 1
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			NOT = {
+				has_country_flag = fixed_kurd
+			}
+		}
+		days_remove = 20
+		cost = 20
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = {
+			custom_effect_tooltip = irq_kurd_resistance_decrases_med
+			add_to_variable = {
+				var = kurd_resistance_variable
+				value = 0.5
+			}
+			IRQ_recalc_kurd_resistance_bar_frames = yes
+			army_experience = 15
+		}
+	}
+	
+	irq_kurd_resistance_crackdown_the_underground_network = {
+
+		icon = GFX_decision_generic_prepare_civil_war
+
+		allowed = {
+			original_tag = IRQ
+		}
+		available = {
+			original_tag = IRQ
+			has_country_flag = irq_started_direct_military_operations
+			NOT = {
+				has_country_flag = fixed_kurd
+			}
+			
+			divisions_in_state = {
+			state = 676
+			size > 2
+			}
+			
+			divisions_in_state = {
+			state = 291
+			size > 2
+			}
+			
+			divisions_in_state = {
+			state = 675
+			size > 2
+			}
+		}
+		visible = {
+			original_tag = IRQ
+			NOT = {
+				has_country_flag = fixed_kurd
+			}
+		}
+		days_remove = 10
+		cost = 20
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = {
 			custom_effect_tooltip = irq_kurd_resistance_decrases_big
 			add_to_variable = {
 				var = kurd_resistance_variable
 				value = 1
 			}
 			IRQ_recalc_kurd_resistance_bar_frames = yes
+			army_experience = 25
+			
+			676 = {
+			add_manpower = -2500
+			}
+			
+			291 = {
+			add_manpower = -1500
+			}
+			
+			675 = {
+			add_manpower = -1000
+			}
 		}
 	}
 

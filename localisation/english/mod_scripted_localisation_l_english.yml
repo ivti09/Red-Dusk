@@ -35,20 +35,23 @@
  irq_army_fix_3:0 "§YHas Rebuilt The Military Assets§W§\n"
  irq_army_fix_4:0 "§YHas Researched New Military Doctrines§W§\n"
  
- irq_kurd_resistance_decrases_small:0 "§GOur Progress Increases by a Small Amount§W§\n"
- irq_kurd_resistance_decrases_med:0 "§GOur Progress Increases by a Medium Amount§W§\n"
- irq_kurd_resistance_decrases_big:0 "§GOur Progress Increases by a Big Amount§W§\n"
+ irq_kurd_resistance_decrases_small:0 "§GOur Progress Increases by a Small Amount§W§\n\n"
+ irq_kurd_resistance_decrases_med:0 "§GOur Progress Increases by a Medium Amount§W§\n\n"
+ irq_kurd_resistance_decrases_big:0 "§GOur Progress Increases by a Big Amount§W§\n\n"
  
  irq_kurd_resistance_incrases_mid:0 "§ROur Progress Decrases by a Medium Amount§W§\n"
  
  kurd_progress_bar_explanation_loc:0 "Our Progress On Eliminating \n\nThe Kurdish Resistance"
  
+ irq_you_can_now_do_military_stuff:0 "§GWe can now use direct military force for other operations§W§\n\n"
+ irq_started_direct_military_operations:0 "§YHas Started Direct Military Operations§W§\n\n"
+ 
  nothing:0 ""
  
- IRQ_loc_key_lower_then_25:0 "Lower Than 25%"
- IRQ_loc_key_between_25_50:0 "Between 25% - 50%"
- IRQ_loc_key_between_50_75:0 "Between 50% - 75%"
- IRQ_loc_key_between_75_100:0 "Between 75% - 100%"
+ IRQ_loc_key_lower_then_25:0 "Estimated Lower Than 25%"
+ IRQ_loc_key_between_25_50:0 "Estimated Between 25% - 50%"
+ IRQ_loc_key_between_50_75:0 "Estimated Between 50% - 75%"
+ IRQ_loc_key_between_75_100:0 "Estimated Between 75% - 100%"
  IRQ_loc_key_100:0 "100%"
  
  IRQ_sanctions_done:0 "§YHas 'dealt' with our economic problems§W§\n"

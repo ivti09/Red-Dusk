@@ -76,8 +76,15 @@
  IRQ_end_army_rebuilding:0 "Finish Army Rebuilding"
  
  IRQ_kurd_res_percantage_explanation:0 "[IRQ_kurd_res_percantage]"
- 
- #irq_deal_with_kurds_desc:0 ""
+ irq_deal_with_kurds:0 "Dealing With The Kurdish Resistance"
+ irq_deal_with_kurds_desc:0 "Ever since the creation of our nation the kurdish rebels entrenched in the north is causing mass instability, from 1960's when they first rebelled to 1988's when they cost us the war aganist Iran.We will no longer tolarate this by combining all of our efforts we will crush the Kurdish Rebels."
+ irq_kurd_resistance_bomb_the_mountains:0 "Bomb The Mountains"
+ irq_kurd_resistance_deport_the_kurds:0 "Deport The Kurds"
+ irq_kurd_resistance_start_direct_military_operations:0 "Start Direct Military Operations"
+ irq_kurd_resistance_imprison_seperatist_activists:0 "Imprison Seperatist Activists"
+ irq_kurd_resistance_reinforce_border_guards:0 "Reinforce the Border Guards"
+ irq_kurd_resistance_crackdown_the_underground_network:0 "Crackdown the Undergound Network"
+ irq_kur_resistance_increase:0 "Resistance Increases..."
  
  ##YUGOSLAVIA##
  yug_deal_with_uprisings:0 "Dealing With Terrorism"

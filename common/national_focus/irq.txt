@@ -1218,8 +1218,20 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			unlock_decision_category_tooltip = irq_deal_with_kurds
 			add_political_power = 10
 			add_war_support = -0.05
+
+			set_variable = {
+				var = kurd_resistance_variable
+				value = 1
+			}
+			clamp_variable = {
+				var = kurd_resistance_variable
+				min = 1
+				max = 5
+			}
+			IRQ_recalc_kurd_resistance_bar_frames = yes
 		}
 	}
 
@@ -1255,6 +1267,7 @@ focus_tree = {
 		y = 2
 
 		prerequisite = {focus = IRQ_army_in_kurd}
+		available = {has_country_flag = irq_started_direct_military_operations}
 
 		mutually_exclusive = { }
 		
@@ -1268,7 +1281,12 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			unlock_decision_category_tooltip = irq_deal_with_kurds
+			custom_effect_tooltip = irq_kurd_resistance_decrases_med
+			add_to_variable = {
+				var = kurd_resistance_variable
+				value = 0.5
+			}
+			IRQ_recalc_kurd_resistance_bar_frames = yes
 		}
 	}
 
@@ -1330,7 +1348,9 @@ focus_tree = {
 		y = 5
 
 		prerequisite = {focus = IRQ_use_air}
-
+		available = {
+				has_country_flag = IRQ_kurd_resistance_bar_is_100
+		}
 		mutually_exclusive = { }
 		
 		cost = 1
@@ -1343,8 +1363,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			set_country_flag = IRQ_kurds_done
+			set_country_flag = fixed_kurd
 			remove_ideas = IRQ_kurdish_rebels
+			set_country_flag = nothing
 			IRQ = {
 				country_event = { id = irq.5 }
 			}
