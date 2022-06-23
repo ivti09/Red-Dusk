@@ -98,6 +98,20 @@ characters = {
 			id = -1
 		}
 	}
+	SOV_mikhail_gorbachev1 = {
+		name = "Mikhail Gorbachev"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Mikhail_Gorbachev.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 	SOV_vladimir_based = {
 		name = "Vladimir Zhirinovsky"
 		portraits = {

@@ -68,7 +68,7 @@
  ##IRAQ##
  
  irq_fix_army:0 "Fixing Our Army"
- irq_fix_army_desc:0 "After the gulf war, most of Our military assets had been destroyed by Neo-Imperialist Coalition bombs, combined with our embarrassing defeat with high casualties the Iraqi Armed Forces were extremely demoralized and ineffective \n\nA drastic change was needed to the armed forces if we wanted our nation's survival...\n\nAnd that drastic changes start today. We are going to revamp our army and make the Americans pay for what they did to our nation !"
+ irq_fix_army_desc:0 "After the Gulf War, most of our military assets had been destroyed by neo-imperialist Coalition bombs. This, combined with our embarrassing defeat with high casualties have made the Iraqi Armed Forces extremely demoralized and ineffective. \n\nA drastic change is needed in the armed forces if we want our nation to survive...\n\nAnd that drastic change start today. We are going to revamp our army and make the Americans pay for what they did to our nation!"
  IRQ_reuse_equipment:0 "Reuse Equipment"
  IRQ_fix_old_equipment:0 "Fix Old Equipment"
  IRQ_rebuild_military_assets:0 "Rebuild Military Assets"
@@ -76,8 +76,8 @@
  IRQ_end_army_rebuilding:0 "Finish Army Rebuilding"
  
  IRQ_kurd_res_percantage_explanation:0 "[IRQ_kurd_res_percantage]"
- irq_deal_with_kurds:0 "Dealing With The Kurdish Resistance"
- irq_deal_with_kurds_desc:0 "Ever since the creation of our nation the kurdish rebels entrenched in the north is causing mass instability, from 1960's when they first rebelled to 1988's when they cost us the war aganist Iran.We will no longer tolarate this by combining all of our efforts we will crush the Kurdish Rebels."
+ irq_deal_with_kurds:0 "Dealing with The Kurdish Resistance"
+ irq_deal_with_kurds_desc:0 "Ever since the creation of our nation, the kurdish rebels entrenched in the north have been causing mass instability. From 1960s when they first rebelled to 1980s when they costed us the war aganist Iran. We will no longer tolarate this! By combining all of our efforts we will crush the Kurdish Rebels!"
  irq_kurd_resistance_bomb_the_mountains:0 "Bomb The Mountains"
  irq_kurd_resistance_deport_the_kurds:0 "Deport The Kurds"
  irq_kurd_resistance_start_direct_military_operations:0 "Start Direct Military Operations"
@@ -87,32 +87,32 @@
  irq_kur_resistance_increase:0 "Resistance Increases..."
  
  ##YUGOSLAVIA##
- yug_deal_with_uprisings:0 "Dealing With Terrorism"
- yug_deal_with_uprisings_desc:0 "Internal seperatism and terrosim is destroying our nation , now we have dealt with other issues we are going to deal with these problems , homever because of our limited resources we can only focus and concentrate on one of the regions \n\n§L>Figthing Strength Of The Rebels In Bosnia Is §R[?bosnia_fight_strength]§W§  §Lpercent§W§.\n\n§W§\n\n§L>Figthing Strength Of The Rebels In Kosovo Is §R[?albania_fight_strength]§  §Lpercent.§W§"
+ yug_deal_with_uprisings:0 "Dealing with Terrorism"
+ yug_deal_with_uprisings_desc:0 "Internal seperatism and terrosim is destroying our nation. Now that we have dealt with other issues we are going to deal with this one too. However, because of our limited resources we can only focus and concentrate on one of the regions. \n\n§L>Figthing Strength Of The Rebels In Bosnia Is §R[?bosnia_fight_strength]§W§  §Lpercent§W§.\n\n§W§\n\n§L>Figthing Strength Of The Rebels In Kosovo Is §R[?albania_fight_strength]§  §Lpercent.§W§"
  yug_focus_on_bosnian_rebels:0 "Focus On Bosnian Rebels"
  yug_focus_on_albanian_rebels:0 "Focus On Kosovo Rebels"
  yug_timer_clock_bosnia:0 "Incoming Uprising"
- yug_relocate_serbs_into_bosnia:0 "Relocate Serbs Into Bosnia"
- yug_remove_ethnic_bosnian_generals:0 "Remove Ethnic Bosnian Generals From The JNA"
- yug_imprison_the_imams:0 "Imprison The Imams"
+ yug_relocate_serbs_into_bosnia:0 "Relocate Serbs into Bosnia"
+ yug_remove_ethnic_bosnian_generals:0 "Remove Ethnic Bosnian Generals from the JNA"
+ yug_imprison_the_imams:0 "Imprison the Imams"
  yug_relocate_assets:0 "Relocate Industrial Assets"
  yug_timer_clock_albania:0 "Incoming Uprising"
- yug_relocate_serbs_into_kosovo:0 "Relocate Serbs Into Kosovo"
- yug_remove_ethnic_albanian_generals:0 "Remove Ethnic Albanian Generals From The JNA"
+ yug_relocate_serbs_into_kosovo:0 "Relocate Serbs into Kosovo"
+ yug_remove_ethnic_albanian_generals:0 "Remove Ethnic Albanian Generals from the JNA"
  yug_deport_local_albanians:0 "Deport Albanians"
- yug_relocate_assets_from_kosovo:0 "Relocate Industrial Assets From Kosovo"
+ yug_relocate_assets_from_kosovo:0 "Relocate Industrial Assets from Kosovo"
  
  yug_rebuilding_our_industry:0 "Rebuilding Our Industry"
- yug_rebuilding_our_industry_desc:0 "With most of our industry destroyed following mass uprisings in 91' its understandeble that we decided to repair and rebuild those factories that had been abondoned long ago" 
- yug_rebuild_military_industry_in_serbia:0 "Rebuild Military Industry In Serbia"
- yug_rebuild_civilian_industry_in_bosnia:0 "Rebuild Civilian Industry In Bosnia"
- yug_restart_infrastructure_industry:0 "Restart The Infrastructure Industry"
+ yug_rebuilding_our_industry_desc:0 "With most of our industry being destroyed following the mass uprisings in '91, it's understandeble that we have decided to repair and rebuild those factories that had been abondoned long ago." 
+ yug_rebuild_military_industry_in_serbia:0 "Rebuild Military Industry in Serbia"
+ yug_rebuild_civilian_industry_in_bosnia:0 "Rebuild Civilian Industry in Bosnia"
+ yug_restart_infrastructure_industry:0 "Restart the Infrastructure Industry"
  
  yug_opening_new_factories:0 "Opening New Factories"
- yug_opening_new_factories_desc:0 "We have decided to to move on from the old destroyed factories that are too damaged to properly repair , and even if we did wouldnt be even efficent. Thats why we decided to construct new factories that are more efficent to create new modernized weaponery"
- yug_build_new_military_industry_in_serbia:0 "Build New Military Industry In Serbia"
- yug_build_new_civilian_industry_in_bosnia:0 "Build New Civilian Industry In Bosnia"
- yug_build_new_infrastructure_across_the_country:0 "Build New Infrastructure Across The Country"
+ yug_opening_new_factories_desc:0 "We have decided to move on from the old destroyed factories that are too damaged to be properly repaired. That's why we decided to construct new factories that are more efficent in creating new modernised weaponery."
+ yug_build_new_military_industry_in_serbia:0 "Build New Military Industry in Serbia"
+ yug_build_new_civilian_industry_in_bosnia:0 "Build New Civilian Industry in Bosnia"
+ yug_build_new_infrastructure_across_the_country:0 "Build New Infrastructure Across the Country"
 
 ## USA ##
 

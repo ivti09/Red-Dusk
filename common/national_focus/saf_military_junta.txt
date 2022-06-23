@@ -482,7 +482,7 @@ focus_tree = {
 		ANC = {
 				transfer_state = 719
 				transfer_state = 681
-				transfer_state = 849
+				transfer_state = 852
 		}
 		    declare_war_on = {
             type = annex_everything

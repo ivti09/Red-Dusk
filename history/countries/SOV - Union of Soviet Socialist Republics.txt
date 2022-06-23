@@ -177,6 +177,7 @@ recruit_character = SOV_dmitry_yazov
 recruit_character = SOV_anatoly_chernyaev
 recruit_character = SOV_boris_pugo
 recruit_character = SOV_mikhail_gorbachev
+recruit_character = SOV_mikhail_gorbachev1
 recruit_character = SOV_vladimir_putin
 recruit_character = SOV_party
 recruit_character = SOV_mikhail_kolesnikov
