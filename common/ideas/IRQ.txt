@@ -206,7 +206,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = IRQ_land_of_madness_icon
+			picture = IRQ_madness_icon
 
 			allowed = {
 				always = no

@@ -941,6 +941,10 @@
  CHU_democratic_party_long:0 "Chuvash-Turkic State Council"
  CHU_neutrality_party:0 "COU"
  CHU_neutrality_party_long:0 "Chuvash Orthodox Union"
-
+ ANC_communism_party:0 "ANC - Left Wing"
+ ANC_democratic_party:0 "ANC"
+ ANC_democratic_party_long:0 "African National Congress"
+ ANC_fascism_party:0 "Banned Party"
+ ANC_neutrality_party:0 "ANC - Moderate Wing"
  
  

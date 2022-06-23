@@ -157,6 +157,14 @@ spriteTypes = {
 		name = "GFX_report_event_SAF_parliament"
 		texturefile = "gfx/event_pictures/report_event_parliament.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_SAF_onwards"
+		texturefile = "gfx/event_pictures/report_event_onwards_south_africa.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SAF_martial_law"
+		texturefile = "gfx/event_pictures/report_event_martial_law.dds"
+	}
 
 	## WORLD NEWS ##
 
@@ -179,5 +187,25 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_south_africa"
 		texturefile = "gfx/event_pictures/south_african_civil_war.dds"
+	}
+	spriteType = {
+		name = "GFX_news_yazov"
+		texturefile = "gfx/event_pictures/news_yazov.dds"
+	}
+	spriteType = {
+		name = "GFX_news_pugo"
+		texturefile = "gfx/event_pictures/news_pugo.dds"
+	}
+	spriteType = {
+		name = "GFX_news_putin"
+		texturefile = "gfx/event_pictures/news_putin.dds"
+	}
+	spriteType = {
+		name = "GFX_news_gorbachev"
+		texturefile = "gfx/event_pictures/news_gorby.dds"
+	}
+	spriteType = {
+		name = "GFX_news_saf_gas"
+		texturefile = "gfx/event_pictures/news_saf_collapsse.dds"
 	}
 }

@@ -13,7 +13,7 @@
 	default = no
 	focus = {
 		id = SAF_coup
-		icon = GFX_focus_SOV_status_of_union
+		icon = GFX_focus_SAF_coup
 		x = 9
 		y = 0
 
@@ -30,13 +30,15 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 5
+			SAF = {
+				country_event = { id = saf.5 }
+			}
 		}
 	}
 	
 	focus = {
 		id = SAF_mandela
-		icon = GFX_focus_SOV_economy_report
+		icon = GFX_focus_SAF_mandela
 		x = 9
 		y = 1
 
@@ -86,7 +88,7 @@
 	
 	focus = {
 		id = SAF_budget
-		icon = GFX_focus_SOV_defund_military
+		icon = GFX_focus_IRQ_army_ready 
 		x = 9
 		y = 3
 
@@ -133,7 +135,7 @@
 
 	focus = {
         	id = SAF_future
-        	icon = GFX_focus_SOV_yanayevs_resignation
+        	icon = GFX_focus_SAF_position
         	x = 9
         	y = 5
 		prerequisite = {focus = SAF_anti_rebel}

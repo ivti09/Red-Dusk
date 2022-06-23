@@ -18,12 +18,16 @@ state={
 
 			}
 
+		        add_core_of = SAF
+		        add_core_of = ANC
+
 		}
 		victory_points = {
 			1468 3 
 		}
 
 	}
+
 
 	provinces={
 		1468 1494 4556 7900 8178 

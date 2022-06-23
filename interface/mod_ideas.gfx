@@ -207,4 +207,8 @@ spriteTypes = {
 		name = "GFX_idea_SAF_anc_icon"
 		texturefile = "gfx/interface/ideas/SAF_anc_problem.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SAF_cia_icon"
+		texturefile = "gfx/interface/ideas/SAF_cia.dds"
+	}
 }

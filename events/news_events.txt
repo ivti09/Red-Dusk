@@ -51,6 +51,51 @@ news_event = {
 }
 
 news_event = {
+	id = old_times_news.4
+	title = old_times_news.4.t
+	desc = old_times_news.4.d
+	picture = GFX_news_pugo
+	
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option ={
+		name = old_times_news.4.a
+	}
+}
+
+news_event = {
+	id = old_times_news.5
+	title = old_times_news.5.t
+	desc = old_times_news.5.d
+	picture = GFX_news_gorbachev
+	
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option ={
+		name = old_times_news.5.a
+	}
+}
+
+news_event = {
+	id = old_times_news.6
+	title = old_times_news.6.t
+	desc = old_times_news.6.d
+	picture = GFX_news_putin
+	
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option ={
+		name = old_times_news.6.a
+	}
+}
+
+news_event = {
 	id = old_times_news.7
 	title = old_times_news.7.t
 	desc = old_times_news.7.d
@@ -62,6 +107,21 @@ news_event = {
 	fire_only_once = yes
 	option ={
 		name = old_times_news.7.a
+	}
+}
+
+news_event = {
+	id = old_times_news.8
+	title = old_times_news.8.t
+	desc = old_times_news.8.d
+	picture = GFX_news_saf_gas
+	
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	option ={
+		name = old_times_news.8.a
 	}
 }
 

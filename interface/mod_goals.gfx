@@ -665,6 +665,14 @@ spriteTypes = {
 		name = "GFX_focus_SAF_war"
 		texturefile = "gfx/interface/goals/focus_SAF_war.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SAF_coup"
+		texturefile = "gfx/interface/goals/focus_SAF_coup_succes.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_mandela"
+		texturefile = "gfx/interface/goals/focus_SAF_madela_gone.png"
+	}
 
    ###VIN###
     SpriteType = {

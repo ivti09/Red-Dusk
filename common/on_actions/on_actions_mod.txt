@@ -7,6 +7,12 @@ on_actions = {
 				country_event = {id = ussr_intro.1}	
 			}
 		}
+
+		effect = {
+			SAF = {	
+				country_event = {id = saf.4}	
+			}
+		}
 		
 
 		effect = {

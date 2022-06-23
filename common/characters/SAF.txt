@@ -30,6 +30,21 @@ characters = {
 		}
 	}
 
+	SAF_de_klerk = {
+		name = "Frederik Willem de Klerk"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/Frederik_Willem_de_Klerk.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
     ###generals###
 
 	SAF_constand_viljoen_general = {

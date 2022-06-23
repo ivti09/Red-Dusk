@@ -5,6 +5,7 @@
 set_convoys = 5
 
 recruit_character = ZIM_mugabe
+recruit_character = ZIM_peter_walls
 
 set_politics = {
 	ruling_party = neutrality
