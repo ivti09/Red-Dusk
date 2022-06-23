@@ -67,10 +67,10 @@ country_event = {
 	
 	trigger = {
 		IRQ = {
-		has_war_with = PER
+			has_war_with = PER
 		}
 		PER = {
-		surrender_progress > 0.99
+			surrender_progress > 0.99
 		}
 	}
 	
@@ -79,11 +79,13 @@ country_event = {
 		name = peace.3.a
 		
 		IRQ = {
-		white_peace = PER
-		transfer_state = 421
-		transfer_state = 413
-		puppet = PER
+			white_peace = PER
+			transfer_state = 421
+			transfer_state = 413
+			puppet = PER
 		}
+
+		news_event = { id = old_times_news.16 }
 	}
 }
 

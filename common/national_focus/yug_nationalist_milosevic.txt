@@ -35,7 +35,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 10
 			add_stability = -0.05
-			add_party_popularity = {
+			add_popularity = {
 				ideology = communism
 				popularity = -0.10
 			}
@@ -64,7 +64,6 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 15
 			country_event = {id = yug.12}
-			
 		}
 	}
 	
@@ -327,8 +326,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-		country_event {id = yug.10 }
-		add_war_support = 0.10
+			country_event = { id = yug.10 }
+			add_war_support = 0.10
 		}
 	}
 	

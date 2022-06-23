@@ -208,4 +208,8 @@ spriteTypes = {
 		name = "GFX_news_saf_gas"
 		texturefile = "gfx/event_pictures/news_saf_collapsse.dds"
 	}
+	spriteType = {
+		name = "GFX_news_iraq_victory"
+		texturefile = "gfx/event_pictures/news_iraq_victory.dds"
+	}
 }

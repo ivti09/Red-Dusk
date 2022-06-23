@@ -1,5 +1,6 @@
 add_namespace = usa
 add_namespace = usa_quayle
+add_namespace = usa_help
 
 country_event = { #The State of the Union#
 	id = usa.1

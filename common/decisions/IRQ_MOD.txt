@@ -266,11 +266,15 @@ irq_deal_with_kurds = {
 				value = 0.5
 			}
 			IRQ_recalc_kurd_resistance_bar_frames = yes
-			damage_building = {
-				type = infrastructure
-				damage = 4
+			IRQ = {
+				random_owned_state = {
+					damage_building = {
+						type = infrastructure
+						damage = 4
+					}
+				}
+				air_experience = 15
 			}
-			air_experience = 15
 		}
 	}
 

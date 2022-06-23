@@ -1,4 +1,5 @@
 add_namespace = saf
+add_namespace = saf_help
 
 #Mandela#
 country_event = {
@@ -129,7 +130,7 @@ country_event = {
 	option = {
 		name = saf.7.a
 		add_ideas = SAF_gas_idea
-		news_event = { id = old_times_news.8 days = 5 }	
+		news_event = { id = old_times_news.17 days = 5 }	
 	}
 	option = {
 		name = saf.7.b	
