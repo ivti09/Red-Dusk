@@ -127,7 +127,7 @@ country_event = {
 	}
 }
 
-#Ask Soviets for Help#
+#k dealt kurd progress 100 aka complete#
 country_event = {
 	id = irq_hidden.1
 	title = irq_hidden.1.t

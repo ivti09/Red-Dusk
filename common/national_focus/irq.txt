@@ -1219,6 +1219,7 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			unlock_decision_category_tooltip = irq_deal_with_kurds
+			set_country_flag = focused_on_kurds_rn
 			add_political_power = 10
 			add_war_support = -0.05
 
