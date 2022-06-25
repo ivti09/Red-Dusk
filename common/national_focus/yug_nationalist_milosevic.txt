@@ -2,11 +2,6 @@ focus_tree = {
 	id = yug_nationalist_milosevic_focus
 	country = {
 		factor = 0
-		
-		modifier = {
-			add = 22
-			tag = YUG
-		}
 	}
 	
 	continuous_focus_position = { x = 10 y = 2250 }

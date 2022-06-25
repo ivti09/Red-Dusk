@@ -204,6 +204,7 @@ irq_deal_with_kurds = {
 	
 	irq_kur_resistance_increase = {
 		activation = {
+			has_country_flag = focused_on_kurds_rn
 			NOT = {
 			has_country_flag = fixed_kurd
 			}
@@ -240,12 +241,14 @@ irq_deal_with_kurds = {
 		}
 		available = {
 			original_tag = IRQ
+			has_country_flag = focused_on_kurds_rn
 			NOT = {
 				has_country_flag = fixed_kurd
 			}
 		}
 		visible = {
 			original_tag = IRQ
+			has_country_flag = focused_on_kurds_rn
 			NOT = {
 				has_country_flag = fixed_kurd
 			}
@@ -287,12 +290,14 @@ irq_deal_with_kurds = {
 		}
 		available = {
 			original_tag = IRQ
+			has_country_flag = focused_on_kurds_rn
 			NOT = {
 				has_country_flag = fixed_kurd
 			}
 		}
 		visible = {
 			original_tag = IRQ
+			has_country_flag = focused_on_kurds_rn
 			NOT = {
 				has_country_flag = fixed_kurd
 			}
@@ -326,6 +331,7 @@ irq_deal_with_kurds = {
 		}
 		available = {
 			original_tag = IRQ
+			has_country_flag = focused_on_kurds_rn
 			NOT = {
 				has_country_flag = fixed_kurd
 			}
@@ -336,6 +342,7 @@ irq_deal_with_kurds = {
 		}
 		visible = {
 			original_tag = IRQ
+			has_country_flag = focused_on_kurds_rn
 			NOT = {
 				has_country_flag = fixed_kurd
 			}
@@ -367,12 +374,14 @@ irq_deal_with_kurds = {
 		}
 		available = {
 			original_tag = IRQ
+			has_country_flag = focused_on_kurds_rn
 			NOT = {
 				has_country_flag = fixed_kurd
 			}
 		}
 		visible = {
 			original_tag = IRQ
+			has_country_flag = focused_on_kurds_rn
 			NOT = {
 				has_country_flag = fixed_kurd
 			}
@@ -405,6 +414,7 @@ irq_deal_with_kurds = {
 		}
 		available = {
 			original_tag = IRQ
+			has_country_flag = focused_on_kurds_rn
 			has_country_flag = irq_started_direct_military_operations
 			NOT = {
 				has_country_flag = fixed_kurd
@@ -427,6 +437,7 @@ irq_deal_with_kurds = {
 		}
 		visible = {
 			original_tag = IRQ
+			has_country_flag = focused_on_kurds_rn
 			NOT = {
 				has_country_flag = fixed_kurd
 			}
@@ -457,6 +468,7 @@ irq_deal_with_kurds = {
 		}
 		available = {
 			original_tag = IRQ
+			has_country_flag = focused_on_kurds_rn
 			has_country_flag = irq_started_direct_military_operations
 			NOT = {
 				has_country_flag = fixed_kurd
@@ -479,6 +491,7 @@ irq_deal_with_kurds = {
 		}
 		visible = {
 			original_tag = IRQ
+			has_country_flag = focused_on_kurds_rn
 			NOT = {
 				has_country_flag = fixed_kurd
 			}

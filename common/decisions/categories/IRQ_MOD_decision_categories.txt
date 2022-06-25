@@ -23,7 +23,6 @@ irq_deal_with_kurds = {
 
 	allowed = {
 		original_tag = IRQ
-		has_country_flag = focused_on_kurds_rn
 	}
 
 	visible = {
