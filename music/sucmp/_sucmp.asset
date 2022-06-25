@@ -10,6 +10,10 @@ music = {
 	name = "An_Escalation"
 	file = "An_Escalation.ogg"
 }
+music = {
+	name = "Another_Life_(Extended)"
+	file = "Another_life_(extended).ogg"
+}
 music ={
 	name = "Auferstanden_Aus_Ruinen"
 	file = "Auferstanden_Aus_Ruinen.ogg"
@@ -45,6 +49,10 @@ music = {
 music = {
 	name = "Freestyle_Goodbye_Forever"
 	file = "Freestyle_Goodbye_Forever.ogg"
+}
+music = {
+	name = "Going_Back_To_My_Roots_(12'Version)"
+	file = "Going_Back_To_My_Roots_(12'Version).ogg"
 }
 music = {
 	name = "Gruppa_Krovi"
@@ -121,6 +129,10 @@ music = {
 music = {
 	name = "Seven_Nation_Army"
 	file = "Seven_Nation_Army.ogg"
+}
+music = {
+	name = "Shotgun"
+	file = "Shotgun.ogg"
 }
 music = {
 	name = "Smash_Mouth_All_Star"
