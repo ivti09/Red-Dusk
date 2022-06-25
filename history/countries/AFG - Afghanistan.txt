@@ -29,5 +29,3 @@ set_popularities = {
 	communism = 10
 	islamism = 75
 }
-
-recruit_character = AFG_mullah_omar

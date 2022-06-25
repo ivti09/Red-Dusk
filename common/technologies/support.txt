@@ -1,0 +1,686 @@
+technologies = {
+
+## Support Tech ##
+
+	tech_support = {
+
+		enable_equipments = {
+			support_equipment_1
+		}
+
+		path = {
+			leads_to_tech = support_tech_engineers_1960
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = support_tech_militarypolice_1960
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = support_tech_recon_1960
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = support_tech_hospital_1960
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = support_tech_maintenance_1960
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = support_tech_logistics_1960
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_engineers_1960 = {
+
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = support_tech_engineers_1980
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 3 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_engineers_1980 = {
+
+		path = {
+			leads_to_tech = support_tech_engineers_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 7 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_engineers_2000 = {
+
+		path = {
+			leads_to_tech = support_tech_engineers_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 13 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_engineers_2020 = {
+
+		research_cost = 3
+		start_year = 2020
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 19 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_militarypolice_1960 = {
+
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = support_tech_militarypolice_1980
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 3 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_militarypolice_1980 = {
+
+		path = {
+			leads_to_tech = support_tech_militarypolice_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 7 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_militarypolice_2000 = {
+
+		path = {
+			leads_to_tech = support_tech_militarypolice_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 13 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_militarypolice_2020 = {
+
+		research_cost = 3
+		start_year = 2020
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 19 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_recon_1960 = {
+
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = support_tech_recon_1980
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+		folder = {
+			name = support_folder
+			position = { x = 4 y = 3 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_recon_1980 = {
+
+		path = {
+			leads_to_tech = support_tech_recon_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+		folder = {
+			name = support_folder
+			position = { x = 4 y = 7 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_recon_2000 = {
+
+		path = {
+			leads_to_tech = support_tech_recon_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+		folder = {
+			name = support_folder
+			position = { x = 4 y = 13 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_recon_2020 = {
+
+		research_cost = 3
+		start_year = 2020
+		folder = {
+			name = support_folder
+			position = { x = 4 y = 19 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_hospital_1960 = {
+
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = support_tech_hospital_1980
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+		folder = {
+			name = support_folder
+			position = { x = 6 y = 3 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_hospital_1980 = {
+
+		path = {
+			leads_to_tech = support_tech_hospital_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+		folder = {
+			name = support_folder
+			position = { x = 6 y = 7 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_hospital_2000 = {
+
+		path = {
+			leads_to_tech = support_tech_hospital_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+		folder = {
+			name = support_folder
+			position = { x = 6 y = 13 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_hospital_2020 = {
+
+		research_cost = 3
+		start_year = 2020
+		folder = {
+			name = support_folder
+			position = { x = 6 y = 19 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_maintenance_1960 = {
+
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = support_tech_maintenance_1980
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+		folder = {
+			name = support_folder
+			position = { x = 8 y = 3 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_maintenance_1980 = {
+
+		path = {
+			leads_to_tech = support_tech_maintenance_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+		folder = {
+			name = support_folder
+			position = { x = 8 y = 7 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_maintenance_2000 = {
+
+		path = {
+			leads_to_tech = support_tech_maintenance_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+		folder = {
+			name = support_folder
+			position = { x = 8 y = 13 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_maintenance_2020 = {
+
+		research_cost = 3
+		start_year = 2020
+		folder = {
+			name = support_folder
+			position = { x = 8 y = 19 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_logistics_1960 = {
+
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = support_tech_logistics_1980
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+		folder = {
+			name = support_folder
+			position = { x = 10 y = 3 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_logistics_1980 = {
+
+		path = {
+			leads_to_tech = support_tech_logistics_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+		folder = {
+			name = support_folder
+			position = { x = 10 y = 7 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_logistics_2000 = {
+
+		path = {
+			leads_to_tech = support_tech_logistics_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+		folder = {
+			name = support_folder
+			position = { x = 10 y = 13 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	support_tech_logistics_2020 = {
+
+		research_cost = 3
+		start_year = 2020
+		folder = {
+			name = support_folder
+			position = { x = 10 y = 19 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+## Motorised Tech ##
+
+	tech_motorised_1960 = {
+
+		enable_equipments = {
+			motorised_equipment_1
+		}
+
+		path = {
+			leads_to_tech = tech_motorised_1980
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	tech_motorised_1980 = {
+
+		enable_equipments = {
+			motorised_equipment_2
+		}
+
+		path = {
+			leads_to_tech = tech_motorised_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1980
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 7 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	tech_motorised_2000 = {
+
+		enable_equipments = {
+			motorised_equipment_3
+		}
+
+		path = {
+			leads_to_tech = tech_motorised_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 2000
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 13 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	tech_motorised_2020 = {
+
+		enable_equipments = {
+			motorised_equipment_4
+		}
+
+		research_cost = 3
+		start_year = 2020
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 19 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+## Train Tech ##
+
+	tech_train_1960 = {
+
+		enable_equipments = {
+			train_equipment_1
+		}
+
+		path = {
+			leads_to_tech = tech_train_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 4
+		start_year = 1960
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+	tech_train_2000 = {
+
+		enable_equipments = {
+			train_equipment_2
+		}
+
+		research_cost = 4
+		start_year = 2000
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 13 }
+		}
+
+		categories = {
+		}
+
+		ai_will_do = {
+		}
+	}
+
+}

@@ -13,6 +13,10 @@ set_research_slots = 3
 
 set_convoys = 5
 
+recruit_character = FIN_martti_ahtisaari
+recruit_character = FIN_tarja_halonen
+recruit_character = FIN_vladimir_boldyrev
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "2000.7.1"
@@ -25,7 +29,3 @@ set_popularities = {
 	communism = 10
 	neutrality = 10
 }
-
-recruit_character = FIN_martti_ahtisaari
-recruit_character = FIN_tarja_halonen
-recruit_character = FIN_vladimir_boldyrev

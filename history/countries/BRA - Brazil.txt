@@ -16,5 +16,3 @@ set_popularities = {
 }
 
 set_convoys = 40
-
-recruit_character = BRA_fernando_henrique

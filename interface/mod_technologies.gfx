@@ -2294,4 +2294,37 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/marines4.dds"
 	}
 
+	## Support Techs ##
+
+	SpriteType = {
+		name = "GFX_tech_support_medium"
+		texturefile = "gfx/interface/technologies/support_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_motorised_1960_medium"
+		texturefile = "gfx/interface/technologies/generic_motorised.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_motorised_1980_medium"
+		texturefile = "gfx/interface/technologies/generic_motorised.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_motorised_2000_medium"
+		texturefile = "gfx/interface/technologies/generic_motorised.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_motorised_2020_medium"
+		texturefile = "gfx/interface/technologies/generic_motorised.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_train_1960_medium"
+		texturefile = "gfx/interface/technologies/generic_train.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_train_2000_medium"
+		texturefile = "gfx/interface/technologies/generic_train.dds"
+	}
+
 }

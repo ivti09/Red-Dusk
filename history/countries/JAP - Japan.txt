@@ -7,6 +7,9 @@ set_research_slots = 4
 
 set_convoys = 400
 
+recruit_character = JAP_keizō_obuchi
+recruit_character = JAP_yoshiro_mori
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
@@ -16,6 +19,3 @@ set_politics = {
 set_popularities = {
 	democratic = 100
 }
-
-recruit_character = JAP_keizō_obuchi
-recruit_character = JAP_yoshiro_mori

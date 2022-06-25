@@ -18,5 +18,3 @@ set_popularities = {
 	fascism = 3
 	communism = 5
 }
-
-recruit_character = LUX_jean_claude
