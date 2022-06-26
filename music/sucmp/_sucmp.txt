@@ -20,6 +20,14 @@ music = {
 	}
 }
 music = {
+	song = "Another_Life_(extended)"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
 	song = "Auferstanden_Aus_Ruinen"
 	chance = {
 		modifier = {
@@ -85,6 +93,14 @@ music = {
 }
 music = {
 	song = "Freestyle_Goodbye_Forever"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Going_Back_To_My_Roots_(12'Version)"
 	chance = {
 		modifier = {
 			factor = 1
@@ -212,6 +228,22 @@ music = {
 }
 music = {
 	song = "Prljavo_Kazaliste_Ne_Zovi_Mama_Doktora"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Sacred_War"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "shotgun"
 	chance = {
 		modifier = {
 			factor = 1
