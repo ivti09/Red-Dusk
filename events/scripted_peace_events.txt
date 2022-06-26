@@ -474,6 +474,651 @@ country_event = {
 	}
 }
 
+#ussr wins over germany#
+country_event = {
+	id = peace.19
+	title = peace.19.t
+	desc = peace.19.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = GER
+		}
+		GER = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.19.a
+		
+		SOV = {
+		white_peace = GER
+		puppet = GER
+		}
+		GER = {
+		set_cosmetic_tag = GER_com_puppet
+		}
+	}
+}
+
+
+#ussr wins over turkey#
+country_event = {
+	id = peace.20
+	title = peace.20.t
+	desc = peace.20.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = TUR
+		}
+		TUR = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.20.a
+		
+		SOV = {
+		white_peace = TUR
+		puppet = TUR
+		transfer_state = 797
+		}
+		TUR = {
+		set_cosmetic_tag = TUR_com_puppet
+		}
+	}
+}
+
+#ussr wins over greece#
+country_event = {
+	id = peace.21
+	title = peace.21.t
+	desc = peace.21.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = GRE
+		}
+		GRE = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.21.a
+		
+		SOV = {
+		white_peace = GRE
+		puppet = GRE
+		}
+		GRE = {
+		set_cosmetic_tag = GRE_com_puppet
+		}
+	}
+}
+
+#ussr wins over yugoslavia#
+country_event = {
+	id = peace.22
+	title = peace.22.t
+	desc = peace.22.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = YUG
+		}
+		YUG = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.22.a
+		
+		SOV = {
+		white_peace = YUG
+		puppet = YUG
+		}
+		YUG = {
+		set_cosmetic_tag = YUG_com_puppet
+		}
+	}
+}
+
+#ussr wins over italy#
+country_event = {
+	id = peace.23
+	title = peace.23.t
+	desc = peace.23.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = ITA
+		}
+		ITA = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.23.a
+		
+		SOV = {
+		white_peace = ITA
+		puppet = ITA
+		}
+		ITA = {
+		set_cosmetic_tag = ITA_com_puppet
+		}
+		YUG = {
+		transfer_state = 835
+		}
+	}
+}
+
+#ussr wins over norway#
+country_event = {
+	id = peace.24
+	title = peace.24.t
+	desc = peace.24.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = NOR
+		}
+		NOR = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.24.a
+		
+		SOV = {
+		white_peace = NOR
+		puppet = NOR
+		}
+		NOR = {
+		set_cosmetic_tag = NOR_com_puppet
+		}
+	}
+}
+
+#ussr wins over denmark#
+country_event = {
+	id = peace.25
+	title = peace.25.t
+	desc = peace.25.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = DEN
+		}
+		DEN = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.25.a
+		
+		SOV = {
+		white_peace = DEN
+		puppet = DEN
+		}
+		DEN = {
+		set_cosmetic_tag = DEN_com_puppet
+		}
+	}
+}
+#ussr wins over france#
+country_event = {
+	id = peace.26
+	title = peace.26.t
+	desc = peace.26.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = FRA
+		}
+		FRA = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.26.a
+		
+		SOV = {
+		white_peace = FRA
+		puppet = FRA
+		}
+		FRA = {
+		set_cosmetic_tag = FRA_com_puppet
+		}
+	}
+}
+
+#ussr wins over netherlands#
+country_event = {
+	id = peace.27
+	title = peace.27.t
+	desc = peace.27.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = HOL
+		}
+		HOL = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.27.a
+		
+		SOV = {
+		white_peace = HOL
+		puppet = HOL
+		}
+		HOL = {
+		set_cosmetic_tag = HOL_com_puppet
+		}
+	}
+}
+
+#ussr wins over belguim#
+country_event = {
+	id = peace.28
+	title = peace.28.t
+	desc = peace.28.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = BEL
+		}
+		BEL = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.28.a
+		
+		SOV = {
+		white_peace = BEL
+		puppet = BEL
+		}
+		BEL = {
+		set_cosmetic_tag = BEL_com_puppet
+		}
+	}
+}
+
+#ussr wins over luxemburg#
+country_event = {
+	id = peace.29
+	title = peace.29.t
+	desc = peace.29.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = LUX
+		}
+		LUX = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.29.a
+		
+		SOV = {
+		white_peace = LUX
+		puppet = LUX
+		}
+		LUX = {
+		set_cosmetic_tag = LUX_com_puppet
+		}
+	}
+}
+
+#ussr wins over spain#
+country_event = {
+	id = peace.30
+	title = peace.30.t
+	desc = peace.30.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = SPR
+		}
+		SPR = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.30.a
+		
+		SOV = {
+		white_peace = SPR
+		puppet = SPR
+		}
+		SPR = {
+		set_cosmetic_tag = SPR_com_puppet
+		}
+	}
+}
+
+#ussr wins over portugal#
+country_event = {
+	id = peace.31
+	title = peace.31.t
+	desc = peace.31.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = POR
+		}
+		POR = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.31.a
+		
+		SOV = {
+		white_peace = POR
+		puppet = POR
+		}
+		POR = {
+		set_cosmetic_tag = POR_com_puppet
+		}
+	}
+}
+
+#ussr wins over united kingdom / england#
+country_event = {
+	id = peace.32
+	title = peace.32.t
+	desc = peace.32.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = ENG
+		}
+		ENG = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.32.a
+		
+		SOV = {
+		white_peace = ENG
+		puppet = ENG
+		}
+		ENG = {
+		set_cosmetic_tag = ENG_com_puppet
+		}
+	}
+}
+
+#ussr wins over ireland#
+country_event = {
+	id = peace.33
+	title = peace.33.t
+	desc = peace.33.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = IRE
+		}
+		IRE = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.33.a
+		
+		SOV = {
+		white_peace = IRE
+		puppet = IRE
+		}
+		IRE = {
+		set_cosmetic_tag = IRE_com_puppet
+		transfer_state = 119
+		}
+	}
+}
+
+#ussr wins over austria#
+country_event = {
+	id = peace.34
+	title = peace.34.t
+	desc = peace.34.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = AUS
+		}
+		AUS = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.34.a
+		
+		SOV = {
+		white_peace = AUS
+		puppet = AUS
+		}
+		AUS = {
+		set_cosmetic_tag = AUS_com_puppet
+		}
+	}
+}
+
+#ussr wins over switzerland#
+country_event = {
+	id = peace.35
+	title = peace.35.t
+	desc = peace.35.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = SWI
+		}
+		SWI = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.35.a
+		
+		SOV = {
+		white_peace = SWI
+		puppet = SWI
+		}
+		SWI = {
+		set_cosmetic_tag = SWI_com_puppet
+		}
+	}
+}
+
+#ussr wins over sweden#
+country_event = {
+	id = peace.36
+	title = peace.36.t
+	desc = peace.36.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = SWE
+		}
+		SWE = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.36.a
+		
+		SOV = {
+		white_peace = SWE
+		puppet = SWE
+		}
+		SWE = {
+		set_cosmetic_tag = SWE_com_puppet
+		}
+	}
+}
+
+#ussr wins over finland#
+country_event = {
+	id = peace.37
+	title = peace.37.t
+	desc = peace.37.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = FIN
+		}
+		FIN = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.37.a
+		
+		SOV = {
+		white_peace = FIN
+		puppet = FIN
+		}
+		FIN = {
+		set_cosmetic_tag = FIN_com_puppet
+		}
+	}
+}
+
+#ussr wins over iceland#
+country_event = {
+	id = peace.38
+	title = peace.38.t
+	desc = peace.38.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SOV = {
+		has_war_with = ICE
+		}
+		ICE = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.38.a
+		
+		SOV = {
+		white_peace = ICE
+		puppet = ICE
+		}
+		ICE = {
+		set_cosmetic_tag = ICE_com_puppet
+		}
+	}
+}
+
 #yugoslavia wins over Croatia#
 country_event = {
 	id = peace.8

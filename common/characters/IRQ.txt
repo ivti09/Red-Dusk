@@ -88,8 +88,7 @@ characters = {
 				large = "gfx/leaders/IRQ/walter_withe1.dds"
 				small = "gfx/leaders/IRQ/walter_withe1_small.dds"
 			}
-		}
-				
+		}				
 		advisor={
 			cost = 75			
 			slot = high_command
@@ -102,7 +101,6 @@ characters = {
 				populer_army_leader
 			}
 		}
-		
 		field_marshal={
 			traits={ }
 			skill=1
@@ -137,8 +135,7 @@ characters = {
 				large = "gfx/leaders/IRQ/Ali_al-Majid.dds"
 				small = "gfx/leaders/IRQ/Ali_al-Majid_small.dds"
 			}
-		}
-		
+		}		
 		advisor={
 			cost = 75			
 			slot = army_chief
@@ -151,7 +148,6 @@ characters = {
 				chemical_ali
 			}
 		}
-		
 		corps_commander={
 			traits={ }
 			skill=1
@@ -170,7 +166,6 @@ characters = {
 				small = "gfx/leaders/IRQ/Sultan_Hashim_small.dds"
 			}
 		}
-		
 		advisor={
 			cost = 75			
 			slot = high_command
@@ -183,7 +178,6 @@ characters = {
 				minister_of_defence
 			}
 		}
-		
 		corps_commander={
 			traits={ }
 			skill=1
@@ -236,7 +230,6 @@ characters = {
 				small = "gfx/leaders/IRQ/Tariq_Aziz1_small.dds"
 			}
 		}
-		
 		advisor={
 			cost = 75			
 			slot = high_command
@@ -249,7 +242,6 @@ characters = {
 				infantry_orianted_commander
 			}
 		}
-		
 		corps_commander={
 			traits={ }
 			skill=1

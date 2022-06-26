@@ -35,6 +35,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/SOV/Yazov_Redux.dds"
+				small = "gfx/leaders/SOV/Yazov_Redux_small.dds"
 			}
 			army = {
 				large = "gfx/leaders/SOV/Yazov_Redux.dds"
@@ -45,6 +46,18 @@ characters = {
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
+		}		
+		advisor={
+			cost = 75			
+			slot = army_chief
+			idea_token = SOV_dmitry_yazov
+			allowed = {
+				original_tag = SOV
+			}
+			
+			traits = {
+				offensive_doctrine
+			}
 		}
 		field_marshal={
 			traits={ }
@@ -176,6 +189,19 @@ characters = {
 		portraits = {
 			army = {
 				large = "gfx/leaders/SOV/Sergey_Shoigu.dds"
+				small = "gfx/leaders/SOV/Sergey_Shoigu_small.dds"
+			}
+		}
+		advisor={
+			cost = 75			
+			slot = army_chief
+			idea_token = SOV_sergey_shoigu
+			allowed = {
+				original_tag = SOV
+			}
+			
+			traits = {
+				defensive_doctrine
 			}
 		}
 		field_marshal={
