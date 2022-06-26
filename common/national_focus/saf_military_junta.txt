@@ -150,9 +150,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = { 
-			army_experience = 10
-			add_war_support = 0.03
-			add_manpower = 400
+			army_experience = 20
+			add_war_support = 0.1
+			add_manpower = 500
 			swap_ideas = {
 			remove_idea = SAF_military_state_idea
 			add_idea = SAF_military_state_2_idea
@@ -219,8 +219,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = { 
-			add_political_power = 20
-			add_stability = 0.03
+			add_political_power = 30
+			add_stability = 0.1
 			swap_ideas = {
 			remove_idea = SAF_military_state_idea
 			add_idea = SAF_military_state_3_idea
@@ -397,8 +397,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = { 
-			add_stability = -0.05
-			add_war_support = 0.07
+			add_stability = 0.05
+			add_war_support = -0.07
                 }
 	}
 	focus = {
@@ -419,8 +419,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = { 
-			add_stability = 0.05
-			add_war_support = -0.07
+			add_stability = -0.05
+			add_war_support = 0.07
                 }
 	}
 	focus = {
@@ -479,16 +479,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = { 
-		ANC = {
-				transfer_state = 719
-				transfer_state = 681
-				transfer_state = 852
-		}
-		    declare_war_on = {
-            type = annex_everything
-            target = ANC
-            }
-		news_event = { id = old_times_news.7 days = 1 }
+			SAF = {
+				country_event = { id = saf.8 }
+			}
+		global_event = { id = old_times_news.7 days = 1 }
                 }
 	}
 	focus = {
@@ -498,7 +492,7 @@ focus_tree = {
 		y = 18
 
 		prerequisite = {focus = SAF_late}
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -508,9 +502,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = { 
-			add_stability = -0.15
+			add_stability = -0.1
 			add_political_power = -50
-			add_war_support = 0.10
+			add_war_support = 0.1
                 }
 	}
 
@@ -640,8 +634,11 @@ focus_tree = {
 		x = 17
 		y = 20
 
+		available = {
+                has_global_flag = ANC_war
+                }
 		prerequisite = {focus = SAF_border}
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -663,7 +660,9 @@ focus_tree = {
 		x = 15
 		y = 21
 
-		prerequisite = {focus = SAF_martial_law focus = SAF_lawyers_guns_money focus = SAF_intervene}
+		prerequisite = {focus = SAF_martial_law}
+		prerequisite = {focus = SAF_lawyers_guns_money}
+		prerequisite = {focus = SAF_intervene}
 		cost = 4
 		ai_will_do = {
 			factor = 1
@@ -673,7 +672,11 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		completion_reward = { }
+		completion_reward = { 
+			army_experience = 25
+			add_political_power = -20
+			add_war_support = 0.1
+                }
 	}
 	focus = {
 		id = SAF_for_sa

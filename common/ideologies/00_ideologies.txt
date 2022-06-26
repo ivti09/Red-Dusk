@@ -80,6 +80,9 @@ ideologies = {
 			
 			anarchist_communism = {
 			}
+
+			juche = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -176,7 +179,11 @@ ideologies = {
 
 	islamism = {
 		types = {
-			islamism_type = {
+			sunni_islamism = {
+			}
+			shiite_islamism = {
+			}
+			wahhabiten_islamism = {
 			}
 		}
 		dynamic_faction_names = {

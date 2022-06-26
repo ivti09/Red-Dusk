@@ -587,6 +587,9 @@
 
  USA_spaa_tank_equipment_0:0 "M163 SPAAG"
  USA_spaa_tank_equipment_0_short:0 "M163"
+# IRQ #
+ IRQ_mbt_tank_equipment_3:0 "Lion of Babylon MBT"
+ IRQ_mbt_tank_equipment_3_short:0 "Lion of Babylon"
 
 ## Infantry Equipment ##
  infantry_weapons:0 "Infantry Weapons"

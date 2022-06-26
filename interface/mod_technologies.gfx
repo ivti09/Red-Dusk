@@ -1796,6 +1796,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/USA_spaa_tank_1960.dds"
 	}
 
+	# IRQ #
+
+	SpriteType = {
+		name = "GFX_IRQ_mbt_tank_1990_medium"
+		texturefile = "gfx/interface/technologies/IRQ_mbt_tank_1990.dds"
+	}
+
 	## Generic Armour Equipment ##
 
 	SpriteType = {

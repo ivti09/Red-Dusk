@@ -103,7 +103,7 @@
  VIN_patriotic_tradition_name_desc:0 "Over thousands of years of struggle to build and defend the country, the nation's patriotic tradition has been constantly fostered and promoted. President Ho Chi Minh affirmed: “Our people have a passionate patriotism, which is our precious tradition. From the past until now, every time the country is invaded, that spirit gets ignited, it forms a huge and powerful wave, it passes through all dangers and difficulties, it engulfs our enemies, both the traitors and the invaders". Over thousands years history of nation building and defense, our nation has built up many precious traditions. The patriotism of each person, each ethnic group is a part of the patriotic tradition of the Vietnamese nation. Patriotism is the most prominent and encompassing tradition that has become the strength and driving force to defeat all invaders."
  
  YUG_demoralized_army_name:0 "Demoralised Army"
- YUG_demoralized_army_name_desc:0 "Yugoslav People's Army has been the main defence force of the SFRY since it's creation at the end of World War 2. However, a lot has changed since our glory days. The Military command became corrupt, our equipment outdated and most of our manpower reduced to a small semi-professional force. Not to mention our loss of equipment and manpower during the 1990s."
+ YUG_demoralized_army_name_desc:0 "Yugoslav People's Army has been the main defence force of the SFRY since it's creation at the end of World War 2. However, a lot has changed since our glory days. The military command became corrupt, our equipment outdated and most of our manpower reduced to a small semi-professional force. Not to mention our loss of equipment and manpower during the 1990s."
  YUG_yugoslav_mode_of_socialism_name:0 "Yugoslav Model of Socialism"
  YUG_yugoslav_mode_of_socialism_name_desc:0 "Ever since the Tito-Stalin split, our nation has been developing it's own version of socialism. Workers self-management, market socialism and taking IMF loans became a standard. However, our "brave" attempt at managing to live economically between east and west has been causing us nothing but trouble for the past 2 decades, from IMF debt to the unstable currency. \n\nWe need to fix our economy as soon as possible or we might as well perish..."
  YUG_broken_brotherhood_name:0 "Broken Brotherhood"
@@ -111,7 +111,7 @@
  YUG_what_are_we_name:0 "What are We?"
  YUG_what_are_we_name_desc:0 "Since Milošević took power, our nation went trough tough transformation and after two decades of his unquestioned rule we are not sure what Yugoslavia has become. Yes, we still bare the name of "Socialist" and have the communist party as a ruling one but nationalism has shown its ugly face even here. \n\nWith the politics being more and more faced in the favour of the Serbian people and Slobodan's ever increasing nationalist policies, we are not sure if our country has anything left from its glorious socialist past."
  YUG_after_tito_name:0 "After Tito"
- YUG_after_tito_name_desc:0 "There is a saying in Yugoslavia talking about how Tito never truly went away, how his spirit is still present in our government and in the minds of the people. In reality however - the sheer shock caused by Tito's death forced our people to make this whole saying up, as to try and cope with the reality that our Marshal war gone.\n\nEven tough Tito is no longer alive, we will not destroy his legacy as it is the only thing keeping this nation together."
+ YUG_after_tito_name_desc:0 "There is a saying in Yugoslavia talking about how Tito never truly went away, how his spirit is still present in our government and in the minds of the people. In reality however - the sheer shock caused by Tito's death forced our people to make this whole saying up, as to try and cope with the reality that our Marshal was gone.\n\nEven tough Tito is no longer alive, we will not destroy his legacy as it is the only thing keeping this nation together."
  YUG_IMF_orianted_economy_name:0 "IMF Orianted Economy"
  YUG_IMF_orianted_economy_name_desc:0 "Yugoslav goverment has decided to contunie the with the model of Market Socialism as it's economic policy, causing it to be oriantal around the IMF."
  YUG_soviet_orianted_economy_name:0 "Soviet Orianted Economy"
@@ -179,3 +179,13 @@
  SAF_cia_idea_name_desc:0 "Even tough United States have refused to support us publicly, their president has authorised CIA to help us in our effort to save our country. Their operatives will provide us with training, weapons and even intel about the enemy."
  SAF_gas_idea_name:0 "The Forbidden Weapons"
  SAF_gas_idea_name_desc:0 "Chemical weapons have proven themselves to be very effective. Even our troops experienced it during the World War 1. Now that our country is in a grave danger from both internal and external enemies, we must use these weapons as our last defence."
+
+
+ ANC_boers_idea_name:0 "Boer Support"
+ ANC_boers_idea_name_desc:0 ""
+ ANC_fanatical_idea_name:0 "Fanatical Resistance"
+ ANC_fanatical_idea_name_desc:0 ""
+ ANC_kgb_idea_name:0 "KGB SUpport"
+ ANC_kgb_idea_name_desc:0 ""
+ ANC_mandela_idea_name:0 "For Mandela"
+ ANC_mandela_idea_name_desc:0 ""

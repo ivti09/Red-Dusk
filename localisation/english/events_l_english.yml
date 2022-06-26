@@ -348,6 +348,10 @@
  saf.7.d:0 "In a late night meeting, general Viljoen discussed the war situation with his general staff.\n\n"And so, as you can see here, the enemy has made some advancements. However 2nd and 4th mechanised platoons are doing everything to stop them." - One of the officers noted while pointing at the military map of South Africa.\n\n"I also believe that the new Afrikaner volunteer battalion would be enough to hold back the enemy on this bridge. That is, if they are provided with mortar support. The Botswanese army may be somewhat good on paper but without numbers they cannot pu-" - Another officer started talking before being cut off by Viljoen.\n\n"Enough! I want to know the real situation. Are we doing good or are we being pushed back. As far as I see, this entire command has different reports and no idea of the real situation." - Viljoen remarked.\n\n"Well sir..." - one of the officers started - "...with what information we have at hand right now, we cannot make a clear report. However it is clear that some sectors are doing far worse than others, and to hold them, we might need something more than just...conventional force."\n\n"Your point being?" - Viljoen asked the officer.\n\n"We request authorisation for usage of chemical weapons that our army has in its stockpile" - The officer stated.\n\nAfter a few seconds that felt more like an eternity to the officers, Viljoen finally answered:"
  saf.7.a:0 "Let them taste hell!"
  saf.7.b:0 "Absolutely not!"
+ saf.8.t:0 "The Time's Up"
+ saf.8.d:0 "Everything we did seems to have been in vain. Out outposts are going dark, radio communication is being cut off and reports of massive riots and ANC attacks are coming in. This is it. The moment we dreaded so much and that we hoped would never come is here.\n\n"The South Africa is in a state of civil war."\n\nThose were the words of Viljoen and the government last night. State of emergency has been issues, military and police are either in the streets or are heading towards the unclear front lines. The first days of this war have been confusing, dramatic and overall unclear. Nobody knew what this was or how to react.\n\nSome feared that if ANC won, they would suffer the consequences of Viljoen's doings while many wished and dreamed of freedom that was now possible to achieve. It was clear that this war will touch everyone one way or another and decisions had to be made. There was no longer neutral or peaceful, now it could be only one:"
+ saf.8.a:0 "For our homes and South Africa!"
+ saf.8.b:0 "For our freedom and future!"
 
  #SAF_HELP#
 
@@ -372,3 +376,14 @@
  saf..t:0 ""
  saf..d:0 ""
  saf..a:0 ""
+
+ ##ANC##
+
+ anc.1.t:0 "African National Congress Requests Military Support"
+ anc.1.d:0 "[PLACEHOLDER]"
+ anc.1.a:0 "We cannot afford to send any right now"
+ anc.1.b:0 "Oblige their request"
+ anc.2.t:0 "The Boer Question"
+ anc.2.d:0 "Besides African natives and population of British origin, South Africa is a home to another group of people - the Boers.\n\nThese men, even tough being colonisers themselves, considering their Dutch origin, have been brave in fighting the South African government over the century. Our politics and opinions on racial issues of South Africa may be different, but one thing unites us - will to fight the British colonisers, or in this case, the South African government.\n\nThis was one of the topics that was talked about on the meeting of ANC's leaders. Many were in favour of seeking Boer support, while others were against it, citing that the Boers themselves were colonisers. Ultimately, the fate of this agreement fell into an unpredictable and quick vote. Will we sacrifice our goal to some extent so that we can secure military support? Or will we stick to it, even tough it will clearly damage our plans of ending this war quickly?\n\nUltimately, the vote was clear:"
+ anc.2.a:0 "Boers are our brothers in struggle!"
+ anc.2.b:0 "Only good coloniser is a dead one!"

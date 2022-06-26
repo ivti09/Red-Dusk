@@ -5,6 +5,13 @@
 set_research_slots = 2
 
 recruit_character = ANC_thabo_mbeki
+recruit_character = ANC_thabo_mbeki_general
+recruit_character = ANC_siphiwe_nyanda
+recruit_character = ANC_solly_shoke
+recruit_character = ANC_lindile_yam
+
+add_ideas = ANC_fanatical_idea
+add_ideas = ANC_mandela_idea
 
 set_politics = {
 	ruling_party = neutrality

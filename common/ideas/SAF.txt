@@ -53,7 +53,7 @@ ideas = {
 			modifier = {
 				war_support_factor = 0.2
 				political_power_gain = -2.0
-				training_time_factor = -0.3
+				training_time_factor = -0.2
 				promote_cost_factor = -0.05
 			}
 		}
@@ -71,9 +71,9 @@ ideas = {
 
 			modifier = {
 				war_support_factor = -0.1
-				political_power_gain = 1.0
-				training_time_factor = 0.2
-				promote_cost_factor = 0.2
+				political_power_gain = 2.0
+				training_time_factor = 0.1
+				promote_cost_factor = 0.05
 			}
 		}
 
@@ -148,8 +148,8 @@ ideas = {
 
 			modifier = {
 				war_support_factor = 0.2
-				army_core_defence_factor = 0.02
-				army_core_attack_factor = 0.02
+				army_core_defence_factor = 0.2
+				army_core_attack_factor = 0.2
 				stability_factor = -0.05
 				political_power_gain = -1.0
 				army_org_factor = 0.01
@@ -170,8 +170,8 @@ ideas = {
 
 			modifier = {
 				war_support_factor = 0.1
-				army_core_defence_factor = 0.03
-				army_core_attack_factor = 0.01
+				army_core_defence_factor = 0.3
+				army_core_attack_factor = 0.1
 				stability_factor = -0.1
 				political_power_gain = -2.0
 				army_org_factor = 0.02

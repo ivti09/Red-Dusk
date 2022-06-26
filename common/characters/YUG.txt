@@ -8,7 +8,52 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = stalinism
+			ideology = market_socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	YUG_joska = {
+		name = "Josip Joška Broz"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/Joska.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	YUG_đinđiću_pederu = {
+		name = "Zoran Đinđić"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/Zoran_Đinđić.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	YUG_ubased = {
+		name = "Bosnian and Albanian Resistance"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/unbased_squad.dds"
+			}
+		}
+		country_leader = {
+			ideology = sunni_islamism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1

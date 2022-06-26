@@ -151,3 +151,44 @@ country_event = {
 		name = saf_help.1.a	
 	}
 }
+
+#Time's Up#
+country_event = {
+	id = saf.8
+	title = saf.8.t
+	desc = saf.8.d
+	picture = GFX_report_event_SAF_mandela
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.8.a
+		ANC = {
+				transfer_state = 719
+				transfer_state = 681
+				transfer_state = 852
+		}
+		    declare_war_on = {
+            type = annex_everything
+            target = ANC
+            }
+		
+	}
+
+	option = {
+		name = saf.8.b	
+		ANC = {
+				transfer_state = 719
+				transfer_state = 681
+				transfer_state = 852
+		}
+                ANC = { change_tag_from = SAF }
+		SAF = {
+		    declare_war_on = {
+            type = annex_everything
+            target = ANC
+            }
+            }
+	}
+}

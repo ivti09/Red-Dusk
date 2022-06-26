@@ -69,25 +69,14 @@ bookmarks = {
 			history = "VIT_NDB_DESC_LOC"
 			ideology = communism
 			ideas = {
-			VIN_patriotic_tradition
-			VIN_fifty_years_resistance
-			VIN_doi_moi
+				VIN_patriotic_tradition
+				VIN_fifty_years_resistance
+				VIN_doi_moi
 			}
 			focuses = {
-			VIN_newmillenniumnewvietnam
-			VIN_9th_party_congress
-			VIN_soviet_brother
-			}	
-		}
-		
-		"PRC"={
-			history = "PRC_NDB_DESC_LOC"
-			ideology = communism
-			ideas = {
-			PRC_legacy_xiaoping_reform
-			}
-			focuses = {
-			
+				VIN_newmillenniumnewvietnam
+				VIN_9th_party_congress
+				VIN_soviet_brother
 			}	
 		}
 

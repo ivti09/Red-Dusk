@@ -1,0 +1,80 @@
+add_namespace = anc
+
+#Boers#
+country_event = {
+	id = anc.2
+	title = anc.2.t
+	desc = anc.2.d
+	picture = GFX_report_event_SAF_zimbabwe
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = anc.2.a
+		add_manpower = 2500
+		add_stability = -0.05
+		add_war_support = 0.05
+                add_ideas = ANC_boers_idea
+	
+	}
+	option = {
+		name = anc.2.b	
+		add_stability = 0.1
+		add_war_support = -0.1
+	}
+}
+
+#Ask Soviets for Help#
+country_event = {
+	id = anc.1
+	title = anc.1.t
+	desc = anc.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = anc.1.a
+	}
+	option = {
+		trigger = {
+			SOV = {
+				has_equipment = { infantry_weapons > 249 }
+				has_equipment = { support_equipment > 99 }
+				has_equipment = { artillery_equipment > 19 }
+				has_equipment = { mbt_tank_equipment > 14 }
+				has_equipment = { fighter_equipment > 9 }
+			}
+		}
+		name = anc.1.b
+
+		SOV = {
+			send_equipment = {
+				equipment = infantry_weapons
+				amount = 250
+				target = IRQ
+			}
+			send_equipment = {
+				equipment = support_equipment
+				amount = 100
+				target = IRQ
+			}
+			send_equipment = {
+				equipment = artillery_equipment
+				amount = 20
+				target = IRQ
+			}
+			send_equipment = {
+				equipment = mbt_tank_equipment
+				amount = 15
+				target = IRQ
+			}
+			send_equipment = {
+				equipment = fighter_equipment
+				amount = 10
+				target = IRQ
+			}
+		}
+	}
+}

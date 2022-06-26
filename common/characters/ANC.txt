@@ -14,5 +14,79 @@ characters = {
 			id = -1
 		}
 	}
+ 
+    ##Generals##
+
+	ANC_thabo_mbeki_general = {
+		name = "Thabo Mbeki"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAF/thabo_mbeki.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	ANC_siphiwe_nyanda = {
+		name = "Siphiwe Nyanda"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ANC/Siphiwe_Nyanda.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	ANC_solly_shoke = {
+		name = "Solly Shoke"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ANC/Solly_Shoke.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	ANC_lindile_yam = {
+		name = "Lindile Yam"
+		portraits = {
+			army = {
+				large = "gfx/leaders/ANC/Lindile_Yam.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 
 }

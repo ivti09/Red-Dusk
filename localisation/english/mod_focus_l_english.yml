@@ -857,3 +857,29 @@
 
  SAF_:0 ""
  SAF__desc:0 ""
+
+
+  ###ANC###
+
+ ANC_spark:0 "The Spark..."
+ ANC_spark_desc:0 ""
+ ANC_flame:0 "...and the Flame"
+ ANC_flame_desc:0 ""
+ ANC_militia:0 "Raise the Militia"
+ ANC_militia_desc:0 ""
+ ANC_boers:0 "Cooperation with the Boers"
+ ANC_boers_desc:0 ""
+ ANC_guns:0 "The Weapons Issue"
+ ANC_guns_desc:0 ""
+ ANC_soviets:0 "Ask for Soviet Help"
+ ANC_soviets_desc:0 ""
+ ANC_size:0 "Size their Land"
+ ANC_size_desc:0 ""
+ ANC_nationalise:0 "Full Nationalisation"
+ ANC_nationalise_desc:0 ""
+ ANC_frends:0 "The African Liberation Front"
+ ANC_frends_desc:0 ""
+ ANC_push:0 "The Final Push"
+ ANC_push_desc:0 ""
+ ANC_end:0 "South Africa, Free Forever"
+ ANC_end_desc:0 ""

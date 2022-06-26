@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = old_times_news
+add_namespace = flavour_news
 
 
 news_event = {
@@ -110,152 +111,6 @@ news_event = {
 	}
 }
 
-## Concorde Trigger (HIDDEN) ##
-news_event = {
-	id = old_times_news.8
-	hidden = yes
-	
-	fire_only_once = yes
-
-	trigger = {
-		date > 2000.7.24
-		country_exists = FRA
-	}
-
-	immediate = {
-		random_list = {
-			72 = { SOV = { news_event = { id = old_times_news.9 } } }
-			28 = { SOV = { news_event = { id = old_times_news.10 } } }
-		}
-	}
-
-	option = {
-		name = old_times_news.8.a
-	}
-}
-
-## Concorde Crash ##
-news_event = {
-	id = old_times_news.9
-	title = old_times_news.9.t
-	desc = old_times_news.9.d
-	picture = GFX_news_concorde_crash
-	
-	is_triggered_only = yes
-
-	major = yes
-
-	option = {
-		name = old_times_news.9.a
-	}
-}
-
-## Concorde Retire ##
-news_event = {
-	id = old_times_news.10
-	title = old_times_news.10.t
-	desc = old_times_news.10.d
-	picture = GFX_news_concorde_retired
-	
-	is_triggered_only = yes
-
-	major = yes
-
-	option = {
-		name = old_times_news.10.a
-	}
-}
-
-## Olympics Trigger (HIDDEN) ##
-news_event = {
-	id = old_times_news.11
-	hidden = yes
-	
-	fire_only_once = yes
-
-	trigger = {
-		date > 2000.10.1
-		country_exists = AST
-	}
-
-	immediate = {
-		random_list = {
-			60 = { SOV = { news_event = { id = old_times_news.12 } } }
-			25 = { SOV = { news_event = { id = old_times_news.13 } } }
-			11 = { SOV = { news_event = { id = old_times_news.14 } } }
-			4 = { SOV = { news_event = { id = old_times_news.15 } } }
-		}
-	}
-
-	option = {
-		name = old_times_news.11.a
-	}
-}
-
-## Olympics Scenario 1 ##
-news_event = {
-	id = old_times_news.12
-	title = old_times_news.12.t
-	desc = old_times_news.12.d
-	picture = GFX_news_2000_olympics
-	
-	is_triggered_only = yes
-
-	major = yes
-
-	option = {
-		name = old_times_news.12.a
-	}
-}
-
-## Olympics Scenario 2 ##
-news_event = {
-	id = old_times_news.13
-	title = old_times_news.13.t
-	desc = old_times_news.13.d
-	picture = GFX_news_2000_olympics
-	
-	is_triggered_only = yes
-
-	major = yes
-
-	option = {
-		name = old_times_news.13.a
-	}
-}
-
-## Olympics Scenario 3 ##
-news_event = {
-	id = old_times_news.14
-	title = old_times_news.14.t
-	desc = old_times_news.14.d
-	picture = GFX_news_2000_olympics
-	
-	is_triggered_only = yes
-
-	major = yes
-
-	option = {
-		name = old_times_news.14.a
-	}
-}
-
-## Olympics Scenario 4 ##
-news_event = {
-	id = old_times_news.15
-	title = old_times_news.15.t
-	desc = old_times_news.15.d
-	picture = GFX_news_2000_olympics
-	
-	is_triggered_only = yes
-
-	major = yes
-
-	option = {
-		name = old_times_news.15.a
-	}
-}
-
 ## Iraq Victory ##
 news_event = {
 	id = old_times_news.16
@@ -284,5 +139,193 @@ news_event = {
 	fire_only_once = yes
 	option ={
 		name = old_times_news.17.a
+	}
+}
+
+
+
+
+
+### FLAVOUR NEWS EVENTS ###
+
+## Concorde Trigger (HIDDEN) ##
+news_event = {
+	id = flavour_news.1
+	hidden = yes
+	
+	fire_only_once = yes
+
+	trigger = {
+		date > 2000.7.24
+		country_exists = FRA
+	}
+
+	immediate = {
+		random_list = {
+			72 = { SOV = { news_event = { id = flavour_news.2 } } }
+			28 = { SOV = { news_event = { id = flavour_news.3 } } }
+		}
+	}
+
+	option = {
+		name = flavour_news.1.a
+	}
+}
+
+## Concorde Crash ##
+news_event = {
+	id = flavour_news.2
+	title = flavour_news.2.t
+	desc = flavour_news.2.d
+	picture = GFX_news_concorde_crash
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = flavour_news.2.a
+	}
+}
+
+## Concorde Retire ##
+news_event = {
+	id = flavour_news.3
+	title = flavour_news.3.t
+	desc = flavour_news.3.d
+	picture = GFX_news_concorde_retired
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = flavour_news.3.a
+	}
+}
+
+## Olympics Trigger (HIDDEN) ##
+news_event = {
+	id = flavour_news.4
+	hidden = yes
+	
+	fire_only_once = yes
+
+	trigger = {
+		date > 2000.10.1
+		country_exists = AST
+	}
+
+	immediate = {
+		random_list = {
+			60 = { SOV = { news_event = { id = flavour_news.5 } } }
+			25 = { SOV = { news_event = { id = flavour_news.6 } } }
+			11 = { SOV = { news_event = { id = flavour_news.7 } } }
+			4 = { SOV = { news_event = { id = flavour_news.8 } } }
+		}
+	}
+
+	option = {
+		name = flavour_news.4.a
+	}
+}
+
+## Olympics Scenario 1 ##
+news_event = {
+	id = flavour_news.5
+	title = flavour_news.5.t
+	desc = flavour_news.5.d
+	picture = GFX_news_2000_olympics
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = flavour_news.5.a
+	}
+}
+
+## Olympics Scenario 2 ##
+news_event = {
+	id = flavour_news.6
+	title = flavour_news.6.t
+	desc = flavour_news.6.d
+	picture = GFX_news_2000_olympics
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = flavour_news.6.a
+	}
+}
+
+## Olympics Scenario 3 ##
+news_event = {
+	id = flavour_news.7
+	title = flavour_news.7.t
+	desc = flavour_news.7.d
+	picture = GFX_news_2000_olympics
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = flavour_news.7.a
+	}
+}
+
+## Olympics Scenario 4 ##
+news_event = {
+	id = flavour_news.8
+	title = flavour_news.8.t
+	desc = flavour_news.8.d
+	picture = GFX_news_2000_olympics
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = flavour_news.8.a
+	}
+}
+
+## Century Leap Year Trigger (HIDDEN) ##
+news_event = {
+	id = flavour_news.9
+	hidden = yes
+	
+	fire_only_once = yes
+
+	trigger = {
+		date > 2000.3.1
+	}
+
+	immediate = {
+		SOV = { news_event = { id = flavour_news.10 } }
+	}
+
+	option = {
+		name = flavour_news.9.a
+	}
+}
+
+## Century Leap Year ##
+news_event = {
+	id = flavour_news.10
+	title = flavour_news.10.t
+	desc = flavour_news.10.d
+	picture = GFX_news_century_leap_year
+	
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = flavour_news.10.a
 	}
 }
