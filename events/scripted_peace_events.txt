@@ -1210,3 +1210,91 @@ country_event = {
 		}
 	}
 }
+
+#yugoslavia wins over bosnia#
+country_event = {
+	id = peace.41
+	title = peace.41.t
+	desc = peace.41.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		YUG = {
+		has_war_with = BOS
+		}
+		BOS = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.41.a
+		
+		YUG = {
+		white_peace = BOS
+		transfer_state = 104
+		transfer_state = 804
+		}
+	}
+}
+
+#yugoslavia wins over kosova#
+country_event = {
+	id = peace.42
+	title = peace.42.t
+	desc = peace.42.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		YUG = {
+		has_war_with = KOS
+		}
+		KOS = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.42.a
+		
+		YUG = {
+		white_peace = KOS
+		transfer_state = 802
+		}
+	}
+}
+
+#yugoslavia wins over macedonia#
+country_event = {
+	id = peace.43
+	title = peace.43.t
+	desc = peace.43.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		YUG = {
+		has_war_with = MAC
+		}
+		MAC = {
+		surrender_progress > 0.99
+		}
+
+	}
+	
+	##k##
+	option = {
+		name = peace.43.a
+		
+		YUG = {
+		white_peace = MAC
+		transfer_state = 106
+		}
+	}
+}

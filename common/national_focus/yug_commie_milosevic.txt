@@ -241,6 +241,7 @@ focus_tree = {
 		completion_reward = {
 		add_political_power = 15
 		unlock_decision_category_tooltip = yug_deal_with_uprisings
+		set_country_flag = yug_anti_terrorist_time
 		set_variable = { bosnia_fight_strength = 85 }
 		set_variable = { albania_fight_strength = 80 }
 		}
@@ -253,8 +254,10 @@ focus_tree = {
 		y = 7
 		
 		available = {
+		OR = {
 		has_country_flag = bos_uprising_started
 		has_country_flag = kos_uprising_started
+		}
 		has_war = no
 		}
 		prerequisite = {focus = YUG_anti_terrorist_actions}

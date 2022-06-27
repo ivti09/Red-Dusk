@@ -1,50 +1,5 @@
 yug_deal_with_uprisings = {
 	
-	yug_reset_the_country_flags = {
-
-		icon = GFX_decision_generic_assassination
-
-		allowed = {
-		}
-		available = {
-		}
-		visible = {
-			has_completed_focus = YUG_anti_terrorist_actions
-		}
-		cost = 0
-		fire_only_once = no
-		ai_will_do = {
-			factor = 0
-		}
-		remove_effect = { 
-			clr_country_flag = yug_focused_on_bosnia
-			clr_country_flag = yug_focused_on_albania
-			clr_country_flag = reset_timer_test
-		}
-	}
-	
-	yug_reset_the_timer = {
-
-		icon = GFX_decision_generic_assassination
-
-		allowed = {
-		}
-		available = {
-		}
-		visible = {
-			has_completed_focus = YUG_anti_terrorist_actions
-		}
-		cost = 0
-		fire_only_once = no
-		ai_will_do = {
-			factor = 0
-		}
-		remove_effect = { 
-			set_country_flag = reset_timer_test
-		}
-	}
-	
-	
 	
 	yug_focus_on_bosnian_rebels = {
 
@@ -58,7 +13,7 @@ yug_deal_with_uprisings = {
 			}
 		}
 		visible = {
-			has_completed_focus = YUG_anti_terrorist_actions
+			has_country_flag = yug_anti_terrorist_time
 			NOT = {
 				has_country_flag = yug_focused_on_bosnia
 				has_country_flag = yug_focused_on_albania
@@ -91,7 +46,7 @@ yug_deal_with_uprisings = {
 			}
 		}
 		visible = {
-			has_completed_focus = YUG_anti_terrorist_actions
+			has_country_flag = yug_anti_terrorist_time
 			NOT = {
 				has_country_flag = yug_focused_on_bosnia
 				has_country_flag = yug_focused_on_albania
@@ -118,19 +73,26 @@ yug_deal_with_uprisings = {
 		}                
 		available = {    
 			has_country_flag = bos_uprising_started
-			NOT = {
-				has_country_flag = reset_timer_test
-			}
 		}
 		activation = {                          
 			has_country_flag = yug_focused_on_bosnia
+			NOT = {
+				has_country_flag = bos_uprising_started
+			}
 		}
+		visible = {
+			NOT = {
+				has_country_flag = bos_uprising_started
+			}
+		}  
+		  
 		  
 		is_good = no
 		selectable_mission = no
 		days_mission_timeout = 45            
 		timeout_effect = {
 			country_event = { id = yug_rebel.1} 
+			set_country_flag = bos_uprising_started
 			BOS = {
 				transfer_state = 104
 				transfer_state = 804
@@ -298,28 +260,37 @@ yug_deal_with_uprisings = {
 	yug_timer_clock_albania = {                          
 		allowed = {
 		}                
-          	available = {    
+          available = {    
 			has_country_flag = kos_uprising_started
-			NOT = {
-				has_country_flag = reset_timer_test
-			}
           	}
+		
 		activation = {                          
 			has_country_flag = yug_focused_on_albania
+			NOT = {
+				has_country_flag = kos_uprising_started
+			}
 		}
+		visible = {
+			NOT = {
+				has_country_flag = kos_uprising_started
+			}
+		}  
+		  
+		
 		  
 		is_good = no
 		selectable_mission = no
 		days_mission_timeout = 45            
 		timeout_effect = {
 			country_event = { id = yug_rebel.1 } 
+			set_country_flag = kos_uprising_started
 			KOS = {
 				transfer_state = 802
 				declare_war_on = {
 					type = annex_everything
 					target = YUG
 				}
-				country_event ={id = alb.1}
+				country_event ={id = kos.1}
 			}
 		}
          	complete_effect = {
@@ -475,6 +446,52 @@ yug_deal_with_uprisings = {
 		}
 	}
 }
+
+##UPRISING TIMER FOR YUGO TO WIN OR LOSE###
+
+yug_uprising = {
+
+	yug_timer_clock_uprising = {                          
+		allowed = {
+		}                
+          available = {    
+			NOT = {country_exists = BOS}
+			NOT = {country_exists = KOS}
+			NOT = {country_exists = MAC}
+          }
+		
+		activation = {                          
+			OR = {
+				has_country_flag = kos_uprising_started
+				has_country_flag = bos_uprising_started
+			}
+		}
+		visible = {
+			NOT = {
+				OR = {
+				has_country_flag = yug_defeated_rebels
+				has_country_flag = yug_defeated
+				}
+			}
+		}
+		  
+		  
+		is_good = no
+		selectable_mission = no
+		days_mission_timeout = 250            
+		timeout_effect = {
+			country_event = { id = yug_rebel.8 } 
+		}
+		
+        complete_effect = {
+			country_event = { id = yug_rebel.7 } 
+        }
+	}
+
+
+
+}
+
 
 yug_rebuilding_our_industry = {
 

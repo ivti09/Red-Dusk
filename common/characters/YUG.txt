@@ -29,7 +29,22 @@ characters = {
 			id = -1
 		}
 	}
-
+	
+	YUG_ratko_mladic = {
+		name = "Ratko Mladić"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/troller_of_srebrenica.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	
 	YUG_đinđiću_pederu = {
 		name = "Zoran Đinđić"
 		portraits = {

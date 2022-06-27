@@ -269,24 +269,25 @@
  yug_rebel.7.d:0 "At last we were able to defeat the seperatists that threatened to divide our country again. The war has been a diaster for our country with many cities being destroyed during our war effort. It's going to take us long to rebuild the country and even longer to rebuild trust between our people..."
  yug_rebel.7.a:0 "Yugoslavia forever..."
  yug_rebel.8.t:0 "End Of Yugoslavia"
- yug_rebel.8.d:0 "At last we were able to defeat the opressor Serbs and their "equel union". After getting driven out of our lands they were forced to sign a ceasefire."
- yug_rebel.8.a:0 "Thus ends the unstable country of the South Slavs"
+ yug_rebel.8.d:0 "We were unable to defeat the seperatists. After getting driven out of our lands we were forced to sign a ceasefire."
+ yug_rebel.8.a:0 "Thus ends the unstable country of the South Slavs..."
 
  #yugoslavia loses events
  yug_rebel.9.t:0 "Military Coup"
  yug_rebel.9.d:0 "After our embarassing defeat we have lost everything. Our union built by Tito has been utterly destroyed because of pesky seperatists. With our government losing any support or relief from the people, military finally intervened to oust Milošević."
  yug_rebel.9.a:0 "Military ousts Milošević successfully"
-
+ yug_rebel.9.b:0 "Democratic Opposition ousts Milošević successfully"
  
  yug_news.1.t:0 "Mass Uprisings Across Yugoslavia"
  yug_news.1.d:0 "Intiresting news have arrived from turbulent country of Yugoslavia. They state that multiple seperatist regions have declared open rebelions aganist central government in Belgrade.\n\nIn respone to this, Belgrade has declared Martial Law across the country and has closed the international borders to block any foreign fighters joining the seperatists. \n\n With another war threatening to destroy Yugoslavia, many speculate it might be the end for the unstable multiethnic country."
- yug_news.1.a:0 "End is nearing for Yugoslavia..."
+ yug_news.1.a:0 "Yugoslavia forever !"
+ yug_news.1.b:0 "End is nearing for Yugoslavia..."
  yug_news.2.t:0 "Seperatists Defeated In Yugoslavia"
  yug_news.2.d:0 "Unexpected news have arrived from turbulent Yugoslavia. The main one coming from the official spokesman of the JNA in Belgrade state that the JNA was able to overrun seperatist regions and have defeated the seperatists armies.\n\nBelgrade has delcared this day as a national holiday to celebrate "Yugoslav Unity". It seems as if the multiethnic country will stay in the Balkans."
  yug_news.2.a:0 "Tito's spirit lives on"
  yug_news.3.t:0 "End Of Yugoslavia"
  yug_news.3.d:0 "New news have arrived from turbulent Yugoslavia. They all state the same thing, Yugoslav Army was unable to defeat the separatist militaries and that Yugoslav leadership was forced to sign a ceasefire.\n\nWith most of Yugoslavia's territories lost, chaos rules in Belgrade with multiple government officals escaping the country to avoid any persucution from a new government.\n\nCurrent status of president Milošević is unknown."
- yug_news.3.a:0 "Thus ends Yugoslavia"
+ yug_news.3.a:0 "Thus ends the unstable country of the South Slavs...""
  
  
  #VIN#

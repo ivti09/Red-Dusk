@@ -102,6 +102,10 @@
  yug_deport_local_albanians:0 "Deport Albanians"
  yug_relocate_assets_from_kosovo:0 "Relocate Industrial Assets from Kosovo"
  
+ yug_uprising:0 "Dealing With Uprisings"
+ yug_uprising_desc:0 "Our great country of Yugoslavia is falling apart around us as the seperatists we thought was dealt with advances further and further...\n\nHomever the war is far from over. If we use reorganize our military force correctly we will be able to defeat the seperatists once again , restoring unity back into its place in Yugoslavia."
+ yug_timer_clock_uprising:0 "§RDevolving Situation§"
+ 
  yug_rebuilding_our_industry:0 "Rebuilding Our Industry"
  yug_rebuilding_our_industry_desc:0 "With most of our industry being destroyed following the mass uprisings in '91, it's understandeble that we have decided to repair and rebuild those factories that had been abondoned long ago." 
  yug_rebuild_military_industry_in_serbia:0 "Rebuild Military Industry in Serbia"

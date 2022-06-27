@@ -66,7 +66,8 @@ country_event = {
 	#Nationalist#
 	option = {
 		name = yug.4.b
-		load_focus_tree = yug_nationalist_milosevic_focus		
+		load_focus_tree = yug_nationalist_milosevic_focus
+		remove_ideas = YUG_what_are_we
 	}
 }
 
@@ -109,6 +110,7 @@ country_event = {
 	option = {
 		name = yug.6.b
 		load_focus_tree = yug_nationalist_milosevic_focus
+		remove_ideas = YUG_what_are_we
 	}
 }
 
@@ -436,6 +438,7 @@ country_event = {
 	news_event = {id = yug_news.1}
 			add_manpower = -3500
 			add_political_power = -50
+			set_country_flag = yug_mass_rebellions
 			CRO = {
 			country_event = {id = cro.1}
 			}
@@ -551,11 +554,9 @@ country_event = {
 	option = {
 	name = yug_rebel.4.a
 	add_stability = -0.05
-		hidden_effect = {
+		hidden_effect ={
 		country_event = {days = 5 id = yug_rebel.5}
-		
 		}
-
 	}
 
 }
@@ -573,7 +574,7 @@ country_event = {
 	option = {
 	name = yug_rebel.5.a
 
-		add_manpower = 50000
+		add_manpower = 15000
 		add_stability = -0.05
 		add_war_support = 0.10
 	}
@@ -608,7 +609,7 @@ country_event = {
 	name = yug_rebel.6.a
 	add_stability = -0.05
 		hidden_effect ={
-		country_event = {days = 5 id = yug_rebel.5}
+		country_event = {days = 5 id = yug_rebel.4}
 		}
 
 	}
@@ -621,22 +622,13 @@ country_event = {
 	title = yug_rebel.7.t
 	desc = yug_rebel.7.d
 	picture = GFX_report_event_YUG_depressed
-	
-	trigger = {
-		AND = {
-			YUG = {
-				has_country_flag = yug_mass_rebellions
-			}
-			NOT = {country_exists = BOS}
-			NOT = {country_exists = KOS}
-			NOT = {country_exists = MAC}
-		}
-	}
+
+	is_triggered_only = yes
 	
 	#hell yeah boi#
 	option = {
 		name = yug_rebel.7.a
-		add_stability = 20
+		add_stability = 0.20
 		news_event = {id = yug_news.2}
 		set_country_flag = yug_defeated_rebels	
 	}
@@ -652,19 +644,19 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	#hell yeah boi#
+	#oops#
 	option = {
 	name = yug_rebel.8.a
-	add_stability = 20
-	news_event = {id = yug_news.2}
+	add_stability = -0.20
+	news_event = {id = yug_news.3}
 	set_country_flag = yug_defeated
-		
+	country_event = {id = yug_rebel.9}	
 	}
 
 }
 
 
-#yugoslavia loses military coup happens#
+#yugoslavia loses military / democratic coup happens#
 country_event = {
 	id = yug_rebel.9
 	title = yug_rebel.9.t
@@ -673,28 +665,68 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	#hell yeah boi#
+	#military trolls milosevic#
 	option = {
 	name = yug_rebel.9.a
-	add_political_power = -300
-	add_stability = -0.30
-	remove_ideas = YUG_nationalism_supressed
+		YUG = {
+		add_political_power = -300
+		add_stability = -0.30
+		remove_ideas = YUG_nationalism_supressed
+		remove_ideas = YUG_nationalist_rebirth
 			set_politics = {
 				ruling_party = fascism
 				last_election = "1991.5.3"
 				election_frequency = 36
 				elections_allowed = no
 			}
+			add_country_leader_role = {
+			  character = YUG_ratko_mladic
+			  promote_leader = yes
+			  country_leader = {
+				ideology = fascism_ideology
+				expire = “2050.1.1.1”
+				traits = { }
+			  }
+			}
 			
 			set_popularities = {
 				democratic = 10
 				fascism = 70
 				communism = 20
+				islamism = 0 
+				reformed_communism = 0
+				
 			}
-		
-		
+			load_focus_tree = generic_focus
+		}
 	}
-
+	
+	#cringe democrats trolls milosevic#
+	option = {
+	name = yug_rebel.9.b
+		YUG = {
+		add_political_power = -300
+		add_stability = -0.30
+		remove_ideas = YUG_nationalism_supressed
+		remove_ideas = YUG_nationalist_rebirth
+				set_politics = {
+					ruling_party = democratic
+					last_election = "1991.5.3"
+					election_frequency = 36
+					elections_allowed = yes
+				}
+				
+				set_popularities = {
+					democratic = 49
+					fascism = 25
+					islamism = 5
+					reformed_communism = 31
+					communism = 0
+				}
+			load_focus_tree = generic_focus
+			
+		}
+	}
 }
 
 #mass uprisings in yugoslavia news event#
@@ -733,19 +765,10 @@ news_event = {
 	
 	is_triggered_only = yes
 	
-	#YUGOSLAVIA FOREVER#
-	option = {
-	name = yug_news.2.a
-		trigger = {
-			tag = yug
-		}
-		
-	}
-	
 	#zamn#
 	option = {
-	name = yug_news.2.b
-		
+	name = yug_news.2.a
+
 	}
 	
 

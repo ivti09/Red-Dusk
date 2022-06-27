@@ -7,8 +7,10 @@ yug_deal_with_uprisings = {
 	
 	visible = {
 		NOT = {
-		has_country_flag = bos_uprising_started
-		has_country_flag = kos_uprising_started
+			OR = {
+			has_country_flag = bos_uprising_started
+			has_country_flag = kos_uprising_started
+			}
 		}
 	}
 	priority = 200
@@ -22,9 +24,12 @@ yug_uprising = {
 	}
 	
 	visible = {
-		has_country_flag = bos_uprising_started
-		has_country_flag = kos_uprising_started
-
+		has_country_flag = yug_mass_rebellions
+		AND = {
+		country_exists = BOS
+		country_exists = KOS
+		country_exists = MAC
+		}
 	}
 	priority = 250
 }
