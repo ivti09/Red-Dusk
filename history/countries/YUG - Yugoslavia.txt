@@ -14,6 +14,7 @@ recruit_character = YUG_slobodan_milošević
 recruit_character = YUG_joska
 recruit_character = YUG_ubased
 recruit_character = YUG_đinđiću_pederu
+recruit_character = YUG_ratko_mladic
 
 set_politics = {
 	ruling_party = reformed_communism

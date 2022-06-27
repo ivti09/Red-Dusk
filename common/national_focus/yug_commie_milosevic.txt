@@ -679,6 +679,23 @@ focus_tree = {
 		remove_idea = YUG_new_tactics_for_a_new_age_2
 		add_idea = YUG_new_tactics_for_a_new_age_3
 		}
+			add_equipment_to_stockpile = {
+			type = mbt_tank_equipment_3
+			amount = 25
+			producer = SOV
+			}
+			
+			add_equipment_to_stockpile = {
+			type = #add the motorotized equipment when done#
+			amount = 40
+			producer = USA
+			}
+			
+			add_equipment_to_stockpile = {
+			type = fighter_equipment_3
+			amount = 15
+			producer = PRC
+			}
 		}
 	}
 	

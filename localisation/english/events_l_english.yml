@@ -274,9 +274,9 @@
 
  #yugoslavia loses events
  yug_rebel.9.t:0 "Military Coup"
- yug_rebel.9.d:0 "After our embarassing defeat we have lost everything. Our union built by Tito has been utterly destroyed because of pesky seperatists. With our government losing any support or relief from the people, military finally intervened to oust Milošević."
- yug_rebel.9.a:0 "Military ousts Milošević successfully"
- yug_rebel.9.b:0 "Democratic Opposition ousts Milošević successfully"
+ yug_rebel.9.d:0 "After our embarassing defeat we have lost everything. Our union built by Tito has been utterly destroyed because of pesky seperatists. With our government losing any support or relief from the people, military finally intervened to oust [YUG.GetLeader].\nHomever the democratic opposition recently gained a lot of power from the political chaos and they could easily exploit this situation for their own gain."
+ yug_rebel.9.a:0 "Military ousts [YUG.GetLeader] successfully"
+ yug_rebel.9.b:0 "Democratic Opposition ousts [YUG.GetLeader] successfully"
  
  yug_news.1.t:0 "Mass Uprisings Across Yugoslavia"
  yug_news.1.d:0 "Intiresting news have arrived from turbulent country of Yugoslavia. They state that multiple seperatist regions have declared open rebelions aganist central government in Belgrade.\n\nIn respone to this, Belgrade has declared Martial Law across the country and has closed the international borders to block any foreign fighters joining the seperatists. \n\n With another war threatening to destroy Yugoslavia, many speculate it might be the end for the unstable multiethnic country."
@@ -285,10 +285,17 @@
  yug_news.2.t:0 "Seperatists Defeated In Yugoslavia"
  yug_news.2.d:0 "Unexpected news have arrived from turbulent Yugoslavia. The main one coming from the official spokesman of the JNA in Belgrade state that the JNA was able to overrun seperatist regions and have defeated the seperatists armies.\n\nBelgrade has delcared this day as a national holiday to celebrate "Yugoslav Unity". It seems as if the multiethnic country will stay in the Balkans."
  yug_news.2.a:0 "Tito's spirit lives on"
+
  yug_news.3.t:0 "End Of Yugoslavia"
  yug_news.3.d:0 "New news have arrived from turbulent Yugoslavia. They all state the same thing, Yugoslav Army was unable to defeat the separatist militaries and that Yugoslav leadership was forced to sign a ceasefire.\n\nWith most of Yugoslavia's territories lost, chaos rules in Belgrade with multiple government officals escaping the country to avoid any persucution from a new government.\n\nCurrent status of president Milošević is unknown."
- yug_news.3.a:0 "Thus ends the unstable country of the South Slavs...""
+ yug_news.3.a:0 "Thus ends the unstable country of the South Slavs..."
  
+ yug_news.4.t:0 "[YUG.GetLeader] Ousted By Military In Belgrade"
+ yug_news.4.d:0 "New news have arrived from now collapsed Yugoslavia.After the political chaos cuased by the recent defeat [YUG.GetLeader] has been ousted by the remmants of the military.\n\n While some anti-militarists tried to topple the new military government it quickly failed without proper arms.\n\nNow the new military junta headed by nationalist [YUG.GetFascismLeader] has already started mass military programs to regain serb majority lands"
+ yug_news.4.a:0 "Another War On the Horizon ?"
+ yug_news.5.t:0 "Democratic Revolution in Belgrade"
+ yug_news.5.d:0 "New news have arrived from now collapsed Yugoslavia.After the political chaos cuased by the recent defeat unsatisified military junta leaders under [YUG.GetFascismLeader] tried to depose [YUG.GetLeader].\n\nHomever without any popular support the coup failed and belgrade regime got toppled by democratic opposition headed by [YUG.GetDemocraticLeader]."
+ yug_news.5.a:0 "Yugoslavia's Democratic Experiment Starts."
  
  #VIN#
  vin_intro.1.t:0 "Socialist Republic of Vietnam"

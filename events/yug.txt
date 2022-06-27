@@ -650,7 +650,15 @@ country_event = {
 	add_stability = -0.20
 	news_event = {id = yug_news.3}
 	set_country_flag = yug_defeated
-	country_event = {id = yug_rebel.9}	
+	YUG = {
+	white_peace = BOS
+	white_peace = KOS
+	white_peace = MAC
+	}
+	803 = {
+	set_demilitarized_zone = yes
+	}
+	country_event = {days = 3 id = yug_rebel.9}	
 	}
 
 }
@@ -668,6 +676,10 @@ country_event = {
 	#military trolls milosevic#
 	option = {
 	name = yug_rebel.9.a
+		ai_chance = { 
+		base = 50
+		}
+		news_event = yug_news.4
 		YUG = {
 		add_political_power = -300
 		add_stability = -0.30
@@ -704,6 +716,10 @@ country_event = {
 	#cringe democrats trolls milosevic#
 	option = {
 	name = yug_rebel.9.b
+		ai_chance = { 
+		base = 35
+		}
+		news_event = yug_news.5
 		YUG = {
 		add_political_power = -300
 		add_stability = -0.30
@@ -718,9 +734,9 @@ country_event = {
 				
 				set_popularities = {
 					democratic = 49
-					fascism = 25
+					fascism = 16
 					islamism = 5
-					reformed_communism = 31
+					reformed_communism = 30	
 					communism = 0
 				}
 			load_focus_tree = generic_focus
@@ -783,20 +799,47 @@ news_event = {
 	
 	is_triggered_only = yes
 	
-	#cheese#
+	#rip#
 	option = {
 	name = yug_news.3.a
-		trigger = {
-			tag = yug
-		}
-		
-	}
-	
-	#zamn#
-	option = {
-	name = yug_news.3.b
-		
-	}
-	
 
+		
+	}
+	
+}
+
+#yugoslav rebellions rebels win milosevic ousted by military news event#
+news_event = {
+	id = yug_news.4
+	title = yug_news.4.t
+	desc = yug_news.4.d
+	picture = GFX_nothing
+	
+	is_triggered_only = yes
+	
+	#troll moment#
+	option = {
+	name = yug_news.4.a
+
+		
+	}
+	
+}
+
+#yugoslav rebellions rebels win milosevic ousted by cring democrats news event#
+news_event = {
+	id = yug_news.5
+	title = yug_news.5.t
+	desc = yug_news.5.d
+	picture = GFX_nothing
+	
+	is_triggered_only = yes
+	
+	#bruh moment#
+	option = {
+	name = yug_news.5.a
+
+		
+	}
+	
 }
