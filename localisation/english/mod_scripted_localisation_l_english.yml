@@ -94,7 +94,9 @@
  this_might_end_bad_bozo:0 "§YThis operation might end §W§ §Rvery bad\n\n§W§"
  spet_decision_unlock:0 "Has Allowed Conducting Of Spetsnaz Operations"
  crackdown_lithuenia:0 "Has started anti-seperatist operations in Lithuenia"
- finished_crackdown_lithuenia:0 " "
+ finished_crackdown_lithuenia:0 "§YHas finished anti-seperatist operations in Lithuenia§W§\n\n"
+ finished_crackdown_chechenya:0 "§YHas finished anti-seperatist operations in Chechenya§W§\n\n"
+ finished_crackdown_ukraine:0 "§YHas finished anti-seperatist operations in Ukraine§W§\n\n"
  
  decrase_var_stab_5:0 "§RDecrases §CStability §W§ §RBy 5 Percent\n\n§W§"
  decrase_var_stab_10:0 "§RDecrases §CStability §W§ §RBy 10 Percent\n\n§W§"

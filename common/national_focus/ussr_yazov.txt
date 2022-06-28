@@ -351,6 +351,11 @@
 		prerequisite = {focus = SOV_yazov_crackdown_chechenya}
 		prerequisite = {focus = SOV_yazov_reassure_ukraine} 
 		prerequisite = {focus = SOV_yazov_crackdown_lithuenia}
+		available = {
+		has_country_flag = finished_crackdown_lithuenia
+		has_country_flag = finished_crackdown_chechenya
+		has_country_flag = finished_crackdown_ukraine
+		}
 		mutually_exclusive = { }
 		
 		cost = 4.3
@@ -996,7 +1001,11 @@
 		y = 9
 
 		prerequisite = {focus = SOV_yazov_an_offer_they_cannot_refuse}
-
+		available = {
+			YUG = {
+			is_in_faction_with = SOV
+			}
+		}
 		mutually_exclusive = {focus = SOV_yazov_balkan_peoples_rev}
 		
 		cost = 5.8
@@ -1025,7 +1034,11 @@
 		y = 9
 
 		prerequisite = {focus = SOV_yazov_an_offer_they_cannot_refuse}
-		
+		available = {
+			YUG = {
+			is_in_faction_with = SOV
+			}
+		}
 		mutually_exclusive = {focus = SOV_yazov_invasion_of_balkans}
 		
 		
@@ -1212,7 +1225,6 @@
 		y = 15
 
 		prerequisite = {focus = SOV_yazov_our_shining_union}
-		mutually_exclusive = {focus = SOV_yazov_old_enemies} 
 						
 		cost = 6.5
 		ai_will_do = {
@@ -1418,7 +1430,6 @@
 
 		prerequisite = {focus = SOV_yazov_our_shining_union}
 		available = {has_completed_focus = SOV_yazov_red_dragons_demise}
-		mutually_exclusive = {focus = SOV_yazov_project_red_dusk}
 		
 		cost = 2.9
 		ai_will_do = {

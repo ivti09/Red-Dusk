@@ -635,6 +635,7 @@ country_event = {
 		name = ussr_rebel.1.a
 		add_stability = -0.30
 		add_political_power = -150
+		clr_country_flag = crackdown_lithuenia
 		set_country_flag = finished_crackdown_lithuenia
 		LIT = {
 				transfer_state = 784
@@ -664,9 +665,10 @@ country_event = {
 		##yay##
 	option = {
 		name = ussr_rebel.2.a
-		add_stability = 1
+		add_stability = 0.01
 		add_political_power = 10
 		set_country_flag = finished_crackdown_lithuenia
+		clr_country_flag = crackdown_lithuenia
 		
 	}
 
@@ -684,9 +686,10 @@ country_event = {
 		##k bruh##
 	option = {
 		name = ussr_rebel_cin.1.a
-		add_stability = -10
+		add_stability = -0.10
 		add_political_power = -50
-		set_country_flag = finished_crackdown_chechenya		
+		set_country_flag = finished_crackdown_chechenya	
+		clr_country_flag = crackdown_chechenya		
 		CIN = {
 				transfer_state = 821
 		}
@@ -712,7 +715,8 @@ country_event = {
 	option = {
 		name = ussr_rebel_cin.2.a
 		set_country_flag = finished_crackdown_chechenya	
-		add_stability = 1
+		clr_country_flag = crackdown_chechenya	
+		add_stability = 0.01
 		add_political_power = 10
 		
 		
@@ -732,9 +736,10 @@ country_event = {
 		##shi-##
 	option = {
 		name = ussr_rebel_ukr.1.a
-		add_stability = -20
+		add_stability = -0.20
 		add_political_power = -150
 		set_country_flag = finished_crackdown_ukraine			
+		clr_country_flag = crackdown_ukraine	
 		UKR = {
 				transfer_state = 89
 				transfer_state = 73
@@ -772,7 +777,8 @@ country_event = {
 	option = {
 		name = ussr_rebel_ukr.2.a
 		set_country_flag = finished_crackdown_ukraine		
-		add_stability = 1
+		clr_country_flag = crackdown_ukraine	
+		add_stability = 0.01
 		add_political_power = 10
 		
 		
@@ -792,7 +798,7 @@ country_event = {
 		##pog##
 	option = {
 		name = ussr_rebel.2.a
-		add_stability = 1
+		add_stability = 0.01
 		add_political_power = 15
 		add_to_variable = { lit_resistance = -5 }
 		custom_effect_tooltip = decrase_var_res_5
@@ -814,7 +820,7 @@ country_event = {
 		##oops##
 	option = {
 		name = ussr_rebel.4.a
-		add_stability = -1
+		add_stability = -0.01
 		add_political_power = -15
 		add_to_variable = { lit_stab_level = -5 }
 		custom_effect_tooltip = decrase_var_stab_5
