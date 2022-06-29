@@ -2,6 +2,9 @@ add_namespace = ussr
 add_namespace = ussr_rebel
 add_namespace = ussr_hidden
 add_namespace = ussr_intro
+
+add_namespace = ussr_foreign_policy
+
 add_namespace = ussr_rebel_cin
 add_namespace = ussr_rebel_ukr
 
@@ -175,14 +178,24 @@ country_event = {
 		retire_country_leader = yes
 		promote_character = SOV_dmitry_yazov
 		load_focus_tree = ussr_yazov_focus
-		global_event = { id = old_times_news.3 days = 1 }
+		news_event = { id = old_times_news.3 days = 1 }
+		hidden_effect = {
+			every_other_country = {
+			news_event = { id = old_times_news.3 days = 1 }
+			}
+		}
 	}
 		#Pugo#
 		option = {
 		name = ussr.6.b
 		retire_country_leader = yes
 		promote_character = SOV_boris_pugo
-		global_event = { id = old_times_news.4 days = 1 }
+		news_event = { id = old_times_news.4 days = 1 }
+		hidden_effect = {
+			every_other_country = {
+			news_event = { id = old_times_news.4 days = 1 }
+			}
+		}
 	}
 		#no one lol#
 		option = { 
@@ -212,7 +225,13 @@ country_event = {
 		name = ussr.7.a
 		retire_country_leader = yes
 		promote_character = SOV_vladimir_putin
-		global_event = { id = old_times_news.6 days = 1 }
+		load_focus_tree = ussr_putin_focus
+		news_event = { id = old_times_news.6 days = 1 }
+		hidden_effect = {
+			every_other_country = {
+			news_event = { id = old_times_news.6 days = 1 }
+			}
+		}
 	}
 		#gorbachev and pizza hut fans#
 		option = {
@@ -220,7 +239,13 @@ country_event = {
 		retire_country_leader = yes
 		promote_character = SOV_mikhail_gorbachev
 		load_focus_tree = ussr_gorby_focus
-		global_event = { id = old_times_news.5 days = 1 }
+		news_event = { id = old_times_news.5 days = 1 }
+		hidden_effect = {
+			every_other_country = {
+			news_event = { id = old_times_news.5 days = 1 }
+			}
+		}
+		}
 	}
 }
 
@@ -900,6 +925,46 @@ country_event = {
 
 
 
+##FOREIGN POLICY / PLUS PLANNING EVENTS FOR POSTWAR BORDER PROBEBLY####
+
+#reunify czechoslovakia?#
+country_event = {
+	id = ussr_foreign_policy.1
+	title = ussr_foreign_policy.1.t
+	desc = ussr_foreign_policy.1.d
+	picture = GFX_report_resistance
+	
+	trigger = {
+	original_tag = SOV
+	CZE = {is_puppet_of = SOV}
+	SLO = {is_puppet_of = SOV}
+	}
+	
+		##yes##
+	option = {
+		name = ussr_foreign_policy.1.a
+		ai_chance = {
+		base = 100
+		}
+		CZE = {
+		set_cosmetic_tag = CZE_united_with_SLO
+			annex_country = {
+				target = SLO
+				transfer_troops = yes
+			}
+		}
+	}
+	
+	option = {
+		name = ussr_foreign_policy.1.b
+		ai_chance = {
+		base = 0
+		}
+		
+	}
+
+}
+	
 
 #EVENTS FOR VARIABLES FOR REBEL DECISIONS#
 

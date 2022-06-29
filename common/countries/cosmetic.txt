@@ -18,6 +18,10 @@ CZE_com_puppet = {
 	color = rgb { 193 73 73 }
 	color_ui = rgb { 193 73 73 }
 }
+CZE_united_with_SLO = {
+	color = rgb { 193 73 73 }
+	color_ui = rgb { 193 73 73 }
+}
 FIN_com_puppet = {
 	color = rgb { 66 8 0 }
 	color_ui = rgb { 66 8 0 }

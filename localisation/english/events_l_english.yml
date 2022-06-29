@@ -149,6 +149,11 @@
  ussr_rebel_cin.2.d:0 "After intense fighting in the chechen mountains we were able to restore order in the whole chechen region and defeat the islamist rebels"
  ussr_rebel_cin.2.a:0 "Glory to the USSR!"
  
+ ussr_foreign_policy.1.t:0 "Re-Establishing Czechoslovakia ?"
+ ussr_foreign_policy.1.d:0 "After taking control again in Czechia and Slovakia a proposal of Reunifying the both countries into Czechoslovakia has came up.\n\nWhat should we do ?"
+ ussr_foreign_policy.1.a:0 "Re-Establish Czechoslovakia"
+ ussr_foreign_policy.1.b:0 "Its fine as it is right now"
+ 
  #USA# i used \n\n to make paragraphs -durango#
  
  usa.1.t:0 "The State of the Union"
@@ -294,7 +299,7 @@
  yug_news.4.d:0 "New news have arrived from now collapsed Yugoslavia.After the political chaos cuased by the recent defeat [YUG.GetLeader] has been ousted by the remmants of the military.\n\n While some anti-militarists tried to topple the new military government it quickly failed without proper arms.\n\nNow the new military junta headed by nationalist [YUG.GetFascismLeader] has already started mass military programs to regain serb majority lands"
  yug_news.4.a:0 "Another War On the Horizon ?"
  yug_news.5.t:0 "Democratic Revolution in Belgrade"
- yug_news.5.d:0 "New news have arrived from now collapsed Yugoslavia.After the political chaos cuased by the recent defeat unsatisified military junta leaders under [YUG.GetFascismLeader] tried to depose [YUG.GetLeader].\n\nHomever without any popular support the coup failed and belgrade regime got toppled by democratic opposition headed by [YUG.GetDemocraticLeader]."
+ yug_news.5.d:0 "New news have arrived from now collapsed Yugoslavia.After the political chaos cuased by the recent defeat unsatisified military junta leaders under [YUG.GetFascismLeader] tried to depose [YUG.GetLeader].\n\nHomever in a turn of events without any popular support the coup failed and belgrade regime got toppled by democratic opposition headed by [YUG.GetDemocraticLeader]."
  yug_news.5.a:0 "Yugoslavia's Democratic Experiment Starts."
  
  #VIN#

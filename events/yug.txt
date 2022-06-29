@@ -683,6 +683,7 @@ country_event = {
 		YUG = {
 		add_political_power = -300
 		add_stability = -0.30
+		news_event = {id = yug_news.4}
 		remove_ideas = YUG_nationalism_supressed
 		remove_ideas = YUG_nationalist_rebirth
 			set_politics = {
@@ -723,6 +724,7 @@ country_event = {
 		YUG = {
 		add_political_power = -300
 		add_stability = -0.30
+		news_event = {id = yug_news.5}
 		remove_ideas = YUG_nationalism_supressed
 		remove_ideas = YUG_nationalist_rebirth
 				set_politics = {
