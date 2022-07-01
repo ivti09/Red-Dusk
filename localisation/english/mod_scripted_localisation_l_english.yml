@@ -145,3 +145,8 @@
  USA_loc_key_ruling_party_conservative_reform:0 "§YRepublican Party\nReform Party§!"
  USA_loc_key_ruling_party_democratic_reform:0 "§YDemocratic Party\nReform Party§!"
  USA_loc_key_ruling_party_all:0 "§YRepublican Party\nDemocratic Party\nReform Party§!"
+ 
+ ## SOUTH AFRICA ##
+ 
+ SAF_decrases_the_figthing_strength_of_rebels_by_5:0 "§GDecrases The Fighting Strength Of The Rebels by 5 percent§W§\n\n"
+ 

@@ -301,6 +301,7 @@ country_event = {
 	
 	option = {
 		name = saf.8.a
+		set_global_flag = anc_uprising_begun
 		ANC = {
 				transfer_state = 719
 				transfer_state = 681
@@ -315,6 +316,7 @@ country_event = {
 
 	option = {
 		name = saf.8.b	
+		set_global_flag = anc_uprising_begun
 		ANC = {
 				transfer_state = 719
 				transfer_state = 681

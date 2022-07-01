@@ -1298,3 +1298,85 @@ country_event = {
 		}
 	}
 }
+
+#South Africa wins over anc#
+country_event = {
+	id = peace.44
+	title = peace.44.t
+	desc = peace.44.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SAF = {
+		has_war_with = ANC
+		}
+		ANC = {
+		surrender_progress = > 0.99
+		}
+	}
+
+	##k##
+	option = {
+		name = peace.19.a
+		SAF = {
+		white_peace = ANC
+		transfer_state = 850
+		transfer_state = 681
+		transfer_state = 719
+		}
+	}
+
+#South Africa wins over zimbabwe#
+country_event = {
+	id = peace.45
+	title = peace.45.t
+	desc = peace.45.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SAF = {
+		has_war_with = ZIM
+		}
+		ZIM = {
+		surrender_progress = > 0.99
+		}
+	}
+
+	##k##
+	option = {
+		name = peace.45.a
+		SAF = {
+		white_peace = ZIM
+		transfer_state = 545
+		}
+	}
+
+
+#South Africa wins over mozambique #
+country_event = {
+	id = peace.46
+	title = peace.46.t
+	desc = peace.46.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SAF = {
+		has_war_with = MZB
+		}
+		MZB = {
+		surrender_progress = > 0.99
+		}
+	}
+
+	##k##
+	option = {
+		name = peace.46.a
+		SAF = {
+		white_peace = MZB
+		transfer_state = 850
+		}
+	}
+}

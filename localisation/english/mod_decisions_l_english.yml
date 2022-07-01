@@ -88,7 +88,7 @@
  
  ##YUGOSLAVIA##
  yug_deal_with_uprisings:0 "Dealing with Terrorism"
- yug_deal_with_uprisings_desc:0 "Internal seperatism and terrosim is destroying our nation. Now that we have dealt with other issues we are going to deal with this one too. However, because of our limited resources we can only focus and concentrate on one of the regions. \n\n§L>Figthing Strength Of The Rebels In Bosnia Is §R[?bosnia_fight_strength]§W§  §Lpercent§W§.\n\n§W§\n\n§L>Figthing Strength Of The Rebels In Kosovo Is §R[?albania_fight_strength]§  §Lpercent.§W§"
+ yug_deal_with_uprisings_desc:0 "Internal seperatism and terrosim is destroying our nation. Now that we have dealt with other issues we are going to deal with this one too. However, because of our limited resources we can only focus and concentrate on one of the regions. \n\n§L>Figthing Strength Of The Rebels In Bosnia Is §R[?bosnia_fight_strength]§W§  §Lpercent§W§.\n\n§W§\n\n§L>Figthing Strength Of The Rebels In Kosovo Is §R[?albania_fight_strength]§W§\n\n"
  yug_focus_on_bosnian_rebels:0 "Focus On Bosnian Rebels"
  yug_focus_on_albanian_rebels:0 "Focus On Kosovo Rebels"
  yug_timer_clock_bosnia:0 "Incoming Uprising"
@@ -133,3 +133,9 @@
  USA_congress_government_type_header:0 "§YCurrent Government§!"
  USA_congress_government_type:0 "President\n§Y[USA.GetLeader]§!\n\nGovernment Type\n[USA_government_type]\n\nRuling Parties\n[USA_government_ruling_party]"
  USA_congress_party_attitudes_descriptions:0 "§CLoyal§! parties will offer their full support to pass any legislation, however you will have to keep their interests in mind too.\n\n§GFriendly§! parties are receptive to supporting your ideas, however you shouldn't rely on them to push through unpopular legislation.\n\n§gNeutral§! parties are neither for nor against you. Unless you're voting on a topic they feel strongly about, they can safely be ignored.\n\n§YUnfriendly§! parties are unlikely to support you, unless the proposed legislation is universally popular.\n\n§RHostile§! parties will never support you. Some radical members might even resort to violence against you and your allies."
+ 
+ ##SOUTH AFRICA###
+
+ saf_deal_with_insurgents:0 "Dealing With the Insurgents"
+ saf_deal_with_insurgents_desc:0 "Estimated anc fighting strength is [?anc_fight_strength]"
+ 

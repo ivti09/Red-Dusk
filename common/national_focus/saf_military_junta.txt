@@ -2,6 +2,12 @@ focus_tree = {
 	id = saf_military_junta_focus
 	country = {
 		factor = 0
+		
+		modifier = {
+		tag = SAF
+		add = 121
+		
+		}
 	 }
 
 	default = no
@@ -263,7 +269,10 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		completion_reward = { }
+		completion_reward = {
+		unlock_decision_category_tooltip = saf_deal_with_insurgents 
+		set_country_flag = saf_started_to_deal_with_insurgents
+		}
 	}
 	focus = {
 		id = SAF_satf

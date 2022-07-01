@@ -1,0 +1,33 @@
+saf_deal_with_insurgents = {
+
+	saf_contunie_forced_removels = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+			NOT = {
+				has_global_flag = anc_uprising_begun
+			}
+		}
+		visible = {
+			has_country_flag = saf_started_to_deal_with_insurgents
+		}
+		modifier {
+		weekly_manpower = -500
+		}
+		cost = 50
+		days_remove = 30
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			custom_effect_tooltip = SAF_decrases_the_figthing_strength_of_rebels_by_5
+			add_to_variable = {anc_fight_strength = -5}
+
+		}
+	}
+
+}
