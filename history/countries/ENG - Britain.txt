@@ -8,6 +8,9 @@ set_convoys = 800
 
 recruit_character = ENG_tony_blair
 
+add_ideas = ENG_queen
+add_ideas = ENG_commonwelth
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.11.14"

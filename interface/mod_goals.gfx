@@ -611,6 +611,30 @@ spriteTypes = {
 		name = "GFX_focus_IRQ_new_fact"
 		texturefile = "gfx/interface/goals/focus_IRQ_new_fact.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_old_wounds"
+		texturefile = "gfx/interface/goals/focus_IRQ_old_wounds.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_army_ready2"
+		texturefile = "gfx/interface/goals/focus_IRQ_army_at_ready.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_old_plan_ready"
+		texturefile = "gfx/interface/goals/focus_IRQ_plan.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_great_iraq"
+		texturefile = "gfx/interface/goals/focus_IRQ_greater_iraq.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_revenge"
+		texturefile = "gfx/interface/goals/focus_IRQ_revenge.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_saddam_win"
+		texturefile = "gfx/interface/goals/focus_IRQ_saddam_fortnite_win.png"
+	}
    ###SAF###
 
 	SpriteType = {

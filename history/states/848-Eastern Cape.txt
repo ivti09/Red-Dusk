@@ -20,6 +20,7 @@ state={
 		}
 		add_core_of = SAF
 		add_core_of = ANC
+		add_core_of = SNF
 
 	}
 

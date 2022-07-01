@@ -351,16 +351,15 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-		
 			declare_war_on = {
-            type = annex_everything
-            target = CRO
-            }
-			
-            declare_war_on = {
-            type = annex_everything
-            target = SLV
-            }
+				type = annex_everything
+				target = CRO
+			}
+			declare_war_on = {
+				type = annex_everything
+				target = SLV
+			}
+			global_event = { id = old_times_news.18 days = 1 }
 		}
 	}
 	

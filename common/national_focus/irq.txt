@@ -876,7 +876,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_old_wounds
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_old_wounds
 		x = 15
 		y = 16
 
@@ -904,7 +904,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_ready1
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_army_ready2 
 		x = 13
 		y = 17
 
@@ -933,7 +933,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_soviet_support
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_moscow 
 		x = 17
 		y = 17
 
@@ -979,7 +979,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_the_plan
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_old_plan_ready
 		x = 15
 		y = 18
 
@@ -1010,7 +1010,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_88
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_revenge 
 		x = 15
 		y = 19
 
@@ -1040,7 +1040,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_saddam_epic_win
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_saddam_win
 		x = 15
 		y = 20
 
@@ -1073,7 +1073,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_greater_iraq
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_great_iraq 
 		x = 15
 		y = 21
 

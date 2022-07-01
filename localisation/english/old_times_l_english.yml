@@ -24,8 +24,14 @@
  #old_times_news.16.d:0 ""
  #old_times_news.16.a:0 ""
  old_times_news.17.t:0 "Chemical weapons used in South Africa"
- old_times_news.17.d:0 "rip bozo skill issue lmfao nerd emoji"
+ old_times_news.17.d:0 "Chemical weapons haven't seen much usage in the modern world since the Vietnam war. Many have expected that with the improvement of the UN and Geneva Convention these weapons wouldn't see the light of day anymore. For the past few days, the have been proven wrong.\n\nMany reports from war corespondents, UN observers and reports from the field have stated that the South African army has deployed their chemical weapons in response to the worsening situation on the front line. Many soldiers of the ANC and civilians have suffered the wrath of these weapons, with the estimated death toll reaching several hundreds if not thousands.\n\nAs a result South Africa has come under even stronger sanctions from the USSR, PRC and the global south. Meanwhile USA and other NATO members have requested a more intense investigation of the situation."
  old_times_news.17.a:0 "Where is the UN?"
+ old_times_news.18.t:0 "Conflict in Yugoslavia"
+ old_times_news.18.d:0 ""As of today, Socialist Federal Republic of Yugoslavia is in a state war with breakaway states of Croatia and Slovenia."\n\nThese were the words of president of SFR Yugoslavia, Slobodan Milošević when he appeared on national television earlier today. As of now, many reports of Yugoslav People's Army movements into Croatia have been coming in. Croatian government in Zagreb has announced that the enemy forces crossed the border and have already entered a few border towns and smaller cities, while the major ones such as Vukovar, Dubrovnik and many more are still in Croatian hands and are suffering intense bombardment.\n\nMeanwhile in the UN, many nations are divided on what to do and who to support while the emergency session of the UN security council has been scheduled for tomorrow. Many expect the conflict to become prolonged and brutal."
+ old_times_news.18.a:0 "Old wounds, reopened once more"
+ old_times_news.19.t:0 "Formation of "African Liberation Front""
+ old_times_news.19.d:0 "It seems that South Africa cannot catch a break. The tensions that were rising between South Africa and it's neighbouring countries over the issue of apartheid have culminated into an open conflict today as these countries joined ANC's "African Liberation Front" and declared war on the South Africa.\n\nMany military experts claim that South African military situation is in dire state but that there is still a slim chance of them turning the war around into their favour. As for now these predictions seem like nothing more than a fantasy as the troops of Zimbabwe, Botswana and Mozambique cross the border to aid their allies in the ANC.\n\nSouth Africa's de-facto leader Constand Viljoen has declared that South Africa will fight to the last man and bullet. Meanwhile there has been no official statement from the leaders of the newly formed "African Liberation Front"."
+ old_times_news.19.a:0 "The war continues..."
 
 ## Flavour News Events ##
  #flavour_news.1.t:0 ##HIDDEN SCRIPTED EVENT##

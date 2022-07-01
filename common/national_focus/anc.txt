@@ -29,8 +29,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 50
-			add_stability = 0.15
+			ANC = {
+				country_event = { id = anc.4 }
+			}
 		}
 	}
 
@@ -53,8 +54,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			add_political_power = 25
-			add_war_support = 0.05
+			ANC = {
+				country_event = { id = anc.5 }
+			}
 		}
 	}
 
@@ -187,6 +189,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			ANC = {
+				country_event = { id = anc.3 }
+			}
 		}
 	}
 
@@ -271,6 +276,7 @@ focus_tree = {
             }
             }
 			set_global_flag = ANC_war
+		news_event = { id = old_times_news.19 days = 1 }
 		}
 	}
 
@@ -293,6 +299,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			swap_ideas = {
+			remove_idea = ANC_fanatical_idea
+			add_idea = ANC_fanatical_2_idea
+                        }
 		}
 	}
 

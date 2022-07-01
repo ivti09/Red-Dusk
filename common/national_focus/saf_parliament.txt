@@ -24,7 +24,10 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		completion_reward = { }
+		completion_reward = { 
+			add_political_power = 25
+			add_stability = 0.05
+                }
 	}
 	focus = {
 		id = SAF_solifify_our_powers
@@ -44,7 +47,10 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		
-		completion_reward = { }
+		completion_reward = { 
+			add_political_power = -20
+			add_stability = 0.02
+                }
 	}
 	focus = {
 		id = SAF_decrease_military_influence
@@ -63,7 +69,11 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		completion_reward = { }
+		completion_reward = { 
+			add_political_power = -20
+			add_stability = 0.02
+			add_war_support = -0.05
+                }
 	}
 	focus = {
 		id = SAF_initial_democracy
@@ -882,7 +892,11 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		completion_reward = { }
+		completion_reward = { 
+			SAF = {
+				country_event = { id = saf.10 }
+			}
+                }
 	}
 	focus = {
 		id = SAF_give_in_to_preassure

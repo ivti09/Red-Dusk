@@ -25,7 +25,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = x
+			picture = ANC_kgb_icon
 
 			allowed = {
 				always = no
@@ -65,7 +65,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = x
+			picture = ANC_fanatics_icon
 
 			allowed = {
 				always = no
@@ -77,6 +77,26 @@ ideas = {
 				political_power_gain = -1.0
 				production_factory_efficiency_gain_factor = -0.05
 				army_org_factor = -0.15
+			}
+		}
+
+		ANC_fanatical_2_idea = {
+			name = ANC_fanatical_idea_name
+
+			removal_cost = -1
+
+			picture = ANC_fanatics_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.03
+				army_core_attack_factor = 0.2
+				political_power_gain = -1.5
+				production_factory_efficiency_gain_factor = -0.06
+				army_org_factor = -0.1
 			}
 		}
 

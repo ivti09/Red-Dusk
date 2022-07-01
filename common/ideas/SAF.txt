@@ -94,6 +94,23 @@ ideas = {
 			}
 		}
 
+		SAF_anc_insurgency_2_idea = {
+			name = SAF_anc_insurgency_idea_name
+
+			removal_cost = -1
+
+			picture = SAF_anc_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.03
+				resistance_growth = 0.03
+			}
+		}
+
 		SAF_cia_idea = {
 			name = SAF_cia_idea_name
 

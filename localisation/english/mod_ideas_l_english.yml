@@ -187,7 +187,12 @@
  ANC_boers_idea_name_desc:0 ""
  ANC_fanatical_idea_name:0 "Fanatical Resistance"
  ANC_fanatical_idea_name_desc:0 ""
- ANC_kgb_idea_name:0 "KGB SUpport"
+ ANC_kgb_idea_name:0 "KGB Support"
  ANC_kgb_idea_name_desc:0 ""
  ANC_mandela_idea_name:0 "For Mandela"
  ANC_mandela_idea_name_desc:0 ""
+
+ ENG_queen_idea_name:0 "Queen Elizabeth II"
+ ENG_queen_idea_name_desc:0 ""
+ ENG_commonwelth_idea_name:0 "The Commonwealth"
+ ENG_commonwelth_idea_name_desc:0 ""

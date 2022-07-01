@@ -20,6 +20,25 @@ country_event = {
 	}
 }
 
+#Insurgents#
+country_event = {
+	id = saf.9
+	title = saf.9.t
+	desc = saf.9.d
+	picture = GFX_report_event_SAF_mandela
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.9.a
+		add_political_power = -10
+		add_stability = -0.02
+		add_manpower = -50
+		
+	}
+}
+
 #Onwards#
 country_event = {
 	id = saf.4
@@ -122,7 +141,7 @@ country_event = {
 	id = saf.7
 	title = saf.7.t
 	desc = saf.7.d
-	picture = GFX_report_event_SAF_zimbabwe
+	picture = GFX_report_event_SAF_gas
 	
 	is_triggered_only = yes
 	
@@ -134,6 +153,124 @@ country_event = {
 	}
 	option = {
 		name = saf.7.b	
+	}
+}
+
+#End#
+country_event = {
+	id = saf.10
+	title = saf.10.t
+	desc = saf.10.d
+	picture = GFX_report_event_SAF_mandela
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.10.a
+		ANC = {
+				transfer_state = 719
+				transfer_state = 852
+		}
+		BFS = {
+				transfer_state = 275
+		}
+		FCD = {
+				transfer_state = 681
+		}
+		SNF = {
+				transfer_state = 849
+				transfer_state = 848
+		}
+		    declare_war_on = {
+            type = annex_everything
+            target = ANC
+            }
+		    declare_war_on = {
+            type = annex_everything
+            target = BFS
+            }
+		    declare_war_on = {
+            type = annex_everything
+            target = FCD
+            }
+		    declare_war_on = {
+            type = annex_everything
+            target = SNF
+            }
+		BFS = {
+		    declare_war_on = {
+            type = annex_everything
+            target = FCD
+            }
+            }
+		BFS = {
+		    declare_war_on = {
+            type = annex_everything
+            target = SNF
+            }
+            }
+		BFS = {
+		    declare_war_on = {
+            type = annex_everything
+            target = ANC
+            }
+            }
+		ANC = {
+		    declare_war_on = {
+            type = annex_everything
+            target = BFS
+            }
+            }
+		ANC = {
+		    declare_war_on = {
+            type = annex_everything
+            target = SNF
+            }
+            }
+		ANC = {
+		    declare_war_on = {
+            type = annex_everything
+            target = FCD
+            }
+            }
+		FCD = {
+		    declare_war_on = {
+            type = annex_everything
+            target = ANC
+            }
+            }
+		FCD = {
+		    declare_war_on = {
+            type = annex_everything
+            target = SNF
+            }
+            }
+		FCD = {
+		    declare_war_on = {
+            type = annex_everything
+            target = BFS
+            }
+            }
+		SNF = {
+		    declare_war_on = {
+            type = annex_everything
+            target = BFS
+            }
+            }
+		SNF = {
+		    declare_war_on = {
+            type = annex_everything
+            target = ANC
+            }
+            }
+		SNF = {
+		    declare_war_on = {
+            type = annex_everything
+            target = FCD
+            }
+            }
+		
 	}
 }
 

@@ -1,5 +1,41 @@
 add_namespace = anc
 
+#spark#
+country_event = {
+	id = anc.4
+	title = anc.4.t
+	desc = anc.4.d
+	picture = GFX_report_event_ANC_spark
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = anc.4.a	
+		add_political_power = 50
+		add_stability = 0.07
+	}
+}
+
+#fire#
+country_event = {
+	id = anc.5
+	title = anc.5.t
+	desc = anc.5.d
+	picture = GFX_report_event_ANC_fire
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = anc.5.a	
+		add_political_power = 25
+		add_war_support = 0.05
+	}
+}
+
+
+
 #Boers#
 country_event = {
 	id = anc.2
@@ -22,6 +58,40 @@ country_event = {
 		name = anc.2.b	
 		add_stability = 0.1
 		add_war_support = -0.1
+	}
+}
+
+#Land#
+country_event = {
+	id = anc.3
+	title = anc.3.t
+	desc = anc.3.d
+	picture = GFX_report_event_SAF_zimbabwe
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = anc.3.a
+		add_manpower = -500
+		add_stability = -0.15
+		add_war_support = 0.1
+		852 = {
+                		add_extra_state_shared_building_slots = 2
+
+                		add_building_construction = {
+                    		type = industrial_complex
+                    		level = 2
+                    		instant_build = yes
+                		}
+           		 }
+	
+	}
+	option = {
+		name = anc.3.b	
+		add_stability = 0.2
+		add_war_support = -0.05
+		add_manpower = 1500
 	}
 }
 

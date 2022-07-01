@@ -319,7 +319,10 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		completion_reward = { }
+		completion_reward = { 
+			add_stability = 0.05
+			add_manpower = 300
+                }
 	}
 	focus = {
 		id = SAF_air
@@ -356,7 +359,9 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		completion_reward = { }
+		completion_reward = { 
+			air_experience = 15
+                }
 	}
 	focus = {
 		id = SAF_locate
@@ -459,6 +464,10 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = { 
 			add_stability = 0.10
+			swap_ideas = {
+				remove_ideas = SAF_anc_insurgency_idea
+				add_ideas = SAF_anc_insurgency_2_idea
+			}
                 }
 	}
 	focus = {
@@ -482,7 +491,7 @@ focus_tree = {
 			SAF = {
 				country_event = { id = saf.8 }
 			}
-		global_event = { id = old_times_news.7 days = 1 }
+		news_event = { id = old_times_news.7 days = 1 }
                 }
 	}
 	focus = {
@@ -505,6 +514,7 @@ focus_tree = {
 			add_stability = -0.1
 			add_political_power = -50
 			add_war_support = 0.1
+			remove_ideas = SAF_anc_insurgency_2_idea
                 }
 	}
 

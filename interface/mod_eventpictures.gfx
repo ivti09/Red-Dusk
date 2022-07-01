@@ -110,6 +110,18 @@ spriteTypes = {
 		name = "GFX_report_event_YUG_SKJ_meeting"
 		texturefile = "gfx/event_pictures/report_event_skj_meeting.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_YUG_economy"
+		texturefile = "gfx/event_pictures/report_event_yugo_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_YUG_assasination"
+		texturefile = "gfx/event_pictures/report_event_honour_marshal.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_YUG_hes_alive"
+		texturefile = "gfx/event_pictures/report_event_slobodans_broadcast.dds"
+	}
 
 	# IRQ #
 
@@ -165,6 +177,18 @@ spriteTypes = {
 		name = "GFX_report_event_SAF_martial_law"
 		texturefile = "gfx/event_pictures/report_event_martial_law.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_SAF_gas"
+		texturefile = "gfx/event_pictures/report_event_desperate_mesurse.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ANC_fire"
+		texturefile = "gfx/event_pictures/report_event_fire.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ANC_spark"
+		texturefile = "gfx/event_pictures/report_event_spark.dds"
+	}
 
 	## WORLD NEWS ##
 
@@ -215,5 +239,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_century_leap_year"
 		texturefile = "gfx/event_pictures/news_century_leap_year.dds"
+	}
+	spriteType = {
+		name = "GFX_news_alf"
+		texturefile = "gfx/event_pictures/news_alf.dds"
+	}
+	spriteType = {
+		name = "GFX_news_yugo_wars"
+		texturefile = "gfx/event_pictures/news_yugo_wars.dds"
 	}
 }

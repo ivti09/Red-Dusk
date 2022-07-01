@@ -4,6 +4,18 @@ GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
+FCD = {
+	color = rgb { 224 122 71 }
+	color_ui = rgb { 224 122 71 }
+}
+SNF = {
+	color = rgb { 193 94 94 }
+	color_ui = rgb { 193 94 94 }
+}
+BFS = {
+	color = rgb { 117 76 78 }
+	color_ui = rgb { 117 76 78 }
+}
 ANC = {
 	color = rgb { 36  95  92 }
 	color_ui = rgb { 36  95  92 }
@@ -229,8 +241,8 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 195 107 160 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
 }
 SAU = {
 	color = rgb { 171 190 152 }
