@@ -288,6 +288,7 @@ focus_tree = {
 		}
 
 		bypass = {
+		has_country_flag = saf_end_of_operations_reached
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -307,6 +308,7 @@ focus_tree = {
 		}
 
 		bypass = {
+		has_country_flag = saf_end_of_operations_reached
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -325,13 +327,16 @@ focus_tree = {
 		}
 
 		bypass = {
+		has_country_flag = saf_end_of_operations_reached
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = { 
+		custom_effect_tooltip = SAF_decrases_the_figthing_strength_of_rebels_by_5
+		add_to_variable = {anc_fight_strength = -5}
 			add_stability = 0.05
 			add_manpower = 300
-                }
+        }
 	}
 	focus = {
 		id = SAF_air
@@ -346,6 +351,7 @@ focus_tree = {
 		}
 
 		bypass = {
+		has_country_flag = saf_end_of_operations_reached
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -365,12 +371,15 @@ focus_tree = {
 		}
 
 		bypass = {
+		has_country_flag = saf_end_of_operations_reached
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = { 
+		custom_effect_tooltip = SAF_decrases_the_figthing_strength_of_rebels_by_10
+		add_to_variable = {anc_fight_strength = -10}
 			air_experience = 15
-                }
+		}
 	}
 	focus = {
 		id = SAF_locate
@@ -379,12 +388,13 @@ focus_tree = {
 		y = 13
 
 		prerequisite = {focus = SAF_nis}
-		cost = 2
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
 
 		bypass = {
+		has_country_flag = saf_end_of_operations_reached
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -407,13 +417,16 @@ focus_tree = {
 		}
 
 		bypass = {
+		has_country_flag = saf_end_of_operations_reached
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = { 
 			add_stability = 0.05
 			add_war_support = -0.07
-                }
+			custom_effect_tooltip = SAF_decrases_the_figthing_strength_of_rebels_by_10
+			add_to_variable = {anc_fight_strength = -10}
+        }
 	}
 	focus = {
 		id = SAF_mercs
@@ -423,19 +436,22 @@ focus_tree = {
 
 		prerequisite = {focus = SAF_locate}
 		mutually_exclusive = {focus = SAF_afrikaners}
-		cost = 4
+		cost = 3
 		ai_will_do = {
 			factor = 1
 		}
 
 		bypass = {
+		has_country_flag = saf_end_of_operations_reached
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = { 
+		custom_effect_tooltip = SAF_decrases_the_figthing_strength_of_rebels_by_5
+		add_to_variable = {anc_fight_strength = -5}
 			add_stability = -0.05
 			add_war_support = 0.07
-                }
+        }
 	}
 	focus = {
 		id = SAF_supplies
@@ -450,10 +466,14 @@ focus_tree = {
 		}
 
 		bypass = {
+		has_country_flag = saf_end_of_operations_reached
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		completion_reward = { }
+		completion_reward = {
+		custom_effect_tooltip = SAF_decrases_the_figthing_strength_of_rebels_by_5
+		add_to_variable = {anc_fight_strength = -5}
+		}
 	}
 	focus = {
 		id = SAF_raids
@@ -468,16 +488,19 @@ focus_tree = {
 		}
 
 		bypass = {
+		has_country_flag = saf_end_of_operations_reached
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = { 
 			add_stability = 0.10
+			custom_effect_tooltip = SAF_decrases_the_figthing_strength_of_rebels_by_15
+			add_to_variable = {anc_fight_strength = -15}
 			swap_ideas = {
-				remove_ideas = SAF_anc_insurgency_idea
-				add_ideas = SAF_anc_insurgency_2_idea
+				remove_idea = SAF_anc_insurgency_idea
+				add_idea = SAF_anc_insurgency_2_idea
 			}
-                }
+        }
 	}
 	focus = {
 		id = SAF_late
@@ -497,11 +520,18 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = { 
+			custom_effect_tooltip = SAF_breaking_point_cool_tooltip
 			SAF = {
 				country_event = { id = saf.8 }
 			}
-		news_event = { id = old_times_news.7 days = 1 }
-                }
+
+			hidden_effect = {
+			news_event = { id = old_times_news.7 days = 1 }
+				every_other_country = {
+					news_event = { id = old_times_news.7 days = 1 }
+				}
+			}
+        }
 	}
 	focus = {
 		id = SAF_civil_war
@@ -510,6 +540,9 @@ focus_tree = {
 		y = 18
 
 		prerequisite = {focus = SAF_late}
+		
+		allow_branch = {has_completed_focus = SAF_late}
+		
 		cost = 1
 		ai_will_do = {
 			factor = 1
@@ -524,7 +557,7 @@ focus_tree = {
 			add_political_power = -50
 			add_war_support = 0.1
 			remove_ideas = SAF_anc_insurgency_2_idea
-                }
+            }
 	}
 
 	focus = {

@@ -10,6 +10,8 @@ focus_tree = {
 		}
 	}
 	
+	continuous_focus_position = { x = 2500 y = 2500 }
+	
 	default = no
 	focus = {
 		id = IRQ_new_era

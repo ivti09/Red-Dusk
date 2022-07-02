@@ -18,6 +18,8 @@ add_ideas = SAF_apartheid_idea
 add_ideas = SAF_military_state_idea
 add_ideas = SAF_anc_insurgency_idea
 
+set_variable = {anc_fight_strength = 90}
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1994.5.17"

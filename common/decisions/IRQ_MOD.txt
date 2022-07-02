@@ -109,10 +109,6 @@ irq_fix_army = {
 			factor = 0
 		}
 		remove_effect = { 
-			swap_ideas = {
-				add_idea = IRQ_western_embargo_2
-				remove_idea = IRQ_western_embargo
-			}
 			set_country_flag = irq_army_fix_3
 			swap_ideas = {
 				add_idea = IRQ_disorganized_army_4
@@ -204,6 +200,12 @@ irq_deal_with_kurds = {
 	
 	irq_kur_resistance_increase = {
 		activation = {
+			has_country_flag = focused_on_kurds_rn
+			NOT = {
+			has_country_flag = fixed_kurd
+			}
+		}
+		visible = {
 			has_country_flag = focused_on_kurds_rn
 			NOT = {
 			has_country_flag = fixed_kurd

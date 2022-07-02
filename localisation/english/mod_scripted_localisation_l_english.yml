@@ -58,6 +58,8 @@
  IRQ_kurds_done:0 "§YHas dealt with the Kurdish rebels§W§\n"
  IRQ_army_done:0 "§YHas dealt with our army problems§W§\n"
  
+ IRQ_kurd_resistance_bar_is_100:0 "§YProgress Aganist the Kurdish Resistance is 100§W§\n\n"
+ 
  #YUGOSLAVIA#
  
  YUG_open_new_factories_flag:0 "§YHas Choosen to open new factories\n\n§W§"
@@ -149,4 +151,10 @@
  ## SOUTH AFRICA ##
  
  SAF_decrases_the_figthing_strength_of_rebels_by_5:0 "§GDecrases The Fighting Strength Of The Rebels by 5 percent§W§\n\n"
- 
+ SAF_decrases_the_figthing_strength_of_rebels_by_10:0 "§GDecrases The Fighting Strength Of The Rebels by 10 percent§W§\n\n"
+ SAF_decrases_the_figthing_strength_of_rebels_by_15:0 "§GDecrases The Fighting Strength Of The Rebels by 15 percent§W§\n\n"
+   
+ SAF_insurgent_mechanic_explanation:0 "§OIf the estimated figthing strength of ANC is lower than 25 percent if an uprising happens their forces will start out disorganized§W§\n\n"
+ saf_started_to_deal_with_insurgents:0 "§OStarted Operations Aganist the Insurgents§W§\n\n"
+ saf_end_of_operations_reached:0 "§OThe Deadline For The Operations Have Been Reached§W§\n\n"
+ SAF_breaking_point_cool_tooltip:0 "§RSouth Africa Is Nearing Its Breaking Point§W§\n\n"

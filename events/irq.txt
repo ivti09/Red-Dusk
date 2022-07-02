@@ -71,6 +71,7 @@ country_event = {
 	option = {
 		name = irq.5.a
 		add_stability = 0.15
+		set_country_flag = IRQ_kurds_done
 	}
 }
 #Ask Soviets for Help#

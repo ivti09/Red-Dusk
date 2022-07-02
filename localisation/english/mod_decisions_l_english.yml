@@ -137,5 +137,10 @@
  ##SOUTH AFRICA###
 
  saf_deal_with_insurgents:0 "Dealing With the Insurgents"
- saf_deal_with_insurgents_desc:0 "Estimated anc fighting strength is [?anc_fight_strength]"
+ saf_deal_with_insurgents_desc:0 "At last we turned the government focus back to dealing with the radical §RANC insurgents§W§ .These §Rinsurgents§W§  have caused deaths of multiple civilians,army officials and many more politicians in our government.But now by using multiple strategies we have learned over the years we are finally going to put an end to this organization and §Gsecure our country once and for all.§W§ \n\n§REstimated ANC fighting strength is [?anc_fight_strength]§W§\n\n"
+ saf_timer_clock_end_of_operations:0 "End of Operations..."
+ saf_continue_forced_removels:0 "Continue Forced Removals"
+ saf_deploy_the_police_force:0 "Deploy the Police Force"
+ saf_deploy_the_army:0 "Deploy the Army"
+ 
  
