@@ -83,6 +83,9 @@ ideologies = {
 
 			juche = {
 			}
+			
+			revolutionary_socialism = {
+			}
 		}
 		
 		dynamic_faction_names = {

@@ -1,0 +1,34 @@
+characters = {
+
+	PHI_Joseph_Estrada = {
+		name = "Joseph Estrada"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PHI/Joseph_Estrada.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	
+	PHI_Gloria_Macapagal_Arroyo = {
+		name = "Gloria Macapagal Arroyo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PHI/Gloria_Macapagal_Arroyo.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	
+
+}

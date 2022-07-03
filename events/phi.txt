@@ -1,0 +1,19 @@
+add_namespace = phi
+
+# estrada resigns (least corrupt philipins president) #
+country_event = {
+	id = phi.1
+	title = phi.1.t
+	desc = phi.1.d
+	picture = GFX_nothing
+	
+	trigger = {
+	date > 2001.01.19
+	}
+	
+	option = {
+		name = phi.1.a
+		retire_country_leader = yes
+		promote_character = PHI_Gloria_Macapagal_Arroyo
+	}
+}

@@ -1,0 +1,18 @@
+characters = {
+
+	SRL_Chandrika_Kumaratunga = {
+		name = "Chandrika Kumaratunga"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SRL/Chandrika_Kumaratunga.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}
