@@ -841,34 +841,99 @@ ideas = {
 
 		}
 		
-		SOV_gorby_prep_their_fate_idea = {
+		SOV_autonomy_concessions = {
 		
-			name = SOV_gorby_prep_their_fate_idea_name
+			name = SOV_autonomy_concessions_name
 
 			removal_cost = -1
 
-			picture =  GFX_idea_SOV_Soviet_Army_icon
+			picture =  SOV_rising_separatism_icon
 
 			allowed = {
 				always = no
 			}
 				
-			targeted_modifier = {
-				tag = AZR
-				attack_bonus_against = 0.1
+			modifier = {
+			consumer_goods_factor = 0.02
+			political_power_cost = 0.1
+			}	
+
+		}
+		
+		SOV_autonomy_concessions_2 = {
+		
+			name = SOV_autonomy_concessions_name
+
+			removal_cost = -1
+
+			picture =  SOV_rising_separatism_icon
+
+			allowed = {
+				always = no
 			}
-			targeted_modifier = {
-				tag = ARM
-				attack_bonus_against = 0.1
+				
+			modifier = {
+			consumer_goods_factor = 0.03
+			political_power_cost = 0.2
+			}	
+
+		}
+		
+		SOV_autonomy_concessions_3 = {
+		
+			name = SOV_autonomy_concessions_name
+
+			removal_cost = -1
+
+			picture =  SOV_rising_separatism_icon
+
+			allowed = {
+				always = no
 			}
-			targeted_modifier = {
-				tag = LAT
-				attack_bonus_against = 0.1
+				
+			modifier = {
+			consumer_goods_factor = 0.04
+			political_power_cost = 0.3
+			}	
+
+		}
+		
+		SOV_autonomy_concessions_4 = {
+		
+			name = SOV_autonomy_concessions_name
+
+			removal_cost = -1
+
+			picture =  SOV_rising_separatism_icon
+
+			allowed = {
+				always = no
 			}
-			targeted_modifier = {
-				tag = EST
-				attack_bonus_against = 0.1
+				
+			modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.4
+			}	
+
+		}
+		
+		SOV_autonomy_concessions_final = {
+		
+			name = SOV_autonomy_concessions_name
+
+			removal_cost = -1
+
+			picture =  SOV_rising_separatism_icon
+
+			allowed = {
+				always = no
 			}
+				
+			modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.25
+			stability_factor = 0.10
+			}	
 
 		}
 

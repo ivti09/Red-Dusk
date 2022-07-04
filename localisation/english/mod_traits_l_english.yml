@@ -7,5 +7,8 @@
  infantry_orianted_commander:0 "Infantry Orianted Commander"
  offensive_doctrine:0 "Offensive Doctrine"
  defensive_doctrine:0 "Defensive Doctrine"
+ reformist:0 "Reformist"
+ chief_of_industry:0 "Chief of Industry"
+ leader_of_the_intelligance_network:0 "Leader of the Intelligance Network"
  
  chemical_ali:0 "Chemical Ali"

@@ -79,6 +79,21 @@ bookmarks = {
 				VIN_soviet_brother
 			}	
 		}
+		
+		"SAF"={
+			history = "SAF_NDB_DESC_LOC"
+			ideology = fascism
+			ideas = {
+				SAF_apartheid_idea
+				SAF_military_state_idea
+				SAF_anc_insurgency_idea
+			}
+			focuses = {
+				SAF_sun
+				SAF_parliment_prevails
+				SAF_end_segregation_for_good
+			}	
+		}
 
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"

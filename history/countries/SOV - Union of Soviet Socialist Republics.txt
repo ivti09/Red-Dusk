@@ -205,6 +205,10 @@ recruit_character = SOV_sergey_surovikin
 recruit_character = SOV_anatoly_kornukov
 recruit_character = SOV_viktor_kazantsev
 
+add_ideas = SOV_boris_pugo
+add_ideas = SOV_dmitry_yazov
+add_ideas = SOV_yuri_maslyukov
+
 create_faction = "Moscow Accord"
 SOV = {
 	add_to_faction = MON

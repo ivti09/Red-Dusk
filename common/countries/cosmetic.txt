@@ -118,6 +118,31 @@ ICE_com_puppet = {
 	color = rgb { 183 45 45 }
 	color_ui = rgb { 183 45 45 }
 }
+LIT_com_puppet = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+UKR_com_puppet = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+AZR_com_puppet = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+ARM_com_puppet = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+LAT_com_puppet = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+EST_com_puppet = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+
 
 IRQ_greater_iraq_cosmetic = {
 	color = rgb { 114 58 21 }

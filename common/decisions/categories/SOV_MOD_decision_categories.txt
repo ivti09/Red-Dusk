@@ -104,7 +104,6 @@ sov_the_new_perestroika = {
 
 	allowed = {
 		original_tag = SOV
-		has_completed_focus = SOV_traitor
 	}
 
 	visible = {
@@ -117,10 +116,6 @@ sov_reinteg_decisions_via_peace = {
 	
 	allowed = {
 		original_tag = SOV
-		has_completed_focus = SOV_gorby_new_way
-		NOT = {
-			has_country_flag = sov_referandums_happened
-		}
 	}
 	
 	visible = {

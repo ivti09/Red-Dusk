@@ -596,6 +596,14 @@ country_event = {
 	
 	option = {
 		name = ussr.27.a
+		set_politics = {
+			ruling_party = reformed_communism
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = reformed_communism
+			popularity = 0.15
+		}
 	}
 
 }
@@ -615,11 +623,6 @@ country_event = {
 		name = ussr.25.a
 		set_country_flag = Gorbachev_chose_peace_ussr
 	}
-	#agressive#
-	option = {
-		name = ussr.25.b
-		set_country_flag = Gorbachev_chose_war_ussr
-	}
 
 }
 
@@ -633,15 +636,46 @@ country_event = {
 	is_triggered_only = yes
 	
 	
-        #peaceful#
+    #peaceful#
 	option = {
 		name = ussr.28.a
 		set_country_flag = Gorbachev_chose_peace_east_block
 	}
-	#agressive#
+
+}
+
+#referandums suceeds#
+country_event = {
+	id = ussr.29
+	title = ussr.29.t
+	desc = ussr.29.d
+	picture = GFX_report_event_gorby_diplo
+	
+	is_triggered_only = yes
+	
+	
+    #epico#
 	option = {
-		name = ussr.28.b
-		set_country_flag = Gorbachev_chose_war_east_block
+		name = ussr.29.a
+		set_country_flag = sov_refs_succeeds
+	}
+
+}
+
+#referandums fail#
+country_event = {
+	id = ussr.30
+	title = ussr.30.t
+	desc = ussr.30.d
+	picture = GFX_report_event_gorby_diplo
+	
+	is_triggered_only = yes
+	
+	
+    #bruh idiot#
+	option = {
+		name = ussr.30.a
+		add_political_power = -300
 	}
 
 }
@@ -778,7 +812,6 @@ country_event = {
 				transfer_state = 197
 				transfer_state = 203
 				transfer_state = 202
-				transfer_state = 221
 		}
 		    declare_war_on = {
             type = annex_everything

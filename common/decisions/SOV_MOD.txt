@@ -1472,36 +1472,74 @@ sov_reinteg_decisions_via_peace = {
 		icon = GFX_decision_generic_tank
 
 		allowed = {
-			original_tag = SOV
-		}
-		available = {
-			has_completed_focus = SOV_gorby_new_way
-			has_country_flag = sov_referandums_happened
-		}
-		visible = {
-			original_tag = SOV
-			has_completed_focus = SOV_gorby_new_way
+			original_tag = SOV			
+			has_country_flag = SOV_referandums_decisions_start
 				NOT = {
 				has_country_flag = sov_referandums_happened
 			}
 		}
-
+		available = {
+			has_country_flag = SOV_referandums_decisions_start
+			has_country_flag = sov_referandums_happened
+		}
+		activation = {                          
+			has_country_flag = SOV_referandums_decisions_start
+			NOT = {
+				has_country_flag = sov_referandums_happened
+			}
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = SOV_referandums_decisions_start
+				NOT = {
+				has_country_flag = sov_referandums_happened
+			}
+		}
+		
 		fire_only_once = no
 		ai_will_do = {
 			factor = 0
 		}
 		is_good = yes
-        	selectable_mission = no
-        	days_mission_timeout = 35      
+        selectable_mission = no
+        days_mission_timeout = 40      
 
 		timeout_effect = {
 			set_country_flag = sov_referandums_happened
+			
+			IF = {
+				limit = { 			 
+					check_variable = {
+						azr_ref_support > 50
+						arm_ref_support > 50
+						lat_ref_support > 50
+						est_ref_support > 50
+					}
+				}
+				SOV = {
+					country_event = { id = ussr.29 }
+				}
+			}
+			ELSE_IF = {
+				limit = {
+					check_variable = {
+						azr_ref_support < 50
+						arm_ref_support < 50
+						lat_ref_support < 50
+						est_ref_support < 50
+					}
+				}
+				SOV = {
+					country_event = { id = ussr.30 }
+				}
+			}
+			
 		}
 		complete_effect = { 
 		}
 	}
-	
-	sov_ref_azr_help_azerbajani_industry = {
+
+	sov_ref_apolagize_for_militarist_crimes = {
 
 		icon = GFX_decision_generic_tank
 
@@ -1510,60 +1548,34 @@ sov_reinteg_decisions_via_peace = {
 		}
 		available = {
 			original_tag = SOV
-			has_country_flag = sov_referandums_happened
+			has_country_flag = SOV_referandums_decisions_start
 		}
 		visible = {
 			original_tag = SOV
-			has_completed_focus = SOV_gorby_new_way
+			has_country_flag = SOV_referandums_decisions_start
 			NOT = {
 				has_country_flag = sov_referandums_happened
 			}
 		}
 		
 		cost = 10
-		fire_only_once = no
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 0
 		}
 		
 		complete_effect = { 
-			add_to_variable = { azr_ref_support = 15 }
-		}
-	}
-	
-	sov_ref_azr_apolagize_for_black_january = {
-
-		icon = GFX_decision_generic_tank
-
-		allowed = {
-			original_tag = SOV
-		}
-		available = {
-			original_tag = SOV
-			has_country_flag = sov_referandums_happened
-		}
-		visible = {
-			original_tag = SOV
-			has_completed_focus = SOV_gorby_new_way
-			NOT = {
-				has_country_flag = sov_referandums_happened
-			}
-		}
-		
-		cost = 10
-		fire_only_once = no
-		ai_will_do = {
-			factor = 0
-		}
-		
-		complete_effect = { 
-			add_to_variable = { azr_ref_support = 35 }
+		custom_effect_tooltip = sov_gorby_ref_incrase_by_5
+		add_to_variable = { azr_ref_support = 5 }
+		add_to_variable = { arm_ref_support = 5 }
+		add_to_variable = { lat_ref_support = 5 }
+		add_to_variable = { est_ref_support = 5 }
 			add_political_power = -25
-			army_experience = -15
+			army_experience = -25
 		}
 	}
 	
-	sov_ref_azr_rally_communists = {
+	sov_ref_compansate_victims = {
 
 		icon = GFX_decision_generic_tank
 
@@ -1572,11 +1584,47 @@ sov_reinteg_decisions_via_peace = {
 		}
 		available = {
 			original_tag = SOV
-			has_country_flag = sov_referandums_happened
+			has_country_flag = SOV_referandums_decisions_start
 		}
 		visible = {
 			original_tag = SOV
-			has_completed_focus = SOV_gorby_new_way
+			has_country_flag = SOV_referandums_decisions_start
+			NOT = {
+				has_country_flag = sov_referandums_happened
+			}
+		}
+		
+		cost = 10
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = { 
+		custom_effect_tooltip = sov_gorby_ref_incrase_by_10
+		add_to_variable = { azr_ref_support = 10 }
+		add_to_variable = { arm_ref_support = 10 }
+		add_to_variable = { lat_ref_support = 10 }
+		add_to_variable = { est_ref_support = 10 }
+			add_political_power = -25
+			army_experience = -25
+		}
+	}
+	
+	sov_ref_rally_communists = {
+
+		icon = GFX_decision_generic_tank
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = SOV_referandums_decisions_start
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = SOV_referandums_decisions_start
 			NOT = {
 				has_country_flag = sov_referandums_happened
 			}
@@ -1589,7 +1637,11 @@ sov_reinteg_decisions_via_peace = {
 		}
 		
 		complete_effect = { 
-			add_to_variable = { azr_ref_support = 15 }
+		custom_effect_tooltip = sov_gorby_ref_incrase_by_5
+		add_to_variable = { azr_ref_support = 5 }
+		add_to_variable = { arm_ref_support = 5 }
+		add_to_variable = { lat_ref_support = 5 }
+		add_to_variable = { est_ref_support = 5 }
 			add_political_power = -50
 		}
 	}

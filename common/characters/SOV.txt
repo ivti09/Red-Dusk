@@ -88,6 +88,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/SOV/Boris_Pugo.dds"
+				small = "gfx/leaders/SOV/pugo_advisor.dds"
 			}
 		}
 		country_leader = {
@@ -95,6 +96,17 @@ characters = {
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = SOV_boris_pugo
+			allowed = {
+				original_tag = SOV
+			}
+			traits = {
+				leader_of_the_intelligance_network 
+			}
 		}
 	}
 	SOV_mikhail_gorbachev = {
@@ -120,7 +132,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = market_socialism
-			traits = {}
+			traits = {reformist}
 			expire = "2050.3.1.1"
 			id = -1
 		}
@@ -144,6 +156,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/SOV/Vladimir_Putin.dds"
+				small = "gfx/leaders/SOV/putin_advisor.dds"
 			}
 		}
 		country_leader = {
@@ -152,6 +165,18 @@ characters = {
 			expire = "2050.3.1.1"
 			id = -1
 		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = SOV_vladimir_putin
+			allowed = {
+				original_tag = SOV
+			}
+			traits = {
+				leader_of_the_intelligance_network 
+			}
+		}
+		
 	}
 	SOV_party = {
 		name = "Communist Party of the Soviet Union"
@@ -167,6 +192,7 @@ characters = {
 			id = -1
 		}
 	}
+	
 	SOV_ivan_sil = {
 		name = "Ivan Silayev"
 		portraits = {
@@ -179,6 +205,28 @@ characters = {
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
+		}
+	}
+
+	## advisors ##
+
+	SOV_yuri_maslyukov = {
+		name = "Yuri Maslyukov"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/SOV/yuri_maslyukov.dds"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = SOV_yuri_maslyukov
+			allowed = {
+				original_tag = SOV
+			}
+			traits = {
+				chief_of_industry 
+			}
 		}
 	}
 
@@ -572,23 +620,6 @@ characters = {
 			legacy_id=-1
 		}
 	}
-	SOV_yuri_maslyukov = {
-		name = "Yuri Maslyukov"
-		portraits = {
-			army = {
-				small = "gfx/interface/ideas/idea_Yuri_Maslyukov.dds"
-			}
-		}
-		advisor={
-			cost = 100
-			slot = political_advisor
-			allowed = {
-				original_tag = SOV
-			}
-			traits = {
-				captain_of_industry 
-			}
-		}
-	}
+
 
 }

@@ -127,6 +127,12 @@
 
  ######SOVIET REFERANDUMS FOR REITEGRATIONS#### 
 
+ sov_gorby_ref_incrase_by_5:0 "§GIncrases §CSupport In All Countries §W§ §GBy 5 Percent\n\n§W§"
+ sov_gorby_ref_incrase_by_10:0 "§GIncrases §CSupport In All Countries §W§ §GBy 10 Percent\n\n§W§"
+  
+ sov_refs_succeeds:0 "§GReferandums Have Succeeded\n\n§W§"
+ sov_referandums_happened:0 "§YReferandums Have Been Hold\n\n§W§"
+ SOV_referandums_decisions_start:0 "§YReferandums Have Been Organized\n\n§W§"
  ###### BY ADDING "\n\n" AND ADDING "§W§" RIGHT AFTER IT AT THE END OF THE LOC WILL MAKE IT LOOK MORE CLEAN WHEN USING COLOUR -durango#######
  
  ########     \n\n§W§       ######

@@ -77,6 +77,43 @@ leader_traits = {
 		}
 	}
 	
+	reformist = {
+		random = no
+		political_power_factor = 0.05
+		industrial_capacity_factory = 0.10
+		research_speed_factor = 0.05
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	chief_of_industry = {
+		random = no
+		industrial_capacity_factory = 0.05
+		production_speed_buildings_factor = 0.75
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	leader_of_the_intelligance_network = {
+		random = no
+		stability_factor = -0.05
+		agency_upgrade_time = 0.10
+		intel_network_gain_factor = 0.5
+		operative_slot = 1
+		civilian_intel_to_others = -10
+		airforce_intel_to_others = -10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	#iraqi troller#
 	chemical_ali = {
 		random = no

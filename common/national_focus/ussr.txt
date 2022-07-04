@@ -97,6 +97,7 @@
 		prerequisite = {focus = SOV_yanayev_final_weeks}
 		mutually_exclusive = { }
 		relative_position_id = SOV_status_of_the_union
+		available = {has_completed_focus = SOV_minor_economic_reforms}
 		
 		cost = 3
 		ai_will_do = {
