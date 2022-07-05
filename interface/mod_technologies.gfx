@@ -168,6 +168,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/amphibious_hull_2020.dds"
 	}
 
+	## Convoy ##
+
+	SpriteType = {
+		name = "GFX_convoy_1_medium"
+		texturefile = "gfx/interface/technologies/convoy.dds"
+	}
+
 	## MTG Designer Modules ##
 
 	SpriteType = {
@@ -1213,6 +1220,13 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_stealth_bomber_2020_medium"
 		texturefile = "gfx/interface/technologies/generic_stealth_bomber.dds"
+	}
+
+	## Transport Aircraft ##
+
+	SpriteType = {
+		name = "GFX_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/transport_plane_equipment.dds"
 	}
 
 	## Nation-Specific Aircraft ##

@@ -420,7 +420,7 @@
  STATE_419:1 "Tibriz"
  STATE_420:0 "Gilan"
  STATE_421:0 "Kurdistan"
- STATE_422:0 "Ceylon"
+ STATE_422:0 "South Western Sri Lanka"
  STATE_423:0 "Madurai"
  STATE_424:0 "Madras"
  STATE_425:0 "Mysore"
@@ -851,3 +851,4 @@
  STATE_850:0 "Southern Mozambique"
  STATE_851:0 "Northern Mozambique"
  STATE_852:0 "Limpopo"
+ STATE_853:0 "North Eastern Sri Lanka"
