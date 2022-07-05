@@ -4,6 +4,9 @@
 
 recruit_character = MON_nambaryn_enkhbayar
 
+add_ideas = MON_communism
+add_ideas = MON_split
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
@@ -11,5 +14,6 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 100
+	communism = 68
+        reformed_communism = 32
 }

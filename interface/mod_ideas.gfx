@@ -222,4 +222,19 @@ spriteTypes = {
 		name = "GFX_idea_ANC_kgb_icon"
 		texturefile = "gfx/interface/ideas/ANC_kgb.dds"
 	}
+
+        #MONGOLIA#
+
+	spriteType = {
+		name = "GFX_idea_MON_communism_icon"
+		texturefile = "gfx/interface/ideas/MON_communism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MON_split_icon"
+		texturefile = "gfx/interface/ideas/MON_sino_sov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ETH_soviet_support_icon"
+		texturefile = "gfx/interface/ideas/ETH_soviet.dds"
+	}
 }

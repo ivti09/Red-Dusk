@@ -45,6 +45,8 @@
  SOV_reformed_army_yazov_name_desc:0 "Suprisingly, the Central Command Of The Armed Forces has reformed the old Soviet Army with the help of the new battle tactics."
  SOV_Yazov_soviet_army_name:0 "Soviet Army"
  SOV_Yazov_soviet_army_name_desc:0 "The Soviet Armed Forces use the new battle tactics intruduced by Comrade Marshal Yazov's military reforms." 
+ SOV_put_kgb_name:0 "The KGB Divided"
+ SOV_put_kgb_name_desc:0
  ussr_embargo_name:0 "USSR Embargo"
  ussr_embargo_name_desc:0 "USSR has embargod this nation."
  Soviet_mil_advisors_name:0 "Soviet Military Advisors"
@@ -196,3 +198,19 @@
  ENG_queen_idea_name_desc:0 ""
  ENG_commonwelth_idea_name:0 "The Commonwealth"
  ENG_commonwelth_idea_name_desc:0 ""
+
+ GER_ostalgie_idea_name:0 "Ostalgie"
+ GER_ostalgie_idea_name_desc:0 ""
+ GER_economy_idea_name:0 "Economic Powerhouse"
+ GER_economy_idea_name_desc:0 ""
+ GER_eu_idea_name:0 "European Union"
+ GER_eu_idea_name_desc:0 ""
+
+ CUB_embargo_idea_name:0 "American Blocade"
+ CUB_embargo_idea_name_desc:0 ""
+ ETH_soviet_idea_name:0 "Soviet Support"
+ ETH_soviet_idea_name_desc:0 ""
+ MON_communism_idea_name:0 "Fading Communism"
+ MON_communism_idea_name_desc:0 ""
+ MON_split_idea_name:0 "Between Two Bears"
+ MON_split_idea_name_desc:0 ""

@@ -6,6 +6,8 @@ set_convoys = 300
 
 recruit_character = FRA_jacques_chirac
 
+add_ideas = GER_eu
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.5.1"

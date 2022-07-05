@@ -27,4 +27,6 @@ set_popularities = {
 
 recruit_character = DEN_poul_nyrup
 
+add_ideas = GER_eu
+
 set_convoys = 40

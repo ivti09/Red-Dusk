@@ -132,6 +132,7 @@
 			add_ideas = SOV_marshall_of_the_people
 			remove_ideas = SOV_memories_of_august_coup
 			add_ideas = SOV_Marshall_iron_order
+			add_stability = 0.2
 			custom_effect_tooltip = economy_time_bois_tooltip
 			set_country_flag = economy_time_bois
 		}

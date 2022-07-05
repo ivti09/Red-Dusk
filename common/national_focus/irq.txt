@@ -9,7 +9,7 @@ focus_tree = {
 			tag = IRQ
 		}
 	}
-	
+
 	continuous_focus_position = { x = 2500 y = 2500 }
 	
 	default = no
@@ -725,7 +725,7 @@ focus_tree = {
 
 	focus = {
 		id = IRQ_america
-		icon = GFX_focus_SOV_status_of_union 
+		icon = GFX_focus_IRQ_americans_not_see
 		x = 16
 		y = 12
 

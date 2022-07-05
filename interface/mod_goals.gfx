@@ -460,6 +460,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_IRQ_new_era.png"
 	}
 	SpriteType = {
+		name = "GFX_focus_IRQ_americans_not_see"
+		texturefile = "gfx/interface/goals/focus_IRQ_americans_not_looking.png"
+	}
+	SpriteType = {
 		name = "GFX_focus_IRQ_saddam"
 		texturefile = "gfx/interface/goals/focus_IRQ_saddam.png"
 	}

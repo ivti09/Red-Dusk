@@ -289,6 +289,23 @@ country_event = {
 	}
 }
 
+#Junta stays#
+country_event = {
+	id = saf.11
+	title = saf.11.t
+	desc = saf.11.d
+	picture = GFX_report_event_SAF_martial_law
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.11.a	
+		add_political_power = 20
+		add_stability = 0.03
+	}
+}
+
 #Time's Up#
 country_event = {
 	id = saf.8

@@ -1,0 +1,58 @@
+ideas = {
+	
+	country = {
+	
+		GER_ostalgie = {
+			name = GER_ostalgie_idea_name
+
+			removal_cost = -1
+
+			#picture = x
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				communism_drift = 0.01
+				stability_monthly = -0.02
+			}
+		}
+
+		GER_eu = {
+			name = GER_eu_idea_name
+
+			removal_cost = -1
+
+			#picture = x
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				democratic_drift = 0.01
+				political_power_gain = 0.02
+			}
+		}
+
+		GER_economy = {
+			name = GER_economy_idea_name
+
+			removal_cost = -1
+
+			#picture = x
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_factory_start_efficiency_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+}

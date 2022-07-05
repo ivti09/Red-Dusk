@@ -15,6 +15,21 @@ characters = {
 		}
 	}
 
+	YUG_šešelj = {
+		name = "Vojislav Šešelj"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUG/Vojislav_Seselj.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
 	YUG_joska = {
 		name = "Josip Joška Broz"
 		portraits = {

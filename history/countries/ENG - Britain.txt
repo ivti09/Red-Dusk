@@ -10,6 +10,7 @@ recruit_character = ENG_tony_blair
 
 add_ideas = ENG_queen
 add_ideas = ENG_commonwelth
+add_ideas = GER_eu
 
 set_politics = {
 	ruling_party = democratic

@@ -119,7 +119,6 @@ USA = {
 	add_to_faction = POR
 	add_to_faction = NOR
 	add_to_faction = GER
-	add_to_faction = IRE
 	add_to_faction = DEN
 	add_to_faction = BEL
 	add_to_faction = HOL
