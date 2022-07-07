@@ -5,6 +5,7 @@
 set_convoys = 5
 
 recruit_character = SRL_Chandrika_Kumaratunga
+recruit_character = SRL_Dingiri_Banda_Wijetunga
 
 set_politics = {
 	ruling_party = democratic

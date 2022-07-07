@@ -14,5 +14,21 @@ characters = {
 			id = -1
 		}
 	}
+	
+	SRL_Dingiri_Banda_Wijetunga = {
+		name = "Dingiri Banda Wijetunga"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SRL/Dingiri_Banda_Wijetunga.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	
 
 }
