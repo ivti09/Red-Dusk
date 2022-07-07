@@ -4,15 +4,18 @@
 
 set_convoys = 5
 
+recruit_character = KYR_absamat_masaliyev
+
 set_politics = {
-	ruling_party = democratic
+	ruling_party = reformed_communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
-	fascism = 1
-	communism = 40
-	neutrality = 9
+	democratic = 0
+	fascism = 0
+	reformed_communism = 70
+	communism = 0
+	neutrality = 30
 }

@@ -627,12 +627,133 @@
 	}
 	
 	focus = {
-		id = SOV_gorby_soviet_foreign_policy
+		id = SOV_gorby_setting_the_ways_for_a_better_ussr
 		icon = GFX_focus_SOV_prep_future
 		x = 10
+		y = 13
+
+		prerequisite = {focus = SOV_gorby_establish_local_lithuenian_government}
+		prerequisite = {focus = SOV_gorby_establish_local_ukrainan_government} 
+		prerequisite = {focus = SOV_gorby_incrase_chechen_autonomy}
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		add_stability = 0.03
+		remove_ideas = SOV_rising_separatism
+			swap_ideas = {
+			remove_idea = SOV_autonomy_concessions_4
+			add_idea = SOV_autonomy_concessions_5
+			}
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_destroy_the_hardliners
+		icon = GFX_focus_SOV_prep_future
+		x = 12
 		y = 14
 
 		prerequisite = {focus = SOV_gorby_setting_the_ways_for_a_better_ussr}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		add_war_support = -0.25
+		add_political_power = -50
+			add_popularity = {
+				ideology = communism
+				popularity = -0.25
+			}
+
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_decentralize_the_governance
+		icon = GFX_focus_SOV_prep_future
+		x = 8
+		y = 14
+
+		prerequisite = {focus = SOV_gorby_setting_the_ways_for_a_better_ussr}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+		    add_political_power = -50
+			add_stability = 0.01			
+			swap_ideas = {
+			remove_idea = SOV_autonomy_concessions_5
+			add_idea = SOV_autonomy_concessions_final
+			}
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_re_sign_the_new_union_treaty
+		icon = GFX_focus_SOV_prep_future
+		x = 10
+		y = 15
+
+		prerequisite = {focus = SOV_gorby_decentralize_the_governance}
+		prerequisite = {focus = SOV_gorby_destroy_the_hardliners}
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		
+		
+		completion_reward = {
+			country_event = {id = ussr.31}
+			add_stability = 0.10
+			custom_effect_tooltip = sov_gorby_finally_do_what_we_couldnt
+		}
+	}
+	
+	focus = {
+		id = SOV_gorby_soviet_foreign_policy
+		icon = GFX_focus_SOV_prep_future
+		x = 10
+		y = 16
+
+		prerequisite = {focus = SOV_gorby_re_sign_the_new_union_treaty}
 		mutually_exclusive = { }
 		
 		cost = 1.5
@@ -657,7 +778,7 @@
 		id = SOV_gorby_new_way
 		icon = GFX_focus_SOV_prep_future
 		x = 10
-		y = 15
+		y = 17
 
 		prerequisite = {focus = SOV_gorby_soviet_foreign_policy}
 		
@@ -696,7 +817,7 @@
 		id = SOV_gorby_promise_higher_autonomy
 		icon = GFX_focus_SOV_prep_future
 		x = 12
-		y = 16
+		y = 18
 
 		prerequisite = {focus = SOV_gorby_new_way}
 		mutually_exclusive = {}
@@ -727,7 +848,7 @@
 		id = SOV_gorby_promise_local_governance
 		icon = GFX_focus_SOV_prep_future
 		x = 12
-		y = 17
+		y = 19
 
 		prerequisite = {focus = SOV_gorby_promise_higher_autonomy}
 		mutually_exclusive = {}
@@ -758,7 +879,7 @@
 		id = SOV_gorby_industrial_programs
 		icon = GFX_focus_SOV_prep_future
 		x = 8
-		y = 16
+		y = 18
 
 		prerequisite = {focus = SOV_gorby_new_way}
 		mutually_exclusive = {}
@@ -830,7 +951,7 @@
 		id = SOV_gorby_spark_the_flame
 		icon = GFX_focus_SOV_prep_future
 		x = 8
-		y = 17
+		y = 19
 
 		prerequisite = {focus = SOV_gorby_industrial_programs}
 		mutually_exclusive = {}
@@ -884,7 +1005,7 @@
 		id = SOV_gorby_back_to_the_union
 		icon = GFX_focus_SOV_prep_future
 		x = 10
-		y = 18
+		y = 20
 
 		prerequisite = {focus = SOV_gorby_promise_local_governance}
 		prerequisite = {focus = SOV_gorby_spark_the_flame}
@@ -927,7 +1048,7 @@
 		id = SOV_gorby_union_reborn
 		icon = GFX_focus_SOV_prep_future
 		x = 10
-		y = 19
+		y = 21
 
 		prerequisite = {focus = SOV_gorby_back_to_the_union}
 		mutually_exclusive = {}

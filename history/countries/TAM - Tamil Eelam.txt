@@ -6,6 +6,11 @@ set_convoys = 5
 
 recruit_character = TAM_Velupillai_Prabhakaran
 
+declare_war_on = {
+	target = SRL
+	type = annex_everything
+}
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"

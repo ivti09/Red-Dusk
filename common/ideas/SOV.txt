@@ -917,7 +917,7 @@ ideas = {
 
 		}
 		
-		SOV_autonomy_concessions_final = {
+		SOV_autonomy_concessions_5 = {
 		
 			name = SOV_autonomy_concessions_name
 
@@ -933,6 +933,26 @@ ideas = {
 			consumer_goods_factor = 0.05
 			political_power_cost = 0.25
 			stability_factor = 0.10
+			}	
+
+		}
+		
+		SOV_autonomy_concessions_final = {
+		
+			name = SOV_autonomy_concessions_name
+
+			removal_cost = -1
+
+			picture =  SOV_rising_separatism_icon
+
+			allowed = {
+				always = no
+			}
+				
+			modifier = {
+			consumer_goods_factor = 0.05
+			political_power_cost = 0.10
+			stability_factor = 0.15
 			}	
 
 		}

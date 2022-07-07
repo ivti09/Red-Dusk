@@ -208,8 +208,10 @@
 
  CUB_embargo_idea_name:0 "American Blocade"
  CUB_embargo_idea_name_desc:0 ""
+ 
  ETH_soviet_idea_name:0 "Soviet Support"
  ETH_soviet_idea_name_desc:0 ""
+ 
  MON_communism_idea_name:0 "Fading Communism"
  MON_communism_idea_name_desc:0 ""
  MON_split_idea_name:0 "Between Two Bears"

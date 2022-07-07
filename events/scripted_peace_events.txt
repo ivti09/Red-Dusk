@@ -1380,3 +1380,56 @@ country_event = {
 		}
 	}
 }
+
+#LTTE wins over sri lanka #
+country_event = {
+	id = peace.47
+	title = peace.47.t
+	desc = peace.47.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		TAM = {
+		has_war_with = SRL
+		}
+		SRL = {
+		surrender_progress = > 0.99
+		}
+	}
+
+	##k##
+	option = {
+		name = peace.47.a
+		TAM = {
+		white_peace = SRL
+		}
+	}
+}
+
+#sri lanka wins over LTTE #
+country_event = {
+	id = peace.48
+	title = peace.48.t
+	desc = peace.48.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		SRL = {
+		has_war_with = TAM
+		}
+		TAM = {
+		surrender_progress = > 0.99
+		}
+	}
+
+	##k##
+	option = {
+		name = peace.48.a
+		SRL = {
+		white_peace = TAM
+		transfer_state = 853
+		}
+	}
+}
