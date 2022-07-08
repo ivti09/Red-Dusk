@@ -1312,20 +1312,21 @@ country_event = {
 		has_war_with = ANC
 		}
 		ANC = {
-		surrender_progress = > 0.99
+		surrender_progress > 0.99
 		}
 	}
 
 	##k##
 	option = {
-		name = peace.19.a
+		name = peace.44.a
 		SAF = {
 		white_peace = ANC
-		transfer_state = 850
+		transfer_state = 849
 		transfer_state = 681
 		transfer_state = 719
 		}
 	}
+}
 
 #South Africa wins over zimbabwe#
 country_event = {
@@ -1340,7 +1341,7 @@ country_event = {
 		has_war_with = ZIM
 		}
 		ZIM = {
-		surrender_progress = > 0.99
+		surrender_progress > 0.99
 		}
 	}
 
@@ -1352,9 +1353,9 @@ country_event = {
 		transfer_state = 545
 		}
 	}
+}
 
-
-#South Africa wins over mozambique #
+South Africa wins over mozambique #
 country_event = {
 	id = peace.46
 	title = peace.46.t
@@ -1367,7 +1368,7 @@ country_event = {
 		has_war_with = MZB
 		}
 		MZB = {
-		surrender_progress = > 0.99
+		surrender_progress > 0.99
 		}
 	}
 
@@ -1394,7 +1395,7 @@ country_event = {
 		has_war_with = SRL
 		}
 		SRL = {
-		surrender_progress = > 0.99
+		surrender_progress > 0.99
 		}
 	}
 
@@ -1403,6 +1404,21 @@ country_event = {
 		name = peace.47.a
 		TAM = {
 		white_peace = SRL
+		set_cosmetic_tag = TAM_won
+		}
+		SRL = {
+			set_politics = {
+				ruling_party = fascism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = yes
+			}
+			set_popularities = {
+				democratic = 0
+				fascism = 50
+				communism = 25
+				neutrality = 25
+			}
 		}
 	}
 }
@@ -1420,7 +1436,7 @@ country_event = {
 		has_war_with = TAM
 		}
 		TAM = {
-		surrender_progress = > 0.99
+		surrender_progress > 0.99
 		}
 	}
 
@@ -1430,6 +1446,33 @@ country_event = {
 		SRL = {
 		white_peace = TAM
 		transfer_state = 853
+		}
+	}
+}
+
+#Ethiopia wins over Eritia #
+country_event = {
+	id = peace.49
+	title = peace.49.t
+	desc = peace.49.d
+	hidden = yes
+	picture = GFX_report_resistance
+	
+	trigger = {
+		ETH = {
+		has_war_with = ERI
+		}
+		ERI = {
+		surrender_progress > 0.99
+		}
+	}
+
+	##k##
+	option = {
+		name = peace.48.a
+		ETH = {
+		white_peace = ERI
+		transfer_state = 550
 		}
 	}
 }

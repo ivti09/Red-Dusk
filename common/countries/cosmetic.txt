@@ -187,3 +187,8 @@ YUG_greater_serbia_cosmetic = {
 	color = rgb { 57 59 99 }
 	color_ui = rgb { 44 45 76 }
 }
+
+TAM_won = {
+	color = rgb { 211 10 30 }
+	color_ui = rgb { 193 80 0 }
+}
