@@ -962,7 +962,7 @@ focus_tree = {
 				producer = SOV
 			}
 			add_equipment_to_stockpile = {
-				type = motorized_equipment
+				type = motorised_equipment
 				amount = 50
 				producer = SOV
 			}
@@ -1470,7 +1470,7 @@ focus_tree = {
 				amount = 10
 			}
 			add_equipment_to_stockpile = {
-				type = motorized_equipment
+				type = motorised_equipment
 				amount = 20
 			}
 		}

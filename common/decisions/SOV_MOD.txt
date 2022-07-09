@@ -1472,11 +1472,7 @@ sov_reinteg_decisions_via_peace = {
 		icon = GFX_decision_generic_tank
 
 		allowed = {
-			original_tag = SOV			
-			has_country_flag = SOV_referandums_decisions_start
-				NOT = {
-				has_country_flag = sov_referandums_happened
-			}
+			original_tag = SOV
 		}
 		available = {
 			has_country_flag = SOV_referandums_decisions_start

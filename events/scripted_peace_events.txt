@@ -1355,7 +1355,7 @@ country_event = {
 	}
 }
 
-South Africa wins over mozambique #
+#South Africa wins over mozambique #
 country_event = {
 	id = peace.46
 	title = peace.46.t

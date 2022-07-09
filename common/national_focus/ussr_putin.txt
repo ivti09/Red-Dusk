@@ -261,7 +261,7 @@
 		y = 7
 
 		prerequisite = {focus = SOV_put_trustno} 
-		prerequisite = {focus = focus = SOV_put_trust}
+		prerequisite = {focus = SOV_put_trust}
 		mutually_exclusive = { }
 		
 		cost = 2

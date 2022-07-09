@@ -872,26 +872,26 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-		swap_ideas = {
-		remove_idea = YUG_new_tactics_for_a_new_age_2
-		add_idea = YUG_new_tactics_for_a_new_age_3
-		}
+			swap_ideas = {
+				remove_idea = YUG_new_tactics_for_a_new_age_2
+				add_idea = YUG_new_tactics_for_a_new_age_3
+			}
 			add_equipment_to_stockpile = {
-			type = mbt_tank_equipment_3
-			amount = 25
-			producer = SOV
+				type = mbt_tank_equipment_3
+				amount = 25
+				producer = SOV
 			}
 			
-			add_equipment_to_stockpile = {
-			type = #add the motorotized equipment when done#
-			amount = 40
-			producer = USA
-			}
+			#add_equipment_to_stockpile = {
+			#	type = #add the motorotized equipment when done#
+			#	amount = 40
+			#	producer = USA
+			#}
 			
 			add_equipment_to_stockpile = {
-			type = fighter_equipment_3
-			amount = 15
-			producer = PRC
+				type = fighter_equipment_3
+				amount = 15
+				producer = PRC
 			}
 		}
 	}

@@ -11,7 +11,7 @@ music = {
 	file = "An_Escalation.ogg"
 }
 music = {
-	name = "Another_Life_(Extended)"
+	name = "Another_Life_(extended)"
 	file = "Another_life_(extended).ogg"
 }
 music ={
@@ -52,7 +52,7 @@ music = {
 }
 music = {
 	name = "Going_Back_To_My_Roots_(12'Version)"
-	file = "Going_Back_To_My_Roots_(12'Version).ogg"
+	file = "Going_Back_To_My_Roots_(12' Version).ogg"
 }
 music = {
 	name = "Gruppa_Krovi"
@@ -131,7 +131,7 @@ music = {
 	file = "Seven_Nation_Army.ogg"
 }
 music = {
-	name = "Shotgun"
+	name = "shotgun"
 	file = "Shotgun.ogg"
 }
 music = {

@@ -17,7 +17,7 @@ bookmarks = {
 			}
 			focuses = {
 				SOV_chairman_yazov
-				The_Problem_Solver
+				SOV_put_solver
 				SOV_reformer
 			}	
 		}

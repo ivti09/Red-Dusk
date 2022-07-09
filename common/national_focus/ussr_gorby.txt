@@ -457,7 +457,7 @@
 					}
 				}
 				
-				ELSE = {
+				ELSE_IF = {
 						limit = {
 							has_idea = SOV_autonomy_concessions_3
 						}
@@ -520,7 +520,7 @@
 					}
 				}
 				
-				ELSE = {
+				ELSE_IF = {
 						limit = {
 							has_idea = SOV_autonomy_concessions_3
 						}
@@ -582,7 +582,7 @@
 					}
 				}
 				
-				ELSE = {
+				ELSE_IF = {
 						limit = {
 							has_idea = SOV_autonomy_concessions_3
 						}

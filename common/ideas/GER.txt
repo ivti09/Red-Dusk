@@ -15,7 +15,7 @@ ideas = {
 
 			modifier = {
 				communism_drift = 0.01
-				stability_monthly = -0.02
+				#stability_monthly = -0.02 # this modifier does not exist, don't use it #
 			}
 		}
 

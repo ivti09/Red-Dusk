@@ -220,7 +220,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-		#putin!!!!#
+	#putin!!!!#
 	option = {
 		name = ussr.7.a
 		retire_country_leader = yes
@@ -229,12 +229,13 @@ country_event = {
 		news_event = { id = old_times_news.6 days = 1 }
 		hidden_effect = {
 			every_other_country = {
-			news_event = { id = old_times_news.6 days = 1 }
+				news_event = { id = old_times_news.6 days = 1 }
 			}
 		}
 	}
-		#gorbachev and pizza hut fans#
-		option = {
+
+	#gorbachev and pizza hut fans#
+	option = {
 		name = ussr.7.b
 		retire_country_leader = yes
 		promote_character = SOV_mikhail_gorbachev
@@ -242,9 +243,8 @@ country_event = {
 		news_event = { id = old_times_news.5 days = 1 }
 		hidden_effect = {
 			every_other_country = {
-			news_event = { id = old_times_news.5 days = 1 }
+				news_event = { id = old_times_news.5 days = 1 }
 			}
-		}
 		}
 	}
 }

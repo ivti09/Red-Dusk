@@ -650,7 +650,7 @@ focus_tree = {
 				amount = 20
 			}
 			add_equipment_to_stockpile = {
-				type = motorized_equipment
+				type = motorised_equipment
 				amount = 20
 			}
                 }
