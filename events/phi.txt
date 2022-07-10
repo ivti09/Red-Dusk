@@ -8,6 +8,7 @@ country_event = {
 	picture = GFX_nothing
 	
 	trigger = {
+	original_tag = PHI
 	date > 2001.01.19
 	}
 	

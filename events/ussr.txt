@@ -260,10 +260,9 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	
 	option = {
 		name = ussr.8.a
-		add_stability = 0.01
+		add_stability = -0.01
 	}
 
 }
@@ -276,7 +275,6 @@ country_event = {
 	picture = GFX_report_event_SOV_the_meeting_con
 	
 	is_triggered_only = yes
-	
 	
 	option = {
 		name = ussr.9.a

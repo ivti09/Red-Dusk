@@ -2,10 +2,10 @@
 	id = ussr_gorby_focus
 	country = {
 		factor = 0
-		modifier = {
-			add = 55
-			tag = SOV
-		}
+		#modifier = {
+		#	add = 55
+		#	tag = SOV
+		#}
 		
 	}
 	

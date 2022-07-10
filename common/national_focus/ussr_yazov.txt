@@ -2,6 +2,7 @@
 	id = ussr_yazov_focus
 	country = {
 		factor = 0
+		
 	}
 	
 	continuous_focus_position = { x = 10 y = 9999 }
@@ -80,7 +81,7 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_manpower = -1 #outpizzad the hut#
-			country_event = { id = ussr.8 }
+			country_event = {id = ussr.8}
 		}
 	}
 	
@@ -146,10 +147,7 @@
 		
 		
 		prerequisite = {focus = SOV_comrade_marshall_yazov } 
-		
-		available = { 
-			has_country_flag = sov_economy_finished_yazov	
-		}
+
 	
 		mutually_exclusive = { }
 		
@@ -173,7 +171,6 @@
 		x = 8
 		y = 4
 		
-		available = { has_country_flag = sov_economy_finished_yazov }
 		
 		prerequisite = {focus = SOV_comrade_marshall_yazov } 
 		mutually_exclusive = { }
@@ -223,7 +220,6 @@
 		x = 10
 		y = 6
 		
-		available = { has_country_flag = sov_army_finished_yazov }
 		
 		prerequisite = {focus = SOV_yazov_incrase_military_funding } 
 		mutually_exclusive = { }
