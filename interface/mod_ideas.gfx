@@ -47,6 +47,29 @@ spriteTypes = {
 		name = "GFX_idea_SOV_Soviet_Army_icon"
 		texturefile = "gfx/interface/ideas/SOV_Soviet_Army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SOV_Five_Year_Plan_icon"
+		texturefile = "gfx/interface/ideas/SOV_five_year_plan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_old_economy_icon"
+		texturefile = "gfx/interface/ideas/SOV_old_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_new_economy_icon"
+		texturefile = "gfx/interface/ideas/SOV_new_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_privatization_icon"
+		texturefile = "gfx/interface/ideas/SOV_privatization.dds"
+	}
+
+        #EUROPE COMMON#
+	spriteType = {
+		name = "GFX_idea_GER_eu_icon"
+		texturefile = "gfx/interface/ideas/GER_eu.dds"
+	}
+
 
 	#CHINA#
 

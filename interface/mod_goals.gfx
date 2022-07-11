@@ -413,6 +413,10 @@ spriteTypes = {
 		name = "GFX_focus_SOV_backyard"
 		texturefile = "gfx/interface/goals/focus_SOV_backyard.png"
 	}
+	SpriteType = {
+		name = "GFX_focus_SOV_stable_for_now"
+		texturefile = "gfx/interface/goals/focus_SOV_stable_for_now.png"
+	}
 
 	SpriteType = {
 		name = "GFX_focus_YUG_slobos_11"
@@ -453,6 +457,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_YUG_tito_honour"
 		texturefile = "gfx/interface/goals/focus_YUG_tito_honour.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_steady_as"
+		texturefile = "gfx/interface/goals/focus_SOV_steady_as_she_goes.png"
 	}
    ###IRQ###
 	SpriteType = {

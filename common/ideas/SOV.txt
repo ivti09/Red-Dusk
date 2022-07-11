@@ -17,6 +17,9 @@ ideas = {
 				industrial_capacity_factory = -0.05
 				industrial_capacity_dockyard = -0.05
 				production_factory_efficiency_gain_factor = -0.02
+			        production_speed_industrial_complex_factor = -0.05
+			        production_speed_arms_factory_factor = -0.03
+			        consumer_goods_factor = 0.08
 			}
 		}
 		
@@ -122,7 +125,7 @@ ideas = {
 			modifier = {
 				production_speed_industrial_complex_factor = -0.1
 				stability_factor = -0.05
-				consumer_goods_factor = 0.05
+				consumer_goods_factor = 0.08
 				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.1
 			}
@@ -167,6 +170,381 @@ ideas = {
 			}
 
 		}
+
+		#####PUTIN!!!!!!!!!!!!!!!!!#############
+
+		SOV_put_kgb = {
+
+			name = SOV_put_kgb_name
+
+			removal_cost = -1
+
+			#picture = x
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_gain_factor = -0.01
+				stability_factor = -0.15
+			}
+		}
+
+		SOV_Putin_old_economy = {
+
+			name = SOV_Putin_old_economy_name
+
+			removal_cost = -1
+
+			picture = SOV_old_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = -0.03
+			consumer_goods_factor = -0.02
+			production_factory_efficiency_gain_factor = -0.01
+			}
+
+		}
+
+		SOV_Putin_old_economy2 = {
+
+			name = SOV_Putin_old_economy_name
+
+			removal_cost = -1
+
+			picture = SOV_old_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = 0.03
+			consumer_goods_factor = -0.02
+			production_factory_efficiency_gain_factor = -0.03
+			}
+
+		}
+
+		SOV_Putin_old_economy3 = {
+
+			name = SOV_Putin_old_economy_name
+
+			removal_cost = -1
+
+			picture = SOV_old_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = 0.02
+			consumer_goods_factor = -0.05
+			production_factory_efficiency_gain_factor = -0.04
+			}
+
+		}
+
+		SOV_put_five4 = {
+
+			name = SOV_put_five_name
+
+			removal_cost = -1
+
+			picture = SOV_Five_Year_Plan_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = -0.01
+			consumer_goods_factor = -0.02
+			production_factory_efficiency_gain_factor = 0.01
+			industrial_capacity_factory = 0.02
+			}
+
+		}
+
+		SOV_put_five5 = {
+
+			name = SOV_put_five_name
+
+			removal_cost = -1
+
+			picture = SOV_Five_Year_Plan_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = 0.01
+			production_speed_dockyard_factor = 0.05
+			production_speed_rail_way_factor = 0.05
+			consumer_goods_factor = 0.02
+			production_factory_efficiency_gain_factor = 0.03
+			industrial_capacity_factory = 0.04
+			}
+
+		}
+
+		SOV_put_five6 = {
+
+			name = SOV_put_five_name
+
+			removal_cost = -1
+
+			picture = SOV_Five_Year_Plan_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = 0.02
+			production_speed_dockyard_factor = 0.03
+			production_speed_rail_way_factor = 0.03
+			consumer_goods_factor = 0.07
+			production_factory_efficiency_gain_factor = 0.03
+			industrial_capacity_factory = 0.05
+			}
+
+		}
+
+		SOV_Putin_new_economy = {
+
+			name = SOV_Putin_new_economy_name
+
+			removal_cost = -1
+
+			picture = SOV_new_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = 0.03
+			consumer_goods_factor = 0.02
+			production_factory_efficiency_gain_factor = 0.01
+			}
+
+		}
+
+		SOV_Putin_new_economy2 = {
+
+			name = SOV_Putin_new_economy_name
+
+			removal_cost = -1
+
+			picture = SOV_new_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = 0.05
+			production_speed_docyard_factor = 0.03
+			production_speed_arms_factory_factor = -0.07
+			consumer_goods_factor = 0.05
+			production_factory_efficiency_gain_factor = -0.02
+			stability_factor = -0.05
+			}
+
+		}
+
+		SOV_Putin_new_economy3 = {
+
+			name = SOV_Putin_new_economy_name
+
+			removal_cost = -1
+
+			picture = SOV_new_economy_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = 0.05
+			production_speed_docyard_factor = 0.03
+			production_speed_arms_factory_factor = -0.04
+			consumer_goods_factor = 0.08
+			production_factory_efficiency_gain_factor = -0.01
+			stability_factor = -0.03
+			}
+
+		}
+
+		SOV_Putin_private = {
+
+			name = SOV_Putin_privatisation_name
+
+			removal_cost = -1
+
+			picture = SOV_privatization_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = -0.05
+			production_speed_docyard_factor = -0.05
+			production_speed_arms_factory_factor = -0.05
+			consumer_goods_factor = 0.05
+			production_factory_efficiency_gain_factor = 0.05
+			war_support_factor = -0.05
+			}
+
+		}
+
+		SOV_Putin_private2 = {
+
+			name = SOV_Putin_privatisation_name
+
+			removal_cost = -1
+
+			picture = SOV_privatization_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = -0.03
+			production_speed_docyard_factor = -0.03
+			production_speed_arms_factory_factor = -0.05
+			consumer_goods_factor = 0.08
+			production_factory_efficiency_gain_factor = 0.07
+			war_support_factor = -0.07
+			}
+
+		}
+
+		SOV_Putin_private3 = {
+
+			name = SOV_Putin_privatisation_name
+
+			removal_cost = -1
+
+			picture = SOV_privatization_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = 0.05
+			production_speed_docyard_factor = 0.03
+			production_speed_arms_factory_factor = -0.08
+			consumer_goods_factor = 0.1
+			production_factory_efficiency_gain_factor = 0.05
+			war_support_factor = -0.1
+			}
+
+		}
+
+		SOV_Putin_private4 = {
+
+			name = SOV_Putin_privatisation_name
+
+			removal_cost = -1
+
+			picture = SOV_privatization_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = -0.05
+			production_speed_docyard_factor = -0.06
+			production_speed_arms_factory_factor = -0.03
+			consumer_goods_factor = 0.04
+			production_factory_efficiency_gain_factor = 0.04
+			war_support_factor = -0.05
+			}
+
+		}
+
+		SOV_Putin_private5 = {
+
+			name = SOV_Putin_privatisation_name
+
+			removal_cost = -1
+
+			picture = SOV_privatization_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_industrial_complex_factor = -0.06
+			production_speed_docyard_factor = -0.06
+			production_speed_arms_factory_factor = 0.05
+			consumer_goods_factor = 0.03
+			production_factory_efficiency_gain_factor = 0.03
+			war_support_factor = -0.03
+			}
+
+		}
+
+		SOV_put_five7 = {
+
+			name = SOV_put_five_name
+
+			removal_cost = -1
+
+			picture = SOV_Five_Year_Plan_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_arms_factory_factor = 0.02
+			production_speed_dockyard_factor = 0.03
+			production_speed_rail_way_factor = 0.02
+			consumer_goods_factor = 0.02
+			production_factory_efficiency_gain_factor = 0.03
+			industrial_capacity_factory = 0.04
+			}
+
+		}
+
+		SOV_put_five8 = {
+
+			name = SOV_put_five_name
+
+			removal_cost = -1
+
+			picture = SOV_Five_Year_Plan_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+			production_speed_arms_factory_factor = 0.06
+			production_speed_dockyard_factor = 0.03
+			production_speed_rail_way_factor = 0.02
+			consumer_goods_factor = 0.05
+			production_factory_efficiency_gain_factor = 0.02
+			industrial_capacity_factory = 0.04
+			}
+
+		}
+
 		
 		#####YAZOV !!!!!!!!!!!!!!!!!#############
 		#####YAZOV !!!!!!!!!!!!!!!!!#############
