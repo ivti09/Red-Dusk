@@ -1491,4 +1491,286 @@ technologies = {
 
 	}
 
+## HELICOPTERS ##
+
+	heli_transport_1960 = {
+
+		enable_equipments = {
+			heli_transport_equipment_0
+		}
+
+		path = {
+			leads_to_tech = heli_transport_1970
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heli_attack_1970
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 2 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_helicopter
+		}
+
+	}
+
+	heli_transport_1970 = {
+
+		enable_equipments = {
+			heli_transport_equipment_1
+		}
+
+		path = {
+			leads_to_tech = heli_transport_1990
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 4 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_helicopter
+		}
+
+	}
+
+	heli_transport_1990 = {
+
+		enable_equipments = {
+			heli_transport_equipment_2
+		}
+
+		path = {
+			leads_to_tech = heli_transport_2010
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heli_attack_1990
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1990
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 8 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_helicopter
+		}
+
+	}
+
+	heli_transport_2010 = {
+
+		enable_equipments = {
+			heli_transport_equipment_3
+		}
+
+		path = {
+			leads_to_tech = heli_attack_2010
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2010
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 12 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_helicopter
+		}
+
+	}
+
+	heli_attack_1970 = {
+
+		enable_equipments = {
+			heli_attack_equipment_0
+		}
+
+		path = {
+			leads_to_tech = heli_attack_1990
+			research_cost_coeff = 1
+		}
+
+		sub_technologies = {
+			heli_naval_1970
+		}
+
+		research_cost = 2.5
+		start_year = 1970
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 4 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_helicopter
+		}
+
+	}
+
+	heli_attack_1990 = {
+
+		enable_equipments = {
+			heli_attack_equipment_1
+		}
+
+		path = {
+			leads_to_tech = heli_attack_2010
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heli_transport_1990
+			research_cost_coeff = 1
+		}
+
+		sub_technologies = {
+			heli_naval_1990
+		}
+
+		research_cost = 2.5
+		start_year = 1990
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 8 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_helicopter
+		}
+
+	}
+
+	heli_attack_2010 = {
+
+		enable_equipments = {
+			heli_attack_equipment_2
+		}
+
+		path = {
+			leads_to_tech = heli_transport_2010
+			research_cost_coeff = 1
+		}
+
+		sub_technologies = {
+			heli_naval_2010
+		}
+
+		research_cost = 2.5
+		start_year = 2010
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 12 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_helicopter
+		}
+
+	}
+
+	heli_naval_1970 = {
+
+		enable_equipments = {
+			heli_naval_equipment_0
+		}
+
+		research_cost = 1.5
+		start_year = 1970
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_helicopter
+			mod_cat_naval_aircraft
+		}
+
+	}
+
+	heli_naval_1990 = {
+
+		enable_equipments = {
+			heli_naval_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 1990
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_helicopter
+			mod_cat_naval_aircraft
+		}
+
+	}
+
+	heli_naval_2010 = {
+
+		enable_equipments = {
+			heli_naval_equipment_2
+		}
+
+		research_cost = 1.5
+		start_year = 2010
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_helicopter
+			mod_cat_naval_aircraft
+		}
+
+	}
+
 }

@@ -99,6 +99,8 @@ technology_categories = {
 	mod_cat_stealth
 	mod_cat_naval_aircraft
 	mod_cat_interceptor
+	mod_cat_helicopter
+	mod_cat_uav
 }
 
 technology_folders = {
@@ -147,7 +149,6 @@ technology_folders = {
 	electronics_folder = {
 		ledger = civilian
 	}
-	#secret_weapons_folder
 }
 
  

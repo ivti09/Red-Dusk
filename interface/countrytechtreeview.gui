@@ -1916,7 +1916,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = {
-					width = 1800 height = 1200
+					width = 2100 height = 1200
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
@@ -2028,7 +2028,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "airtech_year_left"
-				position = { x=1650 y=0 }
+				position = { x=1850 y=0 }
 				size = { width = 200 height = 100% }
 				orientation = upper_left			
 
@@ -2124,7 +2124,6 @@ guiTypes = {
 				}
 			}
 
-				
 			instantTextBoxType = {
 				name = "airtech_subtitle_fighter"
 				position = { x = 310 y = 110 }
@@ -2137,8 +2136,7 @@ guiTypes = {
 				format = center
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "fighter_equipment_desc"
-			}	
-			
+			}
 			instantTextBoxType = {
 				name = "airtech_subtitle_attacker"
 				position = { x = 610 y = 110 }
@@ -2152,7 +2150,6 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "attacker_equipment_desc"
 			}
-
 			instantTextBoxType = {
 				name = "airtech_subtitle_strike_bomber"
 				position = { x = 910 y = 110 }
@@ -2166,7 +2163,6 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "strike_bomber_equipment_desc"
 			}
-
 			instantTextBoxType = {
 				name = "airtech_subtitle_strategic_bomber"
 				position = { x = 1150 y = 110 }
@@ -2180,6 +2176,19 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "strategic_bomber_equipment_desc"
 			}
+			instantTextBoxType = {
+				name = "airtech_subtitle_helicopter"
+				position = { x = 1450 y = 110 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = {x = 0 y = 4}
+				text = "Helicopter"
+				maxWidth = 300
+				maxHeight = 62
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "helicopter_equipment_desc"
+			}
 				
 			gridboxtype = {
 				name = "fighter_1960_tree"
@@ -2188,7 +2197,6 @@ guiTypes = {
 				slotsize = { width = 60 height = 70 }
 				format = "UP"
 			}
-
 			gridboxtype = {
 				name = "attacker_1960_tree"
 				position = { x = 260 y = 40 }
@@ -2196,7 +2204,6 @@ guiTypes = {
 				slotsize = { width = 60 height = 70 }
 				format = "UP"
 			}
-
 			gridboxtype = {
 				name = "strike_bomber_1960_tree"
 				position = { x = 860 y = 40 }
@@ -2204,10 +2211,16 @@ guiTypes = {
 				slotsize = { width = 60 height = 70 }
 				format = "UP"
 			}
-
 			gridboxtype = {
 				name = "strategic_bomber_1960_tree"
 				position = { x = 860 y = 40 }
+				size = { width = 400 height = 1000 }
+				slotsize = { width = 60 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "heli_transport_1960_tree"
+				position = { x = 1400 y = 40 }
 				size = { width = 400 height = 1000 }
 				slotsize = { width = 60 height = 70 }
 				format = "UP"

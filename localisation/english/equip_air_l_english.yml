@@ -172,8 +172,40 @@
  stealth_bomber_equipment_1_short:0 "Stealth Bomber II"
  stealth_bomber_equipment_1_desc:0 "While our previous techniques have worked well, systems to counter stealth aircraft have already been developed. To regain our technological edge, the stealth bomber concept should be modernised and brought fully into the 21st century."
 
-## Nation-specific ##
+ helicopter:0 "Helicopter"
+ helicopter_equipment:0 "Helicopter"
+ helicopter_equipment_desc:0 "Mass-produced since the 1950s, helicopters allow for the support of ground troops from the air, whether that be delivering supplies or providing offensive capabilities. These are significantly cheaper than traditional aircraft, and are able to be used in areas not suitable for larger airframes, with the downside of being much more at risk from enemy air defences."
 
+ heli_transport:0 "Transport Helicopter"
+ heli_transport_equipment:0 "Transport Helicopter"
+ heli_transport_equipment_desc:0 "Airlifting equipment is often the quickest way to get them to the front lines, however most areas are not suitable for slow, large aircraft. Transport helicopters, being smaller and lighter, are able to take over that role, able to transport equipment directly to troops without even requiring an airfield."
+ heli_transport_equipment_0:0 "1960s Transport Helicopter"
+ heli_transport_equipment_0_short:0 "Transport Heli I"
+ heli_transport_equipment_0_desc:0 "Airlifting equipment is often the quickest way to get them to the front lines, however most areas are not suitable for slow, large aircraft. Transport helicopters, being smaller and lighter, are able to take over that role, able to transport equipment directly to troops without even requiring an airfield."
+ heli_transport_equipment_1:0 "1970s Transport Helicopter"
+ heli_transport_equipment_1_short:0 "Transport Heli II"
+ heli_transport_equipment_1_desc:0 "Airlifting equipment is often the quickest way to get them to the front lines, however most areas are not suitable for slow, large aircraft. Transport helicopters, being smaller and lighter, are able to take over that role, able to transport equipment directly to troops without even requiring an airfield."
+ heli_transport_equipment_2:0 "1990s Transport Helicopter"
+ heli_transport_equipment_2_short:0 "Transport Heli III"
+ heli_transport_equipment_2_desc:0 "Airlifting equipment is often the quickest way to get them to the front lines, however most areas are not suitable for slow, large aircraft. Transport helicopters, being smaller and lighter, are able to take over that role, able to transport equipment directly to troops without even requiring an airfield."
+ heli_transport_equipment_3:0 "2010s Transport Helicopter"
+ heli_transport_equipment_3_short:0 "Transport Heli IV"
+ heli_transport_equipment_3_desc:0 "Airlifting equipment is often the quickest way to get them to the front lines, however most areas are not suitable for slow, large aircraft. Transport helicopters, being smaller and lighter, are able to take over that role, able to transport equipment directly to troops without even requiring an airfield."
+
+ heli_attack:0 "Attack Helicopter"
+ heli_attack_equipment:0 "Attack Helicopter"
+ heli_attack_equipment_desc:0 "As proven in the conflicts ever since the Second World War, air support can be a deciding factor in ground battles. While attack aircraft can carry a deadly payload, they are unable to forever remain over the battlefield, and are unable to operate effectively without air superiority. Attack helicopters are able to constantly provide support to the division they are attached to, and can remain hidden from enemy aicraft by utilising terrain as cover."
+ heli_attack_equipment_0:0 "1970s Attack Helicopter"
+ heli_attack_equipment_0_short:0 "Attack Heli I"
+ heli_attack_equipment_0_desc:0 "Experiments with existing transport helicopters have proven that these machines can be utilised in ground attack roles, by attaching machine guns, rocket pods, or even missiles to their sides. It is time to develop a dedicated attack helicopter, well-armed and well-armoured against any ground-based threats."
+ heli_attack_equipment_1:0 "1990s Attack Helicopter"
+ heli_attack_equipment_1_short:0 "Attack Heli II"
+ heli_attack_equipment_1_desc:0 "While current attack helicopters are useful against light-armoured ground targets, they pose little threat to armoured divisions, especially ones with ground-based air defense systems. By utilising guided missiles already in use in attack aircraft, attack helicopters can destroy even the most well-armoured targets from afar."
+ heli_attack_equipment_2:0 "2010s Attack Helicopter"
+ heli_attack_equipment_2_short:0 "Attack Heli III"
+ heli_attack_equipment_2_desc:0 "With small portable anti-air missiles now commonly found among infantry, helicopters have become easy targets for enemy ground forces. Equipping them with countermeasures and new sensors will allow our attack helicopters to survive the modern battlefield by quickly detecting and evading any threats."
+
+## Nation-specific ##
 # SOV #
 
  SOV_transport_plane_equipment_1:0 "Ilyushin Il-76"

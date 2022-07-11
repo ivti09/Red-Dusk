@@ -2324,28 +2324,28 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_tech_motorised_1960_medium"
-		texturefile = "gfx/interface/technologies/generic_motorised.dds"
+		texturefile = "gfx/interface/technologies/generic_motorised_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_tech_motorised_1980_medium"
-		texturefile = "gfx/interface/technologies/generic_motorised.dds"
+		texturefile = "gfx/interface/technologies/generic_motorised_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_tech_motorised_2000_medium"
-		texturefile = "gfx/interface/technologies/generic_motorised.dds"
+		texturefile = "gfx/interface/technologies/generic_motorised_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_tech_motorised_2020_medium"
-		texturefile = "gfx/interface/technologies/generic_motorised.dds"
+		texturefile = "gfx/interface/technologies/generic_motorised_4.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_tech_train_1960_medium"
-		texturefile = "gfx/interface/technologies/generic_train.dds"
+		texturefile = "gfx/interface/technologies/generic_train_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_tech_train_2000_medium"
-		texturefile = "gfx/interface/technologies/generic_train.dds"
+		texturefile = "gfx/interface/technologies/generic_train_2.dds"
 	}
 
 }
