@@ -1637,7 +1637,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_navaltraining"
-					position = { x = 30 y = 2700 }
+					position = { x = 30 y = 2600 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1651,7 +1651,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_damagecontrol"
-					position = { x = 30 y = 2900 }
+					position = { x = 30 y = 2800 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1665,7 +1665,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_amphibious"
-					position = { x = 30 y = 3100 }
+					position = { x = 30 y = 3000 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1848,7 +1848,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "naval_helicopter_1960_tree"
+				name = "carrier_catapult_1960_tree"
 				position = { x = 150 y = 2460 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1856,16 +1856,8 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "carrier_catapult_1960_tree"
-				position = { x = 150 y = 2560 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
 				name = "naval_training_1960_tree"
-				position = { x = 150 y = 2710 }
+				position = { x = 150 y = 2610 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1873,7 +1865,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "damage_training_1960_tree"
-				position = { x = 150 y = 2910 }
+				position = { x = 150 y = 2810 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1881,7 +1873,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "naval_transport_1960_tree"
-				position = { x = 150 y = 3110 }
+				position = { x = 150 y = 3010 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1889,7 +1881,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "amphibious_hull_1960_tree"
-				position = { x = 150 y = 3210 }
+				position = { x = 150 y = 3110 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1916,7 +1908,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = {
-					width = 2100 height = 1200
+					width = 2200 height = 1200
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
@@ -2028,7 +2020,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "airtech_year_left"
-				position = { x=1850 y=0 }
+				position = { x=1950 y=0 }
 				size = { width = 200 height = 100% }
 				orientation = upper_left			
 
@@ -2178,7 +2170,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "airtech_subtitle_helicopter"
-				position = { x = 1450 y = 110 }
+				position = { x = 1570 y = 110 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -3829,6 +3821,41 @@ guiTypes = {
 			}
 		}
 		
+	}
+
+	containerWindowType = {
+		name = "techtree_air_techs_folder_small_item"
+		position = { x=0 y=0 }
+		size = { width = 72 height = 72 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=3 y=3 }
+			spriteType = "GFX_technology_medium"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "bonus_icon"
+			position = { x=3 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 17 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 50
+			maxHeight = 20
+			format = right
+		}
 	}
 
 	containerWindowType = {

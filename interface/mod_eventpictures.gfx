@@ -66,10 +66,12 @@ spriteTypes = {
 		name = "GFX_report_event_ww3"
 		texturefile = "gfx/event_pictures/report_event_ww3.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_guard"
+		texturefile = "gfx/event_pictures/report_event_guard.dds"
+	}
 	
 	##USA##
-	
-	
 	
 	spriteType = {
 		name = "GFX_report_event_USA_liberty_statue"

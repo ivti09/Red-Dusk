@@ -1508,11 +1508,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 3
 		start_year = 1960
 		folder = {
 			name = air_techs_folder
-			position = { x = 0 y = 2 }
+			position = { x = 2 y = 2 }
 		}
 
 		ai_will_do = {
@@ -1536,7 +1536,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 3
 		start_year = 1970
 		folder = {
 			name = air_techs_folder
@@ -1568,7 +1568,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 3
 		start_year = 1990
 		folder = {
 			name = air_techs_folder
@@ -1596,7 +1596,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 3
 		start_year = 2010
 		folder = {
 			name = air_techs_folder
@@ -1623,12 +1623,12 @@ technologies = {
 			leads_to_tech = heli_attack_1990
 			research_cost_coeff = 1
 		}
-
-		sub_technologies = {
-			heli_naval_1970
+		path = {
+			leads_to_tech = heli_naval_1970
+			research_cost_coeff = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 3
 		start_year = 1970
 		folder = {
 			name = air_techs_folder
@@ -1659,12 +1659,12 @@ technologies = {
 			leads_to_tech = heli_transport_1990
 			research_cost_coeff = 1
 		}
-
-		sub_technologies = {
-			heli_naval_1990
+		path = {
+			leads_to_tech = heli_naval_1990
+			research_cost_coeff = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 3
 		start_year = 1990
 		folder = {
 			name = air_techs_folder
@@ -1691,12 +1691,12 @@ technologies = {
 			leads_to_tech = heli_transport_2010
 			research_cost_coeff = 1
 		}
-
-		sub_technologies = {
-			heli_naval_2010
+		path = {
+			leads_to_tech = heli_naval_2010
+			research_cost_coeff = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 3
 		start_year = 2010
 		folder = {
 			name = air_techs_folder
@@ -1715,12 +1715,25 @@ technologies = {
 
 	heli_naval_1970 = {
 
-		enable_equipments = {
-			heli_naval_equipment_0
+		enable_equipment_modules = {
+			naval_helicopter_1
 		}
 
-		research_cost = 1.5
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = heli_naval_1990
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
 		start_year = 1970
+		folder = {
+			name = air_techs_folder
+			position = { x = 7 y = 4 }
+		}
 
 		ai_will_do = {
 		}
@@ -1729,18 +1742,32 @@ technologies = {
 			air_equipment
 			mod_cat_helicopter
 			mod_cat_naval_aircraft
+			naval_equipment
 		}
 
 	}
 
 	heli_naval_1990 = {
 
-		enable_equipments = {
-			heli_naval_equipment_1
+		enable_equipment_modules = {
+			naval_helicopter_2
 		}
 
-		research_cost = 1.5
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		path = {
+			leads_to_tech = heli_naval_2010
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
 		start_year = 1990
+		folder = {
+			name = air_techs_folder
+			position = { x = 7 y = 8 }
+		}
 
 		ai_will_do = {
 		}
@@ -1749,18 +1776,27 @@ technologies = {
 			air_equipment
 			mod_cat_helicopter
 			mod_cat_naval_aircraft
+			naval_equipment
 		}
 
 	}
 
 	heli_naval_2010 = {
 
-		enable_equipments = {
-			heli_naval_equipment_2
+		enable_equipment_modules = {
+			naval_helicopter_3
 		}
 
-		research_cost = 1.5
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+
+		research_cost = 2
 		start_year = 2010
+		folder = {
+			name = air_techs_folder
+			position = { x = 7 y = 12 }
+		}
 
 		ai_will_do = {
 		}
@@ -1769,6 +1805,7 @@ technologies = {
 			air_equipment
 			mod_cat_helicopter
 			mod_cat_naval_aircraft
+			naval_equipment
 		}
 
 	}

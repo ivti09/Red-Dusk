@@ -970,20 +970,16 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_naval_helicopter_1960_medium"
+		name = "GFX_heli_naval_1970_medium"
 		texturefile = "gfx/interface/technologies/naval_helicopter_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_naval_helicopter_1980_medium"
+		name = "GFX_heli_naval_1990_medium"
 		texturefile = "gfx/interface/technologies/naval_helicopter_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_naval_helicopter_2000_medium"
+		name = "GFX_heli_naval_2010_medium"
 		texturefile = "gfx/interface/technologies/naval_helicopter_3.dds"
-	}
-	SpriteType = {
-		name = "GFX_naval_helicopter_2020_medium"
-		texturefile = "gfx/interface/technologies/naval_helicopter_4.dds"
 	}
 
 	SpriteType = {
@@ -1222,6 +1218,36 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/generic_stealth_bomber.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_heli_transport_1960_medium"
+		texturefile = "gfx/interface/technologies/generic_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_heli_transport_1970_medium"
+		texturefile = "gfx/interface/technologies/generic_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_heli_transport_1990_medium"
+		texturefile = "gfx/interface/technologies/generic_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_heli_transport_2010_medium"
+		texturefile = "gfx/interface/technologies/generic_helicopter.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heli_attack_1970_medium"
+		texturefile = "gfx/interface/technologies/generic_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_heli_attack_1990_medium"
+		texturefile = "gfx/interface/technologies/generic_helicopter.dds"
+	}
+	SpriteType = {
+		name = "GFX_heli_attack_2010_medium"
+		texturefile = "gfx/interface/technologies/generic_helicopter.dds"
+	}
+
 	## Transport Aircraft ##
 
 	SpriteType = {
@@ -1338,6 +1364,35 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/SOV_strategic_bomber_1980.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_SOV_heli_transport_1960_medium"
+		texturefile = "gfx/interface/technologies/SOV_heli_transport_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heli_transport_1970_medium"
+		texturefile = "gfx/interface/technologies/SOV_heli_transport_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heli_transport_1990_medium"
+		texturefile = "gfx/interface/technologies/SOV_heli_transport_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heli_transport_2010_medium"
+		texturefile = "gfx/interface/technologies/SOV_heli_transport_2010.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heli_attack_1970_medium"
+		texturefile = "gfx/interface/technologies/SOV_heli_attack_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heli_attack_1990_medium"
+		texturefile = "gfx/interface/technologies/SOV_heli_attack_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heli_attack_2010_medium"
+		texturefile = "gfx/interface/technologies/SOV_heli_attack_2010.dds"
+	}
+
 	# USA #
 
 	SpriteType = {
@@ -1435,6 +1490,36 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_USA_stealth_bomber_2020_medium"
 		texturefile = "gfx/interface/technologies/USA_stealth_bomber_2020.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_heli_transport_1960_medium"
+		texturefile = "gfx/interface/technologies/USA_heli_transport_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heli_transport_1970_medium"
+		texturefile = "gfx/interface/technologies/USA_heli_transport_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heli_transport_1990_medium"
+		texturefile = "gfx/interface/technologies/USA_heli_transport_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heli_transport_2010_medium"
+		texturefile = "gfx/interface/technologies/USA_heli_transport_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_heli_attack_1970_medium"
+		texturefile = "gfx/interface/technologies/USA_heli_attack_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heli_attack_1990_medium"
+		texturefile = "gfx/interface/technologies/USA_heli_attack_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heli_attack_2010_medium"
+		texturefile = "gfx/interface/technologies/USA_heli_attack_2010.dds"
 	}
 
 	## Tank Tech Tree Icons ##

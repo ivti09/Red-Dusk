@@ -1194,15 +1194,6 @@
  naval_gun_2020:0 "Naval Gun IV"
  naval_gun_2020_desc:0 "Mainly used for shore bombardment and anti-aircraft roles, these relics of the past have largely been replaced by guided missiles."
 
- naval_helicopter_1960:0 "Naval Helicopter I"
- naval_helicopter_1960_desc:0 "Helicopters allow for increase anti-submarine warfare capabilites, as well as expanding our supply and communication capabilties."
- naval_helicopter_1980:0 "Naval Helicopter II"
- naval_helicopter_1980_desc:0 "Helicopters allow for increase anti-submarine warfare capabilites, as well as expanding our supply and communication capabilties."
- naval_helicopter_2000:0 "Naval Helicopter III"
- naval_helicopter_2000_desc:0 "Helicopters allow for increase anti-submarine warfare capabilites, as well as expanding our supply and communication capabilties."
- naval_helicopter_2020:0 "Naval Helicopter IV"
- naval_helicopter_2020_desc:0 "Helicopters allow for increase anti-submarine warfare capabilites, as well as expanding our supply and communication capabilties."
-
  carrier_catapult_1960:0 "Steam Catapult I"
  carrier_catapult_1960_desc:0 "Steam catapults allow onboard aircraft to utilise their full capabilities, making no sacrifices in armaments or range. However, they are expensive to build and maintain, and are prone to breakdown in harsh conditions."
  carrier_catapult_1980:0 "Steam Catapult II"
@@ -1286,6 +1277,16 @@
  mod_cat_interceptor:0 "Interceptor models"
  mod_cat_helicopter:0 "Helicopter models"
  mod_cat_uav:0 "UAV models"
+
+ heli_naval_1970:0 "1970s Naval Helicopter"
+ heli_naval_1970_short:0 "Naval Heli I"
+ heli_naval_1970_desc:0 "By creating a landing deck and hangar onboard our ships, we can expand the vessel's capabilities, with naval helicopters able to provide everything from transport to rescue to anti-submarine warfare."
+ heli_naval_1990:0 "1990s Naval Helicopter"
+ heli_naval_1990_short:0 "Naval Heli II"
+ heli_naval_1990_desc:0 "By creating a landing deck and hangar onboard our ships, we can expand the vessel's capabilities, with naval helicopters able to provide everything from transport to rescue to anti-submarine warfare."
+ heli_naval_2010:0 "2010s Naval Helicopter"
+ heli_naval_2010_short:0 "Naval Heli III"
+ heli_naval_2010_desc:0 "By creating a landing deck and hangar onboard our ships, we can expand the vessel's capabilities, with naval helicopters able to provide everything from transport to rescue to anti-submarine warfare."
 
  # Armour #
  tank_ammo_1960:0 "1960s Tank Ammo"
@@ -1555,6 +1556,11 @@
 
 ## Nation-Specific Tech ##
 # SOV #
+ SOV_heli_naval_1970:0 "Kamov Ka-25"
+ SOV_heli_naval_1970_short:0 "Ka-25"
+ SOV_heli_naval_1990:0 "Kamov Ka-40"
+ SOV_heli_naval_1990_short:0 "Ka-40"
+
  SOV_tank_ammo_1960:0 "3BM9"
  SOV_tank_ammo_1970:0 "3BM15"
  SOV_tank_ammo_1980:0 "3BM32"
@@ -1620,6 +1626,11 @@
  SOV_nsb_ifv_anti_tank_missile_5_short:0 "9M133M"
 
 # USA #
+ USA_heli_naval_1970:0 "Sikorsky SH-3"
+ USA_heli_naval_1970_short:0 "SH-3"
+ USA_heli_naval_1990:0 "Sikorsky SH-60"
+ USA_heli_naval_1990_short:0 "SH-60"
+
  USA_tank_ammo_1960:0 "M392A1"
  USA_tank_ammo_1970:0 "M735"
  USA_tank_ammo_1980:0 "M829"
