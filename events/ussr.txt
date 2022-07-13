@@ -226,12 +226,9 @@ country_event = {
 		retire_country_leader = yes
 		promote_character = SOV_vladimir_putin
 		load_focus_tree = ussr_putin_focus
+		
 		news_event = { id = old_times_news.6 days = 1 }
-		hidden_effect = {
-			every_other_country = {
-				news_event = { id = old_times_news.6 days = 1 }
-			}
-		}
+
 	}
 
 	#gorbachev and pizza hut fans#
@@ -241,11 +238,11 @@ country_event = {
 		promote_character = SOV_mikhail_gorbachev
 		load_focus_tree = ussr_gorby_focus
 		news_event = { id = old_times_news.5 days = 1 }
-		hidden_effect = {
+
 			every_other_country = {
 				news_event = { id = old_times_news.5 days = 1 }
 			}
-		}
+		
 	}
 }
 
@@ -719,6 +716,10 @@ country_event = {
 			release_puppet_on_controlled = TAJ
 			TAJ = {
 			set_cosmetic_tag = TAJ_com_puppet
+			}
+			release_puppet_on_controlled = MOL
+			MOL = {
+			set_cosmetic_tag = MOL_com_puppet
 			}
 	}
 

@@ -2,10 +2,10 @@
 	id = ussr_gorby_focus
 	country = {
 		factor = 0
-		#modifier = {
-		#	add = 55
-		#	tag = SOV
-		#}
+		modifier = {
+			add = 55
+			tag = SOV
+		}
 		
 	}
 	
@@ -83,6 +83,7 @@
 		completion_reward = {
 			add_political_power = 20
 			add_stability = 0.05
+			set_country_flag = gorby_gathering_support_time
 			SOV = {
 				country_event = { id = ussr.23 }
 			}
@@ -186,6 +187,7 @@
 
 		prerequisite = {focus = SOV_convince_press}
 		prerequisite = {focus = SOV_convince_politburo}
+		available = {has_country_flag = gorby_secured_support}
 		mutually_exclusive = { }
 		
 		cost = 3

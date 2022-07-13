@@ -170,6 +170,10 @@ TAJ_com_puppet = {
 	color = rgb { 182 13 24 }
 	color_ui = rgb { 163 17 31 }
 }
+MOL_com_puppet = {
+	color = rgb { 182 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
 
 SOV_gorby_cool = {
 	color = rgb { 182 13 24 }

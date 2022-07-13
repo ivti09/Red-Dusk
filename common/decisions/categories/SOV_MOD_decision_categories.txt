@@ -95,6 +95,22 @@ sov_invade_china_decisions = {
 
 ###GORBY####
 
+
+sov_rally_support_for_gorby = {
+	icon = GFX_decision_category_usa_congress
+
+	priority = 10
+
+
+	allowed = {
+		original_tag = SOV
+	}
+
+	visible = {
+
+	}
+}
+
 sov_the_new_perestroika = {
 	icon = GFX_decision_category_usa_congress
 
@@ -110,6 +126,7 @@ sov_the_new_perestroika = {
 
 	}
 }
+
 
 sov_reinteg_decisions_via_peace = {
 	icon = GFX_decision_category_SOV_civil_war
