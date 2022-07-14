@@ -1645,7 +1645,7 @@ sov_reinteg_decisions_via_peace = {
 
 sov_rally_support_for_gorby = {
 
-	sov_gain_politbro_support = {
+	sov_gorby_gain_politbro_support = {
 
 		icon = category_generic_communism
 
@@ -1673,12 +1673,13 @@ sov_rally_support_for_gorby = {
 			factor = 0
 		}
 		complete_effect = { 
-		add_political_power = 66
+		add_political_power = 15
+		add_stability = 0.05
 			
 		}
 	}
 	
-	sov_purge_vsp = {
+	sov_gorby_gain_KGB_support = {
 
 		icon = category_generic_communism
 
@@ -1687,11 +1688,14 @@ sov_rally_support_for_gorby = {
 		}
 		available = {
 			original_tag = SOV
-			 has_completed_focus = SOV_securing_the_chairman_position
+			has_country_flag = gorby_gathering_support_time
 		}
 		visible = {
 			original_tag = SOV
-			 has_completed_focus = SOV_securing_the_chairman_position
+			has_country_flag = gorby_gathering_support_time
+			NOT = {
+			has_country_flag = gorby_secured_support
+			}
 		}
 		days_remove = 3
 		modifier {
@@ -1703,12 +1707,13 @@ sov_rally_support_for_gorby = {
 			factor = 0
 		}
 		remove_effect = { 
-			set_country_flag = vsp_purged
+			add_political_power = 10
+			add_stability = 0.02
 			
 		}
 	}
 	
-	sov_purge_zyuganov = {
+	sov_gorby_gain_peoples_support = {
 
 		icon = category_generic_communism
 
@@ -1717,11 +1722,14 @@ sov_rally_support_for_gorby = {
 		}
 		available = {
 			original_tag = SOV
-			 has_completed_focus = SOV_securing_the_chairman_position
+			has_country_flag = gorby_gathering_support_time
 		}
 		visible = {
 			original_tag = SOV
-			 has_completed_focus = SOV_securing_the_chairman_position
+			has_country_flag = gorby_gathering_support_time
+			NOT = {
+			has_country_flag = gorby_secured_support
+			}
 		}
 		days_remove = 3
 		modifier {
@@ -1733,7 +1741,8 @@ sov_rally_support_for_gorby = {
 			factor = 0
 		}
 		remove_effect = { 
-			set_country_flag = zyuganov_purged
+			add_political_power = 5
+			add_stability = -0.03
 			
 		}
 	}
@@ -1752,6 +1761,9 @@ sov_rally_support_for_gorby = {
 		visible = {
 			original_tag = SOV
 			has_country_flag = gorby_gathering_support_time
+			NOT = {
+			has_country_flag = gorby_secured_support
+			}
 		}
 		
 		cost = 5

@@ -2,11 +2,10 @@
 	id = ussr_gorby_focus
 	country = {
 		factor = 0
-		modifier = {
-			add = 55
-			tag = SOV
-		}
-		
+		#modifier = {
+		#tag = SOV
+		#add = 55
+		#}
 	}
 	
 	continuous_focus_position = { x = 10 y = 9999 }
