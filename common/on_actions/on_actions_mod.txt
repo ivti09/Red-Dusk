@@ -200,5 +200,84 @@ on_actions = {
 			}
 		}
 	}
+	
+	### SCRIPTED PEACE DEALS ###
+	
+	### FROM is the country that wins the war and the tag listed below is the country that wins it ###
+	### ROOT is the county that loses the war and the tag below should the country that loses ###
+	
+	on_capitulation = {
+		effect = {	
+					## IRAQ WARS ##
+					
+					## IRAQ VS KUWAIT - IRAQ WINS OVER KUWAIT ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								original_tag = KUW
+							}
+						}
 
-}
+						IRQ = {
+							white_peace = ROOT
+						}
+
+						IRQ = {
+							transfer_state = 656
+						}
+					 
+					}
+					
+					## IRAQ VS SYRIA - IRAQ WINS OVER SYRIA ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								original_tag = SYR
+							}
+						}
+						
+						IRQ = {
+							white_peace = ROOT
+
+						}
+						
+						IRQ = {
+							transfer_state = 554
+							transfer_state = 680
+							transfer_state = 677
+						}
+					}
+					
+					## IRAQ VS IRAN - IRAQ WINS OVER IRAN ##
+					if = {   
+						limit = {
+							FROM = {
+								original_tag = IRQ
+							}
+							ROOT = {
+								original_tag = PER
+							}
+						}
+
+						IRQ = {
+							white_peace = ROOT
+						}
+
+						IRQ = {
+							transfer_state = 413
+							transfer_state = 421
+							puppet = PER
+						}
+						
+						
+						news_event = { id = old_times_news.16 }
+					}
+		}
+
+	}

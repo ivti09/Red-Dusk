@@ -1643,6 +1643,140 @@ sov_reinteg_decisions_via_peace = {
 	}
 }
 
+sov_rally_support_for_gorby = {
+
+	sov_gorby_gain_politbro_support = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = gorby_gathering_support_time
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = gorby_gathering_support_time
+			NOT = {
+			has_country_flag = gorby_secured_support
+			}
+		}
+		days_remove = 7
+		modifier {
+			political_power_cost = 0.50
+		}
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+		add_political_power = 15
+		add_stability = 0.05
+			
+		}
+	}
+	
+	sov_gorby_gain_KGB_support = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = gorby_gathering_support_time
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = gorby_gathering_support_time
+			NOT = {
+			has_country_flag = gorby_secured_support
+			}
+		}
+		days_remove = 3
+		modifier {
+			political_power_cost = 0.50
+		}
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_political_power = 10
+			add_stability = 0.02
+			
+		}
+	}
+	
+	sov_gorby_gain_peoples_support = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = gorby_gathering_support_time
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = gorby_gathering_support_time
+			NOT = {
+			has_country_flag = gorby_secured_support
+			}
+		}
+		days_remove = 3
+		modifier {
+			political_power_cost = 0.50
+		}
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_political_power = 5
+			add_stability = -0.03
+			
+		}
+	}
+	
+	sov_gorby_support_secured = {
+
+		icon = category_generic_communism
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			original_tag = SOV
+			has_country_flag = gorby_gathering_support_time
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = gorby_gathering_support_time
+			NOT = {
+			has_country_flag = gorby_secured_support
+			}
+		}
+		
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			set_country_flag = gorby_power_secured
+		}
+	}
+}
+
 sov_the_new_perestroika = {
 
 	sov_gorby_pete_test = {

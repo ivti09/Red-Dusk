@@ -319,6 +319,7 @@ country_event = {
 	option = {
 		name = saf.8.a
 		set_global_flag = anc_uprising_begun
+		mark_focus_tree_layout_dirty = yes
 		ANC = {
 				transfer_state = 719
 				transfer_state = 681
@@ -327,13 +328,14 @@ country_event = {
 		    declare_war_on = {
             type = annex_everything
             target = ANC
-            }
+        }
 		
 	}
 
 	option = {
 		name = saf.8.b	
 		set_global_flag = anc_uprising_begun
+		mark_focus_tree_layout_dirty = yes
 		ANC = {
 				transfer_state = 719
 				transfer_state = 681
@@ -345,6 +347,6 @@ country_event = {
             type = annex_everything
             target = ANC
             }
-            }
+        }
 	}
 }

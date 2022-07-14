@@ -145,7 +145,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12730;2098;impassable;-1;-1;-1;-1;-1;;Himalayas Mountains
 10826;12763;impassable;-1;-1;-1;-1;-1;;Hindu Kush Mountains
 10826;4558;impassable;-1;-1;-1;-1;-1;;Hindu Kush Mountains
-10653;4558;impassable;-1;-1;-1;-1;-1;;Hindu Kush Mountains
+12653;4558;impassable;-1;-1;-1;-1;-1;;Hindu Kush Mountains
 7519;4558;impassable;-1;-1;-1;-1;-1;;Hindu Kush Mountains
 7519;2084;impassable;-1;-1;-1;-1;-1;;Hindu Kush Mountains
 7519;10821;impassable;-1;-1;-1;-1;-1;;Hindu Kush Mountains

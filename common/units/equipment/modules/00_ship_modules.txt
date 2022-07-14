@@ -1697,24 +1697,6 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 120
 	}
-	naval_helicopter_4 = {
-		category = ship_naval_helicopter
-		sfx = sfx_ui_sd_module_turret
-
-		add_stats = {
-			build_cost_ic = 290
-			surface_detection = 9
-			sub_detection = 9
-		}
-		multiply_stats = {
-			naval_speed = -0.03
-		}
-		can_convert_from = {
-			module_category = ship_naval_helicopter
-			convert_cost_ic = 130
-		}
-		dismantle_cost_ic = 120
-	}
 
 # Depth Charges
 

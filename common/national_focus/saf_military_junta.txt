@@ -521,9 +521,6 @@ focus_tree = {
 
 			hidden_effect = {
 			news_event = { id = old_times_news.7 days = 1 }
-				every_other_country = {
-					news_event = { id = old_times_news.7 days = 1 }
-				}
 			}
         }
 	}
@@ -535,7 +532,7 @@ focus_tree = {
 
 		prerequisite = {focus = SAF_late}
 		
-		allow_branch = {has_completed_focus = SAF_late}
+		allow_branch = {has_global_flag = anc_uprising_begun}
 		
 		cost = 1
 		ai_will_do = {
