@@ -655,6 +655,9 @@ country_event = {
 	white_peace = KOS
 	white_peace = MAC
 	}
+	BOS = {
+	transfer_state = 804
+	}
 	803 = {
 	set_demilitarized_zone = yes
 	}
