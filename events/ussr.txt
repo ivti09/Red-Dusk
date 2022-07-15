@@ -179,11 +179,7 @@ country_event = {
 		promote_character = SOV_dmitry_yazov
 		load_focus_tree = ussr_yazov_focus
 		news_event = { id = old_times_news.3 days = 1 }
-		hidden_effect = {
-			every_other_country = {
-			news_event = { id = old_times_news.3 days = 1 }
-			}
-		}
+
 	}
 		#Pugo#
 		option = {
@@ -191,11 +187,7 @@ country_event = {
 		retire_country_leader = yes
 		promote_character = SOV_boris_pugo
 		news_event = { id = old_times_news.4 days = 1 }
-		hidden_effect = {
-			every_other_country = {
-			news_event = { id = old_times_news.4 days = 1 }
-			}
-		}
+		load_focus_tree = ussr_pugo_focus
 	}
 		#no one lol#
 		option = { 
@@ -239,9 +231,6 @@ country_event = {
 		load_focus_tree = ussr_gorby_focus
 		news_event = { id = old_times_news.5 days = 1 }
 
-			every_other_country = {
-				news_event = { id = old_times_news.5 days = 1 }
-			}
 		
 	}
 }

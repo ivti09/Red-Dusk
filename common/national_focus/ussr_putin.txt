@@ -1191,7 +1191,7 @@
 			add_war_support = 0.1
 			add_stability = -0.05
 			swap_ideas = {
-				remove_idea = SOV_put_five
+				remove_idea = SOV_put_five4
 				add_idea = SOV_put_five7
 			} 
 		}
@@ -1215,8 +1215,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			production_speed_industrial_complex_factor = -0.02
-			industrial_capacity_factory = 0.02 
+			swap_ideas = {
+				remove_idea = SOV_put_five7
+				add_idea = SOV_put_five8
+			} 
 			571 = {
                 		add_extra_state_shared_building_slots = 2
 
@@ -1285,8 +1287,8 @@
 		continue_if_invalid = no
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = SOV_put_five7
-				add_idea = SOV_put_five8
+				remove_idea = SOV_put_five8
+				add_idea = SOV_put_five9
 			} 
 		}
 	}
