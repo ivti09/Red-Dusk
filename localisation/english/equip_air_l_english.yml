@@ -262,6 +262,8 @@
  SOV_strategic_bomber_equipment_0_short:0 "Tu-95"
  SOV_strategic_bomber_equipment_1:0 "Tupolev Tu-160"
  SOV_strategic_bomber_equipment_1_short:0 "Tu-160"
+ SOV_transport_plane_equipment_1:0 "Ilyushin Il-76"
+ SOV_transport_plane_equipment_1_short:0 "Il-76"
 
  SOV_heli_transport_equipment_0:0 "Mil Mi-8"
  SOV_heli_transport_equipment_0_short:0 "Mi-8"
@@ -330,6 +332,8 @@
  USA_stealth_bomber_equipment_0_short:0 "B-2"
  USA_stealth_bomber_equipment_1:0 "Northrop Grumman B-21"
  USA_stealth_bomber_equipment_1_short:0 "B-21"
+ USA_transport_plane_equipment_1:0 "Boeing C-17"
+ USA_transport_plane_equipment_1_short:0 "C-17"
 
  USA_heli_transport_equipment_0:0 "Bell UH-1"
  USA_heli_transport_equipment_0_short:0 "UH-1"
@@ -345,3 +349,31 @@
  USA_heli_attack_equipment_1_short:0 "AH-64A"
  USA_heli_attack_equipment_2:0 "Boeing AH-64D"
  USA_heli_attack_equipment_2_short:0 "AH-64D"
+
+# YUG #
+
+ YUG_attacker_equipment_0:0 "Soko J-21"
+ YUG_attacker_equipment_0_short:0 "J-21"
+ YUG_attacker_equipment_1:0 "Soko J-22"
+ YUG_attacker_equipment_1_short:0 "J-22"
+ YUG_heli_transport_equipment_1:0 "Soko HO-42"
+ YUG_heli_transport_equipment_1_short:0 "HO-42"
+ YUG_heli_attack_equipment_0:0 "Soko HN-42M Gama"
+ YUG_heli_attack_equipment_0_short:0 "HN-42M"
+
+# SAF #
+
+ SAF_fighter_equipment_2:0 "Atlas Cheetah E"
+ SAF_fighter_equipment_2_short:0 "Cheetah E"
+ SAF_fighter_equipment_3:0 "Atlas Cheetah C"
+ SAF_fighter_equipment_3_short:0 "Cheetah C"
+ SAF_fighter_equipment_4:0 "Atlas Carver"
+ SAF_fighter_equipment_4_short:0 "Carver"
+ SAF_attacker_equipment_0:0 "Impala Mk.I"
+ SAF_attacker_equipment_0_short:0 "Impala Mk.I"
+ SAF_attacker_equipment_1:0 "Impala Mk.II"
+ SAF_attacker_equipment_1_short:0 "Impala Mk.II"
+ SAF_heli_transport_equipment_2:0 "Atlas Oryx"
+ SAF_heli_transport_equipment_2_short:0 "Oryx"
+ SAF_heli_attack_equipment_2:0 "Denel Rooivalk"
+ SAF_heli_attack_equipment_2_short:0 "Rooivalk"

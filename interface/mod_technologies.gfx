@@ -1252,7 +1252,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_transport_plane_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/transport_plane_equipment.dds"
+		texturefile = "gfx/interface/technologies/generic_transport_plane.dds"
 	}
 
 	## Nation-Specific Aircraft ##
@@ -1362,6 +1362,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOV_strategic_bomber_1980_medium"
 		texturefile = "gfx/interface/technologies/SOV_strategic_bomber_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_transport_plane.dds"
 	}
 
 	SpriteType = {
@@ -1491,6 +1495,10 @@ spriteTypes = {
 		name = "GFX_USA_stealth_bomber_2020_medium"
 		texturefile = "gfx/interface/technologies/USA_stealth_bomber_2020.dds"
 	}
+	SpriteType = {
+		name = "GFX_USA_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/USA_transport_plane.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_USA_heli_transport_1960_medium"
@@ -1508,7 +1516,6 @@ spriteTypes = {
 		name = "GFX_USA_heli_transport_2010_medium"
 		texturefile = "gfx/interface/technologies/USA_heli_transport_2010.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_USA_heli_attack_1970_medium"
 		texturefile = "gfx/interface/technologies/USA_heli_attack_1970.dds"
@@ -1520,6 +1527,56 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_USA_heli_attack_2010_medium"
 		texturefile = "gfx/interface/technologies/USA_heli_attack_2010.dds"
+	}
+
+	# YUG #
+
+	SpriteType = {
+		name = "GFX_YUG_attacker_1960_medium"
+		texturefile = "gfx/interface/technologies/YUG_attacker_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_attacker_1970_medium"
+		texturefile = "gfx/interface/technologies/YUG_attacker_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_heli_transport_1970_medium"
+		texturefile = "gfx/interface/technologies/YUG_heli_transport_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_heli_attack_1970_medium"
+		texturefile = "gfx/interface/technologies/YUG_heli_attack_1970.dds"
+	}
+
+	# SAF #
+
+	SpriteType = {
+		name = "GFX_SAF_fighter_1980_medium"
+		texturefile = "gfx/interface/technologies/SAF_fighter_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_fighter_1990_medium"
+		texturefile = "gfx/interface/technologies/SAF_fighter_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_fighter_2000_medium"
+		texturefile = "gfx/interface/technologies/SAF_fighter_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_attacker_1960_medium"
+		texturefile = "gfx/interface/technologies/SAF_attacker_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_attacker_1970_medium"
+		texturefile = "gfx/interface/technologies/SAF_attacker_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_heli_transport_1990_medium"
+		texturefile = "gfx/interface/technologies/SAF_heli_transport_1990.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_heli_attack_2010_medium"
+		texturefile = "gfx/interface/technologies/SAF_heli_attack_2010.dds"
 	}
 
 	## Tank Tech Tree Icons ##
