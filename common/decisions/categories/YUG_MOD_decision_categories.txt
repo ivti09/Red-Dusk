@@ -25,10 +25,8 @@ yug_uprising = {
 	
 	visible = {
 		has_country_flag = yug_mass_rebellions
-		AND = {
-		country_exists = BOS
-		country_exists = KOS
-		country_exists = MAC
+		NOT = {
+		has_country_flag = yug_wars_reached_conclusion
 		}
 	}
 	priority = 250

@@ -81,7 +81,7 @@ focus_tree = {
 		id = motorization_effort
 		icon = GFX_goal_generic_army_motorized
 		prerequisite = { focus = army_effort }
-		bypass = { has_tech = motorised_infantry }
+		bypass = { }
 		x = 1
 		y = 1
 		relative_position_id = army_effort
@@ -92,11 +92,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = motorized_bonus
-				bonus = 3.0
-				technology = motorised_infantry
-			}
+			#add_tech_bonus = {
+			#	name = motorized_bonus
+			#	bonus = 3.0
+			#	technology = motorised_infantry
+			#}
 		}
 	}
 
@@ -258,18 +258,18 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = special_forces
-			add_tech_bonus = {
-				name = special_forces_bonus
-				bonus = 1.0
-				uses = 1
-				technology = paratroopers
-				technology = paratroopers2
-				technology = marines
-				technology = marines2
-				technology = tech_mountaineers
-				technology = tech_mountaineers2
-			}
+			#add_ideas = special_forces
+			#add_tech_bonus = {
+			#	name = special_forces_bonus
+			#	bonus = 1.0
+			#	uses = 1
+			#	technology = paratroopers
+			#	technology = paratroopers2
+			#	technology = marines
+			#	technology = marines2
+			#	technology = tech_mountaineers
+			#	technology = tech_mountaineers2
+			#}
 		}
 	}
 
@@ -377,13 +377,14 @@ focus_tree = {
 				name = fighter_bonus
 				bonus = 1.0
 				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
+				technology = fighter_1960
+				technology = fighter_1970
+				technology = fighter_1980
+				technology = fighter_1990
+				technology = fighter_2000
+				technology = fighter_2010
+				technology = stealth_fighter_2000
+				technology = stealth_fighter_2010
 			}
 		}
 	}
@@ -407,10 +408,11 @@ focus_tree = {
 				name = bomber_bonus
 				bonus = 1.0
 				uses = 2
-				technology = strategic_bomber1
-				technology = strategic_bomber2
-				technology = strategic_bomber3
-				category = tactical_bomber
+				technology = strike_bomber_1960
+				technology = strike_bomber_1980
+				technology = strategic_bomber_1960
+				technology = strategic_bomber_1980
+				technology = stealth_bomber_2000
 			}
 		}
 	}
@@ -523,8 +525,12 @@ focus_tree = {
 				name = CAS_bonus
 				bonus = 1.0
 				ahead_reduction = 2
-				uses = 1
-				category = cas_bomber
+				uses = 2
+				technology = attacker_1960
+				technology = attacker_1970
+				technology = attacker_1980
+				technology = attacker_1990
+				technology = attacker_2000
 			}
 		}
 	}
@@ -577,13 +583,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = nav_bomber_bonus
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 1
-				category = naval_bomber
-			}
+			#add_tech_bonus = {
+			#	name = nav_bomber_bonus
+			#	bonus = 1.0
+			#	ahead_reduction = 2
+			#	uses = 1
+			#	category = naval_bomber
+			#}
 		}
 	}
 
@@ -744,16 +750,16 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_doctrine_cost_reduction = {
-				name = sub_op_bonus
-				cost_reduction = 0.5
-				uses = 2
-				technology = convoy_interdiction_ti
-				technology = unrestricted_submarine_warfare
-				technology = wolfpacks
-				technology = advanced_submarine_warfare
-				technology = combined_operations_raiding
-			}
+			#add_doctrine_cost_reduction = {
+			#	name = sub_op_bonus
+			#	cost_reduction = 0.5
+			#	uses = 2
+			#	technology = convoy_interdiction_ti
+			#	technology = unrestricted_submarine_warfare
+			#	technology = wolfpacks
+			#	technology = advanced_submarine_warfare
+			#	technology = combined_operations_raiding
+			#}
 		}
 	}
 
@@ -786,12 +792,12 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_doctrine_cost_reduction = {
-				name = fleet_in_being_bonus
-				cost_reduction = 0.25
-				uses = 2
-				category = fleet_in_being_tree
-			}
+			#add_doctrine_cost_reduction = {
+			#	name = fleet_in_being_bonus
+			#	cost_reduction = 0.25
+			#	uses = 2
+			#	category = fleet_in_being_tree
+			#}
 		}
 	}
 

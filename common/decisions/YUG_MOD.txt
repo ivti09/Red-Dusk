@@ -454,24 +454,24 @@ yug_uprising = {
 	yug_timer_clock_uprising = {                          
 		allowed = {
 		}                
-          available = {    
+        available = {    
 			NOT = {country_exists = BOS}
 			NOT = {country_exists = KOS}
 			NOT = {country_exists = MAC}
-          }
+			
+        }
 		
-		activation = {                          
+		activation = {
+			NOT = {has_country_flag = yug_wars_reached_conclusion}
 			OR = {
 				has_country_flag = kos_uprising_started
 				has_country_flag = bos_uprising_started
 			}
 		}
 		visible = {
+			has_country_flag = yug_mass_rebellions
 			NOT = {
-				OR = {
-				has_country_flag = yug_defeated_rebels
-				has_country_flag = yug_defeated
-				}
+				has_country_flag = yug_wars_reached_conclusion
 			}
 		}
 		  
@@ -854,33 +854,6 @@ yug_opening_new_factories = {
 					instant_build = yes
 				}
 			}
-		}
-	}
-}
-
-yug_uprising = {
-
-	yug_timer_clock_war = {                          
-		allowed = { 
-		}                	
-		available = {    
-			has_country_flag = yug_defeated_rebels
-		}
-		activation = {                          
-			has_country_flag = kos_uprising_started
-			has_country_flag = bos_uprising_started
-			NOT = {
-				has_country_flag = yug_defeated
-			}
-		}
-		  
-		is_good = no
-		selectable_mission = no
-		days_mission_timeout = 160            
-		timeout_effect = {
-			country_event = { id = yug_rebel.1 } 
-		}
-		complete_effect = {
 		}
 	}
 }

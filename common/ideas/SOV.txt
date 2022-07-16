@@ -535,12 +535,38 @@ ideas = {
 			}
 
 			modifier = {
+			production_speed_arms_factory_factor = 0.02
+			production_speed_dockyard_factor = 0.03
+			production_speed_rail_way_factor = 0.02
+			consumer_goods_factor = 0.02
+			production_factory_efficiency_gain_factor = 0.03
+			industrial_capacity_factory = 0.06
+			production_speed_industrial_complex_factor = -0.02
+			
+			}
+
+		}
+		
+		SOV_put_five9 = {
+
+			name = SOV_put_five_name
+
+			removal_cost = -1
+
+			picture = SOV_Five_Year_Plan_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
 			production_speed_arms_factory_factor = 0.06
 			production_speed_dockyard_factor = 0.03
 			production_speed_rail_way_factor = 0.02
 			consumer_goods_factor = 0.05
 			production_factory_efficiency_gain_factor = 0.02
-			industrial_capacity_factory = 0.04
+			industrial_capacity_factory = 0.06
+			production_speed_industrial_complex_factor = -0.02
 			}
 
 		}
