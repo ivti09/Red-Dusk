@@ -6,7 +6,7 @@ set_research_slots = 2
 set_convoys = 25
 
 recruit_character = INS_abdurrahman_wahid
-
+add_ideas = SIA_asean
 set_popularities = {
 	democratic = 10
 	fascism = 10

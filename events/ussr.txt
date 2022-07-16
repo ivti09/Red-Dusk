@@ -22,7 +22,7 @@ country_event = {
 		
 		hidden_effect = {
 			SOV = {
-				country_event = { id = ussr_intro.2 }
+				country_event = { id = ussr_intro.2 days = 10 }
 			}
 		}
 	}
@@ -42,7 +42,7 @@ country_event = {
 		
 		hidden_effect = {
 			SOV = {
-				country_event = { id = ussr_intro.3 }
+				country_event = { id = ussr_intro.3 days = 10}
 			}
 		}
 	}
@@ -62,7 +62,7 @@ country_event = {
 		
 		hidden_effect = {
 			SOV = {
-				country_event = { id = ussr_intro.4 }
+				country_event = { id = ussr_intro.4 days = 10}
 			}
 		}
 	}
@@ -82,7 +82,7 @@ country_event = {
 		
 		hidden_effect = {
 			SOV = {
-				country_event = { id = ussr_intro.5 }
+				country_event = { id = ussr_intro.5 days = 10}
 			}
 		}
 	}

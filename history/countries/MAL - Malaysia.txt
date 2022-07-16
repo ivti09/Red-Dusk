@@ -7,7 +7,7 @@ set_research_slots = 3
 set_convoys = 25
 
 recruit_character = MAL_mahathir_mohamad
-
+add_ideas = SIA_asean
 set_popularities = {
 	democratic = 33
 	communism = 33

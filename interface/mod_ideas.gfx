@@ -216,6 +216,10 @@ spriteTypes = {
 		name = "GFX_idea_SIA_rama_ix"
 		texturefile = "gfx/interface/ideas/SIA_rama_IX.png"
 	}
+	spriteType = {
+		name = "GFX_idea_SIA_asean"
+		texturefile = "gfx/interface/ideas/ASEAN.png"
+	}
 
 	#SAF#
 	spriteType = {
