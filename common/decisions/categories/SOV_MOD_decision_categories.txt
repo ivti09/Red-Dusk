@@ -129,7 +129,8 @@ sov_the_new_perestroika = {
 
 
 sov_reinteg_decisions_via_peace = {
-	icon = GFX_decision_category_SOV_civil_war
+	icon = GFX_soviet_flag_with_fists_under_it
+	
 	
 	allowed = {
 		original_tag = SOV

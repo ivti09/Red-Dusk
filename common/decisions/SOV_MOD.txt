@@ -244,7 +244,6 @@ sov_building_industry_ural = {
 	}
 }
 
-###GORBACHEV###
 
 sov_building_factories_in_cities = {
 
@@ -1465,11 +1464,13 @@ sov_invade_china_decisions = {
 
 }
 
+###GORBACHEV###
+
 sov_reinteg_decisions_via_peace = {
 
 	sov_referandums_timeclock = {
 
-		icon = GFX_decision_generic_tank
+		icon = GFX_decision_generic_political_rally
 
 		allowed = {
 			original_tag = SOV
@@ -1537,7 +1538,7 @@ sov_reinteg_decisions_via_peace = {
 
 	sov_ref_apolagize_for_militarist_crimes = {
 
-		icon = GFX_decision_generic_tank
+		icon = GFX_decision_broken_tank
 
 		allowed = {
 			original_tag = SOV
@@ -1573,7 +1574,7 @@ sov_reinteg_decisions_via_peace = {
 	
 	sov_ref_compansate_victims = {
 
-		icon = GFX_decision_generic_tank
+		icon = GFX_decision_coins
 
 		allowed = {
 			original_tag = SOV
@@ -1609,7 +1610,7 @@ sov_reinteg_decisions_via_peace = {
 	
 	sov_ref_rally_communists = {
 
-		icon = GFX_decision_generic_tank
+		icon = GFX_red_flag_holding_hand
 
 		allowed = {
 			original_tag = SOV
@@ -1638,7 +1639,6 @@ sov_reinteg_decisions_via_peace = {
 		add_to_variable = { arm_ref_support = 5 }
 		add_to_variable = { lat_ref_support = 5 }
 		add_to_variable = { est_ref_support = 5 }
-			add_political_power = -50
 		}
 	}
 }

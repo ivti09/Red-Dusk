@@ -101,38 +101,38 @@
  finished_crackdown_chechenya:0 "§YHas finished anti-seperatist operations in Chechenya§!\n\n"
  finished_crackdown_ukraine:0 "§YHas finished anti-seperatist operations in Ukraine§!\n\n"
  
- decrase_var_stab_5:0 "§RDecrases §CStability § §RBy 5 Percent\n\n§!"
- decrase_var_stab_10:0 "§RDecrases §CStability § §RBy 10 Percent\n\n§!"
- decrase_var_stab_15:0 "§RDecrases §CStability § §RBy 15 Percent\n\n§!"
- decrase_var_stab_20:0 "§RDecrases §CStability § §RBy 20 Percent\n\n§!"
- decrase_var_stab_25:0 "§RDecrases §CStability § §RBy 25 Percent\n\n§!"
- decrase_var_stab_30:0 "§RDecrases §CStability § §RBy 30 Percent\n\n§!"
+ decrase_var_stab_5:0 "§Rdecreases §CStability § §RBy 5 Percent\n\n§!"
+ decrase_var_stab_10:0 "§Rdecreases §CStability § §RBy 10 Percent\n\n§!"
+ decrase_var_stab_15:0 "§Rdecreases §CStability § §RBy 15 Percent\n\n§!"
+ decrase_var_stab_20:0 "§Rdecreases §CStability § §RBy 20 Percent\n\n§!"
+ decrase_var_stab_25:0 "§Rdecreases §CStability § §RBy 25 Percent\n\n§!"
+ decrase_var_stab_30:0 "§Rdecreases §CStability § §RBy 30 Percent\n\n§!"
  
- incrase_var_stab_5:0 "§GIncrases §CStability § §GBy 5 Percent\n\n§!"
- incrase_var_stab_10:0 "§GIncrases §CStability § §GBy 10 Percent\n\n§!"
- incrase_var_stab_15:0 "§GIncrases §CStability § §GBy 15 Percent\n\n§!"
- incrase_var_stab_20:0 "§GIncrases §CStability § §GBy 20 Percent\n\n§!"
+ incrase_var_stab_5:0 "§GIncreases §CStability § §GBy 5 Percent\n\n§!"
+ incrase_var_stab_10:0 "§GIncreases §CStability § §GBy 10 Percent\n\n§!"
+ incrase_var_stab_15:0 "§GIncreases §CStability § §GBy 15 Percent\n\n§!"
+ incrase_var_stab_20:0 "§GIncreases §CStability § §GBy 20 Percent\n\n§!"
  
  sov_req_55_stab:0 "§YRequires At Least §C55 Percent Stability § §YTo take Action\n\n§!"
  
- decrase_var_res_5:0 "§GDecrases §RResistance § §GBy 5 Percent\n\n§!"
- decrase_var_res_10:0 "§GDecrases §RResistance § §GBy 10 Percent\n\n§!"
- decrase_var_res_15:0 "§GDecrases §RResistance § §GBy 15 Percent\n\n§!"
- decrase_var_res_20:0 "§GDecrases §RResistance § §GBy 20 Percent\n\n§!"
- decrase_var_res_25:0 "§GDecrases §RResistance § §GBy 25 Percent\n\n§!"
+ decrase_var_res_5:0 "§Gdecreases §RResistance § §GBy 5 Percent\n\n§!"
+ decrase_var_res_10:0 "§Gdecreases §RResistance § §GBy 10 Percent\n\n§!"
+ decrase_var_res_15:0 "§Gdecreases §RResistance § §GBy 15 Percent\n\n§!"
+ decrase_var_res_20:0 "§Gdecreases §RResistance § §GBy 20 Percent\n\n§!"
+ decrase_var_res_25:0 "§Gdecreases §RResistance § §GBy 25 Percent\n\n§!"
  
- incrase_var_res_5:0 "§RIncrases §RResistance § §RBy 5 Percent\n\n§!"
- incrase_var_res_10:0 "§RIncrases §RResistance § §RBy 10 Percent\n\n§!"
- incrase_var_res_15:0 "§RIncrases §RResistance § §RBy 15 Percent\n\n§!"
- incrase_var_res_25:0 "§RIncrases §RResistance § §RBy 25 Percent\n\n§!"
+ incrase_var_res_5:0 "§RIncreases §RResistance § §RBy 5 Percent\n\n§!"
+ incrase_var_res_10:0 "§RIncreases §RResistance § §RBy 10 Percent\n\n§!"
+ incrase_var_res_15:0 "§RIncreases §RResistance § §RBy 15 Percent\n\n§!"
+ incrase_var_res_25:0 "§RIncreases §RResistance § §RBy 25 Percent\n\n§!"
 
  ######SOVIET REFERANDUMS FOR REITEGRATIONS#### 
 
- sov_gorby_ref_incrase_by_5:0 "§GIncrases §CSupport In All Countries § §GBy 5 Percent\n\n§!"
- sov_gorby_ref_incrase_by_10:0 "§GIncrases §CSupport In All Countries § §GBy 10 Percent\n\n§!"
+ sov_gorby_ref_incrase_by_5:0 "§GIncreases §CSupport In All Countries §GBy §C5 §GPercent\n\n§!"
+ sov_gorby_ref_incrase_by_10:0 "§GIncreases §CSupport In All Countries §GBy §C10 §GPercent\n\n§!"
   
- sov_refs_succeeds:0 "§GReferandums Have Succeeded\n\n§!"
- sov_referandums_happened:0 "§YReferandums Have Been Hold\n\n§!"
+ sov_refs_succeeds:0 "§GReferendums Have Succeeded\n\n§!"
+ sov_referandums_happened:0 "§YReferendums Have Been Hold\n\n§!"
  SOV_referandums_decisions_start:0 "§YReferandums Have Been Organized\n\n§!"
  ###### BY ADDING "\n\n" AND ADDING "§W§" RIGHT AFTER IT AT THE END OF THE LOC WILL MAKE IT LOOK MORE CLEAN WHEN USING COLOUR -durango#######
  
