@@ -25,7 +25,7 @@ country_event = {
 	id = saf.9
 	title = saf.9.t
 	desc = saf.9.d
-	picture = GFX_report_event_SAF_mandela
+	picture = GFX_report_event_SAF_attack
 	
 	is_triggered_only = yes
 	
@@ -289,6 +289,22 @@ country_event = {
 	}
 }
 
+#Uncretain Future#
+country_event = {
+	id = saf.12
+	title = saf.12.t
+	desc = saf.12.d
+	picture = GFX_report_event_SAF_old_friends
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = saf.12.a	
+		add_political_power = 15
+	}
+}
+
 #Junta stays#
 country_event = {
 	id = saf.11
@@ -328,7 +344,7 @@ country_event = {
 		    declare_war_on = {
             type = annex_everything
             target = ANC
-        }
+            }
 		
 	}
 
@@ -347,6 +363,6 @@ country_event = {
             type = annex_everything
             target = ANC
             }
-        }
+            }
 	}
 }

@@ -66,12 +66,10 @@ spriteTypes = {
 		name = "GFX_report_event_ww3"
 		texturefile = "gfx/event_pictures/report_event_ww3.dds"
 	}
-	spriteType = {
-		name = "GFX_report_event_guard"
-		texturefile = "gfx/event_pictures/report_event_guard.dds"
-	}
 	
 	##USA##
+	
+	
 	
 	spriteType = {
 		name = "GFX_report_event_USA_liberty_statue"
@@ -182,6 +180,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_SAF_gas"
 		texturefile = "gfx/event_pictures/report_event_desperate_mesurse.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SAF_attack"
+		texturefile = "gfx/event_pictures/report_event_attack.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_SAF_old_friends"
+		texturefile = "gfx/event_pictures/report_event_old_friends.dds"
 	}
 	spriteType = {
 		name = "GFX_report_event_ANC_fire"

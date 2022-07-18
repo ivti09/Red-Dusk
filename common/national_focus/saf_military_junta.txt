@@ -23,6 +23,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			SAF = {
+				country_event = { id = saf.11 }
+			}
 			add_political_power = 20
 			add_stability = 0.03
 		}
@@ -264,6 +267,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
+			SAF = {
+				country_event = { id = saf.9 }
+			}
 		unlock_decision_category_tooltip = saf_deal_with_insurgents 
 		set_country_flag = saf_started_to_deal_with_insurgents
 		}
@@ -529,11 +535,11 @@ focus_tree = {
 		icon = GFX_focus_SAF_war
 		x = 15
 		y = 18
-
+		
 		prerequisite = {focus = SAF_late}
 		
 		allow_branch = {has_global_flag = anc_uprising_begun}
-		
+
 		cost = 1
 		ai_will_do = {
 			factor = 1
@@ -767,7 +773,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SAF_sun
-		icon = x
+		icon = GFX_focus_SAF_sun
 		x = 15
 		y = 24
 

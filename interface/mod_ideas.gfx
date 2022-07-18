@@ -216,10 +216,6 @@ spriteTypes = {
 		name = "GFX_idea_SIA_rama_ix"
 		texturefile = "gfx/interface/ideas/SIA_rama_IX.png"
 	}
-	spriteType = {
-		name = "GFX_idea_SIA_asean"
-		texturefile = "gfx/interface/ideas/ASEAN.png"
-	}
 
 	#SAF#
 	spriteType = {
@@ -250,8 +246,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ANC_kgb.dds"
 	}
 
-        #MONGOLIA#
-
+        #RANDOM COUNTRIES#
+	spriteType = {
+		name = "GFX_idea_SIA_asean"
+		texturefile = "gfx/interface/ideas/ASEAN.png"
+	}
+	
 	spriteType = {
 		name = "GFX_idea_MON_communism_icon"
 		texturefile = "gfx/interface/ideas/MON_communism.dds"
@@ -263,5 +263,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ETH_soviet_support_icon"
 		texturefile = "gfx/interface/ideas/ETH_soviet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_ostalgie_icon"
+		texturefile = "gfx/interface/ideas/GER_ostalgie.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_economy_icon"
+		texturefile = "gfx/interface/ideas/GER_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_queen_icon"
+		texturefile = "gfx/interface/ideas/ENG_queen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_common_icon"
+		texturefile = "gfx/interface/ideas/ENG_commonwealth.dds"
 	}
 }

@@ -1194,6 +1194,15 @@
  naval_gun_2020:0 "Naval Gun IV"
  naval_gun_2020_desc:0 "Mainly used for shore bombardment and anti-aircraft roles, these relics of the past have largely been replaced by guided missiles."
 
+ naval_helicopter_1960:0 "Naval Helicopter I"
+ naval_helicopter_1960_desc:0 "Helicopters allow for increase anti-submarine warfare capabilites, as well as expanding our supply and communication capabilties."
+ naval_helicopter_1980:0 "Naval Helicopter II"
+ naval_helicopter_1980_desc:0 "Helicopters allow for increase anti-submarine warfare capabilites, as well as expanding our supply and communication capabilties."
+ naval_helicopter_2000:0 "Naval Helicopter III"
+ naval_helicopter_2000_desc:0 "Helicopters allow for increase anti-submarine warfare capabilites, as well as expanding our supply and communication capabilties."
+ naval_helicopter_2020:0 "Naval Helicopter IV"
+ naval_helicopter_2020_desc:0 "Helicopters allow for increase anti-submarine warfare capabilites, as well as expanding our supply and communication capabilties."
+
  carrier_catapult_1960:0 "Steam Catapult I"
  carrier_catapult_1960_desc:0 "Steam catapults allow onboard aircraft to utilise their full capabilities, making no sacrifices in armaments or range. However, they are expensive to build and maintain, and are prone to breakdown in harsh conditions."
  carrier_catapult_1980:0 "Steam Catapult II"
@@ -1277,7 +1286,7 @@
  mod_cat_interceptor:0 "Interceptor models"
  mod_cat_helicopter:0 "Helicopter models"
  mod_cat_uav:0 "UAV models"
-
+ 
  heli_naval_1970:0 "1970s Naval Helicopter"
  heli_naval_1970_short:0 "Naval Heli I"
  heli_naval_1970_desc:0 "By creating a landing deck and hangar onboard our ships, we can expand the vessel's capabilities, with naval helicopters able to provide everything from transport to rescue to anti-submarine warfare."
@@ -1560,7 +1569,7 @@
  SOV_heli_naval_1970_short:0 "Ka-25"
  SOV_heli_naval_1990:0 "Kamov Ka-40"
  SOV_heli_naval_1990_short:0 "Ka-40"
-
+ 
  SOV_tank_ammo_1960:0 "3BM9"
  SOV_tank_ammo_1970:0 "3BM15"
  SOV_tank_ammo_1980:0 "3BM32"

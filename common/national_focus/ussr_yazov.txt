@@ -142,7 +142,7 @@
 	focus = {
 		id = SOV_reform_cpsu
 		icon = GFX_focus_SOV_reform_the_CPSU
-		x = 12
+		x = 13
 		y = 4
 		
 		
@@ -151,7 +151,7 @@
 	
 		mutually_exclusive = { }
 		
-		cost = 8.6
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -164,18 +164,49 @@
 			add_timed_idea = { idea = SOV_Yazov_reformed_cpsu days = 100}
 		}
 	}
+
+	focus = {
+		id = SOV_yazov_marshal_in_barracks
+		icon = GFX_focus_SOV_marshal_barrack
+		x = 11
+		y = 4
+		
+		
+		prerequisite = {focus = SOV_comrade_marshall_yazov } 
+
+	
+		mutually_exclusive = { }
+		
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 20
+			swap_ideas = {
+			remove_idea = SOV_Marshall_iron_order
+			add_idea = SOV_Marshall_iron_order_2
+                        }
+
+		}
+	}
 	
 	focus = {
 		id = SOV_yazov_keep_old_guard
 		icon = GFX_focus_SOV_keep_old_guard
-		x = 8
+		x = 9
 		y = 4
 		
 		
 		prerequisite = {focus = SOV_comrade_marshall_yazov } 
 		mutually_exclusive = { }
 		
-		cost = 8.6
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -188,6 +219,31 @@
 			add_timed_idea = { idea = SOV_Yazov_corrupt_officers_in_army days = 100 }
 		}
 	}
+
+	focus = {
+		id = SOV_yazov_sideline
+		icon = GFX_focus_SOV_sideline_pugo
+		x = 7
+		y = 4
+		
+		
+		prerequisite = {focus = SOV_comrade_marshall_yazov } 
+		mutually_exclusive = { }
+		
+		cost = 7
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = -50
+		}
+	}
 	
 	focus = {
 		id = SOV_yazov_incrase_military_funding
@@ -197,6 +253,8 @@
 
 		prerequisite = {focus = SOV_yazov_keep_old_guard } 
 		prerequisite = {focus = SOV_reform_cpsu } 
+		prerequisite = {focus = SOV_yazov_sideline } 
+		prerequisite = {focus = SOV_yazov_marshal_in_barracks } 
 		mutually_exclusive = { }
 		
 		cost = 4.3
@@ -369,6 +427,7 @@
 		completion_reward = {
 		add_stability = 0.03
 		remove_ideas = SOV_rising_separatism
+
 		}
 	}
 	
@@ -1721,7 +1780,8 @@
 		x = 25
 		y = 20
 
-		prerequisite = {focus = SOV_yazov_the_great_crusade focus = SOV_yazov_red_dragons_demise}
+		prerequisite = {focus = SOV_yazov_the_great_crusade}
+		prerequisite = {focus = SOV_yazov_red_dragons_demise}
 		
 		cost = 2.2
 		ai_will_do = {

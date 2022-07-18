@@ -6,7 +6,7 @@ set_convoys = 5
 
 recruit_character = PHI_Joseph_Estrada
 recruit_character = PHI_Gloria_Macapagal_Arroyo
-add_ideas = SIA_asean
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.9.15"

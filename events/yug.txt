@@ -630,8 +630,7 @@ country_event = {
 		name = yug_rebel.7.a
 		add_stability = 0.20
 		news_event = {id = yug_news.2}
-		set_country_flag = yug_defeated_rebels
-		set_country_flag = yug_wars_reached_conclusion
+		set_country_flag = yug_defeated_rebels	
 	}
 
 }
@@ -651,14 +650,10 @@ country_event = {
 	add_stability = -0.20
 	news_event = {id = yug_news.3}
 	set_country_flag = yug_defeated
-	set_country_flag = yug_wars_reached_conclusion
 	YUG = {
 	white_peace = BOS
 	white_peace = KOS
 	white_peace = MAC
-	}
-	BOS = {
-	transfer_state = 804
 	}
 	803 = {
 	set_demilitarized_zone = yes

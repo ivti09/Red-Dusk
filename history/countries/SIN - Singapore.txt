@@ -5,7 +5,7 @@ capital = 837
 set_convoys = 50
 
 recruit_character = SIN_sellapan_nathan
-add_ideas = SIA_asean
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

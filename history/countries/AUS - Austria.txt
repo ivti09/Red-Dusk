@@ -18,4 +18,6 @@ set_popularities = {
 
 recruit_character = AUS_viktor_klima
 
+add_ideas = GER_eu
+
 set_stability = 0.50
