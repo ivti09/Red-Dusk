@@ -18,6 +18,22 @@ ideas = {
 			}
 		}
 
+		SIA_asean = {
+			name = SIA_asean
+
+			removal_cost = -1
+
+			picture = SIA_asean
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.1
+				consumer_goods_factor = -0.02
+			}
+		}
+
 	}
 
 }

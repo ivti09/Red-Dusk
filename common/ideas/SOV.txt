@@ -186,7 +186,7 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_gain_factor = -0.01
+				political_power_factor = -0.01
 				stability_factor = -0.15
 			}
 		}
@@ -352,7 +352,7 @@ ideas = {
 
 			modifier = {
 			production_speed_industrial_complex_factor = 0.05
-			production_speed_docyard_factor = 0.03
+			production_speed_dockyard_factor = 0.03
 			production_speed_arms_factory_factor = -0.07
 			consumer_goods_factor = 0.05
 			production_factory_efficiency_gain_factor = -0.02
@@ -375,7 +375,7 @@ ideas = {
 
 			modifier = {
 			production_speed_industrial_complex_factor = 0.05
-			production_speed_docyard_factor = 0.03
+			production_speed_dockyard_factor = 0.03
 			production_speed_arms_factory_factor = -0.04
 			consumer_goods_factor = 0.08
 			production_factory_efficiency_gain_factor = -0.01
@@ -398,7 +398,7 @@ ideas = {
 
 			modifier = {
 			production_speed_industrial_complex_factor = -0.05
-			production_speed_docyard_factor = -0.05
+			production_speed_dockyard_factor = -0.05
 			production_speed_arms_factory_factor = -0.05
 			consumer_goods_factor = 0.05
 			production_factory_efficiency_gain_factor = 0.05
@@ -421,7 +421,7 @@ ideas = {
 
 			modifier = {
 			production_speed_industrial_complex_factor = -0.03
-			production_speed_docyard_factor = -0.03
+			production_speed_dockyard_factor = -0.03
 			production_speed_arms_factory_factor = -0.05
 			consumer_goods_factor = 0.08
 			production_factory_efficiency_gain_factor = 0.07
@@ -444,7 +444,7 @@ ideas = {
 
 			modifier = {
 			production_speed_industrial_complex_factor = 0.05
-			production_speed_docyard_factor = 0.03
+			production_speed_dockyard_factor = 0.03
 			production_speed_arms_factory_factor = -0.08
 			consumer_goods_factor = 0.1
 			production_factory_efficiency_gain_factor = 0.05
@@ -467,7 +467,7 @@ ideas = {
 
 			modifier = {
 			production_speed_industrial_complex_factor = -0.05
-			production_speed_docyard_factor = -0.06
+			production_speed_dockyard_factor = -0.06
 			production_speed_arms_factory_factor = -0.03
 			consumer_goods_factor = 0.04
 			production_factory_efficiency_gain_factor = 0.04
@@ -490,7 +490,7 @@ ideas = {
 
 			modifier = {
 			production_speed_industrial_complex_factor = -0.06
-			production_speed_docyard_factor = -0.06
+			production_speed_dockyard_factor = -0.06
 			production_speed_arms_factory_factor = 0.05
 			consumer_goods_factor = 0.03
 			production_factory_efficiency_gain_factor = 0.03

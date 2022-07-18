@@ -485,7 +485,7 @@
 		continue_if_invalid = no
 		completion_reward = {
 			add_stability = 0.3
-			add_political_power 25
+			add_political_power = 25
 		}
 	}
 	
@@ -531,7 +531,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		completion_reward = {
-			production_speed_industrial_complex_factor = 0.05
+			# production_speed_industrial_complex_factor = 0.05 ## This is a modifier, it can't be used in focus effects
 		}
 	}
 	
