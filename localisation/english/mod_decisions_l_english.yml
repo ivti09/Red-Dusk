@@ -1,4 +1,4 @@
-﻿Gorbachev has surprisingly decided to re-integrate the breakaway states with §Gfair and free referendums§W§  that will decide the union's future.\n\n§RHowever§W§  we still have a long way to go as the insane §gmilitarists§W§  had committed hideous acts against the breakaway states back in '91 we need to win the trust of the people if we want a truly equal Union\n\n§C>Support for rejoining the Union in \n\n>>Azerbaijan is [?azr_ref_support]%\n\n>>Armenia is [?arm_ref_support]%\n\n>>Latvia is [?lat_ref_support]%\n\n>>Estonia is [?est_ref_support]%§W§\n\n\nWe need over 50 percent support to win the referendums.l_english:
+﻿l_english:   
  sov_purging:0 "Purging The Enemies Of Our Union"
  sov_purging_desc:0 ""
  sov_purge_vladimir_kryuchkov:0 "Purge Vladimir Kryuchkov"
@@ -61,7 +61,7 @@
  sov_complete_project_red_dusk:0 "Complete project Red Dusk"
  
  sov_reinteg_decisions_via_peace:0 "Re-Integration referendums"
- sov_reinteg_decisions_via_peace_desc:0 "Gorbachev has surprisingly decided to re-integrate the breakaway states with §Gfair and free referendums§W§  that will decide the union's future.\n\n§RHowever§W§  we still have a long way to go as the insane §gmilitarists§W§  had committed hideous acts against the breakaway states back in '91 we need to win the trust of the people if we want a truly equal Union\n\n§C>Support for rejoining the Union in \n\n>>Azerbaijan is [?azr_ref_support]%\n\n>>Armenia is [?arm_ref_support]%\n\n>>Latvia is [?lat_ref_support]%\n\n>>Estonia is [?est_ref_support]%§W§\n\n\nWe need over 50 percent support to win the referendums."
+ sov_reinteg_decisions_via_peace_desc:0 "Gorbachev has surprisingly decided to re-integrate the breakaway states with §Gfair and free referendums§W§  that will decide the union's future.\n\n§RHowever§W§  we still have a long way to go as the insane §gmilitarists§W§  had committed hideous acts against the breakaway states back in '91 we need to win the trust of the people if we want a truly equal Union.\n\n§C>Support for rejoining the Union in ;\n\n>>Azerbaijan is [?azr_ref_support]%\n\n>>Armenia is [?arm_ref_support]%\n\n>>Latvia is [?lat_ref_support]%\n\n>>Estonia is [?est_ref_support]%§W§\n\n\nWe need over 50 percent support to win the referendums."
  sov_ref_apolagize_for_militarist_crimes:0 "Apologize For Militarist Crimes"
  sov_ref_compansate_victims:0 "Compensate Military Crackdown Victims"
  sov_ref_rally_communists:0 "Rally Communist Supporters"

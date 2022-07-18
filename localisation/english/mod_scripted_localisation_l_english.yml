@@ -133,7 +133,7 @@
   
  sov_refs_succeeds:0 "§GReferendums Have Succeeded\n\n§!"
  sov_referandums_happened:0 "§YReferendums Have Been Hold\n\n§!"
- SOV_referandums_decisions_start:0 "§YReferandums Have Been Organized\n\n§!"
+ SOV_referandums_decisions_start:0 "§YReferendums Have Been Organized\n\n§!"
  ###### BY ADDING "\n\n" AND ADDING "§W§" RIGHT AFTER IT AT THE END OF THE LOC WILL MAKE IT LOOK MORE CLEAN WHEN USING COLOUR -durango#######
  
  ########     \n\n§       ######
