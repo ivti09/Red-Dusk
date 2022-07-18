@@ -590,6 +590,48 @@
 # IRQ #
  IRQ_mbt_tank_equipment_3:0 "Lion of Babylon MBT"
  IRQ_mbt_tank_equipment_3_short:0 "Lion of Babylon"
+# YUG #
+ YUG_mbt_tank_equipment_2:0 "M-84 MBT"
+ YUG_mbt_tank_equipment_2_short:0 "M-84"
+ YUG_mbt_tank_equipment_3:0 "M-84A MBT"
+ YUG_mbt_tank_equipment_3_short:0 "M-84A"
+
+ YUG_ifv_tank_equipment_0:0 "BVP M-80 IFV"
+ YUG_ifv_tank_equipment_0_short:0 "M-80"
+ YUG_ifv_tank_equipment_1:0 "BVP M-80A1 IFV"
+ YUG_ifv_tank_equipment_1_short:0 "M-80A1"
+ YUG_ifv_tank_equipment_4:0 "BVP M-80AB1 IFV"
+ YUG_ifv_tank_equipment_4_short:0 "M-80AB1"
+
+ YUG_apc_tank_equipment_0:0 "OT M-60 APC"
+ YUG_apc_tank_equipment_0_short:0 "M-60"
+ YUG_apc_tank_equipment_2:0 "BOV M-86 APC"
+ YUG_apc_tank_equipment_2_short:0 "M-86"
+ YUG_apc_tank_equipment_5:0 "Lazar 3 APC"
+ YUG_apc_tank_equipment_5_short:0 "Lazar 3"
+
+ YUG_spaa_tank_equipment_1:0 "SPAT 30/2 SPAAG"
+ YUG_spaa_tank_equipment_1_short:0 "SPAT 30/2"
+# SAF #
+ SAF_mbt_tank_equipment_2:0 "Olifant Mk.1 MBT"
+ SAF_mbt_tank_equipment_2_short:0 "Olifant Mk.1"
+ SAF_mbt_tank_equipment_4:0 "Olifant Mk.2 MBT"
+ SAF_mbt_tank_equipment_4_short:0 "Olifant Mk.2"
+ SAF_mbt_tank_equipment_6:0 "Olifant Mk.3 MBT"
+ SAF_mbt_tank_equipment_6_short:0 "Olifant Mk.3"
+
+ SAF_ifv_tank_equipment_0:0 "Ratel IFV"
+ SAF_ifv_tank_equipment_0_short:0 "Ratel"
+
+ SAF_apc_tank_equipment_2:0 "Casspir APC"
+ SAF_apc_tank_equipment_2_short:0 "Casspir"
+
+ SAF_recon_vehicle_equipment_0:0 "Eland-90 Recon"
+ SAF_recon_vehicle_equipment_0_short:0 "Eland-90"
+ SAF_recon_vehicle_equipment_1:0 "Rooikat Recon"
+ SAF_recon_vehicle_equipment_1_short:0 "Rooikat"
+ SAF_recon_vehicle_equipment_2:0 "RG-32 Recon"
+ SAF_recon_vehicle_equipment_2_short:0 "RG-32"
 
 ## Infantry Equipment ##
  infantry_weapons:0 "Infantry Weapons"

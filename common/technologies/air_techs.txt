@@ -1810,4 +1810,173 @@ technologies = {
 
 	}
 
+## Drones ##
+
+	drone_recon_1980 = {
+
+		enable_equipments = {
+			drone_recon_equipment_0
+		}
+
+		path = {
+			leads_to_tech = drone_recon_1990
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 1980
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 6 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_uav
+		}
+
+	}
+
+	drone_recon_1990 = {
+
+		enable_equipments = {
+			drone_recon_equipment_1
+		}
+
+		path = {
+			leads_to_tech = drone_recon_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 1990
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 8 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_uav
+		}
+
+	}
+
+	drone_recon_2000 = {
+
+		enable_equipments = {
+			drone_recon_equipment_2
+		}
+
+		path = {
+			leads_to_tech = drone_recon_2020
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = drone_attack_2000
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 2000
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 10 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_uav
+		}
+
+	}
+
+	drone_recon_2020 = {
+
+		enable_equipments = {
+			drone_recon_equipment_3
+		}
+
+		path = {
+			leads_to_tech = drone_attack_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 2020
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 14 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_uav
+		}
+
+	}
+
+	drone_attack_2000 = {
+
+		enable_equipments = {
+			drone_attack_equipment_0
+		}
+
+		path = {
+			leads_to_tech = drone_attack_2020
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2000
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 10 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_uav
+		}
+
+	}
+
+	drone_attack_2020 = {
+
+		enable_equipments = {
+			drone_attack_equipment_1
+		}
+
+		research_cost = 2
+		start_year = 2020
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 14 }
+		}
+
+		ai_will_do = {
+		}
+
+		categories = {
+			air_equipment
+			mod_cat_uav
+		}
+
+	}
+
 }

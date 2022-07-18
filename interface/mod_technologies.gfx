@@ -1255,6 +1255,34 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/generic_transport_plane.dds"
 	}
 
+	## Drones ##
+
+	SpriteType = {
+		name = "GFX_drone_recon_1980_medium"
+		texturefile = "gfx/interface/technologies/generic_drone_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_drone_recon_1990_medium"
+		texturefile = "gfx/interface/technologies/generic_drone_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_drone_recon_2000_medium"
+		texturefile = "gfx/interface/technologies/generic_drone_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_drone_recon_2020_medium"
+		texturefile = "gfx/interface/technologies/generic_drone_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_drone_attack_2000_medium"
+		texturefile = "gfx/interface/technologies/generic_drone_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_drone_attack_2020_medium"
+		texturefile = "gfx/interface/technologies/generic_drone_2.dds"
+	}
+
 	## Nation-Specific Aircraft ##
 
 	# SOV #
@@ -1959,6 +1987,86 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/IRQ_mbt_tank_1990.dds"
 	}
 
+	## YUG ##
+
+	SpriteType = {
+		name = "GFX_YUG_mbt_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/YUG_mbt_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_mbt_tank_1990_medium"
+		texturefile = "gfx/interface/technologies/YUG_mbt_tank_1990.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_YUG_ifv_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/YUG_ifv_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_ifv_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/YUG_ifv_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_ifv_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/YUG_ifv_tank_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_YUG_apc_tank_1960_medium"
+		texturefile = "gfx/interface/technologies/YUG_apc_tank_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_apc_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/YUG_apc_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_apc_tank_2010_medium"
+		texturefile = "gfx/interface/technologies/YUG_apc_tank_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_YUG_spaa_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/YUG_spaa_tank_1980.dds"
+	}
+
+	## SAF ##
+
+	SpriteType = {
+		name = "GFX_SAF_mbt_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/SAF_mbt_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_mbt_tank_2000_medium"
+		texturefile = "gfx/interface/technologies/SAF_mbt_tank_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_mbt_tank_2020_medium"
+		texturefile = "gfx/interface/technologies/SAF_mbt_tank_2020.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SAF_ifv_tank_1970_medium"
+		texturefile = "gfx/interface/technologies/SAF_ifv_tank_1970.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SAF_apc_tank_1980_medium"
+		texturefile = "gfx/interface/technologies/SAF_apc_tank_1980.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SAF_recon_vehicle_1960_medium"
+		texturefile = "gfx/interface/technologies/SAF_recon_vehicle_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_recon_vehicle_1980_medium"
+		texturefile = "gfx/interface/technologies/SAF_recon_vehicle_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_recon_vehicle_2000_medium"
+		texturefile = "gfx/interface/technologies/SAF_recon_vehicle_2000.dds"
+	}
+
 	## Generic Armour Equipment ##
 
 	SpriteType = {
@@ -2250,6 +2358,93 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_USA_spaa_tank_equipment_0_medium"
 		texturefile = "gfx/interface/technologies/USA_spaa_tank_1960.dds"
+	}
+
+	# IRQ Armour Equipment #
+
+	SpriteType = {
+		name = "GFX_IRQ_mbt_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/IRQ_mbt_tank_1990.dds"
+	}
+
+	## YUG Armour Equipment ##
+
+	SpriteType = {
+		name = "GFX_YUG_mbt_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/YUG_mbt_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_mbt_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/YUG_mbt_tank_1990.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_YUG_ifv_tank_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/YUG_ifv_tank_1970.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_ifv_tank_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/YUG_ifv_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_ifv_tank_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/YUG_ifv_tank_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_YUG_apc_tank_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/YUG_apc_tank_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_apc_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/YUG_apc_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_apc_tank_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/YUG_apc_tank_2010.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_YUG_spaa_tank_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/YUG_spaa_tank_1980.dds"
+	}
+
+	## SAF Armour Equipment ##
+
+	SpriteType = {
+		name = "GFX_SAF_mbt_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SAF_mbt_tank_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_mbt_tank_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/SAF_mbt_tank_2000.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_mbt_tank_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/SAF_mbt_tank_2020.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SAF_ifv_tank_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/SAF_ifv_tank_1970.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SAF_apc_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SAF_apc_tank_1980.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SAF_recon_vehicle_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/SAF_recon_vehicle_1960.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_recon_vehicle_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/SAF_recon_vehicle_1980.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_recon_vehicle_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/SAF_recon_vehicle_2000.dds"
 	}
 
 	## Infantry Techs ##

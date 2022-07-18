@@ -205,6 +205,25 @@
  heli_attack_equipment_2_short:0 "Attack Heli III"
  heli_attack_equipment_2_desc:0 "With small portable anti-air missiles now commonly found among infantry, helicopters have become easy targets for enemy ground forces. Equipping them with countermeasures and new sensors will allow our attack helicopters to survive the modern battlefield by quickly detecting and evading any threats."
 
+ drone_equipment:0 "Drone"
+ drone_equipment_desc:0 "Smaller and cheaper than traditional aircraft, drones are able to perform reconnaissance and combat missions with the guidance of remote operators, preventing the potential loss of valuable pilots and having a more direct link with friendly ground forces."
+ drone_recon_equipment:0 "Reconnaissance Drone"
+ drone_recon_equipment_desc:0 "By attaching cameras to small, unmanned aircraft, live arial footage can be broadcast to friendly units, allowing them to have a higher degree of awareness of the battlespace and enabling our military to plan with a greater degree of certainty."
+ drone_attack_equipment:0 "Combat Drone"
+ drone_attack_equipment_desc:0 "While attack helicopters and aircraft continue to be effective forms of ground-force suppression, they are large and expensive, and therefore only used on high-value targets. Combat drones can perform identical support missions, but against lower-value targets such as small infantry groups or insurgents."
+ drone_recon_equipment_0:0 "1980s Reconnaissance Drone"
+ drone_recon_equipment_0_short:0 "Recon Drone I"
+ drone_recon_equipment_1:0 "1990s Reconnaissance Drone"
+ drone_recon_equipment_1_short:0 "Recon Drone II"
+ drone_recon_equipment_2:0 "2000s Reconnaissance Drone"
+ drone_recon_equipment_2_short:0 "Recon Drone III"
+ drone_recon_equipment_3:0 "2020s Reconnaissance Drone"
+ drone_recon_equipment_3_short:0 "Recon Drone IV"
+ drone_attack_equipment_0:0 "2000s Combat Drone"
+ drone_attack_equipment_0_short:0 "Combat Drone I"
+ drone_attack_equipment_1:0 "2020s Combat Drone"
+ drone_attack_equipment_1_short:0 "Combat Drone I"
+
 ## Nation-specific ##
 # SOV #
 
