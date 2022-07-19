@@ -13,8 +13,9 @@ set_convoys = 15
 
 recruit_character = SIA_chuan_leekpai
 
-add_ideas = SIA_rama_IX
 add_ideas = SIA_asean
+add_ideas = SIA_rama_IX
+
 
 set_politics = {
 	ruling_party = neutrality

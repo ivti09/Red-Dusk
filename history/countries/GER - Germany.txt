@@ -10,9 +10,9 @@ recruit_character = GER_udo_voigt_1
 recruit_character = GER_udo_voigt_2
 recruit_character = GER_egon_krenz
 
-add_ideas = GER_ostalgie
 add_ideas = GER_economy
 add_ideas = GER_eu
+add_ideas = GER_ostalgie
 
 set_politics = {
 	ruling_party = democratic
