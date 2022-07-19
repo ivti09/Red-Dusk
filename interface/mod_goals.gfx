@@ -924,7 +924,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_SOV_increase_ties_with_warsaw_pact"
-		texturefile = "gfx/interface/goals/SOV_increase_ties_with_warsaw_pact.dds"
+		texturefile = "gfx/interface/goals/SOV_increase_ties_with_warsaw_pact.png"
 	}
 	SpriteType = {
 		name = "GFX_SOV_increase_warsaw_pact_spending"
