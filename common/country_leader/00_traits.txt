@@ -92,7 +92,7 @@ leader_traits = {
 	chief_of_industry = {
 		random = no
 		industrial_capacity_factory = 0.05
-		production_speed_buildings_factor = 0.75
+		production_speed_buildings_factor = 0.075
 		
 		
 		ai_will_do = {

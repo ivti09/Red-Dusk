@@ -95,11 +95,33 @@ country_event = {
                     name = SAF_neutrality_party
                 }
 		load_focus_tree = saf_parliament_focus
+		
+		ai_chance = {
+		factor = 60
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = SAF_PATH
+				option = SAF_PARLIMENT_PATH_CHOSEN
+				}
+			}
+		}
 	}
         #Military#
 	option = {
 		name = saf.3.b	
 		load_focus_tree = saf_military_junta_focus
+				
+		ai_chance = {
+		factor = 75
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = SAF_PATH
+				option = SAF_MILITARY_PATH_CHOSEN
+				}
+			}
+		}
 	}
 }
 

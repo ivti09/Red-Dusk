@@ -1644,7 +1644,57 @@ sov_reinteg_decisions_via_peace = {
 }
 
 sov_rally_support_for_gorby = {
+	
+	sov_rallying_support_for_gorby_timeclock = {
 
+		icon = GFX_decision_generic_political_rally
+
+		allowed = {
+			original_tag = SOV
+		}
+		available = {
+			OR = {
+				has_country_flag = sov_gorby_got_couped
+				has_country_flag = gorby_secured_support
+			}
+		}
+		activation = {                          
+			has_country_flag = gorby_gathering_support_time
+			NOT = {
+				OR = {
+				has_country_flag = sov_gorby_got_couped
+				has_country_flag = gorby_secured_support
+				}
+			}
+		}
+		visible = {
+			original_tag = SOV
+			has_country_flag = gorby_gathering_support_time
+			NOT = {
+				OR = {
+					has_country_flag = sov_gorby_got_couped
+					has_country_flag = gorby_secured_support
+				}
+			}
+		}
+		
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		is_good = no
+        selectable_mission = no
+        days_mission_timeout = 100      
+
+		timeout_effect = {
+		country_event = {id = ussr.}
+		set_country_flag = sov_gorby_got_couped	
+		}
+		complete_effect = { 
+		add_stability = 0.01
+		}
+	}
+	
 	sov_gorby_gain_politbro_support = {
 
 		icon = category_generic_communism
@@ -1660,7 +1710,10 @@ sov_rally_support_for_gorby = {
 			original_tag = SOV
 			has_country_flag = gorby_gathering_support_time
 			NOT = {
-			has_country_flag = gorby_secured_support
+				OR = {
+				has_country_flag = gorby_secured_support
+				has_country_flag = sov_gorby_got_couped
+				}
 			}
 		}
 		days_remove = 7
@@ -1675,7 +1728,8 @@ sov_rally_support_for_gorby = {
 		complete_effect = { 
 		add_political_power = 15
 		add_stability = 0.05
-			
+		add_to_variable = { sov_gorby_support = 25 }	
+		custom_effect_tooltip = sov_gorby_support_incrase_by_25
 		}
 	}
 	
@@ -1694,10 +1748,13 @@ sov_rally_support_for_gorby = {
 			original_tag = SOV
 			has_country_flag = gorby_gathering_support_time
 			NOT = {
-			has_country_flag = gorby_secured_support
+				OR = {
+				has_country_flag = gorby_secured_support
+				has_country_flag = sov_gorby_got_couped
+				}
 			}
 		}
-		days_remove = 3
+		days_remove = 7
 		modifier {
 			political_power_cost = 0.50
 		}
@@ -1709,7 +1766,8 @@ sov_rally_support_for_gorby = {
 		remove_effect = { 
 			add_political_power = 10
 			add_stability = 0.02
-			
+			add_to_variable = { sov_gorby_support = 20 }
+			custom_effect_tooltip = sov_gorby_support_incrase_by_20
 		}
 	}
 	
@@ -1728,10 +1786,13 @@ sov_rally_support_for_gorby = {
 			original_tag = SOV
 			has_country_flag = gorby_gathering_support_time
 			NOT = {
-			has_country_flag = gorby_secured_support
+				OR = {
+				has_country_flag = gorby_secured_support
+				has_country_flag = sov_gorby_got_couped
+				}
 			}
 		}
-		days_remove = 3
+		days_remove = 7
 		modifier {
 			political_power_cost = 0.50
 		}
@@ -1743,7 +1804,8 @@ sov_rally_support_for_gorby = {
 		remove_effect = { 
 			add_political_power = 5
 			add_stability = -0.03
-			
+			add_to_variable = { sov_gorby_support = 15}
+			custom_effect_tooltip = sov_gorby_support_incrase_by_15
 		}
 	}
 	
@@ -1757,12 +1819,17 @@ sov_rally_support_for_gorby = {
 		available = {
 			original_tag = SOV
 			has_country_flag = gorby_gathering_support_time
+			custom_effect_tooltip = gorby_has_70_support
+			check_variable = { sov_gorby_support > 69 }
 		}
 		visible = {
 			original_tag = SOV
 			has_country_flag = gorby_gathering_support_time
 			NOT = {
-			has_country_flag = gorby_secured_support
+				OR = {
+				has_country_flag = gorby_secured_support
+				has_country_flag = sov_gorby_got_couped
+				}
 			}
 		}
 		
@@ -1772,7 +1839,7 @@ sov_rally_support_for_gorby = {
 			factor = 0
 		}
 		complete_effect = { 
-			set_country_flag = gorby_power_secured
+			set_country_flag = gorby_secured_support
 		}
 	}
 }

@@ -125,7 +125,17 @@
  incrase_var_res_10:0 "§RIncreases §RResistance § §RBy 10 Percent\n\n§!"
  incrase_var_res_15:0 "§RIncreases §RResistance § §RBy 15 Percent\n\n§!"
  incrase_var_res_25:0 "§RIncreases §RResistance § §RBy 25 Percent\n\n§!"
+ 
+ ####GORBACHEV######
 
+ sov_gorby_support_incrase_by_15:0 "§GIncreases §tSupport For Gorbachev §GBy §C15 §GPercent\n\n§!"
+ sov_gorby_support_incrase_by_20:0 "§GIncreases §tSupport For Gorbachev §GBy §C20 §GPercent\n\n§!"
+ sov_gorby_support_incrase_by_25:0 "§GIncreases §tSupport For Gorbachev §GBy §C25 §GPercent\n\n§!"
+ 
+ gorby_gathering_support_time:0 "§tGorbachev Has Begun Securing Support\n\n§!"
+ gorby_has_70_support:0 "§tGorbachev §YHas 70 Support\n\n§!"
+ gorby_secured_support:0 "§tGorbachev §GHas Secured Support\n\n§!"
+ sov_gorby_got_couped:0 "§tGorbachev §RHas Been Couped§!"
  ######SOVIET REFERANDUMS FOR REITEGRATIONS#### 
 
  sov_gorby_ref_incrase_by_5:0 "§GIncreases §CSupport In All Countries §GBy §C5 §GPercent\n\n§!"
