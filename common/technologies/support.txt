@@ -558,6 +558,10 @@ technologies = {
 			name = support_folder
 			position = { x = 0 y = 0 }
 		}
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 1 }
+		}
 
 		categories = {
 		}

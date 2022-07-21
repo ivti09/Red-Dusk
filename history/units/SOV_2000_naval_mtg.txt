@@ -349,10 +349,10 @@ units = {
 	}
 	fleet = {
 		name = "Kaspiyskaya Flotiliya"
-		naval_base = 9417 # Rostov #
+		naval_base = 757 # Astrakhan #
 		task_force = {
 			name = "Kaspiyskaya Flotiliya"
-			location = 9417 # Rostov #
+			location = 757 # Astrakhan #
 			ship = { name = "Yastreb" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Gepard Class (Pr. 11660)" } } }
 			ship = { name = "Golub" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Gepard Class (Pr. 11661K)" } } }
 			ship = { name = "Dyatel" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Gepard Class (Pr. 11661K)" } } }

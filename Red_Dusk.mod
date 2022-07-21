@@ -1,4 +1,4 @@
-version="0.1.21g"
+version="0.1.22a"
 tags={
 	"Alternative History"
 	"Events"

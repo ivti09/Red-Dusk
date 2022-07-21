@@ -227,8 +227,6 @@
 ## Nation-specific ##
 # SOV #
 
- SOV_transport_plane_equipment_1:0 "Ilyushin Il-76"
- SOV_transport_plane_equipment_1_short:0 "Il-76"
  SOV_fighter_equipment_0:0 "Mikoyan-Gurevich MiG-21"
  SOV_fighter_equipment_0_short:0 "MiG-21"
  SOV_fighter_equipment_1:0 "Mikoyan-Gurevich MiG-23"

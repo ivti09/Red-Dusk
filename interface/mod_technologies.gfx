@@ -2685,4 +2685,80 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/generic_train_2.dds"
 	}
 
+	## Artillery Techs ##
+
+	SpriteType = {
+		name = "GFX_towed_artillery_1960_medium"
+		texturefile = "gfx/interface/technologies/towed_artillery_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_towed_artillery_1980_medium"
+		texturefile = "gfx/interface/technologies/towed_artillery_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_towed_artillery_2000_medium"
+		texturefile = "gfx/interface/technologies/towed_artillery_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_towed_artillery_2020_medium"
+		texturefile = "gfx/interface/technologies/towed_artillery_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_motorised_artillery_1960_medium"
+		texturefile = "gfx/interface/technologies/motorised_artillery_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorised_artillery_1970_medium"
+		texturefile = "gfx/interface/technologies/motorised_artillery_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorised_artillery_1980_medium"
+		texturefile = "gfx/interface/technologies/motorised_artillery_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorised_artillery_1990_medium"
+		texturefile = "gfx/interface/technologies/motorised_artillery_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorised_artillery_2000_medium"
+		texturefile = "gfx/interface/technologies/motorised_artillery_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorised_artillery_2010_medium"
+		texturefile = "gfx/interface/technologies/motorised_artillery_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorised_artillery_2020_medium"
+		texturefile = "gfx/interface/technologies/motorised_artillery_7.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_rocket_artillery_1960_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_artillery_1970_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_artillery_1980_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_artillery_1990_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_artillery_2000_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_artillery_2010_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_artillery_2020_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery_7.dds"
+	}
 }

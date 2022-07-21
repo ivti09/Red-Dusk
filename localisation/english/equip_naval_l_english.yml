@@ -70,7 +70,3 @@
  amphibious_hull_2:1 "1980 Amphibious Assault Ship"
  amphibious_hull_3:1 "2000 Amphibious Assault Ship"
  amphibious_hull_4:1 "2020 Amphibious Assault Ship"
-
- convoy:0 "Convoy"
- convoy_desc:0 "Convoys used for international trade of goods and resources. Also used to ferry troops around and for performing naval invasions."
- convoy_1:0 "Convoy"
