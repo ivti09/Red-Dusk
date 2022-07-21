@@ -1,0 +1,218 @@
+ideas = {
+	
+	country = {
+	
+		SAF_apartheid_idea = {
+			name = SAF_apartheid_idea_name
+
+			removal_cost = -1
+
+			picture = SAF_apartheid_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				recruitable_population_factor = -0.5
+				stability_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.05
+			}
+		}
+
+		SAF_military_state_idea = {
+			name = SAF_military_state_idea_name
+
+			removal_cost = -1
+
+			picture = SAF_military_government_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+				political_power_gain = -1.5
+				training_time_factor = -0.1
+				promote_cost_factor = 0.25
+			}
+		}
+
+		SAF_military_state_2_idea = {
+			name = SAF_military_state_idea_name
+
+			removal_cost = -1
+
+			picture = SAF_military_government_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.2
+				political_power_gain = -2.0
+				training_time_factor = -0.2
+				promote_cost_factor = -0.05
+			}
+		}
+
+		SAF_military_state_3_idea = {
+			name = SAF_military_state_idea_name
+
+			removal_cost = -1
+
+			picture = SAF_military_government_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.1
+				political_power_gain = 0.5
+				training_time_factor = 0.1
+				promote_cost_factor = 0.05
+			}
+		}
+
+		SAF_anc_insurgency_idea = {
+			name = SAF_anc_insurgency_idea_name
+
+			removal_cost = -1
+
+			picture = SAF_anc_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				resistance_growth = 0.05
+			}
+		}
+
+		SAF_anc_insurgency_2_idea = {
+			name = SAF_anc_insurgency_idea_name
+
+			removal_cost = -1
+
+			picture = SAF_anc_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.03
+				resistance_growth = 0.03
+			}
+		}
+
+		SAF_cia_idea = {
+			name = SAF_cia_idea_name
+
+			removal_cost = -1
+
+			picture = SAF_cia_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.05
+				political_power_gain = 0.5
+				stability_factor = 0.15
+				intelligence_agency_defense = 0.10
+				foreign_subversive_activites = -0.10
+			}
+		}
+
+		SAF_gas_idea = {
+			name = SAF_gas_idea_name
+
+			removal_cost = -1
+
+			picture = IRQ_madness_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.05
+				political_power_gain = -0.1
+				stability_factor = -0.05
+				army_org_factor = -0.02
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.03
+			}
+		}
+
+		SAF_defence_idea = {
+			name = SAF_defence_idea_name
+
+			removal_cost = -1
+
+			#picture = x
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.2
+				army_core_defence_factor = 0.2
+				army_core_attack_factor = 0.2
+				stability_factor = -0.05
+				political_power_gain = -1.0
+				army_org_factor = 0.01
+			}
+		}
+
+
+		SAF_defence_2_idea = {
+			name = SAF_defence_idea_name
+
+			removal_cost = -1
+
+			#picture = x
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+				army_core_defence_factor = 0.3
+				army_core_attack_factor = 0.1
+				stability_factor = -0.1
+				political_power_gain = -2.0
+				army_org_factor = 0.02
+			}
+		}
+
+		SAF_money_idea = {
+			name = SAF_money_idea_name
+
+			removal_cost = -1
+
+			#picture = x
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.5
+				production_speed_buildings_factor = 0.2
+				stability_factor = -0.5
+			}
+		}
+
+	}
+
+}
