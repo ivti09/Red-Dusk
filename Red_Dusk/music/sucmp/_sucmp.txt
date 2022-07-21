@@ -3,8 +3,24 @@
 music_station = "SUCMP"
 
 
+#music = {
+#	song = "American_Idiot"
+#	chance = {
+#		modifier = {
+#			factor = 1
+#		}
+#	}
+#}
 music = {
-	song = "Auferstanden_aus_Ruinen"
+	song = "An_Escalation"
+	chance ={
+		modifier = {
+			factor =1
+		}
+	}
+}
+music = {
+	song = "Another_Life_(extended)"
 	chance = {
 		modifier = {
 			factor = 1
@@ -12,13 +28,21 @@ music = {
 	}
 }
 music = {
-	song = "battle_hymn_of_the_republic"
+	song = "Auferstanden_Aus_Ruinen"
 	chance = {
 		modifier = {
 			factor = 1
 		}
 	}
 }
+#music = {
+#	song = "Battle_Hymn_Of_The_Republic"
+#	chance = {
+#		modifier = {
+#			factor = 1
+#		}
+#	}
+#}
 music = {
 	song = "Campaign_Brief"
 	chance = {
@@ -52,7 +76,7 @@ music = {
 	}
 }
 music = {
-	song = "An_Escalation"
+	song = "Everybody_Wants_To_Rule_The_World_extended"
 	chance = {
 		modifier = {
 			factor = 1
@@ -60,7 +84,7 @@ music = {
 	}
 }
 music = {
-	song = "Eto_govorim_my"
+	song = "Eto_Govorim_My"
 	chance = {
 		modifier = {
 			factor = 1
@@ -69,6 +93,14 @@ music = {
 }
 music = {
 	song = "Freestyle_Goodbye_Forever"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Going_Back_To_My_Roots_(12'Version)"
 	chance = {
 		modifier = {
 			factor = 1
@@ -91,6 +123,14 @@ music = {
 		}
 	}
 }
+#music = {
+#	song = "Interstate_Love_Song"
+#	chance = {
+#		modifier = {
+#			factor = 1
+#		}
+#	}
+#}
 music = {
 	song = "Invincible_And_Legendary"
 	chance = {
@@ -108,13 +148,21 @@ music = {
 	}
 }
 music = {
-	song = "Kerber-Ratne_igre"
+	song = "Kerber-Ratne_Igre"
 	chance = {
 		modifier = {
 			factor = 1
 		}
 	}
 }
+#music = {
+#	song = "Lenin_is_Young_Again" 
+#	chance = {
+#		modifier = {
+#			factor = 1
+#		}
+#	}
+#}
 music = {
 	song = "Modern_Talking-Who_Will_Save_The_World"
 	chance = {
@@ -155,6 +203,13 @@ music = {
 		}
 	}
 }
+#music = {
+#	song = "Owner_Of_A_Broken_Heart_Extended"
+#	chance = {
+#		factor = 1
+#	}
+#}
+
 music = {
 	song = "Plan_in_Motion"
 	chance = {
@@ -172,7 +227,23 @@ music = {
 	}
 }
 music = {
-	song = "Prljavo_Kazaliste_Ne_zovi_mama_doktora"
+	song = "Prljavo_Kazaliste_Ne_Zovi_Mama_Doktora"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "Sacred_War"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "shotgun"
 	chance = {
 		modifier = {
 			factor = 1
@@ -187,8 +258,16 @@ music = {
 		}
 	}
 }
+#music = {
+#	song = "Soviet_Anthem_Pop_Version"
+#	chance = {
+#		modifier = {
+#			factor = 1
+#		}
+#	}
+#}
 music = {
-	song = "Soviet_Anthem_pop_version"
+	song = "Space_Forces"
 	chance = {
 		modifier = {
 			factor = 1
@@ -196,9 +275,25 @@ music = {
 	}
 }
 music = {
+	song = "Stop_This_Train"
+	chance = {
+		modifier = {
+			factor =1
+		}
+	}
+}
+music = {
 	song = "Swallowing_Dust"
 	chance = {
 		modifier = {
+			factor = 1
+		}
+	}
+}
+music = {
+	song = "To_Serve_Russia"
+	chance = {
+		modifier {
 			factor = 1
 		}
 	}

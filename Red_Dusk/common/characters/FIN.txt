@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = socialism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1
@@ -23,7 +23,22 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	FIN_vladimir_boldyrev = {
+		name = "Vladimir Boldyrev"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/Vladimir_Boldyrev.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1

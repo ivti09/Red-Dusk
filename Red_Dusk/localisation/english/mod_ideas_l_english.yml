@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  SOV_memories_of_perestroika_name:0 "Consequences of Perestroika"
  SOV_memories_of_perestroika_name_desc:0 "Memories and the consequences of Gorbachev's failed economic reforms, so called "Perestroika”, are still strong. Even though it has been more than 10 years, our economy still has not fully recovered. It will take a radical action to get us rid of its failures."
  SOV_memories_of_august_coup_name:0 "Memories of the August Coup"
@@ -192,9 +192,8 @@ l_english:
  SAF_cia_idea_name:0 "CIA Support"
  SAF_cia_idea_name_desc:0 "Even though the United States have refused to support us publicly, their president has authorized CIA to help us in our effort to save our country. Their operatives will provide us with training, weapons, and even intel about the enemy."
  SAF_gas_idea_name:0 "The Forbidden Weapons"
- SAF_gas_idea_name_desc:0 "Chemical weapons have proven themselves to be very effective. Even our troops experienced it during the World War 1. Now that our country is in grave danger from both internal and external enemies, we must use these weapons as our last defence." 
- SAF_money_idea_name:0 "Economic Recovery"
- SAF_money_idea_name_desc:0 ""
+ SAF_gas_idea_name_desc:0 "Chemical weapons have proven themselves to be very effective. Even our troops experienced it during the World War 1. Now that our country is in grave danger from both internal and external enemies, we must use these weapons as our last defence."
+
 
  ANC_boers_idea_name:0 "Boer Support"
  ANC_boers_idea_name_desc:0 ""
@@ -222,6 +221,6 @@ l_english:
  ETH_soviet_idea_name:0 "Soviet Support"
  ETH_soviet_idea_name_desc:0 ""
  MON_communism_idea_name:0 "Fading Communism"
- MON_communism_idea_name_desc:0 ""
+ MON_communism_idea_name_desc:0 "Despite being one of the first communist countries and the closest ally of the Soviet Union, communism in Mongolia has been fading away into obscurity. While the Communist Party still runs the country, the recent economic and societal changes indicate that even if communism stays in power, people wouldn't care. More and more, Mongolia turns to trade with China and its citizens turn to import of foreign clothes, music, magazines and everything else.\n\nSeems that communism has become nothing more than a meaningless label to just keep good relations with Moscow."
  MON_split_idea_name:0 "Between Two Bears"
- MON_split_idea_name_desc:0 ""
+MON_split_idea_name_desc:0 "Mongolia's geographic position has put it in the middle of the power struggle between two communist rivals. The hardline USSR and more reformist PRC. If we wish to keep our country stable and in peace, we must carefully balance the influences of these two giants that border us."

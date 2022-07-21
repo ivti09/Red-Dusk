@@ -66,7 +66,7 @@ sub_units = {
 		sprite = medium_plane
 		priority = 4
 		active = yes
-		type = { strike_bomber }
+		type = { tactical_bomber }
 		need = { strike_bomber_equipment = 1 }
 		categories = { category_bomber }
 	}
@@ -84,7 +84,7 @@ sub_units = {
 		sprite = medium_plane
 		priority = 4
 		active = yes
-		type = { stealth_bomber }
+		type = { tactical_bomber }
 		need = { stealth_bomber_equipment = 1 }
 		categories = { category_bomber }
 	}

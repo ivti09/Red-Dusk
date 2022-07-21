@@ -5,6 +5,7 @@ state = {
 	manpower = 21795
 	
 	state_category = rural
+	impassable = yes
 	
 	resources = {
 		oil = 7 # was: 8

@@ -1,0 +1,474 @@
+air_wings = {
+	## NAME CARRIER AIR WINGS
+	409 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		transport_plane_equipment_1 = {
+			owner = "SOV" 
+			amount = 25
+		}
+	}
+
+	657 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		strategic_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		strategic_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 31
+		}
+	}
+
+	408 = {
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 30
+		}
+	}
+
+	192 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 53
+		}
+	}
+
+	808 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 35
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 49
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 47
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+	}
+
+	95 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 29
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 32
+		}
+	}
+
+	94 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 51
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 29
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 32
+		}
+	}
+
+	231 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 35
+		}
+		fighter_equipment_1 = {
+			owner = "SOV" 
+			amount = 44
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 28
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 29
+		}
+	}
+
+	229 = {
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+	}
+
+	61 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 31
+		}
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 31
+		}
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 31
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 39
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 22
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 32
+		}
+	}
+
+	60 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 31
+		}
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 31
+		}
+	}
+
+	65 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 32
+		}
+	}
+
+	64 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 37
+		}
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 31
+		}
+		fighter_equipment_1 = {
+			owner = "SOV" 
+			amount = 36
+		}
+	}
+
+	563 = {
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		fighter_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+	}
+
+	43 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 34
+		}
+	}
+
+	154 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 23
+		}
+	}
+
+	242 = {
+		transport_plane_equipment_1 = {
+			owner = "SOV" 
+			amount = 25
+		}
+	}
+
+	193 = {
+		strike_bomber_equipment_1 = {
+			owner = "SOV" 
+			amount = 18
+		}
+		fighter_equipment_1 = {
+			owner = "SOV" 
+			amount = 42
+		}
+		fighter_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 40
+		}
+	}
+
+	201 = {
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 34
+		}
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 30
+		}
+	}
+
+	206 = {
+		strike_bomber_equipment_1 = {
+			owner = "SOV" 
+			amount = 20
+		}
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 23
+		}
+	}
+
+	13 = {
+		strike_bomber_equipment_1 = {
+			owner = "SOV" 
+			amount = 18
+		}
+		strike_bomber_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		strike_bomber_equipment_1 = {
+			owner = "SOV" 
+			amount = 19
+		}
+	}
+
+	589 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 40
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 40
+		}
+		fighter_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+	}
+
+	830 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+	}
+
+	66 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+	}
+
+	86 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 35
+		}
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 32
+		}
+		fighter_equipment_1 = {
+			owner = "SOV" 
+			amount = 39
+		}
+	}
+
+	89 = {
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 39
+		}
+		fighter_equipment_2 = {
+			owner = "SOV" 
+			amount = 30
+		}
+	}
+
+	93 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+	}
+
+	91 = {
+		attacker_equipment_2 = {
+			owner = "SOV" 
+			amount = 34
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+	}
+
+	199 = {
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 29
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		attacker_equipment_1 = {
+			owner = "SOV" 
+			amount = 30
+		}
+	}
+
+	566 = {
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 30
+		}
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 30
+		}
+	}
+
+	588 = {
+		strike_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 13
+		}
+		strategic_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 27
+		}
+	}
+
+	217 = {
+		strategic_bomber_equipment_0 = {
+			owner = "SOV" 
+			amount = 22
+		}
+		strategic_bomber_equipment_1 = {
+			owner = "SOV" 
+			amount = 21
+		}
+	}
+}

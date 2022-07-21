@@ -5,6 +5,15 @@ set_convoys = 200
 set_stability = 0.75 
 set_war_support = 0.3
 
+recruit_character = GER_gerhard_schroder
+recruit_character = GER_udo_voigt_1
+recruit_character = GER_udo_voigt_2
+recruit_character = GER_egon_krenz
+
+add_ideas = GER_economy
+add_ideas = GER_eu
+add_ideas = GER_ostalgie
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.3.5"
@@ -16,8 +25,3 @@ set_popularities = {
 	fascism = 5
 	communism = 15
 }
-
-recruit_character = GER_gerhard_schröder
-recruit_character = GER_udo_voigt_1
-recruit_character = GER_udo_voigt_2
-recruit_character = GER_egon_krenz

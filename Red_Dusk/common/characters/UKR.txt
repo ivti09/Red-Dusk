@@ -14,5 +14,20 @@ characters = {
 			id = -1
 		}
 	}
+	
+	UKR_petro_symonenko = {
+		name = "Petro Symonenko"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UKR/petro_symonenko.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
 
 }

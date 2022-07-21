@@ -1,0 +1,25 @@
+ideas = {
+	
+	country = {
+	
+		ETH_soviet = {
+			name = ETH_soviet_idea_name
+
+			removal_cost = -1
+
+			picture = ETH_soviet_support_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.05
+				political_power_gain = -0.05
+				production_factory_start_efficiency_factor = 0.05
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.05
+			}
+		}
+	}
+}

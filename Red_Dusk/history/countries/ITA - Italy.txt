@@ -6,6 +6,11 @@ set_war_support = 0.7
 
 set_convoys = 200
 
+recruit_character = ITA_carlo_ciampi
+recruit_character = ITA_roberto_fiore
+
+add_ideas = GER_eu
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1934.3.26"
@@ -17,6 +22,3 @@ set_popularities = {
 	fascism = 22
 	communism = 2
 }
-
-recruit_character = ITA_carlo_ciampi
-recruit_character = ITA_roberto_fiore

@@ -4,6 +4,9 @@ set_convoys = 5
 
 add_ideas = SYR_oil_producers
 
+recruit_character = SYR_hafez_al_assad
+recruit_character = SYR_bashar_al_assad
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"
@@ -15,6 +18,3 @@ set_popularities = {
 	fascism = 80
 	communism = 5
 }
-
-recruit_character = SYR_hafez_al_assad
-recruit_character = SYR_bashar_al_assad

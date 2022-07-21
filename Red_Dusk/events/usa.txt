@@ -1,4 +1,6 @@
 add_namespace = usa
+add_namespace = usa_quayle
+add_namespace = usa_help
 
 country_event = { #The State of the Union#
 	id = usa.1
@@ -84,5 +86,68 @@ country_event = { #Where Are We Now?#
 	
 	option = {
 		name = usa.5.a		
+	}
+}
+
+###QUAYLE###
+
+country_event = { #ailing quayle#
+	id = usa_quayle.1
+	title = usa_quayle.1.t
+	desc = usa_quayle.1.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_quayle.1.a		
+	}
+}
+
+country_event = { #The Stimulus Arrives?#
+	id = usa_quayle.2
+	title = usa_quayle.2.t
+	desc = usa_quayle.2.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_quayle.2.a		
+	}
+}
+
+
+country_event = { #Quayle's Qualms#
+	id = usa_quayle.3
+	title = usa_quayle.3.t
+	desc = usa_quayle.3.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_quayle.3.a		
+	}
+}
+
+ ###SAF NEEDS HELP###
+
+country_event = { 
+	id = usa_help.1
+	title = usa_help.1.t
+	desc = usa_help.1.d
+	picture = GFX_report_event_USA_2000
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_help.1.a		
+	}
+	option = {
+		name = usa_help.1.b
+			SAF = {
+				country_event = { id = saf_help.1 }
+			}		
 	}
 }

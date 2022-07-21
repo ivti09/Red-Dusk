@@ -1,0 +1,18 @@
+characters = {
+
+	GUA_alfonso_portillo = {
+		name = "Alfonso Portillo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South_America/Alfonso_Portillo.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

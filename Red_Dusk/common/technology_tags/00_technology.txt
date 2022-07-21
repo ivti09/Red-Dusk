@@ -99,6 +99,8 @@ technology_categories = {
 	mod_cat_stealth
 	mod_cat_naval_aircraft
 	mod_cat_interceptor
+	mod_cat_helicopter
+	mod_cat_uav
 }
 
 technology_folders = {
@@ -110,17 +112,6 @@ technology_folders = {
 	}
 	armour_folder = {
 		ledger = army
-		available = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
-	}
-	nsb_armour_folder = {
-		ledger = army
-		available = {
-			has_dlc = "No Step Back"
-		}
 	}
 	artillery_folder = {
 		ledger = army
@@ -158,7 +149,6 @@ technology_folders = {
 	electronics_folder = {
 		ledger = civilian
 	}
-	#secret_weapons_folder
 }
 
  

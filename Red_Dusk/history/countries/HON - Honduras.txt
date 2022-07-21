@@ -5,11 +5,13 @@
 set_war_support = 0.1
 set_convoys = 10
 
+recruit_character = HON_carlosflores
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.10.28"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 100

@@ -2,15 +2,17 @@
 
 #oob = "BRA_1936"
 
+recruit_character = BRA_fernando_henrique
+
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1934.7.17"
+	ruling_party = democratic
+	last_election = "200.7.17"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	democratic = 100
 }
 
 set_convoys = 40

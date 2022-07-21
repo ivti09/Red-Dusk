@@ -53,9 +53,20 @@
  battlecruiser_hull_desc:0 "Some of the deadliest warships to ever exist, modern battlecruisers are extremely rare and expensive, but are more than capable of destroying entire task forces."
  battlecruiser_hull_1:1 "1980 Battlecruiser Hull"
 
- carrier_hull:0 "Carrier Submarine"
+ carrier_hull:0 "Carrier"
  carrier_hull_desc:0 "A capital ship able to carry wings of powerful carrier-capable aircraft into battle. These vessels have become the flagships of most major navies."
  carrier_hull_1:1 "1960 Carrier Hull"
  carrier_hull_2:1 "1980 Carrier Hull"
  carrier_hull_3:1 "2000 Carrier Hull"
  carrier_hull_4:1 "2020 Carrier Hull"
+
+ battleship_hull:0 "Battleship"
+ battleship_hull_desc:0 "Built during the height of the Second World War, battleships represented the peak of naval power and capability. However even during the war, their obsolescence would be forshadowed with the success of aircraft carriers. Now, only a few remain in mostly ceremonial service."
+ battleship_hull_1:1 "1940 Battleship Hull"
+
+ amphibious_hull:0 "Amphibious Assault Ship"
+ amphibious_hull_desc:0 "Large vessels built to support ground forces and naval invasions, these ships are equipped with a variaty of airborne and naval support craft, as well as ample space for troops and supplies."
+ amphibious_hull_1:1 "1960 Amphibious Assault Ship"
+ amphibious_hull_2:1 "1980 Amphibious Assault Ship"
+ amphibious_hull_3:1 "2000 Amphibious Assault Ship"
+ amphibious_hull_4:1 "2020 Amphibious Assault Ship"

@@ -1,0 +1,96 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "usa_decision_ui_congress_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 700 }
+
+		instantTextBoxType = {
+			name ="senate_header"
+			position = { x = 20 y = 20 }
+			font = "hoi_24header"
+			text = "USA_congress_senate_header"
+			format = center
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="house_header"
+			position = { x= 280 y = 20 }
+			font = "hoi_24header"
+			text = "USA_congress_house_header"
+			format = center
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="senate_total_support"
+			position = { x = 20 y = 45 }
+			font = "hoi_18mbs"
+			text = "USA_congress_senate_total_support"
+			format = center
+		}
+		instantTextBoxType = {
+			name ="house_total_support"
+			position = { x = 280 y = 45 }
+			font = "hoi_18mbs"
+			text = "USA_congress_house_total_support"
+			format = center
+		}
+
+		instantTextBoxType = {
+			name ="senate_parties"
+			position = { x = 35 y = 90 }
+			font = "hoi_18mbs"
+			text = "USA_congress_senate_parties"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="house_parties"
+			position = { x = 295 y = 90 }
+			font = "hoi_18mbs"
+			text = "USA_congress_house_parties"
+			format = left
+		}
+
+		instantTextBoxType = {
+			name ="party_attitudes_header"
+			position = { x = 20 y = 200 }
+			font = "hoi_24header"
+			text = "USA_congress_party_attitudes_header"
+			format = center
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="party_attitudes"
+			position = { x = 35 y = 240 }
+			font = "hoi_18mbs"
+			text = "USA_congress_party_attitudes"
+			format = left
+		}
+		instantTextBoxType = {
+			name ="party_attitudes_descriptions"
+			position = { x = 35 y = 310 }
+			font = "hoi_16mbs"
+			text = "USA_congress_party_attitudes_descriptions"
+			format = left
+			maxWidth = 220
+		}
+
+		instantTextBoxType = {
+			name ="government_type_header"
+			position = { x = 280 y = 200 }
+			font = "hoi_24header"
+			text = "USA_congress_government_type_header"
+			format = center
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="government_type"
+			position = { x = 280 y = 260 }
+			font = "hoi_18mbs"
+			text = "USA_congress_government_type"
+			format = centre
+		}
+
+	}
+}

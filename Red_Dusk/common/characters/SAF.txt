@@ -15,4 +15,123 @@ characters = {
 		}
 	}
 
+	SAF_parliament = {
+		name = "South African Parliament"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/saf_parliament.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	SAF_de_klerk = {
+		name = "Frederik Willem de Klerk"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/Frederik_Willem_de_Klerk.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+    ###generals###
+
+	SAF_constand_viljoen_general = {
+		name = "Constand Viljoen"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAF/gamer.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SAF_georg_meiring = {
+		name = "Georg Meiring"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAF/Georg_Meiring.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	SAF_daniel_knobel = {
+		name = "Daniel Knobel"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAF/Daniel_Knobel.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SAF_johannes_geldenhuys = {
+		name = "Johannes Geldenhuys"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAF/Johannes_Geldenhuys.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SAF_roy_anderson = {
+		name = "Roy Anderson"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAF/Roy_Anderson.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
 }

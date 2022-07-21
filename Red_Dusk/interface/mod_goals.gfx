@@ -1,0 +1,1086 @@
+spriteTypes = {	
+
+	## MOD FOCUS ##
+
+	SpriteType = {
+		name = "GFX_focus_SOV_status_of_union"
+		texturefile = "gfx/interface/goals/focus_SOV_status_of_union.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_economy_report"
+		texturefile = "gfx/interface/goals/focus_SOV_economy_report.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_SOV_yanayev_final_weeks"
+		texturefile = "gfx/interface/goals/focus_SOV_yanayev_final_weeks.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_SOV_defund_military"
+		texturefile = "gfx/interface/goals/focus_SOV_defund_military.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_SOV_economic_reforms"
+		texturefile = "gfx/interface/goals/focus_SOV_economic_reforms.png"
+	}	
+	SpriteType = {
+		name = "GFX_focus_SOV_yanayevs_resignation"
+		texturefile = "gfx/interface/goals/focus_SOV_yanayevs_resignation.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_party_meeting"
+		texturefile = "gfx/interface/goals/focus_SOV_party_meeting.png"
+	}
+	SpriteType = {
+		name = "generic_soc_market"
+		texturefile = "gfx/interface/goals/generic_soc_market.png"
+	}
+	
+	###YAZOV###
+	
+	
+	SpriteType = {
+		name = "GFX_focus_SOV_chairman_yazov"
+		texturefile = "gfx/interface/goals/SOV_Chairman_Yazov.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_marshal_yazov"
+		texturefile = "gfx/interface/goals/focus_SOV_marshal_Yazov.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_eliminate_gorbachev"
+		texturefile = "gfx/interface/goals/focus_SOV_Eliminate_Gorbachev.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_trial_of_the_traitors"
+		texturefile = "gfx/interface/goals/focus_SOV_trial_of_the_traitors.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_secure_the_chairman_position"
+		texturefile = "gfx/interface/goals/focus_SOV_secure_the_chairman_position.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_great_industry"
+		texturefile = "gfx/interface/goals/focus_SOV_great_industry.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_infrastructure_initiative"
+		texturefile = "gfx/interface/goals/focus_SOV_infrastructure_initiative.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_matter_of_economy"
+		texturefile = "gfx/interface/goals/focus_SOV_matter_of_economy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_ural_industry"
+		texturefile = "gfx/interface/goals/focus_SOV_ural_industry.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_expand_produciton"
+		texturefile = "gfx/interface/goals/focus_SOV_expand_produciton.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Military_Reinassence"
+		texturefile = "gfx/interface/goals/focus_SOV_Military_Reinassence.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_army_first"
+		texturefile = "gfx/interface/goals/focus_SOV_army_first.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_expand_supply"
+		texturefile = "gfx/interface/goals/focus_SOV_expand_supply.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_fix_gorby_mess"
+		texturefile = "gfx/interface/goals/focus_SOV_fix_gorby_mess.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_military_cities"
+		texturefile = "gfx/interface/goals/focus_SOV_military_cities.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_reform_the_CPSU"
+		texturefile = "gfx/interface/goals/focus_SOV_reform_the_CPSU.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_army_might"
+		texturefile = "gfx/interface/goals/focus_SOV_army_might.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_old_tatic"
+		texturefile = "gfx/interface/goals/focus_SOV_old_tatic.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Ustinov_Legacy"
+		texturefile = "gfx/interface/goals/focus_SOV_Ustinov_Legacy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Armoured_Giant"
+		texturefile = "gfx/interface/goals/focus_SOV_Armoured_Giant.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_new_military_idea"
+		texturefile = "gfx/interface/goals/focus_SOV_new_military_idea.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Shoigu_New_Staff"
+		texturefile = "gfx/interface/goals/focus_SOV_Shoigu_New_Staff.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_army_reform"
+		texturefile = "gfx/interface/goals/focus_SOV_army_reform.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Invincible_and_Legendary"
+		texturefile = "gfx/interface/goals/focus_SOV_Invincible_and_Legendary.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_keep_old_guard"
+		texturefile = "gfx/interface/goals/focus_SOV_keep_old_guard.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_crack_nationalism"
+		texturefile = "gfx/interface/goals/focus_SOV_crack_nationalism.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_crush_lith"
+		texturefile = "gfx/interface/goals/focus_SOV_crush_lith.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_crackdown_ukraine"
+		texturefile = "gfx/interface/goals/focus_SOV_crackdown_ukraine.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_chechnia_secured"
+		texturefile = "gfx/interface/goals/focus_SOV_chechnia_secured.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_prep_future"
+		texturefile = "gfx/interface/goals/focus_SOV_prep_future.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_little_traitor"
+		texturefile = "gfx/interface/goals/focus_SOV_little_traitor.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Unification_talk"
+		texturefile = "gfx/interface/goals/focus_SOV_Unification_talk.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_prepare_Invitable"
+		texturefile = "gfx/interface/goals/focus_SOV_prepare_Invitable.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_stalin_war_plan"
+		texturefile = "gfx/interface/goals/focus_SOV_stalin_war_plan.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_legacy_of_warsaw_pact"
+		texturefile = "gfx/interface/goals/focus_SOV_legacy_of_warsaw_pact.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_extreme_planning"
+		texturefile = "gfx/interface/goals/focus_SOV_extreme_planning.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Pressure_US"
+		texturefile = "gfx/interface/goals/focus_SOV_Pressure_US.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_rebirth_of_warsaw_pact"
+		texturefile = "gfx/interface/goals/focus_SOV_rebirth_of_warsaw_pact.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_super_power"
+		texturefile = "gfx/interface/goals/focus_SOV_super_power.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_isolate_czech"
+		texturefile = "gfx/interface/goals/focus_SOV_isolate_czech.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_not_yet"
+		texturefile = "gfx/interface/goals/focus_SOV_not_yet.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_blockade_sweden"
+		texturefile = "gfx/interface/goals/focus_SOV_blockade_sweden.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Da_Molotoff"
+		texturefile = "gfx/interface/goals/focus_SOV_Da_Molotoff.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_winter_war"
+		texturefile = "gfx/interface/goals/focus_SOV_winter_war.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Our_Hands_Free_in_the_North"
+		texturefile = "gfx/interface/goals/focus_SOV_Our_Hands_Free_in_the_North.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_diplo_in_chaos"
+		texturefile = "gfx/interface/goals/focus_SOV_diplo_in_chaos.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_old_enemy_in_Yugo"
+		texturefile = "gfx/interface/goals/focus_SOV_old_enemy_in_Yugo.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_an_offer_they_cannot_refuse"
+		texturefile = "gfx/interface/goals/focus_SOV_an_offer_they_cannot_refuse.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_invade_balkan"
+		texturefile = "gfx/interface/goals/focus_SOV_invade_balkan.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_balkan_people_revolution"
+		texturefile = "gfx/interface/goals/focus_SOV_balkan_people_revolution.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_unity_after_chaos"
+		texturefile = "gfx/interface/goals/focus_SOV_unity_after_chaos.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_our_shining_union"
+		texturefile = "gfx/interface/goals/SOV_our_shinning_union.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_worker_red_army"
+		texturefile = "gfx/interface/goals/SOV_worker_red_army.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_aid_mongolia"
+		texturefile = "gfx/interface/goals/SOV_aid_mongolia.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Biological_Research"
+		texturefile = "gfx/interface/goals/SOV_Biological_Research.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_red_dusk"
+		texturefile = "gfx/interface/goals/SOV_red_dusk.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_ready_set"
+		texturefile = "gfx/interface/goals/SOV_ready_set.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Against_the_Great_Orient"
+		texturefile = "gfx/interface/goals/SOV_Against_the_Great_Orient.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_red_dragon_demise"
+		texturefile = "gfx/interface/goals/SOV_red_dragon_demise.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_old_enemy"
+		texturefile = "gfx/interface/goals/SOV_old_enemy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_mobilize_industry"
+		texturefile = "gfx/interface/goals/SOV_mobilize_industry.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_the_shield"
+		texturefile = "gfx/interface/goals/SOV_the_shield.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_ready_warsaw_pact"
+		texturefile = "gfx/interface/goals/SOV_ready_warsaw_pact.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_giant_awake"
+		texturefile = "gfx/interface/goals/SOV_giant_awake.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_The_Great_Crusade"
+		texturefile = "gfx/interface/goals/SOV_The_Great_Crusade.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_The_Union_Forever"
+		texturefile = "gfx/interface/goals/SOV_The_Union_Forever.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_marshal_barrack"
+		texturefile = "gfx/interface/goals/focus_SOV_marshal_in_every_barrack.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_sideline_pugo"
+		texturefile = "gfx/interface/goals/focus_SOV_sideline_pugo.png"
+	}
+	
+		###Gorbachev###
+
+	SpriteType = {
+		name = "GFX_focus_SOV_reformer"
+		texturefile = "gfx/interface/goals/focus_SOV_the_reformer.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_a_change_in_course"
+		texturefile = "gfx/interface/goals/focus_SOV_a_change_in_course.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_rally_the_people"
+		texturefile = "gfx/interface/goals/SOV_rally_the_people.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_press"
+		texturefile = "gfx/interface/goals/focus_SOV_press.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_politburo"
+		texturefile = "gfx/interface/goals/SOV_politburo_ensure.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_KGB_ensure"
+		texturefile = "gfx/interface/goals/SOV_KGB_ensure.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_Pugo_bye"
+		texturefile = "gfx/interface/goals/SOV_Pugo_bye.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_tv"
+		texturefile = "gfx/interface/goals/SOV_tv.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_yazov_problem"
+		texturefile = "gfx/interface/goals/SOV_yazov_problem.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_agents"
+		texturefile = "gfx/interface/goals/SOV_agents.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_comms"
+		texturefile = "gfx/interface/goals/SOV_cripple_coms.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_our_men_in_army"
+		texturefile = "gfx/interface/goals/SOV_our_men_in_army.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_corruption"
+		texturefile = "gfx/interface/goals/focus_SOV_corruption.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_civ_sector"
+		texturefile = "gfx/interface/goals/focus_SOV_civ_sector.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_ind_city"
+		texturefile = "gfx/interface/goals/focus_SOV_ind_citites.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_initial_reform"
+		texturefile = "gfx/interface/goals/focus_SOV_initial_reforms.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_middle"
+		texturefile = "gfx/interface/goals/focus_SOV_middle.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_new_way"
+		texturefile = "gfx/interface/goals/focus_SOV_new_way.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_old_way"
+		texturefile = "gfx/interface/goals/focus_SOV_old_way.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_planning"
+		texturefile = "gfx/interface/goals/focus_SOV_planning.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_privatisation"
+		texturefile = "gfx/interface/goals/focus_SOV_privatisation.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_reform_or_die"
+		texturefile = "gfx/interface/goals/focus_SOV_reform_or_die.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_flame"
+		texturefile = "gfx/interface/goals/focus_SOV_spark_flame.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_back_in_ussr"
+		texturefile = "gfx/interface/goals/focus_SOV_back_in_ussr.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_fate"
+		texturefile = "gfx/interface/goals/focu_SOV_their_fate.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_foreign_policy"
+		texturefile = "gfx/interface/goals/focus_SOV_foreign_policy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_backyard"
+		texturefile = "gfx/interface/goals/focus_SOV_backyard.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_stable_for_now"
+		texturefile = "gfx/interface/goals/focus_SOV_stable_for_now.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_moscow_conference"
+		texturefile = "gfx/interface/goals/focus_SOV_moscow_conference.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_old_managment"
+		texturefile = "gfx/interface/goals/focus_SOV_under_new_managment2.png"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_YUG_slobos_11"
+		texturefile = "gfx/interface/goals/focus_YUG_slobo.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_broken_nation"
+		texturefile = "gfx/interface/goals/focus_YUG_broken_nation.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_national_report"
+		texturefile = "gfx/interface/goals/focus_YUG_report.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_new_future"
+		texturefile = "gfx/interface/goals/focus_YUG_new_dawn.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_antiterror"
+		texturefile = "gfx/interface/goals/focus_YUG_terror.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_cities"
+		texturefile = "gfx/interface/goals/focus_YUG_cities.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_skj"
+		texturefile = "gfx/interface/goals/focus_YUG_SKJ.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_tito"
+		texturefile = "gfx/interface/goals/focus_YUG_titoslavia.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_debt"
+		texturefile = "gfx/interface/goals/focus_YUG_debt.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_YUG_tito_honour"
+		texturefile = "gfx/interface/goals/focus_YUG_tito_honour.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SOV_steady_as"
+		texturefile = "gfx/interface/goals/focus_SOV_steady_as_she_goes.png"
+	}
+   ###IRQ###
+	SpriteType = {
+		name = "GFX_focus_IRQ_iraq_future"
+		texturefile = "gfx/interface/goals/focus_IRQ_new_era.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_americans_not_see"
+		texturefile = "gfx/interface/goals/focus_IRQ_americans_not_looking.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_saddam"
+		texturefile = "gfx/interface/goals/focus_IRQ_saddam.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_kurds"
+		texturefile = "gfx/interface/goals/focus_IRQ_kurds.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_sanctions"
+		texturefile = "gfx/interface/goals/focus_IRQ_sanctions.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_army"
+		texturefile = "gfx/interface/goals/focus_IRQ_army.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_problems"
+		texturefile = "gfx/interface/goals/focus_IRQ_problems.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_army_in_kurd"
+		texturefile = "gfx/interface/goals/focus_IRQ_army_in_kurdistan.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_debt"
+		texturefile = "gfx/interface/goals/focus_IRQ_debt.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_army_exercise"
+		texturefile = "gfx/interface/goals/focus_IRQ_exercise.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_death_of_kurds"
+		texturefile = "gfx/interface/goals/focus_IRQ_kurds_gone.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_locate"
+		texturefile = "gfx/interface/goals/focus_IRQ_locate.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_no_dollar"
+		texturefile = "gfx/interface/goals/focus_IRQ_no_dollar.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_no_kurds"
+		texturefile = "gfx/interface/goals/focus_IRQ_no_kurds.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_no_good_army"
+		texturefile = "gfx/interface/goals/focus_IRQ_not_good_army.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_planes"
+		texturefile = "gfx/interface/goals/focus_IRQ_plane_go_broom.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_no_good_army"
+		texturefile = "gfx/interface/goals/focus_IRQ_not_good_army.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_reforms"
+		texturefile = "gfx/interface/goals/focus_IRQ_reforms.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_salvage"
+		texturefile = "gfx/interface/goals/focus_IRQ_savage.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_something"
+		texturefile = "gfx/interface/goals/focus_IRQ_something.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_special_operation"
+		texturefile = "gfx/interface/goals/focus_IRQ_special_operation.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_trade"
+		texturefile = "gfx/interface/goals/focus_IRQ_trade_partners.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_moscow"
+		texturefile = "gfx/interface/goals/focus_IRQ_ask_moscow.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_army_ready"
+		texturefile = "gfx/interface/goals/focus_IRQ_army_ready.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_atom"
+		texturefile = "gfx/interface/goals/focus_IRQ_atom.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_backing"
+		texturefile = "gfx/interface/goals/focus_IRQ_backing.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_facilities"
+		texturefile = "gfx/interface/goals/focus_IRQ_facilities.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_kuwait"
+		texturefile = "gfx/interface/goals/focus_IRQ_kuwait.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_oil"
+		texturefile = "gfx/interface/goals/focus_IRQ_oil.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_pan_iraq"
+		texturefile = "gfx/interface/goals/focus_IRQ_pan_iraq.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_republic"
+		texturefile = "gfx/interface/goals/focus_IRQ_republic.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_run_over"
+		texturefile = "gfx/interface/goals/focus_IRQ_run_over.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_saudi"
+		texturefile = "gfx/interface/goals/focus_IRQ_saudi.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_strike"
+		texturefile = "gfx/interface/goals/focus_IRQ_strike.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_tuwaitha"
+		texturefile = "gfx/interface/goals/focus_IRQ_tuwaitha.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_forbidden_power"
+		texturefile = "gfx/interface/goals/focus_IRQ_forbidden_power.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_uranium"
+		texturefile = "gfx/interface/goals/focus_IRQ_uranium.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_civ"
+		texturefile = "gfx/interface/goals/focus_IRQ_civ_ind.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_mil"
+		texturefile = "gfx/interface/goals/focus_IRQ_mil_ind.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_new_fact"
+		texturefile = "gfx/interface/goals/focus_IRQ_new_fact.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_old_wounds"
+		texturefile = "gfx/interface/goals/focus_IRQ_old_wounds.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_army_ready2"
+		texturefile = "gfx/interface/goals/focus_IRQ_army_at_ready.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_old_plan_ready"
+		texturefile = "gfx/interface/goals/focus_IRQ_plan.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_great_iraq"
+		texturefile = "gfx/interface/goals/focus_IRQ_greater_iraq.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_revenge"
+		texturefile = "gfx/interface/goals/focus_IRQ_revenge.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_IRQ_saddam_win"
+		texturefile = "gfx/interface/goals/focus_IRQ_saddam_fortnite_win.png"
+	}
+   ###SAF###
+
+	SpriteType = {
+		name = "GFX_focus_SAF_saul"
+		texturefile = "gfx/interface/goals/focus_SAF_lawyers_guns_money.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_gamer_rule"
+		texturefile = "gfx/interface/goals/focus_SAF_gamer_rule.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_mil_state"
+		texturefile = "gfx/interface/goals/focus_SAF_military_state.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_position"
+		texturefile = "gfx/interface/goals/focus_SAF_position.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_fronts"
+		texturefile = "gfx/interface/goals/focus_SAF_all_sides.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_mercs"
+		texturefile = "gfx/interface/goals/focus_SAF_mercineries.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_locate"
+		texturefile = "gfx/interface/goals/focus_SAF_locate insurgents.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_raid"
+		texturefile = "gfx/interface/goals/focus_SAF_raids.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_bomb"
+		texturefile = "gfx/interface/goals/focus_SAF_bomb_supplies.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_morbilisation"
+		texturefile = "gfx/interface/goals/focus_SAF_morbilisation1.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_ask_for_help"
+		texturefile = "gfx/interface/goals/focus_SAF_ask_for_help.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_for_sa"
+		texturefile = "gfx/interface/goals/focus_SAF_for_sa.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_war"
+		texturefile = "gfx/interface/goals/focus_SAF_war.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_coup"
+		texturefile = "gfx/interface/goals/focus_SAF_coup_succes.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_mandela"
+		texturefile = "gfx/interface/goals/focus_SAF_madela_gone.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_nis"
+		texturefile = "gfx/interface/goals/focus_SAF_nis.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_sun"
+		texturefile = "gfx/interface/goals/focus_SAF_sun.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_increase"
+		texturefile = "gfx/interface/goals/focus_SAF_increase.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_antirebel_action"
+		texturefile = "gfx/interface/goals/focus_SAF_rebel.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_SAF_antirebel_meeting"
+		texturefile = "gfx/interface/goals/focus_SAF_meeting.png"
+	}
+
+   ###VIN###
+    SpriteType = {
+		name = "VIN_new_vietnam"
+		texturefile = "gfx/interface/goals/VIN/VIN_new_vietnam.png"
+	}
+	SpriteType = {
+		name = "VIN_trade_US"
+		texturefile = "gfx/interface/goals/VIN/VIN_trade_US.png"
+	}
+	SpriteType = {
+		name = "VIN_open_stock"
+		texturefile = "gfx/interface/goals/VIN/VIN_open_stock.png"
+	}
+	SpriteType = {
+		name = "VIN_congress"
+		texturefile = "gfx/interface/goals/VIN/VIN_congress.png"
+	}
+	SpriteType = {
+		name = "VIN_our_place"
+		texturefile = "gfx/interface/goals/VIN/VIN_our_place.png"
+	}
+	SpriteType = {
+		name = "VIN_support_enterprise"
+		texturefile = "gfx/interface/goals/VIN/VIN_support_enterprise.png"
+	}
+	SpriteType = {
+		name = "VIN_hop_tac_xa"
+		texturefile = "gfx/interface/goals/VIN/VIN_hop_tac_xa.png"
+	}
+	SpriteType = {
+		name = "VIN_SOV_friendship"
+		texturefile = "gfx/interface/goals/VIN/VIN_SOV_friendship.png"
+	}
+	SpriteType = {
+		name = "VIN_red_indochina"
+		texturefile = "gfx/interface/goals/VIN/VIN_red_indochina.png"
+	}
+	SpriteType = {
+		name = "VIN_China_coop"
+		texturefile = "gfx/interface/goals/VIN/VIN_China_coop.png"
+	}
+	SpriteType = {
+		name = "VIN_coop"
+		texturefile = "gfx/interface/goals/VIN/VIN_coop.png"
+	}
+	SpriteType = {
+		name = "VIN_improve_veteran_welfare"
+		texturefile = "gfx/interface/goals/VIN/VIN_improve_veteran_welfare.png"
+	}
+	SpriteType = {
+		name = "VIN_help_family"
+		texturefile = "gfx/interface/goals/VIN/VIN_help_family.png"
+	}
+	SpriteType = {
+		name = "VIN_fund_veteran"
+		texturefile = "gfx/interface/goals/VIN/VIN_fund_veteran.png"
+	}
+	SpriteType = {
+		name = "VIN_greatest_generation"
+		texturefile = "gfx/interface/goals/VIN/VIN_greatest_generation.png"
+	}
+
+	## Gorbachev ##
+
+	SpriteType = {
+		name = "GFX_SOV_5_years_plan"
+		texturefile = "gfx/interface/goals/SOV_5_years_plan.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_against_the_eastern_dragon"
+		texturefile = "gfx/interface/goals/SOV_against_the_eastern_dragon.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_always_at_the_ready"
+		texturefile = "gfx/interface/goals/SOV_always_at_the_ready.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_army_kgb_cooperating"
+		texturefile = "gfx/interface/goals/SOV_army_kgb_cooperating.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_army_purge"
+		texturefile = "gfx/interface/goals/SOV_army_purge.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_border_blockades"
+		texturefile = "gfx/interface/goals/SOV_border_blockades.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_capture_the_radio_stations"
+		texturefile = "gfx/interface/goals/SOV_capture_the_radio_stations.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_clear_politburo"
+		texturefile = "gfx/interface/goals/SOV_clear_politburo.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_compromise_with_the_usa"
+		texturefile = "gfx/interface/goals/SOV_compromise_with_the_usa.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_contact_the_army"
+		texturefile = "gfx/interface/goals/SOV_contact_the_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_crack_down_on_separatists"
+		texturefile = "gfx/interface/goals/SOV_crack_down_on_separatists.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_crackdown_on_corruption"
+		texturefile = "gfx/interface/goals/SOV_crackdown_on_corruption.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_detante_with_nato"
+		texturefile = "gfx/interface/goals/SOV_detante_with_nato.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_ease_the_overmilitarisation"
+		texturefile = "gfx/interface/goals/SOV_ease_the_overmilitarisation.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_easing_the_tensions"
+		texturefile = "gfx/interface/goals/SOV_easing_the_tensions.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_economic_miracle"
+		texturefile = "gfx/interface/goals/SOV_economic_miracle.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_end_of_the_revisionists"
+		texturefile = "gfx/interface/goals/SOV_end_of_the_revisionists.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_expand_the_civilian_sector"
+		texturefile = "gfx/interface/goals/SOV_expand_the_civilian_sector.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_extreme_planning"
+		texturefile = "gfx/interface/goals/SOV_extreme_planning.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_fall_of_the_reformer"
+		texturefile = "gfx/interface/goals/SOV_fall_of_the_reformer.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_fighting_the_factionalism"
+		texturefile = "gfx/interface/goals/SOV_fighting_the_factionalism.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_fix_gorbys_mess"
+		texturefile = "gfx/interface/goals/SOV_fix_gorbys_mess.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_follow_the_brezhnev_plan"
+		texturefile = "gfx/interface/goals/SOV_follow_the_brezhnev_plan.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_follow_the_stalin_plan"
+		texturefile = "gfx/interface/goals/SOV_follow_the_stalin_plan.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_gensec_pugo"
+		texturefile = "gfx/interface/goals/SOV_gensec_pugo.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_healing_the_old_relationship"
+		texturefile = "gfx/interface/goals/SOV_healing_the_old_relationship.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_hear_no_evil"
+		texturefile = "gfx/interface/goals/SOV_hear_no_evil.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_increase_military_presence"
+		texturefile = "gfx/interface/goals/SOV_increase_military_presence.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_increase_ties_with_warsaw_pact"
+		texturefile = "gfx/interface/goals/SOV_increase_ties_with_warsaw_pact.png"
+	}
+	SpriteType = {
+		name = "GFX_SOV_increase_warsaw_pact_spending"
+		texturefile = "gfx/interface/goals/SOV_increase_warsaw_pact_spending.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_isolate_czech"
+		texturefile = "gfx/interface/goals/SOV_isolate_czech.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_keep_your_friend_close"
+		texturefile = "gfx/interface/goals/SOV_keep_your_friend_close.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_legacy_of_warsaw_pact"
+		texturefile = "gfx/interface/goals/SOV_legacy_of_warsaw_pact.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_let_the_games_begin"
+		texturefile = "gfx/interface/goals/SOV_let_the_games_begin.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_let_the_purge_begin"
+		texturefile = "gfx/interface/goals/SOV_let_the_purge_begin.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_little_traitors"
+		texturefile = "gfx/interface/goals/SOV_little_traitors.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_loyal_men_in_high_position"
+		texturefile = "gfx/interface/goals/SOV_loyal_men_in_high_position.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_make_compromises"
+		texturefile = "gfx/interface/goals/SOV_make_compromises.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_marshall_approval"
+		texturefile = "gfx/interface/goals/SOV_marshall_approval.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_matter_of_the_economy"
+		texturefile = "gfx/interface/goals/SOV_matter_of_the_economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_men_we_can_trust"
+		texturefile = "gfx/interface/goals/SOV_men_we_can_trust.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mobilize_industry"
+		texturefile = "gfx/interface/goals/SOV_mobilize_industry.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_never_trust_a_yank"
+		texturefile = "gfx/interface/goals/SOV_never_trust_a_yank.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_old_enemies_new_partners"
+		texturefile = "gfx/interface/goals/SOV_old_enemies_new_partners.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_our_power_secured"
+		texturefile = "gfx/interface/goals/SOV_our_power_secured.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_party_connection"
+		texturefile = "gfx/interface/goals/SOV_party_connection.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_prepare_the_inevitable"
+		texturefile = "gfx/interface/goals/SOV_prepare_the_inevitable.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_prepare_their_fate"
+		texturefile = "gfx/interface/goals/SOV_prepare_their_fate.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_preparing_the_cards"
+		texturefile = "gfx/interface/goals/SOV_preparing_the_cards.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_project_red_dusk"
+		texturefile = "gfx/interface/goals/SOV_project_red_dusk.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_question_of_the_army"
+		texturefile = "gfx/interface/goals/SOV_question_of_the_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_reinforce_mongolia"
+		texturefile = "gfx/interface/goals/SOV_reinforce_mongolia.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_return_to_planned_economy"
+		texturefile = "gfx/interface/goals/SOV_return_to_planned_economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_suspend_the_army_purge"
+		texturefile = "gfx/interface/goals/SOV_suspend_the_army_purge.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_the_budapest_agreement"
+		texturefile = "gfx/interface/goals/SOV_the_budapest_agreement.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_the_hardliner"
+		texturefile = "gfx/interface/goals/SOV_the_hardliner.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_the_main_show"
+		texturefile = "gfx/interface/goals/SOV_the_main_show.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_the_military_question"
+		texturefile = "gfx/interface/goals/SOV_the_military_question.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_the_red_dragon_in_the_east"
+		texturefile = "gfx/interface/goals/SOV_the_red_dragon_in_the_east.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_the_rising_star"
+		texturefile = "gfx/interface/goals/SOV_the_rising_star.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_the_unstable_truce"
+		texturefile = "gfx/interface/goals/SOV_the_unstable_truce.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_the_vienna_summit"
+		texturefile = "gfx/interface/goals/SOV_the_vienna_summit.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_time_for_action"
+		texturefile = "gfx/interface/goals/SOV_time_for_action.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_tolerate_some_corruption"
+		texturefile = "gfx/interface/goals/SOV_tolerate_some_corruption.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_true_red_army"
+		texturefile = "gfx/interface/goals/SOV_true_red_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_unto_a_new_dawn"
+		texturefile = "gfx/interface/goals/SOV_unto_a_new_dawn.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_war_plan_stalin"
+		texturefile = "gfx/interface/goals/SOV_war_plan_stalin.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_warsaw_pact_reborn"
+		texturefile = "gfx/interface/goals/SOV_warsaw_pact_reborn.dds"
+	}
+	
+}

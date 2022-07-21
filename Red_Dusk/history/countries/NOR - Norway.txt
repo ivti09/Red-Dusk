@@ -17,6 +17,8 @@ set_convoys = 200
 
 recruit_character = NOR_kjell_bondevik
 
+add_ideas = GER_eu
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.10.16"

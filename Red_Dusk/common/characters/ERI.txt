@@ -1,7 +1,7 @@
 characters = {
 
 	ERI_isaias_afwerki = {
-		name = "Isaias_Afwerki"
+		name = "Isaias Afwerki"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/Africa/isaias_afwerki.dds"

@@ -1,0 +1,18 @@
+characters = {
+
+	ARG_fernando_de_la_rua = {
+		name = "Leader Fernando de la Rúa"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South_America/Fernando_de_la_Rua.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

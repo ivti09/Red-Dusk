@@ -14,5 +14,260 @@ characters = {
 			id = -1
 		}
 	}
+	
+	IRQ_khudair_al_sammarrai = {
+		name = "Ahmed Hussein Khudair Al-Samarrai"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/IRQ/epic_source_al_samarri_small.dds"
+			}
+		}
+		advisor={
+			cost = 75			
+			slot = political_advisor
+			idea_token = IRQ_khudair_al_sammarrai
+			allowed = {
+				original_tag = IRQ
+			}
+			
+			traits = {
+				chief_of_staff_of_the_presidency
+			}
+		}
+	}
+	
+		
+	IRQ_fahad_salem_alshakra = {
+		name = "Fahad Salem Alshakra"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/IRQ/Fahad_alshagra_small.dds"
+			}
+		}
+		advisor={
+			cost = 75			
+			slot = political_advisor
+			idea_token = IRQ_fahad_salem_alshakra
+			allowed = {
+				original_tag = IRQ
+			}
+			
+			traits = {
+				minister_of_education
+			}
+		}
+	}
+	
+	IRQ_saadi_tohme_abbas = {
+		name = "Saadi Tohme Abbas"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/IRQ/Saadi_Tohme_Abbas_small.dds"
+			}
+		}
+		advisor={
+			cost = 75			
+			slot = political_advisor
+			idea_token = IRQ_saadi_tohme_abbas
+			allowed = {
+				original_tag = IRQ
+			}
+			
+			traits = {
+				minister_of_labour
+			}
+		}
+	}
+
+	## Generals ##
+
+	IRQ_walter_withe = {
+		name = "Izet Ibrahim al-Duri"
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRQ/walter_withe1.dds"
+				small = "gfx/leaders/IRQ/walter_withe1_small.dds"
+			}
+		}				
+		advisor={
+			cost = 75			
+			slot = high_command
+			idea_token = IRQ_walter_withe
+			allowed = {
+				original_tag = IRQ
+			}
+			
+			traits = {
+				populer_army_leader
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_saddam_hussein_general = {
+		name = "Saddam Hussein"
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRQ/Saddam_Hussein.dds"
+			}
+		}
+		field_marshal={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_ali_al-majid = {
+		name = "Ali al-Majid"
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRQ/Ali_al-Majid.dds"
+				small = "gfx/leaders/IRQ/Ali_al-Majid_small.dds"
+			}
+		}		
+		advisor={
+			cost = 75			
+			slot = army_chief
+			idea_token = IRQ_ali_al-majid
+			allowed = {
+				original_tag = IRQ
+			}
+			
+			traits = {
+				chemical_ali
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_sultan = {
+		name = "Sultan Hashim"
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRQ/Sultan_Hashim.dds"
+				small = "gfx/leaders/IRQ/Sultan_Hashim_small.dds"
+			}
+		}
+		advisor={
+			cost = 75			
+			slot = high_command
+			idea_token = IRQ_sultan
+			allowed = {
+				original_tag = IRQ
+			}
+			
+			traits = {
+				minister_of_defence
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_ahmad_hashim = {
+		name = "Ahmad Hashim"
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRQ/Ahmad_Hashim.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_abud_qanbar = {
+		name = "Abud Qanbar"
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRQ/Abud_Qanbar.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_tariq_aziz13 = {
+		name = "Tariq Aziz"
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRQ/Tariq_Aziz1.dds"
+				small = "gfx/leaders/IRQ/Tariq_Aziz1_small.dds"
+			}
+		}
+		advisor={
+			cost = 75			
+			slot = high_command
+			idea_token = IRQ_tariq_aziz13
+			allowed = {
+				original_tag = IRQ
+			}
+			
+			traits = {
+				infantry_orianted_commander
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_babaker_zebari = {
+		name = "Babaker Zebari"
+		portraits = {
+			army = {
+				large = "gfx/leaders/IRQ/babaker_zebari.dds"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
 
 }

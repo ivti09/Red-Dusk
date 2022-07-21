@@ -1,0 +1,28 @@
+﻿l_english:
+ RULE_GROUP_COUNTRY_PATHS:0 "Country Paths"
+ 
+ SOV_PATH:0 "@SOV Yanayev's Resignation"
+ SOV_YAZOV_PATH_CHOSEN:0 "@SOV §gDmitry Yazov§! Wins The Debates"
+ SOV_YAZOV_PATH_CHOSEN_DESC:0 "§gDmitry Yazov§! will become the leader of the Soviet Union after Yanayev's resignation"
+ SOV_PUGO_PATH_CHOSEN:0 "@SOV §RBoris Pugo§! Wins The Debates"
+ SOV_PUGO_PATH_CHOSEN_DESC:0 "§RBoris Pugo§! will become the leader of the Soviet Union after Yanayev's resignation"
+ SOV_PUTIN_PATH_CHOSEN:0 "@SOV §6Vladimir Putin§! Wins The Debates"
+ SOV_PUTIN_PATH_CHOSEN_DESC:0 "§6Vladimir Putin§! will become the leader of the Soviet Union after Yanayev's resignation"
+ SOV_GORBACHEV_PATH_CHOSEN:0 "@SOV §tMikhail Gorbachev§! Wins The Debates"
+ SOV_GORBACHEV_PATH_CHOSEN_DESC:0 "§tMikhail Gorbachev§! will become the leader of the Soviet Union after Yanayev's resignation"
+ 
+ SAF_PATH:0 "@SAF Parliament Meeting"
+ SAF_MILITARY_PATH_CHOSEN:0 "@SAF §gMilitary§! Continues Ruling"
+ SAF_MILITARY_PATH_CHOSEN_DESC:0 "After a meeting with the §Cparliament§!, the §gmilitary§! continues ruling South Afica"
+ SAF_PARLIMENT_PATH_CHOSEN:0 "@SAF §CParliament§! Power Transfer"
+ SAF_PARLIMENT_PATH_CHOSEN_DESC:0 "After a meeting with the §Cparliament§!, the §gmilitary§! transfers power to the §Cparliament§! of South Afica"
+ 
+ YUG_PATH:0 "@YUG Yugoslavia's Future"
+ YUG_REFORMED_COMMUNIST_MILOSEVIC_PATH_CHOSEN:0 "@YUG §LMilosevic§!'s §tCommunist§! Rule"
+ YUG_REFORMED_COMMUNIST_MILOSEVIC_PATH_CHOSEN_DESC:0 "§LMilosevic§! decides to continue his §treforming communist§! rule"
+ YUG_NATIONALIST_MILOSEVIC_PATH_CHOSEN:0 "@YUG §LMilosevic§! Embraces §gNationalism§!"
+ YUG_NATIONALIST_MILOSEVIC_PATH_CHOSEN_DESC:0 "§LMilosevic§! Embraces §gSerbian Nationalism§! in Yugoslavia"
+ YUG_JOSKA_BROZ_PATH_CHOSEN:0 "@YUG §RJoska Broz Tito§!'s Yugoslavia"
+ YUG_JOSKA_BROZ_PATH_CHOSEN_DESC:0 ""
+ 
+ USA_PATH:0 "@USA 2000 Election"

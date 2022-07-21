@@ -6,6 +6,7 @@ set_research_slots = 3
 
 
 recruit_character = UKR_mil_command
+recruit_character = UKR_petro_symonenko
 
 set_popularities = {
 	democratic = 15

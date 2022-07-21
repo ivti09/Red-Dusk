@@ -4,6 +4,8 @@
 
 set_convoys = 5
 
+recruit_character = PNG_sir_mekere_morauta
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

@@ -1,18 +1,13 @@
 focus_tree = {
 	id = kor_focus
-	
+
 	country = {
 		factor = 0
-		
-		modifier = {
-			add = 10
-			tag = KOR
-		}
 	}
-	
+
 	default = no
 	focus = {
-		id = New_Dawn_For_Korea
+		id = KOR_new_era
 		icon = GFX_focus_SOV_status_of_union
 		x = 9
 		y = 0
@@ -35,7 +30,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = The_2000_National_Report
+		id = KOR_nr
 		icon = GFX_focus_SOV_economy_report
 		x = 9
 		y = 1
@@ -57,7 +52,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = Orders_From_The_Top
+		id = KOR_orders
 		icon = GFX_focus_SOV_yanayev_final_weeks
 		x = 9
 		y = 2
@@ -81,7 +76,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = Re-Evaluate_Our_Economy
+		id = KOR_economy
 		icon = GFX_focus_SOV_defund_military
 		x = 9
 		y = 3
@@ -103,7 +98,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = Military_For_The_New_Millanium
+		id = KOR_kor_army
 		icon = GFX_focus_SOV_economic_reforms
 		x = 9
 		y = 4
@@ -125,8 +120,8 @@ focus_tree = {
 	}
 
 	focus = {
-        	id = Give_Kim_Our_Report
-        	icon = GFX_focus_SOV_yanayev_final_weeks
+        	id = KOR_kim_stuff
+        	icon = GFX_focus_SOV_yanayevs_resignation
         	x = 9
         	y = 5
 		prerequisite = {focus = KOR_kor_army}
@@ -183,13 +178,13 @@ focus_tree = {
 	}
 	focus = {
 		id = Focus_On_Our_Light_Industry
-		icon = x
+		#icon = x
 		x = 13
 		y = 5.5
 
 		prerequisite = {focus = Improving_Best_Korea}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -203,13 +198,13 @@ focus_tree = {
 	}
 	focus = {
 		id = Stick_To_The_Old_Architechture
-		icon = x
+		#icon = x
 		x = 15
 		y = 5.5
 
 		prerequisite = {focus = Improving_Best_Korea}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -223,13 +218,13 @@ focus_tree = {
 	}
 	focus = {
 		id = An_Army_Of_The_Past
-		icon = x
+		#icon = x
 		x = 17
 		y = 5.5
 
 		prerequisite = {focus = Improving_Best_Korea}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -243,13 +238,13 @@ focus_tree = {
 	}
 	focus = {
 		id = More_Textile_Factories
-		icon = x
+		#icon = x
 		x = 13
 		y = 6.5
 
 		prerequisite = {focus = Focus_On_Our_Light_Industry}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -263,13 +258,13 @@ focus_tree = {
 	}
 	focus = {
 		id = But_With_New_Plans
-		icon = x
+		#icon = x
 		x = 15
 		y = 6.5
 
 		prerequisite = {focus = Stick_To_The_Old_Architechture}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -283,13 +278,13 @@ focus_tree = {
 	}
 	focus = {
 		id = Bring_In_The_New_Tactics
-		icon = x
+		#icon = x
 		x = 17
 		y = 6.5
 
 		prerequisite = {focus = An_Army_Of_The_Past }
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -303,13 +298,13 @@ focus_tree = {
 	}
 	focus = {
 		id = Bounuses_For_Farmers
-		icon = x
+		#icon = x
 		x = 13
 		y = 7.5
 
 		prerequisite = {focus = More_Textile_Factories}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -323,13 +318,13 @@ focus_tree = {
 	}
 	focus = {
 		id = More_Green_Area
-		icon = x
+		#icon = x
 		x = 15
 		y = 7.5
 
 		prerequisite = {focus = But_With_New_Plans}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -343,13 +338,13 @@ focus_tree = {
 	}
 	focus = {
 		id = New_Equipment_For_A_New_Army
-		icon = x
+		#icon = x
 		x = 17
 		y = 7.5
 
 		prerequisite = {focus = Bring_In_The_New_Tactics}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -363,13 +358,13 @@ focus_tree = {
 	}
 	focus = {
 		id = Expand_On_Tourism
-		icon = x
+		#icon = x
 		x = 13
 		y = 8.5
 
 		prerequisite = {focus = Bounuses_For_Farmers}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -383,13 +378,13 @@ focus_tree = {
 	}
 	focus = {
 		id = Houses_For_Our_Workers
-		icon = x
+		#icon = x
 		x = 15
 		y = 8.5
 
 		prerequisite = {focus = More_Green_Area}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -403,13 +398,13 @@ focus_tree = {
 	}
 	focus = {
 		id = Promote_Young_Officers
-		icon = x
+		#icon = x
 		x = 17
 		y = 8.5
 
 		prerequisite = {focus = New_Equipment_For_A_New_Army}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -423,14 +418,14 @@ focus_tree = {
 	}
 	focus = {
 		id = Bigger_Better_And_Faster_Railroads
-		icon = x
-		cost = x
+		#icon = x
+		#cost = x
 		x = 13
 		y = 9.5
 
 		prerequisite = {focus = Expand_On_Tourism}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -444,13 +439,13 @@ focus_tree = {
 	}
 	focus = {
 		id = Improve_Our_Roads
-		icon = x
+		#icon = x
 		x = 15
 		y = 9.5
 
 		prerequisite = {focus = Houses_For_Our_Workers}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -464,13 +459,13 @@ focus_tree = {
 	}
 	focus = {
 		id = Purge_The_Ineffective
-		icon = x
+		#icon = x
 		x = 17
 		y = 9.5
 
 		prerequisite = {focus = Promote_Young_Officers}
 		mutually_exclusive = { }
-		
+
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -484,8 +479,8 @@ focus_tree = {
 	}
 	focus = {
 		id = Import_from_China
-		icon = x
-		cost = x
+		#icon = x
+		#cost = x
 		x = 12.2
 		y = 10.5
 
@@ -504,10 +499,10 @@ focus_tree = {
 	}
 	focus = {
 		id = Import_From_The_Soviet_Union
-		icon = x
+		#icon = x
 		x = 13.7
 		y = 10.5
-		
+
 		prerequisite = {focus = Bigger_Better_And_Faster_Railroads}
 		mutually_exclusive {focus = Import_from_China }
 		cost = 5
@@ -523,7 +518,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Request_Chinese_Instructors
-		icon = x
+		#icon = x
 		X = 17
 		y = 10.5
 		prerequisite = {focus = Purge_The_Ineffective}
@@ -540,7 +535,7 @@ focus_tree = {
 	}
 	focus = {
 		id = First_Wave_Of_Reforms_Completed
-		icon = x
+		#icon = x
 		x = 15
 		y = 11.5
 

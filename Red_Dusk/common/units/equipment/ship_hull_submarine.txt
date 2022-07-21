@@ -19,10 +19,6 @@ equipments = {
 		interface_category = interface_category_other_ships
 
 		module_slots = {
-			fixed_ship_sonar_slot = {
-				required = yes
-				allowed_module_categories = { sub_ship_sonar }
-			}
 			fixed_ship_systems_slot = {
 				required = yes
 				allowed_module_categories = { sub_ship_systems }
@@ -31,7 +27,11 @@ equipments = {
 				required = yes
 				allowed_module_categories = { sub_ship_engine }
 			}
-			fixed_ship_torpedo_slot = {
+			fixed_ship_sonar_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_sonar }
+			}
+			custom_ship_torpedo_slot = {
 				required = yes
 				allowed_module_categories = { ship_torpedo_sub }
 			}
@@ -39,21 +39,31 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo_sub
+					ship_cruise_missile
 				}
 			}
 		}
 		
 		default_modules = {
-			fixed_ship_sonar_slot = sub_sonar_1
 			fixed_ship_systems_slot = sub_electrical_systems_1
 			fixed_ship_engine_slot = sub_engine_diesel_1
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
 			custom_slot_1 = empty
 		}
+
+		surface_detection = 20
+		sub_visibility = 35
+
+		naval_speed = 20
+		reliability = 0.70
+		naval_range = 5000
+		max_strength = 10
 		
-		build_cost_ic = 220
+		build_cost_ic = 500
 		resources = {
 			steel = 1
+			chromium = 1
 		}
 		
 		manpower = 150
@@ -74,9 +84,15 @@ equipments = {
 		year = 1980
 
 		archetype = attack_submarine_hull
+		parent = attack_submarine_hull_1
 		priority = 2500
 
 		module_slots = inherit
+
+		sub_visibility = 25
+
+		reliability = 0.74
+		max_strength = 20
 
 		manpower = 140
 	}
@@ -85,9 +101,36 @@ equipments = {
 		year = 1990
 
 		archetype = attack_submarine_hull
+		parent = attack_submarine_hull_2
 		priority = 2500
 
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			custom_ship_torpedo_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+				}
+			}
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = sub_electrical_systems_1
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+		}
+
+		sub_visibility = 20
+
+		reliability = 0.76
+		max_strength = 25
 
 		manpower = 130
 	}
@@ -96,9 +139,36 @@ equipments = {
 		year = 2000
 
 		archetype = attack_submarine_hull
+		parent = attack_submarine_hull_3
 		priority = 2500
 
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			custom_ship_torpedo_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+				}
+			}
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = sub_electrical_systems_1
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+		}
+
+		sub_visibility = 15
+
+		reliability = 0.78
+		max_strength = 30
 
 		manpower = 120
 	}
@@ -107,9 +177,43 @@ equipments = {
 		year = 2010
 
 		archetype = attack_submarine_hull
+		parent = attack_submarine_hull_4
 		priority = 2500
 
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			custom_ship_torpedo_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+				}
+			}
+			custom_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+				}
+			}
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = sub_electrical_systems_1
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
+
+		sub_visibility = 10
+
+		reliability = 0.80
+		max_strength = 35
 
 		manpower = 120
 	}
@@ -118,9 +222,43 @@ equipments = {
 		year = 2020
 
 		archetype = attack_submarine_hull
+		parent = attack_submarine_hull_5
 		priority = 2500
 
-		module_slots = inherit
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			custom_ship_torpedo_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+				}
+			}
+			custom_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+				}
+			}
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = sub_electrical_systems_1
+			fixed_ship_engine_slot = sub_engine_diesel_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
+
+		sub_visibility = 5
+
+		reliability = 0.82
+		max_strength = 40
 
 		manpower = 120
 	}
@@ -144,10 +282,6 @@ equipments = {
 		interface_category = interface_category_other_ships
 
 		module_slots = {
-			fixed_ship_sonar_slot = {
-				required = yes
-				allowed_module_categories = { sub_ship_sonar }
-			}
 			fixed_ship_systems_slot = {
 				required = yes
 				allowed_module_categories = { sub_ship_systems }
@@ -156,7 +290,11 @@ equipments = {
 				required = yes
 				allowed_module_categories = { sub_ship_engine }
 			}
-			fixed_ship_torpedo_slot = {
+			fixed_ship_sonar_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_sonar }
+			}
+			custom_ship_torpedo_slot = {
 				required = no
 				allowed_module_categories = { ship_torpedo_sub }
 			}
@@ -167,25 +305,25 @@ equipments = {
 					ship_cruise_missile
 				}
 			}
-			fixed_sub_cruise_missile_slot_1 = {
+			custom_sub_cruise_missile_slot_1 = {
 				required = yes
 				allowed_module_categories = {
 					ship_cruise_missile
 				}
 			}
-			fixed_sub_cruise_missile_slot_2 = {
+			custom_sub_cruise_missile_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					ship_cruise_missile
 				}
 			}
-			fixed_sub_cruise_missile_slot_3 = {
+			custom_sub_cruise_missile_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					ship_cruise_missile
 				}
 			}
-			fixed_sub_cruise_missile_slot_4 = {
+			custom_sub_cruise_missile_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					ship_cruise_missile
@@ -194,20 +332,29 @@ equipments = {
 		}
 		
 		default_modules = {
-			fixed_ship_sonar_slot = sub_sonar_1
 			fixed_ship_systems_slot = sub_electrical_systems_1
 			fixed_ship_engine_slot = sub_engine_diesel_1
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
 			custom_slot_1 = empty
-			fixed_sub_cruise_missile_slot_1 = cruise_missile_1
-			fixed_sub_cruise_missile_slot_2 = empty
-			fixed_sub_cruise_missile_slot_3 = empty
-			fixed_sub_cruise_missile_slot_4 = empty
+			custom_sub_cruise_missile_slot_1 = cruise_missile_1
+			custom_sub_cruise_missile_slot_2 = empty
+			custom_sub_cruise_missile_slot_3 = empty
+			custom_sub_cruise_missile_slot_4 = empty
 		}
+
+		surface_detection = 20
+		sub_visibility = 45
+
+		naval_speed = 20
+		reliability = 0.74
+		naval_range = 7500
+		max_strength = 20
 		
-		build_cost_ic = 220
+		build_cost_ic = 600
 		resources = {
-			steel = 1
+			steel = 2
+			chromium = 1
 		}
 		
 		manpower = 180
@@ -228,9 +375,15 @@ equipments = {
 		year = 1980
 
 		archetype = cruise_submarine_hull
+		parent = cruise_submarine_hull_1
 		priority = 2500
 
 		module_slots = inherit
+
+		sub_visibility = 35
+
+		reliability = 0.78
+		max_strength = 30
 
 		manpower = 200
 	}
@@ -239,9 +392,15 @@ equipments = {
 		year = 2000
 
 		archetype = cruise_submarine_hull
+		parent = cruise_submarine_hull_2
 		priority = 2500
 
 		module_slots = inherit
+
+		sub_visibility = 25
+
+		reliability = 0.82
+		max_strength = 40
 
 		manpower = 180
 	}
@@ -250,9 +409,15 @@ equipments = {
 		year = 2020
 
 		archetype = cruise_submarine_hull
+		parent = cruise_submarine_hull_3
 		priority = 2500
 
 		module_slots = inherit
+
+		sub_visibility = 15
+
+		reliability = 0.86
+		max_strength = 50
 
 		manpower = 160
 	}
@@ -276,10 +441,6 @@ equipments = {
 		interface_category = interface_category_other_ships
 
 		module_slots = {
-			fixed_ship_sonar_slot = {
-				required = yes
-				allowed_module_categories = { sub_ship_sonar }
-			}
 			fixed_ship_systems_slot = {
 				required = yes
 				allowed_module_categories = { sub_ship_systems }
@@ -288,7 +449,11 @@ equipments = {
 				required = yes
 				allowed_module_categories = { sub_ship_engine }
 			}
-			fixed_ship_torpedo_slot = {
+			fixed_ship_sonar_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_sonar }
+			}
+			custom_ship_torpedo_slot = {
 				required = yes
 				allowed_module_categories = { ship_torpedo_sub }
 			}
@@ -299,31 +464,31 @@ equipments = {
 					ship_ballistic_missile
 				}
 			}
-			fixed_sub_ballistic_missile_slot_1 = {
+			custom_sub_ballistic_missile_slot_1 = {
 				required = yes
 				allowed_module_categories = {
 					ship_ballistic_missile
 				}
 			}
-			fixed_sub_ballistic_missile_slot_2 = {
+			custom_sub_ballistic_missile_slot_2 = {
 				required = no
 				allowed_module_categories = {
 					ship_ballistic_missile
 				}
 			}
-			fixed_sub_ballistic_missile_slot_3 = {
+			custom_sub_ballistic_missile_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					ship_ballistic_missile
 				}
 			}
-			fixed_sub_ballistic_missile_slot_4 = {
+			custom_sub_ballistic_missile_slot_4 = {
 				required = no
 				allowed_module_categories = {
 					ship_ballistic_missile
 				}
 			}
-			fixed_sub_ballistic_missile_slot_5 = {
+			custom_sub_ballistic_missile_slot_5 = {
 				required = no
 				allowed_module_categories = {
 					ship_ballistic_missile
@@ -332,21 +497,30 @@ equipments = {
 		}
 		
 		default_modules = {
-			fixed_ship_sonar_slot = sub_sonar_1
 			fixed_ship_systems_slot = sub_electrical_systems_1
 			fixed_ship_engine_slot = sub_engine_diesel_1
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_sonar_slot = sub_sonar_1
+			custom_ship_torpedo_slot = ship_torpedo_sub_1
 			custom_slot_1 = empty
-			fixed_sub_ballistic_missile_slot_1 = ballistic_missile_1
-			fixed_sub_ballistic_missile_slot_2 = empty
-			fixed_sub_ballistic_missile_slot_3 = empty
-			fixed_sub_ballistic_missile_slot_4 = empty
-			fixed_sub_ballistic_missile_slot_5 = empty
+			custom_sub_ballistic_missile_slot_1 = ballistic_missile_1
+			custom_sub_ballistic_missile_slot_2 = empty
+			custom_sub_ballistic_missile_slot_3 = empty
+			custom_sub_ballistic_missile_slot_4 = empty
+			custom_sub_ballistic_missile_slot_5 = empty
 		}
 		
-		build_cost_ic = 220
+		surface_detection = 20
+		sub_visibility = 55
+
+		naval_speed = 20
+		reliability = 0.76
+		naval_range = 10000
+		max_strength = 30
+		
+		build_cost_ic = 800
 		resources = {
-			steel = 1
+			steel = 2
+			chromium = 1
 		}
 		
 		manpower = 240
@@ -367,9 +541,15 @@ equipments = {
 		year = 1980
 
 		archetype = ballistic_submarine_hull
+		parent = ballistic_submarine_hull_1
 		priority = 2500
 
 		module_slots = inherit
+
+		sub_visibility = 45
+
+		reliability = 0.80
+		max_strength = 40
 
 		manpower = 300
 	}
@@ -378,10 +558,16 @@ equipments = {
 		year = 2000
 
 		archetype = ballistic_submarine_hull
+		parent = ballistic_submarine_hull_2
 		priority = 2500
 
 		module_slots = inherit
 
+		sub_visibility = 35
+
+		reliability = 0.84
+		max_strength = 50
+		
 		manpower = 220
 	}
 
@@ -389,9 +575,15 @@ equipments = {
 		year = 2020
 
 		archetype = ballistic_submarine_hull
+		parent = ballistic_submarine_hull_3
 		priority = 2500
 
 		module_slots = inherit
+
+		sub_visibility = 25
+
+		reliability = 0.88
+		max_strength = 60
 
 		manpower = 200
 	}

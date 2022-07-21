@@ -5,3 +5,5 @@ spriteTypes = {
 		textureFile = "gfx/sucmp_cover.dds"
 		noOfFrames = 2
 	}
+
+}

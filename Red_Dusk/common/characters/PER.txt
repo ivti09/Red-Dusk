@@ -8,7 +8,21 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = shiite_islamism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	PER_tariq_aziz = {
+		name = "Tariq Aziz"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRN/Tariq_Aziz1.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
 			traits = {}
 			expire = "2050.3.1.1"
 			id = -1

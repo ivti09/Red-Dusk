@@ -1,7 +1,8 @@
 ﻿##### USSR NAME LISTS #####
+
 ### SUBMARINES ###
 SOV_SS_NUMERICAL = {
-	name = "Diesel Attack Submarine"
+	name = "Diesel Attack Submarines"
 
 	for_countries = { SOV }
 
@@ -17,9 +18,8 @@ SOV_SS_NUMERICAL = {
 	ordered = {
 	}
 }
-
 SOV_SSN_NUMERICAL = {
-	name = "Nuclear Attack Submarine"
+	name = "Nuclear Attack Submarines"
 
 	for_countries = { SOV }
 
@@ -35,9 +35,8 @@ SOV_SSN_NUMERICAL = {
 	ordered = {
 	}
 }
-
 SOV_SSGN_NUMERICAL = {
-	name = "Cruise Missile Submarine"
+	name = "Cruise Missile Submarines"
 
 	for_countries = { SOV }
 
@@ -53,9 +52,8 @@ SOV_SSGN_NUMERICAL = {
 	ordered = {
 	}
 }
-
 SOV_SSBN_NUMERICAL = {
-	name = "Ballistic Missile Submarine"
+	name = "Ballistic Missile Submarines"
 
 	for_countries = { SOV }
 
@@ -71,9 +69,8 @@ SOV_SSBN_NUMERICAL = {
 	ordered = {
 	}
 }
-
 SOV_TYPHOON_NUMERICAL = {
-	name = "Heavy Ballistic Missile Submarine"
+	name = "Heavy Ballistic Missile Submarines"
 
 	for_countries = { SOV }
 
@@ -87,5 +84,22 @@ SOV_TYPHOON_NUMERICAL = {
 	fallback_name = "TK-%d"
 	
 	ordered = {
+	}
+}
+
+### GENERIC ###
+SOV_NAVAL_NAME_CITIES = {
+	name = "Cities"
+
+	for_countries = { SOV }
+
+	can_use = {
+		always = yes
+	}
+
+	type = ship
+	
+	unique = {
+		"Kronshtadt" "Irkutsk" "Voronezh" "Smolensk" "Chelyabinsk" "Vilyuchinsk" "Tver" "Orel" "Omsk" "Kursk" "Tomsk" "Belgorod" "Severodvinsk" "Vologda" "Yaroslavl" "Kaluga" "Vladikavkaz" "Magnitogorsk" "Lipetsk" "Kazan" "Novosibirsk" "Sevastopol" "Krasnoyarsk" "Arkhangelsk" "Perm" "Ulyanovsk" "Voronezh" "Vladivostok" "Nizhniy Novgorod" "Pskov" "Murmansk" "Krasnodar" "Chita" "Vyborg" "Kamchatsk" "Komsomolsk-on-Amur" "Krasnokamensk" "Mogocha" "Novorossiysk" "Rostov-on-Don" "Stary Oskol" "Krasnodar" "Velikiy Novgorod" "Kolpino" "Petropavlovsk-Kamchatsky" "Volkhov" "Magadan" "Ufa" "Mozhaysk" "Yakutsk" "Petrozavodsk"
 	}
 }

@@ -195,24 +195,6 @@ ideas = {
 			}
 		}
 
-		SAF_money_idea = {
-			name = SAF_money_idea_name
-
-			removal_cost = -1
-
-			#picture = x
-
-			allowed = {
-				always = no
-			}
-
-			modifier = {
-				production_factory_efficiency_gain_factor = 0.5
-				production_speed_buildings_factor = 0.2
-				stability_factor = -0.5
-			}
-		}
-
 	}
 
 }

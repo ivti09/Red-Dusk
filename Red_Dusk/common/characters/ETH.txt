@@ -15,4 +15,19 @@ characters = {
 		}
 	}
 
+	ETH_mengistu = {
+		name = "Mengistu Haile Mariam"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Mengistu_Haile_Mariam.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
 }

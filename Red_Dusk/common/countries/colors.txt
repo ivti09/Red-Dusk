@@ -4,6 +4,22 @@ GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
+FCD = {
+	color = rgb { 224 122 71 }
+	color_ui = rgb { 224 122 71 }
+}
+SNF = {
+	color = rgb { 193 94 94 }
+	color_ui = rgb { 193 94 94 }
+}
+BFS = {
+	color = rgb { 117 76 78 }
+	color_ui = rgb { 117 76 78 }
+}
+ANC = {
+	color = rgb { 36  95  92 }
+	color_ui = rgb { 36  95  92 }
+}
 ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
@@ -24,14 +40,17 @@ LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-BEL = { color 	 = rgb { 193 171 8  }
-		color_ui = rgb { 251 222 10 }
-	  }
-HOL = {	color = rgb { 203 138 74 }
-		color_ui = rgb { 255 179 96 }
+BEL = {
+	color = rgb { 193 171 8 }
+	color_ui = rgb { 251 222 10 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+HOL = {
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 255 179 96 }
+}
+CZE = {
+	color = rgb { 54 167 156 }
+	color_ui = rgb { 70 217 203 }
 }
 POL = {
 	color = rgb { 214 102 139 }
@@ -222,8 +241,8 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 195 107 160 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
 }
 SAU = {
 	color = rgb { 171 190 152 }
@@ -236,6 +255,10 @@ SIA = {
 SIK = {
 	color = rgb { 71 190 152 }
 	color_ui = rgb { 222 247 198 }
+}
+SRL = {
+	color = rgb { 147 205 0 }
+	color_ui = rgb { 158 113 0 }
 }
 TIB = {
 	color = rgb { 80 115 45}
@@ -399,8 +422,8 @@ INS = {
 }
 
 VIN = {
-	color = rgb { 230  223  50 }
-	color_ui = rgb { 230  223  50 }
+	color = rgb { 179 35 25 }
+	color_ui = rgb { 179 35 25 }
 }
 
 CAM = {
@@ -822,4 +845,20 @@ SIN = {
 SKR = {
 	color = rgb { 126 175 208 }
 	color_ui = rgb { 126 175 208 }
+}
+BOS = {
+	color = rgb { 0 81 51 }
+	color_ui = rgb { 0 81 51 }
+}
+KOS = {
+	color = rgb { 44 23 84 }
+	color_ui = rgb { 44 23 84 }
+}
+MAC = {
+	color = rgb { 124 58 0 }
+	color_ui = rgb { 124 58 0 }
+}
+TAM = {
+	color = rgb { 211 10 30 }
+	color_ui = rgb { 193 80 0 }
 }

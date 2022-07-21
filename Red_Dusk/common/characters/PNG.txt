@@ -1,0 +1,18 @@
+characters = {
+
+	PNG_sir_mekere_morauta = {
+		name = "Sir Mekere Morauta"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PNG/Sir_Mekere_Morauta.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

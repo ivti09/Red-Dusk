@@ -5,6 +5,7 @@ sub_units = {
 		priority = 2
 		active = yes
 		type = { submarine }
+		categories = { category_all_vessels category_all_submarine_vessels }
 		need = { attack_submarine_hull = 1 }
 	}
 	cruise_submarine = {
@@ -13,6 +14,7 @@ sub_units = {
 		priority = 2
 		active = yes
 		type = { submarine }
+		categories = { category_all_vessels category_all_submarine_vessels }
 		need = { cruise_submarine_hull = 1 }
 	}
 	ballistic_submarine = {
@@ -21,6 +23,7 @@ sub_units = {
 		priority = 2
 		active = yes
 		type = { submarine }
+		categories = { category_all_vessels category_all_submarine_vessels }
 		need = { ballistic_submarine_hull = 1 }
 	}
 }
