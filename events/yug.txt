@@ -68,14 +68,14 @@ country_event = {
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = YUG_PATH
+				rule = YUG_paths_selection
 				option = YUG_REFORMED_COMMUNIST_MILOSEVIC_PATH_CHOSEN
 				}
 			}
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = YUG_PATH
+				rule = YUG_paths_selection
 				option = YUG_JOSKA_BROZ_PATH_CHOSEN
 				}
 			}
@@ -92,7 +92,7 @@ country_event = {
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = SOV_PATH
+				rule = YUG_paths_selection
 				option = YUG_NATIONALIST_MILOSEVIC_PATH_CHOSEN
 				}
 			}
@@ -118,7 +118,7 @@ country_event = {
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = YUG_PATH
+				rule = YUG_paths_selection
 				option = YUG_REFORMED_COMMUNIST_MILOSEVIC_PATH_CHOSEN
 				}
 			}
@@ -133,7 +133,7 @@ country_event = {
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = YUG_PATH
+				rule = YUG_paths_selection
 				option = YUG_JOSKA_BROZ_PATH_CHOSEN
 				}
 			}
@@ -161,7 +161,7 @@ country_event = {
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = YUG_PATH
+				rule = YUG_paths_selection
 				option = YUG_REFORMED_COMMUNIST_MILOSEVIC_PATH_CHOSEN
 				}
 			}

@@ -185,7 +185,7 @@ country_event = {
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = SOV_PATH
+				rule = SOV_paths_selection
 				option = SOV_YAZOV_PATH_CHOSEN
 				}
 			}
@@ -203,7 +203,7 @@ country_event = {
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = SOV_PATH
+				rule = SOV_paths_selection
 				option = SOV_PUGO_PATH_CHOSEN
 				}
 			}
@@ -224,14 +224,14 @@ country_event = {
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = SOV_PATH
+				rule = SOV_paths_selection
 				option = SOV_PUTIN_PATH_CHOSEN
 				}
 			}
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = SOV_PATH
+				rule = SOV_paths_selection
 				option = SOV_GORBACHEV_PATH_CHOSEN
 				}
 			}
@@ -263,7 +263,7 @@ country_event = {
 				modifier = {
 					factor = 99999
 					has_game_rule = {
-					rule = SOV_PATH
+					rule = SOV_paths_selection
 					option = SOV_PUTIN_PATH_CHOSEN
 					}
 				}
@@ -284,7 +284,7 @@ country_event = {
 				modifier = {
 					factor = 99999
 					has_game_rule = {
-					rule = SOV_PATH
+					rule = SOV_paths_selection
 					option = SOV_GORBACHEV_PATH_CHOSEN
 					}
 				}

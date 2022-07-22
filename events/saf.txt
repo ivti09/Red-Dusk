@@ -101,7 +101,7 @@ country_event = {
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = SAF_PATH
+				rule = SAF_paths_selection
 				option = SAF_PARLIMENT_PATH_CHOSEN
 				}
 			}
@@ -117,7 +117,7 @@ country_event = {
 			modifier = {
 				factor = 99999
 				has_game_rule = {
-				rule = SAF_PATH
+				rule = SAF_paths_selection
 				option = SAF_MILITARY_PATH_CHOSEN
 				}
 			}
