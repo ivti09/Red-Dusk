@@ -1,0 +1,75 @@
+
+state={
+<<<<<<< HEAD:Red_Dusk/history/states/847-Western Cape.txt
+	id=847
+	name="STATE_847"
+=======
+<<<<<<<< HEAD:Red_Dusk/history/states/681-Soviet Lakes.txt
+	id=681
+	name="STATE_681"
+========
+	id=847
+	name="STATE_847"
+>>>>>>>> master:history/states/847-Western Cape.txt
+>>>>>>> master:history/states/847-Western Cape.txt
+
+	history={
+		owner = SAF
+		buildings = {
+<<<<<<< HEAD:Red_Dusk/history/states/847-Western Cape.txt
+=======
+<<<<<<<< HEAD:Red_Dusk/history/states/681-Soviet Lakes.txt
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = SAF
+		add_core_of = ANC
+		add_core_of = FCD
+========
+>>>>>>> master:history/states/847-Western Cape.txt
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+			air_base = 3
+			12589 = {
+				naval_base = 4
+
+			}
+
+		}
+		victory_points = {
+			12589 10 
+		}
+		add_core_of = SAF
+		add_core_of = ANC
+<<<<<<< HEAD:Red_Dusk/history/states/847-Western Cape.txt
+=======
+>>>>>>>> master:history/states/847-Western Cape.txt
+>>>>>>> master:history/states/847-Western Cape.txt
+
+	}
+
+	provinces={
+<<<<<<< HEAD:Red_Dusk/history/states/847-Western Cape.txt
+=======
+<<<<<<<< HEAD:Red_Dusk/history/states/681-Soviet Lakes.txt
+		1509 4528 5203 10442 10697 12419 
+	}
+	manpower=1146025
+	buildings_max_level_factor=1.000
+	state_category=rural
+========
+>>>>>>> master:history/states/847-Western Cape.txt
+		4822 10415 12547 12589 12692 
+	}
+	manpower=368036
+	buildings_max_level_factor=1.000
+	state_category=city
+<<<<<<< HEAD:Red_Dusk/history/states/847-Western Cape.txt
+=======
+>>>>>>>> master:history/states/847-Western Cape.txt
+>>>>>>> master:history/states/847-Western Cape.txt
+	local_supplies=0.000
+}

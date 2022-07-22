@@ -1,0 +1,11 @@
+saf_deal_with_insurgents = {
+	icon = GFX_decision_category_army_reform
+	picture = GFX_decision_category_south_africa_army_photo
+	
+	allowed = {
+	}
+	
+	visible = {
+	}
+	priority = 200
+}

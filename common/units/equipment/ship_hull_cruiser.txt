@@ -1,0 +1,169 @@
+equipments = {
+
+	cruiser_hull = {
+		year = 1960
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		group_by = archetype
+		priority = 2500
+
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_gun_upgrade
+			ship_anti_air_upgrade
+		}
+		
+		interface_category = interface_category_screen_ships
+
+		module_slots = {
+			fixed_ship_systems_slot = {
+				required = yes
+				allowed_module_categories = { surface_ship_systems }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { large_surface_ship_engine }
+			}
+			fixed_ship_sonar_slot = {
+				required = no
+				allowed_module_categories = { sub_ship_sonar }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_defensive_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					ship_sam_missile
+					ship_ciws
+					ship_anti_air
+				}
+			}
+			fixed_ship_defensive_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_sam_missile
+					ship_ciws
+					ship_anti_air
+				}
+			}
+			fixed_ship_aviation_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_helicopter }
+			}
+			custom_ship_cannon_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_gun }
+			}
+			custom_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+					ship_aswrl
+					ship_depth_charges
+				}
+			}
+			custom_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+					ship_torpedo_surface
+				}
+			}
+			custom_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+					ship_sam_missile
+					ship_ciws
+				}
+			}
+			custom_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+					ship_sam_missile
+					ship_ciws
+				}
+			}
+			custom_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					ship_aswrl
+					ship_depth_charges
+				}
+			}
+			custom_ship_rear_cannon_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_gun }
+			}
+		}
+		
+		default_modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = large_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+			custom_slot_4 = empty
+			custom_slot_5 = empty
+			custom_ship_rear_cannon_slot = empty
+		}
+		
+		surface_detection = 20
+		surface_visibility = 18
+
+		naval_speed = 25
+		reliability = 0.78
+		naval_range = 7500
+		max_strength = 40
+		armor_value = 15
+		
+		build_cost_ic = 2000
+		resources = {
+			steel = 4
+			chromium = 3
+		}
+		
+		manpower = 700
+	}
+
+	cruiser_hull_1 = {
+		year = 1960
+
+		archetype = cruiser_hull
+		priority = 2500
+
+		module_slots = inherit
+
+		manpower = 700
+	}
+
+	cruiser_hull_2 = {
+		year = 1980
+
+		archetype = cruiser_hull
+		parent = cruiser_hull_1
+		priority = 2500
+
+		module_slots = inherit
+
+		surface_visibility = 16
+
+		reliability = 0.82
+		max_strength = 50
+
+		manpower = 900
+	}
+
+}

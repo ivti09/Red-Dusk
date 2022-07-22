@@ -1,0 +1,33 @@
+characters = {
+
+	ITA_carlo_ciampi = {
+		name = "Carlo Ciampi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Carlo_Ciampi.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	ITA_roberto_fiore = {
+		name = "Roberto Fiore"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Roberto_Fiore.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+characters = {
+
+	PER_mohammad_khatami = {
+		name = "Mohammad Khatami"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRN/Mohammad_Khatami.dds"
+			}
+		}
+		country_leader = {
+			ideology = shiite_islamism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	PER_tariq_aziz = {
+		name = "Tariq Aziz"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRN/Tariq_Aziz1.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

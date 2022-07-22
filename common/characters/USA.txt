@@ -1,0 +1,47 @@
+characters = {
+
+	USA_bill_clinton = {
+		name = "Bill Clinton"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Bill_Clinton.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	USA_george_bush = {
+		name = "George Bush"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/George_Bush.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	USA_dan_quayle = {
+		name = "Dan Quayle"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Dan_Quayle.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+}

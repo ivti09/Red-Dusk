@@ -1,0 +1,25 @@
+opinion_modifiers = {
+
+	USA_misdirected_foreign_policy_opinion = {
+		value = -20
+	}
+
+	IRQ_alternate_trade_partner_opinion = {
+		trade = yes
+		value = 10
+	}
+	IRQ_abandoned_dollar_opinion = {
+		value = -15
+	}
+	IRQ_improve_saudi_relations_opinion = {
+		value = 25
+	}
+	IRQ_soviet_support_opinion = {
+		value = 10
+	}
+	
+	YUG_cut_contacts = {
+		value = -25
+	}
+
+}

@@ -1,0 +1,18 @@
+characters = {
+
+	VOL_blaise = {
+		name = "Blaise Compaoré"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Blaise_Compaoré.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

@@ -1,0 +1,140 @@
+﻿capital = 361
+
+#oob = "USA_1936"
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		#set_naval_oob = "USA_1936_naval_mtg"
+	else = {
+		#set_naval_oob = "USA_1936_naval_legacy"
+	}
+}
+
+set_technology = {
+	fighter_1960 = 1
+	interceptor_1960 = 1
+	carrier_fighter_1960 = 1
+	fighter_1970 = 1
+	carrier_fighter_1970 = 1
+	fighter_1980 = 1
+	carrier_fighter_1980 = 1
+	fighter_1990 = 1
+	carrier_fighter_1990 = 1
+	carrier_fighter_2000 = 1
+	attacker_1960 = 1
+	carrier_attacker_1960 = 1
+	attacker_1970 = 1
+	carrier_attacker_1970 = 1
+	attacker_1980 = 1
+	strike_bomber_1960 = 1
+	strategic_bomber_1960 = 1
+	strategic_bomber_1980 = 1
+	stealth_bomber_2000 = 1
+	mbt_tank_1960 = 1
+	mbt_tank_1970 = 1
+	mbt_tank_1980 = 1
+	mbt_tank_1990 = 1
+	tank_ammo_1960 = 1
+	tank_ammo_1970 = 1
+	tank_ammo_1980 = 1
+	tank_ammo_1990 = 1
+	tank_aps_soft = 1
+	ifv_tank_1970 = 1
+	ifv_tank_1980 = 1
+	ifv_tank_1990 = 1
+	ifv_anti_tank_missile_1 = 1
+	ifv_anti_tank_missile_2 = 1
+	apc_tank_1960 = 1
+	apc_tank_1970 = 1
+	apc_tank_1980 = 1
+	apc_tank_1990 = 1
+	spaa_tank_1960 = 1
+	infantry_weapons_1960 = 1
+	infantry_weapons_1980 = 1
+	support_weapons_1960 = 1
+	support_weapons_1980 = 1
+	support_weapons_1990 = 1
+	support_weapons_1995 = 1
+	night_vision_gen_1 = 1
+	night_vision_gen_2 = 1
+	thermal_vision_gen_1 = 1
+	thermal_vision_gen_2 = 1
+	infantry_anti_tank_weapons_1960 = 1
+	infantry_anti_tank_weapons_1980 = 1
+	infantry_anti_air_weapons_1960 = 1
+	infantry_anti_air_weapons_1980 = 1
+	paratrooper_tech_1960 = 1
+	paratrooper_tech_1980 = 1
+	marine_tech_1960 = 1
+	marine_tech_1980 = 1
+	marine_tech_2000 = 1
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		recon_vehicle_1960 = 1
+		recon_vehicle_1980 = 1
+	}
+}
+
+set_research_slots = 4
+set_stability = 0.75
+set_war_support = 0
+set_convoys = 500
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 99
+	communism = 1
+}
+
+add_ideas = USA_the_constitution
+add_ideas = USA_three_party_primacy
+add_ideas = USA_second_amendment
+add_ideas = USA_stagnating_economy
+add_ideas = USA_misdirected_foreign_policy
+add_ideas = USA_military_spending
+add_ideas = USA_last_bastion
+
+recruit_character = USA_dan_quayle
+recruit_character = USA_george_bush
+
+create_faction = "NATO"
+USA = {
+	add_to_faction = ENG
+	add_to_faction = CAN
+	add_to_faction = FRA
+	add_to_faction = GER
+	add_to_faction = ITA
+	add_to_faction = ICE
+	add_to_faction = SPR
+	add_to_faction = CZE
+	add_to_faction = POR
+	add_to_faction = NOR
+	add_to_faction = GER
+	add_to_faction = DEN
+	add_to_faction = BEL
+	add_to_faction = HOL
+	add_to_faction = LUX
+	add_to_faction = TUR
+	add_to_faction = GRE
+}
+
+USA = {
+	if = {
+		limit = {
+			has_idea = USA_misdirected_foreign_policy
+		}
+		set_rule = {
+			can_not_declare_war = yes
+			can_send_volunteers = no
+		}
+	}
+}

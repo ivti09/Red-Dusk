@@ -1,0 +1,83 @@
+focus_tree = {
+	id = yug_milosevic_alive_focus
+	country = {
+		factor = 0
+	}
+	
+	
+	default = no
+	
+	focus = {
+		id = YUG_president_survives
+		icon = GFX_focus_YUG_tito_honour
+		x = 9
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			add_stability = 0.02
+			
+		}
+	}
+	
+	focus = {
+		id = YUG_increase_security
+		icon = GFX_focus_YUG_tito_honour
+		x = 9
+		y = 1
+
+		prerequisite = {focus = YUG_president_survives}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			add_stability = 0.02
+		}
+	}
+	
+	focus = {
+		id = YUG_emergency_broadcast
+		icon = GFX_focus_YUG_tito_honour
+		x = 9
+		y = 2
+
+		prerequisite = {focus = YUG_increase_security}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			country_event = {id = yug.6}
+		}
+	}
+	
+	
+}

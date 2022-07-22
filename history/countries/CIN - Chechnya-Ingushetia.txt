@@ -1,0 +1,19 @@
+﻿capital = 821 #Grozny
+
+##oob = "CIN_1936"
+
+set_research_slots = 3
+
+
+recruit_character = CIN_Dzhokhar_Dudayev
+
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 30
+	fascism = 70
+	communism = 0
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=422
+	name="STATE_422"
+	resources={
+		rubber=60.000
+	}
+
+	history={
+		add_core_of = SRL
+		owner = SRL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 1
+			air_base = 3
+			7260 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1213 4219 7260 7344 10287 
+	}
+	manpower=4675000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+﻿capital = 206 #Minsk
+
+#oob = "BLR_1936"
+
+recruit_character = BLR_alexander_lukashenko
+
+set_research_slots = 3
+
+set_popularities = {
+	democratic = 0
+	neutrality = 20
+	communism = 30
+	reformed_communism = 50
+	fascism = 0
+}
+
+set_politics = {
+	ruling_party = reformed_communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}

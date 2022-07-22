@@ -1,0 +1,11 @@
+sub_units = {
+	battleship = {
+		sprite = battleship
+		map_icon_category = ship
+		priority = 9
+		active = yes
+		type = { capital_ship }
+		categories = { category_all_vessels category_all_surface_vessels }
+		need = { battleship_hull = 1 }
+	}
+}

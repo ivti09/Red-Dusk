@@ -1,0 +1,25 @@
+ideas = {
+	
+	country = {
+	
+		SYR_oil_producers = {
+			name = oil_producers_name
+
+			removal_cost = -1
+
+			picture = oil_producers_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				production_speed_synthetic_refinery_factor = 0.1
+				production_speed_fuel_silo_factor = 0.1
+			}
+		}
+
+	}
+
+}

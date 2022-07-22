@@ -1,0 +1,18 @@
+characters = {
+
+	EQG_teodoro_obiang = {
+		name = "Teodoro Obiang Nguema Mbasogo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Teodoro_Obiang_Nguema_Mbasogo.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

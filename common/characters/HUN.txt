@@ -1,0 +1,32 @@
+characters = {
+
+	HUN_victor_orban = {
+		name = "Victor Orban"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/Victor_Orban.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	HUN_gyula_thürmer = {
+		name = "Gyula Thürmer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HUN/Gyula_Thürmer.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

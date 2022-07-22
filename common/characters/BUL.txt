@@ -1,0 +1,32 @@
+characters = {
+
+	BUL_petar_stoyanov = {
+		name = "Petar Stoyanov"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUL/Petar_Stoyanov.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	BUL_alexander_lilov = {
+		name = "Alexander Lilov"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUL/Alexander_Lilov.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

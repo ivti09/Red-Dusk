@@ -1,0 +1,105 @@
+ideas = {
+	
+	country = {
+	
+		ANC_boers_idea = {
+			name = ANC_boers_idea_name
+
+			removal_cost = -1
+
+			#picture = x
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				recruitable_population_factor = 0.1
+				stability_factor = -0.1
+				training_time_factor = -0.1
+			}
+		}
+
+		ANC_kgb_idea = {
+			name = ANC_kgb_idea_name
+
+			removal_cost = -1
+
+			picture = ANC_kgb_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.05
+				political_power_gain = 0.5
+				stability_factor = 0.15
+				intelligence_agency_defense = 0.10
+				foreign_subversive_activites = -0.10
+			}
+		}
+
+		ANC_mandela_idea = {
+			name = ANC_mandela_idea_name
+
+			removal_cost = -1
+
+			#picture = x
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = -0.1
+				army_core_defence_factor = 0.2
+				army_core_attack_factor = 0.05
+				stability_factor = 0.05
+				political_power_gain = -1.0
+			}
+		}
+
+		ANC_fanatical_idea = {
+			name = ANC_fanatical_idea_name
+
+			removal_cost = -1
+
+			picture = ANC_fanatics_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.05
+				army_core_attack_factor = 0.1
+				political_power_gain = -1.0
+				production_factory_efficiency_gain_factor = -0.05
+				army_org_factor = -0.15
+			}
+		}
+
+		ANC_fanatical_2_idea = {
+			name = ANC_fanatical_idea_name
+
+			removal_cost = -1
+
+			picture = ANC_fanatics_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				war_support_factor = 0.03
+				army_core_attack_factor = 0.2
+				political_power_gain = -1.5
+				production_factory_efficiency_gain_factor = -0.06
+				army_org_factor = -0.1
+			}
+		}
+
+	}
+
+}

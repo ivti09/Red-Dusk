@@ -1,0 +1,23 @@
+﻿capital = 741
+
+#oob = "CAM_1936"
+
+set_research_slots = 2
+
+add_ideas = CAM_legacy_of_polpot
+add_ideas = CAM_internal_conflict
+
+recruit_character = CAM_Hun_Sen
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 15
+	communism = 50
+	neutrality = 35
+}

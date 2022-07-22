@@ -1,0 +1,22 @@
+﻿capital = 43
+
+#oob = "HUN_1936"
+
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.6
+
+recruit_character = HUN_victor_orban
+recruit_character = HUN_gyula_thürmer
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2000.3.31"
+	election_frequency = 48
+	elections_allowed = no #elections by events
+}
+set_popularities = {
+	democratic = 75
+	fascism = 20
+	communism = 5
+}

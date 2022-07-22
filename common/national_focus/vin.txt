@@ -1,0 +1,290 @@
+focus_tree = {
+	id = vin
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VIN
+		}
+	}
+	#New Millennium, New Vietnam
+	focus = {
+		id = VIN_newmillenniumnewvietnam
+		icon = VIN_new_vietnam
+		x = 7
+		y = 0
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+            completion_reward = {
+			add_political_power = 20
+			VIN = {
+				country_event = { id = vin.1 }
+			}
+
+		}
+	}
+
+	#Healing Scars of War
+	focus = {
+		id = VIN_healing_scars_of_war
+		icon = GFX_goal_generic_national_unity
+		x = 3
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_newmillenniumnewvietnam  }
+	}
+
+	#Status of the Economy
+	focus = {
+		id = VIN_status_of_the_economy
+		icon = GFX_focus_SOV_great_industry
+		x = 7
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_newmillenniumnewvietnam  }
+	}
+
+	#Our Place in the World
+	focus = {
+		id = VIN_our_place_in_the_world
+		icon = VIN_our_place
+		x = 12
+		y = 1
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_newmillenniumnewvietnam  }
+	}
+
+	#Open Stock Market
+	focus = {
+		id = VIN_open_stock_market
+		icon = VIN_open_stock
+		x = 6
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_status_of_the_economy  }
+	}
+
+	#Sign Vietnam - US Trade Agreement
+	focus = {
+		id = VIN_sign_vietnam__us_trade_agreement
+		icon = VIN_trade_US
+		x = 6
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_open_stock_market  }
+	}
+
+	#Support State-owned Enterprise
+	focus = {
+		id = VIN_support_stateowned_enterprise
+		icon = VIN_support_enterprise
+		x = 8
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_status_of_the_economy  }
+	}
+
+	#Expand Collectivization
+	focus = {
+		id = VIN_expand_collectivization
+		icon = VIN_hop_tac_xa
+		x = 8
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_support_stateowned_enterprise  }
+	}
+
+	#Socialist-oriented Market Economy
+	focus = {
+		id = VIN_socialistoriented_market_economy
+		icon = generic_soc_market
+		x = 7
+		y = 4
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_expand_collectivization  } prerequisite = { focus = VIN_sign_vietnam__us_trade_agreement  }
+	}
+
+	#Improve Veteran Welfare
+	focus = {
+		id = VIN_improve_veteran_welfare
+		icon = VIN_improve_veteran_welfare
+		x = 2
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_healing_scars_of_war  }
+	}
+
+	#Help Martyrs Family
+	focus = {
+		id = VIN_help_martyrs_family
+		icon = VIN_help_family
+		x = 4
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_healing_scars_of_war  }
+	}
+
+	#Red Indochina
+	focus = {
+		id = VIN_red_indochina
+		icon = VIN_red_indochina
+		x = 12
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_our_place_in_the_world  }
+	}
+
+	#Improve relations with China
+	focus = {
+		id = VIN_improve_relations_with_china
+		icon = VIN_China_coop
+		x = 14
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_our_place_in_the_world  }
+	}
+
+	#Soviet Brother
+	focus = {
+		id = VIN_soviet_brother
+		icon = VIN_SOV_friendship
+		x = 10
+		y = 2
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_our_place_in_the_world  }
+	}
+
+	#Mutual Defense Treaty
+	focus = {
+		id = VIN_mutual_defense_treaty
+		icon = GFX_focus_generic_treaty
+		x = 12
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_red_indochina  }
+	}
+
+	#Ask for aid
+	focus = {
+		id = VIN_ask_for_aid
+		icon = GFX_focus_IRQ_moscow
+		x = 10
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_soviet_brother  }
+	}
+
+	#Strengthen Economic Cooperation
+	focus = {
+		id = VIN_strengthen_economic_cooperation
+		icon = VIN_coop
+		x = 14
+		y = 3
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+            prerequisite = { focus = VIN_improve_relations_with_china  }
+	}
+
+	#Continue the Neutrality Policy
+	focus = {
+		id = VIN_continue_the_neutrality_policy
+		icon = GFX_goal_generic_neutrality_focus
+		x = 12
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_strengthen_economic_cooperation  } prerequisite = { focus = VIN_ask_for_aid  } prerequisite = { focus = VIN_mutual_defense_treaty  }
+	}
+
+	#9th Party Congress
+	focus = {
+		id = VIN_9th_party_congress
+		icon = VIN_congress
+		x = 7
+		y = 5
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_the_greatest_generation  } prerequisite = { focus = VIN_continue_the_neutrality_policy  } prerequisite = { focus = VIN_socialistoriented_market_economy  }
+	}
+
+	#Increase Budget of the Veterans Association
+	focus = {
+		id = VIN_increase_budget_of_the_veterans_association
+		icon = VIN_fund_veteran
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_help_martyrs_family  } prerequisite = { focus = VIN_improve_veteran_welfare  }
+	}
+
+	#The Greatest Generation
+	focus = {
+		id = VIN_the_greatest_generation
+		icon = VIN_greatest_generation
+		x = 3
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = VIN_increase_budget_of_the_veterans_association  }
+	}
+
+}

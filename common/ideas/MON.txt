@@ -1,0 +1,40 @@
+ideas = {
+	
+	country = {
+	
+		MON_communism = {
+			name = MON_communism_idea_name
+
+			removal_cost = -1
+
+			picture = MON_communism_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.05
+			}
+		}
+
+		MON_split = {
+			name = MON_split_idea_name
+
+			removal_cost = -1
+
+			picture = MON_split_icon
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.02
+				communism_drift = 0.01
+				reformed_communism_drift = 0.01
+			}
+		}
+	}
+}

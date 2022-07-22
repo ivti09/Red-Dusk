@@ -1,0 +1,18 @@
+scripted_gui = {
+
+	irq_kurd_gui = {
+		window_name = "kurd_resistance_stuff_gui_window"
+		context_type = decision_category
+
+		visible = {
+			original_tag = IRQ
+		}
+
+		properties = {
+			kurd_resistance_bar = {
+				frame = current_kurd_resistance_bar_frame
+			}
+		}
+	}
+	
+}

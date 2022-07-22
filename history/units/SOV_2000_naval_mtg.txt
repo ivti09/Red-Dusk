@@ -1,0 +1,896 @@
+units = {
+	fleet = {
+		name = "Severnyy Flot"
+		naval_base = 3134 # Murmansk #
+		task_force = {
+			name = "Severnyy Flot"
+			location = 3134 # Murmansk #
+			ship = { name = "Ulyanovsk" definition = carrier equipment = { carrier_hull_2 = { amount = 1 owner = SOV version_name = "Ulyanovsk Class (Pr. 11437)" } }
+				air_wings = {
+					carrier_fighter_equipment_3 = { owner = "SOV" amount = 36 }
+				}
+			}
+			ship = { name = "Murmansk" definition = carrier equipment = { carrier_hull_2 = { amount = 1 owner = SOV version_name = "Kuznetsov Class (Pr. 11435)" } }
+				air_wings = {
+					carrier_fighter_equipment_3 = { owner = "SOV" amount = 16 }
+				}
+			}
+			ship = { name = "Baku" definition = carrier equipment = { carrier_hull_1 = { amount = 1 owner = SOV version_name = "Baku Class (Pr. 11434)" } }
+				air_wings = {
+					carrier_fighter_equipment_1 = { owner = "SOV" amount = 9 }
+				}
+				air_wings = {
+					carrier_fighter_equipment_2 = { owner = "SOV" amount = 2 }
+				}
+			}
+
+			ship = { name = "Yuri Andropov" definition = battlecruiser equipment = { battlecruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kirov Class (Pr. 11442)" } } }
+			ship = { name = "Kalinin" definition = battlecruiser equipment = { battlecruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kirov Class (Pr. 11442)" } } }
+
+			ship = { name = "Marshal Ustinov" definition = cruiser equipment = { cruiser_hull_2 = { amount = 1 owner = SOV version_name = "Slava Class (Pr. 1164)" } } }
+			ship = { name = "Admiral Yumashev" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kresta II Class (Pr. 1134A)" } } }
+			ship = { name = "Marshal Timoshenko" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kresta II Class (Pr. 1134A)" } } }
+			ship = { name = "Admiral Isachenkov" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kresta II Class (Pr. 1134A)" } } }
+			ship = { name = "Admiral Makarov" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kresta II Class (Pr. 1134A)" } } }
+			ship = { name = "Admiral Isakov" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kresta II Class (Pr. 1134A)" } } }
+
+			ship = { name = "Admiral Kharlamov" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Udaloy I Class (Pr. 1155)" } } }
+			ship = { name = "Admiral Levchenko" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Udaloy I Class (Pr. 1155)" } } }
+			ship = { name = "Simferopol" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Udaloy I Class (Pr. 1155)" } } }
+			ship = { name = "Marshal Vasilevskiy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Udaloy I Class (Pr. 1155)" } } }
+			ship = { name = "Vitse-admiral Kulakov" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Udaloy I Class (Pr. 1155)" } } }
+			ship = { name = "Udaloy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Udaloy I Class (Pr. 1155)" } } }
+			ship = { name = "Admiral Chabanenko" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Udaloy II Class (Pr. 11551)" } } }
+			ship = { name = "Vdumchivyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Vazhnyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Besstrashnyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Bezuderzhnyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Rastoropnyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Gremiashchiy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Okrylionnyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Bezuprechnyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Otlichnyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Otchayannyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Soobrazitelnyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Kashin Class (Pr. 61)" } } }
+			ship = { name = "Smyshlionyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Kashin mod. Class (Pr. 61MP)" } } }
+			ship = { name = "Zadornyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Lyogky" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Dostoynyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Zharkiy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak IV Class (Pr. 11353)" } } }
+			ship = { name = "Bessmennyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak II Class (Pr. 1135M)" } } }
+			ship = { name = "Gromkiy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak II Class (Pr. 1135M)" } } }
+			ship = { name = "Rezvyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak II Class (Pr. 1135M)" } } }
+
+			ship = { name = "MPK-141" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-152" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-40" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-31" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-59" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-14" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-10" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-130" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-56" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-7" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-197" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-203" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "Brestskiy Komsomolets" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-113" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-196" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-202" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-69" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-198" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-190" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-139" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-142" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "Metel" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Zaria" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Volna" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Rassvet" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Priboy" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Uragan" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Tucha" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Aysberg" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Veter" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Nakat" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka IV Class (Pr. 12347)" } } }
+			ship = { name = "SKR-123" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Petya Class (Pr. 159A)" } } }
+			ship = { name = "SKR-126" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Petya Class (Pr. 159A)" } } }
+		}
+		task_force = {
+			name = "Severnyy Podvodnyy Flot"
+			location = 3134 # Murmansk #
+			ship = { name = "K-152" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-157" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-154" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-328" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-461" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-317" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-480" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-602" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 09711)" } } }
+			ship = { name = "K-339" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 09711)" } } }
+			ship = { name = "K-341" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 09711)" } } }
+			ship = { name = "K-335" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 09711)" } } }
+			ship = { name = "K-276" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Sierra I Class (Pr. 945)" } } }
+			ship = { name = "K-239" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Sierra I Class (Pr. 945)" } } }
+			ship = { name = "B-336" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Sierra II Class (Pr. 945A)" } } }
+			ship = { name = "B-534" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Sierra II Class (Pr. 945A)" } } }
+			ship = { name = "K-289" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Sierra III Class (Pr. 945AB)" } } }
+			ship = { name = "K-536" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Sierra III Class (Pr. 945AB)" } } }
+			ship = { name = "B-177" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-459" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-471" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-800" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-808" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-401" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-402" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "K-462" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor I Class (Pr. 671)" } } }
+			ship = { name = "K-398" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor I Class (Pr. 671)" } } }
+			ship = { name = "K-438" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor I Class (Pr. 671)" } } }
+			ship = { name = "K-323" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor I Class (Pr. 671K)" } } }
+			ship = { name = "K-488" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor II Class (Pr. 671RT)" } } }
+			ship = { name = "K-517" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor II Class (Pr. 671RT)" } } }
+			ship = { name = "K-467" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor II Class (Pr. 671RT)" } } }
+			ship = { name = "K-513" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor II Class (Pr. 671RT)" } } }
+			ship = { name = "K-495" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor II Class (Pr. 671RT)" } } }
+			ship = { name = "K-371" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor II Class (Pr. 671RT)" } } }
+			ship = { name = "K-387" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor II Class (Pr. 671RT)" } } }
+			ship = { name = "K-244" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-299" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-218" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-358" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-298" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-527" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-502" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-254" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-524" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "B-448" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTMK)" } } }
+			ship = { name = "B-138" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTMK)" } } }
+			ship = { name = "B-414" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTMK)" } } }
+			ship = { name = "K-388" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTMK)" } } }
+			ship = { name = "K-292" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTMK)" } } }
+			ship = { name = "B-409" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-46" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-225" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+			ship = { name = "B-319" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+			ship = { name = "B-396" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+			ship = { name = "B-215" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+			ship = { name = "B-30" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+			ship = { name = "B-146" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+			ship = { name = "B-546" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+			ship = { name = "B-515" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+			ship = { name = "B-437" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+			ship = { name = "B-498" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+
+			ship = { name = "K-560" definition = cruise_submarine equipment = { cruise_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Graney Class (Pr. 885)" } } }
+			ship = { name = "K-206" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar I Class (Pr. 949)" } } }
+			ship = { name = "K-525" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar I Class (Pr. 949)" } } }
+			ship = { name = "K-329" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-141" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-266" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-410" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-119" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-148" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-156" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar III Class (Pr. 949U)" } } }
+			ship = { name = "K-423" definition = cruise_submarine equipment = { cruise_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Yankee Notch Class (Pr. 667AT)" } } }
+			ship = { name = "K-253" definition = cruise_submarine equipment = { cruise_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Yankee Notch Class (Pr. 667AT)" } } }
+			ship = { name = "K-209" definition = cruise_submarine equipment = { cruise_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Charlie II Class (Pr. 670M)" } } }
+			ship = { name = "K-508" definition = cruise_submarine equipment = { cruise_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Charlie II Class (Pr. 670M)" } } }
+			ship = { name = "K-452" definition = cruise_submarine equipment = { cruise_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Charlie II Class (Pr. 670M)" } } }
+		}
+		task_force = {
+			name = "Severnyy Ballisticheskiy Podvodnyy Flot"
+			location = 3134 # Murmansk #
+			ship = { name = "TK-20" definition = ballistic_submarine equipment = { ballistic_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Typhoon Class (Pr. 941)" } } }
+			ship = { name = "TK-17" definition = ballistic_submarine equipment = { ballistic_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Typhoon Class (Pr. 941)" } } }
+			ship = { name = "TK-13" definition = ballistic_submarine equipment = { ballistic_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Typhoon Class (Pr. 941)" } } }
+			ship = { name = "TK-12" definition = ballistic_submarine equipment = { ballistic_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Typhoon Class (Pr. 941)" } } }
+			ship = { name = "TK-202" definition = ballistic_submarine equipment = { ballistic_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Typhoon Class (Pr. 941)" } } }
+			ship = { name = "TK-208" definition = ballistic_submarine equipment = { ballistic_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Typhoon Class (Pr. 941)" } } }
+			ship = { name = "K-420" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Yankee I Class (Pr. 667A)" } } }
+			ship = { name = "K-395" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Yankee I Class (Pr. 667A)" } } }
+			ship = { name = "K-228" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Yankee I Class (Pr. 667A)" } } }
+			ship = { name = "K-444" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Yankee I Class (Pr. 667A)" } } }
+			ship = { name = "K-137" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Yankee I Class (Pr. 667A)" } } }
+			ship = { name = "K-460" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta I Class (Pr. 667B)" } } }
+			ship = { name = "K-465" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta I Class (Pr. 667B)" } } }
+			ship = { name = "K-472" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta I Class (Pr. 667B)" } } }
+			ship = { name = "K-475" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta I Class (Pr. 667B)" } } }
+			ship = { name = "K-457" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta I Class (Pr. 667B)" } } }
+			ship = { name = "K-44" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta III Class (Pr. 667BDR)" } } }
+			ship = { name = "K-129" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta III Class (Pr. 667BDR)" } } }
+			ship = { name = "K-487" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta III Class (Pr. 667BDR)" } } }
+			ship = { name = "K-496" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta III Class (Pr. 667BDR)" } } }
+			ship = { name = "K-407" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta IV Class (Pr. 667BDRM)" } } }
+			ship = { name = "K-18" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta IV Class (Pr. 667BDRM)" } } }
+			ship = { name = "K-117" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta IV Class (Pr. 667BDRM)" } } }
+			ship = { name = "K-114" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta IV Class (Pr. 667BDRM)" } } }
+			ship = { name = "K-64" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta IV Class (Pr. 667BDRM)" } } }
+			ship = { name = "K-84" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta IV Class (Pr. 667BDRM)" } } }
+			ship = { name = "K-51" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta IV Class (Pr. 667BDRM)" } } }
+		}
+	}
+	fleet = {
+		name = "Baltiyskiy Flot"
+		naval_base = 6332 # Kaliningrad #
+		task_force = {
+			name = "Baltiyskiy Flot"
+			location = 6332 # Kaliningrad #
+			ship = { name = "Admiral Zozulia" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kresta I Class (Pr. 1134)" } } }
+
+			ship = { name = "Tumannyy" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = SOV version_name = "Neustrashimyy Class (Pr. 11540)" } } }
+			ship = { name = "Nepristupny" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = SOV version_name = "Neustrashimyy Class (Pr. 11540)" } } }
+			ship = { name = "Neustrashimyy" definition = destroyer equipment = { destroyer_hull_3 = { amount = 1 owner = SOV version_name = "Neustrashimyy Class (Pr. 11540)" } } }
+			ship = { name = "Admiral Basistyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Udaloy II Class (Pr. 11551)" } } }
+			ship = { name = "Buynyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Nastoychivyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Bespokoynyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Obraztsovyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Kashin Class (Pr. 61)" } } }
+			ship = { name = "Pylkiy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Druzhnyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Silnyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Svirepyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Bodryy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Bditelnyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Neukrotimy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak II Class (Pr. 1135M)" } } }
+
+			ship = { name = "Buran" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Bora Class (Pr. 1239)" } } }
+			ship = { name = "Samum" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Bora Class (Pr. 1239)" } } }
+			ship = { name = "MPK-229" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SOV version_name = "Parchim Class (Pr. 1331M)" } } }
+			ship = { name = "MPK-224" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SOV version_name = "Parchim Class (Pr. 1331M)" } } }
+			ship = { name = "MPK-227" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SOV version_name = "Parchim Class (Pr. 1331M)" } } }
+			ship = { name = "MPK-228" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SOV version_name = "Parchim Class (Pr. 1331M)" } } }
+			ship = { name = "MPK-105" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SOV version_name = "Parchim Class (Pr. 1331M)" } } }
+			ship = { name = "MPK-213" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SOV version_name = "Parchim Class (Pr. 1331M)" } } }
+			ship = { name = "MPK-216" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SOV version_name = "Parchim Class (Pr. 1331M)" } } }
+			ship = { name = "MPK-219" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SOV version_name = "Parchim Class (Pr. 1331M)" } } }
+			ship = { name = "MPK-67" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SOV version_name = "Parchim Class (Pr. 1331M)" } } }
+			ship = { name = "MPK-99" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SOV version_name = "Parchim Class (Pr. 1331M)" } } }
+			ship = { name = "MPK-192" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SOV version_name = "Parchim Class (Pr. 1331M)" } } }
+			ship = { name = "MPK-205" definition = corvette equipment = { corvette_hull_2 = { amount = 1 owner = SOV version_name = "Parchim Class (Pr. 1331M)" } } }
+			ship = { name = "MPK-49" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-108" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "Komsomolets Latvii" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-2" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-161" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "Raduga" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Shtorm" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Shkval" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Molniya" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Grad" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Perekat" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Liven" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Passat" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Geyzer" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Zyb" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Meteor" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Priliv" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Burun" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+		}
+		task_force = {
+			name = "Baltiyskiy Podvodnyy Flot"
+			location = 6332 # Kaliningrad #
+			ship = { name = "B-144" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-468" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877EKM)" } } }
+			ship = { name = "B-806" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877EKM)" } } }
+			ship = { name = "B-440" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-205" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-413" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-49" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-840" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-807" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-821" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-312" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+			ship = { name = "B-307" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+			ship = { name = "B-290" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+			ship = { name = "B-303" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+			ship = { name = "B-519" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+		}
+	}
+	fleet = {
+		name = "Chernomorskiy Flot"
+		naval_base = 3686 # Sevastopol #
+		task_force = {
+			name = "Chernomorskiy Flot"
+			location = 3686 # Sevastopol #
+			ship = { name = "Admiral Lobov" definition = cruiser equipment = { cruiser_hull_2 = { amount = 1 owner = SOV version_name = "Slava Class (Pr. 1164)" } } }
+			ship = { name = "Slava" definition = cruiser equipment = { cruiser_hull_2 = { amount = 1 owner = SOV version_name = "Slava Class (Pr. 1164)" } } }
+			ship = { name = "Kerch" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kara Class (Pr. 1134B)" } } }
+			ship = { name = "Ochakov" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kara Class (Pr. 1134B)" } } }
+			ship = { name = "Azov" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kara Class (Pr. 1134BF)" } } }
+			ship = { name = "Admiral Golovko" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kynda Class (Pr. 58)" } } }
+
+			ship = { name = "Derzkyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Vechnyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Skoryy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Kashin Class (Pr. 61)" } } }
+			ship = { name = "Krasnyy Krym" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Kashin Class (Pr. 61)" } } }
+			ship = { name = "Smetlivyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Kashin Class (Pr. 61)" } } }
+			ship = { name = "Krasnyy Kavkaz" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Kashin Class (Pr. 61)" } } }
+			ship = { name = "Reshitelnyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Kashin Class (Pr. 61)" } } }
+			ship = { name = "Sderzhannyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Kashin mod. Class (Pr. 61M)" } } }
+			ship = { name = "Ladnyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Bezukoriznennyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Bezzavetnyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Pytlivyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak II Class (Pr. 1135M)" } } }
+			ship = { name = "Razitelnyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak II Class (Pr. 1135M)" } } }
+
+			ship = { name = "Chayka" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Gepard Class (Pr. 11662)" } } }
+			ship = { name = "Sokol" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Gepard Class (Pr. 11662)" } } }
+			ship = { name = "Bora" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Bora Class (Pr. 1239)" } } }
+			ship = { name = "MPK-6" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "Komsomolets Gruzii" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "Odesskiy Komsomolets" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-52" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-104" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha IV Class (Pr. 1124K)" } } }
+			ship = { name = "MPK-209" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-85" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-207" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-217" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "Komsomolets Armenii" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "Komsomolets Moldavii" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "Kievskiy Komsomolets" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "Zarnitsa" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Grom" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Groza" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Mirazh" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Shtil" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+		}
+		task_force = {
+			name = "Chernomorskiy Podvodnyy Flot"
+			location = 3686 # Sevastopol #
+			ship = { name = "B-609" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-871" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877V)" } } }
+			ship = { name = "S-128" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Romeo Class (Pr. 633KS)" } } }
+			ship = { name = "S-49" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Romeo Class (Pr. 633RV)" } } }
+			ship = { name = "B-435" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-41" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-109" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-9" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-380" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Tango Class (Pr. 641B)" } } }
+		}
+	}
+	fleet = {
+		name = "Kaspiyskaya Flotiliya"
+		naval_base = 757 # Astrakhan #
+		task_force = {
+			name = "Kaspiyskaya Flotiliya"
+			location = 757 # Astrakhan #
+			ship = { name = "Yastreb" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Gepard Class (Pr. 11660)" } } }
+			ship = { name = "Golub" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Gepard Class (Pr. 11661K)" } } }
+			ship = { name = "Dyatel" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Gepard Class (Pr. 11661K)" } } }
+			ship = { name = "Vorobey" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Gepard Class (Pr. 11661K)" } } }
+			ship = { name = "Barguzin" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Bora Class (Pr. 1239)" } } }
+			ship = { name = "Sarma" definition = corvette equipment = { corvette_hull_3 = { amount = 1 owner = SOV version_name = "Bora Class (Pr. 1239)" } } }
+		}
+	}
+	fleet = {
+		name = "Tikhookeanskiy Flot"
+		naval_base = 957 # Vladivostok #
+		task_force = {
+			name = "Tikhookeanskiy Flot"
+			location = 957 # Vladivostok #
+			ship = { name = "Vladivostok" definition = carrier equipment = { carrier_hull_2 = { amount = 1 owner = SOV version_name = "Kuznetsov Class (Pr. 11436)" } }
+				air_wings = {
+					carrier_fighter_equipment_3 = { owner = "SOV" amount = 19 }
+				}
+			}
+			ship = { name = "Novorossiysk" definition = carrier equipment = { carrier_hull_1 = { amount = 1 owner = SOV version_name = "Kiev Class (Pr. 11433)" } }
+				air_wings = {
+					carrier_fighter_equipment_1 = { owner = "SOV" amount = 11 }
+				}
+				air_wings = {
+					carrier_fighter_equipment_2 = { owner = "SOV" amount = 5 }
+				}
+			}
+
+			ship = { name = "Frunze" definition = battlecruiser equipment = { battlecruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kirov Class (Pr. 11442)" } } }
+
+			ship = { name = "Chervona Ukraina" definition = cruiser equipment = { cruiser_hull_2 = { amount = 1 owner = SOV version_name = "Slava Class (Pr. 1164)" } } }
+			ship = { name = "Vasiliy Chapaev" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kresta II Class (Pr. 1134A)" } } }
+			ship = { name = "Admiral Oktyabrskiy" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kresta II Class (Pr. 1134A)" } } }
+			ship = { name = "Marshal Voroshilov" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kresta II Class (Pr. 1134A)" } } }
+			ship = { name = "Petropavlovsk" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kara Class (Pr. 1134B)" } } }
+			ship = { name = "Nikolaev" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kara Class (Pr. 1134B)" } } }
+			ship = { name = "Admiral Fokin" definition = cruiser equipment = { cruiser_hull_1 = { amount = 1 owner = SOV version_name = "Kynda Class (Pr. 58)" } } }
+
+			ship = { name = "Admiral Panteleev" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Udaloy I Class (Pr. 1155)" } } }
+			ship = { name = "Admiral Vinogradov" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Udaloy I Class (Pr. 1155)" } } }
+			ship = { name = "Admiral Tributs" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Udaloy I Class (Pr. 1155)" } } }
+			ship = { name = "Marshal Shaposhnikov" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Udaloy I Class (Pr. 1155)" } } }
+			ship = { name = "Admiral Spiridonov" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Udaloy I Class (Pr. 1155)" } } }
+			ship = { name = "Vnushitelnyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Bezboyaznennyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Bystryy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Burnyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Boevoy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Stoykiy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Osmotritelnyy" definition = destroyer equipment = { destroyer_hull_2 = { amount = 1 owner = SOV version_name = "Sovremennyy Class (Pr. 956)" } } }
+			ship = { name = "Strogiy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Kashin Class (Pr. 61)" } } }
+			ship = { name = "Steregushchiy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Kashin Class (Pr. 61)" } } }
+			ship = { name = "Poryvistyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Letuchiy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Retivyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Raziashchiy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Razumnyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Storozhevoy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak I Class (Pr. 1135)" } } }
+			ship = { name = "Revnostnyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak II Class (Pr. 1135M)" } } }
+			ship = { name = "Gordelivyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak II Class (Pr. 1135M)" } } }
+			ship = { name = "Ryanyy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak II Class (Pr. 1135M)" } } }
+			ship = { name = "Groziashchiy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak II Class (Pr. 1135M)" } } }
+			ship = { name = "Rezkiy" definition = destroyer equipment = { destroyer_hull_1 = { amount = 1 owner = SOV version_name = "Krivak II Class (Pr. 1135M)" } } }
+
+			ship = { name = "MPK-191" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-178" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-155" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-37" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-4" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "Zaporozhskiy Komsomolets" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-170" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-145" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-143" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-122" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-81" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha I Class (Pr. 1124)" } } }
+			ship = { name = "MPK-20" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-17" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-82" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-107" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-125" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-64" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-222" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-28" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "MPK-89" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "Primorskiy Komsomolets" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Grisha III Class (Pr. 1124M)" } } }
+			ship = { name = "Tayfun" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Tsiklon" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Vikhr" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka I Class (Pr. 1234)" } } }
+			ship = { name = "Razliv" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Moroz" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Iney" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "Smerch" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Nanuchka III Class (Pr. 12341)" } } }
+			ship = { name = "SKR-138" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Petya Class (Pr. 159A)" } } }
+			ship = { name = "SKR-133" definition = corvette equipment = { corvette_hull_1 = { amount = 1 owner = SOV version_name = "Petya Class (Pr. 159A)" } } }
+		}
+		task_force = {
+			name = "Tikhookeanskiy Podvodnyy Flot"
+			location = 957 # Vladivostok #
+			ship = { name = "K-207" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-313" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-330" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-333" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-334" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-337" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-295" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-419" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-331" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-391" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-322" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-263" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-284" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 971)" } } }
+			ship = { name = "K-168" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 09711)" } } }
+			ship = { name = "K-306" definition = attack_submarine equipment = { attack_submarine_hull_3 = { amount = 1 owner = SOV version_name = "Akula Class (Pr. 09711)" } } }
+			ship = { name = "B-340" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-705" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-390" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-345" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-190" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-187" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-464" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-494" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-394" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-445" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-439" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-470" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-405" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-227" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-229" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-404" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-260" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "B-248" definition = attack_submarine equipment = { attack_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Kilo Class (Pr. 877)" } } }
+			ship = { name = "K-264" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-242" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-360" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-305" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-355" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-251" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-255" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-324" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-412" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-492" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-507" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-247" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor III Class (Pr. 671RTM)" } } }
+			ship = { name = "K-469" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor I Class (Pr. 671)" } } }
+			ship = { name = "K-454" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Victor I Class (Pr. 671)" } } }
+			ship = { name = "B-427" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-213" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-39" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-28" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+			ship = { name = "B-101" definition = attack_submarine equipment = { attack_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Foxtrot Class (Pr. 641)" } } }
+
+			ship = { name = "K-135" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-160" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-150" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-186" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-456" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-442" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-132" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-173" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar II Class (Pr. 949A)" } } }
+			ship = { name = "K-386" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar III Class (Pr. 949U)" } } }
+			ship = { name = "K-309" definition = cruise_submarine equipment = { cruise_submarine_hull_2 = { amount = 1 owner = SOV version_name = "Oscar III Class (Pr. 949U)" } } }
+		}
+		task_force = {
+			name = "Tikhookeanskiy Ballisticheskiy Podvodnyy Flot"
+			location = 957 # Vladivostok #
+			ship = { name = "K-430" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Yankee I Class (Pr. 667A)" } } }
+			ship = { name = "K-446" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Yankee I Class (Pr. 667A)" } } }
+			ship = { name = "K-512" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta I Class (Pr. 667B)" } } }
+			ship = { name = "K-523" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta I Class (Pr. 667B)" } } }
+			ship = { name = "K-530" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta I Class (Pr. 667B)" } } }
+			ship = { name = "K-497" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta I Class (Pr. 667B)" } } }
+			ship = { name = "K-500" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta I Class (Pr. 667B)" } } }
+			ship = { name = "K-417" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta I Class (Pr. 667B)" } } }
+			ship = { name = "K-477" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta I Class (Pr. 667B)" } } }
+			ship = { name = "K-180" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta III Class (Pr. 667BDR)" } } }
+			ship = { name = "K-433" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta III Class (Pr. 667BDR)" } } }
+			ship = { name = "K-211" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta III Class (Pr. 667BDR)" } } }
+			ship = { name = "K-223" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta III Class (Pr. 667BDR)" } } }
+			ship = { name = "K-506" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta III Class (Pr. 667BDR)" } } }
+			ship = { name = "K-490" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta III Class (Pr. 667BDR)" } } }
+			ship = { name = "K-441" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta III Class (Pr. 667BDR)" } } }
+			ship = { name = "K-449" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta III Class (Pr. 667BDR)" } } }
+			ship = { name = "K-455" definition = ballistic_submarine equipment = { ballistic_submarine_hull_1 = { amount = 1 owner = SOV version_name = "Delta III Class (Pr. 667BDR)" } } }
+		}
+	}
+}
+
+instant_effect = {
+	# Aircraft Carriers #
+	add_equipment_production = {
+		equipment = {
+			type = carrier_hull_2
+			creator = "SOV" 
+			version_name = "Ulyanovsk Class (Pr. 11437)"
+		}
+		name = "Gori"
+		requested_factories = 1
+		progress = 0.69
+		amount = 1
+	}
+
+	# Destroyers #
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_hull_2
+			creator = "SOV" 
+			version_name = "Udaloy II Class (Pr. 11551)"
+		}
+		name = "Admiral Kucherov"
+		requested_factories = 1
+		progress = 0.95
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_hull_2
+			creator = "SOV" 
+			version_name = "Udaloy II Class (Pr. 11551)"
+		}
+		name = "Admiral Kuznetsov"
+		requested_factories = 1
+		progress = 0.86
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_hull_2
+			creator = "SOV" 
+			version_name = "Udaloy II Class (Pr. 11551)"
+		}
+		name = "Admiral Gorshkov"
+		requested_factories = 1
+		progress = 0.84
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_hull_2
+			creator = "SOV" 
+			version_name = "Udaloy II Class (Pr. 11551)"
+		}
+		name = "Admiral Papanin"
+		requested_factories = 1
+		progress = 0.75
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_hull_2
+			creator = "SOV" 
+			version_name = "Udaloy II Class (Pr. 11551)"
+		}
+		name = "Marshal Vasilevsky"
+		requested_factories = 1
+		progress = 0.75
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_hull_2
+			creator = "SOV" 
+			version_name = "Udaloy II Class (Pr. 11551)"
+		}
+		name = "Admiral Chernavin"
+		requested_factories = 1
+		progress = 0.42
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_hull_2
+			creator = "SOV" 
+			version_name = "Udaloy II Class (Pr. 11551)"
+		}
+		name = "Marshal Govorov"
+		requested_factories = 1
+		progress = 0.29
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_hull_2
+			creator = "SOV" 
+			version_name = "Udaloy II Class (Pr. 11551)"
+		}
+		name = "Admiral Basistiy"
+		requested_factories = 1
+		progress = 0.22
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_hull_2
+			creator = "SOV" 
+			version_name = "Udaloy II Class (Pr. 11551)"
+		}
+		name = "Admiral Konovalov"
+		requested_factories = 1
+		progress = 0.10
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_hull_3
+			creator = "SOV" 
+			version_name = "Neustrashimyy Class (Pr. 11540)"
+		}
+		name = "Besshumnyy"
+		requested_factories = 1
+		progress = 0.80
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_hull_3
+			creator = "SOV" 
+			version_name = "Neustrashimyy Class (Pr. 11540)"
+		}
+		name = "Obyedinennyy"
+		requested_factories = 1
+		progress = 0.72
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_hull_3
+			creator = "SOV" 
+			version_name = "Neustrashimyy Class (Pr. 11540)"
+		}
+		name = "Vidimyy"
+		requested_factories = 1
+		progress = 0.61
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_hull_3
+			creator = "SOV" 
+			version_name = "Neustrashimyy Class (Pr. 11540)"
+		}
+		name = "Ogromnyy"
+		requested_factories = 1
+		progress = 0.51
+		amount = 1
+	}
+
+	# Corvettes #
+	add_equipment_production = {
+		equipment = {
+			type = corvette_hull_3
+			creator = "SOV" 
+			version_name = "Gepard Class (Pr. 11662)"
+		}
+		name = "Zyablik"
+		requested_factories = 1
+		progress = 0.98
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = corvette_hull_3
+			creator = "SOV" 
+			version_name = "Gepard Class (Pr. 11662)"
+		}
+		name = "Chechevitsa"
+		requested_factories = 1
+		progress = 0.83
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = corvette_hull_3
+			creator = "SOV" 
+			version_name = "Gepard Class (Pr. 11662)"
+		}
+		name = "Olusha"
+		requested_factories = 1
+		progress = 0.74
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = corvette_hull_3
+			creator = "SOV" 
+			version_name = "Bora Class (Pr. 1239)"
+		}
+		name = "Khazri"
+		requested_factories = 1
+		progress = 0.89
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = corvette_hull_4
+			creator = "SOV" 
+			version_name = "Novik Class (Pr. 12441)"
+		}
+		name = "Novik"
+		requested_factories = 1
+		progress = 0.45
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = corvette_hull_4
+			creator = "SOV" 
+			version_name = "Novik Class (Pr. 12441)"
+		}
+		name = "Riurik"
+		requested_factories = 1
+		progress = 0.19
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = corvette_hull_4
+			creator = "SOV" 
+			version_name = "Novik Class (Pr. 12441)"
+		}
+		name = "Peresvet"
+		requested_factories = 1
+		progress = 0.18
+		amount = 1
+	}
+
+	# Attack Submarines #
+	add_equipment_production = {
+		equipment = {
+			type = attack_submarine_hull_4
+			creator = "SOV" 
+			version_name = "Lada Class (Pr. 677)"
+		}
+		name = "B-585"
+		requested_factories = 1
+		progress = 0.82
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = attack_submarine_hull_4
+			creator = "SOV" 
+			version_name = "Lada Class (Pr. 677)"
+		}
+		name = "B-795"
+		requested_factories = 1
+		progress = 0.54
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = attack_submarine_hull_4
+			creator = "SOV" 
+			version_name = "Lada Class (Pr. 677)"
+		}
+		name = "B-582"
+		requested_factories = 1
+		progress = 0.15
+		amount = 1
+	}
+
+	# Cruise Missile Submarines #
+	add_equipment_production = {
+		equipment = {
+			type = cruise_submarine_hull_3
+			creator = "SOV" 
+			version_name = "Graney Class (Pr. 885)"
+		}
+		name = "K-379"
+		requested_factories = 1
+		progress = 0.81
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = cruise_submarine_hull_3
+			creator = "SOV" 
+			version_name = "Graney Class (Pr. 885)"
+		}
+		name = "K-662"
+		requested_factories = 1
+		progress = 0.76
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = cruise_submarine_hull_3
+			creator = "SOV" 
+			version_name = "Graney Class (Pr. 885)"
+		}
+		name = "K-591"
+		requested_factories = 1
+		progress = 0.43
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = cruise_submarine_hull_3
+			creator = "SOV" 
+			version_name = "Graney Class (Pr. 885)"
+		}
+		name = "K-476"
+		requested_factories = 1
+		progress = 0.19
+		amount = 1
+	}
+
+	# Ballistic Missile Submarines #
+	add_equipment_production = {
+		equipment = {
+			type = ballistic_submarine_hull_3
+			creator = "SOV" 
+			version_name = "Borei Class (Pr. 955)"
+		}
+		name = "K-535"
+		requested_factories = 1
+		progress = 0.91
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ballistic_submarine_hull_3
+			creator = "SOV" 
+			version_name = "Borei Class (Pr. 955)"
+		}
+		name = "K-356"
+		requested_factories = 1
+		progress = 0.60
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ballistic_submarine_hull_3
+			creator = "SOV" 
+			version_name = "Borei Class (Pr. 955)"
+		}
+		name = "K-762"
+		requested_factories = 1
+		progress = 0.11
+		amount = 1
+	}
+}

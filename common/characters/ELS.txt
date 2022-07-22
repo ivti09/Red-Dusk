@@ -1,0 +1,18 @@
+characters = {
+
+	ELS_franciscoperez = {
+		name = "Francisco Pérez"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South_America/FranciscoPerez.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

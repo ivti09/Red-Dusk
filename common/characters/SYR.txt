@@ -1,0 +1,33 @@
+characters = {
+
+	SYR_bashar_al_assad = {
+		name = "Bashar Al Assad"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYR/Bashar_Al_Assad.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	SYR_hafez_al_assad = {
+		name = "Hafez Al Assad"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYR/Hafez_Al_Assad.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

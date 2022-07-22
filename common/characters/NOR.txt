@@ -1,0 +1,18 @@
+characters = {
+
+	NOR_kjell_bondevik = {
+		name = "Kjell Bondevik"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOR/Kjell_Bondevik.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

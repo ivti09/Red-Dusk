@@ -1,0 +1,17 @@
+﻿capital = 586 #Almaty
+
+#oob = "KAZ_1936"
+
+set_research_slots = 3
+
+recruit_character = KAZ_nursultan_nazarbayev
+
+set_popularities = {
+	democratic = 25
+	reformed_communism = 75
+}
+
+set_politics = {
+	ruling_party = reformed_communism
+	elections_allowed = no
+}

@@ -1,0 +1,156 @@
+equipments = {
+
+	## Towed Artillery ##
+
+	towed_artillery_equipment = {
+		year = 1960
+
+		is_archetype = yes
+		picture = archetype_towed_artillery_equipment		
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+	}
+	towed_artillery_equipment_1 = {
+		year = 1960
+
+		archetype = towed_artillery_equipment
+	}
+	towed_artillery_equipment_2 = {
+		year = 1980
+
+		archetype = towed_artillery_equipment
+		parent = towed_artillery_equipment_1
+	}
+	towed_artillery_equipment_3 = {
+		year = 2000
+
+		archetype = towed_artillery_equipment
+		parent = towed_artillery_equipment_2
+	}
+	towed_artillery_equipment_4 = {
+		year = 2020
+
+		archetype = towed_artillery_equipment
+		parent = towed_artillery_equipment_3
+	}
+
+	## Motorised Artillery ##
+
+	motorised_artillery_equipment = {
+		year = 1960
+
+		is_archetype = yes
+		picture = archetype_motorised_artillery_equipment		
+		type = {
+			artillery
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+	}
+	motorised_artillery_equipment_1 = {
+		year = 1960
+
+		archetype = motorised_artillery_equipment
+	}
+	motorised_artillery_equipment_2 = {
+		year = 1970
+
+		archetype = motorised_artillery_equipment
+		parent = motorised_artillery_equipment_1
+	}
+	motorised_artillery_equipment_3 = {
+		year = 1980
+
+		archetype = motorised_artillery_equipment
+		parent = motorised_artillery_equipment_2
+	}
+	motorised_artillery_equipment_4 = {
+		year = 1990
+
+		archetype = motorised_artillery_equipment
+		parent = motorised_artillery_equipment_3
+	}
+	motorised_artillery_equipment_5 = {
+		year = 2000
+
+		archetype = motorised_artillery_equipment
+		parent = motorised_artillery_equipment_4
+	}
+	motorised_artillery_equipment_6 = {
+		year = 2010
+
+		archetype = motorised_artillery_equipment
+		parent = motorised_artillery_equipment_5
+	}
+	motorised_artillery_equipment_7 = {
+		year = 2020
+
+		archetype = motorised_artillery_equipment
+		parent = motorised_artillery_equipment_6
+	}
+
+	## Rocket Artillery ##
+
+	rocket_artillery_equipment = {
+		year = 1960
+
+		is_archetype = yes
+		picture = archetype_rocket_artillery_equipment		
+		type = {
+			artillery
+			motorized
+			rocket
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+	}
+	rocket_artillery_equipment_1 = {
+		year = 1960
+
+		archetype = rocket_artillery_equipment
+	}
+	rocket_artillery_equipment_2 = {
+		year = 1970
+
+		archetype = rocket_artillery_equipment
+		parent = rocket_artillery_equipment_1
+	}
+	rocket_artillery_equipment_3 = {
+		year = 1980
+
+		archetype = rocket_artillery_equipment
+		parent = rocket_artillery_equipment_2
+	}
+	rocket_artillery_equipment_4 = {
+		year = 1990
+
+		archetype = rocket_artillery_equipment
+		parent = rocket_artillery_equipment_3
+	}
+	rocket_artillery_equipment_5 = {
+		year = 2000
+
+		archetype = rocket_artillery_equipment
+		parent = rocket_artillery_equipment_4
+	}
+	rocket_artillery_equipment_6 = {
+		year = 2010
+
+		archetype = rocket_artillery_equipment
+		parent = rocket_artillery_equipment_5
+	}
+	rocket_artillery_equipment_7 = {
+		year = 2020
+
+		archetype = rocket_artillery_equipment
+		parent = rocket_artillery_equipment_6
+	}
+}

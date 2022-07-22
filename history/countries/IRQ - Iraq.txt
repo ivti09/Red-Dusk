@@ -1,0 +1,46 @@
+﻿capital = 291
+
+#oob = "IRQ_1936"
+
+set_convoys = 5
+
+add_ideas = IRQ_western_embargo
+add_ideas = IRQ_kurdish_rebels
+add_ideas = IRQ_disorganized_army
+add_ideas = IRQ_oil_producers
+
+recruit_character = IRQ_saddam_hussein
+recruit_character = IRQ_walter_withe
+recruit_character = IRQ_babaker_zebari
+recruit_character = IRQ_abud_qanbar
+recruit_character = IRQ_ahmad_hashim
+recruit_character = IRQ_sultan
+recruit_character = IRQ_ali_al-majid 
+recruit_character = IRQ_saddam_hussein_general
+recruit_character = IRQ_tariq_aziz13
+
+recruit_character = IRQ_khudair_al_sammarrai #https://ar.wikipedia.org/wiki/%D8%A3%D8%AD%D9%85%D8%AF_%D8%AD%D8%B3%D9%8A%D9%86_%D8%AE%D8%B6%D9%8A%D8%B1#
+recruit_character = IRQ_fahad_salem_alshakra #https://ar.wikipedia.org/wiki/%D9%81%D9%87%D8%AF_%D8%B3%D8%A7%D9%84%D9%85_%D8%A7%D9%84%D8%B4%D9%83%D8%B1%D8%A9#
+recruit_character = IRQ_saadi_tohme_abbas #https://ar.wikipedia.org/wiki/%D8%B3%D8%B9%D8%AF%D9%8A_%D8%B7%D8%B9%D9%85%D8%A9_%D8%B9%D8%A8%D8%A7%D8%B3#
+
+add_ideas = IRQ_saadi_tohme_abbas
+add_ideas = IRQ_fahad_salem_alshakra
+add_ideas = IRQ_khudair_al_sammarrai
+
+add_ideas = IRQ_ali_al-majid
+
+add_ideas = IRQ_walter_withe
+add_ideas = IRQ_sultan
+add_ideas = IRQ_tariq_aziz13
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 99
+	neutrality = 1
+}
