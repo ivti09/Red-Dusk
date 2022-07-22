@@ -1,0 +1,33 @@
+
+state={
+	id=454
+	name="STATE_454" #Israel
+	manpower = 5530200
+	
+	state_category = town
+
+	history={
+		owner = ISR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			air_base = 9
+			4206 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			4206 1
+		}
+		add_core_of = PAL
+		add_core_of = ISR
+	}
+
+	provinces={
+		4206
+	}
+
+	local_supplies=0.0 
+}

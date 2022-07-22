@@ -1,0 +1,18 @@
+characters = {
+
+	GNB_umaro_sissoco_embaló = {
+		name = "Umaro Sissoco Embaló"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Umaro_Sissoco_Embaló.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

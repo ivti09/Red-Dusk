@@ -1,0 +1,18 @@
+characters = {
+
+	BAN_shahabuddin_ahmed = {
+		name = "Shahabuddin Ahmed"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BAN/Shahabuddin_Ahmed.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

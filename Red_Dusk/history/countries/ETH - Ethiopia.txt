@@ -1,0 +1,26 @@
+﻿capital = 271
+
+#oob = "ETH_1936"
+
+set_convoys = 5
+
+recruit_character = ETH_negasso_gidada
+recruit_character = ETH_mengistu
+
+add_ideas = ETH_soviet
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2000.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 35
+        communism = 65
+}
+
+declare_war_on = {
+	target = ERI
+	type = annex_everything
+}

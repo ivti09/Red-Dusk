@@ -1,0 +1,11 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_ideology_islamism_group"
+		texturefile = "gfx/interface/ideologies/islamism_group.dds"	
+}
+	SpriteType = {
+		name = "GFX_ideology_reformed_communism_group"
+		texturefile = "gfx/interface/ideologies/reform_socialism_group.dds"	
+}
+
+

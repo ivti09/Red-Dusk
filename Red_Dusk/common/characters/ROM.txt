@@ -1,0 +1,32 @@
+characters = {
+
+	ROM_ion_iliescu = {
+		name = "Ion Iliescu"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ROM/Ion_Iliescu.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+	ROM_ion_iliescu1 = {
+		name = "Ion Iliescu"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ROM/Ion_Iliescu_communist.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

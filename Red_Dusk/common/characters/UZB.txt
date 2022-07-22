@@ -1,0 +1,18 @@
+characters = {
+
+	UZB_islam_karimov = {
+		name = "Islam Karimov"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UZB/islam_karimov.dds"
+			}
+		}
+		country_leader = {
+			ideology = market_socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

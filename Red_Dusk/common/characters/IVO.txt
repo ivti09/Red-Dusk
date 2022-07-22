@@ -1,0 +1,18 @@
+characters = {
+
+	IVO_laurent_gbagbo = {
+		name = "Laurent Gbagbo"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Laurent_Gbagbo.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

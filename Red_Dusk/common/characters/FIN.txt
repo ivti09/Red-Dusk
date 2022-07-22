@@ -1,0 +1,48 @@
+characters = {
+
+	FIN_martti_ahtisaari = {
+		name = "Martti Ahtisaari"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/Martti_Ahtisaari.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	FIN_tarja_halonen = {
+		name = "Tarja Halonen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/Tarja_Halonen.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	FIN_vladimir_boldyrev = {
+		name = "Vladimir Boldyrev"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/Vladimir_Boldyrev.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

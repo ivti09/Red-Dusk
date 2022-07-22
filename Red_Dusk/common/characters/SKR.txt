@@ -1,0 +1,18 @@
+characters = {
+
+	SKR_kim_dae-jung = {
+		name = "Kim Dae-jung"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SKR/Kim_Dae-jung.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

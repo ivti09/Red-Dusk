@@ -1,0 +1,36 @@
+add_namespace = vin
+add_namespace = vin_intro
+
+# intro #
+country_event = {
+	id = vin_intro.1
+	title = vin_intro.1.t
+	desc = vin_intro.1.d
+	picture = GFX_report_event_VIN_intro
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin_intro.1.a
+		
+		hidden_effect = {
+			VIN = {
+				country_event = { id = vin_intro.2 days = 5 }
+			}
+		}
+	}
+}
+
+# Tree #
+country_event = {
+	id = vin.1
+	title = vin.1.t
+	desc = vin.1.d
+	picture = GFX_report_event_VIN_new_age
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vin.1.a
+	}
+}

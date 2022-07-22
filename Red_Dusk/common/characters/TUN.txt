@@ -1,0 +1,18 @@
+characters = {
+
+	TUN_zine_el = {
+		name = "Zine El Abidine Ben Ali"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TUN/Zine_El_Abidine_Ben_Ali.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

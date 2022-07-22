@@ -1,9 +1,0 @@
-defined_text = {
-	name = test
-	text = {
-		trigger = {
-			check_variable = { yug_test = 99 }
-		}
-		localization_key = YUG_loc_test_worked
-	}
-}

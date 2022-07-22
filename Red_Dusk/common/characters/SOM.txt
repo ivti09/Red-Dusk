@@ -1,0 +1,18 @@
+characters = {
+
+	SOM_abdiqasim = {
+		name = "Abdiqasim Salad Hassan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOM/Abdiqasim_Salad_Hassan.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

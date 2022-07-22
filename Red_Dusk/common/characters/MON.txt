@@ -1,0 +1,18 @@
+characters = {
+
+	MON_nambaryn_enkhbayar = {
+		name = "Nambaryn Enkhbayar"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/Nambaryn_Enkhbayar.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

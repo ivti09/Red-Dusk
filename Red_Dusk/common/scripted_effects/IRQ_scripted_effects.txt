@@ -1,0 +1,17 @@
+IRQ_recalc_kurd_resistance_bar_frames = {
+
+	set_temp_variable = { kurd_progress_temp = kurd_resistance_variable }
+	if = {
+		limit = { check_variable = { kurd_progress_temp > 0 } }
+		clamp_temp_variable = { # Forces the variable to be between 1 and 5, so it cannot go below or above that #
+			var = kurd_progress_temp
+			min = 1
+			max = 5 # Basically how many different possible loading bar images you will have #
+		}
+	}
+	else = {
+		set_temp_variable = { kurd_progress_temp = 1 } # If variable is less than 1, set it to 1 #
+	}
+	set_variable = { current_kurd_resistance_bar_frame = kurd_progress_temp } # frame will be whatever the temp variable is, e.g. if temp = 3, then game will load up the 3rd frame, i.e. 3rd image #
+
+}

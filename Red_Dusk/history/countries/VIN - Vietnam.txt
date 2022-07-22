@@ -1,0 +1,30 @@
+﻿capital = 842 #Hanoi
+
+#oob = "VIN_1936"
+
+set_research_slots = 3
+
+add_ideas = VIN_fifty_years_resistance
+add_ideas = VIN_doi_moi
+add_ideas = VIN_patriotic_tradition
+
+recruit_character = VIN_le_kha_phieu
+recruit_character = VIN_phung_quang_thanh
+recruit_character = VIN_pham_van_tra
+recruit_character = VIN_Do_Ba_Ty
+recruit_character = VIN_Ngo_Xuan_Lich
+recruit_character = VIN_Nguyen_Khac_Nghien
+recruit_character = VIN_Nguyen_Huu_Kham
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 5
+	fascism = 0
+	communism = 90
+	neutrality = 5
+}
