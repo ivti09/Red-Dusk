@@ -1,0 +1,18 @@
+characters = {
+
+	POR_jorge_sampaio = {
+		name = "Jorge Sampaio"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/Jorge_Sampaio.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

@@ -1,0 +1,28 @@
+﻿capital = 524
+
+#oob = "CHI_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		#set_naval_oob = "CHI_1936_naval_mtg"
+	else = {
+		#set_naval_oob = "CHI_1936_naval_legacy"
+	}
+}
+
+set_stability = 0.2
+set_war_support = 0.5
+set_convoys = 40
+
+recruit_character = CHI_lee_teng
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 70
+	communism = 30
+}

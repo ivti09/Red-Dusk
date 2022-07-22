@@ -1,0 +1,32 @@
+﻿capital = 41
+
+#oob = "SPR_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		#set_naval_oob = "SPR_1936_naval_mtg"
+	else = {
+		#set_naval_oob = "SPR_1936_naval_legacy"
+	}
+}
+
+set_popularities = {
+	democratic = 70
+	fascism = 23
+	communism = 7
+}
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+recruit_character = SPR_josé_aznar
+
+add_ideas = GER_eu
+
+set_convoys = 150
+set_stability = 0.5

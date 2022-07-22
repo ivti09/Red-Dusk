@@ -1,0 +1,326 @@
+equipments = {
+
+	corvette_hull = {
+		year = 1960
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		group_by = archetype
+		priority = 2500
+
+		upgrades = {
+			ship_torpedo_upgrade
+			destroyer_engine_upgrade
+			ship_ASW_upgrade
+			ship_anti_air_upgrade
+		}
+		
+		interface_category = interface_category_screen_ships
+
+		module_slots = {
+			fixed_ship_systems_slot = {
+				required = yes
+				allowed_module_categories = { surface_ship_systems }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { small_surface_ship_engine }
+			}
+			fixed_ship_sonar_slot = {
+				required = no
+				allowed_module_categories = { sub_ship_sonar }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_defensive_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					ship_sam_missile
+					ship_ciws
+					ship_anti_air
+				}
+			}
+			fixed_ship_defensive_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_sam_missile
+					ship_ciws
+					ship_anti_air
+				}
+			}
+			custom_ship_cannon_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_gun }
+			}
+			custom_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+					ship_aswrl
+					ship_depth_charges
+				}
+			}
+			custom_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_cruise_missile
+					ship_torpedo_surface
+				}
+			}
+			custom_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					ship_aswrl
+					ship_depth_charges
+					ship_mine_warfare
+				}
+			}
+		}
+		
+		default_modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
+
+		surface_detection = 20
+		surface_visibility = 10
+
+		naval_speed = 25
+		reliability = 0.60
+		naval_range = 3000
+		max_strength = 20
+		armor_value = 5
+		
+		build_cost_ic = 650
+		resources = {
+			steel = 2
+			chromium = 1
+		}
+		
+		manpower = 160
+	}
+
+	corvette_hull_1 = {
+		year = 1960
+
+		archetype = corvette_hull
+		priority = 2500
+
+		module_slots = inherit
+
+		manpower = 160
+	}
+
+	corvette_hull_2 = {
+		year = 1980
+
+		archetype = corvette_hull
+		parent = corvette_hull_1
+		priority = 2500
+
+		module_slots = inherit
+
+		surface_visibility = 8
+
+		reliability = 0.64
+		max_strength = 30
+
+		manpower = 160
+	}
+
+	corvette_hull_3 = {
+		year = 1990
+
+		archetype = corvette_hull
+		parent = corvette_hull_2
+		priority = 2500
+
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_defensive_slot_1 = inherit
+			fixed_ship_defensive_slot_2 = inherit
+			fixed_ship_aviation_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_helicopter }
+			}
+			custom_ship_cannon_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = inherit
+			custom_slot_3 = inherit
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
+
+		surface_visibility = 7
+
+		reliability = 0.66
+		max_strength = 35
+
+		manpower = 160
+	}
+
+	corvette_hull_4 = {
+		year = 2000
+
+		archetype = corvette_hull
+		parent = corvette_hull_3
+		priority = 2500
+
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_defensive_slot_1 = inherit
+			fixed_ship_defensive_slot_2 = inherit
+			fixed_ship_aviation_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_helicopter }
+			}
+			custom_ship_cannon_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = inherit
+			custom_slot_3 = inherit
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
+
+		surface_visibility = 6
+
+		reliability = 0.68
+		max_strength = 40
+
+		manpower = 150
+	}
+
+	corvette_hull_5 = {
+		year = 2010
+
+		archetype = corvette_hull
+		parent = corvette_hull_4
+		priority = 2500
+
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_defensive_slot_1 = inherit
+			fixed_ship_defensive_slot_2 = inherit
+			fixed_ship_aviation_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_helicopter }
+			}
+			custom_ship_cannon_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = inherit
+			custom_slot_3 = inherit
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
+
+		surface_visibility = 5
+
+		reliability = 0.70
+		max_strength = 45
+
+		manpower = 120
+	}
+
+	corvette_hull_6 = {
+		year = 2020
+
+		archetype = corvette_hull
+		parent = corvette_hull_5
+		priority = 2500
+
+		module_slots = {
+			fixed_ship_systems_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sonar_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_defensive_slot_1 = inherit
+			fixed_ship_defensive_slot_2 = inherit
+			fixed_ship_aviation_slot = {
+				required = no
+				allowed_module_categories = { ship_naval_helicopter }
+			}
+			custom_ship_cannon_slot = inherit
+			custom_slot_1 = inherit
+			custom_slot_2 = inherit
+			custom_slot_3 = inherit
+		}
+
+		default_modules = {
+			fixed_ship_systems_slot = surface_electrical_systems_1
+			fixed_ship_engine_slot = small_surface_engine_diesel_1
+			fixed_ship_sonar_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_defensive_slot_1 = empty
+			fixed_ship_defensive_slot_2 = empty
+			fixed_ship_aviation_slot = empty
+			custom_ship_cannon_slot = empty
+			custom_slot_1 = empty
+			custom_slot_2 = empty
+			custom_slot_3 = empty
+		}
+
+		surface_visibility = 4
+
+		reliability = 0.72
+		max_strength = 50
+
+		manpower = 120
+	}
+
+}

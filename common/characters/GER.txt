@@ -1,0 +1,62 @@
+characters = {
+
+	GER_gerhard_schroder = {
+		name = "Gerhard Schröder"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/Gerhard_Schröder.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	GER_udo_voigt_1 = {
+		name = "Udo Voigt"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/Udo_Voigt_1.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	GER_udo_voigt_2 = {
+		name = "Udo Voigt"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/Udo_Voigt_2.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	GER_egon_krenz = {
+		name = "Egon Krenz"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/Egon_Krenz.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+}

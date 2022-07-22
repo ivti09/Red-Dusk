@@ -1,0 +1,18 @@
+characters = {
+
+	NGR_tandja_mamadou = {
+		name = "Tandja Mamadou"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Tandja_Mamadou.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

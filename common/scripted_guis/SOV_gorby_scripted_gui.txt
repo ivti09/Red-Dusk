@@ -1,0 +1,12 @@
+scripted_gui = {
+
+	SOV_gorby_ui = {
+		window_name = "sov_gorby_gui"
+		context_type = decision_category
+
+		visible = {
+			original_tag = SOV
+		}
+	}
+	
+}

@@ -1,0 +1,1539 @@
+focus_tree = {
+	id = irq_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = IRQ
+		}
+	}
+
+	continuous_focus_position = { x = 2500 y = 2500 }
+	
+	default = no
+	focus = {
+		id = IRQ_new_era
+		icon = GFX_focus_IRQ_iraq_future
+		x = 10
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = IRQ_saddam_rule
+		icon = GFX_focus_IRQ_saddam 
+		x = 10
+		y = 1
+
+		prerequisite = {focus = IRQ_new_era}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 30
+			IRQ = {
+				country_event = { id = irq.3 }
+			}
+		}
+	}
+	
+	focus = {
+		id = IRQ_problems
+		icon = GFX_focus_IRQ_problems
+		x = 10
+		y = 2
+
+		prerequisite = {focus = IRQ_saddam_rule}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -20
+			add_stability = -0.03
+		}
+	}
+	
+	focus = {
+		id = IRQ_sanctions
+		icon = GFX_focus_IRQ_sanctions
+		x = 10
+		y = 3
+
+		prerequisite = {focus = IRQ_problems}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			set_country_flag = IRQ_sanctions
+
+		}
+	}
+	
+	focus = {
+		id = IRQ_kurds
+		icon = GFX_focus_IRQ_kurds
+		x = 10
+		y = 4
+
+		prerequisite = {focus = IRQ_sanctions}
+		available = {
+                has_country_flag = IRQ_sanctions_done
+        }
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			add_stability = -0.05
+			set_country_flag = IRQ_kurds
+			IRQ = {
+				country_event = { id = irq.1 }
+			}
+		}
+	}
+
+	focus = {
+        	id = IRQ_army
+        	icon = GFX_focus_IRQ_army
+        	x = 10
+        	y = 5
+		prerequisite = {focus = IRQ_kurds}
+		available = {
+                has_country_flag = IRQ_kurds_done
+                }
+               
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			set_country_flag = IRQ_army_stuff
+			IRQ = {
+				country_event = { id = irq.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = IRQ_reforms
+		icon = GFX_focus_IRQ_reforms
+		x = 10
+		y = 6
+
+		prerequisite = {focus = IRQ_army}
+		available = {
+                has_country_flag = IRQ_army_done
+                }
+
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.04
+			add_political_power = -20
+		}
+	}
+
+        ###civ###
+
+	focus = {
+		id = IRQ_civilian_industry
+		icon = GFX_focus_SOV_civ_sector 
+		x = 9
+		y = 7
+
+		prerequisite = {focus = IRQ_reforms}
+
+		mutually_exclusive = {focus = IRQ_military_industry}
+		
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+			add_war_support = -0.05
+		291 = {
+                		add_extra_state_shared_building_slots = 1
+
+                		add_building_construction = {
+                    		type = industrial_complex
+                    		level = 1
+                    		instant_build = yes
+                		}
+           		 }
+			
+		}
+	}
+
+	focus = {
+		id = IRQ_open_factories
+		icon = GFX_focus_SOV_status_of_union 
+		x = 9
+		y = 8
+
+		prerequisite = {focus = IRQ_civilian_industry}
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		676 = {
+                		add_extra_state_shared_building_slots = 2
+
+                		add_building_construction = {
+                    		type = industrial_complex
+                    		level = 2
+                    		instant_build = yes
+                		}
+           		 }
+			
+		}
+	}
+
+	focus = {
+		id = IRQ_invite_investors1
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 9
+		y = 9
+
+		prerequisite = {focus = IRQ_open_factories}
+
+		mutually_exclusive = { }
+		
+		cost = 4
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = IRQ_civ_ind
+		}
+	}
+
+        ###mil###
+
+	focus = {
+		id = IRQ_military_industry
+		icon = GFX_focus_SOV_mobilize_industry
+		x = 11
+		y = 7
+
+		prerequisite = {focus = IRQ_reforms}
+
+		mutually_exclusive = {focus = IRQ_civilian_industry}
+		
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 100
+			add_stability = -0.05
+			add_war_support = 0.05
+			291 = {
+                		add_extra_state_shared_building_slots = 1
+
+                		add_building_construction = {
+                    			type = arms_factory
+                    			level = 1
+                    			instant_build = yes
+                		}
+           		 }
+			
+		}
+	}
+
+	focus = {
+		id = IRQ_re_build_old_factories
+		icon = GFX_focus_SOV_ind_city
+		x = 11
+		y = 8
+
+		prerequisite = {focus = IRQ_military_industry}
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		676 = {
+
+                		add_extra_state_shared_building_slots = 2
+
+                		add_building_construction = {
+                    		type = arms_factory
+                    		level = 2
+                    		instant_build = yes
+                		}
+           		 }
+			
+		}
+	}
+
+	focus = {
+		id = IRQ_invite_investors
+		icon = GFX_focus_SOV_corruption 
+		x = 11
+		y = 9
+
+		prerequisite = {focus = IRQ_re_build_old_factories}
+
+		mutually_exclusive = { }
+		
+		cost = 4
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = IRQ_mil_ind
+		}
+	}
+
+	###normal###
+
+	focus = {
+		id = IRQ_reform_done
+		icon = GFX_focus_IRQ_reforms 
+		x = 10
+		y = 10
+
+		prerequisite = {focus = IRQ_invite_investors focus = IRQ_invite_investors1}
+
+		mutually_exclusive = { }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+
+			
+		}
+	}
+
+	focus = {
+		id = IRQ_forbbiden_power
+		icon = GFX_focus_IRQ_forbidden_power 
+		x = 10
+		y = 11
+
+		prerequisite = {focus = IRQ_reform_done}
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			add_stability = -0.07
+			add_war_support = 0.05
+			
+		}
+	}
+
+	focus = {
+		id = IRQ_atom
+		icon = GFX_focus_IRQ_atom 
+		x = 10
+		y = 12
+
+		prerequisite = {focus = IRQ_forbbiden_power}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		        add_tech_bonus = {
+                                name = IRQ_uranium_mining
+			        bonus = 0.10
+                                uses = 1
+                                category = nuclear
+		        }
+		}
+	}
+
+	focus = {
+		id = IRQ_uranium
+		icon = GFX_focus_IRQ_uranium
+		x = 8
+		y = 13
+
+		prerequisite = {focus = IRQ_atom}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 20
+			add_war_support = 0.05
+			add_ideas = IRQ_uranium_production_1
+		}
+	}
+
+	focus = {
+		id = IRQ_domestic
+		icon = GFX_focus_IRQ_facilities 
+		x = 12
+		y = 13
+
+		prerequisite = {focus = IRQ_atom}
+
+		mutually_exclusive = { }
+		
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -35
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = IRQ_restart
+		icon = GFX_focus_IRQ_tuwaitha
+		x = 10
+		y = 14
+
+		prerequisite = {focus = IRQ_domestic}
+		prerequisite = {focus = IRQ_uranium}
+
+
+		mutually_exclusive = { }
+		
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_war_support = 0.05
+			swap_ideas = {
+				remove_idea = IRQ_uranium_production_1
+				add_idea = IRQ_uranium_production_2
+			}
+		}
+	}
+
+
+	focus = {
+		id = IRQ_wmd
+		icon = GFX_focus_SOV_Biological_Research 
+		x = 10
+		y = 15
+
+		prerequisite = {focus = IRQ_restart}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_ideas = IRQ_land_of_madness
+		}
+	}
+
+	###conquest###
+	###syria###
+
+
+	focus = {
+		id = IRQ_syria
+		icon = GFX_focus_IRQ_republic
+		x = 14
+		y = 11
+
+		prerequisite = {focus = IRQ_reform_done}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_war_support = 0.05
+		}
+	}
+
+
+	focus = {
+		id = IRQ_pan_iraq
+		icon = GFX_focus_IRQ_pan_iraq
+		x = 14
+		y = 12
+
+		prerequisite = {focus = IRQ_syria}
+
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			SYR = {
+          			add_stability = -0.10
+				add_war_support = -0.10
+			}
+			
+		}
+	}
+
+	focus = {
+		id = IRQ_army_ready
+		icon = GFX_focus_IRQ_army_ready 
+		x = 14
+		y = 13
+
+		prerequisite = {focus = IRQ_pan_iraq}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			army_experience = 5
+			if = {
+				limit = {
+					has_idea = IRQ_terratorial_expansion_idea_2
+				}
+				swap_ideas = {
+					remove_idea = IRQ_terratorial_expansion_idea_2
+					add_idea = IRQ_terratorial_expansion_idea_3
+				}
+			}
+			else = {
+				add_ideas = IRQ_terratorial_expansion_idea_1
+			}
+		}
+	}
+
+
+	focus = {
+		id = IRQ_strike_syria
+		icon = GFX_focus_IRQ_strike 
+		x = 14
+		y = 14
+
+		prerequisite = {focus = IRQ_army_ready}
+
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+       		          create_wargoal = {
+        		  	type = annex_everything
+         		  	target = SYR
+          		  }
+		}
+	}
+
+	###kuwait###
+
+	focus = {
+		id = IRQ_kuwait
+		icon = GFX_focus_IRQ_kuwait
+		x = 16
+		y = 11
+
+		prerequisite = {focus = IRQ_reform_done}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = IRQ_america
+		icon = GFX_focus_IRQ_americans_not_see
+		x = 16
+		y = 12
+
+		prerequisite = {focus = IRQ_kuwait}
+
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			army_experience = 5
+			if = {
+				limit = {
+					has_idea = IRQ_terratorial_expansion_idea_1
+				}
+				swap_ideas = {
+					remove_idea = IRQ_terratorial_expansion_idea_1
+					add_idea = IRQ_terratorial_expansion_idea_3
+				}
+			}
+			else = {
+				add_ideas = IRQ_terratorial_expansion_idea_2
+			}
+		}
+	}
+
+
+	focus = {
+		id = IRQ_run_over
+		icon = GFX_focus_IRQ_run_over 
+		x = 16
+		y = 13
+
+		prerequisite = {focus = IRQ_america}
+
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = KUW
+			}
+			IRQ = {
+				country_event = { id = irq.4 }
+			}
+							
+		}
+	}
+
+	###saudi###
+
+	focus = {
+		id = IRQ_saudi
+		icon = GFX_focus_IRQ_saudi 
+		x = 18
+		y = 11
+
+		prerequisite = {focus = IRQ_reform_done}
+
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			SAU = {
+				add_opinion_modifier = { target = IRQ modifier = IRQ_improve_saudi_relations_opinion }
+                	}
+		}
+	}
+
+	focus = {
+		id = IRQ_backing
+		icon = GFX_focus_IRQ_backing 
+		x = 18
+		y = 12
+
+		prerequisite = {focus = IRQ_saudi}
+
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+          		add_stability = 0.1
+			add_political_power = 15
+			
+		}
+	}
+
+	focus = {
+		id = IRQ_oil
+		icon = GFX_focus_IRQ_oil 
+		x = 18
+		y = 13
+
+		prerequisite = {focus = IRQ_backing}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			create_import = {
+				resource = oil
+				amount = 2
+				exporter = SAU
+			}
+		}
+	}
+
+
+        ###iran###
+
+	focus = {
+		id = IRQ_old_wounds
+		icon = GFX_focus_IRQ_old_wounds
+		x = 15
+		y = 16
+
+		prerequisite = {focus = IRQ_wmd}
+		prerequisite = {focus = IRQ_strike_syria}
+		prerequisite = {focus = IRQ_run_over}
+		prerequisite = {focus = IRQ_oil}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+          		add_stability = 0.05			
+		}
+	}
+
+
+	focus = {
+		id = IRQ_ready1
+		icon = GFX_focus_IRQ_army_ready2 
+		x = 13
+		y = 17
+
+		prerequisite = {focus = IRQ_old_wounds}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			army_experience = 15
+			air_experience = 15
+			swap_ideas = {
+				remove_idea = IRQ_terratorial_expansion_idea_3
+				add_idea = IRQ_terratorial_expansion_idea_4
+			}
+		}
+	}
+
+	focus = {
+		id = IRQ_soviet_support
+		icon = GFX_focus_IRQ_moscow 
+		x = 17
+		y = 17
+
+		prerequisite = {focus = IRQ_old_wounds}
+
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			SOV = {
+				add_opinion_modifier = { target = IRQ modifier = IRQ_soviet_support_opinion }
+                	}
+			add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = 350
+				producer = SOV
+			}
+			add_equipment_to_stockpile = {
+				type = motorised_equipment
+				amount = 50
+				producer = SOV
+			}
+			add_equipment_to_stockpile = {
+				type = mbt_tank_equipment
+				amount = 30
+				producer = SOV
+			}
+			add_equipment_to_stockpile = {
+				type = attacker_equipment
+				amount = 20
+				producer = SOV
+			}
+		}
+	}
+
+	focus = {
+		id = IRQ_the_plan
+		icon = GFX_focus_IRQ_old_plan_ready
+		x = 15
+		y = 18
+
+		prerequisite = {focus = IRQ_soviet_support}
+		prerequisite = {focus = IRQ_ready1}
+
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 25
+			swap_ideas = {
+				remove_idea = IRQ_terratorial_expansion_idea_4
+				add_idea = IRQ_terratorial_expansion_idea_5
+			}
+		}
+	}
+
+
+	focus = {
+		id = IRQ_88
+		icon = GFX_focus_IRQ_revenge 
+		x = 15
+		y = 19
+
+		prerequisite = {focus = IRQ_the_plan}
+
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			IRQ = {
+				create_wargoal = {
+					type = take_state_focus
+					target = PER
+					generator = { 421 413 } 
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = IRQ_saddam_epic_win
+		icon = GFX_focus_IRQ_saddam_win
+		x = 15
+		y = 20
+
+		prerequisite = {focus = IRQ_88}
+
+		available = {
+			PER = {is_puppet_of = IRQ}
+			KUW = { exists = no }
+			SYR = { exists = no }
+			
+		}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.10
+			add_war_support = 0.10
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = IRQ_greater_iraq
+		icon = GFX_focus_IRQ_great_iraq 
+		x = 15
+		y = 21
+
+		prerequisite = {focus = IRQ_saddam_epic_win}
+
+
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_state_core = 656
+			add_state_core = 421
+			add_state_core = 677
+			add_state_core = 554
+			add_state_core = 680
+			add_state_core = 413
+			set_cosmetic_tag = IRQ_greater_iraq_cosmetic
+		}
+	}
+
+
+
+	###sanctions###
+
+	focus = {
+		id = IRQ_trade_partners
+		icon = GFX_focus_IRQ_trade
+		x = 14
+		y = 0
+
+		available = {
+                has_country_flag = IRQ_sanctions
+                }
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			IRQ = {
+				add_opinion_modifier = { target = SOV modifier = IRQ_alternate_trade_partner_opinion }
+			}
+			IRQ = {
+				add_opinion_modifier = { target = PRC modifier = IRQ_alternate_trade_partner_opinion }
+			}
+		}
+	}
+
+	focus = {
+		id = IRQ_no_dollar
+		icon = GFX_focus_IRQ_no_dollar
+		x = 14
+		y = 1
+
+		prerequisite = {focus = IRQ_trade_partners}
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			USA = {
+				add_opinion_modifier = { target = IRQ modifier = IRQ_abandoned_dollar_opinion }
+			}
+			add_political_power = 10
+			add_stability = 0.04
+		}
+	}
+
+	focus = {
+		id = IRQ_no_debt
+		icon = GFX_focus_IRQ_debt 
+		x = 14
+		y = 2
+
+		prerequisite = {focus = IRQ_no_dollar}
+		mutually_exclusive = { }
+		
+		cost = 2.9
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			add_stability = -0.07
+			set_country_flag = IRQ_sanctions_done
+			swap_ideas = {
+				remove_idea = IRQ_western_embargo
+				add_idea = IRQ_western_embargo_2
+			}			
+		}
+	}
+
+
+	###kurds###
+
+	focus = {
+		id = IRQ_insurgent_strongholds
+		icon = GFX_focus_IRQ_locate
+		x = 17
+		y = 0
+
+		prerequisite = { }
+		available = {
+                has_country_flag = IRQ_kurds
+                }
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			unlock_decision_category_tooltip = irq_deal_with_kurds
+			set_country_flag = focused_on_kurds_rn
+			add_political_power = 10
+			add_war_support = -0.05
+
+			set_variable = {
+				var = kurd_resistance_variable
+				value = 1
+			}
+			clamp_variable = {
+				var = kurd_resistance_variable
+				min = 1
+				max = 5
+			}
+			IRQ_recalc_kurd_resistance_bar_frames = yes
+		}
+	}
+
+	focus = {
+		id = IRQ_army_in_kurd
+		icon = GFX_focus_IRQ_army_in_kurd
+		x = 17
+		y = 1
+
+		prerequisite = {focus = IRQ_insurgent_strongholds}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 5
+			add_stability = 0.03
+		}
+	}
+
+	focus = {
+		id = IRQ_special_operations
+		icon = GFX_focus_IRQ_special_operation
+		x = 17
+		y = 2
+
+		prerequisite = {focus = IRQ_army_in_kurd}
+		available = {has_country_flag = irq_started_direct_military_operations}
+
+		mutually_exclusive = { }
+		
+		cost = 4
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			custom_effect_tooltip = irq_kurd_resistance_decrases_med
+			add_to_variable = {
+				var = kurd_resistance_variable
+				value = 0.5
+			}
+			IRQ_recalc_kurd_resistance_bar_frames = yes
+		}
+	}
+
+	focus = {
+		id = IRQ_troll_kurds
+		icon = GFX_focus_IRQ_no_kurds
+		x = 17
+		y = 3
+
+		prerequisite = {focus = IRQ_special_operations}
+
+		mutually_exclusive = { }
+		
+		cost = 1.5
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			add_stability = -0.05
+			add_war_support = 0.07
+		}
+	}
+
+	focus = {
+		id = IRQ_use_air
+		icon = GFX_focus_IRQ_planes
+		x = 17
+		y = 4
+
+		prerequisite = {focus = IRQ_troll_kurds}
+
+		mutually_exclusive = { }
+		
+		cost = 1.5
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			air_experience = 10
+
+		}
+	}
+
+	focus = {
+		id = IRQ_done
+		icon = GFX_focus_IRQ_death_of_kurds
+		x = 17
+		y = 5
+
+		prerequisite = {focus = IRQ_use_air}
+		available = {
+				has_country_flag = IRQ_kurd_resistance_bar_is_100
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			set_country_flag = fixed_kurd
+			remove_ideas = IRQ_kurdish_rebels
+			set_country_flag = nothing
+			IRQ = {
+				country_event = { id = irq.5 }
+			}
+		}
+	}
+
+	###army###
+
+	focus = {
+		id = IRQ_not_good
+		icon = GFX_focus_IRQ_no_good_army
+		x = 20
+		y = 0
+
+		prerequisite = { }
+		available = {
+                has_country_flag = IRQ_army_stuff
+                }
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -20
+			add_stability = -0.05
+			add_war_support = -0.05
+		}
+	}
+
+
+	focus = {
+		id = IRQ_but_ok
+		icon = GFX_focus_IRQ_something
+		x = 20
+		y = 1
+
+		prerequisite = {focus = IRQ_not_good}
+
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_manpower = 400
+			add_political_power = 10
+			add_war_support = 0.03
+			unlock_decision_category_tooltip = irq_fix_army
+			set_country_flag = IRQ_army_reform
+		}
+	}
+
+	focus = {
+		id = IRQ_save_stuff
+		icon = GFX_focus_IRQ_salvage
+		x = 20
+		y = 2
+
+		prerequisite = {focus = IRQ_but_ok}
+		available = {has_country_flag = irq_army_fix_1}
+		
+		mutually_exclusive = { }
+		
+		cost = 4.3
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_manpower = 150
+			add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = 200
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 50
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 10
+			}
+			add_equipment_to_stockpile = {
+				type = motorised_equipment
+				amount = 20
+			}
+		}
+	}
+
+	focus = {
+		id = IRQ_sov_pls_help
+		icon = GFX_focus_IRQ_moscow
+		x = 20
+		y = 3
+
+		prerequisite = {focus = IRQ_save_stuff}
+		available = {has_country_flag = irq_army_fix_3}
+		
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			SOV = {
+				country_event = { id = irq.6 }
+			}
+		}
+	}
+
+	focus = {
+		id = IRQ_army_drills
+		icon = GFX_focus_IRQ_army_exercise
+		x = 20
+		y = 4
+
+		prerequisite = {focus = IRQ_sov_pls_help}
+		available = {has_idea = IRQ_reorganized_army}
+		
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 10
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			set_country_flag = IRQ_army_done
+			swap_ideas = {
+				remove_idea = IRQ_reorganized_army
+				add_idea = IRQ_iraqi_army
+			}
+			army_experience = 15
+			air_experience = 15
+			add_stability = 0.05
+			add_war_support = 0.1
+		}
+	}
+
+}

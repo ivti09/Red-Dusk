@@ -1,0 +1,13 @@
+﻿capital = 229 #Baku
+
+#oob = "AZR_1936"
+
+set_research_slots = 3
+
+recruit_character = AZR_heydar_aliyev
+
+set_popularities = {
+	democratic = 30
+	communism = 40
+	neutrality = 30
+}

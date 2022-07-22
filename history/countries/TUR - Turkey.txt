@@ -1,0 +1,19 @@
+﻿capital = 49
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.2.8"
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 70
+	neutrality = 30
+}
+
+recruit_character = TUR_ahmet_sezar
+
+set_convoys = 20
+set_stability = 0.5
+set_war_support = 0.3

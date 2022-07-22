@@ -1,0 +1,1790 @@
+﻿focus_tree = {
+	id = ussr_pugo_focus
+	continuous_focus_position = { x = -800 y = 2000 }
+	
+	default = no
+	focus = {
+		id = SOV_the_hardliner
+		icon = GFX_SOV_the_hardliner
+		x = 10
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_preparing_the_cards
+		icon = GFX_SOV_preparing_the_cards
+		x = 9
+		y = 1
+
+		prerequisite = {
+			focus = SOV_the_hardliner
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.02
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_fall_of_the_reformer
+		icon = GFX_SOV_fall_of_the_reformer
+		x = 11
+		y = 1
+
+		prerequisite = {
+			focus = SOV_the_hardliner
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_manpower = -1
+		}
+	}
+	focus = {
+		id = SOV_the_main_show
+		icon = GFX_SOV_the_main_show
+		x = 10
+		y = 2
+
+		prerequisite = {
+			focus = SOV_fall_of_the_reformer
+		}
+		prerequisite = {
+			focus = SOV_preparing_the_cards
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.03
+			add_political_power = 20
+		}
+	}
+	focus = {
+		id = SOV_let_the_purges_begin
+		icon = GFX_SOV_let_the_purge_begin
+		x = 10
+		y = 3
+
+		prerequisite = {
+			focus = SOV_the_main_show
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.1
+			add_war_support = -0.05
+		}
+	}
+	focus = {
+		id = SOV_clear_the_politburo
+		icon = GFX_SOV_clear_politburo
+		x = 12
+		y = 4
+
+		prerequisite = {
+			focus = SOV_let_the_purges_begin
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = 15
+			add_manpower = -50
+		}
+	}
+	focus = {
+		id = SOV_men_we_can_trust
+		icon = GFX_SOV_men_we_can_trust
+		x = 8
+		y = 4
+
+		prerequisite = {
+			focus = SOV_clear_the_politburo
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 10
+		}
+	}
+	focus = {
+		id = SOV_question_of_the_army
+		icon = GFX_SOV_question_of_the_army
+		x = 10
+		y = 5
+
+		prerequisite = {
+			focus = SOV_men_we_can_trust
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.03
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_marshal_on_our_side
+		icon = GFX_focus_SOV_marshal_yazov
+		x = 3
+		y = 6
+
+		prerequisite = {
+			focus = SOV_question_of_the_army
+		}
+		mutually_exclusive = { 
+			focus = SOV_trust_them_for_now
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_yazov_approval
+		icon = GFX_SOV_marshall_approval
+		x = 3
+		y = 8
+
+		prerequisite = {
+			focus = SOV_marshal_on_our_side
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.05
+			army_experience = 10
+		}
+	}
+	focus = {
+		id = SOV_healing_the_old_relationship
+		icon = GFX_SOV_healing_the_old_relationship
+		x = 7
+		y = 8
+
+		prerequisite = {
+			focus = SOV_yazov_approval
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.02
+			add_political_power = 20
+		}
+	}
+	focus = {
+		id = SOV_army_kgb_cooperation
+		icon = GFX_SOV_army_kgb_cooperating
+		x = 7
+		y = 8
+
+		prerequisite = {
+			focus = SOV_healing_the_old_relationship
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 10
+		}
+	}
+	focus = {
+		id = SOV_SUSpend_the_army_purge
+		icon = GFX_SOV_suspend_the_army_purge
+		x = 5
+		y = 10
+
+		prerequisite = {
+			focus = SOV_army_kgb_cooperation
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.1
+			army_experience = 30
+			navy_experience = 30
+			air_experience = 30
+		}
+	}
+	focus = {
+		id = SOV_trust_them_for_now
+		icon = GFX_SOV_men_we_can_trust
+		x = 15
+		y = 11
+
+		prerequisite = {
+			focus = SOV_question_of_the_army
+		}
+		mutually_exclusive = { 
+			focus = SOV_marshal_on_our_side
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_the_unstable_truce
+		icon = GFX_SOV_the_unstable_truce
+		x = 13
+		y = 12
+
+		prerequisite = {
+			focus = SOV_trust_them_for_now
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.05
+			army_experience = 15
+		}
+	}
+	focus = {
+		id = SOV_hear_no_evil
+		icon = GFX_SOV_hear_no_evil
+		x = 13
+		y = 12
+
+		prerequisite = {
+			focus = SOV_the_unstable_truce
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = -15
+		}
+	}
+	focus = {
+		id = SOV_loyal_men_in_high_positions
+		icon = GFX_SOV_loyal_men_in_high_position
+		x = 17
+		y = 13
+
+		prerequisite = {
+			focus = SOV_question_of_the_army
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.05
+			army_experience = -10
+		}
+	}
+	focus = {
+		id = SOV_the_army_purge
+		icon = GFX_SOV_army_purge
+		x = 17
+		y = 6
+
+		prerequisite = {
+			focus = SOV_loyal_men_in_high_positions
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = SOV_general_secretary_pugo
+		icon = GFX_SOV_gensec_pugo
+		x = 10
+		y = 7
+
+		prerequisite = {
+			focus = SOV_the_army_purge
+			focus = SOV_SUSpend_the_army_purge
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.3
+			add_political_power = 25
+		}
+	}
+	
+	focus = {
+		id = SOV_matters_of_the_economy
+		icon = GFX_SOV_matter_of_the_economy
+		x = 21
+		y = 0
+
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			load_focus_tree = { tree = pugo_economy }
+		}
+	}
+
+	focus = {
+		id = SOV_follow_the_brezhnev_plan
+		icon = GFX_SOV_follow_the_brezhnev_plan
+		x = 18
+		y = 1
+		mutually_exclusive = { 
+			focus = SOV_follow_the_stalin_plan
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			# production_speed_industrial_complex_factor = 0.05 ## This is a modifier, it can't be used in focus effects
+		}
+	}
+	
+	focus = {
+		id = SOV_tolerate_some_corruption
+		icon = GFX_SOV_tolerate_some_corruption
+		x = 18
+		y = 2
+
+		prerequisite = {
+			focus = SOV_follow_the_brezhnev_plan
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = -0.1
+			add_political_power = -20
+		}
+	}
+	
+	focus = {
+		id = SOV_expand_the_civilian_sector
+		icon = GFX_SOV_expand_the_civilian_sector
+		x = 18
+		y = 3
+
+		prerequisite = {
+			focus = SOV_follow_the_brezhnev_plan
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SOV_economic_miracle
+		icon = GFX_SOV_economic_miracle
+		x = 18
+		y = 4
+
+		prerequisite = {
+			focus = SOV_expand_the_civilian_sector
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	
+	#stalin plan
+	
+	focus = {
+		id = SOV_follow_the_stalin_plan
+		icon = GFX_SOV_follow_the_stalin_plan
+		x = 24
+		y = 1
+
+		mutually_exclusive = { 
+			focus = SOV_follow_the_brezhnev_plan
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SOV_another_five_year_plan
+		icon = GFX_SOV_5_years_plan
+		x = 24
+		y = 2
+
+		prerequisite = {
+			focus = SOV_follow_the_stalin_plan
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SOV_crack_down_on_corruption
+		icon = GFX_SOV_crackdown_on_corruption
+		x = 24
+		y = 3
+
+		prerequisite = {
+			focus = SOV_follow_the_stalin_plan
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SOV_return_to_planned_economy
+		icon = GFX_SOV_return_to_planned_economy
+		x = 24
+		y = 4
+
+		prerequisite = {
+			focus = SOV_another_five_year_plan
+		}
+		prerequisite = {
+			focus = SOV_crack_down_on_corruption
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SOV_fixing_gorbachevs_mess
+		icon = GFX_SOV_fix_gorbys_mess
+		x = 21
+		y = 5
+
+		prerequisite = {
+			focus = SOV_return_to_planned_economy
+			focus = SOV_economic_miracle
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SOV_the_military_question
+		icon = GFX_SOV_the_military_question
+		x = 29
+		y = 8
+
+		prerequisite = {
+			focus = SOV_fixing_gorbachevs_mess
+		}
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_fighting_the_factionalism
+		icon = GFX_SOV_fighting_the_factionalism
+		x = 35
+		y = 6
+		
+		available = { has_completed_focus = SOV_the_military_question }
+		
+		prerequisite = {
+		}
+		
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_party_connections
+		icon = GFX_SOV_party_connection
+		x = 35
+		y = 7
+		
+		prerequisite = {
+			focus = SOV_fighting_the_factionalism
+		}
+		
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_make_compromises
+		icon = GFX_SOV_make_compromises
+		x = 35
+		y = 8
+		
+		prerequisite = {
+			focus = SOV_fighting_the_factionalism
+		}
+		
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_true_red_army
+		icon = GFX_SOV_true_red_army
+		x = 37
+		y = 9
+		
+		prerequisite = {
+			focus = SOV_party_connections
+		}
+		
+		prerequisite = {
+			focus = SOV_make_compromises
+		}
+		
+		mutually_exclusive = { 
+		}
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			load_focus_tree = { tree = pugo_focus2 }
+		}
+	}
+
+	focus = {
+		id = SOV_crack_down_on_separatists
+		icon = GFX_SOV_crack_down_on_separatists
+		x = 33
+		y = 9
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	
+	focus = {
+		id = SOV_the_little_traitors
+		icon = GFX_SOV_little_traitors
+		x = 36
+		y = 10
+
+		prerequisite = {
+			focus = SOV_crack_down_on_separatists
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	
+	focus = {
+		id = SOV_preparing_their_fate
+		icon = GFX_SOV_prepare_their_fate
+		x = 34
+		y = 10
+
+		prerequisite = {
+			focus = SOV_crack_down_on_separatists
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	
+	focus = {
+		id = SOV_war_plan_stalin
+		icon = GFX_SOV_war_plan_stalin
+		x = 25
+		y = 14
+
+		prerequisite = {
+			focus = SOV_preparing_their_fate
+			focus = SOV_the_little_traitors
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	
+	focus = {
+		id = SOV_legacy_of_the_warsaw_pact
+		icon = GFX_focus_SOV_legacy_of_warsaw_pact
+		x = 20
+		y = 6
+
+		prerequisite = {
+		}
+		mutually_exclusive = { }
+		
+		available = { has_completed_focus = SOV_war_plan_stalin }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_preparing_for_the_inevitable
+		icon = GFX_SOV_prepare_the_inevitable
+		x = 19
+		y = 16
+
+		prerequisite = {
+			focus = SOV_legacy_of_the_warsaw_pact
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	
+	focus = {
+		id = SOV_extreme_planning
+		icon = GFX_focus_SOV_extreme_planning
+		x = 21
+		y = 16
+
+		prerequisite = {
+			focus = SOV_legacy_of_the_warsaw_pact
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	
+	focus = {
+		id = SOV_red_sun_over_europe
+		icon = GFX_focus_SOV_status_of_union
+		x = 23
+		y = 16
+
+		prerequisite = {
+			focus = SOV_extreme_planning
+			focus = SOV_preparing_for_the_inevitable
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	
+	focus = {
+		id = SOV_warsaw_pact_reborn
+		icon = GFX_SOV_warsaw_pact_reborn
+		x = 21
+		y = 17
+
+		prerequisite = {
+			focus = SOV_red_sun_over_europe
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	
+	focus = {
+		id = SOV_isolate_the_czech_republic
+		icon = GFX_focus_SOV_isolate_czech
+		x = 21
+		y = 18
+
+		prerequisite = {
+			focus = SOV_warsaw_pact_reborn
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+			load_focus_tree = { tree = pugo_focus3 }
+		}
+	}
+
+	focus = {
+		id = SOV_the_rising_star
+		icon = GFX_SOV_the_rising_star
+		x = 21
+		y = 19
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_let_the_game_begin
+		icon = GFX_SOV_let_the_games_begin
+		x = 29
+		y = 15
+
+		prerequisite = {
+			focus = SOV_the_rising_star
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_time_for_action
+		icon = GFX_SOV_time_for_action
+		x = 31
+		y = 16
+
+		prerequisite = {
+			focus = SOV_let_the_game_begin
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_capture_the_radio_stations
+		icon = GFX_SOV_capture_the_radio_stations
+		x = 27
+		y = 16
+
+		prerequisite = {
+			focus = SOV_time_for_action
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_contact_the_army
+		icon = GFX_SOV_contact_the_army
+		x = 30
+		y = 17
+
+		prerequisite = {
+			focus = SOV_time_for_action
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_keep_your_friends_close
+		icon = GFX_SOV_keep_your_friend_close
+		x = 28
+		y = 17
+		prerequisite = {
+			focus = SOV_contact_the_army
+		}
+		prerequisite = {
+			focus = SOV_capture_the_radio_stations
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_our_power_secured
+		icon = GFX_SOV_our_power_secured
+		x = 29
+		y = 18
+		prerequisite = {
+			focus = SOV_keep_your_friends_close
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	
+	focus = {
+		id = SOV_increase_ties_with_warsaw_pact
+		icon = GFX_SOV_increase_ties_with_warsaw_pact
+		x = 29
+		y = 19
+
+		prerequisite = {
+			focus = SOV_our_power_secured
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_compromise_with_the_usa
+		icon = GFX_SOV_compromise_with_the_usa
+		x = 25
+		y = 20
+
+		prerequisite = {
+			focus = SOV_increase_ties_with_warsaw_pact
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = SOV_old_enemies_new_partners
+		icon = GFX_SOV_old_enemies_new_partners
+		x = 31
+		y = 0
+
+		prerequisite = {
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_detante_with_nato
+		icon = GFX_SOV_detante_with_nato
+		x = 29
+		y = 1
+
+		prerequisite = {
+			focus = SOV_old_enemies_new_partners
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_easing_the_tensions
+		icon = GFX_SOV_easing_the_tensions
+		x = 29
+		y = 2
+
+		prerequisite = {
+			focus = SOV_old_enemies_new_partners
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_the_vienna_summit
+		icon = GFX_SOV_the_vienna_summit
+		x = 29
+		y = 3
+
+		prerequisite = {
+			focus = SOV_easing_the_tensions
+		}
+		prerequisite = {
+			focus = SOV_detante_with_nato
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_ease_the_overmilitarisation
+		icon = GFX_SOV_ease_the_overmilitarisation
+		x = 33
+		y = 1
+
+		prerequisite = {
+			focus = SOV_the_vienna_summit
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+
+	focus = {
+		id = SOV_never_trust_a_yank
+		icon = GFX_SOV_never_trust_a_yank
+		x = 33
+		y = 2
+
+		prerequisite = {
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_increase_warsaw_pact_spending
+		icon = GFX_SOV_increase_warsaw_pact_spending
+		x = 33
+		y = 3
+
+		prerequisite = {
+			focus = SOV_never_trust_a_yank
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_increase_military_presence
+		icon = GFX_SOV_increase_military_presence
+		x = 31
+		y = 4
+
+		prerequisite = {
+			focus = SOV_never_trust_a_yank
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_the_budapest_agreement
+		icon = GFX_SOV_the_budapest_agreement
+		x = 21
+		y = 0
+
+		prerequisite = {
+			focus = SOV_increase_military_presence
+		}
+		prerequisite = {
+			focus = SOV_increase_warsaw_pact_spending
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_always_at_the_ready
+		icon = GFX_SOV_always_at_the_ready
+		x = 18
+		y = 1
+
+		prerequisite = {
+			focus = SOV_the_budapest_agreement
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_the_red_dragon_in_the_east
+		icon = GFX_SOV_the_red_dragon_in_the_east
+		x = 18
+		y = 2
+
+		prerequisite = {
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_reinforce_mongolia
+		icon = GFX_SOV_reinforce_mongolia
+		x = 18
+		y = 3
+
+		prerequisite = {
+			focus = SOV_the_red_dragon_in_the_east
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_border_blockades
+		icon = GFX_SOV_border_blockades
+		x = 18
+		y = 4
+
+		prerequisite = {
+			focus = SOV_reinforce_mongolia
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_mobilize_the_industry
+		icon = GFX_SOV_mobilize_industry
+		x = 24
+		y = 1
+
+		prerequisite = {
+			focus = SOV_border_blockades
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_project_red_dusk
+		icon = GFX_SOV_project_red_dusk
+		x = 24
+		y = 2
+
+		prerequisite = {
+			focus = SOV_border_blockades
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_against_the_eastern_dragon
+		icon = GFX_SOV_against_the_eastern_dragon
+		x = 24
+		y = 3
+
+		prerequisite = {
+			focus = SOV_project_red_dusk
+		}
+		prerequisite = {
+			focus = SOV_mobilize_the_industry
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_end_the_revisionists
+		icon = GFX_SOV_end_of_the_revisionists
+		x = 24
+		y = 4
+
+		prerequisite = {
+			focus = SOV_against_the_eastern_dragon
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SOV_unto_the_new_dawn
+		icon = GFX_SOV_unto_a_new_dawn
+		x = 21
+		y = 5
+
+		prerequisite = {
+			focus = SOV_end_the_revisionists
+		}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+}

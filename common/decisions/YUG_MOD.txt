@@ -1,0 +1,859 @@
+yug_deal_with_uprisings = {
+	
+	
+	yug_focus_on_bosnian_rebels = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+			NOT = {
+				has_country_flag = yug_focused_on_albania
+			}
+		}
+		visible = {
+			has_country_flag = yug_anti_terrorist_time
+			NOT = {
+				has_country_flag = yug_focused_on_bosnia
+				has_country_flag = yug_focused_on_albania
+			}
+		}
+		modifier {
+		}
+		cost = 5
+		fire_only_once = no
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			custom_effect_tooltip = YUG_focus_on_bosnia_tt
+			set_country_flag = yug_focused_on_bosnia
+			#unlock_decision_category = yug_deal_with_bosnia_uprising
+			add_to_variable = {bosnia_fight_strength = -5}
+		}
+	}
+	
+	yug_focus_on_albanian_rebels = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+			NOT = {
+				has_country_flag = yug_focused_on_bosnia
+			}
+		}
+		visible = {
+			has_country_flag = yug_anti_terrorist_time
+			NOT = {
+				has_country_flag = yug_focused_on_bosnia
+				has_country_flag = yug_focused_on_albania
+			}
+		}
+		modifier {
+		}
+		cost = 5
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			custom_effect_tooltip = YUG_focus_on_alban_tt
+			set_country_flag = yug_focused_on_albania
+		}
+	}
+	
+	
+## FOCUSED ON BOSNIA##
+	
+	yug_timer_clock_bosnia = {
+        	allowed = {
+		}                
+		available = {    
+			has_country_flag = bos_uprising_started
+		}
+		activation = {                          
+			has_country_flag = yug_focused_on_bosnia
+			NOT = {
+				has_country_flag = bos_uprising_started
+			}
+		}
+		visible = {
+			NOT = {
+				has_country_flag = bos_uprising_started
+			}
+		}  
+		  
+		  
+		is_good = no
+		selectable_mission = no
+		days_mission_timeout = 45            
+		timeout_effect = {
+			country_event = { id = yug_rebel.1} 
+			set_country_flag = bos_uprising_started
+			BOS = {
+				transfer_state = 104
+				transfer_state = 804
+				declare_war_on = {
+					type = annex_everything
+					target = YUG
+				}
+				country_event ={id = bos.1}
+			}
+		}
+         	complete_effect = {
+          	}
+	}
+	
+	yug_relocate_serbs_into_bosnia = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+			NOT = {
+				has_country_flag = bos_uprising_started }
+			}
+		visible = {
+			has_country_flag = yug_focused_on_bosnia
+		}
+		modifier {
+		}
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			custom_effect_tooltip = YUG_decrases_the_figthing_strength_of_rebels
+			add_to_variable = { bosnia_fight_strength = -10 }
+			add_days_mission_timeout = {
+				mission = YUG_timer_clock_bosnia
+				days = -5
+			}
+		}
+	}
+	
+	yug_remove_ethnic_bosnian_generals = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+			NOT = {
+				has_country_flag = bos_uprising_started
+			}
+		}
+		visible = {
+			has_country_flag = yug_focused_on_bosnia
+		}
+		modifier {
+		}
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_war_support = -0.05
+			custom_effect_tooltip = YUG_decrases_the_figthing_strength_of_rebels
+			add_to_variable = { bosnia_fight_strength = -10 }
+			add_days_mission_timeout = {
+				mission = YUG_timer_clock_bosnia
+				days = -5
+			}
+		}
+	}
+	
+	yug_imprison_the_imams = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+			NOT = {
+				has_country_flag = bos_uprising_started
+			}
+		}
+		visible = {
+			has_country_flag = yug_focused_on_bosnia
+		}
+		modifier {
+		}
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_political_power = -25
+			add_stability = -0.05
+			custom_effect_tooltip = YUG_decrases_the_figthing_strength_of_rebels
+			add_to_variable = { bosnia_fight_strength = -10 }
+			add_days_mission_timeout = {
+				mission = YUG_timer_clock_bosnia
+				days = -5
+			}
+		}
+	}
+	
+	yug_relocate_assets = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+			NOT = {
+				has_country_flag = bos_uprising_started
+			}
+		}
+		visible = {
+			has_country_flag = yug_focused_on_bosnia
+		}
+		modifier {
+		}
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			104 = { 
+				remove_building = { type = arms_factory  level = 1 } 
+				remove_building = { type = industrial_complex  level = 1 } 
+			}
+			107 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			108 = {	
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			custom_effect_tooltip = YUG_decrases_the_figthing_strength_of_rebels
+			add_to_variable = { bosnia_fight_strength = -10 }
+			
+			add_days_mission_timeout = {
+				mission = YUG_timer_clock_bosnia
+				days = -5
+			}
+		}
+	}
+
+## FOCUSED ON ALBANIA##
+	
+	yug_timer_clock_albania = {                          
+		allowed = {
+		}                
+          available = {    
+			has_country_flag = kos_uprising_started
+          	}
+		
+		activation = {                          
+			has_country_flag = yug_focused_on_albania
+			NOT = {
+				has_country_flag = kos_uprising_started
+			}
+		}
+		visible = {
+			NOT = {
+				has_country_flag = kos_uprising_started
+			}
+		}  
+		  
+		
+		  
+		is_good = no
+		selectable_mission = no
+		days_mission_timeout = 45            
+		timeout_effect = {
+			country_event = { id = yug_rebel.1 } 
+			set_country_flag = kos_uprising_started
+			KOS = {
+				transfer_state = 802
+				declare_war_on = {
+					type = annex_everything
+					target = YUG
+				}
+				country_event ={id = kos.1}
+			}
+		}
+         	complete_effect = {
+          	}
+	}
+	
+	yug_relocate_serbs_into_kosovo = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+			NOT = {
+				has_country_flag = kos_uprising_started
+			}
+		}
+		visible = {
+			has_country_flag = yug_focused_on_albania
+		}
+		modifier {
+		}
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			custom_effect_tooltip = YUG_decrases_the_figthing_strength_of_rebels
+			add_to_variable = {albania_fight_strength = -10}
+			add_days_mission_timeout = {
+				mission = yug_timer_clock_albania
+				days = -5
+			}
+		}
+	}
+	
+	yug_remove_ethnic_albanian_generals = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+			NOT = {
+				has_country_flag = bos_uprising_started
+			}
+		}
+		visible = {
+			has_country_flag = yug_focused_on_albania
+		}
+		modifier {
+		}
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_war_support = -0.05
+			custom_effect_tooltip = YUG_decrases_the_figthing_strength_of_rebels
+			add_to_variable = { albania_fight_strength = -10 }
+			add_days_mission_timeout = {
+				mission = yug_timer_clock_albania
+				days = -5
+			}
+		}
+	}
+	
+	yug_deport_local_albanians = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+			NOT = {
+				has_country_flag = kos_uprising_started
+			}
+		}
+		visible = {
+			has_country_flag = yug_focused_on_albania
+		}
+		modifier {
+		}
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			add_political_power = -25
+			add_stability = -0.05
+			custom_effect_tooltip = YUG_decrases_the_figthing_strength_of_rebels
+			add_to_variable = {albania_fight_strength = -10}
+			add_days_mission_timeout = {
+				mission = YUG_timer_clock_albania
+				days = -5
+			}
+		}
+	}
+	
+	yug_relocate_assets_from_kosovo = {
+
+		icon = GFX_decision_generic_assassination
+
+		allowed = {
+		}
+		available = {
+			NOT = {
+				has_country_flag = kos_uprising_started
+			}
+		}
+		visible = {
+			has_country_flag = yug_focused_on_albania
+		}
+		modifier {
+		}
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = { 
+			104 = { 
+				remove_building = { type = arms_factory  level = 1 } 
+				remove_building = { type = industrial_complex  level = 1 } 
+			}
+			107 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			108 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			custom_effect_tooltip = YUG_decrases_the_figthing_strength_of_rebels
+			add_to_variable = { albania_fight_strength = -10 }
+			
+			add_days_mission_timeout = {
+				mission = yug_timer_clock_albania
+				days = -5
+			}
+		}
+	}
+}
+
+##UPRISING TIMER FOR YUGO TO WIN OR LOSE###
+
+yug_uprising = {
+
+	yug_timer_clock_uprising = {                          
+		allowed = {
+		}                
+        available = {    
+			NOT = {country_exists = BOS}
+			NOT = {country_exists = KOS}
+			NOT = {country_exists = MAC}
+			
+        }
+		
+		activation = {
+			NOT = {has_country_flag = yug_wars_reached_conclusion}
+			OR = {
+				has_country_flag = kos_uprising_started
+				has_country_flag = bos_uprising_started
+			}
+		}
+		visible = {
+			has_country_flag = yug_mass_rebellions
+			NOT = {
+				has_country_flag = yug_wars_reached_conclusion
+			}
+		}
+		  
+		  
+		is_good = no
+		selectable_mission = no
+		days_mission_timeout = 250            
+		timeout_effect = {
+			country_event = { id = yug_rebel.8 } 
+		}
+		
+        complete_effect = {
+			country_event = { id = yug_rebel.7 } 
+        }
+	}
+
+
+
+}
+
+
+yug_rebuilding_our_industry = {
+
+	yug_rebuild_military_industry_in_serbia = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+		}
+		available = {
+			has_country_flag = YUG_rebuilding_our_industry_flag
+		}
+		visible = {
+			has_country_flag = YUG_rebuilding_our_industry_flag
+		}
+		modifier = {
+			stability_weekly = -0.01
+			war_support_weekly = 0.025
+			civilian_factory_use = 2
+		}
+		
+		days_remove = 14
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			107 = {
+				add_extra_state_shared_building_slots = 1
+				
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	yug_rebuild_civilian_industry_in_bosnia = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+
+		}
+		available = {
+			has_country_flag = YUG_rebuilding_our_industry_flag
+		}
+		visible = {
+			has_country_flag = YUG_rebuilding_our_industry_flag
+		}
+		modifier = {
+			stability_weekly = 0.025
+			war_support_weekly = -0.01
+			civilian_factory_use = 4
+		}
+		
+		cost = 100
+		days_remove = 21
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			104 = {
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	yug_restart_infrastructure_industry = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+		}
+		available = {
+			has_country_flag = YUG_rebuilding_our_industry_flag
+		}
+		visible = {
+			has_country_flag = YUG_rebuilding_our_industry_flag
+		}
+		modifier = {
+			stability_weekly = 0.025
+			war_support_weekly = -0.01
+			civilian_factory_use = 4
+		}
+		
+		cost = 35
+		days_remove = 28
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			836 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			45 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			764 = {	
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			104 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			804 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			105 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			107 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			108 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			802 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			803 = {	
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			106 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+}
+
+yug_opening_new_factories = {
+
+	yug_build_new_military_industry_in_serbia = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+
+		}
+		available = {
+			has_country_flag = YUG_open_new_factories_flag
+		}
+		visible = {
+			has_country_flag = YUG_open_new_factories_flag
+		}
+		modifier = {
+			stability_weekly = -0.02
+			war_support_weekly = 0.05
+			civilian_factory_use = 2
+		}
+		
+		days_remove = 14
+		cost = 100
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			107 = {	
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	yug_build_new_civilian_industry_in_bosnia = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+
+		}
+		available = {
+			has_country_flag = YUG_open_new_factories_flag
+		}
+		visible = {
+			has_country_flag = YUG_open_new_factories_flag
+		}
+		modifier = {
+			stability_weekly = 0.05
+			war_support_weekly = -0.03
+			civilian_factory_use = 4
+		}
+		
+		cost = 150
+		days_remove = 21
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			107 = {
+				add_extra_state_shared_building_slots = 2
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	yug_build_new_infrastructure_across_the_country = {
+		icon = GFX_decision_generic_factory
+
+		allowed = {
+
+		}
+		available = {
+			has_country_flag = YUG_open_new_factories_flag
+		}
+		visible = {
+			has_country_flag = YUG_open_new_factories_flag
+		}
+		modifier = {
+			stability_weekly = 0.08
+			war_support_weekly = -0.03
+			civilian_factory_use = 4
+		}
+		
+		cost = 35
+		days_remove = 28
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = { 
+			836 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+			45 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+			764 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			104 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			804 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			105 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			107 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			108 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			802 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			803 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			106 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,331 @@
+focus_tree = {
+	id = anc_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ANC
+		}
+	}
+
+	focus = {
+		id = ANC_spark
+		icon = GFX_focus_IRQ_iraq_future
+		x = 10
+		y = 0
+
+		prerequisite = {}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			ANC = {
+				country_event = { id = anc.4 }
+			}
+		}
+	}
+
+	focus = {
+		id = ANC_flame
+		icon = GFX_focus_IRQ_iraq_future
+		x = 10
+		y = 1
+
+		prerequisite = {focus = ANC_spark}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			ANC = {
+				country_event = { id = anc.5 }
+			}
+		}
+	}
+
+	focus = {
+		id = ANC_militia
+		icon = GFX_focus_IRQ_iraq_future
+		x = 8
+		y = 2
+
+		prerequisite = {focus = ANC_flame}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_manpower = 3000
+			add_stability = -0.05
+			army_experience = 20
+		}
+	}
+
+	focus = {
+		id = ANC_boers
+		icon = GFX_focus_IRQ_iraq_future
+		x = 8
+		y = 3
+
+		prerequisite = {focus = ANC_militia}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			ANC = {
+				country_event = { id = anc.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = ANC_guns
+		icon = GFX_focus_IRQ_iraq_future
+		x = 10
+		y = 2
+
+		prerequisite = {focus = ANC_flame}
+		mutually_exclusive = { }
+		
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = 300
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 120
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 25
+			}
+		}
+	}
+
+	focus = {
+		id = ANC_soviets
+		icon = GFX_focus_IRQ_iraq_future
+		x = 10
+		y = 3
+
+		prerequisite = {focus = ANC_guns}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+                add_ideas = ANC_kgb_idea
+			SOV = {
+				country_event = { id = anc.1 }
+			}
+		}
+	}
+
+	focus = {
+		id = ANC_size
+		icon = GFX_focus_IRQ_iraq_future
+		x = 12
+		y = 2
+
+		prerequisite = {focus = ANC_flame}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			ANC = {
+				country_event = { id = anc.3 }
+			}
+		}
+	}
+
+	focus = {
+		id = ANC_nationalise
+		icon = GFX_focus_IRQ_iraq_future
+		x = 12
+		y = 3
+
+		prerequisite = {focus = ANC_size}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 30
+			add_stability = -0.1
+		719 = {
+
+                		add_extra_state_shared_building_slots = 2
+
+                		add_building_construction = {
+                    		type = arms_factory
+                    		level = 2
+                    		instant_build = yes
+                		}
+           		 }
+		}
+	}
+
+	focus = {
+		id = ANC_frends
+		icon = GFX_focus_IRQ_iraq_future
+		x = 10
+		y = 4
+
+		prerequisite = {focus = ANC_boers}
+		prerequisite = {focus = ANC_soviets}
+		prerequisite = {focus = ANC_nationalise}
+		mutually_exclusive = { }
+		
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_stability = 0.05
+			create_faction = "African Liberation Front"
+	                add_to_faction = ZIM
+	                add_to_faction = BOT
+	                add_to_faction = MZB
+            ZIM = {
+		    declare_war_on = {
+            type = annex_everything
+            target = SAF
+            }
+            }
+
+            MZB = {
+		    declare_war_on = {
+            type = annex_everything
+            target = SAF
+            }
+            }
+
+            BOT = {
+		    declare_war_on = {
+            type = annex_everything
+            target = SAF
+            }
+            }
+			set_global_flag = ANC_war
+		news_event = { id = old_times_news.19 days = 1 }
+		}
+	}
+
+	focus = {
+		id = ANC_push
+		icon = GFX_focus_IRQ_iraq_future
+		x = 10
+		y = 5
+
+		prerequisite = {focus = ANC_frends}
+		mutually_exclusive = { }
+		
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			swap_ideas = {
+			remove_idea = ANC_fanatical_idea
+			add_idea = ANC_fanatical_2_idea
+                        }
+		}
+	}
+
+	focus = {
+		id = ANC_end
+		icon = GFX_focus_IRQ_iraq_future
+		x = 10
+		y = 6
+
+		prerequisite = {focus = ANC_push}
+		mutually_exclusive = { }
+		
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.2
+		}
+	}

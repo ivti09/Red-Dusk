@@ -1,0 +1,57 @@
+yug_deal_with_uprisings = {
+	icon = GFX_decision_category_army_reform
+	picture = GFX_decision_cat_picture_chi_infiltration #this is a placeholder , we should change it to a modern photo later
+	
+	allowed = {
+	}
+	
+	visible = {
+		NOT = {
+			OR = {
+			has_country_flag = bos_uprising_started
+			has_country_flag = kos_uprising_started
+			}
+		}
+	}
+	priority = 200
+}
+
+yug_uprising = {
+	icon = GFX_decision_category_army_reform
+	picture = GFX_placeholder
+	
+	allowed = {
+	}
+	
+	visible = {
+		has_country_flag = yug_mass_rebellions
+		NOT = {
+		has_country_flag = yug_wars_reached_conclusion
+		}
+	}
+	priority = 250
+}
+
+yug_rebuilding_our_industry = {
+	icon = GFX_decision_category_generic_economy
+	picture = GFX_decision_cat_generic_mefo_bills #this is a placeholder , we should change it to a modern photo later
+	
+	allowed = {
+	}
+	
+	visible = {
+	}
+	priority = 150
+}
+
+yug_opening_new_factories = {
+	icon = GFX_decision_category_generic_industry
+	picture = GFX_decision_cat_generic_mefo_bills #this is a placeholder , we should change it to a modern photo later
+	
+	allowed = {
+	}
+	
+	visible = {
+	}
+	priority = 150
+}

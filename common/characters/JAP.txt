@@ -1,0 +1,33 @@
+characters = {
+
+	JAP_keizō_obuchi = {
+		name = "Keizō Obuchi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Keizō_Obuchi.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+	JAP_yoshiro_mori = {
+		name = "Yoshiro Mori"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Yoshiro_Mori.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

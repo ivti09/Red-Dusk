@@ -1,9 +1,0 @@
-spriteTypes = {	
-
-	SpriteType = {
-		name = "GFX_kurd_resistance_bar"
-		texturefile = "gfx/interface/test_bar.dds"
-		noOfFrames = 5
-	}
-
-}

@@ -1,0 +1,18 @@
+characters = {
+
+	SWI_federal_council = {
+		name = "Federal Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWI/Portrait_Switzerland_Federal_council.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = {}
+			expire = "2050.3.1.1"
+			id = -1
+		}
+	}
+
+}

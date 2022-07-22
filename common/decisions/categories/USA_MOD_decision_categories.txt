@@ -1,0 +1,15 @@
+category_USA_congress = {
+	icon = GFX_decision_category_usa_congress
+
+	priority = 10
+
+	scripted_gui = usa_decision_ui_congress
+
+	allowed = {
+		original_tag = USA
+	}
+
+	visible = {
+		always = yes
+	}
+}

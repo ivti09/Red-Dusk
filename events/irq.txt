@@ -1,0 +1,150 @@
+add_namespace = irq
+add_namespace = irq_hidden
+
+#kurds#
+country_event = {
+	id = irq.1
+	title = irq.1.t
+	desc = irq.1.d
+	picture = GFX_report_event_IRQ_kurds
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.1.a
+		add_political_power = 10
+		add_stability = -0.05
+	}
+}
+#army#
+country_event = {
+	id = irq.2
+	title = irq.2.t
+	desc = irq.2.d
+	picture = GFX_report_event_IRQ_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.2.a
+		add_political_power = -10
+		army_experience = 10
+	}
+}
+#saddam#
+country_event = {
+	id = irq.3
+	title = irq.3.t
+	desc = irq.3.d
+	picture = GFX_report_event_IRQ_saddam
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.3.a
+			add_stability = -0.07
+			add_war_support = 0.08
+	}
+}
+#kuwait#
+country_event = {
+	id = irq.4
+	title = irq.4.t
+	desc = irq.4.d
+	picture = GFX_report_event_IRQ_kuwait
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.4.a
+	}
+}
+#kurds2#
+country_event = {
+	id = irq.5
+	title = irq.5.t
+	desc = irq.5.d
+	picture = GFX_report_event_IRQ_kurds2
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.5.a
+		add_stability = 0.15
+		set_country_flag = IRQ_kurds_done
+	}
+}
+#Ask Soviets for Help#
+country_event = {
+	id = irq.6
+	title = irq.6.t
+	desc = irq.6.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = irq.6.a
+	}
+	option = {
+		trigger = {
+			SOV = {
+				has_equipment = { infantry_weapons > 249 }
+				has_equipment = { support_equipment > 99 }
+				has_equipment = { artillery_equipment > 19 }
+				has_equipment = { mbt_tank_equipment > 14 }
+				has_equipment = { fighter_equipment > 9 }
+			}
+		}
+		name = irq.6.b
+
+		SOV = {
+			send_equipment = {
+				equipment = infantry_weapons
+				amount = 250
+				target = IRQ
+			}
+			send_equipment = {
+				equipment = support_equipment
+				amount = 100
+				target = IRQ
+			}
+			send_equipment = {
+				equipment = artillery_equipment
+				amount = 20
+				target = IRQ
+			}
+			send_equipment = {
+				equipment = mbt_tank_equipment
+				amount = 15
+				target = IRQ
+			}
+			send_equipment = {
+				equipment = fighter_equipment
+				amount = 10
+				target = IRQ
+			}
+		}
+	}
+}
+
+#k dealt kurd progress 100 aka complete#
+country_event = {
+	id = irq_hidden.1
+	title = irq_hidden.1.t
+	desc = irq_hidden.1.d
+	picture = GFX_nothing
+	hidden = yes
+	
+	trigger = {
+		check_variable = {
+		kurd_resistance_variable > 4.9
+		}
+	}
+	
+	option = {
+		name = irq_hidden.1.b
+		set_country_flag = IRQ_kurd_resistance_bar_is_100
+	}
+}
+

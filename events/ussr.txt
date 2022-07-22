@@ -1,0 +1,1136 @@
+add_namespace = ussr
+add_namespace = ussr_rebel
+add_namespace = ussr_hidden
+add_namespace = ussr_intro
+
+add_namespace = ussr_foreign_policy
+
+add_namespace = ussr_rebel_cin
+add_namespace = ussr_rebel_ukr
+
+#The Red sun shines#
+country_event = {
+	id = ussr_intro.1
+	title = ussr_intro.1.t
+	desc = ussr_intro.1.d
+	picture = GFX_report_event_SOV_1991
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr_intro.1.a
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = ussr_intro.2 days = 10 }
+			}
+		}
+	}
+}
+
+#Our Biggest “Failures”#
+country_event = {
+	id = ussr_intro.2
+	title = ussr_intro.2.t
+	desc = ussr_intro.2.d
+	picture = GFX_report_event_biggest_failures
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr_intro.2.a
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = ussr_intro.3 days = 10 }
+			}
+		}
+	}
+}
+
+#The Elephant(s) in the Room#
+country_event = {
+	id = ussr_intro.3
+	title = ussr_intro.3.t
+	desc = ussr_intro.3.d
+	picture = GFX_report_event_meet_the_ministers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr_intro.3.a
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = ussr_intro.4 days = 10 }
+			}
+		}
+	}
+}
+
+#An Old Man, an Older Nation#
+country_event = {
+	id = ussr_intro.4
+	title = ussr_intro.4.t
+	desc = ussr_intro.4.d
+	picture = GFX_report_event_yannayevs_burden
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr_intro.4.a
+		
+		hidden_effect = {
+			SOV = {
+				country_event = { id = ussr_intro.5 days = 10 }
+			}
+		}
+	}
+}
+
+#Where Giants Walk, Moscow Hobbles#
+country_event = {
+	id = ussr_intro.5
+	title = ussr_intro.5.t
+	desc = ussr_intro.5.d
+	picture = GFX_report_event_SOV_union
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr_intro.5.a
+
+	}
+}
+
+#the feared report#
+country_event = {
+	id = ussr.2
+	title = ussr.2.t
+	desc = ussr.2.d
+	picture = GFX_report_event_SOV_union
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.2.a
+	}
+}
+
+#economy report#
+country_event = {
+	id = ussr.3
+	title = ussr.3.t
+	desc = ussr.3.d
+	picture = GFX_report_event_SOV_economy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.3.a
+	}
+}
+
+#yazov protest#
+country_event = {
+	id = ussr.4
+	title = ussr.4.t
+	desc = ussr.4.d
+	picture = GFX_report_event_SOV_yazov_protest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.4.a
+		add_war_support = -0.05
+	}
+}
+
+#resignment#
+country_event = {
+	id = ussr.5
+	title = ussr.5.t
+	desc = ussr.5.d
+	picture = GFX_report_event_SOV_resignation
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.5.a
+		add_political_power = -5
+		retire_country_leader = yes
+		promote_character = SOV_party
+
+	}
+}
+#party meeting#
+country_event = {
+	id = ussr.6
+	title = ussr.6.t
+	desc = ussr.6.d
+	picture = GFX_report_event_SOV_the_meeting
+	
+	is_triggered_only = yes
+	
+		#yazov#
+	option = {
+		name = ussr.6.a
+		retire_country_leader = yes
+		promote_character = SOV_dmitry_yazov
+		load_focus_tree = ussr_yazov_focus
+		news_event = { id = old_times_news.3 days = 1 }
+		
+		ai_chance = {
+		factor = 55
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = SOV_PATH
+				option = SOV_YAZOV_PATH_CHOSEN
+				}
+			}
+		}
+	}
+		#Pugo#
+		option = {
+		name = ussr.6.b
+		retire_country_leader = yes
+		promote_character = SOV_boris_pugo
+		news_event = { id = old_times_news.4 days = 1 }
+		
+		ai_chance = {
+		factor = 50
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = SOV_PATH
+				option = SOV_PUGO_PATH_CHOSEN
+				}
+			}
+		}
+	}
+		#no one lol#
+		option = { 
+		name = ussr.6.c
+		add_political_power = -50
+		add_stability = -0.05
+		
+			SOV = {
+				country_event = { id = ussr.7 days = 1 }
+			}
+		
+		ai_chance = {
+		factor = 45
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = SOV_PATH
+				option = SOV_PUTIN_PATH_CHOSEN
+				}
+			}
+			modifier = {
+				factor = 99999
+				has_game_rule = {
+				rule = SOV_PATH
+				option = SOV_GORBACHEV_PATH_CHOSEN
+				}
+			}
+		}
+
+	}
+}
+
+
+#Party meeting contunies#
+country_event = {
+	id = ussr.7
+	title = ussr.7.t
+	desc = ussr.7.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+	#putin!!!!#
+	option = {
+		name = ussr.7.a
+		retire_country_leader = yes
+		promote_character = SOV_vladimir_putin
+		load_focus_tree = ussr_putin_focus
+		news_event = { id = old_times_news.6 days = 1 }
+		
+		ai_chance = {
+			factor = 50
+				modifier = {
+					factor = 99999
+					has_game_rule = {
+					rule = SOV_PATH
+					option = SOV_PUTIN_PATH_CHOSEN
+					}
+				}
+		}
+		
+	}
+
+	#gorbachev and pizza hut fans#
+	option = {
+		name = ussr.7.b
+		retire_country_leader = yes
+		promote_character = SOV_mikhail_gorbachev
+		load_focus_tree = ussr_gorby_focus
+		news_event = { id = old_times_news.5 days = 1 }
+		
+		ai_chance = {
+			factor = 50
+				modifier = {
+					factor = 99999
+					has_game_rule = {
+					rule = SOV_PATH
+					option = SOV_GORBACHEV_PATH_CHOSEN
+					}
+				}
+		}
+	}
+}
+
+############ YAOZV##############
+
+#rip pizza hut person#
+country_event = {
+	id = ussr.8
+	title = ussr.8.t
+	desc = ussr.8.d
+	picture = GFX_report_event_gorby_gone
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.8.a
+		add_stability = -0.01
+	}
+
+}
+
+#soviet bear coming to west#
+country_event = {
+	id = ussr.9
+	title = ussr.9.t
+	desc = ussr.9.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ussr.9.a
+		add_stability = -0.01
+	}
+
+}
+
+#reunification talks fail#
+country_event = {
+	id = ussr.10
+	title = ussr.10.t
+	desc = ussr.10.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.10.a
+		add_political_power = -1
+		add_war_support = 0.01
+	}
+
+}
+#WE WANT CZE#
+country_event = {
+	id = ussr.11
+	title = ussr.11.t
+	desc = ussr.11.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.11.a
+			random_list = {
+				 50 = { country_event = { id = ussr.13 } }
+				 50 = { country_event = { id = ussr.12 } }
+			}
+	}
+
+}
+
+#us doesnt agree on cze#
+country_event = {
+	id = ussr.12
+	title = ussr.12.t
+	desc = ussr.12.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.12.a
+		set_country_flag = us_disagree_cze
+	}
+
+}
+
+#us agree on cze#
+country_event = {
+	id = ussr.13
+	title = ussr.13.t
+	desc = ussr.13.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.13.a
+		set_country_flag = us_agree_cze
+		SOV = { puppet = CZE }
+		CZE = {
+		set_cosmetic_tag = CZE_com_puppet
+		}
+
+	}
+
+}
+
+#not yet#
+country_event = {
+	id = ussr.14
+	title = ussr.14.t
+	desc = ussr.14.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.14.a
+		
+	}
+
+}
+
+#looking at the polar star#
+country_event = {
+	id = ussr.15
+	title = ussr.15.t
+	desc = ussr.15.d
+	picture = GFX_report_event_polar_star
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.15.a
+		
+	}
+
+}
+
+#stroll in helenski#
+country_event = {
+	id = ussr.16
+	title = ussr.16.t
+	desc = ussr.16.d
+	picture = GFX_report_event_helsinki
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.16.a
+		
+	}
+
+}
+
+#event for yugoslavia to join moscow#
+country_event = {
+	id = ussr.17
+	title = ussr.17.t
+	desc = ussr.17.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+		#yes#
+	option = {
+		name = ussr.17.a
+		ai_chance = {
+		base = 100
+		}
+		add_ideas = Soviet_mil_advisors
+	}
+	
+	#no#
+	option = {
+	
+		ai_chance = {
+		base = 0
+		}
+		name = ussr.17.b
+		
+	}
+
+}
+
+#sorry old friend#
+country_event = {
+	id = ussr.18
+	title = ussr.18.t
+	desc = ussr.18.d
+	picture = GFX_report_event_old_firend
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.18.a
+		
+	}
+
+}
+
+#another red flag over beijang#
+country_event = {
+	id = ussr.19
+	title = ussr.19.t
+	desc = ussr.19.d
+	picture = GFX_report_event_beijing
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.19.a
+		
+	}
+
+}
+
+#shield of the motherland#
+country_event = {
+	id = ussr.20
+	title = ussr.20.t
+	desc = ussr.20.d
+	picture = GFX_report_event_shield_of_the_motherland
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.20.a
+		
+	}
+
+}
+
+#one final war#
+country_event = {
+	id = ussr.21
+	title = ussr.21.t
+	desc = ussr.21.d
+	picture = GFX_report_event_ww3
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.21.a
+		
+	}
+
+}
+
+############ GORBY ##############
+
+#Back in Kremlin#
+country_event = {
+	id = ussr.22
+	title = ussr.22.t
+	desc = ussr.22.d
+	picture = GFX_report_event_guard
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.22.a
+		add_political_power = 5
+	}
+
+}
+
+#The speech#
+country_event = {
+	id = ussr.23
+	title = ussr.23.t
+	desc = ussr.23.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.23.a
+	}
+
+}
+
+#The marshal#
+country_event = {
+	id = ussr.24
+	title = ussr.24.t
+	desc = ussr.24.d
+	picture = GFX_report_event_marshal
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.24.a
+	}
+
+}
+
+#rip yozov#
+country_event = {
+	id = ussr.26
+	title = ussr.26.t
+	desc = ussr.26.d
+	picture = GFX_report_event_yazov_rip
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.26.a
+
+		add_stability = +0.05
+		add_manpower = -1
+		custom_effect_tooltip = sov_dmitry_yazov_dies_cool_text
+		hidden_effect = {
+		retire_character = SOV_dmitry_yazov
+		}
+	}
+
+}
+
+#gorby gud#
+country_event = {
+	id = ussr.27
+	title = ussr.27.t
+	desc = ussr.27.d
+	picture = GFX_report_event_gorby_gud
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = ussr.27.a
+		set_politics = {
+			ruling_party = reformed_communism
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = reformed_communism
+			popularity = 0.15
+		}
+	}
+
+}
+
+#The choice for ussr braeak aways#
+country_event = {
+	id = ussr.25
+	title = ussr.25.t
+	desc = ussr.25.d
+	picture = GFX_report_event_gorby_diplo
+	
+	is_triggered_only = yes
+	
+	
+        #peaceful#
+	option = {
+		name = ussr.25.a
+		set_country_flag = Gorbachev_chose_peace_ussr
+	}
+
+}
+
+#The choice for eastern block breakaways#
+country_event = {
+	id = ussr.28
+	title = ussr.28.t
+	desc = ussr.28.d
+	picture = GFX_report_event_gorby_diplo
+	
+	is_triggered_only = yes
+	
+	
+    #peaceful#
+	option = {
+		name = ussr.28.a
+		set_country_flag = Gorbachev_chose_peace_east_block
+	}
+
+}
+
+#referandums suceeds#
+country_event = {
+	id = ussr.29
+	title = ussr.29.t
+	desc = ussr.29.d
+	picture = GFX_report_event_gorby_diplo
+	
+	is_triggered_only = yes
+	
+	
+    #epico#
+	option = {
+		name = ussr.29.a
+		set_country_flag = sov_refs_succeeds
+	}
+
+}
+
+#referandums fail#
+country_event = {
+	id = ussr.30
+	title = ussr.30.t
+	desc = ussr.30.d
+	picture = GFX_report_event_gorby_diplo
+	
+	is_triggered_only = yes
+	
+	
+    #bruh idiot#
+	option = {
+		name = ussr.30.a
+		add_political_power = -300
+	}
+
+}
+
+#new union treaty signed#
+country_event = {
+	id = ussr.31
+	title = ussr.31.t
+	desc = ussr.31.d
+	picture = GFX_report_event_gorby_diplo
+	
+	is_triggered_only = yes
+	
+	
+    #omg so wholesomeee chungus#
+	option = {
+		name = ussr.31.a
+		set_cosmetic_tag = SOV_gorby_cool
+			release_puppet_on_controlled = BLR
+			BLR = {
+			set_cosmetic_tag = BLR_com_puppet
+			}
+			release_puppet_on_controlled = KAZ
+			KAZ = {
+			set_cosmetic_tag = KAZ_com_puppet
+			}
+			release_puppet_on_controlled = GEO
+			GEO = {
+			set_cosmetic_tag = GEO_com_puppet
+			}
+			release_puppet_on_controlled = TMS
+			TMS = {
+			set_cosmetic_tag = TMS_com_puppet
+			}
+			release_puppet_on_controlled = UZB
+			UZB = {
+			set_cosmetic_tag = UZB_com_puppet
+			}
+			release_puppet_on_controlled = KYR
+			KYR = {
+			set_cosmetic_tag = KYR_com_puppet
+			}
+			release_puppet_on_controlled = TAJ
+			TAJ = {
+			set_cosmetic_tag = TAJ_com_puppet
+			}
+	}
+
+}
+
+#Wilno incident#
+country_event = {
+	id = ussr_rebel.1
+	title = ussr_rebel.1.t
+	desc = ussr_rebel.1.d
+	picture = GFX_report_resistance
+	
+	is_triggered_only = yes
+	
+		##oops##
+	option = {
+		name = ussr_rebel.1.a
+		add_stability = -0.30
+		add_political_power = -150
+		clr_country_flag = crackdown_lithuenia
+		set_country_flag = finished_crackdown_lithuenia
+		LIT = {
+				transfer_state = 784
+				transfer_state = 11
+				transfer_state = 815
+				transfer_state = 814
+				transfer_state = 189
+				transfer_state = 188
+		}
+		    declare_war_on = {
+            type = annex_everything
+            target = LIT
+            }
+	}
+
+}
+
+#rip rebels in lithuania##
+country_event = {
+	id = ussr_rebel.2
+	title = ussr_rebel.2.t
+	desc = ussr_rebel.2.d
+	picture = GFX_report_resistance
+	
+	is_triggered_only = yes
+	
+		##yay##
+	option = {
+		name = ussr_rebel.2.a
+		add_stability = 0.01
+		add_political_power = 10
+		set_country_flag = finished_crackdown_lithuenia
+		clr_country_flag = crackdown_lithuenia
+		
+	}
+
+}
+
+#chechen uprising##
+country_event = {
+	id = ussr_rebel_cin.1
+	title = ussr_rebel_cin.1.t
+	desc = ussr_rebel_cin.1.d
+	picture = GFX_report_resistance
+	
+	is_triggered_only = yes
+	
+		##k bruh##
+	option = {
+		name = ussr_rebel_cin.1.a
+		add_stability = -0.10
+		add_political_power = -50
+		set_country_flag = finished_crackdown_chechenya	
+		clr_country_flag = crackdown_chechenya		
+		CIN = {
+				transfer_state = 821
+		}
+		    declare_war_on = {
+            type = annex_everything
+            target = CIN
+            }
+		
+	}
+
+}
+
+#rip rebels in chechenya##
+country_event = {
+	id = ussr_rebel_cin.2
+	title = ussr_rebel_cin.2.t
+	desc = ussr_rebel_cin.2.d
+	picture = GFX_report_resistance
+	
+	is_triggered_only = yes
+	
+		##yay##
+	option = {
+		name = ussr_rebel_cin.2.a
+		set_country_flag = finished_crackdown_chechenya	
+		clr_country_flag = crackdown_chechenya	
+		add_stability = 0.01
+		add_political_power = 10
+		
+		
+	}
+
+}
+
+#ukraine uprising##
+country_event = {
+	id = ussr_rebel_ukr.1
+	title = ussr_rebel_ukr.1.t
+	desc = ussr_rebel_ukr.1.d
+	picture = GFX_report_resistance
+	
+	is_triggered_only = yes
+	
+		##shi-##
+	option = {
+		name = ussr_rebel_ukr.1.a
+		add_stability = -0.20
+		add_political_power = -150
+		set_country_flag = finished_crackdown_ukraine			
+		clr_country_flag = crackdown_ukraine	
+		UKR = {
+				transfer_state = 89
+				transfer_state = 73
+				transfer_state = 199
+				transfer_state = 93
+				transfer_state = 201
+				transfer_state = 198
+				transfer_state = 834
+				transfer_state = 766
+				transfer_state = 192
+				transfer_state = 197
+				transfer_state = 203
+				transfer_state = 202
+		}
+		    declare_war_on = {
+            type = annex_everything
+            target = UKR
+            }
+		
+	}
+
+}
+
+#rip rebels in ukraine##
+country_event = {
+	id = ussr_rebel_ukr.2
+	title = ussr_rebel_ukr.2.t
+	desc = ussr_rebel_ukr.2.d
+	picture = GFX_report_resistance
+	
+	is_triggered_only = yes
+	
+		##yay##
+	option = {
+		name = ussr_rebel_ukr.2.a
+		set_country_flag = finished_crackdown_ukraine		
+		clr_country_flag = crackdown_ukraine	
+		add_stability = 0.01
+		add_political_power = 10
+		
+		
+	}
+
+}
+
+#phone lines tap succes#
+country_event = {
+	id = ussr_rebel.3
+	title = ussr_rebel.3.t
+	desc = ussr_rebel.3.d
+	picture = GFX_report_resistance
+	
+	is_triggered_only = yes
+	
+		##pog##
+	option = {
+		name = ussr_rebel.2.a
+		add_stability = 0.01
+		add_political_power = 15
+		add_to_variable = { lit_resistance = -5 }
+		custom_effect_tooltip = decrase_var_res_5
+		
+		
+	}
+
+}
+
+#phone lines tap opeartion goes bad#
+country_event = {
+	id = ussr_rebel.4
+	title = ussr_rebel.4.t
+	desc = ussr_rebel.4.d
+	picture = GFX_report_resistance
+	
+	is_triggered_only = yes
+	
+		##oops##
+	option = {
+		name = ussr_rebel.4.a
+		add_stability = -0.01
+		add_political_power = -15
+		add_to_variable = { lit_stab_level = -5 }
+		custom_effect_tooltip = decrase_var_stab_5
+		
+	}
+
+}
+
+
+#EVENTS FOR STABILITY DECRASING#
+
+#for lithueania#
+country_event = {
+	id = ussr_rebel.999
+	title = ussr_rebel.999.t
+	desc = ussr_rebel.999.d
+	picture = GFX_report_resistance
+	hidden = yes
+	
+	trigger = { check_variable = { lit_stab_level < 31 } NOT = {has_country_flag = ok_bad_stab_event_wont_be_again_lit} }
+	
+	is_triggered_only = no
+	
+		##whoops :\##
+	option = {
+		name = ussr_rebel.999.a
+		add_to_variable = { lit_resistance = 25 }
+		custom_effect_tooltip = incrase_var_res_25
+		set_country_flag = ok_bad_stab_event_wont_be_again_lit
+	}
+
+}
+
+#for Chechens#
+country_event = {
+	id = ussr_rebel.998
+	title = ussr_rebel.998.t
+	desc = ussr_rebel.998.d
+	picture = GFX_report_resistance
+	hidden = yes
+	
+	trigger = { check_variable = { lit_stab_level < 31 } NOT = {has_country_flag = ok_bad_stab_event_wont_be_again_chechen} }
+	
+	is_triggered_only = no
+	
+		##whoops :\##
+	option = {
+		name = ussr_rebel.998.a
+		add_to_variable = { lit_resistance = 25 }
+		custom_effect_tooltip = incrase_var_res_25
+		set_country_flag = ok_bad_stab_event_wont_be_again_chechen
+	}
+
+}
+
+#for Ukraine#
+country_event = {
+	id = ussr_rebel.997
+	title = ussr_rebel.997.t
+	desc = ussr_rebel.997.d
+	picture = GFX_report_resistance
+	hidden = yes
+	
+	trigger = { check_variable = { lit_stab_level < 31 }  NOT = {has_country_flag = ok_bad_stab_event_wont_be_again_ukr} }
+	
+	is_triggered_only = no
+	
+		##whoops :\##
+	option = {
+		name = ussr_rebel.997.a
+		add_to_variable = { lit_resistance = 25 }
+		custom_effect_tooltip = incrase_var_res_25
+		set_country_flag = ok_bad_stab_event_wont_be_again_ukr
+	}
+
+}
+
+
+
+##FOREIGN POLICY / PLUS PLANNING EVENTS FOR POSTWAR BORDER PROBEBLY####
+
+#reunify czechoslovakia?#
+country_event = {
+	id = ussr_foreign_policy.1
+	title = ussr_foreign_policy.1.t
+	desc = ussr_foreign_policy.1.d
+	picture = GFX_report_resistance
+	
+	trigger = {
+	original_tag = SOV
+	CZE = {is_puppet_of = SOV}
+	SLO = {is_puppet_of = SOV}
+	}
+	
+		##yes##
+	option = {
+		name = ussr_foreign_policy.1.a
+		ai_chance = {
+		base = 100
+		}
+		CZE = {
+		set_cosmetic_tag = CZE_united_with_SLO
+			annex_country = {
+				target = SLO
+				transfer_troops = yes
+			}
+		}
+	}
+	
+	option = {
+		name = ussr_foreign_policy.1.b
+		ai_chance = {
+		base = 0
+		}
+		
+	}
+
+}
+	
+
+#EVENTS FOR VARIABLES FOR REBEL DECISIONS#
+
+#i used this becuase custom effect tooltip isnt allowed in the avalieble secction#
+
+country_event = {
+	id = ussr_hidden.1
+	title = ussr_hidden.1.t
+	desc = ussr_hidden.1.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	hidden = yes
+	
+	trigger = { check_variable = { lit_stab_level > 54 } }
+	
+	is_triggered_only = no
+	
+		##ok##
+	option = {
+		name = ussr_rebel.2.a
+		
+		set_country_flag = sov_req_55_stab
+		
+	}
+
+}
+
+country_event = {
+	id = ussr_hidden.2
+	title = ussr_hidden.2.t
+	desc = ussr_hidden.2.d
+	picture = GFX_report_event_SOV_the_meeting_con
+	hidden = yes
+	
+	trigger = { check_variable = { lit_stab_level < 54 } }
+	
+	is_triggered_only = no
+	
+		##ok##
+	option = {
+		name = ussr_rebel.2.a
+		
+		clr_country_flag = sov_req_55_stab
+		
+	}
+
+}
+
+
+

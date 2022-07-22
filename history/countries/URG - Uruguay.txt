@@ -1,0 +1,25 @@
+﻿capital = 300
+
+#oob = "URG_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		#set_naval_oob = "URG_1936_naval_mtg"
+	else = {
+		#set_naval_oob = "URG_1936_naval_legacy"
+	}
+}
+
+set_convoys = 5
+
+recruit_character = URG_julio_maría
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1995.4.19"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 97
+	communism = 3
+}

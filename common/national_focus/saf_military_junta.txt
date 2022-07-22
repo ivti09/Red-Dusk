@@ -1,0 +1,796 @@
+focus_tree = {
+	id = saf_military_junta_focus
+	country = {
+		factor = 0
+	}
+
+	default = no
+
+	focus = {
+		id = SAF_military_state
+		icon = GFX_focus_SAF_mil_state
+		x = 14
+		y = 8
+
+		prerequisite = {}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			SAF = {
+				country_event = { id = saf.11 }
+			}
+			add_political_power = 20
+			add_stability = 0.03
+		}
+	}
+	focus = {
+		id = SAF_viljeons_unquestioned_rule
+		icon = GFX_focus_SAF_gamer_rule
+		x = 14
+		y = 9
+
+		prerequisite = {focus = SAF_military_state}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = -10
+			add_stability = -0.05
+			add_war_support = 0.07
+		}
+	}
+	focus = {
+		id = SAF_position
+		icon = GFX_focus_SAF_position
+		x = 14
+		y = 10
+
+		prerequisite = {focus = SAF_viljeons_unquestioned_rule}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SAF_factions
+		icon = x
+		x = 12
+		y = 11
+
+		prerequisite = {focus = SAF_position}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			add_political_power = 10
+			add_war_support = -0.03
+		}
+	}
+	focus = {
+		id = SAF_radicals
+		icon = x
+		x = 11
+		y = 12
+		
+		prerequisite = {focus = SAF_factions}
+		mutually_exclusive = {focus = SAF_reformists}
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_war_support = 0.05
+			add_political_power = 15
+                }
+	}
+	focus = {
+		id = SAF_harsher_rule
+		icon = GFX_focus_IRQ_army_ready 
+		x = 11
+		y = 13
+
+		prerequisite = {focus = SAF_radicals}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_stability = 0.02
+			add_war_support = -0.05
+                }
+	}
+	focus = {
+		id = SAF_budget_increase
+		icon = x
+		x = 11
+		y = 14
+
+		prerequisite = {focus = SAF_harsher_rule}
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			army_experience = 20
+			add_war_support = 0.1
+			add_manpower = 500
+			swap_ideas = {
+			remove_idea = SAF_military_state_idea
+			add_idea = SAF_military_state_2_idea
+                        }
+                }
+	}
+	focus = {
+		id = SAF_reformists
+		icon = GFX_focus_SOV_Unification_talk
+		x = 13
+		y = 12
+
+		prerequisite = {focus = SAF_factions}
+		mutually_exclusive = {focus = SAF_radicals}
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_stability = 0.05
+			add_political_power = 15
+                }
+	}
+	focus = {
+		id = SAF_promise
+		icon = x
+		x = 13
+		y = 13
+		
+		prerequisite = {focus = SAF_reformists}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_stability = 0.07
+			add_war_support = -0.05
+                }
+	}
+	focus = {
+		id = SAF_civilian
+		icon = x
+		x = 13
+		y = 14
+
+		prerequisite = {focus = SAF_promise}
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_political_power = 30
+			add_stability = 0.1
+			swap_ideas = {
+			remove_idea = SAF_military_state_idea
+			add_idea = SAF_military_state_3_idea
+                        }
+                }
+	}
+	focus = {
+		id = SAF_idiots
+		icon = x
+		x = 12
+		y = 15
+
+		prerequisite = {focus = SAF_civilian focus = SAF_budget_increase}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+                }
+	}
+
+	focus = {
+		id = SAF_insurgents
+		icon = x
+		x = 17
+		y = 11
+
+		prerequisite = {focus = SAF_position}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+			SAF = {
+				country_event = { id = saf.9 }
+			}
+		unlock_decision_category_tooltip = saf_deal_with_insurgents 
+		set_country_flag = saf_started_to_deal_with_insurgents
+		}
+	}
+	focus = {
+		id = SAF_satf
+		icon = x
+		x = 15.5
+		y = 12
+
+		prerequisite = {focus = SAF_insurgents}
+		mutually_exclusive = {focus = SAF_nis}
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		has_country_flag = saf_end_of_operations_reached
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_nis
+		icon = x
+		x = 18.5
+		y = 12
+
+		prerequisite = {focus = SAF_insurgents}
+		mutually_exclusive = {focus = SAF_satf}
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		has_country_flag = saf_end_of_operations_reached
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_garrison
+		icon = x
+		x = 15.5
+		y = 13
+
+		prerequisite = {focus = SAF_satf}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		has_country_flag = saf_end_of_operations_reached
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+		custom_effect_tooltip = SAF_decrases_the_figthing_strength_of_rebels_by_5
+		add_to_variable = {anc_fight_strength = -5}
+			add_stability = 0.05
+			add_manpower = 300
+        }
+	}
+	focus = {
+		id = SAF_air
+		icon = GFX_focus_IRQ_planes
+		x = 15.5
+		y = 14
+
+		prerequisite = {focus = SAF_garrison}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		has_country_flag = saf_end_of_operations_reached
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			air_experience = 15
+                }
+	}
+	focus = {
+		id = SAF_bomb
+		icon = x
+		x = 15.5
+		y = 15
+		prerequisite = {focus = SAF_air}
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		has_country_flag = saf_end_of_operations_reached
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+		custom_effect_tooltip = SAF_decrases_the_figthing_strength_of_rebels_by_10
+		add_to_variable = {anc_fight_strength = -10}
+			air_experience = 15
+		}
+	}
+	focus = {
+		id = SAF_locate
+		icon = GFX_focus_SAF_locate
+		x = 18.5
+		y = 13
+
+		prerequisite = {focus = SAF_nis}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		has_country_flag = saf_end_of_operations_reached
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_political_power = 10
+			add_war_support = -0.05
+                }
+	}
+	focus = {
+		id = SAF_afrikaners
+		icon = x
+		x = 17.5
+		y = 14
+
+		prerequisite = {focus = SAF_locate}
+		mutually_exclusive = {focus = SAF_mercs}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		has_country_flag = saf_end_of_operations_reached
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_stability = 0.05
+			add_war_support = -0.07
+			custom_effect_tooltip = SAF_decrases_the_figthing_strength_of_rebels_by_10
+			add_to_variable = {anc_fight_strength = -10}
+        }
+	}
+	focus = {
+		id = SAF_mercs
+		icon = GFX_focus_SAF_mercs
+		x = 19.5
+		y = 14
+
+		prerequisite = {focus = SAF_locate}
+		mutually_exclusive = {focus = SAF_afrikaners}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		has_country_flag = saf_end_of_operations_reached
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+		custom_effect_tooltip = SAF_decrases_the_figthing_strength_of_rebels_by_5
+		add_to_variable = {anc_fight_strength = -5}
+			add_stability = -0.05
+			add_war_support = 0.07
+        }
+	}
+	focus = {
+		id = SAF_supplies
+		icon = GFX_focus_SAF_bomb
+		x = 18.5
+		y = 15
+
+		prerequisite = {focus = SAF_afrikaners focus = SAF_mercs}
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		has_country_flag = saf_end_of_operations_reached
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = {
+		custom_effect_tooltip = SAF_decrases_the_figthing_strength_of_rebels_by_5
+		add_to_variable = {anc_fight_strength = -5}
+		}
+	}
+	focus = {
+		id = SAF_raids
+		icon = GFX_focus_SAF_raid
+		x = 17
+		y = 16
+
+		prerequisite = {focus = SAF_bomb focus = SAF_supplies }
+		cost = 8
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		has_country_flag = saf_end_of_operations_reached
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_stability = 0.10
+			custom_effect_tooltip = SAF_decrases_the_figthing_strength_of_rebels_by_15
+			add_to_variable = {anc_fight_strength = -15}
+			swap_ideas = {
+				remove_idea = SAF_anc_insurgency_idea
+				add_idea = SAF_anc_insurgency_2_idea
+			}
+        }
+	}
+	focus = {
+		id = SAF_late
+		icon = x
+		x = 15
+		y = 17
+
+		prerequisite = {focus = SAF_idiots}
+		prerequisite = {focus = SAF_raids}
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			custom_effect_tooltip = SAF_breaking_point_cool_tooltip
+			SAF = {
+				country_event = { id = saf.8 }
+			}
+
+			hidden_effect = {
+			news_event = { id = old_times_news.7 days = 1 }
+			}
+        }
+	}
+	focus = {
+		id = SAF_civil_war
+		icon = GFX_focus_SAF_war
+		x = 15
+		y = 18
+		
+		prerequisite = {focus = SAF_late}
+		
+		allow_branch = {has_global_flag = anc_uprising_begun}
+
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_stability = -0.1
+			add_political_power = -50
+			add_war_support = 0.1
+			remove_ideas = SAF_anc_insurgency_2_idea
+            }
+	}
+
+	focus = {
+		id = SAF_mobilize
+		icon = GFX_focus_SAF_morbilisation
+		x = 13
+		y = 19
+
+		prerequisite = {focus = SAF_civil_war}
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_manpower = 1500
+			add_political_power = 20
+			add_war_support = -0.03
+                }
+	}
+	focus = {
+		id = SAF_martial_law
+		icon = x
+		x = 13
+		y = 20
+
+		prerequisite = {focus = SAF_mobilize}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_war_support = -0.03
+			add_stability = 0.05
+                }
+	}
+	focus = {
+		id = SAF_help
+		icon = GFX_focus_SAF_ask_for_help
+		x = 15
+		y = 19
+
+		prerequisite = {focus = SAF_civil_war}
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			USA = {
+				country_event = { id = usa_help.1 }
+			}
+			add_ideas = SAF_cia_idea
+                }
+	}
+	focus = {
+		id = SAF_lawyers_guns_money 
+		icon = GFX_focus_SAF_saul
+		x = 15
+		y = 20
+
+		prerequisite = {focus = SAF_help}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_equipment_to_stockpile = {
+				type = infantry_weapons
+				amount = 250
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 100
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 20
+			}
+			add_equipment_to_stockpile = {
+				type = motorised_equipment
+				amount = 20
+			}
+                }
+	}
+ 
+	focus = {
+		id = SAF_border
+		icon = x
+		x = 17
+		y = 19
+
+		prerequisite = {focus = SAF_civil_war}
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_intervene
+		icon = x
+		x = 17
+		y = 20
+
+		available = {
+                has_global_flag = ANC_war
+                }
+		prerequisite = {focus = SAF_border}
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_ideas = SAF_defence_idea
+			SAF = {
+				country_event = { id = saf.6 }
+			}
+                }
+	}
+	focus = {
+		id = SAF_front
+		icon = GFX_focus_SAF_fronts
+		x = 15
+		y = 21
+
+		prerequisite = {focus = SAF_martial_law}
+		prerequisite = {focus = SAF_lawyers_guns_money}
+		prerequisite = {focus = SAF_intervene}
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			army_experience = 25
+			add_political_power = -20
+			add_war_support = 0.1
+                }
+	}
+	focus = {
+		id = SAF_for_sa
+		icon = GFX_focus_SAF_for_sa
+		x = 15
+		y = 22
+
+		prerequisite = {focus = SAF_front}
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = SAF_defence_idea
+				add_idea = SAF_defence_2_idea
+			}
+			SAF = {
+				country_event = { id = saf.7 }
+			}	
+                }
+	}
+	focus = {
+		id = SAF_end
+		icon = x
+		x = 15
+		y = 23
+
+		prerequisite = {focus = SAF_for_sa}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { }
+	}
+	focus = {
+		id = SAF_sun
+		icon = GFX_focus_SAF_sun
+		x = 15
+		y = 24
+
+		prerequisite = {focus = SAF_end}
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		completion_reward = { 
+			add_stability = 0.15
+			add_war_support = 0.15
+			add_political_power = 200
+                }
+	}
+}
